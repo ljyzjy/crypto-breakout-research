@@ -1,32 +1,32 @@
-# 数字资产模型与突破策略研究
+# Digital Asset Models and Breakout Strategy Research
 
-这是原始 Freqtrade 模型及其后续 15 分钟突破研究的源码快照。研究目标是评估秒级入场、不同退出方式、手续费、滑点、资金费和 10×／20× 条件下的风险。
+This repository contains a source snapshot of the original Freqtrade model and subsequent research on 15-minute breakouts. The research evaluates second-level entries, exit methods, trading fees, slippage, funding rates, and risks under 10x and 20x leverage.
 
-**研究状态（2026-11-15）：** 截至目前，已测试的突破规则尚未同时满足项目的净胜率、扣费盈利和账户风险目标。历史结果不代表未来表现；仓库不构成实盘交易系统的启用指令。
+**Research status (November 15, 2026):** The breakout rules tested so far have not met all project targets for net win rate, profitability after trading costs, and account risk. Historical results do not guarantee future performance, and this repository is not an instruction to enable live trading.
 
-## 内容
+## Contents
 
-- [`model/`](model/)：原 `crypto-spot-kit` 的策略、看板和运行脚本，并在 `model/research-history/` 保留相关历史研究源码及报告。原模型包含现货和较慢周期策略；突破研究没有自动接入原模型的实时或模拟账户。
-- [`research/`](research/)：突破融合、高杠杆、执行成本及持续优化等研究源码、报告和轻量汇总。最新进度见[研究总记录](research/突破盈利持续优化_v1/最新结果与继续运行.md)，以及[首秒强方向与跟踪退出](research/突破盈利持续优化_v1/第一百一十四轮_强方向成交与跟踪组合/强方向成交与跟踪退出结果.md)。
-- [`project-inventory.json`](project-inventory.json)：纳入的原始源码、报告及摘要的文件哈希与数量；本 README 和 `.gitignore` 是交付时新增文件，不在该来源清单内。
+- [`model/`](model/) contains the original `crypto-spot-kit` strategies, dashboard, and run scripts. Related historical research code and reports are in `model/research-history/`. The original model includes spot and slower-timeframe strategies; the breakout research has not been automatically integrated into its live or paper accounts.
+- [`research/`](research/) contains code, reports, and lightweight summaries covering breakout integration, leverage, execution costs, and ongoing optimization. See the [latest research record](research/%E7%AA%81%E7%A0%B4%E7%9B%88%E5%88%A9%E6%8C%81%E7%BB%AD%E4%BC%98%E5%8C%96_v1/%E6%9C%80%E6%96%B0%E7%BB%93%E6%9E%9C%E4%B8%8E%E7%BB%A7%E7%BB%AD%E8%BF%90%E8%A1%8C.md) and the [first-second directional flow and trailing-exit study](research/%E7%AA%81%E7%A0%B4%E7%9B%88%E5%88%A9%E6%8C%81%E7%BB%AD%E4%BC%98%E5%8C%96_v1/%E7%AC%AC%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%9B%9B%E8%BD%AE_%E5%BC%BA%E6%96%B9%E5%90%91%E6%88%90%E4%BA%A4%E4%B8%8E%E8%B7%9F%E8%B8%AA%E7%BB%84%E5%90%88/%E5%BC%BA%E6%96%B9%E5%90%91%E6%88%90%E4%BA%A4%E4%B8%8E%E8%B7%9F%E8%B8%AA%E9%80%80%E5%87%BA%E7%BB%93%E6%9E%9C.md). These historical reports are in Chinese.
+- [`project-inventory.json`](project-inventory.json) records file hashes and counts for the included source files, reports, and summaries. This README and `.gitignore` were added during packaging and are not included in that source inventory.
 
-## 数据与配置
+## Data and Configuration
 
-仓库不包含原始行情档案、大型行情表、运行环境、缓存、实际或模拟账户数据库、日志以及本机专用配置。模型配置副本的密钥、口令、令牌等字段已清空，本地 API 服务与消息通知已关闭，含 `dry_run` 的配置均设为 `true`。原电脑上的项目文件没有因打包而更改。
+Selected backtest summaries and simulated trade records are included. Complete raw market archives, large historical market datasets, runtime environments, caches, live and paper account databases, logs, and machine-specific configuration files are excluded. Keys, passwords, tokens, and similar fields have been cleared from the packaged model configurations. The local API server and messaging notifications are disabled, and every configuration containing `dry_run` has it set to `true`. Packaging did not modify the original project files on the source computer.
 
-历史研究中有些脚本、冻结快照和报告记录了原电脑的绝对路径，并依赖未上传的行情、检查点及其他本地文件。下载仓库后不能直接复现全部回测；需要先自行准备和核对历史数据，再调整路径。原模型目录内的旧说明保留为历史记录，其中“数据已经下载”等本机状态不适用于本仓库的新副本。
+Some historical scripts, frozen snapshots, and reports retain absolute paths from the original computer and depend on market data, checkpoints, or other local files that are not included. A fresh clone cannot reproduce all historical backtests without obtaining and validating the data and adjusting paths. The original model documentation is preserved as a historical record; statements that data has already been downloaded refer to the source computer, not a new clone.
 
-第 43 轮的 `逐笔执行冻结方案.json` 在原始研究中实际是 Markdown 计划文本；为保留历史引用和哈希，仓库保留其原有名称与内容。
+One [round 43 study plan](research/%E7%AA%81%E7%A0%B4%E7%9B%88%E5%88%A9%E6%8C%81%E7%BB%AD%E4%BC%98%E5%8C%96_v1/%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%89%E8%BD%AE_%E6%97%A7%E5%8D%81%E4%B8%80%E5%B8%812023%E5%B9%B4%E5%A4%8D%E6%A0%B8/%E9%80%90%E7%AC%94%E6%89%A7%E8%A1%8C%E5%86%BB%E7%BB%93%E6%96%B9%E6%A1%88.json) is Markdown text with a `.json` extension in the original research. Its name and contents are preserved for historical references and hash checks.
 
-## 本地使用
+## Local Use
 
-基础模型的依赖清单位于 [`model/requirements.lock.txt`](model/requirements.lock.txt)，原有运行说明位于 [`model/README.md`](model/README.md)。实际运行前，请检查所选策略、配置、数据来源及所在地区的交易服务可用性；如需接入账户，应由使用者自行在本地创建配置。
+The base model dependency lockfile is [`model/requirements.lock.txt`](model/requirements.lock.txt). The [original model instructions](model/README.md) are in Chinese. Before running any strategy, review its configuration, data sources, and the availability of the trading service in your region. If an account connection is needed, create the configuration locally.
 
-以下两个轻量合成检查只涉及退出规则本身，不是盈利或真实成交验证：
+The following lightweight synthetic checks test the exit rules themselves; they do not establish profitability or actual execution. Run them from the repository root:
 
 ```powershell
-python "research/突破盈利持续优化_v1/第一百一十一轮_事后退出可行上界/test_oracle_exit.py"
-python "research/突破盈利持续优化_v1/第一百一十二轮_突破后跟踪退出/test_trailing.py"
+python -c "from pathlib import Path; import subprocess,sys; p=next(Path('research').rglob('test_oracle_exit.py')); subprocess.run([sys.executable,str(p)],check=True)"
+python -c "from pathlib import Path; import subprocess,sys; p=next(Path('research').rglob('test_trailing.py')); subprocess.run([sys.executable,str(p)],check=True)"
 ```
 
-执行检查会在对应研究目录写入合成核验结果文件。资金费、清算、真实市价成交和账户浮动权益仍需单独验证。
+These checks write synthetic verification files next to the corresponding scripts. Funding, liquidation, actual market-order execution, and unrealized account equity still require separate validation.
