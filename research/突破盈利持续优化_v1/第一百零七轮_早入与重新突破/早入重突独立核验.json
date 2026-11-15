@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "candidate_decisions_checked": 316,
+  "retry_paths_checked": 31,
+  "summary_groups_checked": 12,
+  "result_sha256": "6ed387c10303982d24882f929f6ae7e7265377d535d81b99bd8cfb0293017e73",
+  "detail_sha256": "99bcfed02daf18ec22f4003100b5cfa925bb788bd9e2a0de89b61cb9fa7d6e7d",
+  "audit_code_sha256": "5b77285dbe89e255049aae9ef9204fbab2376c0bc596db4ed0b9de102e03aa8e",
+  "note": "Historical unit paths only; source retry mark-price proof inherited and independently net-checked."
+}

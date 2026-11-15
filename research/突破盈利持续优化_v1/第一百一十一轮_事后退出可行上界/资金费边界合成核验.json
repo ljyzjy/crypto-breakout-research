@@ -1,0 +1,14 @@
+{
+  "all_checks_pass": true,
+  "cases_checked": 5,
+  "code_sha256": "4c11f73ead2cc6bb364ebb4eac83f9976c0e35c44ce76e3c51589ccf6d84a0b8",
+  "runner_sha256": "c058e06efc807fb70882aaa16fee3728e901238d87c63931cb3e1f5bf9ca9b21",
+  "audit_sha256": "527f928bd7c8dbbd79b35a3f5a10db149d64b82effba9264b34a78690f7a82ea",
+  "cases": [
+    "no settlement",
+    "settlement at entry",
+    "settlement at exit",
+    "missing source",
+    "missing coverage"
+  ]
+}

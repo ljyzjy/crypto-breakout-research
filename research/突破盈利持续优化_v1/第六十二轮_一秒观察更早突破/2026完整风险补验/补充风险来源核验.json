@@ -1,0 +1,126 @@
+{
+  "all_checks_pass": true,
+  "archives": [
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "7634e1a0a23bc27b49b8849e00e169da5410b6671a8b7581a15c152f7bd43231",
+      "bytes": 830893,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\markPriceKlines\\AVAXUSDT\\AVAXUSDT-1m-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/AVAXUSDT/1m/AVAXUSDT-1m-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\a294684860bf6eb5bab4b45b983276e820fee529165355fde82b0b2e5bdbbec2.json",
+      "cache_sha256": "c3c525cdf661cdefd4718fdd8d6e4fe22ef544beee90bab313aeb9874585600e",
+      "required_timestamps": [
+        1777889700000,
+        1777889760000,
+        1777889820000,
+        1777889880000,
+        1777889940000,
+        1777890000000,
+        1777890060000,
+        1777890120000,
+        1777890180000,
+        1777890240000,
+        1777890300000,
+        1777890360000,
+        1777890420000,
+        1777890480000,
+        1777890540000,
+        1777890600000
+      ]
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "13dfb89d73e28b10121be4018fee2f3071bfe3fe8f73faafe813d3684bfb9ccb",
+      "bytes": 966,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\fundingRate\\AVAXUSDT\\AVAXUSDT-fundingRate-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/AVAXUSDT/AVAXUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\d4b696550300ef0941306fee3e97fa10125a97a1a1f23eee8fe78a61a4f97f6e.json",
+      "cache_sha256": "78bbc3bc3b2dd224c69201b8b87513815d8de237fa234ce335c102ec74c6214b",
+      "required_timestamps": []
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2026-06",
+      "status": "verified",
+      "sha256": "5d5d8b86efbe709e034409634347a161183e7c0df3854f8d96c9778dc1c923ba",
+      "bytes": 999777,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\markPriceKlines\\BTCUSDT\\BTCUSDT-1m-2026-06.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1m/BTCUSDT-1m-2026-06.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\5bfdab3d457f60f04342ca1944c819ad9f7df2051c0f32aab03e6514d2bce2dd.json",
+      "cache_sha256": "481c1362262f55da6ca212aa13f1286242e3a964c38689920c5da7bc56f8dfa9",
+      "required_timestamps": [
+        1782395100000,
+        1782395160000,
+        1782395220000,
+        1782395280000
+      ]
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2026-06",
+      "status": "verified",
+      "sha256": "cff97ce688329592bccbbf5873b5c7021649e093f5f5806e332c5b4fb7fd6a00",
+      "bytes": 964,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\fundingRate\\BTCUSDT\\BTCUSDT-fundingRate-2026-06.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-06.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\bb41cc2508c29400cf88405ec9e12fe80d7c96adc60da0f7d5943017a69db988.json",
+      "cache_sha256": "56543f0bc05d2d29726dbf31edf04a9ec72779e063ea2efdf74654039288ecd5",
+      "required_timestamps": []
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "NEARUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "9f6f2f5008e8cddb87186f870a4dbd4a229b86373d479a2c8c54a457dcde5557",
+      "bytes": 807611,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\markPriceKlines\\NEARUSDT\\NEARUSDT-1m-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/NEARUSDT/1m/NEARUSDT-1m-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\c8574d8937f1ddf9fec76887b7f7cb59e83d8aa9068ee70e419a4bc206e183e9.json",
+      "cache_sha256": "b8fc1c79a99fcba2b543926a86b704d280e459f4f1c84725ef9c45a793f6ffce",
+      "required_timestamps": [
+        1779659100000,
+        1779659160000,
+        1779659220000,
+        1779659280000,
+        1779659340000,
+        1779659400000,
+        1779659460000,
+        1779659520000,
+        1779659580000
+      ]
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "NEARUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "20b0568adb90c2113ae386d37a0d1b0341c904abc911c73fa30b883817412a15",
+      "bytes": 952,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\fundingRate\\NEARUSDT\\NEARUSDT-fundingRate-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/NEARUSDT/NEARUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整风险补验\\补充风险缓存\\9a927a4606a2591ed4cf78b71a3898f49564347feed4951f8a9a03ec6055fef4.json",
+      "cache_sha256": "40f25c67af57a50cd039e0057e3d611ba47d1ce4ab873929daab75c2d2447995",
+      "required_timestamps": []
+    }
+  ],
+  "pre_supplement_input_sha256": {
+    "动态池逐笔信号筛查.parquet": "3cc1b0752dbd34450ec59a4c6a54fde9e972a256fc9053c6b0fd91dd463b7fa3",
+    "动态池延迟市价路径.parquet": "d4880af39ec60b869bcc4748da617c0128ea05b979694eb7eda818d28a6f69b9",
+    "动态池逐笔提取质量.json": "75aa5387831505ec49d98de0395630210065136e342dcf16dbb422fafb036c9e",
+    "逐笔执行冻结方案.json": "f1adf8a47b3ae18fdd8cb24439d15688754b1b46427a280c28fab741f92c86b9",
+    "动态池单位收益与风险.parquet": "d54b0bc00cc7a5399cc9421cef3ba7dc9460d006f14c72023d7a875933b5b58c",
+    "动态池单位筛查完整性.json": "d7d0ebdef77577a6dd34443965424bd29878fc661ab24007ceb847fce65dddb1"
+  },
+  "plan_sha256": "f988b2127a66a3ff3a69b37768ccb88c3813e8815b87c3ebc422a551ff8cd09f",
+  "code_sha256": "734319753d23ed542a3f590628d2bcc312edfab4077fd1611164d3141f5ab715",
+  "note": "Six existing local ZIPs matched Binance checksum; source is same exchange. No ZIP downloaded."
+}

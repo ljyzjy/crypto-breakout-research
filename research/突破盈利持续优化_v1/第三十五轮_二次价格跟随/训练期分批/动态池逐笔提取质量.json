@@ -1,0 +1,17 @@
+{
+  "candidate_events": 680,
+  "follow_candidates": 94,
+  "source_checkpoint_tasks": 88,
+  "event_statuses": {
+    "flow_filter_not_met": 377,
+    "no_follow_known": 135,
+    "qualified": 94,
+    "upstream_data_unknown": 50,
+    "known_risk_rejected": 24
+  },
+  "unexpected_event_count": 50,
+  "variant_paths": 364,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "Training-only snapshot; pending follow tapes and upstream data mismatches remain unknown."
+}

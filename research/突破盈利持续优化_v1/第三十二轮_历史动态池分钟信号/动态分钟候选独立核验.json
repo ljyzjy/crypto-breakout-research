@@ -1,0 +1,49 @@
+{
+  "rank_decision_hours_sampled": 24,
+  "sampled_hours_rejected_for_incomplete_pool": 7,
+  "all_output_candidates_checked": 1081,
+  "minute_archive_samples": [
+    {
+      "year": 2024,
+      "symbol": "BTCUSDT",
+      "month": "2024-03",
+      "checked_hours": 744,
+      "valid_hours": 744,
+      "sha256": "040b8e448e4243072b88b0d9908dfebed91bba943b75f4e831fa5337a2e1dab9"
+    },
+    {
+      "year": 2024,
+      "symbol": "ORDIUSDT",
+      "month": "2024-02",
+      "checked_hours": 696,
+      "valid_hours": 696,
+      "sha256": "4b66073e92a2148c42951dbb81fc58186bb5a01b002ba60b8a00cdfd9146a8dc"
+    },
+    {
+      "year": 2024,
+      "symbol": "WLDUSDT",
+      "month": "2024-03",
+      "checked_hours": 744,
+      "valid_hours": 744,
+      "sha256": "b56ad4399490d0959a81856a0e98f2d517a54bf613f2ec040ab8668f30c8360d"
+    },
+    {
+      "year": 2026,
+      "symbol": "BTCUSDT",
+      "month": "2026-05",
+      "checked_hours": 744,
+      "valid_hours": 744,
+      "sha256": "d91548e94220d5211bb32447cc4b604ee266d145f2092edc5ec613328cbbc20a"
+    },
+    {
+      "year": 2026,
+      "symbol": "XAUUSDT",
+      "month": "2026-05",
+      "checked_hours": 744,
+      "valid_hours": 743,
+      "sha256": "8602d5a9a07753de61788f01f5f4e5b3d3a10142c7fe91be35aef187cd3b52fe"
+    }
+  ],
+  "prior_btc_signal_parity": "see 分钟信号与原模型核验.json",
+  "note": "These are candidate/data checks only; first tick direction, executable prices, risk, and account results remain unverified."
+}

@@ -1,0 +1,9 @@
+{
+  "accounts": 98,
+  "trade_records": 9989,
+  "all_signal_feature_rows": 1241,
+  "max_drawdown_error_pct_points": 0.0,
+  "max_ledger_error_usdt": 1.5774048733874224e-12,
+  "active_minutes_in_2024_mark_gap": 0,
+  "limit": "All account records are repeated simulations of shared historical data, not independent trades."
+}

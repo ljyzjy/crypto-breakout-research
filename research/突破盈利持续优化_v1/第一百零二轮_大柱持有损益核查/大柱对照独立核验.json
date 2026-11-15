@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 261,
+  "groups_checked": 6,
+  "result_sha256": "008aed2e4d0911265c2dab2bc0bc86de351c3f5f45f34a57764df06b25320e25",
+  "detail_sha256": "4c9c1ba03e84ea8db81443f34a2d54e4da65306cd86a62b9d983ace542312f50",
+  "code_sha256": "5a9590f09495a0fafa86298dfbc2c19e89c31920dad4262b7993022f69998035",
+  "note": "Trade outcomes grouped by verified completed-candle labels; not live signal or market-wide capture."
+}

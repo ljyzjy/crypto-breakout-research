@@ -1,0 +1,15 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "dbbee461f6946f56cbc52e6d249f544426aa06f90f075018318cbfa9ee6739a2",
+  "plan_sha256": "6360faf9dc9edf612c98267dded5b1d21d0b4313800c989a4176d16fd39196c0",
+  "test_code_sha256": "e705da7312c43a8b11a977d25bf6d493fc6cd70c3cda2d18c466da4027a1dbd0",
+  "checks": [
+    "target_2r_then_3r",
+    "stop_after_2r",
+    "quarter_end",
+    "same_ms_stop_priority",
+    "non_target_reuse",
+    "short",
+    "source_mismatch"
+  ]
+}

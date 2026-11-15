@@ -1,0 +1,70 @@
+{
+  "all_checks_pass": true,
+  "groups": [
+    {
+      "year": "2024",
+      "leverage": 10,
+      "strategy": "baseline",
+      "large": 22,
+      "captures": 11,
+      "unknown": 1
+    },
+    {
+      "year": "2024",
+      "leverage": 10,
+      "strategy": "single_retest",
+      "large": 22,
+      "captures": 13,
+      "unknown": 1
+    },
+    {
+      "year": "2024",
+      "leverage": 20,
+      "strategy": "baseline",
+      "large": 22,
+      "captures": 11,
+      "unknown": 1
+    },
+    {
+      "year": "2024",
+      "leverage": 20,
+      "strategy": "single_retest",
+      "large": 22,
+      "captures": 13,
+      "unknown": 1
+    },
+    {
+      "year": "2026",
+      "leverage": 10,
+      "strategy": "baseline",
+      "large": 9,
+      "captures": 4,
+      "unknown": 2
+    },
+    {
+      "year": "2026",
+      "leverage": 10,
+      "strategy": "single_retest",
+      "large": 9,
+      "captures": 4,
+      "unknown": 2
+    },
+    {
+      "year": "2026",
+      "leverage": 20,
+      "strategy": "baseline",
+      "large": 9,
+      "captures": 4,
+      "unknown": 2
+    },
+    {
+      "year": "2026",
+      "leverage": 20,
+      "strategy": "single_retest",
+      "large": 9,
+      "captures": 4,
+      "unknown": 2
+    }
+  ],
+  "note": "Unique candidate bars only; labels are only known after close."
+}

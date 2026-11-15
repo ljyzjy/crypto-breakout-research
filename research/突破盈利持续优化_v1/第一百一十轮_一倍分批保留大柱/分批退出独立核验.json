@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 359,
+  "summary_groups_checked": 54,
+  "result_sha256": "e62eb29ed6b995d905e732653e45e7fb7eb7b4e39bac25f364631e267809f29e",
+  "detail_sha256": "a556b28db8ea556ca6c96ff9cf865cb27f6c1d595eca079023b8aaf9294dedba",
+  "audit_code_sha256": "53036492ec5a9b5bd60e120567ad03470d69aa1b4bc6a370a99e1436e43b68b2",
+  "note": "Independent equal-leg fees, funding and known-path grouping; no real exchange partial fills or portfolio equity."
+}

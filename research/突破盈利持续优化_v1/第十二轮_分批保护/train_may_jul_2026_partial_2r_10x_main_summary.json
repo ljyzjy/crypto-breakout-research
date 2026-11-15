@@ -1,0 +1,352 @@
+{
+  "initial": 1000.0,
+  "final_equity": 979.9410194951615,
+  "return_pct": -2.0058980504838453,
+  "annualized_return_pct": null,
+  "elapsed_days": 92.0,
+  "max_drawdown": 2.0062647047756843,
+  "trades": 42,
+  "win_rate": 35.714285714285715,
+  "gross_pnl": 0.0018533768599140465,
+  "fees": 10.030416940618366,
+  "slippage_cost": 10.030416941080658,
+  "funding_cost": 0.0,
+  "net_pnl": -20.058980504838473,
+  "average_trade_net": -0.4775947739247407,
+  "mean_holding_minutes": 12.486529365079367,
+  "mean_exposure_pct": 0.08882042840838351,
+  "profit_factor": 0.5234777320104974,
+  "ledger_error": 6.359357485052897e-13,
+  "scenario": "main",
+  "start": "2026-05-01",
+  "end": "2026-07-31",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 0,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 2.0062647047756843,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "entry_deviation": 11,
+    "stop_or_cost_gate": 2,
+    "risk_or_liquidity_budget": 1
+  },
+  "signal_candidates": 56,
+  "account_gross_exposure_cap": 2,
+  "position_leverage": 10,
+  "seconds_execution_verified": false,
+  "run_id": "partial_2r",
+  "rule_events": [
+    {
+      "id": "touch|DOGEUSDT|1777857960000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1777858200000,
+      "effective_ts": 1777858260000,
+      "favorable": 0.11021,
+      "entry": 0.10972483499999999,
+      "initial_r": 0.00044876357142856205
+    },
+    {
+      "id": "touch|NEARUSDT|1778234820000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1778234880000,
+      "effective_ts": 1778234940000,
+      "favorable": 1.578,
+      "entry": 1.5707849999999999,
+      "initial_r": 0.006620714285714202
+    },
+    {
+      "id": "touch|NEARUSDT|1778234820000|1",
+      "kind": "partial_gap_full_exit",
+      "known_ts": 1778234880000,
+      "effective_ts": 1778234940000,
+      "old_stop": 1.5641642857142857,
+      "new_stop": 1.5724401785714284
+    },
+    {
+      "id": "touch|XRPUSDT|1778432640000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1778433840000,
+      "effective_ts": 1778433900000,
+      "favorable": 1.488,
+      "entry": 1.4803397999999999,
+      "initial_r": 0.007229085714285599
+    },
+    {
+      "id": "touch|XRPUSDT|1778432640000|1",
+      "kind": "partial_applied",
+      "known_ts": 1778433840000,
+      "effective_ts": 1778433900000,
+      "old_stop": 1.4731107142857143,
+      "new_stop": 1.4821470714285714,
+      "qty": 94.66418748583325,
+      "raw_exit": 1.4876
+    },
+    {
+      "id": "touch|NEARUSDT|1779325740000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1779326040000,
+      "effective_ts": 1779326100000,
+      "favorable": 1.748,
+      "entry": 1.7328659999999998,
+      "initial_r": 0.011437428571428265
+    },
+    {
+      "id": "touch|NEARUSDT|1779325740000|1",
+      "kind": "partial_applied",
+      "known_ts": 1779326040000,
+      "effective_ts": 1779326100000,
+      "old_stop": 1.7214285714285715,
+      "new_stop": 1.7357253571428568,
+      "qty": 33.10796391642516,
+      "raw_exit": 1.745
+    },
+    {
+      "id": "touch|NEARUSDT|1779415380000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1779415560000,
+      "effective_ts": 1779415620000,
+      "favorable": 2.071,
+      "entry": 2.0490239999999997,
+      "initial_r": 0.015788285714285255
+    },
+    {
+      "id": "touch|NEARUSDT|1779415380000|1",
+      "kind": "partial_applied",
+      "known_ts": 1779415560000,
+      "effective_ts": 1779415620000,
+      "old_stop": 2.0332357142857145,
+      "new_stop": 2.052971071428571,
+      "qty": 51.741816859975444,
+      "raw_exit": 2.066
+    },
+    {
+      "id": "touch|LINKUSDT|1779476940000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1779478200000,
+      "effective_ts": 1779478260000,
+      "favorable": 9.466,
+      "entry": 9.514240500000001,
+      "initial_r": 0.037830928571427336
+    },
+    {
+      "id": "touch|NEARUSDT|1779553920000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1779555180000,
+      "effective_ts": 1779555240000,
+      "favorable": 2.369,
+      "entry": 2.3201595,
+      "initial_r": 0.030338071428571478
+    },
+    {
+      "id": "touch|NEARUSDT|1779553920000|1",
+      "kind": "partial_applied",
+      "known_ts": 1779555180000,
+      "effective_ts": 1779555240000,
+      "old_stop": 2.2898214285714285,
+      "new_stop": 2.327744017857143,
+      "qty": 31.349952115133174,
+      "raw_exit": 2.367
+    },
+    {
+      "id": "touch|NEARUSDT|1779716520000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1779717000000,
+      "effective_ts": 1779717060000,
+      "favorable": 2.603,
+      "entry": 2.575287,
+      "initial_r": 0.024315571428571214
+    },
+    {
+      "id": "touch|NEARUSDT|1779716520000|1",
+      "kind": "partial_applied",
+      "known_ts": 1779717000000,
+      "effective_ts": 1779717060000,
+      "old_stop": 2.5509714285714287,
+      "new_stop": 2.581365892857143,
+      "qty": 35.99361914995423,
+      "raw_exit": 2.587
+    },
+    {
+      "id": "touch|ADAUSDT|1780618080000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1780618440000,
+      "effective_ts": 1780618500000,
+      "favorable": 0.1758,
+      "entry": 0.17821085,
+      "initial_r": 0.0014770071428571452
+    },
+    {
+      "id": "touch|AVAXUSDT|1780667700000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1780667820000,
+      "effective_ts": 1780667880000,
+      "favorable": 6.966,
+      "entry": 7.0034965,
+      "initial_r": 0.0358035000000001
+    },
+    {
+      "id": "touch|DOGEUSDT|1780667580000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1780667880000,
+      "effective_ts": 1780667940000,
+      "favorable": 0.08193,
+      "entry": 0.0827586,
+      "initial_r": 0.0005927571428571421
+    },
+    {
+      "id": "touch|AVAXUSDT|1780667700000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1780667820000,
+      "effective_ts": 1780667880000,
+      "old_stop": 7.0393,
+      "new_stop": 6.994545625,
+      "qty": 3.0298054971558424,
+      "raw_exit": 6.968
+    },
+    {
+      "id": "touch|DOGEUSDT|1780667580000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1780667880000,
+      "effective_ts": 1780667940000,
+      "old_stop": 0.08335135714285714,
+      "new_stop": 0.08261041071428571,
+      "qty": 1345.3798932770326,
+      "raw_exit": 0.08208
+    },
+    {
+      "id": "touch|ETHUSDT|1780675260000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1780675800000,
+      "effective_ts": 1780675860000,
+      "favorable": 1556.3,
+      "entry": 1571.49386,
+      "initial_r": 13.060925714285759
+    },
+    {
+      "id": "touch|ETHUSDT|1780675260000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1780675800000,
+      "effective_ts": 1780675860000,
+      "old_stop": 1584.5547857142858,
+      "new_stop": 1568.2286285714285,
+      "qty": 0.06438550214885874,
+      "raw_exit": 1553.47
+    },
+    {
+      "id": "touch|BNBUSDT|1781098260000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1781098860000,
+      "effective_ts": 1781098920000,
+      "favorable": 595.57,
+      "entry": 591.97584,
+      "initial_r": 3.575482857142788
+    },
+    {
+      "id": "touch|BNBUSDT|1781098260000|1",
+      "kind": "partial_applied",
+      "known_ts": 1781098860000,
+      "effective_ts": 1781098920000,
+      "old_stop": 588.4003571428572,
+      "new_stop": 592.8697107142857,
+      "qty": 0.20906253099098507,
+      "raw_exit": 594.42
+    },
+    {
+      "id": "touch|BTCUSDT|1782394260000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1782394800000,
+      "effective_ts": 1782394860000,
+      "favorable": 60633.0,
+      "entry": 61002.983250000005,
+      "initial_r": 339.5646071428564
+    },
+    {
+      "id": "touch|BTCUSDT|1782394260000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1782394800000,
+      "effective_ts": 1782394860000,
+      "old_stop": 61342.54785714286,
+      "new_stop": 60918.09209821429,
+      "qty": 0.0021245414745935864,
+      "raw_exit": 60475.9
+    },
+    {
+      "id": "touch|SOLUSDT|1782988500000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1782988980000,
+      "effective_ts": 1782989040000,
+      "favorable": 81.3,
+      "entry": 80.68032,
+      "initial_r": 0.32760571428570984
+    },
+    {
+      "id": "touch|SOLUSDT|1782988500000|1",
+      "kind": "partial_applied",
+      "known_ts": 1782988980000,
+      "effective_ts": 1782989040000,
+      "old_stop": 80.35271428571428,
+      "new_stop": 80.76222142857142,
+      "qty": 1.90631634540147,
+      "raw_exit": 81.14
+    },
+    {
+      "id": "touch|ETHUSDT|1783073520000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1783075500000,
+      "effective_ts": 1783075560000,
+      "favorable": 1748.67,
+      "entry": 1738.2486900000001,
+      "initial_r": 9.498975714285734
+    },
+    {
+      "id": "touch|ETHUSDT|1783073520000|1",
+      "kind": "partial_applied",
+      "known_ts": 1783075500000,
+      "effective_ts": 1783075560000,
+      "old_stop": 1728.7497142857144,
+      "new_stop": 1740.6234339285716,
+      "qty": 0.07536944456024783,
+      "raw_exit": 1742.2
+    },
+    {
+      "id": "touch|LINKUSDT|1784509740000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1784509860000,
+      "effective_ts": 1784509920000,
+      "favorable": 8.531,
+      "entry": 8.48424,
+      "initial_r": 0.04248285714285771
+    },
+    {
+      "id": "touch|LINKUSDT|1784509740000|1",
+      "kind": "partial_gap_full_exit",
+      "known_ts": 1784509860000,
+      "effective_ts": 1784509920000,
+      "old_stop": 8.441757142857142,
+      "new_stop": 8.494860714285714
+    }
+  ],
+  "expected_calendar_minutes": 132480,
+  "observed_calendar_minutes": 132480,
+  "active_minutes": 542,
+  "cash_minutes": 131938,
+  "permanent_halt_minutes": 0,
+  "cash_days": 91.62361111111112,
+  "halted_days": 0.0,
+  "period": "train_may_jul_2026",
+  "target_r": 2.0,
+  "stop_shock": 0.0,
+  "max_hold_minutes": 240,
+  "allow_overnight": true,
+  "partial_exit": true,
+  "net_win_rate_pct": 35.714285714285715,
+  "winning_trade_count": 15,
+  "active_calendar_days": 34,
+  "large_1pct_caught": 10,
+  "large_1pct_trade_win": 10,
+  "liquidation_proxy_count": 0,
+  "planned_loss_exceeded_count": 0,
+  "acceptance_pass": false
+}

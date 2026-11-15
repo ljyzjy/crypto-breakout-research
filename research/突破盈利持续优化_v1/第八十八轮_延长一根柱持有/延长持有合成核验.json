@@ -1,0 +1,14 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    "long_short",
+    "old_exit_reproduced",
+    "same_ms_stop_priority",
+    "next_quarter_time",
+    "minimum_exit_delay",
+    "unknown_missing_data",
+    "future_perturbation"
+  ],
+  "engine_sha256": "dcce6a930b4f2045d7090d2e840ecf4169dabf6b86df8943fd930a169815d811",
+  "test_code_sha256": "ec5d6288cfa5ac152aa677e820728534338166af50d7d95a7248606baed6eb74"
+}

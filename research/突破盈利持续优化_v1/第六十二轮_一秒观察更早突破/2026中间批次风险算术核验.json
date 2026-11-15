@@ -1,0 +1,11 @@
+{
+  "arithmetic_checks_pass": true,
+  "audited_risk_paths": 8,
+  "matched_risk_archives": 30,
+  "maximum_net_fraction_error": 0.0,
+  "source_paths_sha256": "21d42a738ca2b7fd50dee2bc8180012dbdbc6711ceb2847318b64c046a0fd735",
+  "ledger_sha256": "1611d2de7fd7bf39c5de4a7a711e008e249873e853f389278c1c422a9ceecd52",
+  "local_audit_sha256": "f4e6fe2bd49741bc1107b035ae6758337dab1577a67f439363e8e94ec838ed05",
+  "public_tape_sample_audit_complete": false,
+  "note": "Partial cost and risk arithmetic only; 22 groups pending and source-tape audit not yet done."
+}

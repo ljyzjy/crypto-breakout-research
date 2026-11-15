@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "samples_checked": 3,
+  "unknown_samples_skipped": 0,
+  "source_sha256": "92457c335088ded3920f2ec4816211a1c4a6010f8d1074f109bf842b84894fcb",
+  "code_sha256": "8d597af935e8853b585ff356208abb507429895633b50110cc514b4d40bd32c8",
+  "note": "Independent pandas parsing, fresh official checksums and existing full ZIP hashes; unknown samples stay unknown."
+}

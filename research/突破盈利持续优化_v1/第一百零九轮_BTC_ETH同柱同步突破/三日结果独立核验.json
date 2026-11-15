@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 36,
+  "path_classifications_checked": 208,
+  "result_sha256": "7317741749880a464c8f7a1a4789ddded5551790511877ccdf11c3422eabdeef",
+  "audit_code_sha256": "739d07aa0c387a750b428f733340bce758c8438690912a9dc9e69c78e964d3dd",
+  "note": "Unit metrics and unknowns independently checked; three days are exploratory and not a portfolio."
+}

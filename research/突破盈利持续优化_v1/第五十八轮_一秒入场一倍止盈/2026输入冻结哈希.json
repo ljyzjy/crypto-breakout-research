@@ -1,0 +1,35 @@
+{
+  "year": "2026",
+  "plan_sha256": "3dd8202344d125c467336bde364f0e99311501ceed8bf3d30b237886530b8771",
+  "code_sha256": "0b3cc373857ee764823f06aeeff3f7c291e05dbc288e89a11e8d7d99c7482772",
+  "inputs": {
+    "events.parquet": "ba63a0202fffacfe69a50ece75b2dcf75e183b15d3331237c45274ac9021210d",
+    "paths_2r.parquet": "f98f9990a5649b85273c9841e2bba4a4f0a3ffdfe35f7a5efeda92b7918b9f77",
+    "ledger_2r.parquet": "921ad35419a16a1834a0c7c8222e990bdfff541e9ef468dc829b9c02299f1c92",
+    "signal.parquet": "e3693826af3eb41cbd67ad62a0ac4ed87a524b7342a2b1ed814c6010af7888ae",
+    "quality.json": "a3c85b526f5da17cd445abeadcceb976eb7cf1bf8bd8371fee07331d4b70370a",
+    "risk_quality.json": "2202e8636681a9456d46bc8344966cff37250f7dbe71ececfad38f81948466f8",
+    "risk_manifest.json": "ecad2470221749302b287f74b2ea74ca4ed260c662617960f590023f99f510c1",
+    "execution.json": "7e2957bcc31a078d0aeac7a09007d3d8d003c6f8bbbc4cbcbf518d5bc2a2face",
+    "pair_summary.json": "f997bb977cc445f162ac68cff88acec9b4f5878c3fd670bf003c9ac0799e6ee1",
+    "pair_details.parquet": "dbf3fe1f21294ffad3a268d9f0be3b360cd53db6e13abc92fe386ce9f33da771",
+    "ledger_audit.json": "82872d81045d2cc759b75fb429f03fa6afc1ce7794caa093c717ac6971995340",
+    "sample_audit.json": "0c320664da25baabb8689d144fe2faabb4d0e40f372b16b3fc455d8351a07476",
+    "upstream_frozen.json": "3bd621bbdc17868a52d8c803dfe61bce76a18dd17bd093beb6cfbed82ddb3e33"
+  },
+  "sources": {
+    "events.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026冻结输入\\qualified_entries.parquet",
+    "paths_2r.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池延迟市价路径.parquet",
+    "ledger_2r.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池单位收益与风险.parquet",
+    "signal.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池逐笔信号筛查.parquet",
+    "quality.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池逐笔提取质量.json",
+    "risk_quality.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池单位筛查完整性.json",
+    "risk_manifest.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\动态池风险档案核验清单.json",
+    "execution.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场分批\\逐笔执行冻结方案.json",
+    "pair_summary.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒五秒配对对照.json",
+    "pair_details.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒五秒逐笔配对结果.parquet",
+    "ledger_audit.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场账本独立核验.json",
+    "sample_audit.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026一秒入场逐笔独立抽查.json",
+    "upstream_frozen.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2026输入冻结哈希.json"
+  }
+}

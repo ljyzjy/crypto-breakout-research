@@ -1,0 +1,30 @@
+{
+  "plan_sha256": "df481cc28e8a3acabe3471a9cfd4a556a760cfef94185471bb6aea9b6840164b",
+  "inputs": {
+    "original_signal.parquet": "788da3b3477eedd934f40f3a199b028ac0d499bac438a734e15eaf11a80d9dd6",
+    "original_paths.parquet": "f62ec3294fffbfc3f93a0258bbc4393a416c6b492c351cb3cc98ded8d933e181",
+    "original_quality.json": "437b41bc09fa6261a26e6929ec362a2c4bd9040792bd3c50ab27f18a9eec3746",
+    "original_plan.json": "7e2957bcc31a078d0aeac7a09007d3d8d003c6f8bbbc4cbcbf518d5bc2a2face",
+    "backup_candidates.parquet": "8992e97ef07207997a8df35f3432bac53da32082d6437bac38d286e4896684b5",
+    "backup_signal.parquet": "4bf82829af225785bb3354aa269169c0f83dc03066fe0a127144dd5dc42eaba9",
+    "backup_paths.parquet": "4c47dd33f9be0d2b2b5cae2c2473787e2141c604354ae9f21f05fc483f2428fe",
+    "backup_quality.json": "e64c23b7431d09743659ce03c92ae02d1b6a06099f6aab0035a0964af12bc70e",
+    "backup_plan.json": "273ec5d043704f3931b6843fa6f8a8740bb8eb97ba1f21f6028dbc0a3b3846a4",
+    "shared_audit.json": "5ea553269268af592e6c9588bcf90338d98a9e7d4beb71d4adb5319e10e62ea8",
+    "baseline_signal.parquet": "19dfec7b7ede761ba9c90aa2f33edacb538aa5f7c402570a9cbe2ff01dc7899c",
+    "baseline_paths.parquet": "9b97371d501c8578c1ae1163c2c54d283bb64bddeac3b90f51fff1433955608d"
+  },
+  "windows_utc": [
+    [
+      "2024_may_jun",
+      1714525200000,
+      1719792000000
+    ],
+    [
+      "2026_may_jul",
+      1777593600000,
+      1785542400000
+    ]
+  ],
+  "note": "Original source discrepancies retained; no outcomes or parameters used to choose the periods."
+}

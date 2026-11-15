@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 196,
+  "groups_checked": 96,
+  "result_sha256": "7673e1ff2fbf3e9906a80c18a3a626ff9d054d869cd9b33ac740a28e96924331",
+  "detail_sha256": "a1b2a4094082e54dec63920a843f6f61f198b6f09480140ae54a1f50f9b42ca3",
+  "audit_code_sha256": "692771e99e921dda2ef009f2b39fb2b4e86ae756960ea0f04758f67b81843d6a",
+  "note": "Independent arithmetic audit, not independent prospective strategy validation."
+}

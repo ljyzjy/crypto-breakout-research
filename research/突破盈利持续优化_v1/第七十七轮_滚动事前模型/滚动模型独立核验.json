@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "models_checked": 4,
+  "scored_test_paths_checked": 98,
+  "independent_newton_optima_match": true,
+  "chronology_checked": true,
+  "result_sha256": "e7cbe91e7d9ff7a236d67262090b98697b5e10b7d7587db96272b6491fb041fd",
+  "audit_code_sha256": "cab25a91c9ac276e4b5cd0c0743754c934c42ed1f1b150672bdd3d7484167984",
+  "note": "Time-ordered retrospective analysis; past project exposure means not independent OOS."
+}

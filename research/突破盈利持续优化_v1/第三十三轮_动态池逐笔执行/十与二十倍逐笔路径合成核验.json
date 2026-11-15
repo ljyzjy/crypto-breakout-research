@@ -1,0 +1,7 @@
+{
+  "20x_engine_parity": true,
+  "10x_distinct_preentry_buffer": true,
+  "both_sides": true,
+  "delayed_unsafe_fill_pays_exit_cost": true,
+  "failed_breakout_confirmation": true
+}

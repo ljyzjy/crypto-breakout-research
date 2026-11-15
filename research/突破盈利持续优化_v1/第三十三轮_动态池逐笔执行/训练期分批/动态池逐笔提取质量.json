@@ -1,0 +1,16 @@
+{
+  "candidate_events": 680,
+  "source_checkpoint_tasks": 465,
+  "strict_raw_reconciled_events": 8,
+  "event_statuses": {
+    "flow_filter_not_met": 384,
+    "qualified": 230,
+    "minute_trade_ohlc_mismatch": 42,
+    "known_risk_rejected": 24
+  },
+  "unexpected_event_count": 42,
+  "variant_paths": 894,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "All predeclared training candidates present; validation and 2026 data are not in this batch."
+}

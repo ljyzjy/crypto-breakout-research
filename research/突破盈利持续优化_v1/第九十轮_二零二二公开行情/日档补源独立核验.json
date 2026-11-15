@@ -1,0 +1,15 @@
+{
+  "all_checks_pass": true,
+  "daily_archives_checked": 36,
+  "daily_minute_rows_checked": 51840,
+  "original_rows_preserved_for_symbols": [
+    "SOLUSDT",
+    "XRPUSDT",
+    "LTCUSDT",
+    "NEARUSDT"
+  ],
+  "remaining_missing_minutes": 0,
+  "source_sha256": "ab171cd631b491ac45768fe3f56d87391566e802b00073a98881428ff887d20e",
+  "code_sha256": "1309f20c90fc135f8bba46e21e7fdba4ca69f701faf75a2af1c84c9dcb19fe75",
+  "note": "Daily gaps and overlaps verified; same-exchange historical sources, not live availability."
+}

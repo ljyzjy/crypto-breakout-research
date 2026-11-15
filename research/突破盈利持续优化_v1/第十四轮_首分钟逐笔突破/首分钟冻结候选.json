@@ -1,0 +1,26 @@
+{
+  "selected": "opening_base_1r",
+  "target_r": 1.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "opening_base_1r",
+    "target_r": 1.0,
+    "activity_filter": false,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 125,
+    "h1_2024_net": -80.12629348914572,
+    "h1_2024_win_rate": 31.2,
+    "may_jul_2026_trades": 86,
+    "may_jul_2026_net": -31.227001314778477,
+    "may_jul_2026_win_rate": 46.51162790697674,
+    "pooled_trades": 211,
+    "pooled_win_rate": 37.44075829383886,
+    "pooled_profit_factor": 0.36180960513909455,
+    "minimum_period_net": -80.12629348914572,
+    "sum_period_net": -111.3532948039242
+  },
+  "plan_sha256": "0eac2c7cd01b16b9300b77f24c7849943a9edb524ff4c265a0f9e81efa77854f",
+  "training_sha256": "6658f91da60b14748a9f5ac306824b299f37aea193d09f2b9be3c125d324dc02",
+  "limit": "First touch and reference are tick timed; exits, account protection and liquidation proxy are minute based."
+}

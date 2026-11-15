@@ -1,0 +1,65 @@
+{
+  "requested_archives": 8,
+  "verified_archives": 8,
+  "archive_errors": [],
+  "bar_rows": 13418,
+  "archives": [
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "76953983fcd4cc35ac181c4a1c69d28cbb4ef8b983021aac84a111ea4e82ef69",
+      "bytes": 145000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "f6a9399826f593aa23746d920e595e9705addd1154d4ec53fcf7a2564755e67b",
+      "bytes": 135641
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "0f7dbdf7859f36d41c1444065409b2c9c4d66f5b3008647436fbc1b7a0d9f080",
+      "bytes": 147580
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "e1e52aa89d7004e4b93af4cfa5d8f03826881604bf2a990fd2f6979ed754c7ff",
+      "bytes": 141412
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "297428b35c676c697975fb7e9e9d3ca4c00f89ac7796df5560854822764b0d1c",
+      "bytes": 145864
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "ace924d4afcd55ee43df9ed33423196099ffa83df6043c1310a110df0b3752d5",
+      "bytes": 136856
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "9f3b2fc59cc0e30fe2baf0d27dd1f561672f1daf9575b0e7b24fab22e0231734",
+      "bytes": 148814
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "e9c10a021e622dd6728b6114dab2c3549e3d52d7d75ca9aea4530cf8e1313413",
+      "bytes": 143276
+    }
+  ],
+  "note": "Prior closed 15-minute bars only. Archive SHA and OHLC are source checks, not real-time availability proof."
+}

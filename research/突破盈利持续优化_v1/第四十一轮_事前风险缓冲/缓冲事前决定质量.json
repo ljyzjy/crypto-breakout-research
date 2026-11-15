@@ -1,0 +1,46 @@
+{
+  "counts": [
+    {
+      "leverage": 10,
+      "decision": "buffer_rejected",
+      "count": 17
+    },
+    {
+      "leverage": 10,
+      "decision": "known_no_order",
+      "count": 645
+    },
+    {
+      "leverage": 10,
+      "decision": "selected_known_inputs",
+      "count": 11
+    },
+    {
+      "leverage": 10,
+      "decision": "source_unknown",
+      "count": 7
+    },
+    {
+      "leverage": 20,
+      "decision": "buffer_rejected",
+      "count": 16
+    },
+    {
+      "leverage": 20,
+      "decision": "known_no_order",
+      "count": 647
+    },
+    {
+      "leverage": 20,
+      "decision": "selected_known_inputs",
+      "count": 10
+    },
+    {
+      "leverage": 20,
+      "decision": "source_unknown",
+      "count": 7
+    }
+  ],
+  "decision_sha256": "0851f1dfea3fa4931b8be63c68d23ad96c503da9df15a68b8e814cd640350530",
+  "note": "Only P5 known prices/ATR, prior dual-market decision and original prechecks used. No ledger was read."
+}

@@ -1,0 +1,41 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1718247600000",
+      "variant": "one_observation_2r_10x",
+      "reason": "target",
+      "side": -1
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1706657400000",
+      "variant": "one_observation_2r_10x",
+      "reason": "stop",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1709574480000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1716382080000",
+      "variant": "one_observation_2r_10x",
+      "reason": "filled_beyond_risk_budget",
+      "side": -1
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1707759000000",
+      "variant": "one_observation_2r_10x",
+      "reason": "target",
+      "side": 1
+    }
+  ],
+  "eligible_paths": 72,
+  "replay_fingerprint": "cf539b1dc04c3d05b624c4846d6a17d9a683609e42b9efd0570a8aa4e7211334",
+  "source_snapshot_sha256": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+  "audit_code_sha256": "e08f6e014ac363f4609386ff44419b9e451ce66c30d19838b3f5021563d5cb79",
+  "note": "Independent scalar checks use public market prints, not actual order fills."
+}

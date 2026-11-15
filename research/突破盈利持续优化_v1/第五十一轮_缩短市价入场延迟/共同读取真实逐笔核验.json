@@ -1,0 +1,19 @@
+{
+  "all_checks_pass": true,
+  "observation_id": "opening|NEARUSDT|1708498800000",
+  "paths_checked": 2,
+  "archives": [
+    {
+      "kind": "aggTrades",
+      "day": "2024-02-21",
+      "sha256": "08bcf1d675d6423d29357356b2a0a983f7874f702edbcaeadca5113d25ce9396",
+      "bytes": 1139282,
+      "windows": {
+        "opening|NEARUSDT|1708498800000": 1721
+      },
+      "reader": "sha256_verified_http_ranges"
+    }
+  ],
+  "runner_sha256": "9cd6def2ded181135f89a249b4d625f757ce75cc750268dac2d1c219990833d4",
+  "note": "Same verified public tape; one-second entry and 1R exit independently reconstructed by scalar audit code."
+}

@@ -1,0 +1,326 @@
+{
+  "rows": [
+    {
+      "test_period": "2023",
+      "leverage": 10,
+      "train_years": [
+        "2022"
+      ],
+      "train_rows": 118,
+      "train_wins": 30,
+      "training_breakeven_probability": 0.42145686273061783,
+      "scored": 49,
+      "feature_unknown": 0,
+      "model_rejected": 49,
+      "known_no_order": 127,
+      "candidate_events": 146,
+      "baseline": {
+        "known_trades": 49,
+        "net_wins": 11,
+        "net_win_rate_pct": 22.448979591836736,
+        "mean_net_pct_notional": -0.3192718949816203,
+        "profit_factor": 0.3589636385209497,
+        "active_utc_days": 41,
+        "unknown_candidates": 19
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 19
+      },
+      "prediction_quality": {
+        "brier": 0.17429693761708348,
+        "constant_brier": 0.17497904074011106,
+        "auc": 0.5741626794258373
+      }
+    },
+    {
+      "test_period": "2023",
+      "leverage": 20,
+      "train_years": [
+        "2022"
+      ],
+      "train_rows": 114,
+      "train_wins": 29,
+      "training_breakeven_probability": 0.46697583890693933,
+      "scored": 49,
+      "feature_unknown": 0,
+      "model_rejected": 49,
+      "known_no_order": 127,
+      "candidate_events": 146,
+      "baseline": {
+        "known_trades": 49,
+        "net_wins": 11,
+        "net_win_rate_pct": 22.448979591836736,
+        "mean_net_pct_notional": -0.3192718949816203,
+        "profit_factor": 0.3589636385209497,
+        "active_utc_days": 41,
+        "unknown_candidates": 19
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 19
+      },
+      "prediction_quality": {
+        "brier": 0.17454931252881087,
+        "constant_brier": 0.17498790836740974,
+        "auc": 0.5741626794258373
+      }
+    },
+    {
+      "test_period": "2024",
+      "leverage": 10,
+      "train_years": [
+        "2022",
+        "2023"
+      ],
+      "train_rows": 167,
+      "train_wins": 41,
+      "training_breakeven_probability": 0.42670731114358695,
+      "scored": 36,
+      "feature_unknown": 0,
+      "model_rejected": 36,
+      "known_no_order": 103,
+      "candidate_events": 119,
+      "baseline": {
+        "known_trades": 36,
+        "net_wins": 14,
+        "net_win_rate_pct": 38.888888888888886,
+        "mean_net_pct_notional": -0.10472108768608214,
+        "profit_factor": 0.7126998511588951,
+        "active_utc_days": 28,
+        "unknown_candidates": 16
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 16
+      },
+      "prediction_quality": {
+        "brier": 0.2673603817336785,
+        "constant_brier": 0.258212118676818,
+        "auc": 0.5194805194805194
+      }
+    },
+    {
+      "test_period": "2024",
+      "leverage": 20,
+      "train_years": [
+        "2022",
+        "2023"
+      ],
+      "train_rows": 163,
+      "train_wins": 40,
+      "training_breakeven_probability": 0.46094204842651787,
+      "scored": 36,
+      "feature_unknown": 0,
+      "model_rejected": 36,
+      "known_no_order": 103,
+      "candidate_events": 119,
+      "baseline": {
+        "known_trades": 36,
+        "net_wins": 14,
+        "net_win_rate_pct": 38.888888888888886,
+        "mean_net_pct_notional": -0.10472108768608214,
+        "profit_factor": 0.7126998511588951,
+        "active_utc_days": 28,
+        "unknown_candidates": 16
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 16
+      },
+      "prediction_quality": {
+        "brier": 0.26980431935682125,
+        "constant_brier": 0.25824373434370046,
+        "auc": 0.5032467532467533
+      }
+    },
+    {
+      "test_period": "2026",
+      "leverage": 10,
+      "train_years": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "train_rows": 203,
+      "train_wins": 55,
+      "training_breakeven_probability": 0.43972048200803093,
+      "scored": 13,
+      "feature_unknown": 0,
+      "model_rejected": 13,
+      "known_no_order": 35,
+      "candidate_events": 39,
+      "baseline": {
+        "known_trades": 13,
+        "net_wins": 4,
+        "net_win_rate_pct": 30.76923076923077,
+        "mean_net_pct_notional": -0.1937189015967341,
+        "profit_factor": 0.47985410557253183,
+        "active_utc_days": 10,
+        "unknown_candidates": 4
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 4
+      },
+      "prediction_quality": {
+        "brier": 0.20151300188383608,
+        "constant_brier": 0.21436878053151195,
+        "auc": 0.7222222222222222
+      }
+    },
+    {
+      "test_period": "2026",
+      "leverage": 20,
+      "train_years": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "train_rows": 199,
+      "train_wins": 54,
+      "training_breakeven_probability": 0.4662207738045757,
+      "scored": 13,
+      "feature_unknown": 0,
+      "model_rejected": 13,
+      "known_no_order": 35,
+      "candidate_events": 39,
+      "baseline": {
+        "known_trades": 13,
+        "net_wins": 4,
+        "net_win_rate_pct": 30.76923076923077,
+        "mean_net_pct_notional": -0.1937189015967341,
+        "profit_factor": 0.47985410557253183,
+        "active_utc_days": 10,
+        "unknown_candidates": 4
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 4
+      },
+      "prediction_quality": {
+        "brier": 0.2013298053266534,
+        "constant_brier": 0.21433802176712705,
+        "auc": 0.6944444444444444
+      }
+    },
+    {
+      "test_period": "2026_aug_oct",
+      "leverage": 10,
+      "train_years": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "train_rows": 203,
+      "train_wins": 55,
+      "training_breakeven_probability": 0.43972048200803093,
+      "scored": 15,
+      "feature_unknown": 0,
+      "model_rejected": 15,
+      "known_no_order": 54,
+      "candidate_events": 57,
+      "baseline": {
+        "known_trades": 15,
+        "net_wins": 7,
+        "net_win_rate_pct": 46.666666666666664,
+        "mean_net_pct_notional": -0.05294791051418481,
+        "profit_factor": 0.8405047607193946,
+        "active_utc_days": 11,
+        "unknown_candidates": 3
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 3
+      },
+      "prediction_quality": {
+        "brier": 0.2751868957394253,
+        "constant_brier": 0.28719939818971585,
+        "auc": 0.7678571428571429
+      }
+    },
+    {
+      "test_period": "2026_aug_oct",
+      "leverage": 20,
+      "train_years": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "train_rows": 199,
+      "train_wins": 54,
+      "training_breakeven_probability": 0.4662207738045757,
+      "scored": 15,
+      "feature_unknown": 0,
+      "model_rejected": 15,
+      "known_no_order": 54,
+      "candidate_events": 57,
+      "baseline": {
+        "known_trades": 15,
+        "net_wins": 7,
+        "net_win_rate_pct": 46.666666666666664,
+        "mean_net_pct_notional": -0.05294791051418481,
+        "profit_factor": 0.8405047607193946,
+        "active_utc_days": 11,
+        "unknown_candidates": 3
+      },
+      "model": {
+        "known_trades": 0,
+        "net_wins": 0,
+        "net_win_rate_pct": null,
+        "mean_net_pct_notional": null,
+        "profit_factor": null,
+        "active_utc_days": 0,
+        "unknown_candidates": 3
+      },
+      "prediction_quality": {
+        "brier": 0.2770988196353572,
+        "constant_brier": 0.2870348391875625,
+        "auc": 0.6964285714285714
+      }
+    }
+  ],
+  "future_test_rows_perturbed": 226,
+  "frozen_sha256": "0dd7d9421af3b30d3c7dabcaf5053a930bada570ac9281756d98ff64a21099d3",
+  "model_sha256": "c38c1eefc45362291f00fe217cc3eb8886c8c3faca60c4d9d99d6bccb2c6ccf7",
+  "model_parameters_sha256": "2af2209cc44374f695ab0347de99ce409620862dceeec9aaea1349aef4b0daee",
+  "train_detail_sha256": "12bcc97fa0a16f6d63cb05015477c09c82135e4ab42b5ec07e8dca20ffed7dc4",
+  "score_detail_sha256": "533e327d94bd04b4d8581f19d405e8ba4b74b3477a93bb3e86893b7da2e09746",
+  "code_sha256": "3b5a2f9ecb214cd82289d67709f1d24a8d340e8bca8e60ddaa4d7c27b28315d6",
+  "note": "Retrospective chronological experiment with prior exposure; not blind or account results."
+}

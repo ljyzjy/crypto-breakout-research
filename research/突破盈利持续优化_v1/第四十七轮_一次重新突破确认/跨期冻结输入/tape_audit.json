@@ -1,0 +1,24 @@
+{
+  "allowed_reuse_checked": 73,
+  "independent_daily_prefix_samples": 4,
+  "samples": [
+    {
+      "observation_id": "opening|ADAUSDT|1704670200000",
+      "daily_sha256": "d5d0b3ac126a636dc42ce27bc7c371e9ab2454839bca3f8b2f561abb80ec270d"
+    },
+    {
+      "observation_id": "touch|AVAXUSDT|1708963380000",
+      "daily_sha256": "3ae50498eb5d1b6f8b92c33cf578be3bcc05b07b7e71e2735f623e3b9649e1dd"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1778915700000",
+      "daily_sha256": "1e06779c29267f24f44c8ad62420f04aa2777a797b1d24336271876725a38bef"
+    },
+    {
+      "observation_id": "touch|BNBUSDT|1782999240000",
+      "daily_sha256": "1b31b907a2254be5fb38c251e0f54ea27d622e185b3923fd3f07462f9efdfa78"
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Exact pre-execution inputs; outcome-dependent source choices do not change signal eligibility."
+}

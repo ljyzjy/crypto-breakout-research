@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 12,
+  "result_sha256": "3760f1a45c6f537c98bae17f56315709b49a18039ef66526b5394d16a3daeb4c",
+  "code_sha256": "430729a91fdb8fd5331816c8e19d1e373307610aeaca7f5a177f09667c6bdd19",
+  "note": "Ex post diagnostic only, with sampled conflicts excluded."
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-11-14T18:29:29.306530+00:00",
+  "plan_sha256": "aaddb73832194b65da1afa54e94a0079db78fbd7be76a4125a2af4b2ae9ea4c9",
+  "base_snapshots": {
+    "2024": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+    "2026": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8"
+  },
+  "oi_snapshots": {
+    "2024": "756486e3c39837a36d1db5f59cef9616f5d6cb4f82860cb04e1d7a929cd7fac6",
+    "2026": "f8f84a9390a7db06e0b358f424a2f00aab432e5952e67257a266c12b5e684399"
+  },
+  "example_budget": 0.005,
+  "note": "A fixed illustrative scenario; not an account simulation or loss guarantee."
+}

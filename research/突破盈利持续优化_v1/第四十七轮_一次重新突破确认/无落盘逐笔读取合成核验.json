@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "valid_zip_and_chunk_cases": 8,
+  "wrong_sha_rejected": true,
+  "truncated_zip_rejected": true,
+  "multiple_members_rejected": true,
+  "data_descriptor_checked": true,
+  "stream_code_sha256": "a6f31492ba2dd1705533d34d7eadbf8de45f5f4878ab13449395d3c7ea716632"
+}

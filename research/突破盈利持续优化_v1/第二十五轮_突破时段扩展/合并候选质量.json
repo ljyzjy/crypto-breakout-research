@@ -1,0 +1,12 @@
+{
+  "events": 781,
+  "cohort_counts": {
+    "opening": 530,
+    "later": 251
+  },
+  "year_counts": {
+    "2024": 619,
+    "2026": 162
+  },
+  "missing_previous_flow": 0
+}

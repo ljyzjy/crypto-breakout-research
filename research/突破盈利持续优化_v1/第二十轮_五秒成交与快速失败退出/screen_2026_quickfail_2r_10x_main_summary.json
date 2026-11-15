@@ -1,0 +1,320 @@
+{
+  "initial": 1000.0,
+  "final_equity": 975.2538004195501,
+  "return_pct": -2.474619958044988,
+  "annualized_return_pct": null,
+  "elapsed_days": 92.0,
+  "max_drawdown": 2.5661486943461376,
+  "trades": 40,
+  "win_rate": 17.5,
+  "gross_pnl": -8.237583437224332,
+  "fees": 8.254309101311472,
+  "slippage_cost": 8.254307041914835,
+  "funding_cost": 0.0,
+  "net_pnl": -24.74619958044991,
+  "average_trade_net": -0.618654989511266,
+  "mean_holding_minutes": 5.4597525000000005,
+  "mean_exposure_pct": 0.03316969065095125,
+  "profit_factor": 0.29554912463092264,
+  "ledger_error": 7.283063041541027e-13,
+  "scenario": "main",
+  "start": "2026-05-01",
+  "end": "2026-07-31",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 0,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 2.575609688503311,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "entry_deviation": 13,
+    "stop_or_cost_gate": 1
+  },
+  "signal_candidates": 54,
+  "account_gross_exposure_cap": 2,
+  "position_leverage": 10,
+  "seconds_execution_verified": false,
+  "run_id": "quickfail_2r",
+  "rule_events": [
+    {
+      "id": "opening|BTCUSDT|1777860000000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1777860060000,
+      "effective_ts": 1777860120000,
+      "close": 79780.3,
+      "level": 79849.8
+    },
+    {
+      "id": "opening|ADAUSDT|1778465700000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1778465760000,
+      "effective_ts": 1778465820000,
+      "close": 0.2784,
+      "level": 0.2782
+    },
+    {
+      "id": "opening|XRPUSDT|1778465700000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1778465760000,
+      "effective_ts": 1778465820000,
+      "close": 1.452,
+      "level": 1.4514
+    },
+    {
+      "id": "opening|SOLUSDT|1779295500000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779296100000,
+      "effective_ts": 1779296160000,
+      "close": 86.43,
+      "level": 86.44
+    },
+    {
+      "id": "opening|NEARUSDT|1779413400000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779413940000,
+      "effective_ts": 1779414000000,
+      "close": 2.02,
+      "level": 2.025
+    },
+    {
+      "id": "opening|NEARUSDT|1779423300000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779423480000,
+      "effective_ts": 1779423540000,
+      "close": 2.144,
+      "level": 2.144
+    },
+    {
+      "id": "opening|NEARUSDT|1779435000000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779435120000,
+      "effective_ts": 1779435180000,
+      "close": 2.229,
+      "level": 2.233
+    },
+    {
+      "id": "opening|NEARUSDT|1779475500000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779475860000,
+      "effective_ts": 1779475920000,
+      "close": 2.166,
+      "level": 2.153
+    },
+    {
+      "id": "opening|NEARUSDT|1779512400000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779512460000,
+      "effective_ts": 1779512520000,
+      "close": 2.065,
+      "level": 2.06
+    },
+    {
+      "id": "opening|NEARUSDT|1779541200000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779542220000,
+      "effective_ts": 1779542280000,
+      "close": 2.104,
+      "level": 2.105
+    },
+    {
+      "id": "opening|NEARUSDT|1779848100000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1779849840000,
+      "effective_ts": 1779849900000,
+      "close": 2.505,
+      "level": 2.495
+    },
+    {
+      "id": "opening|NEARUSDT|1780338600000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780338660000,
+      "effective_ts": 1780338720000,
+      "close": 2.563,
+      "level": 2.568
+    },
+    {
+      "id": "opening|DOGEUSDT|1780428600000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780429500000,
+      "effective_ts": 1780429560000,
+      "close": 0.09355,
+      "level": 0.0935
+    },
+    {
+      "id": "opening|ETHUSDT|1780441200000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780441260000,
+      "effective_ts": 1780441320000,
+      "close": 1860.0,
+      "level": 1860.0
+    },
+    {
+      "id": "opening|NEARUSDT|1780559100000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780559220000,
+      "effective_ts": 1780559280000,
+      "close": 2.391,
+      "level": 2.387
+    },
+    {
+      "id": "opening|AVAXUSDT|1780638300000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780638660000,
+      "effective_ts": 1780638720000,
+      "close": 7.295,
+      "level": 7.29
+    },
+    {
+      "id": "opening|XRPUSDT|1780653600000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780653720000,
+      "effective_ts": 1780653780000,
+      "close": 1.1399,
+      "level": 1.14
+    },
+    {
+      "id": "opening|BNBUSDT|1780686000000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780686180000,
+      "effective_ts": 1780686240000,
+      "close": 561.29,
+      "level": 561.22
+    },
+    {
+      "id": "opening|LTCUSDT|1780719300000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780719360000,
+      "effective_ts": 1780719420000,
+      "close": 41.87,
+      "level": 41.77
+    },
+    {
+      "id": "opening|DOGEUSDT|1780753500000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780753620000,
+      "effective_ts": 1780753680000,
+      "close": 0.08215,
+      "level": 0.08235
+    },
+    {
+      "id": "opening|ADAUSDT|1781060400000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1781060520000,
+      "effective_ts": 1781060580000,
+      "close": 0.1618,
+      "level": 0.1617
+    },
+    {
+      "id": "opening|XRPUSDT|1781098200000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1781098380000,
+      "effective_ts": 1781098440000,
+      "close": 1.1237,
+      "level": 1.124
+    },
+    {
+      "id": "opening|ADAUSDT|1781562600000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1781562840000,
+      "effective_ts": 1781562900000,
+      "close": 0.178,
+      "level": 0.1774
+    },
+    {
+      "id": "opening|ADAUSDT|1781637300000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1781637780000,
+      "effective_ts": 1781637840000,
+      "close": 0.1727,
+      "level": 0.1727
+    },
+    {
+      "id": "opening|SOLUSDT|1782457200000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1782457260000,
+      "effective_ts": 1782457320000,
+      "close": 69.92,
+      "level": 69.99
+    },
+    {
+      "id": "opening|ADAUSDT|1783182600000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1783182720000,
+      "effective_ts": 1783182780000,
+      "close": 0.1978,
+      "level": 0.1979
+    },
+    {
+      "id": "opening|LTCUSDT|1783308600000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1783308660000,
+      "effective_ts": 1783308720000,
+      "close": 45.04,
+      "level": 45.01
+    },
+    {
+      "id": "opening|AVAXUSDT|1783580400000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1783580520000,
+      "effective_ts": 1783580580000,
+      "close": 6.775,
+      "level": 6.776
+    },
+    {
+      "id": "opening|ADAUSDT|1784571300000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1784571540000,
+      "effective_ts": 1784571600000,
+      "close": 0.1693,
+      "level": 0.1698
+    },
+    {
+      "id": "opening|AVAXUSDT|1784995200000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1784995680000,
+      "effective_ts": 1784995740000,
+      "close": 6.593,
+      "level": 6.598
+    },
+    {
+      "id": "opening|DOGEUSDT|1785000600000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1785000660000,
+      "effective_ts": 1785000720000,
+      "close": 0.07273,
+      "level": 0.07279
+    },
+    {
+      "id": "opening|NEARUSDT|1785193200000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1785193260000,
+      "effective_ts": 1785193320000,
+      "close": 1.698,
+      "level": 1.694
+    }
+  ],
+  "expected_calendar_minutes": 132480,
+  "observed_calendar_minutes": 132480,
+  "active_minutes": 257,
+  "cash_minutes": 132223,
+  "permanent_halt_minutes": 0,
+  "cash_days": 91.82152777777777,
+  "halted_days": 0.0,
+  "period": "screen_2026",
+  "target_r": 2.0,
+  "stop_shock": 0.0,
+  "max_hold_minutes": 60,
+  "allow_overnight": false,
+  "partial_exit": false,
+  "quarter_exit": false,
+  "failure_exit": true,
+  "net_win_rate_pct": 17.5,
+  "winning_trade_count": 7,
+  "active_calendar_days": 28,
+  "large_1pct_caught": 10,
+  "large_1pct_trade_win": 6,
+  "liquidation_proxy_count": 0,
+  "planned_loss_exceeded_count": 0,
+  "acceptance_pass": false
+}

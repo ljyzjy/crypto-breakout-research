@@ -1,0 +1,9 @@
+{
+  "plan_sha256": "dca321865e5dfb68c72fa470bf05bed8401c8cb473c349164ea4512c7ef38387",
+  "source_sha256": {
+    "动态池逐笔信号筛查.parquet": "ccd3890fb716581c0b25725c6fc9442731acd171be1eb70eb7af513bf6979163",
+    "动态池单位收益与风险.parquet": "bae5c4d2333bb30c584b2cec69cc997f4eed84c01565ecc27fd227e7fa04e667",
+    "不完整数据下单位机会诊断.json": "f183f912798709929c1569e86617203a3e46071a44618894ef6e8fe31ec768a6",
+    "动态池净账本独立核验.json": "5e7a87280ca13e8ec786e55812c1656879d706eed4deec42aa24dd2991b87024"
+  }
+}

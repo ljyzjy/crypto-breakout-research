@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "scenario_paths_checked": 315,
+  "aggregate_groups_checked": 12,
+  "output_sha256": "706ea874a6c7413302e242939116596bb02017592f9f2cdbca7ac166720a2a48",
+  "detail_sha256": "4931d333f922fbe8d3c0bbb8efe29847c9c1b8dd7edd455a20c00f45e5481a87",
+  "audit_sha256": "c884dcb2d360df01355efafca4275ce9d0ed5e985df04bc66c57e31fe2722ed2",
+  "note": "Independent gate join and Decimal aggregation; prior exit costs independently checked in round 59."
+}

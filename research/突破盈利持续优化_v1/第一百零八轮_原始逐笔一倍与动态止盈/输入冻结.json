@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-11-15T10:27:09.831776+00:00",
+  "files": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零八轮_原始逐笔一倍与动态止盈\\研究方案.md": "a43be5047eef07d992e7a00465eeee17d0bee7fe80156d81fae4fb5db0bbd5f0",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零八轮_原始逐笔一倍与动态止盈\\exit_1r.py": "99062454ab85fab6f5f9fbc878fb38463b0b2ff197ddec138c2af6ea7bf7a41f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零八轮_原始逐笔一倍与动态止盈\\test_exit_1r.py": "7a964f74d08797020ae9f393bce1d651a5a493f26c44e0791d7ee7da0a8cd1e0",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零八轮_原始逐笔一倍与动态止盈\\一倍止盈合成核验.json": "f79405f931933cb4aa43d1e43d32184843527bb90c11f23ad3b1aef9ba2e250a",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\研究冻结.json": "87f498bcb4ffdcde43fec59af1263476e89ec07fa51d8f58b7feab721475631f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\run_raw_2022.py": "63261381e042eaf67741b2f4706ea4a0de74da8021dfe86dd36abf3bfbe95fa5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔汇总.json": "7a914742f17f61306f6aa211a89174d256290ea6ee117df1824887bf35beb12b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔汇总独立核验.json": "1527eb163241b716d007b182883cdf8636e818c9dd3368b2afd2cda937fbbb91",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\风险来源与账本独立核验.json": "ffa92b7248f5dcb8f13f50c96bdb98904354bc9d6b65c680ebc88c8b72c8dc81",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\候选状态与单位账本.csv": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\逐笔信号.parquet": "37f0001003cb0767f476a7d3ce54bcecf5d93922310db93040b0162b30da8636",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\单位净收益与风险.parquet": "962afb7a9c010e926ae063d766002c2f8422c2d35acd7047345bffc782332116",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\风险来源与结算.json": "7809290c4ccdc097c5b7654b04fe1d46f100f254e6f434f33d6b83a753547ec9",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\run_exit.py": "dac6b343bc55b29328ba2b026a2e918b0c82d911a2eba165dec7ad2977ab976a",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\进展退出独立核验.json": "e6cf889e957d43bae7eb8a019ffcb5d47e807f948e19d424edb37b7c22ddf801",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零二轮_大柱持有损益核查\\大柱标签独立核验.json": "8431775da877b04d211b19b25f9cfddac39f3d65f824c1fe96f65b80f301a0c3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零二轮_大柱持有损益核查\\事后大柱标签.parquet": "131c14c353d4f5743b6de6dc9c0b17b41bf1f3f9101a5c2815fe7431a889ef62",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\候选数据\\固定十一币双币过滤潜在触价.parquet": "9c2955d955523982b6ea94a57ab05256c495b49f198f65fdfb95d38dabe38be5"
+  },
+  "freeze_code_sha256": "a42fb417978509fb99acbdbec94dda2be0e0d81d34b0668c50067ec04138f890",
+  "note": "Historical source inputs and 1R rule frozen before raw replay."
+}

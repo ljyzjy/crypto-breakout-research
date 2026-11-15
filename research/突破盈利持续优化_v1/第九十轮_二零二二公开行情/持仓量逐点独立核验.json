@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "events_checked": 119,
+  "points_checked": 434,
+  "official_archives_redownloaded": 182,
+  "verified_points": 434,
+  "source_sha256": "d0452e4a5e366d4a2c7b6fdffddcfde2a4e5fc283ad1a05c78518c22111ef969",
+  "code_sha256": "ed85bcd34c3bb96a533ce0a61d7cfcc4a91e86fea7448de5aa29afc1264a50e8",
+  "source_algorithm_sha256": "f205ef09baf4256bd0a64355c2cf56f74daa5f5a72d5c5852bbdd8e4afd09f2c",
+  "note": "Source and causal timestamp audit; historical publication latency is not verified."
+}

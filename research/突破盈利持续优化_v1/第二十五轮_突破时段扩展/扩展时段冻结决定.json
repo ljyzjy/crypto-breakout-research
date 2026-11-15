@@ -1,0 +1,17 @@
+{
+  "selected": "wide_preflow_follow_partial_2r",
+  "target_r": 2.0,
+  "partial_exit": true,
+  "training_passed": false,
+  "metrics": {
+    "trades": 88,
+    "active_calendar_days": 57,
+    "net_win_rate_pct": 34.090909090909086,
+    "net_pnl": -53.021857553812424,
+    "profit_factor": 0.44820303615938467,
+    "max_drawdown": 5.6970655191041715
+  },
+  "plan_sha256": "c0943cfea1651dacf4969e66b1bb72671fac9bcfaeb8e50a5ea4b5d57af1ce57",
+  "training_sha256": "b8cbe7ba98ff6dee988b397d2bcd753c55c496cc41ece61b9c1d72a49fd9f038",
+  "note": "If training failed, the selected candidate is a diagnostic, not an accepted strategy."
+}

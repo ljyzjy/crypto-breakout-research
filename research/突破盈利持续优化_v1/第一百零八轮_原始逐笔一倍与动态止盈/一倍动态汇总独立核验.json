@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 261,
+  "summary_groups_checked": 24,
+  "result_sha256": "a70277bd007e8627d77ed6e004c3a2a9d35b154a854cb6287a8ac4980d8b5e19",
+  "detail_sha256": "97c858aa85b36b38c603bc98b5ef8b00d0c4f59f0762482e62ac94082adf5550",
+  "code_sha256": "d75a179211e383c12da8f777e19907c95a040f70138496cdb662f8fe2c3ba4c2",
+  "note": "Signal-time exit choice and paired unit costs checked; labels remain ex-post."
+}

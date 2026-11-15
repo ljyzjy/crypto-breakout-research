@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "726b9681e1781b0ec28d3040a7a64837bb511984540720c6b12ca492c4163d24",
+  "checks": [
+    "long_short_entry_and_target",
+    "one_second_after_reference",
+    "five_second_exit_delay",
+    "future_perturbation",
+    "already_filled_risk_breach",
+    "source_reference_disagreement",
+    "same_timestamp_stop_priority"
+  ]
+}

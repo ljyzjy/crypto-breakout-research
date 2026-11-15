@@ -1,0 +1,94 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1671044400000",
+      "status": "qualified",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 0,
+      "minute_sha256": "f8c321f4732e681947366db483829f27ad10f939a0d1db43e253144cfc5804cf",
+      "tape_archives": [
+        {
+          "day": "2022-12-14",
+          "sha256": "eca74245c140f398fced2ead64a1e3ed98fd6ed8f4db74d5710d565913478d48",
+          "bytes": 767720
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1671069780000",
+      "status": "flow_filter_not_met",
+      "original_paths_checked": 0,
+      "extended_paths_checked": 0,
+      "minute_sha256": "4307a64c1701235d2c1445a5b4ec16cfda45250c8d28e1de5eaa9a26bf1a1f7a",
+      "tape_archives": [
+        {
+          "day": "2022-12-15",
+          "sha256": "73360d22b148d1e1181173e7f434add9dc8357dd3f0b704f5ea976a33bd43225",
+          "bytes": 645132
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1672493400000",
+      "status": "known_risk_rejected",
+      "original_paths_checked": 0,
+      "extended_paths_checked": 0,
+      "minute_sha256": "b024bc7749ec140b5b096b482736d44b326642fa298736d926e70083d5aaea41",
+      "tape_archives": [
+        {
+          "day": "2022-12-31",
+          "sha256": "60e600480843ef5eab7bbba4d22d8e6ce5ebcb9ffe18e813107c133bf59188ce",
+          "bytes": 1858296
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1664060580000",
+      "status": "qualified",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "1b8fc13ba9d68efad4e1890d5ce5bd87178f69e50989c42ea69096245825d92d",
+      "tape_archives": [
+        {
+          "day": "2022-09-24",
+          "sha256": "07c2a87692eb290695151b43e6808ae157dc7a1f6a3b2f88578611b03b00a64e",
+          "bytes": 1305613
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1668980700000",
+      "status": "qualified",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 0,
+      "minute_sha256": "b8b5286f1d28a64f94616b579d4ad4c0a29df757c6dcab48afe7dc1a10e73fff",
+      "tape_archives": [
+        {
+          "day": "2022-11-20",
+          "sha256": "92294b6015338327240890021c64b8846f630732e3a9dd7cb78cb4e98f0a2dbe",
+          "bytes": 1171231
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1670400060000",
+      "status": "flow_filter_not_met",
+      "original_paths_checked": 0,
+      "extended_paths_checked": 0,
+      "minute_sha256": "5f4e467e6aa3c66c5f772066b2f24b7f9d812fb3484ef129049cddc84f4abe5f",
+      "tape_archives": [
+        {
+          "day": "2022-12-07",
+          "sha256": "de7eed4d52265052189cce01eb86c0cfafd2cbd4f668bd77c425752590dde79b",
+          "bytes": 995018
+        }
+      ]
+    }
+  ],
+  "batch_fingerprint": "6276a3fbbd9dbed06d575938ef81868ef10babf9777e23db67f2f8bbfa1fa031",
+  "original_scalar_sha256": "7e791d8985a46ce89cd0eb5ff3764ddc55a4d54f839a5c8c704edec8e7026897",
+  "extended_scalar_sha256": "78599d46e5e158e3835d2fdf8c42ae9d1937d529a933b91008868f5b8132eacf",
+  "code_sha256": "443d8d8ac0caaaa77726969d1093ae14302b005fca508cd803cb53a7edb1ddeb",
+  "note": "Independent CSV reader and scalar replay on selected samples; public prints are not actual fills."
+}

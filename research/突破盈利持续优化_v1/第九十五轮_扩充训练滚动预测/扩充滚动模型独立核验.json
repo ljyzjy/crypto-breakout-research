@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "model_groups_checked": 8,
+  "scored_paths_checked": 226,
+  "result_sha256": "3e50056620d617b56e69e0939aa3bbbaa578de9a088536fd7bc8f708bf9307f6",
+  "code_sha256": "7a43ffc8b18f911b499fb5bbc09b99ffdc27dc5f2994f32fb94cd0dc9caf575c",
+  "independent_optimizer_sha256": "cab25a91c9ac276e4b5cd0c0743754c934c42ed1f1b150672bdd3d7484167984",
+  "note": "Chronological retrospective audit; prior exposure, aggregated-trade ambiguity and actual OI release times remain."
+}

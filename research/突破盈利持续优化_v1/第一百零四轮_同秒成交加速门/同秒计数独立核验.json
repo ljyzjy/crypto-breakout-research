@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "fixed_sample_count": 12,
+  "samples_checked": 12,
+  "unresolved_samples": [],
+  "source_sha256": "2703d3caf4c2512e8c09d7b776e773ea01ef82ce8c237c97b5c11ff92eb7b548",
+  "code_sha256": "dc46df0d85d7e6dd5a4bdca618f603ac35836fb6cddfb724375930c946fa8101",
+  "note": "Independent raw timestamp parser; missing samples remain unknown, not rejected."
+}

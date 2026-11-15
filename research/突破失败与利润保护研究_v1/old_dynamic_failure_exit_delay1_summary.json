@@ -1,0 +1,148 @@
+{
+  "initial": 1000.0,
+  "final_equity": 953.3191177332866,
+  "return_pct": -4.66808822667134,
+  "annualized_return_pct": null,
+  "elapsed_days": 300.0,
+  "max_drawdown": 5.163423504727572,
+  "trades": 75,
+  "win_rate": 30.666666666666664,
+  "gross_pnl": -2.6763484007339455,
+  "fees": 22.00226726753444,
+  "slippage_cost": 22.00226659844514,
+  "funding_cost": 0.0,
+  "net_pnl": -46.68088226671341,
+  "average_trade_net": -0.6224117635561804,
+  "mean_holding_minutes": 20.08,
+  "mean_exposure_pct": 0.0876924052002106,
+  "profit_factor": 0.5002252366376999,
+  "ledger_error": 1.2079226507921703e-13,
+  "scenario": "delay1",
+  "start": "2025-07-01",
+  "end": "2026-04-26",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 1,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 5.165244229873145,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "entry_deviation": 45,
+    "late_day": 44,
+    "stop_or_cost_gate": 30,
+    "pool_changed": 1,
+    "slots_full": 1,
+    "symbol_cooldown": 1
+  },
+  "signal_candidates": 197,
+  "leverage_cap": 1,
+  "seconds_execution_verified": false,
+  "run_id": "failure_exit",
+  "rule_events": [
+    {
+      "id": "SUIUSDT|1752716880000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1752717600000,
+      "effective_ts": 1752717660000,
+      "close": 3.9228,
+      "level": 3.9189
+    },
+    {
+      "id": "HBARUSDT|1753497060000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1753497900000,
+      "effective_ts": 1753497960000,
+      "close": 0.26566,
+      "level": 0.26649
+    },
+    {
+      "id": "LTCUSDT|1757858100000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1757858400000,
+      "effective_ts": 1757858460000,
+      "close": 114.83,
+      "level": 114.78
+    },
+    {
+      "id": "ENAUSDT|1759421400000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1759421700000,
+      "effective_ts": 1759421760000,
+      "close": 0.6312,
+      "level": 0.6325
+    },
+    {
+      "id": "ZECUSDT|1760517720000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1760517900000,
+      "effective_ts": 1760517960000,
+      "close": 269.03,
+      "level": 270.0
+    },
+    {
+      "id": "ETHUSDT|1762350660000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1762351200000,
+      "effective_ts": 1762351260000,
+      "close": 3358.72,
+      "level": 3366.53
+    },
+    {
+      "id": "DOGEUSDT|1763339700000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1763340300000,
+      "effective_ts": 1763340360000,
+      "close": 0.15956,
+      "level": 0.15963
+    },
+    {
+      "id": "SUIUSDT|1772055360000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772055900000,
+      "effective_ts": 1772055960000,
+      "close": 1.0129,
+      "level": 1.019
+    },
+    {
+      "id": "UNIUSDT|1772311620000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772312400000,
+      "effective_ts": 1772312460000,
+      "close": 3.823,
+      "level": 3.826
+    },
+    {
+      "id": "DOGEUSDT|1772697120000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772697600000,
+      "effective_ts": 1772697660000,
+      "close": 0.09564,
+      "level": 0.09541
+    },
+    {
+      "id": "ZECUSDT|1775583360000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1775583900000,
+      "effective_ts": 1775583960000,
+      "close": 271.28,
+      "level": 271.9
+    }
+  ],
+  "expected_calendar_minutes": 432000,
+  "observed_calendar_minutes": 432000,
+  "active_minutes": 1371,
+  "cash_minutes": 430629,
+  "permanent_halt_minutes": 0,
+  "cash_days": 299.04791666666665,
+  "halted_days": 0.0,
+  "period": "old_dynamic",
+  "net_win_rate_pct": 30.666666666666664,
+  "failure_scheduled_count": 11,
+  "lock_scheduled_count": 0,
+  "lock_applied_count": 0,
+  "failure_exit_count": 6,
+  "winning_trade_count": 23,
+  "active_calendar_days": 57,
+  "acceptance_pass": false
+}

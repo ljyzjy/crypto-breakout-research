@@ -1,0 +1,15 @@
+{
+  "all_checks_pass": true,
+  "year": "2023",
+  "audited_paths": 98,
+  "reused_paths": 88,
+  "replayed_target_paths": 10,
+  "unknown_replay_paths": 0,
+  "unknown_risk_paths": 0,
+  "liquidation_proxy_paths": 0,
+  "daily_repairs_rechecked": 1,
+  "max_net_fraction_error": 2.26466149432124e-16,
+  "ledger_sha256": "431bfe716cc36d6adf4c5a8a996158e39c07f7f3468e09824746351e76113ca5",
+  "audit_code_sha256": "8b036bdcc24656060e31024ca439326b7ae6c35e5f7781f48e38d3006d162693",
+  "note": "Public ZIP and repaired minute proxies; no actual exchange liquidation or account simulation."
+}

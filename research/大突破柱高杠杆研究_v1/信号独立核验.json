@@ -1,0 +1,9 @@
+{
+  "candidate_signals_checked": 106,
+  "current_prefix_and_20_prior_equal_progress_counts": true,
+  "partial_body_and_structure_stop_checked": true,
+  "decision_and_entry_timing_checked": true,
+  "completed_bar_labels_checked": true,
+  "future_data_removed_from_execution_engine": true,
+  "limitation": "Shared source data and minute-level execution; no proof of live fills or historical liquidation brackets."
+}

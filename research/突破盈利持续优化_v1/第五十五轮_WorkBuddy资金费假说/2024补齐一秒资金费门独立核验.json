@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "opportunity_paths_checked": 93,
+  "aggregate_groups_checked": 4,
+  "result_sha256": "2fbe8f9a1517e876116b70fb2ced167831a8b6deadf1330f736744847d29daec",
+  "detail_sha256": "239b589b1ba8c5bd8a04455bdf54ea40d83225b1c1ab515c20116a680f130a05",
+  "risk_audit_sha256": "44ec623000013efb400248cd1d8b10e143c416339c02513a85f22548d5375de8",
+  "audit_sha256": "84c8591b7c1f510f15190b4df127b3c6221176703c0689d89355fce8fe7fdec9"
+}

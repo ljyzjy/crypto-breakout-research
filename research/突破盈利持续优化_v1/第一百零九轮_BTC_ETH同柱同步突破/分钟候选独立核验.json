@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "quarters_checked": 35040,
+  "candidate_direction_rows_checked": 4336,
+  "archive_requirements_checked": 730,
+  "result_sha256": "30bc39f16c36dbd14fc8cbc72fa69fe3c2bee9d225f8973539ea269b06c10165",
+  "audit_code_sha256": "10a58bb54e29f09446485c6f0d6b9feaedac8df16d3b8498bda31f77f6b51bc9",
+  "note": "Independent reshaped-minute and rolling-loop screen; not simultaneous execution."
+}

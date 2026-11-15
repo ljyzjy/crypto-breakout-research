@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "original_rank_hours_checked": 240,
+  "recovered_raw_events_checked": 133,
+  "remaining_raw_events_checked": 49,
+  "extra_candidates_checked": 0,
+  "result_sha256": "daaad2e620064317118e577538ab812dcf68f33d43a275ff6dd16259083d8ed1",
+  "code_sha256": "8903f66405b4b744fc7ceb363cb9661e31291af8f4bf2484926836c52bfba981",
+  "note": "Checks only the alternative-hour candidate pipeline; strict minute-feature uncertainties remain."
+}

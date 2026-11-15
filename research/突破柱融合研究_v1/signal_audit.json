@@ -1,0 +1,24 @@
+{
+  "synthetic_checks": {
+    "prefix_future_perturbation": true,
+    "equal_progress_ratio": true,
+    "missing_or_zero_prior_count_rejected": true,
+    "missing_current_prefix_rejected": true
+  },
+  "counts": {
+    "quarter_first_breaks": 149012,
+    "rank_or_trend": 42756,
+    "event_cooldown": 53565,
+    "entry_not_inside_quarter": 5037,
+    "original_stop_cost_gate": 1696,
+    "not_in_daily_pool": 44038,
+    "known_quarantine": 98,
+    "base_candidates": 1822,
+    "activity_unknown": 0,
+    "activity_pass": 427,
+    "sync_pass": 197
+  },
+  "signal_file_sha256": "b7ddced5e30b52be108aa9b6c834b47139b415755a3a87417e8e8154135f1353",
+  "implementation_note": "A signal-generation-only dry run was stopped before any account outcomes after noticing that a missing early minute could obscure the first crossing; the current implementation rejects incomplete current-quarter prefixes.",
+  "study_scope": "retrospective; past outcomes had already been viewed"
+}

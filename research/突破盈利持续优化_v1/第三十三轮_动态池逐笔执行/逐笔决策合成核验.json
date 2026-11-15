@@ -1,0 +1,6 @@
+{
+  "first_cross_direction_and_ohlc": true,
+  "strict_five_second_directional_flow": true,
+  "market_order_delays_and_leverage_gates": true,
+  "mismatched_archive_not_silently_removed": true
+}

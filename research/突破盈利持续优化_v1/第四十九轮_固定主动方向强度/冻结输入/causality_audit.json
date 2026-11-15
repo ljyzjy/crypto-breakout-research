@@ -1,0 +1,42 @@
+{
+  "all_checks_pass": true,
+  "periods": [
+    {
+      "year": "2023",
+      "retry_candidates": 68,
+      "verified_source_records": 68,
+      "pending_candidates": 0,
+      "statuses": {
+        "retest_flow_filter_not_met": 37,
+        "qualified": 18,
+        "no_retest_known": 6,
+        "known_risk_rejected": 7
+      }
+    },
+    {
+      "year": "2024",
+      "retry_candidates": 56,
+      "verified_source_records": 56,
+      "pending_candidates": 0,
+      "statuses": {
+        "qualified": 17,
+        "retest_flow_filter_not_met": 29,
+        "known_risk_rejected": 4,
+        "no_retest_known": 6
+      }
+    },
+    {
+      "year": "2026",
+      "retry_candidates": 13,
+      "verified_source_records": 13,
+      "pending_candidates": 0,
+      "statuses": {
+        "retest_flow_filter_not_met": 7,
+        "no_retest_known": 2,
+        "qualified": 3,
+        "known_risk_rejected": 1
+      }
+    }
+  ],
+  "note": "Timing and source provenance checks; unresolved source statuses remain unknown."
+}

@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "archives_checked": 4,
+  "source_records_checked": 197,
+  "manifest_sha256": "b1749af06d65c58d6d7613b9dddda5ff06d48ee2d64bbff4d6e804d36e711b0d",
+  "audit_sha256": "bf7f7f93d80970d69f76900fdb93b6fc1658a223aa17b61d73158cc619560a27",
+  "note": "Independent CSV reconstruction from local ZIPs already matched to official checksum files."
+}

@@ -1,0 +1,193 @@
+{
+  "audit_version": "phase1-cost-audit-v1",
+  "created_utc": "2026-11-13T13:04:09.757728+00:00",
+  "scope": "Read-only inspection of existing engine, protocol and fixed-horizon diagnostics plus public first-party documentation. No new return backtest, no account access, no simulator/source modifications.",
+  "source_root": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2",
+  "source_sha256": {
+    "engine.py": "439c10c10d4ab64e0385b13877f6a5fc8afbe088eb3b2583a537660a4eab5bf7",
+    "protocol.json": "e39847a52567d2f85a8e14f8a6841481bb3c56380b8f8991d1e3cde80571ccfa",
+    "signal_diagnostics.py": "d8aedcfc91a715c88af1871f2e675a599089131f65ef239b406f8f6555757c78"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Binance Futures Fee Structure & Fee Calculations",
+      "url": "https://www.binance.com/en/support/faq/detail/360033544231",
+      "verified": "2026-11-13",
+      "page_updated": "2026-05-01",
+      "supports": "Commission on executed notional, maker/taker distinction, regular-user example maker 0.02% / taker 0.05%, conditional 10% BNB discount. FAQ explicitly calls numerical examples hypothetical and points to latest fee table."
+    },
+    {
+      "id": "S2",
+      "title": "USDⓈ-M Futures Trading Fee Rate",
+      "url": "https://www.binance.com/en/fee/futureFee",
+      "verified": "2026-11-13",
+      "status": "Live fetched page has no rate rows. Current schedule not independently confirmed from a rendered table."
+    },
+    {
+      "id": "S3",
+      "title": "Regional official fee-table search snapshot",
+      "url": "https://www.binance.com/en-BH/fee/futureFee",
+      "verified": "2026-11-13",
+      "status": "Search index showed regular 0.0200% / 0.0500% and BNB 0.0180% / 0.0450%; direct open returned No records found. Snapshot is supporting evidence, not current-account or full-history verification."
+    },
+    {
+      "id": "S4",
+      "title": "Introduction to Binance Futures Funding Rates",
+      "url": "https://www.binance.com/en/support/faq/detail/360033525031",
+      "verified": "2026-11-13",
+      "page_updated": "2026-03-06",
+      "supports": "Signed transfer at applicable settlement times, position size times mark price times rate; contract intervals can change; actual settlement time has stated 15-second deviation."
+    },
+    {
+      "id": "S5",
+      "title": "Binance Futures Liquidation Protocols",
+      "url": "https://www.binance.com/en/support/faq/detail/360033525271",
+      "verified": "2026-11-13",
+      "page_updated": "2026-01-04",
+      "supports": "Mark price and maintenance margin govern liquidation; collateral mode and position exposure matter. Cannot replace with fixed equity drawdown stop."
+    },
+    {
+      "id": "S6",
+      "title": "How to Calculate the Margin Requirement on Binance Futures Trading",
+      "url": "https://www.binance.com/en/support/faq/detail/4f83b65d83654b5e933f85ef12bf769d",
+      "verified": "2026-11-13",
+      "page_updated": "2026-01-02",
+      "supports": "Notional and pending orders enter margin requirement, divided by configured leverage; account mode affects formula."
+    },
+    {
+      "id": "S7",
+      "title": "What Fees are Generated in Binance Futures Trading?",
+      "url": "https://www.binance.com/en/support/faq/detail/98488a516eb84e3eb34605683dffd554",
+      "verified": "2026-11-13",
+      "page_updated": "2026-01-05",
+      "supports": "Commission, funding, and liquidation insurance-clearance fees are distinct."
+    }
+  ],
+  "fee_evidence": {
+    "per_side_comparison_assumption": 0.0005,
+    "execution_liquidity": "taker on entry and exit",
+    "official_example_consistent": true,
+    "current_rate_table_verified": false,
+    "account_rate_verified": false,
+    "historical_schedule_reconstructed": false,
+    "bnb_discount_assumed": false,
+    "vip_discount_assumed": false,
+    "rebates_assumed": false
+  },
+  "slippage_evidence": {
+    "per_side_comparison_assumption": 0.0005,
+    "measured_historical_order_book": false,
+    "quote_to_trade_spread_separately_modelled": false,
+    "interpretation": "Fixed adverse total execution-price allowance. No extra spread deduction to avoid undisclosed double count; queue, partial fills and event-dependent impact remain unverified."
+  },
+  "funding": {
+    "historical_rates_used": true,
+    "formula": "side * quantity * funding-minute mark open * archived settled rate",
+    "raw_timestamp_retained_but_minute_bucketed": true,
+    "same_minute_ambiguous_income_credit": false,
+    "missing_held_coverage": "scenario invalid, never zero fill",
+    "forecast_used_for_entry": false,
+    "ex_ante_risk_reserve": false,
+    "coverage_validation_uses_future_neighbour": "Yes, post-hoc coverage audit only, not ranking/entry."
+  },
+  "execution": {
+    "earliest": "next bar open after completed signal; scenario delay is additional whole minutes",
+    "seconds_verified": false,
+    "stop_trigger": "trade-price minute high/low, not mark-price trigger",
+    "same_bar_stop_target": "stop first",
+    "gap_execution": "next raw open with adverse slippage",
+    "intrabar_timestamp": "minute end for ledger; true within-minute sequence unknown",
+    "partial_fill_model": false,
+    "order_capacity": "<=0.1% previous completed minute quote volume, an assumed cap not a fill guarantee",
+    "minimum_notional_usdt_approximation": 10,
+    "tick_step_rounding": false,
+    "historical_contract_filter_reconstruction": false
+  },
+  "risk_and_leverage": {
+    "gross_notional_entry_cap_equity_multiple": 1,
+    "single_position_entry_cap_equity_multiple": 0.5,
+    "continuous_rebalance_to_cap": false,
+    "position_margin_bookkeeping": "entire entry notional reserved; not a full exchange isolated/cross margin engine",
+    "normal_trade_risk_equity_fraction": 0.0025,
+    "aggregate_planned_risk_fraction": 0.005,
+    "correlated_or_unknown_second_position_risk_fraction": 0.0025,
+    "maximum_slots": 2,
+    "equity_daily_pause_fraction": 0.015,
+    "new_risk_halving_drawdown_fraction": 0.05,
+    "permanent_pause_drawdown_fraction": 0.08,
+    "exchange_maintenance_tiers": false,
+    "liquidation_and_clearance_fee_engine": false,
+    "dynamic_5x_active": false
+  },
+  "existing_diagnostics": {
+    "fixed_horizon_minutes": 30,
+    "cost": "flat subtraction of 20bp",
+    "funding_included": false,
+    "portfolio_constraints": false,
+    "interpretation": "Signal markout diagnostic only; not a full net tradable strategy or account CAGR."
+  },
+  "freeze_recommendation": {
+    "main_scenario": "main",
+    "all_scenarios": [
+      {
+        "id": "main",
+        "fee_per_side": 0.0005,
+        "adverse_slippage_per_side": 0.0005,
+        "extra_delay_minutes": 0,
+        "approx_roundtrip_bps_ex_funding": 20
+      },
+      {
+        "id": "fee2",
+        "fee_per_side": 0.001,
+        "adverse_slippage_per_side": 0.0005,
+        "extra_delay_minutes": 0,
+        "approx_roundtrip_bps_ex_funding": 30
+      },
+      {
+        "id": "fee3",
+        "fee_per_side": 0.0015,
+        "adverse_slippage_per_side": 0.0005,
+        "extra_delay_minutes": 0,
+        "approx_roundtrip_bps_ex_funding": 40
+      },
+      {
+        "id": "slip2",
+        "fee_per_side": 0.0005,
+        "adverse_slippage_per_side": 0.001,
+        "extra_delay_minutes": 0,
+        "approx_roundtrip_bps_ex_funding": 30
+      },
+      {
+        "id": "delay1",
+        "fee_per_side": 0.0005,
+        "adverse_slippage_per_side": 0.0005,
+        "extra_delay_minutes": 1,
+        "approx_roundtrip_bps_ex_funding": 20
+      }
+    ],
+    "fixed_signal_cost_gate": "At signal and arrival, 2*stop_fraction >=0.006 for every scenario; deliberately fixed at original main-cost gate. It is not net expected return and not recalculated to improve stress results.",
+    "same_cost_for_all_candidates_and_baselines": true,
+    "same_market_and_exit_rules": true,
+    "funding": "Use historical signed settlement in account replay, preserve same-minute conservative convention for comparability; separate amount affected by ambiguity.",
+    "higher_cost_scenarios_are_actual_tariffs": false,
+    "stress_order_size": "Recompute size from each scenario cost per same risk-budget equation, as existing engine does; this is equal planned-risk comparison, not identical-quantity cost attribution.",
+    "future_changes": "A new historically valid cost/filter/latency implementation must get a new version and re-run baseline and all candidates on the same costs and data; no replacement of archived results."
+  },
+  "blockers_for_live_or_leveraged_claims": [
+    "No actual account commission schedule or historical fee-rule reconstruction.",
+    "No historical executable bid/ask depth and observed order latency/fill quality.",
+    "No historical tick, lot, market-lot and symbol-specific minimum-notional reconstruction.",
+    "No full exchange margin tiers, liquidation, clearance fees, ADL or risk-model implementation.",
+    "No ex-ante funding reserve; mark-minute approximation and settlement ordering ambiguity."
+  ],
+  "research_status": "May proceed to causal feature diagnostics and explicit approximate 1x comparisons. These limitations block verified live-execution / 5x safety claims, not phase1 registration. Current paper simulator remains unchanged.",
+  "evidence_lines": {
+    "commission_slippage": "engine.py:99-111,158,175-181",
+    "funding": "engine.py:28-55,135-138,194-206",
+    "risk_and_capacity": "engine.py:163-185",
+    "pauses": "engine.py:122-138",
+    "stress_not_liquidation": "engine.py:187-193,219-222",
+    "diagnostics": "signal_diagnostics.py:21-31"
+  }
+}

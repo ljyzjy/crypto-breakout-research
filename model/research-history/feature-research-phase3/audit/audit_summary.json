@@ -1,0 +1,145 @@
+{
+  "completed_utc": "2026-11-13T14:32:12.936635+00:00",
+  "implementation_audit_passed_with_scope_limits": true,
+  "performance_goal_achieved": false,
+  "selected_feature_groups": [],
+  "enhanced_candidates_run": 0,
+  "synthetic_method_checks": 6,
+  "synthetic_execution_checks": 5,
+  "real_checks": {
+    "groups_masks_scalers_FE_coefficients_and_bootstrap": 6,
+    "label_samples_three_horizons": 84,
+    "label_error_max_bp": 0.0,
+    "known_time_event_candidates": 2282,
+    "hour_ranks_rebuilt": 27014,
+    "all_mapped_symbols": 60,
+    "structural_stop_samples": 134,
+    "ema_prefix_checks": 18,
+    "trade_ledgers": 865,
+    "funding_source_records": 38,
+    "full_minute_equity_rows": 2160000,
+    "maximum_equity_error_usdt": 1.4779288903810084e-12
+  },
+  "findings_and_corrections": [
+    {
+      "id": "funding_exit_coverage",
+      "status": "fixed_and_synthetic_verified",
+      "finding": "Scheduled/gap open exits previously bypassed held funding coverage audit. Every cost branch now invalidates missing coverage before such exit."
+    },
+    {
+      "id": "funding_stress",
+      "status": "fixed_and_synthetic_and_real_verified",
+      "finding": "Intraminute stress previously omitted current-minute funding. Actual signed charges and ambiguity convention now included; actual stress rebuilt independently."
+    },
+    {
+      "id": "ema_supplement_scope",
+      "status": "fixed_with_superseded_attempt_retained",
+      "finding": "EMA initially read four settlement-only post-pool files. Uses Phase2 normalized feature source now. Correctness change, not performance selection."
+    },
+    {
+      "id": "symbol_contract_shards",
+      "status": "fixed_and_full_rank_and_all60_verified",
+      "finding": "Hourly artifact filename is spot symbol, not mapped contract. Three 1000-unit mappings were silently missing. All 60 now validated; 2282 rather than 2221 event candidates."
+    },
+    {
+      "id": "known_quarantine_rank",
+      "status": "fixed_and_independent_rank_rebuilt",
+      "finding": "A known quarantined asset still occupied eight top3 slots. Remove only at hourly timestamps >= known_ts before ranking; one legal replacement. No retroactive exclusion before knowledge."
+    },
+    {
+      "id": "exposure_metadata",
+      "status": "append_correction_retained",
+      "finding": "The second-attempt freeze false outcome-seen field was too broad. Its appended correction and final freeze explicitly disclose exposure to superseded outcomes."
+    }
+  ],
+  "unresolved_implementation_findings_in_audited_scope": [],
+  "not_established": [
+    "Unseen future statistical confirmation",
+    "Profitable incremental feature or enhanced strategy",
+    "Continuously operating drawdown below15% without permanent shutdown",
+    "Validated annualized capability from300 days",
+    "Actual user VIP/historical fees, measured orderbook slippage, live latency/tick-step/liquidation behavior"
+  ],
+  "risk_interpretation": "Permanent 8% stop and full cash calendar remain. Passing a15% historical drawdown threshold alone is not strategy success.",
+  "research_boundary": "All history was previously explored. Jan-Mar fit, Apr-Jun selection, Jul-Apr retrospective account check; formal future90+90 not activated.",
+  "no_parameter_search": "Four classes of implementation/input corrections applied uniformly with old attempts retained. Superseded returns were seen and transparently disclosed; thresholds/windows/features/selection unchanged.",
+  "preservation": {
+    "provided_by": "root independent verification",
+    "integrity_file": "../integrity_validation.json",
+    "protection_file": "../protection_validation.json",
+    "phase2_frozen_files_checked": 1424,
+    "old_source_config_metadata_files_checked": 974,
+    "unchanged": true,
+    "paper_database_accessed": false
+  },
+  "versions": {
+    "root_protocol_sha256": "2eddf317fe60e07894a2e53b77738e1ab7ee03273998b6a786a333eddcb48013",
+    "market_manifest_sha256": "3d1b11f20a7e458f262008066552d1b5027bbdec56090c72a1aaa8cf9394831f",
+    "incremental_methods_sha256": "217da3a32659d9fe22921545052a262ed4a609805b405a9890efc5b9efcf2267",
+    "engine_sha256": "b04bb6c87762e63003f2440d2d0f97681d33070ca6aa0dd2ac65cec90bcc5a77",
+    "account_market_sha256": "15d04881b1f9aaed874cf80593242f979221c3f1454c73f62b236f78a386877b",
+    "execution_freeze_sha256": "b4735b412550ef248998e862c586fee2346cebced087e1d2fdd374775e0334c1"
+  },
+  "scenario_audit": [
+    {
+      "scenario": "main",
+      "trades": 219,
+      "funding_events": 9,
+      "net_return_pct": -7.696967700238854,
+      "max_drawdown_pct": 8.016469137988146,
+      "stress_drawdown_pct": 8.016469137988269,
+      "curve_max_abs_error_usdt": 1.4779288903810084e-12,
+      "calendar_minutes": 432000,
+      "full_ledger_source_exit_and_entry_checks_passed": true,
+      "permanent_halt_ts": 1754050260000
+    },
+    {
+      "scenario": "fee2",
+      "trades": 170,
+      "funding_events": 5,
+      "net_return_pct": -7.842643777123559,
+      "max_drawdown_pct": 8.033221322872375,
+      "stress_drawdown_pct": 8.033221322872352,
+      "curve_max_abs_error_usdt": 6.821210263296962e-13,
+      "calendar_minutes": 432000,
+      "full_ledger_source_exit_and_entry_checks_passed": true,
+      "permanent_halt_ts": 1753511820000
+    },
+    {
+      "scenario": "fee3",
+      "trades": 136,
+      "funding_events": 5,
+      "net_return_pct": -7.961088816963335,
+      "max_drawdown_pct": 8.029645088068982,
+      "stress_drawdown_pct": 8.02964508806907,
+      "curve_max_abs_error_usdt": 1.1368683772161603e-12,
+      "calendar_minutes": 432000,
+      "full_ledger_source_exit_and_entry_checks_passed": true,
+      "permanent_halt_ts": 1753094280000
+    },
+    {
+      "scenario": "slip2",
+      "trades": 158,
+      "funding_events": 7,
+      "net_return_pct": -8.046603071477964,
+      "max_drawdown_pct": 8.046603071477964,
+      "stress_drawdown_pct": 8.046603071477898,
+      "curve_max_abs_error_usdt": 1.1368683772161603e-12,
+      "calendar_minutes": 432000,
+      "full_ledger_source_exit_and_entry_checks_passed": true,
+      "permanent_halt_ts": 1753490340000
+    },
+    {
+      "scenario": "delay1",
+      "trades": 182,
+      "funding_events": 12,
+      "net_return_pct": -7.569957083223655,
+      "max_drawdown_pct": 8.051222195850748,
+      "stress_drawdown_pct": 8.069743819206476,
+      "curve_max_abs_error_usdt": 7.958078640513122e-13,
+      "calendar_minutes": 432000,
+      "full_ledger_source_exit_and_entry_checks_passed": true,
+      "permanent_halt_ts": 1753912920000
+    }
+  ]
+}

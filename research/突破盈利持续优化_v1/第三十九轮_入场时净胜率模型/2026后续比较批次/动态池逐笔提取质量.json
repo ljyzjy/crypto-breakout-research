@@ -1,0 +1,15 @@
+{
+  "candidate_events": 93,
+  "event_statuses": {
+    "flow_filter_not_met": 51,
+    "qualified": 30,
+    "minute_trade_ohlc_mismatch": 10,
+    "known_risk_rejected": 2
+  },
+  "unexpected_event_count": 10,
+  "variant_paths": 108,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "model_decision_sha256": "649d007c6ad5393b3e3c38a28d15dcbfa8a9284cf5a5f1dc6f6d86213c8600c8",
+  "note": "All original paths included as baseline; model decisions were frozen before this batch was built."
+}

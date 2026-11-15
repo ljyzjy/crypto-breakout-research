@@ -1,0 +1,30 @@
+{
+  "all_checks_pass": true,
+  "groups": [
+    {
+      "year": "2024",
+      "strategy": "baseline",
+      "captured": 11,
+      "net_wins": 8
+    },
+    {
+      "year": "2024",
+      "strategy": "single_retest",
+      "captured": 13,
+      "net_wins": 10
+    },
+    {
+      "year": "2026",
+      "strategy": "baseline",
+      "captured": 4,
+      "net_wins": 2
+    },
+    {
+      "year": "2026",
+      "strategy": "single_retest",
+      "captured": 4,
+      "net_wins": 2
+    }
+  ],
+  "note": "Conditional on future candle close; not an entry signal or strategy-level win rate."
+}

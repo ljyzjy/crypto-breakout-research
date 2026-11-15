@@ -1,0 +1,25 @@
+{
+  "selected": "touch_3r",
+  "target_r": 3.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "touch_3r",
+    "target_r": 3.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 146,
+    "h1_2024_net": -70.96480100374822,
+    "h1_2024_win_rate": 21.232876712328768,
+    "may_jul_2026_trades": 42,
+    "may_jul_2026_net": -11.144770952327008,
+    "may_jul_2026_win_rate": 23.809523809523807,
+    "pooled_trades": 188,
+    "pooled_win_rate": 21.80851063829787,
+    "pooled_profit_factor": 0.6040468907341576,
+    "minimum_period_net": -70.96480100374822,
+    "sum_period_net": -82.10957195607523
+  },
+  "plan_sha256": "595406d0f80fd635063a8bd9acf3f2b9a3a3cc1c77acf81070607b000c1c786b",
+  "training_sha256": "6dba16f908a77ad717b8c486a750bfb198bcefcab01c7adc745f0adccc0a6aae",
+  "limit": "5s public-trade reference and minute-level exits; account decisions within each minute are approximate."
+}

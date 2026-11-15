@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-11-15T11:13:47.951635+00:00",
+  "files": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十一轮_事后退出可行上界\\研究方案.md": "0f9f76e4f6cdd4d3f647085aa95052417787c0e10cb3a61e40ea4f32abf096fe",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十一轮_事后退出可行上界\\oracle_exit.py": "27df280107838f88e9e6a35cd8c684e9ccacbaa71781a0f75526dcb3730a2ad2",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十一轮_事后退出可行上界\\test_oracle_exit.py": "4b070103f95ee8acd6bcbe2560a3465870e038d0a4150becdd3eb55757a617f0",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十一轮_事后退出可行上界\\退出上界合成核验.json": "3bd717e648c7b8a4f7e5aeec88ba9b35e57fb930bb9dd6baf8b6f61fe24670b7",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\研究冻结.json": "87f498bcb4ffdcde43fec59af1263476e89ec07fa51d8f58b7feab721475631f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\run_raw_2022.py": "63261381e042eaf67741b2f4706ea4a0de74da8021dfe86dd36abf3bfbe95fa5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\候选状态与单位账本.csv": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔汇总.json": "7a914742f17f61306f6aa211a89174d256290ea6ee117df1824887bf35beb12b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔汇总独立核验.json": "1527eb163241b716d007b182883cdf8636e818c9dd3368b2afd2cda937fbbb91",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\风险来源与账本独立核验.json": "ffa92b7248f5dcb8f13f50c96bdb98904354bc9d6b65c680ebc88c8b72c8dc81",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\单位净收益与风险.parquet": "962afb7a9c010e926ae063d766002c2f8422c2d35acd7047345bffc782332116",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\风险来源与结算.json": "7809290c4ccdc097c5b7654b04fe1d46f100f254e6f434f33d6b83a753547ec9",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\run_exit.py": "dac6b343bc55b29328ba2b026a2e918b0c82d911a2eba165dec7ad2977ab976a",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\候选数据\\固定十一币双币过滤潜在触价.parquet": "9c2955d955523982b6ea94a57ab05256c495b49f198f65fdfb95d38dabe38be5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零四轮_同秒成交加速门\\研究冻结.json": "1763f5d01190bc57a2b89374a15cb6c39eaa2b15a3ba8f245ba50e05c3bd8964"
+  },
+  "code_sha256": "005274217fcb52e4a010df51c416fd04c3af98385d33a927211d4c5a66349f59",
+  "note": "Optimistic hindsight bound, not an executable rule."
+}

@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "known_paths_checked": 226,
+  "summary_groups_checked": 8,
+  "result_sha256": "e608c325dd78974e2980e13acc37aa35014aed6a53ec22bc28bf94bd7a3c7b57",
+  "detail_sha256": "1a83ef03a39625f3a3f75f0bc7df8a0b63392bc5390136312c906b4481bf5434",
+  "code_sha256": "e560607fd0165119b7537d0a8e75b3c07c7c723eac26599b94c92f44aec83f2f",
+  "note": "Independent frozen-Parquet gate and arithmetic; unknown source paths and non-blind sampling persist."
+}

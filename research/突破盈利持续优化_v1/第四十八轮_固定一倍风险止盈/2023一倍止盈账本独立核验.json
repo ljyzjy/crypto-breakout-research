@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "audited_1r_ledger_paths": 119,
+  "matched_risk_archives": 70,
+  "maximum_net_fraction_error": 0.0,
+  "note": "Known paired opportunities only; account-level outcomes were not simulated."
+}

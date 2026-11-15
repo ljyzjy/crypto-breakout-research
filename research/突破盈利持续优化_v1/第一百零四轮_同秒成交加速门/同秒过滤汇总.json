@@ -1,0 +1,313 @@
+{
+  "rows": [
+    {
+      "leverage": 10,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.05,
+      "trades": 133,
+      "net_wins": 33,
+      "net_win_rate_pct": 24.81203007518797,
+      "mean_net_pct_notional": -0.2652564912007065,
+      "profit_factor": 0.48686732827533796,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.075,
+      "trades": 133,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.06015037593985,
+      "mean_net_pct_notional": -0.29027388131778736,
+      "profit_factor": 0.4583879172044281,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.1,
+      "trades": 133,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.06015037593985,
+      "mean_net_pct_notional": -0.31529127143486824,
+      "profit_factor": 0.43189873972224757,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.05,
+      "trades": 131,
+      "net_wins": 33,
+      "net_win_rate_pct": 25.19083969465649,
+      "mean_net_pct_notional": -0.25816033937656585,
+      "profit_factor": 0.4974313776548587,
+      "active_utc_days": 94,
+      "known_no_order": 177,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.075,
+      "trades": 131,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.427480916030536,
+      "mean_net_pct_notional": -0.28318040098253533,
+      "profit_factor": 0.46830712792764184,
+      "active_utc_days": 94,
+      "known_no_order": 177,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.1,
+      "trades": 131,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.427480916030536,
+      "mean_net_pct_notional": -0.3082004625885048,
+      "profit_factor": 0.44122048483170684,
+      "active_utc_days": 94,
+      "known_no_order": 177,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.05,
+      "trades": 128,
+      "net_wins": 32,
+      "net_win_rate_pct": 25.0,
+      "mean_net_pct_notional": -0.28602945108068956,
+      "profit_factor": 0.42194666343402865,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.075,
+      "trades": 128,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.21875,
+      "mean_net_pct_notional": -0.3110510981174579,
+      "profit_factor": 0.3945774663448227,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "baseline",
+      "exit_slippage_pct": 0.1,
+      "trades": 128,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.21875,
+      "mean_net_pct_notional": -0.33607274515422625,
+      "profit_factor": 0.3692035742856212,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.05,
+      "trades": 126,
+      "net_wins": 32,
+      "net_win_rate_pct": 25.396825396825395,
+      "mean_net_pct_notional": -0.2789814354520986,
+      "profit_factor": 0.43190344777441325,
+      "active_utc_days": 91,
+      "known_no_order": 182,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.075,
+      "trades": 126,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.603174603174605,
+      "mean_net_pct_notional": -0.30400592755937317,
+      "profit_factor": 0.4038490417421742,
+      "active_utc_days": 91,
+      "known_no_order": 182,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "cohort": "same_phase_gate",
+      "exit_slippage_pct": 0.1,
+      "trades": 126,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.603174603174605,
+      "mean_net_pct_notional": -0.3290304196666477,
+      "profit_factor": 0.37784405583663006,
+      "active_utc_days": 91,
+      "known_no_order": 182,
+      "unknown_candidates": 2
+    }
+  ],
+  "ex_post_candle_groups": [
+    {
+      "leverage": 10,
+      "label": "large_aligned",
+      "gate_category": "trade",
+      "trades": 24,
+      "net_wins": 15,
+      "mean_net_pct_notional": 0.42738300161384213
+    },
+    {
+      "leverage": 10,
+      "label": "large_aligned",
+      "gate_category": "no_order",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 10,
+      "label": "large_aligned",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 10,
+      "label": "other",
+      "gate_category": "trade",
+      "trades": 107,
+      "net_wins": 18,
+      "mean_net_pct_notional": -0.41192707006600315
+    },
+    {
+      "leverage": 10,
+      "label": "other",
+      "gate_category": "no_order",
+      "trades": 2,
+      "net_wins": 0,
+      "mean_net_pct_notional": -0.7300544356819194
+    },
+    {
+      "leverage": 10,
+      "label": "other",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 10,
+      "label": "unknown",
+      "gate_category": "trade",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 10,
+      "label": "unknown",
+      "gate_category": "no_order",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 10,
+      "label": "unknown",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "large_aligned",
+      "gate_category": "trade",
+      "trades": 24,
+      "net_wins": 15,
+      "mean_net_pct_notional": 0.42738300161384213
+    },
+    {
+      "leverage": 20,
+      "label": "large_aligned",
+      "gate_category": "no_order",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "large_aligned",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "other",
+      "gate_category": "trade",
+      "trades": 102,
+      "net_wins": 17,
+      "mean_net_pct_notional": -0.44518483240879053
+    },
+    {
+      "leverage": 20,
+      "label": "other",
+      "gate_category": "no_order",
+      "trades": 2,
+      "net_wins": 0,
+      "mean_net_pct_notional": -0.7300544356819194
+    },
+    {
+      "leverage": 20,
+      "label": "other",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "unknown",
+      "gate_category": "trade",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "unknown",
+      "gate_category": "no_order",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    },
+    {
+      "leverage": 20,
+      "label": "unknown",
+      "gate_category": "unknown",
+      "trades": 0,
+      "net_wins": 0,
+      "mean_net_pct_notional": null
+    }
+  ],
+  "candidate_count": 310,
+  "detail_sha256": "4c1711ec275d6b90b2a4617562425e612980715773e948eaf7214b2672a2d6e1",
+  "counts_sha256": "2703d3caf4c2512e8c09d7b776e773ea01ef82ce8c237c97b5c11ff92eb7b548",
+  "count_audit_sha256": "30da9dd685d4edcc28a86782209ac46018be698dadc864866a28565abd47579c",
+  "frozen_sha256": "1763f5d01190bc57a2b89374a15cb6c39eaa2b15a3ba8f245ba50e05c3bd8964",
+  "code_sha256": "93097eb717a25850a57dba0c7f0a9973ad1fba3334a975535cdf879c691dd808",
+  "note": "Historical raw-tape counts; post-close candle labels are evaluation only; no floating account equity."
+}

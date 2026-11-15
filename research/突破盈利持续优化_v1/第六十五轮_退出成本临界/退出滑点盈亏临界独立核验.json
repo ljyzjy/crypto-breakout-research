@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 8,
+  "output_sha256": "7b1f72e6d8f773d72a7c5f7b95a0dfaded7acba5c9a850663ba7bf3271264087",
+  "audit_sha256": "ed2c44a0677566b643549ec8f03b4cbf030bb31748efa8a5917b7a55bcbc89e2",
+  "note": "Direct Decimal calculation from original entry/exit ledger, conditional on unchanged signals."
+}

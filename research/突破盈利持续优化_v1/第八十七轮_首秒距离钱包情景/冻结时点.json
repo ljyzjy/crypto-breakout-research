@@ -1,0 +1,35 @@
+{
+  "plan_sha256": "c1ce38c0cfe97ed0b96c3227e6179907675dc9f9731d55bf2380e3b526b1cf84",
+  "sources_sha256": {
+    "r79_freeze": "9d228efe4cdee8ba0c64c076fad4c0acc1752c6ce557150bab8927e05f9aea33",
+    "r81_complete_snapshot": "16883d773d9555e7db160489f63a056cda88492bc438e61e440aca96cdc8736c",
+    "r82_detail": "97c6d6597cd08f5d040a027461e15edea827763eb21da11209ff2e69a6066b0a",
+    "r85_freeze": "79af5410274cacfaef23a899dc7e9d1620e3693e46347db101b2e6a496f2d2ad",
+    "r85_audit_code": "8f650052fe09a7c43b7fd1b236e9cc2c01c3c122b0a3559973b7375eb605d33c",
+    "r85_engine": "fdaf536b9116dc57aaf834a736f84a335d41beaa23df64a9e03975a35d5ecb4d",
+    "r85_test": "db86a814d3ca6cff98e7f7b6076639ec7dbdb7a7f264cf2a43e82d66eac3dfdb",
+    "r85_summary": "911c90e49fc762b2be7223d510e7f6cb5ee0678a4473d6d3fe9c2b88acc54432",
+    "r85_audit": "cfc94d3b46377549ee6eb0e4344a3919b19691404ef3ea6317d2d14825eac350",
+    "r86_freeze": "4c08e8e644ef5e43c1d792ca1ff440a2da89984e6f4cb392c8adf802883c0e80",
+    "r86_detail": "c5a73b28cb20513099faa64a81eacac6578a4bdfe999cf4dbb4e8e40b0c2b9fb",
+    "r86_summary": "20ac966534639579e4bce66bee307f8391489e0e1b52bd96843ff7981c1d580a",
+    "r86_audit": "f5a1fab9c68db7ef28cc8c5b40cde8ad68b5e06dec6b7334ec4ba6720def2024"
+  },
+  "source_paths": {
+    "r79_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十九轮_完成周线趋势\\冻结时点.json",
+    "r81_complete_snapshot": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十一轮_八至十月一秒观察\\冻结结果\\冻结哈希.json",
+    "r82_detail": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\四时段持仓量已核验逐笔.csv",
+    "r85_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\冻结结果\\冻结哈希.json",
+    "r85_audit_code": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\audit_wallet.py",
+    "r85_engine": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\wallet_simulator.py",
+    "r85_test": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\钱包时序合成核验.json",
+    "r85_summary": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\共享钱包情景汇总.json",
+    "r85_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十五轮_共享资金条件模拟\\共享钱包独立核验.json",
+    "r86_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\冻结结果\\冻结哈希.json",
+    "r86_detail": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\首秒距离逐笔.csv",
+    "r86_summary": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\首秒距离跨期对照.json",
+    "r86_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\首秒距离独立核验.json"
+  },
+  "frozen_utc": "2026-11-14T20:12:04.930732+00:00",
+  "note": "Fixed wallet rules after observing the extension gate historical unit results."
+}

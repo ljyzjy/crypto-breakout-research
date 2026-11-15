@@ -1,0 +1,16 @@
+{
+  "candidate_events": 765,
+  "source_checkpoint_tasks": 531,
+  "strict_raw_reconciled_events": 8,
+  "event_statuses": {
+    "flow_filter_not_met": 420,
+    "qualified": 265,
+    "minute_trade_ohlc_mismatch": 48,
+    "known_risk_rejected": 32
+  },
+  "unexpected_event_count": 48,
+  "variant_paths": 1034,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "All predeclared backup training candidates present; shared events passed causal-input parity; no validation data in batch."
+}

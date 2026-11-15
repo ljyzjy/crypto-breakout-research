@@ -1,0 +1,44 @@
+{
+  "independent_retry_ledger_paths": 35,
+  "maximum_net_fraction_error": 0.0,
+  "groups": [
+    {
+      "year": "2023",
+      "strategy": "baseline",
+      "leverage": 10,
+      "verified": 42,
+      "wins": 8,
+      "unknown": 19,
+      "added": 0
+    },
+    {
+      "year": "2023",
+      "strategy": "single_retest",
+      "leverage": 10,
+      "verified": 60,
+      "wins": 12,
+      "unknown": 19,
+      "added": 18
+    },
+    {
+      "year": "2023",
+      "strategy": "baseline",
+      "leverage": 20,
+      "verified": 42,
+      "wins": 8,
+      "unknown": 19,
+      "added": 0
+    },
+    {
+      "year": "2023",
+      "strategy": "single_retest",
+      "leverage": 20,
+      "verified": 59,
+      "wins": 12,
+      "unknown": 19,
+      "added": 17
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Original and retry opportunities remain unit paths, not concurrent account fills."
+}

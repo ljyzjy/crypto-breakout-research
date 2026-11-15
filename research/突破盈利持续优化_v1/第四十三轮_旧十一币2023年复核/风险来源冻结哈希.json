@@ -1,0 +1,101 @@
+{
+  "plan_sha256": "5708b819f1939424b285906975846bff85a399a531d3385cd41ef07a4a11e2ae",
+  "sources": {
+    "BTCUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BTCUSDT_markPriceKlines.parquet",
+      "sha256": "1190a6c7998a0eb3576f0eba5481df952b787f7c785de4be39d4f949bf80abe9"
+    },
+    "BTCUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BTCUSDT_fundingRate.parquet",
+      "sha256": "08bc08953bf73456b33408fe364cad378b2344e657ddc1f75451c2cd18138c75"
+    },
+    "ETHUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ETHUSDT_markPriceKlines.parquet",
+      "sha256": "f953997aa1cdf33635917ce357c086a84c7eb217dea290094b4e0d02f493d9c3"
+    },
+    "ETHUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ETHUSDT_fundingRate.parquet",
+      "sha256": "d10ab2c991fbad70754ac5e9bbc68865a02a5617d75a7d3d75af809aadf5bc39"
+    },
+    "SOLUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\SOLUSDT_markPriceKlines.parquet",
+      "sha256": "348b4bfdad747a5d4a66e7b2b99e42374e7d866772a33fadd0e98f1d73ff3dad"
+    },
+    "SOLUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\SOLUSDT_fundingRate.parquet",
+      "sha256": "4ee59c9297e09482083c37bda0ef97dca4a85cd3e02c5146494c39ddcfbcdce1"
+    },
+    "XRPUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\XRPUSDT_markPriceKlines.parquet",
+      "sha256": "84b5b79430045cf298d7d43e14b9743f4777c8014214daa07390abbfc34b53e0"
+    },
+    "XRPUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\XRPUSDT_fundingRate.parquet",
+      "sha256": "7f64dbc17c751b188ae8b6504b58f53702db3dac591e8b1963d63b27fd358cfe"
+    },
+    "DOGEUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\DOGEUSDT_markPriceKlines.parquet",
+      "sha256": "d387aa52fb05ec9602fda6cc6dc06be89f64c2d30c4bcfd77802e2ead68ee3ce"
+    },
+    "DOGEUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\DOGEUSDT_fundingRate.parquet",
+      "sha256": "40056e6eb3aa96445d46c314ee3b4fc590b7c537be8a1dc2e19e32ee2fb11b3b"
+    },
+    "BNBUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BNBUSDT_markPriceKlines.parquet",
+      "sha256": "95b45d7c6645fa004c787e70e3f737b43b74eeb77238816fb5ab13db5832f4c6"
+    },
+    "BNBUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BNBUSDT_fundingRate.parquet",
+      "sha256": "b810407fbef6bfb9f1aceabf8eefa0f80e075eecbaec041314720473dc252410"
+    },
+    "ADAUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ADAUSDT_markPriceKlines.parquet",
+      "sha256": "2153804c6b0a20c94780c3c9cca461b5f809f0333d0afa9c39db314fd561018f"
+    },
+    "ADAUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ADAUSDT_fundingRate.parquet",
+      "sha256": "bb784ae912ad39c49587af6a6f9b51b309bf143c83c9ee44dbb5c10f4877c293"
+    },
+    "LINKUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LINKUSDT_markPriceKlines.parquet",
+      "sha256": "bb7cb7e6f27ba576d275fed55b6ac658250a5238cc978c836870f0ed4f0b138c"
+    },
+    "LINKUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LINKUSDT_fundingRate.parquet",
+      "sha256": "2af0d4202ce193143c94708790a82e02d0839b1b379d01e03b45349d0fb3aacf"
+    },
+    "AVAXUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\AVAXUSDT_markPriceKlines.parquet",
+      "sha256": "662dc5cac8b35988c930619ccc6ca8e5cc1bf72a66f8cfe2c9cbf7f259aed894"
+    },
+    "AVAXUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\AVAXUSDT_fundingRate.parquet",
+      "sha256": "c2cd873804741fe1dc5ced4acb770f966e5494576fcd919e0ad9737dcb6ddd1c"
+    },
+    "LTCUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LTCUSDT_markPriceKlines.parquet",
+      "sha256": "5bb21eea6c4fd75b450cc260a93d7e75c52f10bb07604708220f42cf4b491f60"
+    },
+    "LTCUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LTCUSDT_fundingRate.parquet",
+      "sha256": "f9b6ce8248bf3af9b18096adb6ad53022465147bf9ef6abe3a7becae2891a333"
+    },
+    "NEARUSDT_markPriceKlines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\NEARUSDT_markPriceKlines.parquet",
+      "sha256": "fce60dc0031ac226c5deabc9fbd1e0c77bf4f726acd59f65b939344b9be005ff"
+    },
+    "NEARUSDT_fundingRate.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\NEARUSDT_fundingRate.parquet",
+      "sha256": "b2f593135d1d57e4de107215e6e1b5bfa82c44caf2ad31eedd912606b909bde8"
+    },
+    "official_manifest.json": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第二轮_成本空间与即时成交\\2023公开档案校验清单.json",
+      "sha256": "6db15bc1a6a9a83b165b0918b677e111accbc2277320d9ca23e218975b203520"
+    },
+    "repair_manifest.json": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第二轮_成本空间与即时成交\\2023日档修复记录.json",
+      "sha256": "978f047ebeaad583dc8d8cb2e6c11139271db06b26400fc6628bce1db17140fa"
+    }
+  }
+}

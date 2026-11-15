@@ -1,0 +1,26 @@
+{
+  "sampled_events": 4,
+  "checked": [
+    {
+      "observation_id": "opening|ADAUSDT|1704670200000|-1",
+      "contract": "ADAUSDT",
+      "day": "2024-01-07"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1716296400000|1",
+      "contract": "DOGEUSDT",
+      "day": "2024-05-21"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1706238000000|1",
+      "contract": "SOLUSDT",
+      "day": "2024-01-26"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1785292200000|1",
+      "contract": "XRPUSDT",
+      "day": "2026-07-29"
+    }
+  ],
+  "limit": "Sample rereads public archive; does not establish actual order fills or intraminute mark paths."
+}

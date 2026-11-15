@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "groups_checked": 24,
+  "result_sha256": "5f7ef894927a63974eae6fa10746252a5021e0ba2492d25a02fde2cbc0b6c9e2",
+  "audit_code_sha256": "d43310a4058a96db4c03a43da7a3bc379356eae13242492b2faee3cb58c16365",
+  "note": "Independent arithmetic on audited matched entries, no account simulation."
+}

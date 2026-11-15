@@ -1,0 +1,15 @@
+{
+  "plan_sha256": "7937847c01de70035de9d3beb8b8d195140207c448eaed1e6309a6b244c9e3ec",
+  "inputs": {
+    "comparison.json": "9e6a64636fc6b3b7291911cb010a1619d9c0f625fd292907f1a5b46155c7af74",
+    "audit.json": "7d80e8ec2eb4ef02c1660a66c23dd6b480964ecae3956b64fa1ac2e2195d3498",
+    "minute_sources.json": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "2024_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "2024_baseline_ledger.parquet": "61b420c0fb1040328fa19e0d4783ab3ed08f89338ac260b99f688fbdb8ec4c8e",
+    "2024_retry_ledger.parquet": "8b6ab9f73513a3736082d0422898dd0c238e277eedbb4e3cc01fe4bdd123b1e3",
+    "2026_signal.parquet": "2240ab7e39c47af0c56689205fc5dd76c4dc03a0210f44e91a2551b01ae09c96",
+    "2026_baseline_ledger.parquet": "1f1e91271c34e7fd30b41bc8f4694852ed64dfead1efe4db12dafe0a23479579",
+    "2026_retry_ledger.parquet": "4a16aaecc370cbc000dbe44de30957543f48937b406310790b326950407b555b"
+  },
+  "note": "Post-close labels for descriptive capture only; no future data in entries."
+}

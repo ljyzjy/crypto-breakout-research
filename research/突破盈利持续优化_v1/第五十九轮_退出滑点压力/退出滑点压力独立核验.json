@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "scenario_paths_checked": 363,
+  "aggregate_groups_checked": 12,
+  "result_sha256": "1c2388dee34c2de4cddbfd8e7d960c7e5e63d2a337ff890f7969ca12113484ce",
+  "detail_sha256": "d7745af35b5819788d9c7b1c75fd8943ee3df380908417ee4f18a957530caade",
+  "audit_code_sha256": "0abbe70f7b62da912e1c91b25f4fdd988f52d12f003571ffc6f91f185ecc4389",
+  "note": "Independent Decimal exit cost and aggregation; source ledgers remain frozen."
+}

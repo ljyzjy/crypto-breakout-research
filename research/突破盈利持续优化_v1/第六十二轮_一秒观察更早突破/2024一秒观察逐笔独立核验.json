@@ -1,0 +1,88 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "samples": [
+    {
+      "observation_id": "opening|ADAUSDT|1706657400000",
+      "status": "qualified",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-01-30",
+          "sha256": "db4b3bed9f9982e6def2c75828510a7e258851c21ee363afa7b85f183fea644d",
+          "bytes": 1698728,
+          "windows": {
+            "opening|ADAUSDT|1706657400000": 2262
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1708498800000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-21",
+          "sha256": "08bcf1d675d6423d29357356b2a0a983f7874f702edbcaeadca5113d25ce9396",
+          "bytes": 1139282,
+          "windows": {
+            "opening|NEARUSDT|1708498800000": 1721
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1716465600000",
+      "status": "known_risk_rejected",
+      "paths_checked": 0,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-05-23",
+          "sha256": "7b79c837a5771bbb987edfc145619a2641a77ebeed2070866ae6a47900b93dd4",
+          "bytes": 2016126,
+          "windows": {
+            "opening|LTCUSDT|1716465600000": 3064
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1716353100000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-05-22",
+          "sha256": "5c486500e53fac30bf1dbfcc8805f6d49f3d80abc238871c3e0c423c94c82a86",
+          "bytes": 1141394,
+          "windows": {
+            "opening|LTCUSDT|1716353100000": 1824
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1719786660000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-06-30",
+          "sha256": "f370f3f051c195484568db057490909f287d1038c361f9c8b2279966543861dc",
+          "bytes": 1356627,
+          "windows": {
+            "touch|NEARUSDT|1719786660000": 1712
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 2,
+  "note": "Scalar replay of first cross, 1s flow, prechecks and exit; same-exchange public prints only."
+}

@@ -1,0 +1,25 @@
+{
+  "all_checks_pass": true,
+  "result_sha256": "f02a59c63db8bbe8c7c198d79c2efe05e4a397b40e9448d393697626da7d33cb",
+  "detail_sha256": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+  "analysis_code_sha256": "9fa1b3e2e02b95f121dc2778a5df0bd99caa5d93b74d6868f639e2664d00bf19",
+  "audit_code_sha256": "fc00c2033badb058bd71279013955c8a92f97f5bad4e49b954959f6e0242e4bd",
+  "integer_threshold_tests_pass": true,
+  "groups": [
+    {
+      "leverage": 10,
+      "enumerated_trade_counts": 135,
+      "max_rate_at_n": 100,
+      "optimistic_max_rate_pct": "35",
+      "max_count_above_60": 58
+    },
+    {
+      "leverage": 20,
+      "enumerated_trade_counts": 130,
+      "max_rate_at_n": 100,
+      "optimistic_max_rate_pct": "34",
+      "max_count_above_60": 56
+    }
+  ],
+  "note": "Independent size enumeration and top-100 heap arithmetic; result remains scoped to frozen known paths."
+}

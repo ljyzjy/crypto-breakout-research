@@ -1,0 +1,1923 @@
+{
+  "candidate_paths": 261,
+  "actions": {
+    "original": 176,
+    "one_r_exit": 85
+  },
+  "risk_statuses": {
+    "verified": 261
+  },
+  "cases": [
+    {
+      "observation_id": "opening|ADAUSDT|1642796100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1642796100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1642845600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1642845600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1645671600000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1645672049846,
+      "exit_ts": 1645672055026,
+      "exit_raw": 0.8182,
+      "exit_fill": 0.8186091
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1645671600000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1645672049846,
+      "exit_ts": 1645672055026,
+      "exit_raw": 0.8182,
+      "exit_fill": 0.8186091
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1648256400000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1648256400000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1649203620000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1649203987037,
+      "exit_ts": 1649203992123,
+      "exit_raw": 1.1518,
+      "exit_fill": 1.1523759
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1649203620000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1649203987037,
+      "exit_ts": 1649203992123,
+      "exit_raw": 1.1518,
+      "exit_fill": 1.1523759
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1651824420000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1651824420000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1651976100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1651976100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1654478100000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1654478792057,
+      "exit_ts": 1654478797123,
+      "exit_raw": 0.591,
+      "exit_fill": 0.5907045
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1654478100000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1654478792057,
+      "exit_ts": 1654478797123,
+      "exit_raw": 0.591,
+      "exit_fill": 0.5907045
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1660441500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1660441500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1661153400000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1661153400000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1667779200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1667779200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1669100400000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669100492299,
+      "exit_ts": 1669100497341,
+      "exit_raw": 0.3,
+      "exit_fill": 0.30015
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1669100400000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669100492299,
+      "exit_ts": 1669100497341,
+      "exit_raw": 0.3,
+      "exit_fill": 0.30015
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1642845600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1642845600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1644410700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1644410700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1645346700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1645346700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1647633600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1647633600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1648771200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1648771200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1653554700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1653570900000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1653570961644,
+      "exit_ts": 1653570966710,
+      "exit_raw": 23.12,
+      "exit_fill": 23.13156
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1653570900000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1653570961644,
+      "exit_ts": 1653570966710,
+      "exit_raw": 23.12,
+      "exit_fill": 23.13156
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1654498800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1654498800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1665657000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1665657037433,
+      "exit_ts": 1665657042542,
+      "exit_raw": 14.51,
+      "exit_fill": 14.517255
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1665657000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1665657037433,
+      "exit_ts": 1665657042542,
+      "exit_raw": 14.51,
+      "exit_fill": 14.517255
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1668082500000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668082551547,
+      "exit_ts": 1668082556592,
+      "exit_raw": 14.58,
+      "exit_fill": 14.57271
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1668082500000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668082551547,
+      "exit_ts": 1668082556592,
+      "exit_raw": 14.58,
+      "exit_fill": 14.57271
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1642392000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1642392000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1642836600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1642836600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1653570900000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1653570962218,
+      "exit_ts": 1653570967219,
+      "exit_raw": 297.52,
+      "exit_fill": 297.66876
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1653570900000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1653570962218,
+      "exit_ts": 1653570967219,
+      "exit_raw": 297.52,
+      "exit_fill": 297.66876
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1654101000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1654101000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1655577000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1655577000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1656073800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1656073800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|BNBUSDT|1659211740000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|BNBUSDT|1659211740000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1660743900000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1660743900000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1667114100000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1667114321168,
+      "exit_ts": 1667114326175,
+      "exit_raw": 312.88,
+      "exit_fill": 312.72356
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1667114100000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1667114321168,
+      "exit_ts": 1667114326175,
+      "exit_raw": 312.88,
+      "exit_fill": 312.72356
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1644300600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1644300600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1645499700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1645499700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1655172000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1655172000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1655577000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1655577000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1656635520000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1656635520000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1662697680000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1662697680000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1662701520000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1662701520000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1669122900000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1669122900000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1641529080000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1641529080000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1642391160000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642391921606,
+      "exit_ts": 1642391926608,
+      "exit_raw": 0.17024,
+      "exit_fill": 0.17032512
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1642391160000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642391921606,
+      "exit_ts": 1642391926608,
+      "exit_raw": 0.17024,
+      "exit_fill": 0.17032512
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1642436100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1642436100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1644802200000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1644802336991,
+      "exit_ts": 1644802341993,
+      "exit_raw": 0.14405,
+      "exit_fill": 0.144122025
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1644802200000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1644802336991,
+      "exit_ts": 1644802341993,
+      "exit_raw": 0.14405,
+      "exit_fill": 0.144122025
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1650977100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1650977100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1654261200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1654261200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1655110020000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655110556220,
+      "exit_ts": 1655110561225,
+      "exit_raw": 0.05434,
+      "exit_fill": 0.05436717
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1655110020000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655110556220,
+      "exit_ts": 1655110561225,
+      "exit_raw": 0.05434,
+      "exit_fill": 0.05436717
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1655863200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1655863200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1655930700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1655930700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1656070320000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1656070320000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1656337500000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1656337536902,
+      "exit_ts": 1656337541910,
+      "exit_raw": 0.07315,
+      "exit_fill": 0.073186575
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1656337500000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1656337536902,
+      "exit_ts": 1656337541910,
+      "exit_raw": 0.07315,
+      "exit_fill": 0.073186575
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1659700800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1659700800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1667310360000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1667476080000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1667476080000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1669652100000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669652234115,
+      "exit_ts": 1669652239123,
+      "exit_raw": 0.09136,
+      "exit_fill": 0.09140568
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1669652100000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669652234115,
+      "exit_ts": 1669652239123,
+      "exit_raw": 0.09136,
+      "exit_fill": 0.09140568
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1641142800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1641142800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1641820500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1641820500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1643818500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1643818500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1645996500000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1645996766761,
+      "exit_ts": 1645996771766,
+      "exit_raw": 2558.44,
+      "exit_fill": 2559.71922
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1645996500000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1645996766761,
+      "exit_ts": 1645996771766,
+      "exit_raw": 2558.44,
+      "exit_fill": 2559.71922
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1653613200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1653613200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1654868040000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1654868040000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655271000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655271075408,
+      "exit_ts": 1655271080409,
+      "exit_raw": 1094.99,
+      "exit_fill": 1095.537495
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655271000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655271075408,
+      "exit_ts": 1655271080409,
+      "exit_raw": 1094.99,
+      "exit_fill": 1095.537495
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655577000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655577000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655714700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1655714700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1655913840000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655913862342,
+      "exit_ts": 1655913867359,
+      "exit_raw": 1061.0,
+      "exit_fill": 1061.5305
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1655913840000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655913862342,
+      "exit_ts": 1655913867359,
+      "exit_raw": 1061.0,
+      "exit_fill": 1061.5305
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1656936000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1656936000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1657814580000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1657814580000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1657819800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1657819800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1659664800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1659664800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1661617380000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1661617380000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1662423360000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1662423360000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1666119600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1666119600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1669652340000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1669652340000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1641294000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1641294000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1642836600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1647421500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1647421500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1652187600000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1652187600000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1654820160000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1654820160000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1662998640000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1662998941562,
+      "exit_ts": 1662998946649,
+      "exit_raw": 7.618,
+      "exit_fill": 7.621809
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1662998640000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1662998941562,
+      "exit_ts": 1662998946649,
+      "exit_raw": 7.618,
+      "exit_fill": 7.621809
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1667988600000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1667988843918,
+      "exit_ts": 1667988848918,
+      "exit_raw": 6.375,
+      "exit_fill": 6.3781875
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1667988600000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1667988843918,
+      "exit_ts": 1667988848918,
+      "exit_raw": 6.375,
+      "exit_fill": 6.3781875
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1668980700000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668980996941,
+      "exit_ts": 1668981001942,
+      "exit_raw": 5.793,
+      "exit_fill": 5.7958965
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1668980700000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668980996941,
+      "exit_ts": 1668981001942,
+      "exit_raw": 5.793,
+      "exit_fill": 5.7958965
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1669652100000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669652373058,
+      "exit_ts": 1669652378063,
+      "exit_raw": 6.645,
+      "exit_fill": 6.6483225
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1669652100000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1669652373058,
+      "exit_ts": 1669652378063,
+      "exit_raw": 6.645,
+      "exit_fill": 6.6483225
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1642564020000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1642564020000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1646433000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1646433043689,
+      "exit_ts": 1646433048710,
+      "exit_raw": 99.08,
+      "exit_fill": 99.12954
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1646433000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1646433043689,
+      "exit_ts": 1646433048710,
+      "exit_raw": 99.08,
+      "exit_fill": 99.12954
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1652332500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1652332500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1652857980000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1652857980000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1655271000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655271071736,
+      "exit_ts": 1655271076808,
+      "exit_raw": 42.59,
+      "exit_fill": 42.611295
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1655271000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655271071736,
+      "exit_ts": 1655271076808,
+      "exit_raw": 42.59,
+      "exit_fill": 42.611295
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1655370900000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655371331966,
+      "exit_ts": 1655371337007,
+      "exit_raw": 46.33,
+      "exit_fill": 46.353165
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1655370900000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1655371331966,
+      "exit_ts": 1655371337007,
+      "exit_raw": 46.33,
+      "exit_fill": 46.353165
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1656248760000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1656248760000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1656581400000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1656581400000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1660039200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1660039200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1661517000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1661517051395,
+      "exit_ts": 1661517056423,
+      "exit_raw": 56.69,
+      "exit_fill": 56.661655
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1661517000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1661517051395,
+      "exit_ts": 1661517056423,
+      "exit_raw": 56.69,
+      "exit_fill": 56.661655
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1663785960000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1663785960000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1664060580000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1664060580000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1668230100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1668230100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1671044400000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1671044534183,
+      "exit_ts": 1671044539185,
+      "exit_raw": 75.24,
+      "exit_fill": 75.27762
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1671044400000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1671044534183,
+      "exit_ts": 1671044539185,
+      "exit_raw": 75.24,
+      "exit_fill": 75.27762
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1672005120000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1672005120000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1642801500000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642801639197,
+      "exit_ts": 1642801644275,
+      "exit_raw": 12.561,
+      "exit_fill": 12.5672805
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1642801500000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642801639197,
+      "exit_ts": 1642801644275,
+      "exit_raw": 12.561,
+      "exit_fill": 12.5672805
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646386200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646386200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646433000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646433000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646660700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646660700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646796600000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1646796662389,
+      "exit_ts": 1646796667426,
+      "exit_raw": 10.308,
+      "exit_fill": 10.302846
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1646796600000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1646796662389,
+      "exit_ts": 1646796667426,
+      "exit_raw": 10.308,
+      "exit_fill": 10.302846
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1648893600000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1648894301036,
+      "exit_ts": 1648894306075,
+      "exit_raw": 16.144,
+      "exit_fill": 16.135928
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1648893600000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1648894301036,
+      "exit_ts": 1648894306075,
+      "exit_raw": 16.144,
+      "exit_fill": 16.135928
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1651766880000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1660496400000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1660496463357,
+      "exit_ts": 1660496468626,
+      "exit_raw": 5.531,
+      "exit_fill": 5.5337655
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1660496400000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1660496463357,
+      "exit_ts": 1660496468626,
+      "exit_raw": 5.531,
+      "exit_fill": 5.5337655
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1661022000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1661022000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1663157340000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1663157340000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1668980700000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668980993180,
+      "exit_ts": 1668980998184,
+      "exit_raw": 1.562,
+      "exit_fill": 1.562781
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1668980700000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1668980993180,
+      "exit_ts": 1668980998184,
+      "exit_raw": 1.562,
+      "exit_fill": 1.562781
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1671044400000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1671044400000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1641747600000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1641747674928,
+      "exit_ts": 1641747680054,
+      "exit_raw": 144.25,
+      "exit_fill": 144.177875
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1641747600000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1641747674928,
+      "exit_ts": 1641747680054,
+      "exit_raw": 144.25,
+      "exit_fill": 144.177875
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1642392000000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1642392000000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "original_signal_first"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1642716000000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642716050365,
+      "exit_ts": 1642716055441,
+      "exit_raw": 130.91,
+      "exit_fill": 130.975455
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1642716000000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642716050365,
+      "exit_ts": 1642716055441,
+      "exit_raw": 130.91,
+      "exit_fill": 130.975455
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1643981400000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1643981466203,
+      "exit_ts": 1643981471217,
+      "exit_raw": 102.53,
+      "exit_fill": 102.581265
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1643981400000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1643981466203,
+      "exit_ts": 1643981471217,
+      "exit_raw": 102.53,
+      "exit_fill": 102.581265
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1646140500000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1646140500000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1648554300000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1648554300000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1648903140000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1648903140000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1649203620000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1649203952061,
+      "exit_ts": 1649203957061,
+      "exit_raw": 124.67,
+      "exit_fill": 124.732335
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1649203620000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1649203952061,
+      "exit_ts": 1649203957061,
+      "exit_raw": 124.67,
+      "exit_fill": 124.732335
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1652449920000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1652450080805,
+      "exit_ts": 1652450085824,
+      "exit_raw": 54.99,
+      "exit_fill": 54.962505
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1652449920000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1652450080805,
+      "exit_ts": 1652450085824,
+      "exit_raw": 54.99,
+      "exit_fill": 54.962505
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1654254900000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1654254900000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1656073020000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1656073652587,
+      "exit_ts": 1656073657587,
+      "exit_raw": 41.23,
+      "exit_fill": 41.209385
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1656073020000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1656073652587,
+      "exit_ts": 1656073657587,
+      "exit_raw": 41.23,
+      "exit_fill": 41.209385
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1657819800000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1657819834606,
+      "exit_ts": 1657819839650,
+      "exit_raw": 36.12,
+      "exit_fill": 36.10194
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1657819800000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1657819834606,
+      "exit_ts": 1657819839650,
+      "exit_raw": 36.12,
+      "exit_fill": 36.10194
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1660743900000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1660743988483,
+      "exit_ts": 1660743993491,
+      "exit_raw": 41.27,
+      "exit_fill": 41.290635
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1660743900000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1660743988483,
+      "exit_ts": 1660743993491,
+      "exit_raw": 41.27,
+      "exit_fill": 41.290635
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1666343700000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1666343700000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1667724300000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1667724300000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1671181200000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1671181269603,
+      "exit_ts": 1671181274617,
+      "exit_raw": 13.549,
+      "exit_fill": 13.5557745
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1671181200000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1671181269603,
+      "exit_ts": 1671181274617,
+      "exit_raw": 13.549,
+      "exit_fill": 13.5557745
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1642801500000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642801597837,
+      "exit_ts": 1642801602858,
+      "exit_raw": 0.6327,
+      "exit_fill": 0.63301635
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1642801500000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1642801597837,
+      "exit_ts": 1642801602858,
+      "exit_raw": 0.6327,
+      "exit_fill": 0.63301635
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1645480800000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1645480800000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1655280780000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1655280780000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1663595100000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1663595100000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1664295300000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1664295300000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1664331780000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1664331780000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1664459100000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1664459446828,
+      "exit_ts": 1664459451908,
+      "exit_raw": 0.4281,
+      "exit_fill": 0.42831405
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1664459100000",
+      "variant": "one_observation_2r_20x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1664459446828,
+      "exit_ts": 1664459451908,
+      "exit_raw": 0.4281,
+      "exit_fill": 0.42831405
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1665628200000",
+      "variant": "one_observation_2r_10x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1665628200000",
+      "variant": "one_observation_2r_20x",
+      "action": "original",
+      "reason": "one_r_not_before_original"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1667935800000",
+      "variant": "one_observation_2r_10x",
+      "action": "one_r_exit",
+      "reason": "one_r_target",
+      "exit_signal_ts": 1667935886276,
+      "exit_ts": 1667935891285,
+      "exit_raw": 0.3561,
+      "exit_fill": 0.35627805
+    }
+  ],
+  "ledger_sha256": "d937e08b5c931365c10122fd234a762ff7699303963854fa4ecae6ac72323fcf",
+  "fingerprint": "7c0d588c6a8b45f3ed6875f8ac116f869366ace766d115977d6cf2fc7a9e5a81",
+  "frozen_sha256": "2e6e50bb99e408cbf27740e003900f52c7bcecb4e5fc8a61143b8f472330ce55",
+  "code_sha256": "b88e56d01a359527efff11b97d8bfcd1ff54856e06385ff7a4a7d67b2b51db10",
+  "note": "Checkpointed raw replay only; independent sample, aggregate and wallet audits still required."
+}

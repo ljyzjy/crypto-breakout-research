@@ -1,0 +1,961 @@
+全池选币学术与公开方法优化研究（含每小时换币）
+本轮未证明优化成功，保留原模拟策略
+小时组合版触发既有标记价缺口，481天完整收益无效。2025年与压力情景分别列示；不删币、不更换主要候选、不根据收益改截止日。
+
+主要候选：四因子等权，每小时，1×。14版本×6场景=84；规则与数据先冻结，未重复调参。
+基础成本：1000U；单边手续费0.1%、滑点0.05%、实际永续资金费。压力费率0.2%/0.3%，额外延迟5分钟。
+小时资格池来自前一完整日，排名来自最近已完成小时柱；名次不变不强制换仓。30/60日跨度保持不变。
+完整构成与公式见protocol.json；来源见sources.json。现有模拟保持不变。
+
+方案 | 场景 | 完整有效 | 年化% | 区间收益% | 最大回撤% | 底仓笔数 | 手续费+滑点U
+原较慢动量 · 对照 · 每小时选币 · 1× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 177.808
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 178.569
+动量 + 流动性代理 · 每小时选币 · 1× | main | True | -14.635 | -18.822 | 20.355 | 1086 | 234.378
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | main | True | -15.425 | -19.811 | 21.327 | 1086 | 235.282
+动量 + 趋势连续性 · 每小时选币 · 1× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2355 | 414.735
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2355 | 414.735
+BTC 残差动量 · 每小时选币 · 1× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 193.719
+BTC 残差动量 · 每小时选币 · 动态上限5× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 194.479
+四因子等权 · 主要候选 · 每小时选币 · 1× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 312.858
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | main | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 313.618
+原较慢动量 · 对照 · 每周选币 · 1× | main | True | 5.313 | 7.059 | 5.156 | 144 | 21.595
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | main | True | 1.083 | 1.430 | 6.180 | 144 | 32.446
+四因子等权 · 主要候选 · 每周选币 · 1× | main | True | 3.922 | 5.200 | 7.385 | 134 | 22.198
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | main | True | 1.668 | 2.203 | 7.588 | 134 | 30.721
+原较慢动量 · 对照 · 每小时选币 · 1× | 2025 | True | -12.861 | -12.861 | 14.515 | 871 | 148.804
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | 2025 | True | -13.923 | -13.923 | 15.562 | 871 | 149.564
+动量 + 流动性代理 · 每小时选币 · 1× | 2025 | True | -12.120 | -12.120 | 14.022 | 861 | 174.995
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | 2025 | True | -13.108 | -13.108 | 14.994 | 861 | 175.898
+动量 + 趋势连续性 · 每小时选币 · 1× | 2025 | True | -34.138 | -34.138 | 34.611 | 2060 | 347.824
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | 2025 | True | -34.138 | -34.138 | 34.611 | 2060 | 347.824
+BTC 残差动量 · 每小时选币 · 1× | 2025 | True | -12.868 | -12.868 | 14.554 | 889 | 153.702
+BTC 残差动量 · 每小时选币 · 动态上限5× | 2025 | True | -13.930 | -13.930 | 15.597 | 889 | 154.462
+四因子等权 · 主要候选 · 每小时选币 · 1× | 2025 | True | -23.071 | -23.071 | 24.402 | 1398 | 259.622
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | 2025 | True | -24.133 | -24.133 | 25.451 | 1398 | 260.382
+原较慢动量 · 对照 · 每周选币 · 1× | 2025 | True | 6.621 | 6.621 | 4.712 | 119 | 16.893
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | 2025 | True | 1.479 | 1.479 | 6.180 | 119 | 25.259
+四因子等权 · 主要候选 · 每周选币 · 1× | 2025 | True | 4.804 | 4.804 | 7.385 | 109 | 17.507
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | 2025 | True | 1.807 | 1.807 | 7.588 | 109 | 26.031
+原较慢动量 · 对照 · 每小时选币 · 1× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 144 | 29.584
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 144 | 29.758
+动量 + 流动性代理 · 每小时选币 · 1× | 2026 | True | 无效/不足一年 | -6.993 | 7.497 | 227 | 59.970
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | 2026 | True | 无效/不足一年 | -7.170 | 7.747 | 227 | 60.186
+动量 + 趋势连续性 · 每小时选币 · 1× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 297 | 67.498
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 297 | 67.823
+BTC 残差动量 · 每小时选币 · 1× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 188 | 40.673
+BTC 残差动量 · 每小时选币 · 动态上限5× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 188 | 41.480
+四因子等权 · 主要候选 · 每小时选币 · 1× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 236 | 53.824
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | 2026 | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 236 | 53.927
+原较慢动量 · 对照 · 每周选币 · 1× | 2026 | True | 无效/不足一年 | -0.376 | 4.612 | 26 | 5.178
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | 2026 | True | 无效/不足一年 | -0.977 | 4.667 | 26 | 7.641
+四因子等权 · 主要候选 · 每周选币 · 1× | 2026 | True | 无效/不足一年 | -0.418 | 4.612 | 26 | 5.166
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | 2026 | True | 无效/不足一年 | -1.058 | 4.667 | 26 | 7.401
+原较慢动量 · 对照 · 每小时选币 · 1× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 296.347
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 297.615
+动量 + 流动性代理 · 每小时选币 · 1× | double | True | -27.419 | -34.447 | 35.171 | 1086 | 390.631
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | double | True | -28.356 | -35.560 | 36.272 | 1086 | 391.898
+动量 + 趋势连续性 · 每小时选币 · 1× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2355 | 691.224
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2355 | 691.224
+BTC 残差动量 · 每小时选币 · 1× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 322.864
+BTC 残差动量 · 每小时选币 · 动态上限5× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 324.132
+四因子等权 · 主要候选 · 每小时选币 · 1× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 521.430
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | double | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 521.430
+原较慢动量 · 对照 · 每周选币 · 1× | double | True | 4.236 | 5.620 | 5.224 | 144 | 35.992
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | double | True | 0.679 | 0.896 | 6.284 | 144 | 53.116
+四因子等权 · 主要候选 · 每周选币 · 1× | double | True | 2.811 | 3.720 | 7.572 | 134 | 36.996
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | double | True | 0.697 | 0.920 | 7.768 | 134 | 50.005
+原较慢动量 · 对照 · 每小时选币 · 1× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 414.886
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1013 | 414.886
+动量 + 流动性代理 · 每小时选币 · 1× | triple | True | -40.968 | -50.073 | 50.325 | 1086 | 546.883
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | triple | True | -42.015 | -51.236 | 51.482 | 1086 | 548.657
+动量 + 趋势连续性 · 每小时选币 · 1× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2260 | 900.048
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2260 | 900.048
+BTC 残差动量 · 每小时选币 · 1× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 452.010
+BTC 残差动量 · 每小时选币 · 动态上限5× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1075 | 452.010
+四因子等权 · 主要候选 · 每小时选币 · 1× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 730.002
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | triple | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1632 | 730.002
+原较慢动量 · 对照 · 每周选币 · 1× | triple | True | 3.156 | 4.180 | 5.294 | 144 | 50.389
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | triple | True | -1.338 | -1.760 | 6.514 | 144 | 70.879
+四因子等权 · 主要候选 · 每周选币 · 1× | triple | True | 1.696 | 2.240 | 7.891 | 134 | 51.795
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | triple | True | -2.117 | -2.780 | 8.269 | 134 | 67.036
+原较慢动量 · 对照 · 每小时选币 · 1× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 954 | 166.723
+原较慢动量 · 对照 · 每小时选币 · 动态上限5× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 954 | 167.557
+动量 + 流动性代理 · 每小时选币 · 1× | delay | True | -13.118 | -16.916 | 18.079 | 1008 | 218.310
+动量 + 流动性代理 · 每小时选币 · 动态上限5× | delay | True | -13.996 | -18.020 | 19.172 | 1008 | 219.286
+动量 + 趋势连续性 · 每小时选币 · 1× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2250 | 393.865
+动量 + 趋势连续性 · 每小时选币 · 动态上限5× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 2250 | 393.865
+BTC 残差动量 · 每小时选币 · 1× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1040 | 187.619
+BTC 残差动量 · 每小时选币 · 动态上限5× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1040 | 188.453
+四因子等权 · 主要候选 · 每小时选币 · 1× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1525 | 292.832
+四因子等权 · 主要候选 · 每小时选币 · 动态上限5× | delay | False | 无效/不足一年 | 无效/不足一年 | 无效/不足一年 | 1525 | 293.667
+原较慢动量 · 对照 · 每周选币 · 1× | delay | True | 6.200 | 8.250 | 5.045 | 142 | 21.320
+原较慢动量 · 对照 · 每周选币 · 动态上限5× | delay | True | 3.132 | 4.148 | 6.214 | 142 | 32.615
+四因子等权 · 主要候选 · 每周选币 · 1× | delay | True | 4.375 | 5.806 | 7.561 | 130 | 21.354
+四因子等权 · 主要候选 · 每周选币 · 动态上限5× | delay | True | 2.208 | 2.920 | 7.760 | 130 | 30.659
+
+配对差异（只有同一窗口均完整才比较）：
+[
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "main",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "main",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "main",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "main",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "main",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "main",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -9.886835303196442,
+    "cagr_delta": -0.7901071388309191,
+    "fees_slippage_delta": 0.9030825752774234,
+    "gross_delta": -9.32818497167473
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -56.29108595006205,
+    "cagr_delta": -4.229111950515563,
+    "fees_slippage_delta": 10.851020818966832,
+    "gross_delta": -46.736876179860104
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "main",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -29.966641616321567,
+    "cagr_delta": -2.2541527362351044,
+    "fees_slippage_delta": 8.523562156144777,
+    "gross_delta": -20.99905500084023
+  },
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "2025",
+    "kind": "cadence",
+    "valid": true,
+    "net_delta_u": -194.82277955379513,
+    "cagr_delta": -19.482277955379512,
+    "fees_slippage_delta": 131.91058878574734,
+    "gross_delta": -63.344702741476894
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "2025",
+    "kind": "cadence",
+    "valid": true,
+    "net_delta_u": -278.748022767904,
+    "cagr_delta": -27.8748022767904,
+    "fees_slippage_delta": 242.11451295591274,
+    "gross_delta": -37.444080086832685
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "selector",
+    "valid": true,
+    "net_delta_u": 7.411548422197711,
+    "cagr_delta": 0.7411548422197711,
+    "fees_slippage_delta": 26.19124682223977,
+    "gross_delta": 36.0935212310217
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "selector",
+    "valid": true,
+    "net_delta_u": -212.7745763411134,
+    "cagr_delta": -21.27745763411134,
+    "fees_slippage_delta": 199.019657519989,
+    "gross_delta": -12.985883871422727
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "selector",
+    "valid": true,
+    "net_delta_u": -0.06768010932489688,
+    "cagr_delta": -0.0067680109324896875,
+    "fees_slippage_delta": 4.897812027810396,
+    "gross_delta": 5.037582343431946
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "selector",
+    "valid": true,
+    "net_delta_u": -102.10035038780487,
+    "cagr_delta": -10.210035038780486,
+    "fees_slippage_delta": 110.817538598585,
+    "gross_delta": 9.907948537720532
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -10.621587239030283,
+    "cagr_delta": -1.0621587239030283,
+    "fees_slippage_delta": 0.7603769008080334,
+    "gross_delta": -10.218549607373419
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -9.88683530319669,
+    "cagr_delta": -0.988683530319669,
+    "fees_slippage_delta": 0.9030825752773879,
+    "gross_delta": -9.328184971674702
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": 0.0,
+    "cagr_delta": 0.0,
+    "fees_slippage_delta": -1.4210854715202004e-14,
+    "gross_delta": 0.0
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -10.621587239030283,
+    "cagr_delta": -1.0621587239030283,
+    "fees_slippage_delta": 0.7603769008080405,
+    "gross_delta": -10.218549607373411
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -10.621587239030745,
+    "cagr_delta": -1.0621587239030745,
+    "fees_slippage_delta": 0.7603769008080121,
+    "gross_delta": -10.21854960737338
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -51.42810033793288,
+    "cagr_delta": -5.142810033793288,
+    "fees_slippage_delta": 8.365493052624537,
+    "gross_delta": -44.19756737487014
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "2025",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -29.966641616320455,
+    "cagr_delta": -2.9966641616320455,
+    "fees_slippage_delta": 8.523562156144763,
+    "gross_delta": -20.99905500084025
+  },
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "2026",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "2026",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -1.7736212753178826,
+    "cagr_delta": null,
+    "fees_slippage_delta": 0.21536801985375575,
+    "gross_delta": -1.5805668586747412
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -6.007299425456525,
+    "cagr_delta": null,
+    "fees_slippage_delta": 2.4632198223578623,
+    "gross_delta": -3.728308241314793
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "2026",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -6.405672535117035,
+    "cagr_delta": null,
+    "fees_slippage_delta": 2.2351150852886876,
+    "gross_delta": -4.404062157748829
+  },
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "double",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "double",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "double",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "double",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "double",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "double",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -11.128506875994262,
+    "cagr_delta": -0.9369380895122603,
+    "fees_slippage_delta": 1.267296537771685,
+    "gross_delta": -10.218549607373504
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -47.24089258046638,
+    "cagr_delta": -3.5572939791899127,
+    "fees_slippage_delta": 17.12393553941994,
+    "gross_delta": -31.29747684478629
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "double",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -28.006758579878,
+    "cagr_delta": -2.1135506895861633,
+    "fees_slippage_delta": 13.00918167640799,
+    "gross_delta": -14.585815677233711
+  },
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "triple",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "triple",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -11.635426512956855,
+    "cagr_delta": -1.0469125719586856,
+    "fees_slippage_delta": 1.774216174735372,
+    "gross_delta": -10.21854960737349
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -59.397078977693525,
+    "cagr_delta": -4.494400447019975,
+    "fees_slippage_delta": 20.489420467994755,
+    "gross_delta": -39.08711600525218
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "triple",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -50.20336574323069,
+    "cagr_delta": -3.812214087166821,
+    "fees_slippage_delta": 15.24102881699417,
+    "gross_delta": -34.706008887136676
+  },
+  {
+    "candidate": "control_hourly__fixed1",
+    "reference": "control_weekly__fixed1",
+    "scenario": "delay",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "delay",
+    "kind": "cadence",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "continuity_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__fixed1",
+    "reference": "control_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "selector",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_hourly__tiered",
+    "reference": "control_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "liquidity_hourly__tiered",
+    "reference": "liquidity_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -11.046712903456601,
+    "cagr_delta": -0.8779898411497946,
+    "fees_slippage_delta": 0.9765927858033194,
+    "gross_delta": -10.418722906801584
+  },
+  {
+    "candidate": "continuity_hourly__tiered",
+    "reference": "continuity_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "residual_hourly__tiered",
+    "reference": "residual_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "combined_hourly__tiered",
+    "reference": "combined_hourly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": false,
+    "net_delta_u": null,
+    "cagr_delta": null,
+    "fees_slippage_delta": null,
+    "gross_delta": null
+  },
+  {
+    "candidate": "control_weekly__tiered",
+    "reference": "control_weekly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -41.02154257779268,
+    "cagr_delta": -3.068095815728178,
+    "fees_slippage_delta": 11.295025399587175,
+    "gross_delta": -30.941332474880056
+  },
+  {
+    "candidate": "combined_weekly__tiered",
+    "reference": "combined_weekly__fixed1",
+    "scenario": "delay",
+    "kind": "leverage",
+    "valid": true,
+    "net_delta_u": -28.856696763432055,
+    "cagr_delta": -2.167335227589895,
+    "fees_slippage_delta": 9.305028315315754,
+    "gross_delta": -19.143750854832277
+  }
+]
+
+数据范围：复用上轮事先固定的2025-01-01至2026-04-26窗口；补充同区间的公开小时信号和新候选执行归档，所有版本使用同一数据清单。
+全池保留原做多规则；用户允许做空的BTC/ETH策略未被改动，本轮不新增未经研究的全池空头评分。
+独立样本外未完成；重复研究的历史不能重新命名为样本外。7%抵押品压力线不是交易所精确历史强平规则。
+网页：http://127.0.0.1:8765/selection-research

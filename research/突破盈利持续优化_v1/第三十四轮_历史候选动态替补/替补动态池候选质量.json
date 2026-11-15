@@ -1,0 +1,18 @@
+{
+  "extra_symbol_year_tasks": 45,
+  "extra_symbol_days": 180,
+  "extra_sources_verified": 45,
+  "pre_rank_events": 11526,
+  "potential_touch_events": 1777,
+  "events_by_year": {
+    "2024": 1084,
+    "2026": 693
+  },
+  "events_by_cohort": {
+    "opening": 1243,
+    "touch": 534
+  },
+  "plan_sha256": "2277e77e493d23d3bcaa3363de19321c0adeee8c51ed2fb219566980337753bd",
+  "backup_rank_sha256": "ede4880f09a1182483e3077bf41944cc1526c2ae7e6d6e1f898802683eb7a6fa",
+  "note": "Potential minutes only; first direction, actual fills, risk and account profitability are unverified."
+}

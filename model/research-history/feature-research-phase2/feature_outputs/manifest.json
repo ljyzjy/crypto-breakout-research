@@ -1,0 +1,1296 @@
+{
+  "completed_utc": "2026-11-13T13:36:26.051836+00:00",
+  "records": [
+    {
+      "kind": "hourly",
+      "symbol": "AAVEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\AAVEUSDT.parquet",
+      "rows": 8016,
+      "sha256": "54a4793d545c78ae7ac126e48328b2790e03a3981058b30c10fd281c6da7ba01"
+    },
+    {
+      "kind": "clock",
+      "symbol": "AAVEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\AAVEUSDT.parquet",
+      "rows": 6624,
+      "sha256": "cbff833f3f06f54b5a9eb7d6bace995c34027a8443e7e6dc1bf8875610260696"
+    },
+    {
+      "kind": "event",
+      "symbol": "AAVEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\AAVEUSDT.parquet",
+      "rows": 2868,
+      "sha256": "d2b223eacb33ac0b6e1eb419ecfe7854c5c8d462255aa8c42c837886a9121ea3"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ADAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ADAUSDT.parquet",
+      "rows": 13008,
+      "sha256": "2ada72bb63f47b0c1a005ebb8ecf70dd5dbb5078cfb8e186c4c7a6efb568ac74"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ADAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ADAUSDT.parquet",
+      "rows": 23088,
+      "sha256": "81065ebddfaa90cf636344be380b6da7a606cc16a4d8bef858ce5de100848042"
+    },
+    {
+      "kind": "event",
+      "symbol": "ADAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ADAUSDT.parquet",
+      "rows": 9742,
+      "sha256": "3839e13dc6f3e3125345ffc9a2af94b18e2653972bbdff5cbe7f37c735eb902c"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "APTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\APTUSDT.parquet",
+      "rows": 7296,
+      "sha256": "33230d2318c091e6ca66dbd1ed5726cb1c72c34d516516954cde1d55bb7fae84"
+    },
+    {
+      "kind": "clock",
+      "symbol": "APTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\APTUSDT.parquet",
+      "rows": 816,
+      "sha256": "c92f1884d3975c2e9a75851f30b8bcf784eef59775f0087d873a4046d758e0d8"
+    },
+    {
+      "kind": "event",
+      "symbol": "APTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\APTUSDT.parquet",
+      "rows": 350,
+      "sha256": "c11c08100276349a4aa5a264a94a1492487eb9a07a33d9f781c9714e8ea9a94f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ARBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ARBUSDT.parquet",
+      "rows": 2952,
+      "sha256": "977e9d888fa8ad8dccdfd41f7c5ce8c7cc337217b3b53869e46041b0fa748ca9"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ARBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ARBUSDT.parquet",
+      "rows": 2976,
+      "sha256": "b5b935d6d21de41344d898762186ae07401194ad6ebd191ce830d21061a1ba6b"
+    },
+    {
+      "kind": "event",
+      "symbol": "ARBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ARBUSDT.parquet",
+      "rows": 1239,
+      "sha256": "19bb54f4f001fbad754dd68ce23d55e92faf3e20f55065b55d911e897bf1c0e6"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ASTERUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ASTERUSDT.parquet",
+      "rows": 2904,
+      "sha256": "48ea7fc9ac830db730ce88907f5699d246c5c4a2aeae4a6bcff20a24170e87d0"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ASTERUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ASTERUSDT.parquet",
+      "rows": 4080,
+      "sha256": "5c6e753167cad1d47f5b77efca1aa6639458bee5029541e778a6d0c14b414fa1"
+    },
+    {
+      "kind": "event",
+      "symbol": "ASTERUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ASTERUSDT.parquet",
+      "rows": 1723,
+      "sha256": "65ce8a89ddc9cd0049c128201f46d282185d4d2d7c994dd029300fac810f6eb2"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "AUCTIONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\AUCTIONUSDT.parquet",
+      "rows": 2136,
+      "sha256": "d3e71dc3dd9f1a5c242fc698208eec28c702f243f4c01ef36b66ce55718f1935"
+    },
+    {
+      "kind": "clock",
+      "symbol": "AUCTIONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\AUCTIONUSDT.parquet",
+      "rows": 624,
+      "sha256": "a589f8d9dc36df71705dc574f366ee1c0d9929ec1ffe0ecf9809a235fd02f2b6"
+    },
+    {
+      "kind": "event",
+      "symbol": "AUCTIONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\AUCTIONUSDT.parquet",
+      "rows": 263,
+      "sha256": "5abd848cf0ec8aa590ab7c601eb11e774a67e07623fb3e43ae9291d0c066994f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "AVAXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\AVAXUSDT.parquet",
+      "rows": 13008,
+      "sha256": "6a025309752edd178df80d74d30c8fa5e29a1813dc4faa6af196a2580941e9d9"
+    },
+    {
+      "kind": "clock",
+      "symbol": "AVAXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\AVAXUSDT.parquet",
+      "rows": 22416,
+      "sha256": "4826c7263637785fca2a8a321fed41dc32b766138d112a4619a36f2ef9b2f471"
+    },
+    {
+      "kind": "event",
+      "symbol": "AVAXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\AVAXUSDT.parquet",
+      "rows": 9575,
+      "sha256": "c2fdebc4978d4943653999dd2be39184c4a0f1947f4ac01e922d5b7037a61af4"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "AXSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\AXSUSDT.parquet",
+      "rows": 1416,
+      "sha256": "d7afa9f573505698d19b21ce916beeeffc1f80dff04dd8ad93ad5fabf214dd15"
+    },
+    {
+      "kind": "clock",
+      "symbol": "AXSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\AXSUSDT.parquet",
+      "rows": 288,
+      "sha256": "49a1745892e9ba818db71e329d58fff6395d05d1e6344e9ad132e526a8ee8cec"
+    },
+    {
+      "kind": "event",
+      "symbol": "AXSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\AXSUSDT.parquet",
+      "rows": 117,
+      "sha256": "4758bd9c09fede0b7f5ae97db6e69875351c21d2229488749185a16cf4f1c4f7"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BCHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BCHUSDT.parquet",
+      "rows": 7296,
+      "sha256": "0131d5c9a943ebc49c3ab8bed15387921c52708e8c75585b92761a04d57df70c"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BCHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BCHUSDT.parquet",
+      "rows": 3696,
+      "sha256": "6e40301995747d08fe7ea340d256f88dcaefd56ed6d228a9bccc238bc7927e3a"
+    },
+    {
+      "kind": "event",
+      "symbol": "BCHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BCHUSDT.parquet",
+      "rows": 1561,
+      "sha256": "3ab4e2cd948b68f064d3247efbd7214d9f1116d4d913f11a975b83ec4774c0aa"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BIOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BIOUSDT.parquet",
+      "rows": 1464,
+      "sha256": "074394a121f1454623d9731172b02694cc65919261bbec5de2de0f247fba4ff0"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BIOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BIOUSDT.parquet",
+      "rows": 720,
+      "sha256": "470ab7fea50c12e7108445ca6b98681a537ca7134d25de0e34847af45e36f601"
+    },
+    {
+      "kind": "event",
+      "symbol": "BIOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BIOUSDT.parquet",
+      "rows": 307,
+      "sha256": "2364014334cc05f7230a5b31d506a9283f0668f6743eb428104560dea9ed63fa"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BNBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BNBUSDT.parquet",
+      "rows": 13008,
+      "sha256": "c9c9b737599ff2e4f8b02579685e0875c40d87bc05837a296ca32de4ce8cb49e"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BNBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BNBUSDT.parquet",
+      "rows": 23088,
+      "sha256": "4610c891662bc09c4aa9b925b22588f32074a31ca6600665841c53d9f59c6a6a"
+    },
+    {
+      "kind": "event",
+      "symbol": "BNBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BNBUSDT.parquet",
+      "rows": 9973,
+      "sha256": "89755dabfc185e487582a5e37a6614dca28731462fa85aa7f39f32b23b77ba68"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BNXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BNXUSDT.parquet",
+      "rows": 2160,
+      "sha256": "0b92c9f0d5a4fd5f0d08c3d36750570427f9ddfed9a17264109ff9be1ee5a42e"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BNXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BNXUSDT.parquet",
+      "rows": 192,
+      "sha256": "0d0319340811eab7cdea929c763745bd17915f5752540a457e2dc894b741abb2"
+    },
+    {
+      "kind": "event",
+      "symbol": "BNXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BNXUSDT.parquet",
+      "rows": 84,
+      "sha256": "aace22983f773114a25ab4876f0e5f9ef9e6d63c8c7aff57ea7e44489cebfb33"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BONKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BONKUSDT.parquet",
+      "rows": 5136,
+      "sha256": "2d9f4b2d8fd526f4499b0b0b98a780cf13a4f46b893012859914b171ab315fc3"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BONKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BONKUSDT.parquet",
+      "rows": 4464,
+      "sha256": "7d34ca175012cde047e1d8708ae92c22d727dcfc8477d07e6a15e27fc8e7a80b"
+    },
+    {
+      "kind": "event",
+      "symbol": "BONKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BONKUSDT.parquet",
+      "rows": 1914,
+      "sha256": "65f699e079645e0c7046c4784ceb1f10382b679a94e442b1e1826028812ee19d"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "BTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\BTCUSDT.parquet",
+      "rows": 13008,
+      "sha256": "3d55861a4864db59050dc692032e8fcca4f2680a87658a31d83122e10d2e31da"
+    },
+    {
+      "kind": "clock",
+      "symbol": "BTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\BTCUSDT.parquet",
+      "rows": 23088,
+      "sha256": "b35f6ae47e4ca2b5698fae9514f1e42eda0aa6cc0aab80b49e040f6b36a589f1"
+    },
+    {
+      "kind": "event",
+      "symbol": "BTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\BTCUSDT.parquet",
+      "rows": 9996,
+      "sha256": "adcc58bc5f228a4bba39460c3fafe9d4dcd3d3841f583bdda6ae455a82a83592"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "CAKEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\CAKEUSDT.parquet",
+      "rows": 6600,
+      "sha256": "e74d5b9c5a9c183b811e109a28ec41d77dee16257c55ee95f9d52bca68e616f2"
+    },
+    {
+      "kind": "clock",
+      "symbol": "CAKEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\CAKEUSDT.parquet",
+      "rows": 1056,
+      "sha256": "10d309773811edda60f774be926e57f9540e8d7c4dfea3bde2f77ff467bc23a5"
+    },
+    {
+      "kind": "event",
+      "symbol": "CAKEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\CAKEUSDT.parquet",
+      "rows": 451,
+      "sha256": "0a306ba4f529dc1cd7913e7239b43fe4a6dfb83292bbded455ea75cd0c1fb93f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "CRVUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\CRVUSDT.parquet",
+      "rows": 6576,
+      "sha256": "a2f5f1eb5488ed379638895f0a2193c61f10342a2cf4f8b386cb1324aa07aeb5"
+    },
+    {
+      "kind": "clock",
+      "symbol": "CRVUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\CRVUSDT.parquet",
+      "rows": 2208,
+      "sha256": "9035106c37e1ae9ec4bf2c7c418879e24921218015b0e3868afc7d008efa6068"
+    },
+    {
+      "kind": "event",
+      "symbol": "CRVUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\CRVUSDT.parquet",
+      "rows": 838,
+      "sha256": "57def056cc4ad58c4ae1f6b0b63a00ced3ccb9ca74bfc6b880fe8ee510b17038"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "DASHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\DASHUSDT.parquet",
+      "rows": 3624,
+      "sha256": "cb530ea8d859aa010828d8cec39cbe9ef113f9864ebdd6125db4f0e2ed3b6df7"
+    },
+    {
+      "kind": "clock",
+      "symbol": "DASHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\DASHUSDT.parquet",
+      "rows": 1584,
+      "sha256": "91abf9ac0bf9765312ab35b704097ec710cbe9c1a8fc5c5b796d90a81b9d10ec"
+    },
+    {
+      "kind": "event",
+      "symbol": "DASHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\DASHUSDT.parquet",
+      "rows": 672,
+      "sha256": "4d7cfde677a94e0c40204ac9959c1ac9391f77dab3cbefcc4938c9db8f30797a"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "DOGEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\DOGEUSDT.parquet",
+      "rows": 13008,
+      "sha256": "2d0b5ccbbcc2ef51033fff208a01348b80906856e7afa2dd989510af11a46dbd"
+    },
+    {
+      "kind": "clock",
+      "symbol": "DOGEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\DOGEUSDT.parquet",
+      "rows": 23088,
+      "sha256": "dc89462bd41a91ec58c74fd17e6afc45119dae7790a458d5d461e9ee55ff1707"
+    },
+    {
+      "kind": "event",
+      "symbol": "DOGEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\DOGEUSDT.parquet",
+      "rows": 9839,
+      "sha256": "8118903e1508d6063d1881d128dd5e1083ec5d48dac7c2a3c02aa4c5af8afc31"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ENAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ENAUSDT.parquet",
+      "rows": 13008,
+      "sha256": "b322b63233f9120d2122a402ece3978d0cbba74bae510415b7fc64cf2f8bad89"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ENAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ENAUSDT.parquet",
+      "rows": 19584,
+      "sha256": "7088f6cdb6e8cc7f7327ed642663ea7dc522239096f8c21a355f368f6aa3a505"
+    },
+    {
+      "kind": "event",
+      "symbol": "ENAUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ENAUSDT.parquet",
+      "rows": 8227,
+      "sha256": "f57abf27d9b4f3284a262f8346108313da8fa3ce8219b8c95eccfd8061f41a6f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "EOSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\EOSUSDT.parquet",
+      "rows": 1954,
+      "sha256": "04b0f2810f3b18bec6ed72b8f71adbecfe30eba2ab47c0b17a318ed6edfce098"
+    },
+    {
+      "kind": "clock",
+      "symbol": "EOSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\EOSUSDT.parquet",
+      "rows": 960,
+      "sha256": "55eca10b355604d5f4982be6e5dcebd71ee8dcf0875b1a1d82726441b7ecff37"
+    },
+    {
+      "kind": "event",
+      "symbol": "EOSUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\EOSUSDT.parquet",
+      "rows": 336,
+      "sha256": "27e277598bd89fdef4fbd5a0e1324a05f2fd68c922b5ca0e7479d72518a90515"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ETHFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ETHFIUSDT.parquet",
+      "rows": 1464,
+      "sha256": "fec6273b1368e6110eecff5500b0bdd883bb1b729d58616e358b7460e897ba47"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ETHFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ETHFIUSDT.parquet",
+      "rows": 48,
+      "sha256": "837957e211ce146afdea4a77a3f6789f967dcbbaf6e87a0a318aa0e49dac8451"
+    },
+    {
+      "kind": "event",
+      "symbol": "ETHFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ETHFIUSDT.parquet",
+      "rows": 22,
+      "sha256": "dc908211e8bf763b730298197063a52c0015fe4a9ec9be4d61fc62e73748886e"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ETHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ETHUSDT.parquet",
+      "rows": 13008,
+      "sha256": "27b01eba9090ca581e63b16446bbc1063d86af9e443e6f514008ac2bf62e88bd"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ETHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ETHUSDT.parquet",
+      "rows": 23088,
+      "sha256": "bdcb789ca48b6270f6a7233b73e579a75eb41ecdc75cd5260993ec7d0b508c66"
+    },
+    {
+      "kind": "event",
+      "symbol": "ETHUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ETHUSDT.parquet",
+      "rows": 9839,
+      "sha256": "f6d970def68b5eda229863333be5a7702097b956033c3dcda4c8ca3576933009"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "FETUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\FETUSDT.parquet",
+      "rows": 2040,
+      "sha256": "5418d1dc21115fd188458a4d8c57ec4e1eb7dbf02802fcb26f072f2fa7fcf29f"
+    },
+    {
+      "kind": "clock",
+      "symbol": "FETUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\FETUSDT.parquet",
+      "rows": 1344,
+      "sha256": "1b3c82698bb47561f75f163c3ff7927fb5ce8902899eaba0ef863828bde4103a"
+    },
+    {
+      "kind": "event",
+      "symbol": "FETUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\FETUSDT.parquet",
+      "rows": 550,
+      "sha256": "77f6b1f96ad83f719259f389ef259045bc652fc683ba45c847031eaeca2149f2"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "FTMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\FTMUSDT.parquet",
+      "rows": 1488,
+      "sha256": "7ebcb0044f07df9fd066194954357df6f85765d6931097642f8c839e2067fdd7"
+    },
+    {
+      "kind": "clock",
+      "symbol": "FTMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\FTMUSDT.parquet",
+      "rows": 336,
+      "sha256": "1f21d5f183e4c02b22614995306b81c844dcea60eda071c8b0ea4b6f200e4bdf"
+    },
+    {
+      "kind": "event",
+      "symbol": "FTMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\FTMUSDT.parquet",
+      "rows": 50,
+      "sha256": "118db76e5dc1d937ba0479bb1547bdd1177b21d286baf1cb0495c3e1ad710d2f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "HBARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\HBARUSDT.parquet",
+      "rows": 9480,
+      "sha256": "60c83e04dbea2ded61d98953b86d56d79b9425356a6e913662fa6a5dd3237b27"
+    },
+    {
+      "kind": "clock",
+      "symbol": "HBARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\HBARUSDT.parquet",
+      "rows": 8112,
+      "sha256": "c263c06391478e929d82708414018315a6680681d8bf25c5a51720e957d0bb4d"
+    },
+    {
+      "kind": "event",
+      "symbol": "HBARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\HBARUSDT.parquet",
+      "rows": 3520,
+      "sha256": "e2ced0ad39a9989124b844ecea2cd8acda99de469e8c61f41cc841e1c2b70645"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ICPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ICPUSDT.parquet",
+      "rows": 2208,
+      "sha256": "3d8d9524c19c6b88b02ee5d9d522a389f97765b1758c47604925964266d49668"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ICPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ICPUSDT.parquet",
+      "rows": 960,
+      "sha256": "5b56a6b52dd751f43aeba3c714bb5bc9f1d6f1e5b94974e46a015f6398622f05"
+    },
+    {
+      "kind": "event",
+      "symbol": "ICPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ICPUSDT.parquet",
+      "rows": 411,
+      "sha256": "29d4185d1a0778d38e8fde63af1c66f279b5b56ea15234a84d26efa7139ad6b1"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "JUPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\JUPUSDT.parquet",
+      "rows": 1416,
+      "sha256": "5db29443a566f8304e94967a5b0ea8e59e6464d38be26678b36f1c37f053a45d"
+    },
+    {
+      "kind": "clock",
+      "symbol": "JUPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\JUPUSDT.parquet",
+      "rows": 528,
+      "sha256": "0c7a00ab2df66641e866641894ef3d8c2e2194ac302b40a50f723fc0754fbc30"
+    },
+    {
+      "kind": "event",
+      "symbol": "JUPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\JUPUSDT.parquet",
+      "rows": 225,
+      "sha256": "c45c8bc963dc97cb452e0c688ced7e0c08c86f2f48a964453feaba1e821430ab"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "KITEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\KITEUSDT.parquet",
+      "rows": 2784,
+      "sha256": "d534a27d355ccf0e0add5e97ee3704bdc48aad3ba155992ae28fec5045d6fcf9"
+    },
+    {
+      "kind": "clock",
+      "symbol": "KITEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\KITEUSDT.parquet",
+      "rows": 1824,
+      "sha256": "e59d0e8e596314e092cef3c81729c494164f75901276751ae6e4f6484f27a26d"
+    },
+    {
+      "kind": "event",
+      "symbol": "KITEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\KITEUSDT.parquet",
+      "rows": 773,
+      "sha256": "ee34807e0d5c5b2576f9c39d7b92f5a7398cf11387db1cb3a7c04622324aedfe"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "LINKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\LINKUSDT.parquet",
+      "rows": 13008,
+      "sha256": "faf9653b291a625dd06e51e2ef98c6a9f3585c1c0e5543a4cdee11dd34bdebe9"
+    },
+    {
+      "kind": "clock",
+      "symbol": "LINKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\LINKUSDT.parquet",
+      "rows": 22512,
+      "sha256": "1388d231e9d6deaaca13470fd8456490b0e86348aea2a87317907b6e331e4740"
+    },
+    {
+      "kind": "event",
+      "symbol": "LINKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\LINKUSDT.parquet",
+      "rows": 9651,
+      "sha256": "4572219de76434d11c101a570a5fe1aa7f692d7dff89fbca06d25f66897ec9bf"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "LTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\LTCUSDT.parquet",
+      "rows": 12288,
+      "sha256": "6b08ba029986332511904ea3a4e49b67781500ccfa1e07d415f625dabed214bb"
+    },
+    {
+      "kind": "clock",
+      "symbol": "LTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\LTCUSDT.parquet",
+      "rows": 20112,
+      "sha256": "e938d11823024bf7601500a47c90ffd4c32e533fc8a2596cb1c3b3bfe7fb9964"
+    },
+    {
+      "kind": "event",
+      "symbol": "LTCUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\LTCUSDT.parquet",
+      "rows": 8571,
+      "sha256": "602fe67dd558dd98e836d4146fa95f372a085d105dcd5241238e951bfa995bae"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "NEARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\NEARUSDT.parquet",
+      "rows": 10800,
+      "sha256": "5bcb83cec9e583228c97c3c3a7f5835d3d00956b26c8357a79aba53e57a3b976"
+    },
+    {
+      "kind": "clock",
+      "symbol": "NEARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\NEARUSDT.parquet",
+      "rows": 6912,
+      "sha256": "bdd64c106a23717c79b2b9d5be8ab6753d89aa60a8dad50a11114bc9fefd89a9"
+    },
+    {
+      "kind": "event",
+      "symbol": "NEARUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\NEARUSDT.parquet",
+      "rows": 2725,
+      "sha256": "9e450397a9243a284577d95f488df43c26449d81c316d1254b63763cd0b335c7"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "NEIROUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\NEIROUSDT.parquet",
+      "rows": 6552,
+      "sha256": "364a4bc9e09a4bd72944c011786b06fb43e6c1350dc1ea6502da44a727aa1c1d"
+    },
+    {
+      "kind": "clock",
+      "symbol": "NEIROUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\NEIROUSDT.parquet",
+      "rows": 3696,
+      "sha256": "7d1e571b866a3b11ac311b4cd66124109fd28afbf26946e523c50265ed0ab16e"
+    },
+    {
+      "kind": "event",
+      "symbol": "NEIROUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\NEIROUSDT.parquet",
+      "rows": 1571,
+      "sha256": "7866334cb154c0ee4d817ff9d1656bc8cbbc0fd8a6d74956ca8b3687ce2c4a4f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "OMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\OMUSDT.parquet",
+      "rows": 3624,
+      "sha256": "5cb1b5058035b671f604a153ab994fc5e3302451f40bd79f5c571db72c441427"
+    },
+    {
+      "kind": "clock",
+      "symbol": "OMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\OMUSDT.parquet",
+      "rows": 2016,
+      "sha256": "59db6b469dc5c40131c411b99848047bd9056ef6799e5d3a2888120fdb88bc57"
+    },
+    {
+      "kind": "event",
+      "symbol": "OMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\OMUSDT.parquet",
+      "rows": 854,
+      "sha256": "a2aa4e0471aa00a10d93dcde65dd1aa98c8b47d088c131fadc2324f3f886e1ad"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "PAXGUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\PAXGUSDT.parquet",
+      "rows": 5712,
+      "sha256": "9a373fba56c865675d10713ef339187c774526ff6eff94c19baf31fba19860af"
+    },
+    {
+      "kind": "clock",
+      "symbol": "PAXGUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\PAXGUSDT.parquet",
+      "rows": 7824,
+      "sha256": "9eccbb2d86ef9af1609dd516d447a3c1a89150dfd2d71bb635f39493d33f6fe8"
+    },
+    {
+      "kind": "event",
+      "symbol": "PAXGUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\PAXGUSDT.parquet",
+      "rows": 3371,
+      "sha256": "4fbb6d6507c69978e948507f210c89a8ff1ebec920f74edf5ca55bd1c1288b08"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "PENGUUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\PENGUUSDT.parquet",
+      "rows": 5856,
+      "sha256": "9b1d26a516b7eb753b6a46fb134e4adbefc1c0a858d01352df3c42fa8ca7dfe3"
+    },
+    {
+      "kind": "clock",
+      "symbol": "PENGUUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\PENGUUSDT.parquet",
+      "rows": 6384,
+      "sha256": "123fdf7afcd728a1c217c876939618e07a1024f889ea10ce8c3995ba0e13d6ad"
+    },
+    {
+      "kind": "event",
+      "symbol": "PENGUUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\PENGUUSDT.parquet",
+      "rows": 2720,
+      "sha256": "e2c2cbad72f6c5547d0bf835c79076ea8b34921d19ed13d10416df64ade38ce2"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "PEPEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\PEPEUSDT.parquet",
+      "rows": 13008,
+      "sha256": "2240cb249d364b8cf952811498c2da3a9e4a48b0c69bd9f483ae599c39031516"
+    },
+    {
+      "kind": "clock",
+      "symbol": "PEPEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\PEPEUSDT.parquet",
+      "rows": 22272,
+      "sha256": "838b20709576740a0d79a54f2f288fc4ea9b15a3f788272fbccc08fb968f9ce1"
+    },
+    {
+      "kind": "event",
+      "symbol": "PEPEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\PEPEUSDT.parquet",
+      "rows": 9491,
+      "sha256": "28798916d3ec065f561cb6970daeb32d4eaef437bbc78f2ed5c973c8580b3e99"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "PNUTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\PNUTUSDT.parquet",
+      "rows": 4344,
+      "sha256": "144fb38e9b4080437264041daa80862f9f8cc8fb08687b5ca67b541c33956b20"
+    },
+    {
+      "kind": "clock",
+      "symbol": "PNUTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\PNUTUSDT.parquet",
+      "rows": 3552,
+      "sha256": "135f858935cd6397b44854fb687d0e2e9ae3ecb056381091e30617906709066a"
+    },
+    {
+      "kind": "event",
+      "symbol": "PNUTUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\PNUTUSDT.parquet",
+      "rows": 1517,
+      "sha256": "5044cebd1606fe8ca6f2ed765ce1e24748a72e81b96ec4e94c229081265b197d"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "PUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\PUMPUSDT.parquet",
+      "rows": 3624,
+      "sha256": "6ac38078f153d816e09102e7959976fb6a07f7adc26095973a74c2d2a7da034f"
+    },
+    {
+      "kind": "clock",
+      "symbol": "PUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\PUMPUSDT.parquet",
+      "rows": 2160,
+      "sha256": "07c09901f86776b1f23dccf84dfc0579a0595a90f9feef717135273d4a9ffc7a"
+    },
+    {
+      "kind": "event",
+      "symbol": "PUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\PUMPUSDT.parquet",
+      "rows": 884,
+      "sha256": "8c4d6447624fe43b8ebfa2da7e5a95d7e5b849c6a97597f4beddfb4c977afa45"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "RUNEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\RUNEUSDT.parquet",
+      "rows": 2904,
+      "sha256": "dd8d603135811444202adfd9e4279bc437683f6ca6c48dbf5d4b4342b1fb620b"
+    },
+    {
+      "kind": "clock",
+      "symbol": "RUNEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\RUNEUSDT.parquet",
+      "rows": 2832,
+      "sha256": "947fb180f381d87635f01a53a301dc124abed7e9d9ccaa136d68dbc224e43513"
+    },
+    {
+      "kind": "event",
+      "symbol": "RUNEUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\RUNEUSDT.parquet",
+      "rows": 1150,
+      "sha256": "301ebb0060c428509c6b1fca6e5c9a3004d606d1b5e1dac4dfa1d6e47ed4bc71"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "SEIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\SEIUSDT.parquet",
+      "rows": 2928,
+      "sha256": "41d6e9462f936430b9401a0b3337aba461bf11a2d64d4d0c46b9dbfed302b2a4"
+    },
+    {
+      "kind": "clock",
+      "symbol": "SEIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\SEIUSDT.parquet",
+      "rows": 1968,
+      "sha256": "9a4edf6622f2f19dea0d738bef4823a334e4e3bd4e93c5c6a0d5e9a99b5fef7c"
+    },
+    {
+      "kind": "event",
+      "symbol": "SEIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\SEIUSDT.parquet",
+      "rows": 831,
+      "sha256": "fc1b11400483843c79b853c511badecfe760298ced6e562a6591993ba1668a9c"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "SHIBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\SHIBUSDT.parquet",
+      "rows": 2208,
+      "sha256": "049b29be0aadc5dafdaa156f5c9dfa5ac4be442cb13c588609d91b2f63a2d237"
+    },
+    {
+      "kind": "clock",
+      "symbol": "SHIBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\SHIBUSDT.parquet",
+      "rows": 672,
+      "sha256": "45dc96e31408a00da267941a8807f912f405ecb3a55e1f2c9d5a0c1ecbac746a"
+    },
+    {
+      "kind": "event",
+      "symbol": "SHIBUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\SHIBUSDT.parquet",
+      "rows": 288,
+      "sha256": "164c0b743a6aaa19474a535e997959ed37f7718d5ecbfce4b6622c1564ca3865"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "SOLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\SOLUSDT.parquet",
+      "rows": 13008,
+      "sha256": "9b9a3967cd5d598473e7af273ce26b43127e514e20b0fd9deda4a86d3ff614a7"
+    },
+    {
+      "kind": "clock",
+      "symbol": "SOLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\SOLUSDT.parquet",
+      "rows": 23088,
+      "sha256": "f5632a67a0315a554c577fcb00ecb7cc8c02d17aa13d51f3ac713488e6fe3776"
+    },
+    {
+      "kind": "event",
+      "symbol": "SOLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\SOLUSDT.parquet",
+      "rows": 9860,
+      "sha256": "736a434328f06726438f09698bb9d009af307f4118b5b8433b5ef58ade62792d"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "STRKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\STRKUSDT.parquet",
+      "rows": 2208,
+      "sha256": "f175dd171dce131f365676237a5292a170b6cef3eb987130608a348f63299b15"
+    },
+    {
+      "kind": "clock",
+      "symbol": "STRKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\STRKUSDT.parquet",
+      "rows": 720,
+      "sha256": "1d9bd4469b8acfd1c52f026d888b30e5aa74ebfc6558b9e38047aad4df4f53c7"
+    },
+    {
+      "kind": "event",
+      "symbol": "STRKUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\STRKUSDT.parquet",
+      "rows": 282,
+      "sha256": "c0dcc9de417a6ef7e01208e47b7378f30da3a52ef97d8d7e07d982ff5d2a62cc"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "SUIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\SUIUSDT.parquet",
+      "rows": 13008,
+      "sha256": "3e655abd3529c43fc535ec171571577015b7b8c5c1c741dd6971ac0955abc5d7"
+    },
+    {
+      "kind": "clock",
+      "symbol": "SUIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\SUIUSDT.parquet",
+      "rows": 23088,
+      "sha256": "3d19218bd0cf1aaa5d64f85e8a226fa85e9fb7946ed769604d9cc2cca07a98e6"
+    },
+    {
+      "kind": "event",
+      "symbol": "SUIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\SUIUSDT.parquet",
+      "rows": 9871,
+      "sha256": "4be74a5db96a376eecde95e39bf69ddc49b77a3131290c06e3fe0e0efe0d50f0"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "SUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\SUSDT.parquet",
+      "rows": 2208,
+      "sha256": "a526e857f66da71f98c1836d8338a8444763d68ca3de0f5d9bf8de9a8f46934e"
+    },
+    {
+      "kind": "clock",
+      "symbol": "SUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\SUSDT.parquet",
+      "rows": 1248,
+      "sha256": "88263c762c9ac19b7ef5847015146520b0b7ed729bc53db25df1909b03a21c37"
+    },
+    {
+      "kind": "event",
+      "symbol": "SUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\SUSDT.parquet",
+      "rows": 528,
+      "sha256": "ef9942d7e69d16f43479cd40c5d913d29f673077f8395c68d88edbf6920645dc"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "TAOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\TAOUSDT.parquet",
+      "rows": 12288,
+      "sha256": "0debc74aacac207d8d772789c29e04f714e8e5482f30c75f31ff94bbf4760a3e"
+    },
+    {
+      "kind": "clock",
+      "symbol": "TAOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\TAOUSDT.parquet",
+      "rows": 10800,
+      "sha256": "ebb09a454b8ce920ccdacc3fedafa9c54d63026a96b2024424e136663fdea3b2"
+    },
+    {
+      "kind": "event",
+      "symbol": "TAOUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\TAOUSDT.parquet",
+      "rows": 4603,
+      "sha256": "377be5c17ac80e517cf20901bcf1c3af2c01f82286c7662643b5b4ef1cc3396f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "TONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\TONUSDT.parquet",
+      "rows": 1464,
+      "sha256": "a784379160120e8afee8eb51eb2dae4c8e003ec6f340e0bb04a785820ebfd82a"
+    },
+    {
+      "kind": "clock",
+      "symbol": "TONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\TONUSDT.parquet",
+      "rows": 720,
+      "sha256": "0244440e6902569cccf172d1ca89055a27e99d919ed0f8f79e75d2425611fbce"
+    },
+    {
+      "kind": "event",
+      "symbol": "TONUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\TONUSDT.parquet",
+      "rows": 311,
+      "sha256": "a6072ed98c67c679008e5635a07ba7b75b9e7f0eb62ddff16782e8b88a98d865"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "TRUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\TRUMPUSDT.parquet",
+      "rows": 6600,
+      "sha256": "0ac34bba783860f9d859b5759b20b8651431f7c92b50190a4fd1a1ef773ea708"
+    },
+    {
+      "kind": "clock",
+      "symbol": "TRUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\TRUMPUSDT.parquet",
+      "rows": 5952,
+      "sha256": "3e3d1857347ddc22af7f5556fcec7b8cbec53906eb52507be6db54b30952b35d"
+    },
+    {
+      "kind": "event",
+      "symbol": "TRUMPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\TRUMPUSDT.parquet",
+      "rows": 2522,
+      "sha256": "1edcf7a49dda3b1b77de40195f8db8a30992c55ae1a15b3c16cae93bfd94de88"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "TRXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\TRXUSDT.parquet",
+      "rows": 13008,
+      "sha256": "a4e7ee5ce42d9ef49a42047ded5bac37d42b7ddfee885f29edf39f6aa98db274"
+    },
+    {
+      "kind": "clock",
+      "symbol": "TRXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\TRXUSDT.parquet",
+      "rows": 23088,
+      "sha256": "5ae3fce995bcef85c34c86842399b70d3063999f47dc32575c45a7b638efff90"
+    },
+    {
+      "kind": "event",
+      "symbol": "TRXUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\TRXUSDT.parquet",
+      "rows": 9858,
+      "sha256": "995d69390fd4b54edd16f6b60acb2613f46428634486f70c97dc2d699ffb7092"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "UNIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\UNIUSDT.parquet",
+      "rows": 11640,
+      "sha256": "7e74b7681c8af42dec5561fb7f3d172c1dfea943099fb912eafb17299e4ca6d6"
+    },
+    {
+      "kind": "clock",
+      "symbol": "UNIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\UNIUSDT.parquet",
+      "rows": 10032,
+      "sha256": "4a41071b3e24f9186d308e2a0c21e9e565bf7ee38a0d86aecc001f2a8554ac27"
+    },
+    {
+      "kind": "event",
+      "symbol": "UNIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\UNIUSDT.parquet",
+      "rows": 4267,
+      "sha256": "65071d489f4dbcf7c6e769fc9a96d5d02c7d06445d7276df24df9039e4cf0f05"
+    },
+    {
+      "kind": "clock",
+      "symbol": "UUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\UUSDT.parquet",
+      "rows": 672,
+      "sha256": "ef146b19fb84286994a9b3fd3e2dcb41eb1ef6adacfeffdfb72f0ea370dc9d3c"
+    },
+    {
+      "kind": "event",
+      "symbol": "UUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\UUSDT.parquet",
+      "rows": 0,
+      "sha256": "690def1276772fa1f116ef72ed42192fc52beaf4956d82e4f919ee1e1865604f"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "VIRTUALUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\VIRTUALUSDT.parquet",
+      "rows": 4392,
+      "sha256": "b5c28224f1902b7f3872b30fee385412f0d9bbe6209feb8a1d0ae97d524c633a"
+    },
+    {
+      "kind": "clock",
+      "symbol": "VIRTUALUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\VIRTUALUSDT.parquet",
+      "rows": 1248,
+      "sha256": "18a00b0af8d48e8b20b3edbb9347a1974a9689270736a35676b41898d6500af9"
+    },
+    {
+      "kind": "event",
+      "symbol": "VIRTUALUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\VIRTUALUSDT.parquet",
+      "rows": 533,
+      "sha256": "17c272968162f70fd8e61b26fde8bac63950aeddf5b0080b18d0a158650387fb"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "WIFUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\WIFUSDT.parquet",
+      "rows": 7296,
+      "sha256": "31e210aa0cc9810cc57022ce5f61fb2a092ec1d8d8be991134c8aa1e06f6695f"
+    },
+    {
+      "kind": "clock",
+      "symbol": "WIFUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\WIFUSDT.parquet",
+      "rows": 10992,
+      "sha256": "abbb8ac58cc7a89e910c93057b48bf1d1e8a03e05e0cb23ac2370bda37019f57"
+    },
+    {
+      "kind": "event",
+      "symbol": "WIFUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\WIFUSDT.parquet",
+      "rows": 4705,
+      "sha256": "033c140da71a3f3191f6abfe8d2becce9a01c1a91659da5d0ec77af85b79f74d"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "WLDUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\WLDUSDT.parquet",
+      "rows": 13008,
+      "sha256": "993467096ca1fef5c517226503b4d28a2f938b80e69f6449734731d9e47ae058"
+    },
+    {
+      "kind": "clock",
+      "symbol": "WLDUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\WLDUSDT.parquet",
+      "rows": 8400,
+      "sha256": "4003639c0cd9b6c4928884d7e2e01c9e4f65462b61700c324f91f26b4deab65a"
+    },
+    {
+      "kind": "event",
+      "symbol": "WLDUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\WLDUSDT.parquet",
+      "rows": 3574,
+      "sha256": "160823a45e7ce89a2fa8028169cb4cd79902b6c327db155dc70ee211bdf5445b"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "WLFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\WLFIUSDT.parquet",
+      "rows": 2160,
+      "sha256": "cc383c4ae8c08432f2e8a747e431666df0cb79de4f8ee18821f761cd4eb0e2f2"
+    },
+    {
+      "kind": "clock",
+      "symbol": "WLFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\WLFIUSDT.parquet",
+      "rows": 864,
+      "sha256": "0ad3ece4fc72488dcdd2bda6be28fe3c4647662af486714d8c011641a5d59a41"
+    },
+    {
+      "kind": "event",
+      "symbol": "WLFIUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\WLFIUSDT.parquet",
+      "rows": 335,
+      "sha256": "cba25302c4d8ce0571210b0acf3d6b87686e2442c1a70be317031d8a9ef598f7"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "XLMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\XLMUSDT.parquet",
+      "rows": 6576,
+      "sha256": "98c61cfbf0df9b2acf6bffbef28b617973b24eed8631a2c71be1d9336d1a28fc"
+    },
+    {
+      "kind": "clock",
+      "symbol": "XLMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\XLMUSDT.parquet",
+      "rows": 2544,
+      "sha256": "307b00dc785e60fd9bb9e3297b1a160d15110292547ecaa28a81e3a6131a8ac3"
+    },
+    {
+      "kind": "event",
+      "symbol": "XLMUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\XLMUSDT.parquet",
+      "rows": 1105,
+      "sha256": "aa62293c525bddc319e10a1ea23a8c3671e33c553c3a07b40f420e6f0c4be057"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "XPLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\XPLUSDT.parquet",
+      "rows": 2208,
+      "sha256": "ad1df15b959d04c00dcc303ebf5c8dafb0fe1eda3a926f5b02fb8acc57a73b72"
+    },
+    {
+      "kind": "clock",
+      "symbol": "XPLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\XPLUSDT.parquet",
+      "rows": 816,
+      "sha256": "58ab11874b0cf72bd404e20c072ce16418e69398714e694c3deef09fa4e462a0"
+    },
+    {
+      "kind": "event",
+      "symbol": "XPLUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\XPLUSDT.parquet",
+      "rows": 332,
+      "sha256": "90909d252bf7b1e927d1136f09a510182a2588ee8994f05ebf4866af026b653b"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "XRPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\XRPUSDT.parquet",
+      "rows": 13008,
+      "sha256": "e3681d4a2a6508233c8621e2a927f71fef5b7aedc2702f75293958b7cc86995d"
+    },
+    {
+      "kind": "clock",
+      "symbol": "XRPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\XRPUSDT.parquet",
+      "rows": 23088,
+      "sha256": "3c7424aa70f55f8fec12ec3cb673cabb036cc40847284d9bcac0a90ba13942a7"
+    },
+    {
+      "kind": "event",
+      "symbol": "XRPUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\XRPUSDT.parquet",
+      "rows": 9879,
+      "sha256": "6a49f301c9deb5502f673cbf68052cf4e9e882d994478c3f7e70e2eb04bc0f33"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ZECUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ZECUSDT.parquet",
+      "rows": 5712,
+      "sha256": "e9e5e786c28488e86d6e4fdc99be44f9d306a48ede0063f779c039e2754e4d77"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ZECUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ZECUSDT.parquet",
+      "rows": 9312,
+      "sha256": "6fd281e5269c17ab2198f4b57d9e115eb0678b79ec14f98840778af868a37ac7"
+    },
+    {
+      "kind": "event",
+      "symbol": "ZECUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ZECUSDT.parquet",
+      "rows": 3891,
+      "sha256": "d0928e2f40d43691b5ea161804d15728e7807b466231031784a250a7343f28e1"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "ZENUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\ZENUSDT.parquet",
+      "rows": 2208,
+      "sha256": "0839dcdbc9486f833ffebfaf5183b6a64d0e656b61dc072c0ac422087d4f6bbe"
+    },
+    {
+      "kind": "clock",
+      "symbol": "ZENUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\ZENUSDT.parquet",
+      "rows": 1056,
+      "sha256": "c7d8669c662205b638fd54ad9f573c5ecc09a136baa22159c62561d57cfef24e"
+    },
+    {
+      "kind": "event",
+      "symbol": "ZENUSDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\ZENUSDT.parquet",
+      "rows": 451,
+      "sha256": "3a90ba4ca91f2bab5ed70fa4f9ca99da93afacac2a63c55c5cc657d0777b33ed"
+    },
+    {
+      "kind": "hourly",
+      "symbol": "币安人生USDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\hourly\\币安人生USDT.parquet",
+      "rows": 1368,
+      "sha256": "1080e732273fe3a146a6208988e0b5799f45668a565d42dc556ed3573db62db3"
+    },
+    {
+      "kind": "clock",
+      "symbol": "币安人生USDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\clock\\币安人生USDT.parquet",
+      "rows": 240,
+      "sha256": "56d26907aea9eb09597adc95458599da1979b883c35046f376144e2a4665381f"
+    },
+    {
+      "kind": "event",
+      "symbol": "币安人生USDT",
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\feature-research-phase2\\feature_outputs\\events\\币安人生USDT.parquet",
+      "rows": 0,
+      "sha256": "690def1276772fa1f116ef72ed42192fc52beaf4956d82e4f919ee1e1865604f"
+    }
+  ],
+  "source_manifest_sha256": "97f618f9874237a957437fc6e0a996c8c8d8f0fa4117e9ded91e18eb66a834ea",
+  "features_sha256": "c7ef42e1ee490ee7a362004f71d7c0e1e8a56451b12954f9bd728398e4742728",
+  "builder_sha256": "ff6d3c9dd21f8b0f581bc86154c551aa07ee32df3cdc7d13b1f71eccd1cc0bf4",
+  "outcome_columns_created": false,
+  "legacy_coverage_comparison": {
+    "exact_old_index_rows": 230424,
+    "non_btc_rows": 218880,
+    "old_residual_available": 168679,
+    "new_residual_available": 179930,
+    "old_quote_rvol_available": 221022,
+    "new_quote_rvol_available": 228066,
+    "old_count_rvol_available": 221022,
+    "new_count_rvol_available": 228066,
+    "old_residual_available_but_new_missing": 0,
+    "new_residual_gained": 11251
+  },
+  "partial_symbols_run": null
+}

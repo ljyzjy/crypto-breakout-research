@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "engine_sha256": "46394d8a3d0caca95a2916745fbee2e7d0f58785b265fd3166beffdc4d6b5214",
+  "test_sha256": "29087fc25e619101eb5d5e6430d37d51c06bb2ff4a5d54cd0f4dd3d307b1251d",
+  "cases": [
+    "nonoverlapping breakouts",
+    "same-ms retrace",
+    "future perturbation",
+    "paid gap exit",
+    "missing delayed fill",
+    "missing entry"
+  ]
+}

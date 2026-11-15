@@ -1,0 +1,766 @@
+{
+  "initial": 1000.0,
+  "final_equity": 922.2523106238776,
+  "return_pct": -7.774768937612242,
+  "annualized_return_pct": null,
+  "elapsed_days": 182.0,
+  "max_drawdown": 8.026275791715731,
+  "trades": 104,
+  "win_rate": 30.76923076923077,
+  "gross_pnl": -5.8350830995591565,
+  "fees": 26.514514784664858,
+  "slippage_cost": 45.414611701618995,
+  "funding_cost": -0.01652020972026616,
+  "net_pnl": -77.74768937612237,
+  "average_trade_net": -0.7475739363088725,
+  "mean_holding_minutes": 11.977750160256411,
+  "mean_exposure_pct": 0.0561945057530388,
+  "profit_factor": 0.20998010914302628,
+  "ledger_error": 3.694822225952521e-13,
+  "scenario": "stress",
+  "start": "2024-01-01",
+  "end": "2024-06-30",
+  "fee": 0.001,
+  "slippage": 0.001,
+  "delay_minutes": 0,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 8.026275791715731,
+  "permanent_pause_ts": 1715568420000,
+  "rejection_counts": {
+    "entry_deviation": 31,
+    "slots_full": 1,
+    "symbol_cooldown": 2,
+    "account_pause": 33
+  },
+  "signal_candidates": 171,
+  "account_gross_exposure_cap": 2,
+  "position_leverage": 10,
+  "seconds_execution_verified": false,
+  "run_id": "cross_partial_2r",
+  "rule_events": [
+    {
+      "id": "opening|ETHUSDT|1704741300000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1704742380000,
+      "effective_ts": 1704742440000,
+      "favorable": 2359.63,
+      "entry": 2346.8845399999996,
+      "initial_r": 11.010397142857073
+    },
+    {
+      "id": "opening|ETHUSDT|1704741300000|1",
+      "kind": "partial_applied",
+      "known_ts": 1704742380000,
+      "effective_ts": 1704742440000,
+      "old_stop": 2335.8741428571425,
+      "new_stop": 2349.6371392857136,
+      "qty": 0.04981726155095362,
+      "raw_exit": 2354.88
+    },
+    {
+      "id": "opening|AVAXUSDT|1704924900000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1704925320000,
+      "effective_ts": 1704925380000,
+      "favorable": 39.374,
+      "entry": 38.726687999999996,
+      "initial_r": 0.37574514285714145
+    },
+    {
+      "id": "opening|AVAXUSDT|1704924900000|1",
+      "kind": "partial_applied",
+      "known_ts": 1704925320000,
+      "effective_ts": 1704925380000,
+      "old_stop": 38.350942857142854,
+      "new_stop": 38.82062428571428,
+      "qty": 2.05474135654881,
+      "raw_exit": 39.269
+    },
+    {
+      "id": "opening|ADAUSDT|1704928500000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1704928920000,
+      "effective_ts": 1704928980000,
+      "favorable": 0.5878,
+      "entry": 0.5829824,
+      "initial_r": 0.003660971428571469
+    },
+    {
+      "id": "opening|ADAUSDT|1704928500000|1",
+      "kind": "partial_applied",
+      "known_ts": 1704928920000,
+      "effective_ts": 1704928980000,
+      "old_stop": 0.5793214285714285,
+      "new_stop": 0.5838976428571429,
+      "qty": 174.65533675953517,
+      "raw_exit": 0.5877
+    },
+    {
+      "id": "opening|ADAUSDT|1704977100000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1704977580000,
+      "effective_ts": 1704977640000,
+      "favorable": 0.6121,
+      "entry": 0.6083076999999999,
+      "initial_r": 0.0031834142857141146
+    },
+    {
+      "id": "opening|BTCUSDT|1705076100000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1705076220000,
+      "effective_ts": 1705076280000,
+      "favorable": 44045.0,
+      "entry": 44271.0846,
+      "initial_r": 200.66682857142587
+    },
+    {
+      "id": "opening|BTCUSDT|1705076100000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1705076220000,
+      "effective_ts": 1705076280000,
+      "old_stop": 44471.75142857143,
+      "new_stop": 44220.91789285715,
+      "qty": 0.0026863257427060727,
+      "raw_exit": 44107.4
+    },
+    {
+      "id": "opening|LINKUSDT|1705607100000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1705607340000,
+      "effective_ts": 1705607400000,
+      "favorable": 14.319,
+      "entry": 14.424561,
+      "initial_r": 0.08926757142856978
+    },
+    {
+      "id": "opening|LINKUSDT|1705607100000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1705607340000,
+      "effective_ts": 1705607400000,
+      "old_stop": 14.51382857142857,
+      "new_stop": 14.402244107142858,
+      "qty": 7.073354931440135,
+      "raw_exit": 14.376
+    },
+    {
+      "id": "opening|LINKUSDT|1705654800000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1705655820000,
+      "effective_ts": 1705655880000,
+      "favorable": 15.244,
+      "entry": 15.133117999999998,
+      "initial_r": 0.10463942857142605
+    },
+    {
+      "id": "opening|LINKUSDT|1705654800000|1",
+      "kind": "partial_applied",
+      "known_ts": 1705655820000,
+      "effective_ts": 1705655880000,
+      "old_stop": 15.028478571428572,
+      "new_stop": 15.159277857142854,
+      "qty": 6.369524026944437,
+      "raw_exit": 15.203
+    },
+    {
+      "id": "opening|AVAXUSDT|1705681800000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1705682400000,
+      "effective_ts": 1705682460000,
+      "favorable": 31.581,
+      "entry": 31.873095000000003,
+      "initial_r": 0.2910692857142827
+    },
+    {
+      "id": "opening|AVAXUSDT|1705681800000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1705682400000,
+      "effective_ts": 1705682460000,
+      "old_stop": 32.164164285714286,
+      "new_stop": 31.80032767857143,
+      "qty": 2.5782326138463803,
+      "raw_exit": 31.524
+    },
+    {
+      "id": "opening|LINKUSDT|1705900500000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1705901400000,
+      "effective_ts": 1705901460000,
+      "favorable": 15.87,
+      "entry": 15.774758999999998,
+      "initial_r": 0.0896447142857113
+    },
+    {
+      "id": "opening|LINKUSDT|1705900500000|1",
+      "kind": "partial_applied",
+      "known_ts": 1705901400000,
+      "effective_ts": 1705901460000,
+      "old_stop": 15.685114285714286,
+      "new_stop": 15.797170178571426,
+      "qty": 6.719744621518073,
+      "raw_exit": 15.845
+    },
+    {
+      "id": "opening|NEARUSDT|1708812000000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1708812180000,
+      "effective_ts": 1708812240000,
+      "favorable": 3.943,
+      "entry": 3.8818779999999995,
+      "initial_r": 0.040427999999999464
+    },
+    {
+      "id": "opening|NEARUSDT|1708812000000|1",
+      "kind": "partial_applied",
+      "known_ts": 1708812180000,
+      "effective_ts": 1708812240000,
+      "old_stop": 3.84145,
+      "new_stop": 3.891984999999999,
+      "qty": 18.9717992157774,
+      "raw_exit": 3.919
+    },
+    {
+      "id": "opening|AVAXUSDT|1709166600000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709166960000,
+      "effective_ts": 1709167020000,
+      "favorable": 41.276,
+      "entry": 41.037997,
+      "initial_r": 0.21058271428571373
+    },
+    {
+      "id": "opening|AVAXUSDT|1709166600000|1",
+      "kind": "partial_applied",
+      "known_ts": 1709166960000,
+      "effective_ts": 1709167020000,
+      "old_stop": 40.82741428571428,
+      "new_stop": 41.09064267857143,
+      "qty": 2.6411125327518756,
+      "raw_exit": 41.149
+    },
+    {
+      "id": "opening|SOLUSDT|1709213400000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709213520000,
+      "effective_ts": 1709213580000,
+      "favorable": 132.826,
+      "entry": 131.808677,
+      "initial_r": 0.9664912857142838
+    },
+    {
+      "id": "opening|SOLUSDT|1709213400000|1",
+      "kind": "partial_gap_full_exit",
+      "known_ts": 1709213520000,
+      "effective_ts": 1709213580000,
+      "old_stop": 130.8421857142857,
+      "new_stop": 132.05029982142855
+    },
+    {
+      "id": "opening|DOGEUSDT|1709330400000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709330760000,
+      "effective_ts": 1709330820000,
+      "favorable": 0.1433,
+      "entry": 0.14172157999999999,
+      "initial_r": 0.0013835799999999676
+    },
+    {
+      "id": "opening|DOGEUSDT|1709330400000|1",
+      "kind": "partial_applied",
+      "known_ts": 1709330760000,
+      "effective_ts": 1709330820000,
+      "old_stop": 0.14033800000000002,
+      "new_stop": 0.14206747499999997,
+      "qty": 533.7984085936752,
+      "raw_exit": 0.14218
+    },
+    {
+      "id": "opening|NEARUSDT|1709485200000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709485740000,
+      "effective_ts": 1709485800000,
+      "favorable": 4.457,
+      "entry": 4.4224179999999995,
+      "initial_r": 0.024053714285714456
+    },
+    {
+      "id": "opening|NEARUSDT|1709485200000|1",
+      "kind": "partial_applied",
+      "known_ts": 1709485740000,
+      "effective_ts": 1709485800000,
+      "old_stop": 4.398364285714285,
+      "new_stop": 4.428431428571428,
+      "qty": 11.756742186033351,
+      "raw_exit": 4.452
+    },
+    {
+      "id": "opening|NEARUSDT|1709760600000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709760720000,
+      "effective_ts": 1709760780000,
+      "favorable": 5.968,
+      "entry": 5.882876999999999,
+      "initial_r": 0.06830557142857074
+    },
+    {
+      "id": "opening|NEARUSDT|1709760600000|1",
+      "kind": "partial_applied",
+      "known_ts": 1709760720000,
+      "effective_ts": 1709760780000,
+      "old_stop": 5.814571428571428,
+      "new_stop": 5.8999533928571415,
+      "qty": 5.720986655322911,
+      "raw_exit": 5.912
+    },
+    {
+      "id": "opening|DOGEUSDT|1709862300000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1709862780000,
+      "effective_ts": 1709862840000,
+      "favorable": 0.16514,
+      "entry": 0.16389372999999996,
+      "initial_r": 0.001172158571428522
+    },
+    {
+      "id": "opening|DOGEUSDT|1709862300000|1",
+      "kind": "partial_applied",
+      "known_ts": 1709862780000,
+      "effective_ts": 1709862840000,
+      "old_stop": 0.16272157142857144,
+      "new_stop": 0.16418676964285708,
+      "qty": 274.66045213541435,
+      "raw_exit": 0.16494
+    },
+    {
+      "id": "opening|NEARUSDT|1710126900000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710127380000,
+      "effective_ts": 1710127440000,
+      "favorable": 6.634,
+      "entry": 6.5075009999999995,
+      "initial_r": 0.11178671428571363
+    },
+    {
+      "id": "opening|NEARUSDT|1710126900000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710127380000,
+      "effective_ts": 1710127440000,
+      "old_stop": 6.395714285714286,
+      "new_stop": 6.535447678571428,
+      "qty": 3.924504634740193,
+      "raw_exit": 6.644
+    },
+    {
+      "id": "opening|AVAXUSDT|1710149400000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710150960000,
+      "effective_ts": 1710151020000,
+      "favorable": 45.098,
+      "entry": 44.778734,
+      "initial_r": 0.30658400000000086
+    },
+    {
+      "id": "opening|AVAXUSDT|1710149400000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710150960000,
+      "effective_ts": 1710151020000,
+      "old_stop": 44.47215,
+      "new_stop": 44.85538,
+      "qty": 1.0284392928255215,
+      "raw_exit": 45.081
+    },
+    {
+      "id": "opening|SOLUSDT|1710213300000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710213420000,
+      "effective_ts": 1710213480000,
+      "favorable": 154.099,
+      "entry": 153.07392099999998,
+      "initial_r": 0.6986995714285626
+    },
+    {
+      "id": "opening|SOLUSDT|1710213300000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710213420000,
+      "effective_ts": 1710213480000,
+      "old_stop": 152.37522142857142,
+      "new_stop": 153.2485958928571,
+      "qty": 0.36609678727988204,
+      "raw_exit": 153.701
+    },
+    {
+      "id": "opening|AVAXUSDT|1710268200000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710268500000,
+      "effective_ts": 1710268560000,
+      "favorable": 56.687,
+      "entry": 55.557502,
+      "initial_r": 0.7710019999999957
+    },
+    {
+      "id": "opening|AVAXUSDT|1710268200000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710268500000,
+      "effective_ts": 1710268560000,
+      "old_stop": 54.786500000000004,
+      "new_stop": 55.7502525,
+      "qty": 0.5344522499966317,
+      "raw_exit": 56.063
+    },
+    {
+      "id": "opening|ADAUSDT|1710444600000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710444960000,
+      "effective_ts": 1710445020000,
+      "favorable": 0.7178,
+      "entry": 0.7255737,
+      "initial_r": 0.0049048714285714334
+    },
+    {
+      "id": "opening|ADAUSDT|1710444600000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1710444960000,
+      "effective_ts": 1710445020000,
+      "old_stop": 0.7304785714285714,
+      "new_stop": 0.7243474821428572,
+      "qty": 63.733944030221096,
+      "raw_exit": 0.7206
+    },
+    {
+      "id": "opening|BNBUSDT|1710546300000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710546780000,
+      "effective_ts": 1710546840000,
+      "favorable": 627.05,
+      "entry": 622.1815599999999,
+      "initial_r": 4.0681314285712915
+    },
+    {
+      "id": "opening|BNBUSDT|1710546300000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710546780000,
+      "effective_ts": 1710546840000,
+      "old_stop": 618.1134285714286,
+      "new_stop": 623.1985928571427,
+      "qty": 0.075603624277558,
+      "raw_exit": 626.4
+    },
+    {
+      "id": "opening|SOLUSDT|1710558900000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710560640000,
+      "effective_ts": 1710560700000,
+      "favorable": 189.142,
+      "entry": 187.75656899999996,
+      "initial_r": 0.9985189999999591
+    },
+    {
+      "id": "opening|SOLUSDT|1710558900000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710560640000,
+      "effective_ts": 1710560700000,
+      "old_stop": 186.75805,
+      "new_stop": 188.00619874999995,
+      "qty": 0.27773676435983047,
+      "raw_exit": 189.228
+    },
+    {
+      "id": "opening|BNBUSDT|1710596700000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710598080000,
+      "effective_ts": 1710598140000,
+      "favorable": 590.28,
+      "entry": 596.44296,
+      "initial_r": 5.534468571428647
+    },
+    {
+      "id": "opening|BNBUSDT|1710596700000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1710598080000,
+      "effective_ts": 1710598140000,
+      "old_stop": 601.9774285714286,
+      "new_stop": 595.0593428571428,
+      "qty": 0.06476858651385471,
+      "raw_exit": 592.12
+    },
+    {
+      "id": "opening|AVAXUSDT|1710760500000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710761400000,
+      "effective_ts": 1710761460000,
+      "favorable": 64.387,
+      "entry": 63.73166799999999,
+      "initial_r": 0.6219679999999883
+    },
+    {
+      "id": "opening|AVAXUSDT|1710760500000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710761400000,
+      "effective_ts": 1710761460000,
+      "old_stop": 63.109700000000004,
+      "new_stop": 63.88715999999999,
+      "qty": 0.5870481394468383,
+      "raw_exit": 64.132
+    },
+    {
+      "id": "opening|NEARUSDT|1710780300000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710780660000,
+      "effective_ts": 1710780720000,
+      "favorable": 7.16,
+      "entry": 7.237755,
+      "initial_r": 0.06888071428571418
+    },
+    {
+      "id": "opening|NEARUSDT|1710780300000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1710780660000,
+      "effective_ts": 1710780720000,
+      "old_stop": 7.306635714285714,
+      "new_stop": 7.220534821428571,
+      "qty": 5.244063589328419,
+      "raw_exit": 7.178
+    },
+    {
+      "id": "opening|LTCUSDT|1710804600000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710804780000,
+      "effective_ts": 1710804840000,
+      "favorable": 87.26,
+      "entry": 86.64656,
+      "initial_r": 0.5118457142856983
+    },
+    {
+      "id": "opening|LTCUSDT|1710804600000|1",
+      "kind": "partial_applied",
+      "known_ts": 1710804780000,
+      "effective_ts": 1710804840000,
+      "old_stop": 86.1347142857143,
+      "new_stop": 86.77452142857142,
+      "qty": 0.5713272159159624,
+      "raw_exit": 87.31
+    },
+    {
+      "id": "opening|AVAXUSDT|1710897300000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1710897540000,
+      "effective_ts": 1710897600000,
+      "favorable": 52.508,
+      "entry": 53.00694,
+      "initial_r": 0.3664099999999948
+    },
+    {
+      "id": "opening|AVAXUSDT|1710897300000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1710897540000,
+      "effective_ts": 1710897600000,
+      "old_stop": 53.373349999999995,
+      "new_stop": 52.9153375,
+      "qty": 0.858848171350361,
+      "raw_exit": 52.574
+    },
+    {
+      "id": "opening|LTCUSDT|1711710000000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1711710120000,
+      "effective_ts": 1711710180000,
+      "favorable": 102.92,
+      "entry": 101.95184999999998,
+      "initial_r": 0.6960642857142574
+    },
+    {
+      "id": "opening|LTCUSDT|1711710000000|1",
+      "kind": "partial_applied",
+      "known_ts": 1711710120000,
+      "effective_ts": 1711710180000,
+      "old_stop": 101.25578571428572,
+      "new_stop": 102.12586607142855,
+      "qty": 0.44881214603316555,
+      "raw_exit": 102.86
+    },
+    {
+      "id": "opening|LTCUSDT|1711935900000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1711936140000,
+      "effective_ts": 1711936200000,
+      "favorable": 113.0,
+      "entry": 111.50138999999999,
+      "initial_r": 1.02260428571428
+    },
+    {
+      "id": "opening|LTCUSDT|1711935900000|1",
+      "kind": "partial_applied",
+      "known_ts": 1711936140000,
+      "effective_ts": 1711936200000,
+      "old_stop": 110.4787857142857,
+      "new_stop": 111.75704107142856,
+      "qty": 0.34645588058441457,
+      "raw_exit": 112.47
+    },
+    {
+      "id": "opening|NEARUSDT|1712324700000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1712324940000,
+      "effective_ts": 1712325000000,
+      "favorable": 6.942,
+      "entry": 6.875868999999999,
+      "initial_r": 0.0434404285714276
+    },
+    {
+      "id": "opening|NEARUSDT|1712324700000|1",
+      "kind": "partial_applied",
+      "known_ts": 1712324940000,
+      "effective_ts": 1712325000000,
+      "old_stop": 6.832428571428571,
+      "new_stop": 6.886729107142855,
+      "qty": 6.904649282877593,
+      "raw_exit": 6.914
+    },
+    {
+      "id": "opening|ADAUSDT|1713114900000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1713115320000,
+      "effective_ts": 1713115380000,
+      "favorable": 0.4434,
+      "entry": 0.447552,
+      "initial_r": 0.00387299999999996
+    },
+    {
+      "id": "opening|LINKUSDT|1713207600000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1713207840000,
+      "effective_ts": 1713207900000,
+      "favorable": 13.239,
+      "entry": 13.322664,
+      "initial_r": 0.07120028571428527
+    },
+    {
+      "id": "opening|ADAUSDT|1713207600000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1713207840000,
+      "effective_ts": 1713207900000,
+      "favorable": 0.4394,
+      "entry": 0.4424571,
+      "initial_r": 0.0027043285714286047
+    },
+    {
+      "id": "opening|LINKUSDT|1713207600000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1713207840000,
+      "effective_ts": 1713207900000,
+      "old_stop": 13.393864285714285,
+      "new_stop": 13.304863928571429,
+      "qty": 3.8560749260762233,
+      "raw_exit": 13.291
+    },
+    {
+      "id": "opening|ADAUSDT|1713207600000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1713207840000,
+      "effective_ts": 1713207900000,
+      "old_stop": 0.4451614285714286,
+      "new_stop": 0.44178101785714285,
+      "qty": 108.70687518416207,
+      "raw_exit": 0.4411
+    },
+    {
+      "id": "opening|NEARUSDT|1714095900000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1714096200000,
+      "effective_ts": 1714096260000,
+      "favorable": 7.386,
+      "entry": 7.285277999999999,
+      "initial_r": 0.08021371428571378
+    },
+    {
+      "id": "opening|NEARUSDT|1714095900000|1",
+      "kind": "partial_applied",
+      "known_ts": 1714096200000,
+      "effective_ts": 1714096260000,
+      "old_stop": 7.205064285714285,
+      "new_stop": 7.305331428571428,
+      "qty": 4.673921750837104,
+      "raw_exit": 7.346
+    },
+    {
+      "id": "opening|NEARUSDT|1714243500000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1714243560000,
+      "effective_ts": 1714243620000,
+      "favorable": 7.487,
+      "entry": 7.445437999999999,
+      "initial_r": 0.03885228571428545
+    },
+    {
+      "id": "opening|NEARUSDT|1714243500000|1",
+      "kind": "partial_applied",
+      "known_ts": 1714243560000,
+      "effective_ts": 1714243620000,
+      "old_stop": 7.406585714285714,
+      "new_stop": 7.4551510714285705,
+      "qty": 6.927523847480278,
+      "raw_exit": 7.459
+    },
+    {
+      "id": "opening|DOGEUSDT|1714782600000|1",
+      "kind": "partial_scheduled",
+      "known_ts": 1714783080000,
+      "effective_ts": 1714783140000,
+      "favorable": 0.1494,
+      "entry": 0.14830815999999997,
+      "initial_r": 0.0008680171428571137
+    },
+    {
+      "id": "opening|DOGEUSDT|1714782600000|1",
+      "kind": "partial_applied",
+      "known_ts": 1714783080000,
+      "effective_ts": 1714783140000,
+      "old_stop": 0.14744014285714285,
+      "new_stop": 0.14852516428571425,
+      "qty": 328.2940837457754,
+      "raw_exit": 0.14922
+    },
+    {
+      "id": "opening|DOGEUSDT|1714871700000|-1",
+      "kind": "partial_scheduled",
+      "known_ts": 1714872960000,
+      "effective_ts": 1714873020000,
+      "favorable": 0.15501,
+      "entry": 0.15657327000000001,
+      "initial_r": 0.0014250157142857156
+    },
+    {
+      "id": "opening|DOGEUSDT|1714871700000|-1",
+      "kind": "partial_applied",
+      "known_ts": 1714872960000,
+      "effective_ts": 1714873020000,
+      "old_stop": 0.15799828571428573,
+      "new_stop": 0.15621701607142857,
+      "qty": 244.22399794790692,
+      "raw_exit": 0.15535
+    }
+  ],
+  "expected_calendar_minutes": 262080,
+  "observed_calendar_minutes": 262080,
+  "active_minutes": 1272,
+  "cash_minutes": 260808,
+  "permanent_halt_minutes": 70393,
+  "cash_days": 181.11666666666667,
+  "halted_days": 48.884027777777774,
+  "period": "cross_2024",
+  "target_r": 2.0,
+  "stop_shock": 0.002,
+  "max_hold_minutes": 60,
+  "allow_overnight": false,
+  "partial_exit": true,
+  "quarter_exit": false,
+  "failure_exit": false,
+  "net_win_rate_pct": 30.76923076923077,
+  "winning_trade_count": 32,
+  "active_calendar_days": 57,
+  "large_1pct_caught": 21,
+  "large_1pct_trade_win": 16,
+  "liquidation_proxy_count": 0,
+  "planned_loss_exceeded_count": 0,
+  "acceptance_pass": false
+}

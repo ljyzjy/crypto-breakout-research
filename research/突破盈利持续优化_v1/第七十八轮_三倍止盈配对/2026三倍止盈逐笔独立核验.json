@@ -1,0 +1,24 @@
+{
+  "all_checks_pass": true,
+  "year": "2026",
+  "samples": [
+    {
+      "observation_id": "opening|AVAXUSDT|1783476000000",
+      "variant": "one_observation_2r_10x",
+      "reason": "target",
+      "side": -1
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1782395100000",
+      "variant": "one_observation_2r_10x",
+      "reason": "target",
+      "side": -1
+    }
+  ],
+  "eligible_paths": 26,
+  "reused_paths": 22,
+  "replay_fingerprint": "67b68ec5abb147eb2fe5ea6f08be67dbe6efd350cacc6ebc3922fa23be33c778",
+  "source_snapshot_sha256": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8",
+  "audit_code_sha256": "b005ce689a36e74ad5ac8c11e90c820f1e64f0c90ca40eb6433eccac5b5a6154",
+  "note": "Scalar public-tape replay; actual fills remain unverified."
+}

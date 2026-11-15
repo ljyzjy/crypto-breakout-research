@@ -1,0 +1,23 @@
+{
+  "feature_rows": 106,
+  "account_cases": 16,
+  "trade_records": 596,
+  "archive_samples": [
+    {
+      "id": "opening|ADAUSDT|1778465700000|-1",
+      "contract": "ADAUSDT",
+      "day": "2026-05-11"
+    },
+    {
+      "id": "opening|LINKUSDT|1779920100000|-1",
+      "contract": "LINKUSDT",
+      "day": "2026-05-27"
+    },
+    {
+      "id": "opening|XRPUSDT|1785292200000|1",
+      "contract": "XRPUSDT",
+      "day": "2026-07-29"
+    }
+  ],
+  "limit": "Feature uses aggregated public trades; actual order fill and later intraminute sequence remain unverified."
+}

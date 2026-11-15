@@ -1,0 +1,6 @@
+{
+  "accounts_checked": 16,
+  "trade_records_checked": 564,
+  "partial_exits_checked": 126,
+  "checks": "5-second directional filter, partial timing and both exit legs, funding, ledger, control parity"
+}

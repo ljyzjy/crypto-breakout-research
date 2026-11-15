@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "long_and_short": true,
+  "one_second_entry": true,
+  "five_second_exit": true,
+  "same_millisecond_stop_priority": true,
+  "risk_budget_breach_filled": true,
+  "source_mismatch_rejected": true,
+  "future_price_perturbation": true,
+  "code_sha256": "0b3cc373857ee764823f06aeeff3f7c291e05dbc288e89a11e8d7d99c7482772",
+  "plan_sha256": "3dd8202344d125c467336bde364f0e99311501ceed8bf3d30b237886530b8771"
+}

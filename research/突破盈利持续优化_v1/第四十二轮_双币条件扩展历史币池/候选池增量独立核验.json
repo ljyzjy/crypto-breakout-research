@@ -1,0 +1,23 @@
+{
+  "common_candidate_market_decisions_checked": 680,
+  "rows": [
+    {
+      "leverage": 10,
+      "old_verified": 26,
+      "overlap_checked": 26,
+      "added_verified": 2,
+      "added_net_positive": 2,
+      "added_mean_net_pct_notional": 0.3754507442401607
+    },
+    {
+      "leverage": 20,
+      "old_verified": 24,
+      "overlap_checked": 24,
+      "added_verified": 2,
+      "added_net_positive": 2,
+      "added_mean_net_pct_notional": 0.3754507442401607
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Additional opportunities are not independent evidence; market universe and candidate selection differ."
+}

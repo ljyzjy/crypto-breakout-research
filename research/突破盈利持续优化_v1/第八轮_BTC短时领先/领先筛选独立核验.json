@@ -1,0 +1,8 @@
+{
+  "signals_checked": 251,
+  "accounts_checked": 16,
+  "trade_records_checked": 870,
+  "max_ledger_error_usdt": 7.673861546209082e-13,
+  "max_drawdown_error_pct_points": 0.0,
+  "limit": "Repeated scenarios use overlapping historical events and do not represent independent trades."
+}

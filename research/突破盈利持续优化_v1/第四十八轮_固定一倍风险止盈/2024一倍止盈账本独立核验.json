@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "audited_1r_ledger_paths": 93,
+  "matched_risk_archives": 64,
+  "maximum_net_fraction_error": 0.0,
+  "note": "Known paired unit opportunities only; account-level outcomes were not simulated."
+}

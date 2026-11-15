@@ -1,0 +1,21 @@
+{
+  "plan_sha256": "bc19c13b582833ee6fddf9c3839bc33967e14ba7d7286a93774edb9079b136f0",
+  "frozen_utc": "2026-11-14T21:02:57.175315+00:00",
+  "source_paths": {
+    "prior_2023_2026_paths": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\首秒距离逐笔.csv",
+    "prior_extended_paths": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十八轮_延长一根柱持有\\延长持有配对逐笔.csv",
+    "2022_plan": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\冻结研究方案.md",
+    "2022_frozen_inputs": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\冻结时点.json",
+    "2022_candidates_quality": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二候选准备质量.json"
+  },
+  "source_sha256": {
+    "prior_2023_2026_paths": "c5a73b28cb20513099faa64a81eacac6578a4bdfe999cf4dbb4e8e40b0c2b9fb",
+    "prior_extended_paths": "d1a8409685447bb83bf95cf200c78290e2c2c1be738e5587b67780baeda68768",
+    "2022_plan": "c6cd3b8ca519605d0cbf06d6004e7445cc2c833f8143befb1dbdebdd6bfd1e15",
+    "2022_frozen_inputs": "573452bca925b87139bd9a75c19876ad83b1b297e76011fd1653b16cfaabb3ab",
+    "2022_candidates_quality": "8c938cf2a1c5abd485e3886f1b9339b3911f4c79aa4840a45a63834d3832fcb0"
+  },
+  "2022_checkpoints_already_created": 100,
+  "2022_pnl_viewed_before_freeze": false,
+  "note": "No 2022 PnL read before freezing; partial checkpoints exist and 2022 is not a fully independent blind sample."
+}

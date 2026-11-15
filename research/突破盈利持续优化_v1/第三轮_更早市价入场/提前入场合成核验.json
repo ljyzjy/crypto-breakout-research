@@ -1,0 +1,7 @@
+{
+  "decision_open_entry_allowed": true,
+  "entry_slippage_applied": true,
+  "extra_delay_one_minute": true,
+  "entry_before_signal_rejected": true,
+  "limit": "decision-open price is an optimistic execution assumption, not a measured fill"
+}

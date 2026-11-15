@@ -1,0 +1,31 @@
+{
+  "base_candidates": 1081,
+  "base_qualified_opportunities": 358,
+  "new_candidate_events": 141,
+  "candidate_year_counts": {
+    "2024": 130,
+    "2026": 11
+  },
+  "candidate_leverage_counts": {
+    "10x": 141,
+    "20x": 133
+  },
+  "base_source_unknown_events": 77,
+  "unverified_base_paths": 0,
+  "unknown_second_reference_events": 0,
+  "filter_counts": {
+    "10x_follow_candidate": 141,
+    "10x_no_follow": 176,
+    "10x_reference_deviation_known": 40,
+    "10x_reference_risk_or_cost_known": 1,
+    "20x_follow_candidate": 133,
+    "20x_no_follow": 164,
+    "20x_reference_deviation_known": 37,
+    "20x_reference_liquidation_buffer_known": 1,
+    "20x_reference_risk_or_cost_known": 1
+  },
+  "plan_sha256": "fdfe92227b2db359010a917060c806e10247e5acf50a82a0eab98a7476f96b44",
+  "source_signal_sha256": "788da3b3477eedd934f40f3a199b028ac0d499bac438a734e15eaf11a80d9dd6",
+  "source_path_sha256": "f62ec3294fffbfc3f93a0258bbc4393a416c6b492c351cb3cc98ded8d933e181",
+  "note": "No exit/return label is used. P10 is an observed signal, not an entry fill; 5s more latency and risk checks remain."
+}

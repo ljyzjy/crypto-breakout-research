@@ -1,0 +1,17 @@
+{
+  "candidate_events": 146,
+  "source_checkpoint_tasks": 135,
+  "pending_candidates": 0,
+  "event_statuses": {
+    "flow_filter_not_met": 72,
+    "qualified": 42,
+    "minute_trade_ohlc_mismatch": 19,
+    "known_risk_rejected": 12,
+    "no_order_time": 1
+  },
+  "unexpected_event_count": 19,
+  "variant_paths": 168,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "Pending and data-disagreement events remain unknown. Snapshot is not a complete annual account."
+}

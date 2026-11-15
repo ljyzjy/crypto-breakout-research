@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "paired_records_checked": 111,
+  "aggregate_groups_checked": 16,
+  "output_sha256": "ecc2de933f11e6b220f430583178c8124f73f9dcdd74f6b6b165c32dff95a9be",
+  "detail_sha256": "fa89e72c667dc0f6199d62cbfbf3c1fa8e17c0e429cddf7a8362f04c9c2c63ac",
+  "audit_sha256": "fd7e60fbfbd49c2cc0af33e026441559c4c5d15592547e34755d88169008f414"
+}

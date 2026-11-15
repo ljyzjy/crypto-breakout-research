@@ -1,0 +1,39 @@
+<meta charset="utf-8"><style>/* Portable host defaults: scoped so charts also work without a Visualize host. */
+[data-data-chart] {
+  color-scheme: light dark;
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--foreground, light-dark(#242424, #ececec));
+  --foreground: light-dark(#242424, #ececec);
+  --muted-foreground: light-dark(#6b6b6b, #aaa);
+  --card: light-dark(#fff, #202020);
+  --muted: light-dark(#f3f3f3, #303030);
+  --popover: light-dark(#fff, #292929);
+  --popover-foreground: var(--foreground);
+  --border: light-dark(#e7e7e7, #454545);
+  --ring: light-dark(#176bb8, #83c3ff);
+  --green: light-dark(#22794d, #74d58b);
+  --red: light-dark(#bc4760, #ed7891);
+  --viz-series-1: light-dark(#339cff, #83c3ff);
+  --viz-series-2: light-dark(#f3883b, #f59a56);
+  --viz-series-3: light-dark(#5dc977, #74d58b);
+  --viz-series-4: light-dark(#eb77b1, #f08fc0);
+  --viz-series-5: light-dark(#9b79ec, #aa91ef);
+  --viz-series-6: light-dark(#3ab9b1, #5acbc2);
+  min-width: 0;
+  width: 100%;
+}
+[data-data-chart][data-appearance="light"] { color-scheme: light; }
+[data-data-chart][data-appearance="dark"] { color-scheme: dark; }
+[data-data-chart] > [data-chart-error] { margin: 8px 0; color: var(--foreground); }
+@media print { [data-data-chart] { color-scheme: light; break-inside: avoid; } }
+</style>
+<section id="data-chart-300ceffb-9edf-4d73-bc39-9de7161110d0" data-data-chart data-viz-composition data-appearance="auto">
+<div data-viz-container style="min-width:0;min-height:440px"></div>
+</section>
+<script type="module">
+const {mountChart}=await import("https://persistent.oaistatic.com/plugins/visualize/charts/data-analytics-plugin/1.2.1/charts/element.js");
+const root=document.getElementById("data-chart-300ceffb-9edf-4d73-bc39-9de7161110d0");
+const target=root.querySelector("[data-viz-container]");
+const config={"id":"pullback-monthly-markout-v1","title":"固定30分钟诊断：各月信号平均收益均未覆盖20bp成本假设","description":"单位 bp，1bp=0.01%。按入场时点归属月份、信号等权，重叠信号保留。不是账户收益或新的交易策略回测；不含资金费、止盈止损和仓位约束。2026年4月仅到26日。","summary":"2025年1月至2026年4月26日，26272个有效信号，平均扣费前方向收益为-2.17bp；所有16个月均未覆盖20bp成本假设。","height":340,"spec":{"type":"bar","x":"month","y":["30分钟方向收益","扣除20bp成本估计后"],"yLabel":"每信号平均收益（bp）","showLegend":true,"valueFormat":{"style":"decimal","maximumFractionDigits":2},"colors":{"30分钟方向收益":"#008b8b","扣除20bp成本估计后":"#ce6654"}},"rows":[{"month":"2025-01","30分钟方向收益":1.0833116642,"扣除20bp成本估计后":-18.9166883358,"信号数":1784},{"month":"2025-02","30分钟方向收益":2.2825695904,"扣除20bp成本估计后":-17.7174304096,"信号数":1531},{"month":"2025-03","30分钟方向收益":-1.3918224066,"扣除20bp成本估计后":-21.3918224066,"信号数":1668},{"month":"2025-04","30分钟方向收益":5.040939587,"扣除20bp成本估计后":-14.959060413,"信号数":1611},{"month":"2025-05","30分钟方向收益":-2.4783701053,"扣除20bp成本估计后":-22.4783701053,"信号数":2018},{"month":"2025-06","30分钟方向收益":-2.4258705253,"扣除20bp成本估计后":-22.4258705253,"信号数":1244},{"month":"2025-07","30分钟方向收益":-6.789470383,"扣除20bp成本估计后":-26.789470383,"信号数":2466},{"month":"2025-08","30分钟方向收益":-2.8241290645,"扣除20bp成本估计后":-22.8241290645,"信号数":1656},{"month":"2025-09","30分钟方向收益":-3.7706002615,"扣除20bp成本估计后":-23.7706002615,"信号数":1463},{"month":"2025-10","30分钟方向收益":-4.0250712464,"扣除20bp成本估计后":-24.0250712464,"信号数":1582},{"month":"2025-11","30分钟方向收益":-4.9445510055,"扣除20bp成本估计后":-24.9445510055,"信号数":1373},{"month":"2025-12","30分钟方向收益":-1.1103843644,"扣除20bp成本估计后":-21.1103843644,"信号数":1298},{"month":"2026-01","30分钟方向收益":-3.7895377349,"扣除20bp成本估计后":-23.7895377349,"信号数":2080},{"month":"2026-02","30分钟方向收益":-0.6781959863,"扣除20bp成本估计后":-20.6781959863,"信号数":1453},{"month":"2026-03","30分钟方向收益":-3.6978712992,"扣除20bp成本估计后":-23.6978712992,"信号数":1858},{"month":"2026-04","30分钟方向收益":-2.5387116297,"扣除20bp成本估计后":-22.5387116297,"信号数":1187}]};
+mountChart(target,config);
+</script>

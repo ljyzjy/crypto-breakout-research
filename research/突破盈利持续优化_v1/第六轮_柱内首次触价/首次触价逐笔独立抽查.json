@@ -1,0 +1,42 @@
+{
+  "sampled_events": 6,
+  "checked": [
+    {
+      "observation_id": "touch|ADAUSDT|1705997460000|-1",
+      "contract": "ADAUSDT",
+      "day": "2024-01-23",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1704891180000|-1",
+      "contract": "BTCUSDT",
+      "day": "2024-01-10",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1710533220000|-1",
+      "contract": "ETHUSDT",
+      "day": "2024-03-15",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1710575580000|1",
+      "contract": "NEARUSDT",
+      "day": "2024-03-16",
+      "side": 1
+    },
+    {
+      "observation_id": "touch|AVAXUSDT|1780667700000|-1",
+      "contract": "AVAXUSDT",
+      "day": "2026-06-05",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1784662260000|1",
+      "contract": "XRPUSDT",
+      "day": "2026-07-21",
+      "side": 1
+    }
+  ],
+  "limits": "Sample independently rereads the same public trade archive; does not establish market-order fills or intraminute mark-price paths."
+}

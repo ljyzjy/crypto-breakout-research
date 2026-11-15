@@ -1,0 +1,32 @@
+{
+  "year": 2024,
+  "sample_count": 4,
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "symbol": "BTCUSDT",
+      "time": "2024-02-15 12:00",
+      "daily_minute_sha256": "553bb780d8a51968e78a87df520351f7a61f2c1952fa687e9bca786adf8cfd07",
+      "monthly_quarter_sha256": "f6a9399826f593aa23746d920e595e9705addd1154d4ec53fcf7a2564755e67b"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "time": "2024-03-15 12:00",
+      "daily_minute_sha256": "d3464b16f5c09f6557ede38773840864c2f30bb36c6886d29d477a6468a56b6b",
+      "monthly_quarter_sha256": "9f3b2fc59cc0e30fe2baf0d27dd1f561672f1daf9575b0e7b24fab22e0231734"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "time": "2024-05-15 12:00",
+      "daily_minute_sha256": "44b199f4ba57685c9489d45df0d88324041aefa34811cc62d0c73c20cf1f64b9",
+      "monthly_quarter_sha256": "180775c3969d5e1a4f80dab6d62639945db50ed26b7fb240e66cc384d572295b"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "time": "2024-06-15 12:00",
+      "daily_minute_sha256": "0277f2724cac3418b1de54056818727f45c8b6bd926af844401f825b21769a39",
+      "monthly_quarter_sha256": "8185a2fec997ba390b15af9c10bfcd1373c9e2cea18eec0e1a24f2380e99de36"
+    }
+  ],
+  "note": "Same-exchange archive samples; future-bar perturbation is checked separately."
+}

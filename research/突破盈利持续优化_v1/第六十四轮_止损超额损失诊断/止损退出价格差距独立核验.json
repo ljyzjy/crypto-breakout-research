@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "stop_paths_checked": 40,
+  "groups_checked": 4,
+  "result_sha256": "e91975857feef87e60e1b6abea0df2b384ee90635643db9fb3d4fbbb40f16bb1",
+  "detail_sha256": "452449c085a3d944da269289d54e5605ec207c6fb642cf796f2bd1361f54633c",
+  "audit_sha256": "f50b181a6697920a38afcf3ea7467b57efb1a6e81d1e54b20feb56ed87902b83",
+  "note": "Decimal calculation versus idealized stop fill, not actual executions."
+}

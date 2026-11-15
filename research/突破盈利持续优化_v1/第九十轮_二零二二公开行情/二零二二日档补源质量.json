@@ -1,0 +1,1378 @@
+{
+  "selected_sources": [
+    {
+      "symbol": "BTCUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BTCUSDT_klines.parquet",
+      "sha256": "ce445883bcfe5de2570a8b2be179032874e7ec9102cfd93a5d4e83896d56fccb",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "ETHUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ETHUSDT_klines.parquet",
+      "sha256": "dd7f94a8b8eeac91616b4c4e9e91757ac130aad6d277993f221d9081edde0e45",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "SOLUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\SOLUSDT_klines.parquet",
+      "sha256": "103029078c38b82152468953c2f733920984c92150f0119d8d1016ad3414257c",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ],
+      "original_path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\SOLUSDT_klines.parquet",
+      "original_sha256": "0782065f2810beae29fb2d120ae3135fca5017baccc1fd1aa47fcdedbff39f5e",
+      "repair_status": "verified_daily_gaps"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\XRPUSDT_klines.parquet",
+      "sha256": "82c302b0176c394435078228576671b6c3790d19311bdcaa0f32de557a18680f",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ],
+      "original_path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\XRPUSDT_klines.parquet",
+      "original_sha256": "20583d93f686d6f3e7971a5f43e073b57b8a88d90ad72ef28772acd56a47933a",
+      "repair_status": "verified_daily_gaps"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\DOGEUSDT_klines.parquet",
+      "sha256": "a9a63fc4c079a0929152d705a93397a1ef600164d2d04904b937c834e7191ebe",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "BNBUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BNBUSDT_klines.parquet",
+      "sha256": "17b5260d07386e0255071fbdc96782fa9326e24f6f94f9cabfe0139661e0ee04",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "ADAUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ADAUSDT_klines.parquet",
+      "sha256": "194c123b1b2fc1b2ba8c493b4a06d66c67f04f44069962ea10039dc99f9aeb94",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "LINKUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\LINKUSDT_klines.parquet",
+      "sha256": "e21a14567838ffac04b684a12fde3573d2184d9fc1d5af02a610a0e77d793207",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\AVAXUSDT_klines.parquet",
+      "sha256": "aacef1298ab47570b98d8fd5d8b34f377fd97ab21a207019a8f49e910084831c",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "LTCUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\LTCUSDT_klines.parquet",
+      "sha256": "e969695f19c13fdd7d73109c7a5112dff59220b0da0681bb10a1281955034c4f",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ],
+      "original_path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\LTCUSDT_klines.parquet",
+      "original_sha256": "dc5b916db1e0877f6a47a310def84c435b29935348cb7637622cf862fa8cc0c1",
+      "repair_status": "verified_daily_gaps"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\NEARUSDT_klines.parquet",
+      "sha256": "1fd022b7c5e43a9c946b9bd2408815731bdbb12d847fbee07cae9d0677870021",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ],
+      "original_path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\NEARUSDT_klines.parquet",
+      "original_sha256": "bb8e4585ab2bb892e5b9a03ce54be49449f7c9c53da64c74bce17f747682cff6",
+      "repair_status": "verified_daily_gaps"
+    }
+  ],
+  "daily_archives": [
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-02-25",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-02-25.zip",
+      "sha256": "042a7b11e65f50620486a11eabfd0c5ec3b2dff5977697f03de79a07e73b0b84",
+      "bytes": 55982
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-02-26",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-02-26.zip",
+      "sha256": "194fff7c3fe6aa2083db2dc9d52de78c8deed46f8dfa74f6c40bad7a03ced5ed",
+      "bytes": 55199
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-02-27",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-02-27.zip",
+      "sha256": "baabc7f2e7c9824747137137fbd9fb8edeafdae15968dcf288948cf39970e7ea",
+      "bytes": 55341
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-02-28",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-02-28.zip",
+      "sha256": "aed5b6844184e17ff994a5b544c3642cc47f8ceb1b23610b7791bbfdb86a8cbc",
+      "bytes": 56061
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-03-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-03-01.zip",
+      "sha256": "78af1ff78ebd022d12da7b4f873d8e430670329fdb9b48ad78ec048296b140ff",
+      "bytes": 55916
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-03-31",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-03-31.zip",
+      "sha256": "36ec548251b763f4dff82426347cd6e47d3575b8f09950aea11ecc11ac99c5f3",
+      "bytes": 55918
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-04-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-04-01.zip",
+      "sha256": "bf27e4cc3f53e6dc9489834c27da8e63f26d24646fc0b16dbc01b76859292bd5",
+      "bytes": 55235
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-04-02",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-04-02.zip",
+      "sha256": "eab25dfbffc1c46e9c5b1a48ab58868c64c24dee6551c933206fd1d5df37e4b7",
+      "bytes": 54398
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-04-03",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\LTCUSDT\\LTCUSDT-1m-2022-04-03.zip",
+      "sha256": "5c6631e494077e1c3528c31948e7a8663708352dd6ccafc58c658a24d305c91a",
+      "bytes": 54056
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-02-25",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-02-25.zip",
+      "sha256": "f0651c1b063fb89200b742db0b94c3807d1de9304ab2a0c02ed209e5b675b7d5",
+      "bytes": 50151
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-02-26",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-02-26.zip",
+      "sha256": "a94dd483c8d18815e443d0f70bc3050e8362b10292b464cce601f83d1b9ac8d9",
+      "bytes": 49690
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-02-27",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-02-27.zip",
+      "sha256": "0c8b60ee0384c6ab75d39389adb57f8610dc8c331d47a9d2ad55d6aea9baac5d",
+      "bytes": 49484
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-02-28",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-02-28.zip",
+      "sha256": "35dad0cda8a44fde9487056c710845258efd4e728647f3b56c08b4a979a84b10",
+      "bytes": 49577
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-03-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-03-01.zip",
+      "sha256": "eadd89ee77e3f97df66066dbe293058d011c8d19c936d85a4b42e3548a831bb5",
+      "bytes": 52779
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-03-31",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-03-31.zip",
+      "sha256": "213edbf670a1dd22ad0278241efcc841e234ec3d2d968eb182a9b890302a10ac",
+      "bytes": 50668
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-04-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-04-01.zip",
+      "sha256": "1cafe334799dea58a2dc2f6fa94ba241df962f682cbbf68cc3cdd8f16b4983e2",
+      "bytes": 51522
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-04-02",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-04-02.zip",
+      "sha256": "fbb08d5c2a364b8a59fd2a56e3282a152f97b31790c878d6764a9f1ba34298f8",
+      "bytes": 52780
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-04-03",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\NEARUSDT\\NEARUSDT-1m-2022-04-03.zip",
+      "sha256": "2752c782461cf14d10faa604748653cd970543567a87f1d909df3a7b08a3e33c",
+      "bytes": 53836
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-02-25",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-02-25.zip",
+      "sha256": "4ddba923fc0e922aecce13eda0f883dbc8cfcd83c27648b7a1afa2ab76a237a8",
+      "bytes": 49231
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-02-26",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-02-26.zip",
+      "sha256": "34edc8ed16789b073f5936c5aeac77d5233ee97261dd4f8cf424404565069a9b",
+      "bytes": 47421
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-02-27",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-02-27.zip",
+      "sha256": "2c27849bc6b152578ec54ad8cbc4c418f7653cd3e0f712de0107b289bbe0c355",
+      "bytes": 47949
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-02-28",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-02-28.zip",
+      "sha256": "f77272622c24ef8ceb46048cc88683360d50ad6ddb7d4f6b08995041f85ab794",
+      "bytes": 49243
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-03-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-03-01.zip",
+      "sha256": "d6c96fc3c92f5902e467179d85bd6e687fd34c7e300319cd88878fdc2a25e01c",
+      "bytes": 49059
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-03-31",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-03-31.zip",
+      "sha256": "dc6446248c5b8b7e9161fb3ec9bde9c31d5fda3ad1c69ed365bf386658906af5",
+      "bytes": 50394
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-04-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-04-01.zip",
+      "sha256": "44e3335fbdf3b8337acd4032e90b66c086d910b948089d860250593f8518f791",
+      "bytes": 50787
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-04-02",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-04-02.zip",
+      "sha256": "d2f9d68165c7a13c6bbaee9efb44a90844b0f9d6090bd315f31d3666b852f6c7",
+      "bytes": 50000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-04-03",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\SOLUSDT\\SOLUSDT-1m-2022-04-03.zip",
+      "sha256": "e1210c72e2dfd470f8c02414de8c8bc4414bc9d78e73e7294d35472181dd721b",
+      "bytes": 49805
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-02-25",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-02-25.zip",
+      "sha256": "2a981d4f502f752ff8d410c12f6f071af3d01165fec59f8dcc1b18a768dcd7a0",
+      "bytes": 58106
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-02-26",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-02-26.zip",
+      "sha256": "b0ab75e80659453a51ff5473ca94b41b8fe3d2394651b8db17853d4f3fa30e36",
+      "bytes": 57774
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-02-27",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-02-27.zip",
+      "sha256": "7283b18bb4999177417451a54239b32bfc5f535ec6d2d4595faa61b1dbb9ba9b",
+      "bytes": 57624
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-02-28",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-02-28.zip",
+      "sha256": "8a56566f2d89c70572c9740868ec91de7c48e2677521f8a814628ea834fa04d6",
+      "bytes": 57724
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-03-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-03-01.zip",
+      "sha256": "6dc47c8c7daae89c93ba8bdd1b4ea9aee250066b62ce760bbeed8fd4add59591",
+      "bytes": 57391
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-03-31",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-03-31.zip",
+      "sha256": "c3459db2cb0d800d84f8c6bda4ded3ccb593797174431cb737d4047eaf882697",
+      "bytes": 56345
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-04-01",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-04-01.zip",
+      "sha256": "018c6366274843d1041d7facf0a2c0ec014455d86c958fd3d90db0e9bca7a4b0",
+      "bytes": 55947
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-04-02",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-04-02.zip",
+      "sha256": "73073095f35fe004bfa61122cf5acce1db53a210e055abaad12c9f0048021e72",
+      "bytes": 55246
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-04-03",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_daily\\XRPUSDT\\XRPUSDT-1m-2022-04-03.zip",
+      "sha256": "527c210d854ee9c07f52464eaae50eceeb4047091f48050b7a9df9dd491b3138",
+      "bytes": 54831
+    }
+  ],
+  "overlap_checks": [
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-02-25",
+      "rows": 1440,
+      "daily_sha256": "4ddba923fc0e922aecce13eda0f883dbc8cfcd83c27648b7a1afa2ab76a237a8"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-03-01",
+      "rows": 1440,
+      "daily_sha256": "d6c96fc3c92f5902e467179d85bd6e687fd34c7e300319cd88878fdc2a25e01c"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-03-31",
+      "rows": 1440,
+      "daily_sha256": "dc6446248c5b8b7e9161fb3ec9bde9c31d5fda3ad1c69ed365bf386658906af5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2022-04-03",
+      "rows": 1440,
+      "daily_sha256": "e1210c72e2dfd470f8c02414de8c8bc4414bc9d78e73e7294d35472181dd721b"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-02-25",
+      "rows": 1440,
+      "daily_sha256": "2a981d4f502f752ff8d410c12f6f071af3d01165fec59f8dcc1b18a768dcd7a0"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-03-01",
+      "rows": 1440,
+      "daily_sha256": "6dc47c8c7daae89c93ba8bdd1b4ea9aee250066b62ce760bbeed8fd4add59591"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-03-31",
+      "rows": 1440,
+      "daily_sha256": "c3459db2cb0d800d84f8c6bda4ded3ccb593797174431cb737d4047eaf882697"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2022-04-03",
+      "rows": 1440,
+      "daily_sha256": "527c210d854ee9c07f52464eaae50eceeb4047091f48050b7a9df9dd491b3138"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-02-25",
+      "rows": 1440,
+      "daily_sha256": "042a7b11e65f50620486a11eabfd0c5ec3b2dff5977697f03de79a07e73b0b84"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-03-01",
+      "rows": 1440,
+      "daily_sha256": "78af1ff78ebd022d12da7b4f873d8e430670329fdb9b48ad78ec048296b140ff"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-03-31",
+      "rows": 1440,
+      "daily_sha256": "36ec548251b763f4dff82426347cd6e47d3575b8f09950aea11ecc11ac99c5f3"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2022-04-03",
+      "rows": 1440,
+      "daily_sha256": "5c6631e494077e1c3528c31948e7a8663708352dd6ccafc58c658a24d305c91a"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-02-25",
+      "rows": 1440,
+      "daily_sha256": "f0651c1b063fb89200b742db0b94c3807d1de9304ab2a0c02ed209e5b675b7d5"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-03-01",
+      "rows": 1440,
+      "daily_sha256": "eadd89ee77e3f97df66066dbe293058d011c8d19c936d85a4b42e3548a831bb5"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-03-31",
+      "rows": 1440,
+      "daily_sha256": "213edbf670a1dd22ad0278241efcc841e234ec3d2d968eb182a9b890302a10ac"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2022-04-03",
+      "rows": 1440,
+      "daily_sha256": "2752c782461cf14d10faa604748653cd970543567a87f1d909df3a7b08a3e33c"
+    }
+  ],
+  "all_daily_repaired": true,
+  "remaining_missing_minutes": 0,
+  "amendment_sha256": "792fd0ef9202411be221b3da3da3126d4708d8cf1f2a908032eebb2829b0aad7",
+  "original_quality_sha256": "81e0e76128a79589eaf1309059b6890275c22506a7bfe117545974e87c349b5e",
+  "code_sha256": "a32413f9321cbf3668e86efb469e9b8ab7d52a419f14ba02e2fdcf2e0dfeef5e",
+  "note": "Original monthly normalized files preserved; only absent full days can be added."
+}

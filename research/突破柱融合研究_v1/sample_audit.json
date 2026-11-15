@@ -1,0 +1,157 @@
+{
+  "sample_count": 25,
+  "independent_minute_reconstruction_passed": true,
+  "scope": "sampled signals only; no claim of full independent accounting audit",
+  "samples": [
+    {
+      "id": "ADAUSDT|1751380020000|-1",
+      "elapsed_minutes": 13,
+      "activity": true,
+      "sync": false
+    },
+    {
+      "id": "ADAUSDT|1751391180000|-1",
+      "elapsed_minutes": 4,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ZECUSDT|1777032900000|1",
+      "elapsed_minutes": 1,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ZECUSDT|1777052460000|1",
+      "elapsed_minutes": 12,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "NEIROUSDT|1751433900000|1",
+      "elapsed_minutes": 11,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "NEIROUSDT|1751472540000|1",
+      "elapsed_minutes": 10,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "UNIUSDT|1751550540000|1",
+      "elapsed_minutes": 5,
+      "activity": true,
+      "sync": false
+    },
+    {
+      "id": "WIFUSDT|1751435820000|1",
+      "elapsed_minutes": 13,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ADAUSDT|1751474400000|1",
+      "elapsed_minutes": 11,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "AAVEUSDT|1751474700000|1",
+      "elapsed_minutes": 1,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "NEARUSDT|1775932560000|1",
+      "elapsed_minutes": 7,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "ADAUSDT|1776088140000|1",
+      "elapsed_minutes": 5,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "PEPEUSDT|1776118560000|1",
+      "elapsed_minutes": 2,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "PEPEUSDT|1776281700000|1",
+      "elapsed_minutes": 6,
+      "activity": true,
+      "sync": true
+    },
+    {
+      "id": "XRPUSDT|1752896040000|1",
+      "elapsed_minutes": 5,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "PENGUUSDT|1754160540000|-1",
+      "elapsed_minutes": 5,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "CRVUSDT|1756271520000|1",
+      "elapsed_minutes": 13,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "BNBUSDT|1759732560000|1",
+      "elapsed_minutes": 7,
+      "activity": true,
+      "sync": false
+    },
+    {
+      "id": "ZECUSDT|1761765300000|1",
+      "elapsed_minutes": 1,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ETHUSDT|1763063700000|-1",
+      "elapsed_minutes": 11,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "BNBUSDT|1765965660000|-1",
+      "elapsed_minutes": 2,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ENAUSDT|1769003400000|-1",
+      "elapsed_minutes": 6,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "ZECUSDT|1770841260000|1",
+      "elapsed_minutes": 7,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "DOGEUSDT|1772669340000|-1",
+      "elapsed_minutes": 10,
+      "activity": false,
+      "sync": false
+    },
+    {
+      "id": "BTCUSDT|1774273860000|1",
+      "elapsed_minutes": 7,
+      "activity": true,
+      "sync": false
+    }
+  ]
+}

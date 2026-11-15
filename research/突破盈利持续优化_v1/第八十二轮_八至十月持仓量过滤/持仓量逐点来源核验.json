@@ -1,0 +1,970 @@
+{
+  "events": [
+    {
+      "observation_id": "touch|ADAUSDT|1787275920000",
+      "decision_ts": 1787275923872,
+      "oi_t0": 1787274900000,
+      "oi_previous": 1787271300000
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1787276700000",
+      "decision_ts": 1787276705442,
+      "oi_t0": 1787275800000,
+      "oi_previous": 1787272200000
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1788132960000",
+      "decision_ts": 1788132972692,
+      "oi_t0": 1788132000000,
+      "oi_previous": 1788128400000
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1788133500000",
+      "decision_ts": 1788133541211,
+      "oi_t0": 1788132600000,
+      "oi_previous": 1788129000000
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1788743700000",
+      "decision_ts": 1788743711998,
+      "oi_t0": 1788742800000,
+      "oi_previous": 1788739200000
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1789497900000",
+      "decision_ts": 1789497905291,
+      "oi_t0": 1789497000000,
+      "oi_previous": 1789493400000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1789949700000",
+      "decision_ts": 1789949701121,
+      "oi_t0": 1789948800000,
+      "oi_previous": 1789945200000
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1789983000000",
+      "decision_ts": 1789983007934,
+      "oi_t0": 1789982100000,
+      "oi_previous": 1789978500000
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1790327880000",
+      "decision_ts": 1790327883299,
+      "oi_t0": 1790326800000,
+      "oi_previous": 1790323200000
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1790613000000",
+      "decision_ts": 1790613045545,
+      "oi_t0": 1790612100000,
+      "oi_previous": 1790608500000
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1791467100000",
+      "decision_ts": 1791467144173,
+      "oi_t0": 1791466200000,
+      "oi_previous": 1791462600000
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1791846120000",
+      "decision_ts": 1791846140355,
+      "oi_t0": 1791845100000,
+      "oi_previous": 1791841500000
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1792071360000",
+      "decision_ts": 1792071382270,
+      "oi_t0": 1792070400000,
+      "oi_previous": 1792066800000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1793239200000",
+      "decision_ts": 1793239202777,
+      "oi_t0": 1793238300000,
+      "oi_previous": 1793234700000
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1793239200000",
+      "decision_ts": 1793239202853,
+      "oi_t0": 1793238300000,
+      "oi_previous": 1793234700000
+    }
+  ],
+  "points": [
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1787271300000,
+      "official_values": [
+        "107458.9180000000000000"
+      ],
+      "local_values": [
+        "107458.918"
+      ],
+      "status": "verified",
+      "archive_sha256": "ed3d15294b5a8af7815fa65a3f6d443d164ff4fae0a7f445f93e0a9d7248ba43"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1787272200000,
+      "official_values": [
+        "107952.3690000000000000"
+      ],
+      "local_values": [
+        "107952.369"
+      ],
+      "status": "verified",
+      "archive_sha256": "ed3d15294b5a8af7815fa65a3f6d443d164ff4fae0a7f445f93e0a9d7248ba43"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1787274900000,
+      "official_values": [
+        "107446.4060000000000000"
+      ],
+      "local_values": [
+        "107446.406"
+      ],
+      "status": "verified",
+      "archive_sha256": "ed3d15294b5a8af7815fa65a3f6d443d164ff4fae0a7f445f93e0a9d7248ba43"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1787275800000,
+      "official_values": [
+        "108121.2680000000000000"
+      ],
+      "local_values": [
+        "108121.268"
+      ],
+      "status": "verified",
+      "archive_sha256": "ed3d15294b5a8af7815fa65a3f6d443d164ff4fae0a7f445f93e0a9d7248ba43"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788128400000,
+      "official_values": [
+        "106801.6940000000000000"
+      ],
+      "local_values": [
+        "106801.694"
+      ],
+      "status": "verified",
+      "archive_sha256": "8cfe78806be2e6414a5018fec0104ab7f429072521bec3b22c9ff1a1aa7aa7cc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788129000000,
+      "official_values": [
+        "106734.4630000000000000"
+      ],
+      "local_values": [
+        "106734.463"
+      ],
+      "status": "verified",
+      "archive_sha256": "8cfe78806be2e6414a5018fec0104ab7f429072521bec3b22c9ff1a1aa7aa7cc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788132000000,
+      "official_values": [
+        "106479.9380000000000000"
+      ],
+      "local_values": [
+        "106479.938"
+      ],
+      "status": "verified",
+      "archive_sha256": "8cfe78806be2e6414a5018fec0104ab7f429072521bec3b22c9ff1a1aa7aa7cc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788132600000,
+      "official_values": [
+        "106568.4930000000000000"
+      ],
+      "local_values": [
+        "106568.493"
+      ],
+      "status": "verified",
+      "archive_sha256": "8cfe78806be2e6414a5018fec0104ab7f429072521bec3b22c9ff1a1aa7aa7cc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788739200000,
+      "official_values": [
+        "105537.6840000000000000"
+      ],
+      "local_values": [
+        "105537.684"
+      ],
+      "status": "verified",
+      "archive_sha256": "6bb2b64c46ef016e7062016c88fd066aea94626d7b5c20e6dc37518825c00e00"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1788742800000,
+      "official_values": [
+        "105699.8950000000000000"
+      ],
+      "local_values": [
+        "105699.895"
+      ],
+      "status": "verified",
+      "archive_sha256": "6bb2b64c46ef016e7062016c88fd066aea94626d7b5c20e6dc37518825c00e00"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789493400000,
+      "official_values": [
+        "107621.2000000000000000"
+      ],
+      "local_values": [
+        "107621.2"
+      ],
+      "status": "verified",
+      "archive_sha256": "c2c5ea97fa8a744e7903218081a9b3b0cc58db995a724964f62e5e97ebf5945c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789497000000,
+      "official_values": [
+        "107170.3850000000000000"
+      ],
+      "local_values": [
+        "107170.385"
+      ],
+      "status": "verified",
+      "archive_sha256": "c2c5ea97fa8a744e7903218081a9b3b0cc58db995a724964f62e5e97ebf5945c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789945200000,
+      "official_values": [
+        "107442.2310000000000000"
+      ],
+      "local_values": [
+        "107442.231"
+      ],
+      "status": "verified",
+      "archive_sha256": "9da18b2948447fc5b80520b465995038d5a360c3e2392224c9c29902f4ab3b37"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789948800000,
+      "official_values": [
+        "108044.2770000000000000"
+      ],
+      "local_values": [
+        "108044.277"
+      ],
+      "status": "verified",
+      "archive_sha256": "17817043b3844a6730aeda32377682d3d62cec6ee66b226019ae15fc7f33ebeb"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789978500000,
+      "official_values": [
+        "110419.2870000000000000"
+      ],
+      "local_values": [
+        "110419.287"
+      ],
+      "status": "verified",
+      "archive_sha256": "17817043b3844a6730aeda32377682d3d62cec6ee66b226019ae15fc7f33ebeb"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1789982100000,
+      "official_values": [
+        "111019.8130000000000000"
+      ],
+      "local_values": [
+        "111019.813"
+      ],
+      "status": "verified",
+      "archive_sha256": "17817043b3844a6730aeda32377682d3d62cec6ee66b226019ae15fc7f33ebeb"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1790323200000,
+      "official_values": [
+        "96375.6560000000000000"
+      ],
+      "local_values": [
+        "96375.656"
+      ],
+      "status": "verified",
+      "archive_sha256": "3db73e385e6d0fe11ea62a5c3793d67a2fbd050fba75e1203607c3588230d176"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1790326800000,
+      "official_values": [
+        "96198.4880000000000000"
+      ],
+      "local_values": [
+        "96198.488"
+      ],
+      "status": "verified",
+      "archive_sha256": "3db73e385e6d0fe11ea62a5c3793d67a2fbd050fba75e1203607c3588230d176"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1790608500000,
+      "official_values": [
+        "94950.2600000000000000"
+      ],
+      "local_values": [
+        "94950.26"
+      ],
+      "status": "verified",
+      "archive_sha256": "9dcdba21d38e83758d86fd5b16b7b9061bd47a10bb7094d950776ae9f4ceddfc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1790612100000,
+      "official_values": [
+        "94694.2070000000000000"
+      ],
+      "local_values": [
+        "94694.207"
+      ],
+      "status": "verified",
+      "archive_sha256": "9dcdba21d38e83758d86fd5b16b7b9061bd47a10bb7094d950776ae9f4ceddfc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1791462600000,
+      "official_values": [
+        "96720.1180000000000000"
+      ],
+      "local_values": [
+        "96720.118"
+      ],
+      "status": "verified",
+      "archive_sha256": "f91237d81ac5817885ae7caefe9e971db60ab231c48c717b24c3852d43f04518"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1791466200000,
+      "official_values": [
+        "96478.1880000000000000"
+      ],
+      "local_values": [
+        "96478.188"
+      ],
+      "status": "verified",
+      "archive_sha256": "f91237d81ac5817885ae7caefe9e971db60ab231c48c717b24c3852d43f04518"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1791841500000,
+      "official_values": [
+        "93379.3290000000000000"
+      ],
+      "local_values": [
+        "93379.329"
+      ],
+      "status": "verified",
+      "archive_sha256": "3a9fb59bb0fbe238ab74c8f2aaff1217e446782bc17115aa83a6b16e956567ba"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1791845100000,
+      "official_values": [
+        "93738.1020000000000000"
+      ],
+      "local_values": [
+        "93738.102"
+      ],
+      "status": "verified",
+      "archive_sha256": "3a9fb59bb0fbe238ab74c8f2aaff1217e446782bc17115aa83a6b16e956567ba"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1792066800000,
+      "official_values": [
+        "92082.7360000000000000"
+      ],
+      "local_values": [
+        "92082.736"
+      ],
+      "status": "verified",
+      "archive_sha256": "5f1c31bdf645489221d120079529bd311168258ef524a669e88908db22139d90"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1792070400000,
+      "official_values": [
+        "92546.9390000000000000"
+      ],
+      "local_values": [
+        "92546.939"
+      ],
+      "status": "verified",
+      "archive_sha256": "5f1c31bdf645489221d120079529bd311168258ef524a669e88908db22139d90"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1793234700000,
+      "official_values": [
+        "95943.0520000000000000"
+      ],
+      "local_values": [
+        "95943.052"
+      ],
+      "status": "verified",
+      "archive_sha256": "367036b05ece454da73c8e4fac987a41a450432ce7a8072459a3a97c16ab3f2b"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1793238300000,
+      "official_values": [
+        "95753.0130000000000000"
+      ],
+      "local_values": [
+        "95753.013"
+      ],
+      "status": "verified",
+      "archive_sha256": "367036b05ece454da73c8e4fac987a41a450432ce7a8072459a3a97c16ab3f2b"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1787271300000,
+      "official_values": [
+        "2316586.2060000000000000"
+      ],
+      "local_values": [
+        "2316586.206"
+      ],
+      "status": "verified",
+      "archive_sha256": "f00d923ac94949bc68167ce0672c2ddcf2cd1d61c7aa459feb328a3bdbc9a32a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1787272200000,
+      "official_values": [
+        "2322122.9840000000000000"
+      ],
+      "local_values": [
+        "2322122.984"
+      ],
+      "status": "verified",
+      "archive_sha256": "f00d923ac94949bc68167ce0672c2ddcf2cd1d61c7aa459feb328a3bdbc9a32a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1787274900000,
+      "official_values": [
+        "2320429.9300000000000000"
+      ],
+      "local_values": [
+        "2320429.93"
+      ],
+      "status": "verified",
+      "archive_sha256": "f00d923ac94949bc68167ce0672c2ddcf2cd1d61c7aa459feb328a3bdbc9a32a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1787275800000,
+      "official_values": [
+        "2336606.2490000000000000"
+      ],
+      "local_values": [
+        "2336606.249"
+      ],
+      "status": "verified",
+      "archive_sha256": "f00d923ac94949bc68167ce0672c2ddcf2cd1d61c7aa459feb328a3bdbc9a32a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788128400000,
+      "official_values": [
+        "2347100.9640000000000000"
+      ],
+      "local_values": [
+        "2347100.964"
+      ],
+      "status": "verified",
+      "archive_sha256": "979f66ad77d4f02ee2078333a5613816656395d365674fbfc80043eb81144cc7"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788129000000,
+      "official_values": [
+        "2344191.6660000000000000"
+      ],
+      "local_values": [
+        "2344191.666"
+      ],
+      "status": "verified",
+      "archive_sha256": "979f66ad77d4f02ee2078333a5613816656395d365674fbfc80043eb81144cc7"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788132000000,
+      "official_values": [
+        "2336110.0530000000000000"
+      ],
+      "local_values": [
+        "2336110.053"
+      ],
+      "status": "verified",
+      "archive_sha256": "979f66ad77d4f02ee2078333a5613816656395d365674fbfc80043eb81144cc7"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788132600000,
+      "official_values": [
+        "2319194.7830000000000000"
+      ],
+      "local_values": [
+        "2319194.783"
+      ],
+      "status": "verified",
+      "archive_sha256": "979f66ad77d4f02ee2078333a5613816656395d365674fbfc80043eb81144cc7"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788739200000,
+      "official_values": [
+        "2288506.1650000000000000"
+      ],
+      "local_values": [
+        "2288506.165"
+      ],
+      "status": "verified",
+      "archive_sha256": "82a8f6c4dacfa00f34ef06d867b34f3969bcdec1377dae1cbd5db56e1ec77600"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1788742800000,
+      "official_values": [
+        "2292309.4960000000000000"
+      ],
+      "local_values": [
+        "2292309.496"
+      ],
+      "status": "verified",
+      "archive_sha256": "82a8f6c4dacfa00f34ef06d867b34f3969bcdec1377dae1cbd5db56e1ec77600"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789493400000,
+      "official_values": [
+        "2329959.1900000000000000"
+      ],
+      "local_values": [
+        "2329959.19"
+      ],
+      "status": "verified",
+      "archive_sha256": "91e356274e0952486b867c1347da8bb8bedf71102a6f16764b8edb0790eca720"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789497000000,
+      "official_values": [
+        "2315773.2850000000000000"
+      ],
+      "local_values": [
+        "2315773.285"
+      ],
+      "status": "verified",
+      "archive_sha256": "91e356274e0952486b867c1347da8bb8bedf71102a6f16764b8edb0790eca720"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789945200000,
+      "official_values": [
+        "2344061.7980000000000000"
+      ],
+      "local_values": [
+        "2344061.798"
+      ],
+      "status": "verified",
+      "archive_sha256": "54c07ed33c80ad47618d0e79faab937fa0e018a24c6c1e9eb1dff852bf5ad0d6"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789948800000,
+      "official_values": [
+        "2337700.7450000000000000"
+      ],
+      "local_values": [
+        "2337700.745"
+      ],
+      "status": "verified",
+      "archive_sha256": "84e76323a33e78f2d00d648fb67c2b1be726385e4cb36f59192e5e30a98c9fa0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789978500000,
+      "official_values": [
+        "2398244.9890000000000000"
+      ],
+      "local_values": [
+        "2398244.989"
+      ],
+      "status": "verified",
+      "archive_sha256": "84e76323a33e78f2d00d648fb67c2b1be726385e4cb36f59192e5e30a98c9fa0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1789982100000,
+      "official_values": [
+        "2405985.3380000000000000"
+      ],
+      "local_values": [
+        "2405985.338"
+      ],
+      "status": "verified",
+      "archive_sha256": "84e76323a33e78f2d00d648fb67c2b1be726385e4cb36f59192e5e30a98c9fa0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1790323200000,
+      "official_values": [
+        "2282496.3570000000000000"
+      ],
+      "local_values": [
+        "2282496.357"
+      ],
+      "status": "verified",
+      "archive_sha256": "6d1ac8fe0731ee1da775b532990a4632cddf63dd196b4d6a8391a88df08a99c2"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1790326800000,
+      "official_values": [
+        "2283012.0520000000000000"
+      ],
+      "local_values": [
+        "2283012.052"
+      ],
+      "status": "verified",
+      "archive_sha256": "6d1ac8fe0731ee1da775b532990a4632cddf63dd196b4d6a8391a88df08a99c2"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1790608500000,
+      "official_values": [
+        "2262987.0350000000000000"
+      ],
+      "local_values": [
+        "2262987.035"
+      ],
+      "status": "verified",
+      "archive_sha256": "5994ca8a531910db21ed6cd7cb1bb62ecc40e3d94112aa460fed25d7465bd5cc"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1790612100000,
+      "official_values": [
+        "2266148.2300000000000000"
+      ],
+      "local_values": [
+        "2266148.23"
+      ],
+      "status": "verified",
+      "archive_sha256": "5994ca8a531910db21ed6cd7cb1bb62ecc40e3d94112aa460fed25d7465bd5cc"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1791462600000,
+      "official_values": [
+        "2416422.5560000000000000"
+      ],
+      "local_values": [
+        "2416422.556"
+      ],
+      "status": "verified",
+      "archive_sha256": "54ff3855d775ed15d6bc3cf0db3e5e0665b4e545b24f84df19a7c2be19d1871b"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1791466200000,
+      "official_values": [
+        "2408209.3670000000000000"
+      ],
+      "local_values": [
+        "2408209.367"
+      ],
+      "status": "verified",
+      "archive_sha256": "54ff3855d775ed15d6bc3cf0db3e5e0665b4e545b24f84df19a7c2be19d1871b"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1791841500000,
+      "official_values": [
+        "2251029.9810000000000000"
+      ],
+      "local_values": [
+        "2251029.981"
+      ],
+      "status": "verified",
+      "archive_sha256": "d654cc579923bcb03eecc07970486ffab3f8331d2d1501f8e98ad0175f342d62"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1791845100000,
+      "official_values": [
+        "2257779.8350000000000000"
+      ],
+      "local_values": [
+        "2257779.835"
+      ],
+      "status": "verified",
+      "archive_sha256": "d654cc579923bcb03eecc07970486ffab3f8331d2d1501f8e98ad0175f342d62"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1792066800000,
+      "official_values": [
+        "1901903.2460000000000000"
+      ],
+      "local_values": [
+        "1901903.246"
+      ],
+      "status": "verified",
+      "archive_sha256": "3fb91f063977dba203435bc61aaae92ba3333152daf9b496a0b023001e7a899a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1792070400000,
+      "official_values": [
+        "2303106.8680000000000000"
+      ],
+      "local_values": [
+        "2303106.868"
+      ],
+      "status": "verified",
+      "archive_sha256": "3fb91f063977dba203435bc61aaae92ba3333152daf9b496a0b023001e7a899a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1793234700000,
+      "official_values": [
+        "2355912.2860000000000000"
+      ],
+      "local_values": [
+        "2355912.286"
+      ],
+      "status": "verified",
+      "archive_sha256": "dc1bc99886bea0aa345803b4cf959fc01c871e07478d12173f7eab9f8aa39ede"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1793238300000,
+      "official_values": [
+        "2348869.8210000000000000"
+      ],
+      "local_values": [
+        "2348869.821"
+      ],
+      "status": "verified",
+      "archive_sha256": "dc1bc99886bea0aa345803b4cf959fc01c871e07478d12173f7eab9f8aa39ede"
+    }
+  ],
+  "archive_metadata": [
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-08-30",
+      "status": "verified",
+      "sha256": "8cfe78806be2e6414a5018fec0104ab7f429072521bec3b22c9ff1a1aa7aa7cc",
+      "bytes": 11218,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-08-30.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-07",
+      "status": "verified",
+      "sha256": "6bb2b64c46ef016e7062016c88fd066aea94626d7b5c20e6dc37518825c00e00",
+      "bytes": 11452,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-07.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-08-21",
+      "status": "verified",
+      "sha256": "ed3d15294b5a8af7815fa65a3f6d443d164ff4fae0a7f445f93e0a9d7248ba43",
+      "bytes": 11516,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-08-21.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-15",
+      "status": "verified",
+      "sha256": "c2c5ea97fa8a744e7903218081a9b3b0cc58db995a724964f62e5e97ebf5945c",
+      "bytes": 11645,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-15.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-20",
+      "status": "verified",
+      "sha256": "9da18b2948447fc5b80520b465995038d5a360c3e2392224c9c29902f4ab3b37",
+      "bytes": 11283,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-20.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-21",
+      "status": "verified",
+      "sha256": "17817043b3844a6730aeda32377682d3d62cec6ee66b226019ae15fc7f33ebeb",
+      "bytes": 11665,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-21.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-25",
+      "status": "verified",
+      "sha256": "3db73e385e6d0fe11ea62a5c3793d67a2fbd050fba75e1203607c3588230d176",
+      "bytes": 11450,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-25.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-09-28",
+      "status": "verified",
+      "sha256": "9dcdba21d38e83758d86fd5b16b7b9061bd47a10bb7094d950776ae9f4ceddfc",
+      "bytes": 11533,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-09-28.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-10-08",
+      "status": "verified",
+      "sha256": "f91237d81ac5817885ae7caefe9e971db60ab231c48c717b24c3852d43f04518",
+      "bytes": 11579,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-10-08.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-10-12",
+      "status": "verified",
+      "sha256": "3a9fb59bb0fbe238ab74c8f2aaff1217e446782bc17115aa83a6b16e956567ba",
+      "bytes": 11453,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-10-12.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-10-15",
+      "status": "verified",
+      "sha256": "5f1c31bdf645489221d120079529bd311168258ef524a669e88908db22139d90",
+      "bytes": 11218,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-10-15.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-10-29",
+      "status": "verified",
+      "sha256": "367036b05ece454da73c8e4fac987a41a450432ce7a8072459a3a97c16ab3f2b",
+      "bytes": 11808,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-10-29.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-08-21",
+      "status": "verified",
+      "sha256": "f00d923ac94949bc68167ce0672c2ddcf2cd1d61c7aa459feb328a3bdbc9a32a",
+      "bytes": 11852,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-08-21.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-08-30",
+      "status": "verified",
+      "sha256": "979f66ad77d4f02ee2078333a5613816656395d365674fbfc80043eb81144cc7",
+      "bytes": 11671,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-08-30.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-15",
+      "status": "verified",
+      "sha256": "91e356274e0952486b867c1347da8bb8bedf71102a6f16764b8edb0790eca720",
+      "bytes": 11898,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-15.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-07",
+      "status": "verified",
+      "sha256": "82a8f6c4dacfa00f34ef06d867b34f3969bcdec1377dae1cbd5db56e1ec77600",
+      "bytes": 11737,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-07.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-20",
+      "status": "verified",
+      "sha256": "54c07ed33c80ad47618d0e79faab937fa0e018a24c6c1e9eb1dff852bf5ad0d6",
+      "bytes": 11648,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-20.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-21",
+      "status": "verified",
+      "sha256": "84e76323a33e78f2d00d648fb67c2b1be726385e4cb36f59192e5e30a98c9fa0",
+      "bytes": 11803,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-21.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-25",
+      "status": "verified",
+      "sha256": "6d1ac8fe0731ee1da775b532990a4632cddf63dd196b4d6a8391a88df08a99c2",
+      "bytes": 11698,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-25.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-09-28",
+      "status": "verified",
+      "sha256": "5994ca8a531910db21ed6cd7cb1bb62ecc40e3d94112aa460fed25d7465bd5cc",
+      "bytes": 11830,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-09-28.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-10-08",
+      "status": "verified",
+      "sha256": "54ff3855d775ed15d6bc3cf0db3e5e0665b4e545b24f84df19a7c2be19d1871b",
+      "bytes": 11966,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-10-08.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-10-12",
+      "status": "verified",
+      "sha256": "d654cc579923bcb03eecc07970486ffab3f8331d2d1501f8e98ad0175f342d62",
+      "bytes": 12003,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-10-12.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-10-15",
+      "status": "verified",
+      "sha256": "3fb91f063977dba203435bc61aaae92ba3333152daf9b496a0b023001e7a899a",
+      "bytes": 11874,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-10-15.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-10-29",
+      "status": "verified",
+      "sha256": "dc1bc99886bea0aa345803b4cf959fc01c871e07478d12173f7eab9f8aa39ede",
+      "bytes": 12097,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-10-29.zip"
+    }
+  ],
+  "point_counts": {
+    "required": 56,
+    "verified": 56
+  },
+  "frozen_sha256": "b592e78ca10a9a4762ab2ef4af1d5f4bd2a347da5d79ef528323449ca514df2a",
+  "code_sha256": "d6d046263bb825b641a978175f7f5f737e9898a57541fca932dc4061eb304a53",
+  "risk_audit_sha256": "837ac668ac8c4732d55c33131ca53ff8fea52858ace32ede5278dc1faeaaf068",
+  "note": "Public/local source agreement only; actual historical live publication delay unknown."
+}

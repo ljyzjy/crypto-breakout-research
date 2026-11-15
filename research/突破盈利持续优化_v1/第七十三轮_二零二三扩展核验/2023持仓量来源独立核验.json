@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "points_checked": 184,
+  "official_archives_rechecked": 6,
+  "sample_points_compared": 12,
+  "original_sample_errors": [],
+  "point_input_sha256": "b56d986b95ae5a020789c9642bf42bde50226b0327fd827c0ba8f1711fccb9ac",
+  "audit_code_sha256": "f6f923fefca33bbc507277dfc5cf174be535554be17a607681f73e232ed66d3a",
+  "note": "All required local points and available sampled official archives checked; live release times are not established."
+}

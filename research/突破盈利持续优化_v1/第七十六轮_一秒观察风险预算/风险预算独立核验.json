@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 8,
+  "path_rows_checked": 120,
+  "result_sha256": "4e85765e2bc93fc9664cd091400720cf86508d1910db1bb721f018f8bea60918",
+  "audit_code_sha256": "4d68e9747bde0380b1cce32e881cfbb7d68e87a3131bb1e3c9bdc9bea887a4e1",
+  "note": "Illustrative independent-trade sizing, not maximum account drawdown or a guaranteed loss cap."
+}

@@ -1,0 +1,62 @@
+{
+  "all_archives_manifested": 4856,
+  "verified_archives": 4856,
+  "recorded_error_archives": 0,
+  "daily_rows": 145492,
+  "ranked_days_independently_reconstructed": 273,
+  "ranked_rows_independently_reconstructed": 5460,
+  "maximum_relative_quote_error": 7.31148224995736e-16,
+  "public_archive_samples": [
+    {
+      "symbol": "BTCUSDT",
+      "month": "2023-12",
+      "sha256": "417fd4410cdeede8bb0f473bdece4c856a27c737e95ef3370c8333fbe9fa0023",
+      "rows": 31
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-06",
+      "sha256": "a92b43b86ff23ad4e9ea0b931c6a88ecdb4d3265052ab96e81a078344c99328c",
+      "rows": 30
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-04",
+      "sha256": "3860febfca089675b86fd50df54a2da0a7980de1331e5b42e1df0210240ae12d",
+      "rows": 30
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-07",
+      "sha256": "c8aa635aee3c6fdc48347adc975b60c2342ef4253f4269494f9e08e85be61480",
+      "rows": 31
+    },
+    {
+      "symbol": "HIFIUSDT",
+      "month": "2024-02",
+      "sha256": "085dc44ce0ece71449a31359ce6e3825091f79201118fdfe1b7c88f9de47de0d",
+      "rows": 29
+    },
+    {
+      "symbol": "MAVUSDT",
+      "month": "2024-06",
+      "sha256": "c1d7e862da2468750abdb7e7471a5aacb82a0de195138bae23e462331f16ed42",
+      "rows": 30
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "month": "2026-05",
+      "sha256": "445b32ded42850d18af9d3050cf613766b1a08bf62d88a8bc8e91b8f62125268",
+      "rows": 31
+    },
+    {
+      "symbol": "CCUSDT",
+      "month": "2026-07",
+      "sha256": "836b8a16bf4eea03ddeed9442e546d4ec5e2b17455ab656b33cf376f52ad3547",
+      "rows": 31
+    }
+  ],
+  "no_same_day_volume": true,
+  "missing_day_excluded": true,
+  "note": "Archive availability and a volume rank do not establish historical trading eligibility or profitability."
+}

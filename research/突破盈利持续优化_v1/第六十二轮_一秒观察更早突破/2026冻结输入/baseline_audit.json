@@ -1,0 +1,40 @@
+{
+  "independently_checked_verified_paths": 164,
+  "maximum_net_fraction_error": 0.0,
+  "groups": [
+    {
+      "year": "2024",
+      "leverage": 10,
+      "verified": 30,
+      "wins": 13,
+      "unknown": 16,
+      "no_order": 73
+    },
+    {
+      "year": "2024",
+      "leverage": 20,
+      "verified": 30,
+      "wins": 13,
+      "unknown": 16,
+      "no_order": 73
+    },
+    {
+      "year": "2026",
+      "leverage": 10,
+      "verified": 11,
+      "wins": 2,
+      "unknown": 4,
+      "no_order": 24
+    },
+    {
+      "year": "2026",
+      "leverage": 20,
+      "verified": 11,
+      "wins": 2,
+      "unknown": 4,
+      "no_order": 24
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Fixed-11 unit opportunities, not actual fills or account-level returns."
+}

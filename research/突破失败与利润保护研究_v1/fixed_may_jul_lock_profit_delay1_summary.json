@@ -1,0 +1,143 @@
+{
+  "initial": 1000.0,
+  "final_equity": 988.1677702131677,
+  "return_pct": -1.1832229786832293,
+  "annualized_return_pct": null,
+  "elapsed_days": 92.0,
+  "max_drawdown": 1.3389415518446968,
+  "trades": 19,
+  "win_rate": 36.84210526315789,
+  "gross_pnl": -1.985731176464932,
+  "fees": 4.923249553400394,
+  "slippage_cost": 4.923249056967106,
+  "funding_cost": 0.0,
+  "net_pnl": -11.832229786832272,
+  "average_trade_net": -0.6227489361490753,
+  "mean_holding_minutes": 18.57894736842105,
+  "mean_exposure_pct": 0.07073364486995604,
+  "profit_factor": 0.46538968653279816,
+  "ledger_error": 1.5987211554602254e-13,
+  "scenario": "delay1",
+  "start": "2026-05-01",
+  "end": "2026-07-31",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 1,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 1.4226583957645755,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "late_day": 11,
+    "stop_or_cost_gate": 9,
+    "entry_deviation": 10,
+    "pool_changed": 1
+  },
+  "signal_candidates": 50,
+  "leverage_cap": 1,
+  "seconds_execution_verified": false,
+  "run_id": "lock_profit",
+  "rule_events": [
+    {
+      "id": "first|SUIUSDT|1779359160000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1779361800000,
+      "effective_ts": 1779361860000,
+      "close": 1.0898,
+      "entry": 1.0948523,
+      "initial_r": 0.004815557142857196
+    },
+    {
+      "id": "first|SUIUSDT|1779359160000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1779361800000,
+      "effective_ts": 1779361860000,
+      "old_stop": 1.099667857142857,
+      "new_stop": 1.0924445214285714
+    },
+    {
+      "id": "first|AVAXUSDT|1779990300000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1779991500000,
+      "effective_ts": 1779991560000,
+      "close": 9.025,
+      "entry": 8.991493499999999,
+      "initial_r": 0.027964928571428516
+    },
+    {
+      "id": "first|AVAXUSDT|1779990300000|1",
+      "kind": "lock_applied",
+      "known_ts": 1779991500000,
+      "effective_ts": 1779991560000,
+      "old_stop": 8.96352857142857,
+      "new_stop": 9.005475964285713
+    },
+    {
+      "id": "first|FETUSDT|1780570440000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1780572600000,
+      "effective_ts": 1780572660000,
+      "close": 0.2202,
+      "entry": 0.22218885000000002,
+      "initial_r": 0.0019097214285714037
+    },
+    {
+      "id": "first|FETUSDT|1780570440000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1780572600000,
+      "effective_ts": 1780572660000,
+      "old_stop": 0.22409857142857142,
+      "new_stop": 0.2212339892857143
+    },
+    {
+      "id": "first|TAOUSDT|1781441520000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1781444100000,
+      "effective_ts": 1781444160000,
+      "close": 261.26,
+      "entry": 263.95795499999997,
+      "initial_r": 2.542616428571421
+    },
+    {
+      "id": "first|TAOUSDT|1781441520000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1781444100000,
+      "effective_ts": 1781444160000,
+      "old_stop": 266.5005714285714,
+      "new_stop": 262.6866467857143
+    },
+    {
+      "id": "first|SOLUSDT|1783498620000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1783499100000,
+      "effective_ts": 1783499160000,
+      "close": 77.38,
+      "entry": 77.64116000000001,
+      "initial_r": 0.257339999999985
+    },
+    {
+      "id": "first|SOLUSDT|1783498620000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1783499100000,
+      "effective_ts": 1783499160000,
+      "old_stop": 77.8985,
+      "new_stop": 77.51249000000001
+    }
+  ],
+  "expected_calendar_minutes": 132480,
+  "observed_calendar_minutes": 132480,
+  "active_minutes": 354,
+  "cash_minutes": 132126,
+  "permanent_halt_minutes": 0,
+  "cash_days": 91.75416666666666,
+  "halted_days": 0.0,
+  "period": "fixed_may_jul",
+  "net_win_rate_pct": 36.84210526315789,
+  "failure_scheduled_count": 0,
+  "lock_scheduled_count": 5,
+  "lock_applied_count": 5,
+  "failure_exit_count": 0,
+  "winning_trade_count": 7,
+  "active_calendar_days": 17,
+  "acceptance_pass": false
+}

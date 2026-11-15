@@ -1,0 +1,10 @@
+{
+  "plan_sha256": "0f4770c66f268fb3a23d1a9a414b774e390665d4ffdc3ded20c16bcac3602966",
+  "files": {
+    "signal.parquet": "ccd3890fb716581c0b25725c6fc9442731acd171be1eb70eb7af513bf6979163",
+    "ledger.parquet": "bae5c4d2333bb30c584b2cec69cc997f4eed84c01565ecc27fd227e7fa04e667",
+    "market_decisions.parquet": "c005e281a61f4ae407c0fd22d063c70b0f894430d44963fb71c5c8c97fbe0611",
+    "dual_result.json": "3aeb4d96bc1e1a1bad1ab6439d17c3a2d8fb277fe6e0fefbd59b3d3bd89f8d94",
+    "dual_audit.json": "eff6bab44f6593b84b3433826ffc732c729fdb1460cea97dea676461b6f72ca7"
+  }
+}

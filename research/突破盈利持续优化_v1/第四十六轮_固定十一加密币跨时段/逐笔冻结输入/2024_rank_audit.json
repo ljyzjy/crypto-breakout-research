@@ -1,0 +1,7 @@
+{
+  "daily_rank_days_recomputed": 33,
+  "hourly_rank_times_recomputed": 24,
+  "symbols_per_hour": 11,
+  "all_checks_pass": true,
+  "note": "Samples only; the fixed 11-coin universe has survivorship bias."
+}

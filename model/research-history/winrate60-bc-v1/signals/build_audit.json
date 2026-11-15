@@ -1,0 +1,1982 @@
+{
+  "reasons": {
+    "B:decision_rank_or_ema": 185519,
+    "C:C_failed_boundary": 58196,
+    "C:decision_rank_or_ema": 125176,
+    "C:C_no_later_confirmation": 5542,
+    "B:candidate": 3979,
+    "C:candidate": 4553,
+    "C:decision_stop_cost": 2260,
+    "B:not_outside": 4034,
+    "B:decision_stop_cost": 2187,
+    "B:initial_atr": 252,
+    "C:initial_atr": 252,
+    "B:B_decision_invalid": 25,
+    "C:C_missing": 15,
+    "C:C_pending_deadline": 2
+  },
+  "counts": {
+    "('B', True)": 3979,
+    "('C', True)": 4553
+  },
+  "baseline_evaluation_exact_match": 2282,
+  "prefix_checks": [
+    {
+      "id": "event:AAVEUSDT:1735917000000:1",
+      "variant": "B",
+      "decision_ts": 1735917360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AAVEUSDT:1748533080000:-1",
+      "variant": "B",
+      "decision_ts": 1748533440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AAVEUSDT:1757595660000:-1",
+      "variant": "B",
+      "decision_ts": 1757596020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AAVEUSDT:1735917000000:1",
+      "variant": "C",
+      "decision_ts": 1735917240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AAVEUSDT:1749522300000:1",
+      "variant": "C",
+      "decision_ts": 1749522960000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AAVEUSDT:1757595660000:-1",
+      "variant": "C",
+      "decision_ts": 1757596080000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ADAUSDT:1735758060000:1",
+      "variant": "B",
+      "decision_ts": 1735758420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ADAUSDT:1755302940000:1",
+      "variant": "B",
+      "decision_ts": 1755303300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ADAUSDT:1776832620000:1",
+      "variant": "B",
+      "decision_ts": 1776832980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ADAUSDT:1735758060000:1",
+      "variant": "C",
+      "decision_ts": 1735758720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ADAUSDT:1755096660000:-1",
+      "variant": "C",
+      "decision_ts": 1755097200000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ADAUSDT:1776832620000:1",
+      "variant": "C",
+      "decision_ts": 1776832800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:APTUSDT:1740610140000:1",
+      "variant": "B",
+      "decision_ts": 1740610500000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:APTUSDT:1741174680000:1",
+      "variant": "B",
+      "decision_ts": 1741175040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:APTUSDT:1760326260000:-1",
+      "variant": "B",
+      "decision_ts": 1760326620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:APTUSDT:1740601620000:1",
+      "variant": "C",
+      "decision_ts": 1740601860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:APTUSDT:1741174680000:1",
+      "variant": "C",
+      "decision_ts": 1741174860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:APTUSDT:1760356800000:-1",
+      "variant": "C",
+      "decision_ts": 1760356980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ARBUSDT:1755840000000:-1",
+      "variant": "B",
+      "decision_ts": 1755840360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ARBUSDT:1757700660000:1",
+      "variant": "B",
+      "decision_ts": 1757701020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ARBUSDT:1760538720000:-1",
+      "variant": "B",
+      "decision_ts": 1760539080000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ARBUSDT:1755840000000:-1",
+      "variant": "C",
+      "decision_ts": 1755840240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ARBUSDT:1758138840000:1",
+      "variant": "C",
+      "decision_ts": 1758139260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ARBUSDT:1760538720000:-1",
+      "variant": "C",
+      "decision_ts": 1760538960000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ASTERUSDT:1767542340000:1",
+      "variant": "B",
+      "decision_ts": 1767542700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ASTERUSDT:1770708480000:1",
+      "variant": "B",
+      "decision_ts": 1770708840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ASTERUSDT:1773830460000:-1",
+      "variant": "B",
+      "decision_ts": 1773830820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ASTERUSDT:1767554460000:1",
+      "variant": "C",
+      "decision_ts": 1767555360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ASTERUSDT:1770566520000:1",
+      "variant": "C",
+      "decision_ts": 1770566700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ASTERUSDT:1773844980000:-1",
+      "variant": "C",
+      "decision_ts": 1773845220000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AUCTIONUSDT:1743413460000:-1",
+      "variant": "B",
+      "decision_ts": 1743413820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AUCTIONUSDT:1743915120000:1",
+      "variant": "B",
+      "decision_ts": 1743915480000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AUCTIONUSDT:1744008180000:-1",
+      "variant": "B",
+      "decision_ts": 1744008540000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AUCTIONUSDT:1743413460000:-1",
+      "variant": "C",
+      "decision_ts": 1743413700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AUCTIONUSDT:1743926340000:-1",
+      "variant": "C",
+      "decision_ts": 1743926520000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AUCTIONUSDT:1744008180000:-1",
+      "variant": "C",
+      "decision_ts": 1744008420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AVAXUSDT:1735779660000:1",
+      "variant": "B",
+      "decision_ts": 1735780020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AVAXUSDT:1756104240000:-1",
+      "variant": "B",
+      "decision_ts": 1756104600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AVAXUSDT:1776510120000:-1",
+      "variant": "B",
+      "decision_ts": 1776510480000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AVAXUSDT:1735779660000:1",
+      "variant": "C",
+      "decision_ts": 1735779960000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AVAXUSDT:1756219920000:1",
+      "variant": "C",
+      "decision_ts": 1756220100000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AVAXUSDT:1776505920000:-1",
+      "variant": "C",
+      "decision_ts": 1776506460000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:AXSUSDT:1771033620000:1",
+      "variant": "B",
+      "decision_ts": 1771033980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AXSUSDT:1770853080000:1",
+      "variant": "C",
+      "decision_ts": 1770853260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:AXSUSDT:1771033620000:1",
+      "variant": "C",
+      "decision_ts": 1771033920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BCHUSDT:1765502280000:1",
+      "variant": "B",
+      "decision_ts": 1765502640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BCHUSDT:1768202040000:-1",
+      "variant": "B",
+      "decision_ts": 1768202400000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BCHUSDT:1772439120000:-1",
+      "variant": "B",
+      "decision_ts": 1772439480000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BCHUSDT:1766039880000:-1",
+      "variant": "C",
+      "decision_ts": 1766040060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BCHUSDT:1769782200000:1",
+      "variant": "C",
+      "decision_ts": 1769782680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BCHUSDT:1772415720000:1",
+      "variant": "C",
+      "decision_ts": 1772416020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BIOUSDT:1757102460000:1",
+      "variant": "B",
+      "decision_ts": 1757102820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BIOUSDT:1757149320000:-1",
+      "variant": "B",
+      "decision_ts": 1757149680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BIOUSDT:1757847240000:1",
+      "variant": "B",
+      "decision_ts": 1757847600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BIOUSDT:1757102460000:1",
+      "variant": "C",
+      "decision_ts": 1757102640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BIOUSDT:1757149320000:-1",
+      "variant": "C",
+      "decision_ts": 1757149560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BIOUSDT:1757847240000:1",
+      "variant": "C",
+      "decision_ts": 1757847540000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BNBUSDT:1736739900000:-1",
+      "variant": "B",
+      "decision_ts": 1736740260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BNBUSDT:1758411120000:1",
+      "variant": "B",
+      "decision_ts": 1758411480000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BNBUSDT:1776364020000:1",
+      "variant": "B",
+      "decision_ts": 1776364380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BNBUSDT:1736198100000:1",
+      "variant": "C",
+      "decision_ts": 1736198280000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BNBUSDT:1759112400000:1",
+      "variant": "C",
+      "decision_ts": 1759112580000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BNBUSDT:1776364020000:1",
+      "variant": "C",
+      "decision_ts": 1776364500000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BNXUSDT:1740913860000:-1",
+      "variant": "B",
+      "decision_ts": 1740914220000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BNXUSDT:1740900720000:-1",
+      "variant": "C",
+      "decision_ts": 1740901140000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BNXUSDT:1740913860000:-1",
+      "variant": "C",
+      "decision_ts": 1740914160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BONKUSDT:1747033320000:1",
+      "variant": "B",
+      "decision_ts": 1747033680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BONKUSDT:1757065260000:1",
+      "variant": "B",
+      "decision_ts": 1757065620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BONKUSDT:1760538720000:-1",
+      "variant": "B",
+      "decision_ts": 1760539080000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BONKUSDT:1747033320000:1",
+      "variant": "C",
+      "decision_ts": 1747033500000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BONKUSDT:1756773360000:-1",
+      "variant": "C",
+      "decision_ts": 1756773900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BONKUSDT:1760538720000:-1",
+      "variant": "C",
+      "decision_ts": 1760539200000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BTCUSDT:1736771760000:-1",
+      "variant": "B",
+      "decision_ts": 1736772120000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BTCUSDT:1761766500000:-1",
+      "variant": "B",
+      "decision_ts": 1761766860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:BTCUSDT:1776433740000:1",
+      "variant": "B",
+      "decision_ts": 1776434100000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BTCUSDT:1736270100000:-1",
+      "variant": "C",
+      "decision_ts": 1736270820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BTCUSDT:1761808560000:1",
+      "variant": "C",
+      "decision_ts": 1761808740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:BTCUSDT:1776433740000:1",
+      "variant": "C",
+      "decision_ts": 1776433920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:CAKEUSDT:1744576500000:-1",
+      "variant": "B",
+      "decision_ts": 1744576860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:CAKEUSDT:1744576500000:-1",
+      "variant": "C",
+      "decision_ts": 1744576740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:CRVUSDT:1744829820000:1",
+      "variant": "B",
+      "decision_ts": 1744830180000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:CRVUSDT:1746047580000:1",
+      "variant": "B",
+      "decision_ts": 1746047940000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:CRVUSDT:1755868380000:-1",
+      "variant": "B",
+      "decision_ts": 1755868740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:CRVUSDT:1744778820000:1",
+      "variant": "C",
+      "decision_ts": 1744779240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:CRVUSDT:1746047580000:1",
+      "variant": "C",
+      "decision_ts": 1746047880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:CRVUSDT:1755868380000:-1",
+      "variant": "C",
+      "decision_ts": 1755868560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DASHUSDT:1764199260000:1",
+      "variant": "B",
+      "decision_ts": 1764199620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DASHUSDT:1771050360000:1",
+      "variant": "B",
+      "decision_ts": 1771050720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DASHUSDT:1771058340000:1",
+      "variant": "B",
+      "decision_ts": 1771058700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DASHUSDT:1764776520000:1",
+      "variant": "C",
+      "decision_ts": 1764777000000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DASHUSDT:1771050360000:1",
+      "variant": "C",
+      "decision_ts": 1771050600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DASHUSDT:1771058340000:1",
+      "variant": "C",
+      "decision_ts": 1771058580000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DOGEUSDT:1735819560000:1",
+      "variant": "B",
+      "decision_ts": 1735819920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DOGEUSDT:1754903940000:-1",
+      "variant": "B",
+      "decision_ts": 1754904300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:DOGEUSDT:1776608700000:1",
+      "variant": "B",
+      "decision_ts": 1776609060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DOGEUSDT:1735819560000:1",
+      "variant": "C",
+      "decision_ts": 1735819860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DOGEUSDT:1752923520000:-1",
+      "variant": "C",
+      "decision_ts": 1752923700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:DOGEUSDT:1776608700000:1",
+      "variant": "C",
+      "decision_ts": 1776609300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ENAUSDT:1735912500000:1",
+      "variant": "B",
+      "decision_ts": 1735912860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ENAUSDT:1753007100000:1",
+      "variant": "B",
+      "decision_ts": 1753007460000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ENAUSDT:1776714360000:-1",
+      "variant": "B",
+      "decision_ts": 1776714720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ENAUSDT:1735912500000:1",
+      "variant": "C",
+      "decision_ts": 1735912680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ENAUSDT:1752980340000:1",
+      "variant": "C",
+      "decision_ts": 1752980640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ENAUSDT:1770485820000:1",
+      "variant": "C",
+      "decision_ts": 1770486000000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ETHUSDT:1736274240000:-1",
+      "variant": "B",
+      "decision_ts": 1736274600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ETHUSDT:1754008980000:-1",
+      "variant": "B",
+      "decision_ts": 1754009340000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ETHUSDT:1776938700000:-1",
+      "variant": "B",
+      "decision_ts": 1776939060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ETHUSDT:1736274240000:-1",
+      "variant": "C",
+      "decision_ts": 1736274540000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ETHUSDT:1752710580000:1",
+      "variant": "C",
+      "decision_ts": 1752711120000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ETHUSDT:1776938700000:-1",
+      "variant": "C",
+      "decision_ts": 1776938940000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:FETUSDT:1775070480000:-1",
+      "variant": "B",
+      "decision_ts": 1775070840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:FETUSDT:1775827800000:-1",
+      "variant": "B",
+      "decision_ts": 1775828160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:FETUSDT:1776531900000:-1",
+      "variant": "B",
+      "decision_ts": 1776532260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:FETUSDT:1775070480000:-1",
+      "variant": "C",
+      "decision_ts": 1775070840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:FETUSDT:1775827800000:-1",
+      "variant": "C",
+      "decision_ts": 1775827980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:FETUSDT:1776906600000:-1",
+      "variant": "C",
+      "decision_ts": 1776907260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:FTMUSDT:1736081040000:1",
+      "variant": "B",
+      "decision_ts": 1736081400000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:FTMUSDT:1736081040000:1",
+      "variant": "C",
+      "decision_ts": 1736081280000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:HBARUSDT:1735755360000:1",
+      "variant": "B",
+      "decision_ts": 1735755720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:HBARUSDT:1741354200000:1",
+      "variant": "B",
+      "decision_ts": 1741354560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:HBARUSDT:1756827240000:-1",
+      "variant": "B",
+      "decision_ts": 1756827600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:HBARUSDT:1735755360000:1",
+      "variant": "C",
+      "decision_ts": 1735755660000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:HBARUSDT:1743447960000:1",
+      "variant": "C",
+      "decision_ts": 1743448200000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:HBARUSDT:1760170980000:1",
+      "variant": "C",
+      "decision_ts": 1760171160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ICPUSDT:1763408880000:1",
+      "variant": "B",
+      "decision_ts": 1763409240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ICPUSDT:1763460060000:-1",
+      "variant": "B",
+      "decision_ts": 1763460420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ICPUSDT:1764774480000:-1",
+      "variant": "B",
+      "decision_ts": 1764774840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ICPUSDT:1763337840000:-1",
+      "variant": "C",
+      "decision_ts": 1763338260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ICPUSDT:1763460060000:-1",
+      "variant": "C",
+      "decision_ts": 1763460300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ICPUSDT:1764858660000:-1",
+      "variant": "C",
+      "decision_ts": 1764858900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:JUPUSDT:1739512440000:1",
+      "variant": "B",
+      "decision_ts": 1739512800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:JUPUSDT:1739875620000:-1",
+      "variant": "B",
+      "decision_ts": 1739875980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:JUPUSDT:1740157980000:-1",
+      "variant": "B",
+      "decision_ts": 1740158340000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:JUPUSDT:1739524920000:1",
+      "variant": "C",
+      "decision_ts": 1739525520000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:JUPUSDT:1739875620000:-1",
+      "variant": "C",
+      "decision_ts": 1739876340000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:JUPUSDT:1740157980000:-1",
+      "variant": "C",
+      "decision_ts": 1740158160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:KITEUSDT:1772729280000:1",
+      "variant": "B",
+      "decision_ts": 1772729640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:KITEUSDT:1773116280000:1",
+      "variant": "B",
+      "decision_ts": 1773116640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:KITEUSDT:1775509080000:1",
+      "variant": "B",
+      "decision_ts": 1775509440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:KITEUSDT:1772721240000:1",
+      "variant": "C",
+      "decision_ts": 1772721420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:KITEUSDT:1774513800000:-1",
+      "variant": "C",
+      "decision_ts": 1774514160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:KITEUSDT:1775509080000:1",
+      "variant": "C",
+      "decision_ts": 1775509440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LINKUSDT:1736760540000:-1",
+      "variant": "B",
+      "decision_ts": 1736760900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LINKUSDT:1750747320000:1",
+      "variant": "B",
+      "decision_ts": 1750747680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LINKUSDT:1775963160000:-1",
+      "variant": "B",
+      "decision_ts": 1775963520000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LINKUSDT:1736139480000:1",
+      "variant": "C",
+      "decision_ts": 1736139660000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LINKUSDT:1753123380000:-1",
+      "variant": "C",
+      "decision_ts": 1753123620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LINKUSDT:1776355140000:1",
+      "variant": "C",
+      "decision_ts": 1776355380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LTCUSDT:1736767920000:-1",
+      "variant": "B",
+      "decision_ts": 1736768280000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LTCUSDT:1754007060000:-1",
+      "variant": "B",
+      "decision_ts": 1754007420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:LTCUSDT:1775430900000:1",
+      "variant": "B",
+      "decision_ts": 1775431260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LTCUSDT:1736767920000:-1",
+      "variant": "C",
+      "decision_ts": 1736768280000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LTCUSDT:1747742460000:-1",
+      "variant": "C",
+      "decision_ts": 1747742700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:LTCUSDT:1775095920000:-1",
+      "variant": "C",
+      "decision_ts": 1775096400000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEARUSDT:1743136200000:-1",
+      "variant": "B",
+      "decision_ts": 1743136560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEARUSDT:1772329260000:1",
+      "variant": "B",
+      "decision_ts": 1772329620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEARUSDT:1776336420000:-1",
+      "variant": "B",
+      "decision_ts": 1776336780000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEARUSDT:1743136200000:-1",
+      "variant": "C",
+      "decision_ts": 1743136380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEARUSDT:1772263440000:-1",
+      "variant": "C",
+      "decision_ts": 1772263620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEARUSDT:1776336420000:-1",
+      "variant": "C",
+      "decision_ts": 1776336780000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEIROUSDT:1735928520000:1",
+      "variant": "B",
+      "decision_ts": 1735928880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEIROUSDT:1751472300000:1",
+      "variant": "B",
+      "decision_ts": 1751472660000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:NEIROUSDT:1753126020000:-1",
+      "variant": "B",
+      "decision_ts": 1753126380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEIROUSDT:1735928520000:1",
+      "variant": "C",
+      "decision_ts": 1735928700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEIROUSDT:1751486160000:1",
+      "variant": "C",
+      "decision_ts": 1751486340000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:NEIROUSDT:1753339020000:-1",
+      "variant": "C",
+      "decision_ts": 1753339260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:OMUSDT:1739874060000:1",
+      "variant": "B",
+      "decision_ts": 1739874420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:OMUSDT:1741263000000:1",
+      "variant": "B",
+      "decision_ts": 1741263360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:OMUSDT:1747012740000:-1",
+      "variant": "B",
+      "decision_ts": 1747013100000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:OMUSDT:1739874060000:1",
+      "variant": "C",
+      "decision_ts": 1739874360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:OMUSDT:1741266900000:1",
+      "variant": "C",
+      "decision_ts": 1741267260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:OMUSDT:1747012740000:-1",
+      "variant": "C",
+      "decision_ts": 1747013040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PAXGUSDT:1763126340000:-1",
+      "variant": "B",
+      "decision_ts": 1763126700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PAXGUSDT:1772294520000:-1",
+      "variant": "B",
+      "decision_ts": 1772294880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PAXGUSDT:1775125020000:-1",
+      "variant": "B",
+      "decision_ts": 1775125380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PAXGUSDT:1763122260000:-1",
+      "variant": "C",
+      "decision_ts": 1763122680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PAXGUSDT:1770218520000:-1",
+      "variant": "C",
+      "decision_ts": 1770218820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PAXGUSDT:1774624680000:1",
+      "variant": "C",
+      "decision_ts": 1774624920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PENGUUSDT:1747120020000:1",
+      "variant": "B",
+      "decision_ts": 1747120380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PENGUUSDT:1757319180000:1",
+      "variant": "B",
+      "decision_ts": 1757319540000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PENGUUSDT:1762585380000:-1",
+      "variant": "B",
+      "decision_ts": 1762585740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PENGUUSDT:1747111980000:1",
+      "variant": "C",
+      "decision_ts": 1747112160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PENGUUSDT:1757332080000:1",
+      "variant": "C",
+      "decision_ts": 1757332320000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PENGUUSDT:1762585380000:-1",
+      "variant": "C",
+      "decision_ts": 1762585620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PEPEUSDT:1735728480000:-1",
+      "variant": "B",
+      "decision_ts": 1735728840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PEPEUSDT:1752903480000:1",
+      "variant": "B",
+      "decision_ts": 1752903840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PEPEUSDT:1776411900000:-1",
+      "variant": "B",
+      "decision_ts": 1776412260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PEPEUSDT:1735728480000:-1",
+      "variant": "C",
+      "decision_ts": 1735728660000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PEPEUSDT:1750137780000:-1",
+      "variant": "C",
+      "decision_ts": 1750138440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PEPEUSDT:1777242780000:-1",
+      "variant": "C",
+      "decision_ts": 1777243260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PNUTUSDT:1741870860000:1",
+      "variant": "B",
+      "decision_ts": 1741871220000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PNUTUSDT:1743449160000:-1",
+      "variant": "B",
+      "decision_ts": 1743449520000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PNUTUSDT:1752875460000:-1",
+      "variant": "B",
+      "decision_ts": 1752875820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PNUTUSDT:1741870860000:1",
+      "variant": "C",
+      "decision_ts": 1741871100000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PNUTUSDT:1743348360000:-1",
+      "variant": "C",
+      "decision_ts": 1743348540000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PNUTUSDT:1752875460000:-1",
+      "variant": "C",
+      "decision_ts": 1752875700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PUMPUSDT:1769486640000:1",
+      "variant": "B",
+      "decision_ts": 1769487000000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PUMPUSDT:1769863080000:-1",
+      "variant": "B",
+      "decision_ts": 1769863440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:PUMPUSDT:1774339020000:1",
+      "variant": "B",
+      "decision_ts": 1774339380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PUMPUSDT:1769486640000:1",
+      "variant": "C",
+      "decision_ts": 1769487060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PUMPUSDT:1769863080000:-1",
+      "variant": "C",
+      "decision_ts": 1769863500000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:PUMPUSDT:1774339020000:1",
+      "variant": "C",
+      "decision_ts": 1774339560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:RUNEUSDT:1738298520000:-1",
+      "variant": "B",
+      "decision_ts": 1738298880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:RUNEUSDT:1740400680000:1",
+      "variant": "B",
+      "decision_ts": 1740401040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:RUNEUSDT:1741658340000:1",
+      "variant": "B",
+      "decision_ts": 1741658700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:RUNEUSDT:1738298520000:-1",
+      "variant": "C",
+      "decision_ts": 1738298820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:RUNEUSDT:1740521460000:1",
+      "variant": "C",
+      "decision_ts": 1740521760000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:RUNEUSDT:1742979600000:1",
+      "variant": "C",
+      "decision_ts": 1742980320000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SEIUSDT:1752166620000:1",
+      "variant": "B",
+      "decision_ts": 1752166980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SEIUSDT:1757626380000:1",
+      "variant": "B",
+      "decision_ts": 1757626740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SEIUSDT:1758281760000:-1",
+      "variant": "B",
+      "decision_ts": 1758282120000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SEIUSDT:1752166620000:1",
+      "variant": "C",
+      "decision_ts": 1752166800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SEIUSDT:1753268520000:-1",
+      "variant": "C",
+      "decision_ts": 1753268880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SEIUSDT:1758546060000:1",
+      "variant": "C",
+      "decision_ts": 1758546360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SHIBUSDT:1737104640000:1",
+      "variant": "B",
+      "decision_ts": 1737105000000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SHIBUSDT:1737271080000:-1",
+      "variant": "B",
+      "decision_ts": 1737271440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SHIBUSDT:1737959400000:-1",
+      "variant": "B",
+      "decision_ts": 1737959760000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SHIBUSDT:1737104640000:1",
+      "variant": "C",
+      "decision_ts": 1737104820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SHIBUSDT:1737271080000:-1",
+      "variant": "C",
+      "decision_ts": 1737271260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SHIBUSDT:1737959400000:-1",
+      "variant": "C",
+      "decision_ts": 1737959760000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SOLUSDT:1735795500000:1",
+      "variant": "B",
+      "decision_ts": 1735795860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SOLUSDT:1753673460000:1",
+      "variant": "B",
+      "decision_ts": 1753673820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SOLUSDT:1776843660000:1",
+      "variant": "B",
+      "decision_ts": 1776844020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SOLUSDT:1735795500000:1",
+      "variant": "C",
+      "decision_ts": 1735795680000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SOLUSDT:1755033540000:1",
+      "variant": "C",
+      "decision_ts": 1755033780000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SOLUSDT:1776510420000:-1",
+      "variant": "C",
+      "decision_ts": 1776510780000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:STRKUSDT:1764545100000:-1",
+      "variant": "B",
+      "decision_ts": 1764545460000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:STRKUSDT:1764553920000:-1",
+      "variant": "B",
+      "decision_ts": 1764554280000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:STRKUSDT:1764545100000:-1",
+      "variant": "C",
+      "decision_ts": 1764545640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:STRKUSDT:1764553920000:-1",
+      "variant": "C",
+      "decision_ts": 1764554160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUIUSDT:1735941060000:1",
+      "variant": "B",
+      "decision_ts": 1735941420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUIUSDT:1750722480000:1",
+      "variant": "B",
+      "decision_ts": 1750722840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUIUSDT:1776444360000:1",
+      "variant": "B",
+      "decision_ts": 1776444720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUIUSDT:1735941060000:1",
+      "variant": "C",
+      "decision_ts": 1735941240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUIUSDT:1749487560000:1",
+      "variant": "C",
+      "decision_ts": 1749487800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUIUSDT:1776444360000:1",
+      "variant": "C",
+      "decision_ts": 1776444720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUSDT:1745250240000:-1",
+      "variant": "B",
+      "decision_ts": 1745250600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUSDT:1746239940000:-1",
+      "variant": "B",
+      "decision_ts": 1746240300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:SUSDT:1746942660000:-1",
+      "variant": "B",
+      "decision_ts": 1746943020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUSDT:1745250240000:-1",
+      "variant": "C",
+      "decision_ts": 1745250420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUSDT:1746228780000:1",
+      "variant": "C",
+      "decision_ts": 1746228960000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:SUSDT:1746942660000:-1",
+      "variant": "C",
+      "decision_ts": 1746942960000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TAOUSDT:1738022400000:1",
+      "variant": "B",
+      "decision_ts": 1738022760000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TAOUSDT:1772894280000:1",
+      "variant": "B",
+      "decision_ts": 1772894640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TAOUSDT:1776192360000:-1",
+      "variant": "B",
+      "decision_ts": 1776192720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TAOUSDT:1738022400000:1",
+      "variant": "C",
+      "decision_ts": 1738022580000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TAOUSDT:1773005520000:1",
+      "variant": "C",
+      "decision_ts": 1773006120000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TAOUSDT:1776192360000:-1",
+      "variant": "C",
+      "decision_ts": 1776192600000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TONUSDT:1743765660000:-1",
+      "variant": "B",
+      "decision_ts": 1743766020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TONUSDT:1743821760000:-1",
+      "variant": "B",
+      "decision_ts": 1743822120000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TONUSDT:1744005660000:1",
+      "variant": "B",
+      "decision_ts": 1744006020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TONUSDT:1743765660000:-1",
+      "variant": "C",
+      "decision_ts": 1743766020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TONUSDT:1743821760000:-1",
+      "variant": "C",
+      "decision_ts": 1743822060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TONUSDT:1744005660000:1",
+      "variant": "C",
+      "decision_ts": 1744005840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRUMPUSDT:1745051400000:1",
+      "variant": "B",
+      "decision_ts": 1745051760000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRUMPUSDT:1747980540000:-1",
+      "variant": "B",
+      "decision_ts": 1747980900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRUMPUSDT:1762961700000:-1",
+      "variant": "B",
+      "decision_ts": 1762962060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRUMPUSDT:1745033460000:1",
+      "variant": "C",
+      "decision_ts": 1745033880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRUMPUSDT:1747797060000:1",
+      "variant": "C",
+      "decision_ts": 1747797240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRUMPUSDT:1762961700000:-1",
+      "variant": "C",
+      "decision_ts": 1762962000000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRXUSDT:1736732340000:-1",
+      "variant": "B",
+      "decision_ts": 1736732700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRXUSDT:1747096260000:-1",
+      "variant": "B",
+      "decision_ts": 1747096620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:TRXUSDT:1769179500000:-1",
+      "variant": "B",
+      "decision_ts": 1769179860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRXUSDT:1736763720000:-1",
+      "variant": "C",
+      "decision_ts": 1736763900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRXUSDT:1747054320000:1",
+      "variant": "C",
+      "decision_ts": 1747054800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:TRXUSDT:1774148400000:-1",
+      "variant": "C",
+      "decision_ts": 1774149060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:UNIUSDT:1735776900000:1",
+      "variant": "B",
+      "decision_ts": 1735777260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:UNIUSDT:1755070080000:1",
+      "variant": "B",
+      "decision_ts": 1755070440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:UNIUSDT:1772314620000:1",
+      "variant": "B",
+      "decision_ts": 1772314980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:UNIUSDT:1735776900000:1",
+      "variant": "C",
+      "decision_ts": 1735777260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:UNIUSDT:1754810220000:-1",
+      "variant": "C",
+      "decision_ts": 1754810820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:UNIUSDT:1772314620000:1",
+      "variant": "C",
+      "decision_ts": 1772314980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:VIRTUALUSDT:1752109440000:1",
+      "variant": "B",
+      "decision_ts": 1752109800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:VIRTUALUSDT:1752130800000:1",
+      "variant": "B",
+      "decision_ts": 1752131160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:VIRTUALUSDT:1762739460000:1",
+      "variant": "B",
+      "decision_ts": 1762739820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:VIRTUALUSDT:1752109440000:1",
+      "variant": "C",
+      "decision_ts": 1752109800000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:VIRTUALUSDT:1752136560000:1",
+      "variant": "C",
+      "decision_ts": 1752136980000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:VIRTUALUSDT:1762739460000:1",
+      "variant": "C",
+      "decision_ts": 1762739640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WIFUSDT:1735822380000:1",
+      "variant": "B",
+      "decision_ts": 1735822740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WIFUSDT:1747016340000:1",
+      "variant": "B",
+      "decision_ts": 1747016700000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WIFUSDT:1755716700000:1",
+      "variant": "B",
+      "decision_ts": 1755717060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WIFUSDT:1735822380000:1",
+      "variant": "C",
+      "decision_ts": 1735822560000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WIFUSDT:1747011960000:1",
+      "variant": "C",
+      "decision_ts": 1747012140000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WIFUSDT:1755716700000:1",
+      "variant": "C",
+      "decision_ts": 1755717060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLDUSDT:1736145060000:1",
+      "variant": "B",
+      "decision_ts": 1736145420000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLDUSDT:1748599800000:-1",
+      "variant": "B",
+      "decision_ts": 1748600160000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLDUSDT:1776467700000:-1",
+      "variant": "B",
+      "decision_ts": 1776468060000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLDUSDT:1736145060000:1",
+      "variant": "C",
+      "decision_ts": 1736145360000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLDUSDT:1748599800000:-1",
+      "variant": "C",
+      "decision_ts": 1748600040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLDUSDT:1776543060000:-1",
+      "variant": "C",
+      "decision_ts": 1776543720000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLFIUSDT:1771769280000:-1",
+      "variant": "B",
+      "decision_ts": 1771769640000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLFIUSDT:1771867140000:-1",
+      "variant": "B",
+      "decision_ts": 1771867500000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:WLFIUSDT:1772267520000:-1",
+      "variant": "B",
+      "decision_ts": 1772267880000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLFIUSDT:1771794720000:-1",
+      "variant": "C",
+      "decision_ts": 1771794900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLFIUSDT:1772267520000:-1",
+      "variant": "C",
+      "decision_ts": 1772268240000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:WLFIUSDT:1772364840000:-1",
+      "variant": "C",
+      "decision_ts": 1772365440000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XLMUSDT:1736302020000:1",
+      "variant": "B",
+      "decision_ts": 1736302380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XLMUSDT:1736665020000:-1",
+      "variant": "B",
+      "decision_ts": 1736665380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XLMUSDT:1754664960000:-1",
+      "variant": "B",
+      "decision_ts": 1754665320000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XLMUSDT:1736039160000:-1",
+      "variant": "C",
+      "decision_ts": 1736039340000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XLMUSDT:1736665020000:-1",
+      "variant": "C",
+      "decision_ts": 1736665200000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XLMUSDT:1754632860000:1",
+      "variant": "C",
+      "decision_ts": 1754633040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XPLUSDT:1766667660000:1",
+      "variant": "B",
+      "decision_ts": 1766668020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XPLUSDT:1767172260000:1",
+      "variant": "B",
+      "decision_ts": 1767172620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XPLUSDT:1767874020000:-1",
+      "variant": "B",
+      "decision_ts": 1767874380000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XPLUSDT:1766667660000:1",
+      "variant": "C",
+      "decision_ts": 1766667840000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XPLUSDT:1767180300000:-1",
+      "variant": "C",
+      "decision_ts": 1767180660000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XPLUSDT:1767874020000:-1",
+      "variant": "C",
+      "decision_ts": 1767874320000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XRPUSDT:1735752660000:1",
+      "variant": "B",
+      "decision_ts": 1735753020000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XRPUSDT:1752827940000:-1",
+      "variant": "B",
+      "decision_ts": 1752828300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:XRPUSDT:1776582900000:-1",
+      "variant": "B",
+      "decision_ts": 1776583260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XRPUSDT:1735752660000:1",
+      "variant": "C",
+      "decision_ts": 1735752900000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XRPUSDT:1753060740000:-1",
+      "variant": "C",
+      "decision_ts": 1753060920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:XRPUSDT:1776967560000:1",
+      "variant": "C",
+      "decision_ts": 1776967860000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZECUSDT:1760509260000:1",
+      "variant": "B",
+      "decision_ts": 1760509620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZECUSDT:1767914940000:-1",
+      "variant": "B",
+      "decision_ts": 1767915300000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZECUSDT:1777030740000:1",
+      "variant": "B",
+      "decision_ts": 1777031100000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZECUSDT:1760509260000:1",
+      "variant": "C",
+      "decision_ts": 1760509620000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZECUSDT:1767874080000:-1",
+      "variant": "C",
+      "decision_ts": 1767874260000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZECUSDT:1777030740000:1",
+      "variant": "C",
+      "decision_ts": 1777030920000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZENUSDT:1762755960000:-1",
+      "variant": "B",
+      "decision_ts": 1762756320000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZENUSDT:1763375460000:1",
+      "variant": "B",
+      "decision_ts": 1763375820000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "event:ZENUSDT:1764763680000:-1",
+      "variant": "B",
+      "decision_ts": 1764764040000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZENUSDT:1762755960000:-1",
+      "variant": "C",
+      "decision_ts": 1762756740000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZENUSDT:1763388180000:1",
+      "variant": "C",
+      "decision_ts": 1763388480000,
+      "prefix_invariant": true
+    },
+    {
+      "id": "C|event:ZENUSDT:1764763680000:-1",
+      "variant": "C",
+      "decision_ts": 1764763920000,
+      "prefix_invariant": true
+    }
+  ],
+  "outcomes_read": false
+}

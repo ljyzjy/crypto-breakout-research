@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "synthetic_range_header_checks": true,
+  "real_source": {
+    "observation_id": "opening|ADAUSDT|1708362000000",
+    "sha256": "0b7128d0ddd216e2360cfa25b455dab5c35c78a8119f223e675097ced279a350",
+    "bytes": 2187027,
+    "rows": 2904
+  },
+  "range_code_sha256": "50cbfe761d1f1aedbabf16cd123e7fa36788c03192686a331fc962e988219c77",
+  "stream_code_sha256": "a6f31492ba2dd1705533d34d7eadbf8de45f5f4878ab13449395d3c7ea716632",
+  "note": "HTTP ranges are assembled in byte order; complete archive SHA and ZIP structure are verified before any checkpoint."
+}

@@ -1,0 +1,54 @@
+{
+  "source_sha256": "299e9317299b0f03642024aa04556f990ee2de3d55c66f7a476365bf81b6a305",
+  "source_checks": {
+    "rows": 7488,
+    "days": 2496,
+    "expected_days": 2496,
+    "duplicate_timestamps": 0,
+    "invalid_days": 0,
+    "missing_dates": 0,
+    "max_seconds_after_hour": 0.047,
+    "symbols": [
+      "BTCUSDT"
+    ],
+    "interval_hours": [
+      8
+    ]
+  },
+  "samples": [
+    {
+      "month": "2023-04",
+      "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2023-04.zip",
+      "official_zip_sha256": "2931039d26818edc65d4faefba84945fd1ba52989dd58fb127dc3cd7a12c7fbf",
+      "official_zip_bytes": 952,
+      "official_csv_sha256": "1c2b6f3e55fbcbc62981bc271f63821a69b9b1a6c0cff7cb9baa72cee26ff0c9",
+      "local_csv_sha256": "0839aa2f9a0720875948f9b800d9f56b8e387e9cde43cd894fb6b11209d60a12",
+      "rows": 90,
+      "local_csv_values_equal_official": true,
+      "parquet_values_equal_official_within_1e-15": true
+    },
+    {
+      "month": "2024-01",
+      "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-01.zip",
+      "official_zip_sha256": "3e0d30870672aa8f0f937881056e3cfd55913ae5c780cd50b33f2763aa0ba58e",
+      "official_zip_bytes": 696,
+      "official_csv_sha256": "232a13d92487efef8ce0d645301abe611f56eacb70023194b97c038d7a8a2c9b",
+      "local_csv_sha256": "b27a982abb5ee2636db11a90ee4307f9e11deeafdba921c4efcff920abc839c5",
+      "rows": 93,
+      "local_csv_values_equal_official": true,
+      "parquet_values_equal_official_within_1e-15": true
+    },
+    {
+      "month": "2026-06",
+      "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-06.zip",
+      "official_zip_sha256": "cff97ce688329592bccbbf5873b5c7021649e093f5f5806e332c5b4fb7fd6a00",
+      "official_zip_bytes": 964,
+      "official_csv_sha256": "10ea717c26b580f5502ebe35c4be852b5e1340dcfb4ab0f4b32e082ff3df7dfb",
+      "local_csv_sha256": "f247e8b9eae3824511b2194bb608028226f250d6f81067997051c1d1f016cb7a",
+      "rows": 90,
+      "local_csv_values_equal_official": true,
+      "parquet_values_equal_official_within_1e-15": true
+    }
+  ],
+  "all_checks_pass": true
+}

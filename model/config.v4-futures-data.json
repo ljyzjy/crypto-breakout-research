@@ -1,0 +1,30 @@
+{
+  "dry_run": true,
+  "exchange": {
+    "key": "",
+    "secret": "",
+    "enable_ws": false,
+    "ccxt_config": {
+      "enableRateLimit": true,
+      "options": {
+        "fetchMarkets": {
+          "types": [
+            "linear"
+          ]
+        },
+        "fetchCurrencies": false
+      }
+    },
+    "ccxt_async_config": {
+      "enableRateLimit": true,
+      "options": {
+        "fetchMarkets": {
+          "types": [
+            "linear"
+          ]
+        },
+        "fetchCurrencies": false
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "scenario_groups": 12,
+  "result_sha256": "ed4355ab9f7fec5cc9b55a86dce8961e61e7f76b8194b319c42fedf51f69cb75",
+  "audit_sha256": "9d38a582dc419afcc00b83d56f7e4bb14563c94bf632095d50d2111b06db6bf5",
+  "note": "Scenario path prices and fees were independently audited in round 59."
+}

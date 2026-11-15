@@ -1,0 +1,69 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "touch|ADAUSDT|1670400060000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1647400500000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1653617700000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1642392000000",
+      "status": "qualified",
+      "paths_checked": 2
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1667310300000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1656337500000",
+      "status": "qualified",
+      "paths_checked": 2
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1657819800000",
+      "status": "qualified",
+      "paths_checked": 2
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1667935800000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1643353200000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    },
+    {
+      "observation_id": "touch|SOLUSDT|1649203620000",
+      "status": "qualified",
+      "paths_checked": 2
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1654254900000",
+      "status": "qualified",
+      "paths_checked": 2
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1664523900000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0
+    }
+  ],
+  "sample_count": 12,
+  "fingerprint": "53286052710869f3aebff279a5d6f7badb97b00d3e327a0ce87c2c7d7e020020",
+  "code_sha256": "5d40c2a93e307478d987b734d7bb5a0a47201577cf62eaad5f58029c955a3dbb",
+  "note": "Fixed SHA sample with independent raw parser and scalar replay; source unknowns remain unknown."
+}

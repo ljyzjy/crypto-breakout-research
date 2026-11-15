@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-11-14T22:50:25.533317+00:00",
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零二轮_大柱持有损益核查\\研究方案.md": "071c58d491d7c8fd214ce6ff29a7038345a51da5135dc0a025939a31eeec49fe",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\研究冻结.json": "4fa52707f88c0807ace96cc7dc9c0ae3b09788be9df784b2d7710eadfdb65665",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\time_stop.py": "dfaa4e62ec3e21159251c695eb5be9fbe6269b24314a72c695ef549de6f99bcc",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\进展退出合成核验.json": "2211cf5cfe54b81e8948bbc378595a6bf90adb28c821fc7f5ed0e98a7d6df5ff",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二日档补源质量.json": "ab171cd631b491ac45768fe3f56d87391566e802b00073a98881428ff887d20e",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十二轮_突破柱收益分解\\突破柱分解独立核验.json": "36091386aff54b4660f85fa8dadf202f67758856b8ff368bd7c2b159d9c22509"
+  },
+  "label": "side * (quarter_close - quarter_open) >= ATR",
+  "raw_batch_fingerprint": "53286052710869f3aebff279a5d6f7badb97b00d3e327a0ce87c2c7d7e020020",
+  "note": "Completed-bar label is ex post only. Prior 2022 aggregate studies were already observed."
+}

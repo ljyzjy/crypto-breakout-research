@@ -1,0 +1,7 @@
+{
+  "feature_rows": 424,
+  "accounts_checked": 12,
+  "trade_records_checked": 1437,
+  "partial_exits_checked": 165,
+  "checks": "5-second timing and directional filter, partial timing and both exit legs, funding and ledger"
+}

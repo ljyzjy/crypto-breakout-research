@@ -1,0 +1,40 @@
+{
+  "period_counts": {
+    "2022": 118,
+    "2023": 49,
+    "2024": 36,
+    "2026": 13,
+    "2026_aug_oct": 15
+  },
+  "status_counts": {
+    "verified": 231
+  },
+  "verified_big_count": 47,
+  "late_official_daily_samples": [
+    {
+      "symbol": "ADAUSDT",
+      "day": "2026-08-21",
+      "quarter_start": 1787276700000,
+      "sha256": "aff8214d68000dc4e7abbdd3fbbccff95f964623c707b8ca9435b0914de6f3d3",
+      "rows_checked": 15
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2026-09-07",
+      "quarter_start": 1788743700000,
+      "sha256": "591574908050466902e737a055c0c4088cc0488c4329122ae0623bb2b3ff44e3",
+      "rows_checked": 15
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2026-09-25",
+      "quarter_start": 1790327700000,
+      "sha256": "63c0321449deff945b1e04989c2e0018c410fd58907596386382f288d2ca5cd5",
+      "rows_checked": 15
+    }
+  ],
+  "label_sha256": "8f27d56fd24aacb5bf807dad2d23c540b5b7b629144355a30e87a33265b810a7",
+  "frozen_sha256": "0de768e45dbcd048d70f3a2be16ae0bfd0e377d4e1b2b72f3f782a42a95d4418",
+  "code_sha256": "baf9aac26d4e94034c93d74b5c5a911cf4ce031bbf467123bd68b3c9dfc8e4f0",
+  "note": "Labels require completed candle and are for prior training and ex-post scoring only."
+}

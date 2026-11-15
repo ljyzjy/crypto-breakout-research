@@ -1,0 +1,80 @@
+{
+  "verified_utc": "2026-11-13T15:29:48.328681+00:00",
+  "source_files_verified": 2056,
+  "changed_sources": [],
+  "single_trade_engine_checks": [
+    {
+      "variant": "B",
+      "id": "event:PEPEUSDT:1735728480000:-1",
+      "reason": "stop",
+      "funding_nonzero": false,
+      "max_error": 8.673617379884035e-19
+    },
+    {
+      "variant": "B",
+      "id": "event:XRPUSDT:1735752660000:1",
+      "reason": "target",
+      "funding_nonzero": false,
+      "max_error": 2.168404344971009e-19
+    },
+    {
+      "variant": "B",
+      "id": "event:HBARUSDT:1735755360000:1",
+      "reason": "time60",
+      "funding_nonzero": false,
+      "max_error": 2.168404344971009e-19
+    },
+    {
+      "variant": "B",
+      "id": "event:SUIUSDT:1736146500000:-1",
+      "reason": "time60",
+      "funding_nonzero": true,
+      "max_error": 2.168404344971009e-19
+    },
+    {
+      "variant": "C",
+      "id": "C|event:PEPEUSDT:1735728480000:-1",
+      "reason": "stop",
+      "funding_nonzero": false,
+      "max_error": 1.734723475976807e-18
+    },
+    {
+      "variant": "C",
+      "id": "C|event:XRPUSDT:1735752660000:1",
+      "reason": "target",
+      "funding_nonzero": false,
+      "max_error": 1.734723475976807e-18
+    },
+    {
+      "variant": "C",
+      "id": "C|event:HBARUSDT:1735755360000:1",
+      "reason": "time60",
+      "funding_nonzero": false,
+      "max_error": 1.734723475976807e-18
+    },
+    {
+      "variant": "C",
+      "id": "C|event:ENAUSDT:1736293200000:-1",
+      "reason": "stop",
+      "funding_nonzero": true,
+      "max_error": 2.168404344971009e-19
+    }
+  ],
+  "temporal": {
+    "B": {
+      "train_end_ok": true,
+      "calibration_end_ok": true
+    },
+    "C": {
+      "train_end_ok": true,
+      "calibration_end_ok": true
+    }
+  },
+  "prefix_checks": 326,
+  "B_baseline_signal_exact_match": true,
+  "C_touch_confirmation_entry_order": true,
+  "models_not_retrained": true,
+  "threshold_not_changed": true,
+  "paper_database_accessed": false,
+  "passed": true
+}

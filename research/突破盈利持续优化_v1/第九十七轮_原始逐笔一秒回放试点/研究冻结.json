@@ -1,0 +1,34 @@
+{
+  "frozen_utc": "2026-11-14T22:08:39.215599+00:00",
+  "plan_sha256": "c26d6e98841f3358aa8deb39598d847394edaf69dc72fb034a44b3b54cc7424d",
+  "sample_ids": [
+    "opening|NEARUSDT|1671044400000",
+    "touch|NEARUSDT|1671069780000",
+    "opening|LTCUSDT|1672493400000"
+  ],
+  "raw_archives": [
+    {
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\independent_raw_trade_samples\\NEARUSDT-trades-2022-12-14.zip",
+      "sha256": "526e19a7e0c3869f70ca4be99ed2cf61a214d663bc843cd16fc60935386a0415"
+    },
+    {
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\independent_raw_trade_samples\\NEARUSDT-trades-2022-12-15.zip",
+      "sha256": "f4161f6e0103256b2adb01fd7a818efacc6e7b16cd47f5aebb5ad00d486c66ae"
+    },
+    {
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\independent_raw_trade_samples\\LTCUSDT-trades-2022-12-31.zip",
+      "sha256": "7a67c18276a916fedda85b901265bfea5bd143e1a109bd4aa466594c1063c69b"
+    }
+  ],
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十七轮_原始逐笔一秒回放试点\\研究方案.md": "c26d6e98841f3358aa8deb39598d847394edaf69dc72fb034a44b3b54cc7424d",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十三轮_原始逐笔抽样交叉核验\\原始逐笔独立核验.json": "0c12038aee0177f39cf5fb4a973828ba488c3cf388c7783817cca153a1faf502",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十三轮_原始逐笔抽样交叉核验\\原始聚合逐笔样本对照.json": "92457c335088ded3920f2ec4816211a1c4a6010f8d1074f109bf842b84894fcb",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\候选数据\\固定十一币双币过滤潜在触价.parquet": "9c2955d955523982b6ea94a57ab05256c495b49f198f65fdfb95d38dabe38be5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\一秒逐笔独立样本核验.json": "3a9a09d4566155db6ac9f5737743f735dcb5da043ce308a18da0eaf19618f5bb",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\one_second_observation.py": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\audit_tape_samples.py": "7e791d8985a46ce89cd0eb5ff3764ddc55a4d54f839a5c8c704edec8e7026897",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\settle_dynamic_paths.py": "f2e4bb438c792b773f269d6117ba3a5838c45ca2318d916872b5f5cf4a615b55"
+  },
+  "note": "Sample outcomes were already partly observed. This is a non-random technical pilot, not a blind or profitability test."
+}

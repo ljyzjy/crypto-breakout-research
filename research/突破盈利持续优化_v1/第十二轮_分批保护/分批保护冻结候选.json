@@ -1,0 +1,28 @@
+{
+  "selected": "control_3r",
+  "target_r": 3.0,
+  "partial_exit": false,
+  "training_success": false,
+  "metrics": {
+    "candidate": "control_3r",
+    "partial_exit": false,
+    "target_r": 3.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 145,
+    "h1_2024_net": -66.65283785121369,
+    "h1_2024_win_rate": 20.689655172413794,
+    "may_jul_2026_trades": 42,
+    "may_jul_2026_net": -12.318355096190658,
+    "may_jul_2026_win_rate": 26.190476190476193,
+    "pooled_trades": 187,
+    "pooled_win_rate": 21.925133689839573,
+    "pooled_profit_factor": 0.6282080189291067,
+    "minimum_period_net": -66.65283785121369,
+    "sum_period_net": -78.97119294740435,
+    "partial_count": 0
+  },
+  "plan_sha256": "7d7ae59f22c7e4b6b15c71855f4d137a6e1acf94f3a4ed964412901f6fbb3e79",
+  "training_sha256": "cd46760b32a38a10191835b42d865c5bdaae3eb95f93d2f073df5f65cb8f49fc",
+  "limit": "5s trade reference entry; partial exit, protection and final exits are minute based."
+}

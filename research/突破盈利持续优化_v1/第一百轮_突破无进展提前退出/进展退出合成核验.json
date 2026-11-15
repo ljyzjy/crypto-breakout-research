@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "cases_checked": 8,
+  "code_sha256": "dfaa4e62ec3e21159251c695eb5be9fbe6269b24314a72c695ef549de6f99bcc",
+  "test_sha256": "ea74b3cc961d933d99dbd37e05bcf39f6afa08c8e96a01f2df28ab2fc80d12ec",
+  "note": "One check, exact 0.25R boundary, signal priority and delayed execution; no profitability guarantee."
+}

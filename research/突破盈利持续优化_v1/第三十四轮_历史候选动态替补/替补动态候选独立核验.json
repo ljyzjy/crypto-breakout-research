@@ -1,0 +1,27 @@
+{
+  "all_candidate_gates_checked": 1777,
+  "independent_1m_feature_samples": 4,
+  "samples": [
+    {
+      "observation_id": "opening|API3USDT|1707127200000",
+      "new_symbol_day": true,
+      "archive_sha256": "fc14eb2ee409c5e1733177ecd2f0c496e8a89e3c1e6022d1cb3b881232cb0703"
+    },
+    {
+      "observation_id": "touch|OPUSDT|1704139800000",
+      "new_symbol_day": false,
+      "archive_sha256": "451cbef09408cf052ca8a4bf7f8fb34f2d47e4dbc54355936d69b9a0058c1df5"
+    },
+    {
+      "observation_id": "opening|BSBUSDT|1777966200000",
+      "new_symbol_day": true,
+      "archive_sha256": "2bf19f3bbaf2c29b54fd8f05b6034b827dfa2ab6d8894bcd554ab4452a13c311"
+    },
+    {
+      "observation_id": "touch|SUIUSDT|1778408460000",
+      "new_symbol_day": true,
+      "archive_sha256": "7125cd9b2b67f9b809e2b5ceec641a8d9f215c7713852a792c90813e3cfc0b91"
+    }
+  ],
+  "note": "Minute checks only; tick ordering, execution and account profitability require separate verification."
+}

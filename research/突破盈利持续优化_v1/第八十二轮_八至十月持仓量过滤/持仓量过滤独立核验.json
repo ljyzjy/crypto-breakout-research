@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 30,
+  "groups_checked": 12,
+  "result_sha256": "c5a66894fb77441b9e6bff40f767df03cc5d85ab4d87a687ef204e7e9ecb11c6",
+  "detail_sha256": "d227e737d82334e2423a72d7a56452c08c910b0682e7f4edee9d362409a8416d",
+  "code_sha256": "c3e5b0abb3639d5d7b2a406a844910296cfe156e44ee39895115f670ab159023",
+  "note": "Independent arithmetic of retrospective unit paths; not account outcomes."
+}

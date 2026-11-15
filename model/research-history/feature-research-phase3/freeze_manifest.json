@@ -1,0 +1,890 @@
+{
+  "utc": "2026-11-13T14:34:55.865839+00:00",
+  "scope": "Phase3 final deliverables; reused market inputs pinned transitively, no real-account certification. Logs excluded; no new outcomes period beyond frozen historical sample.",
+  "files": {
+    "account/account_diagnostics.json": {
+      "sha256": "cc54de0a9e383cf645bbcc6e069b09c39ca5d489a056245315e028900e207324",
+      "size": 533
+    },
+    "account/account_market.py": {
+      "sha256": "15d04881b1f9aaed874cf80593242f979221c3f1454c73f62b236f78a386877b",
+      "size": 8704
+    },
+    "account/account_results.json": {
+      "sha256": "0d39563fa1960998cc34124d3124482e999acf1537a1f548ad78550aade0ecab",
+      "size": 11184
+    },
+    "account/ACCOUNT_RESULTS_READY.json": {
+      "sha256": "43b2f2cd1d3b38c0c2f0818749ebf1747f7043ef215dbf386f215a3491720883",
+      "size": 209
+    },
+    "account/accounting_amendment.json": {
+      "sha256": "d6127c8834655e3fe06163d67138525d3a39c6fc32010f72ea970cf171e195b9",
+      "size": 1144
+    },
+    "account/build_signals.py": {
+      "sha256": "ad49efaf43efc611886c67f380a12339718569d23e5bdd80216823266358452d",
+      "size": 4465
+    },
+    "account/coin_attribution.csv": {
+      "sha256": "51f23b3eb5e4a7914579037f4a0498e78f48a13ccd49adeef11cbd3a035bb50e",
+      "size": 23034
+    },
+    "account/component_freeze.json": {
+      "sha256": "a7c625257efbbd56a5ec216bf93ef08069ddc46fc491e542330d8f0f05ff7b9a",
+      "size": 772
+    },
+    "account/daily_accounts.csv": {
+      "sha256": "048807c2771931d5479a7740668118dffd235e21af9ab92ba55a7b0182035096",
+      "size": 136246
+    },
+    "account/ema_source_correction.json": {
+      "sha256": "809083c8bb4a33d57246c48c891362194e9c29123581a294d5e44b55a35a69e2",
+      "size": 1932
+    },
+    "account/engine.py": {
+      "sha256": "b04bb6c87762e63003f2440d2d0f97681d33070ca6aa0dd2ac65cec90bcc5a77",
+      "size": 16446
+    },
+    "account/event-opportunity-audit.parquet": {
+      "sha256": "8fb14587edad42c33d790dbe693f0652dfc27b55224af972a6ca015e58f2e325",
+      "size": 1783297
+    },
+    "account/event-signals.parquet": {
+      "sha256": "2b37f6d5f019d3ec528dc98a89b05a77f81de4aa4cdca0af7abbdc92f17f9204",
+      "size": 269320
+    },
+    "account/execution_freeze.json": {
+      "sha256": "b4735b412550ef248998e862c586fee2346cebced087e1d2fdd374775e0334c1",
+      "size": 2051
+    },
+    "account/hourly-ranks.parquet": {
+      "sha256": "b74330e0d67d96784897730729a3d29dd718db7c08828b7c575263be1e9ace5c",
+      "size": 706435
+    },
+    "account/make_report.py": {
+      "sha256": "7407142800b12188a290bf4ae8f116c19a7d19d0b5e1609266f9b4abeae1d6d8",
+      "size": 5209
+    },
+    "account/mapped_asset_checks.json": {
+      "sha256": "ce7d09d37a7fe029e017854f964d71e97339d849a4c552130d4b476cd71b4477",
+      "size": 9222
+    },
+    "account/mapped_asset_checks.py": {
+      "sha256": "d514c0b20727bf4b40fc2fb4bab854722d13cd33a4a487dab8bb208baf31b839",
+      "size": 2810
+    },
+    "account/market_io.py": {
+      "sha256": "d8092a961ad4531dfb07d3a7aa779e30fd7f1de2bdca4d9b1fd85ace50a79aec",
+      "size": 7832
+    },
+    "account/market_manifest.json": {
+      "sha256": "3d1b11f20a7e458f262008066552d1b5027bbdec56090c72a1aaa8cf9394831f",
+      "size": 794218
+    },
+    "account/MARKET_READY.json": {
+      "sha256": "b8c3ba8f3bea1cab0d3e347f2468c9c738467b123ad0f8d45ef3af972c35b30a",
+      "size": 301
+    },
+    "account/pre_quarantine_input_snapshot/event-opportunity-audit.parquet": {
+      "sha256": "48d4107ab2860d9a4d87b234990da2ba89d4c0235fc908e8fcb233689db59628",
+      "size": 1783293
+    },
+    "account/pre_quarantine_input_snapshot/event-signals.parquet": {
+      "sha256": "2b37f6d5f019d3ec528dc98a89b05a77f81de4aa4cdca0af7abbdc92f17f9204",
+      "size": 269320
+    },
+    "account/pre_quarantine_input_snapshot/hourly-ranks.parquet": {
+      "sha256": "028afbf5d0a12dcd44dcee6d2b525a35b51e3290a9e2ca0b63400a2060c8e6ce",
+      "size": 706703
+    },
+    "account/pre_quarantine_input_snapshot/mapped_asset_checks.json": {
+      "sha256": "a44137e73be709046378f94d5e7271ec2d070f6126b4695c492a92ef27bf8044",
+      "size": 9222
+    },
+    "account/pre_quarantine_input_snapshot/signal_build.json": {
+      "sha256": "b2757f4fe174c73f577cfed399af701997a1d58387dba58b2bbe778686e35e20",
+      "size": 597
+    },
+    "account/quarantine_rank_correction.json": {
+      "sha256": "8145bb514ba9799febfc3ed2035a08e1ba603b5e2ccc1c855928801c8931787c",
+      "size": 882
+    },
+    "account/regimes.parquet": {
+      "sha256": "38f1cf49c72833b9f33f7c86047e72335a5a4f19d7ab75fe2cc0db7f4c26e013",
+      "size": 4039799
+    },
+    "account/results/event_baseline/delay1-curve.parquet": {
+      "sha256": "534ef1f9630c15b380e16247993ac96591707c9a93d92d4a3599812521806ec3",
+      "size": 2985137
+    },
+    "account/results/event_baseline/delay1-entries.json": {
+      "sha256": "17cdd5dc1e1d014546bf5f02ab53b0918c5647a3d78f4dc23d38680f5f8e1575",
+      "size": 152942
+    },
+    "account/results/event_baseline/delay1-funding.json": {
+      "sha256": "19d0c162f8aa8ce688f9d3660083074a6c7a2a3de95f06108109629f2b4e9eee",
+      "size": 4288
+    },
+    "account/results/event_baseline/delay1-summary.json": {
+      "sha256": "58bc3f10c1a273d07f3268504ad3679c502290f8d55edb61772cc52424b77560",
+      "size": 1799
+    },
+    "account/results/event_baseline/delay1-trades.json": {
+      "sha256": "ab532a6cbfbbb6292450bcba88bf79a82645c47a9ba68fbb680fb5fa90319347",
+      "size": 192769
+    },
+    "account/results/event_baseline/fee2-curve.parquet": {
+      "sha256": "0fab90b1433e5f5cb75e820f4b6756b22caa2df9177792e87945cc830db9f67b",
+      "size": 2962727
+    },
+    "account/results/event_baseline/fee2-entries.json": {
+      "sha256": "6f679dc8d1f391857a000107187be70c22a662402ac4c82d626c262496f3425d",
+      "size": 142907
+    },
+    "account/results/event_baseline/fee2-funding.json": {
+      "sha256": "33ca2c1fa7189e9ccc9d56ea530ee39e3638e6171fc3b9045bf5a37fdb143d08",
+      "size": 1778
+    },
+    "account/results/event_baseline/fee2-summary.json": {
+      "sha256": "d3cea9fe56f27d09a9302abc98419993e9f90986cf56dd32ff8e5d69b7606cb6",
+      "size": 1833
+    },
+    "account/results/event_baseline/fee2-trades.json": {
+      "sha256": "6ae1fe9155714ba52f70c663528607835a8ed08459186049989ff10c160f8faa",
+      "size": 179918
+    },
+    "account/results/event_baseline/fee3-curve.parquet": {
+      "sha256": "745a346f6f0ee2569410f72d90e28ba1e42f51c31111a263522a40fe0e1aad8a",
+      "size": 2939269
+    },
+    "account/results/event_baseline/fee3-entries.json": {
+      "sha256": "ebadd03c961fc3a2fe259f3858265fccc72ed741c05183faa18e2ef6f7efdad6",
+      "size": 114333
+    },
+    "account/results/event_baseline/fee3-funding.json": {
+      "sha256": "add7e0221c5cbf62372a072880400ea7d0577698d3cd8665fe340cc35610a131",
+      "size": 1777
+    },
+    "account/results/event_baseline/fee3-summary.json": {
+      "sha256": "ac7b135699c70b51bebb2b98142e2ce64f5b8013e4a84f63774e92151855fbf2",
+      "size": 1851
+    },
+    "account/results/event_baseline/fee3-trades.json": {
+      "sha256": "1cead8d5f8d4e7b592b66f77d8d9fc94c180f4eafab8aa2261374a85be89a051",
+      "size": 143920
+    },
+    "account/results/event_baseline/main-curve.parquet": {
+      "sha256": "a4143862b879fa21367fb6a5ef4cf370e2b29cdddcbf154a6a73030c4d5aceca",
+      "size": 2998191
+    },
+    "account/results/event_baseline/main-entries.json": {
+      "sha256": "977be7948ff1017e39eed1e002dc14bf4ab348636280186711a69fae3c7ab642",
+      "size": 184079
+    },
+    "account/results/event_baseline/main-funding.json": {
+      "sha256": "ed93f675cb7380cdeda9578e430012f6b35b7cf64c0d5921bd56b73b5989f31d",
+      "size": 3216
+    },
+    "account/results/event_baseline/main-summary.json": {
+      "sha256": "98a3e18ad9c4053234ea74ed901917ae88cfc182f4aa12c7bfe4a0e4b242fbf4",
+      "size": 1848
+    },
+    "account/results/event_baseline/main-trades.json": {
+      "sha256": "a31637de532d0bba04ac7a919422ca077023e0d4b1aefdb2cba6a73b5b61fa7a",
+      "size": 231843
+    },
+    "account/results/event_baseline/slip2-curve.parquet": {
+      "sha256": "7acc2396537db8b1232a45281e7d520da57f8328e2e18bc7d4b8f385e5756655",
+      "size": 2958691
+    },
+    "account/results/event_baseline/slip2-entries.json": {
+      "sha256": "1ff93eb2ecaa76f4bd4f893a7acd643d9b86bd5bff8b0e0bbcd21ea53647819a",
+      "size": 132877
+    },
+    "account/results/event_baseline/slip2-funding.json": {
+      "sha256": "de727ec3780822d8d5bc70d92dfc6236a909e890c5aaa454188151ce772458e7",
+      "size": 2490
+    },
+    "account/results/event_baseline/slip2-summary.json": {
+      "sha256": "06e466d73b9c6fe378ae94edc39a13044071a97a5c68ca117ce3581ff4cd9692",
+      "size": 1850
+    },
+    "account/results/event_baseline/slip2-trades.json": {
+      "sha256": "77853efbbf5f774a6415a30af57f6efb2ff14ba7787d1c57893ad1567759e582",
+      "size": 167406
+    },
+    "account/run_accounts.py": {
+      "sha256": "0d9557c2137934330fedd0cdeda1622ef71b0f1dd1a7261c5095bcb1b9c03383",
+      "size": 6366
+    },
+    "account/signal_build.json": {
+      "sha256": "74404e08bb0b876ae0f4cf86b1dcc2bf565e0aba45dbbef3f0fcf9ec78269788",
+      "size": 597
+    },
+    "account/superseded_market_ema_attempt/account_market.py": {
+      "sha256": "89a4af16393ee2af3020f6bd2b6edf2da3f9b72eb68902c420eaba9adac92124",
+      "size": 7628
+    },
+    "account/superseded_market_ema_attempt/event-opportunity-audit.parquet": {
+      "sha256": "c3864289d7139762e41d290931e8d001980ff3a599762f430522471f4c1aba15",
+      "size": 1782889
+    },
+    "account/superseded_market_ema_attempt/event-signals.parquet": {
+      "sha256": "5eda37b904bab3766734b4c659e8822b36cd3fe5e3fe40ee308a309f707aa2cf",
+      "size": 262306
+    },
+    "account/superseded_market_ema_attempt/execution_freeze.json": {
+      "sha256": "8e49b388d2c86a76a40635fb3b3b077a73d34ecbf98799a6bcad493b238e25b2",
+      "size": 1422
+    },
+    "account/superseded_market_ema_attempt/hourly-ranks.parquet": {
+      "sha256": "56fc3a23afdc30a4c5b466e23a93440bc72a727de5c36525f5b842852f259bab",
+      "size": 696188
+    },
+    "account/superseded_market_ema_attempt/regimes.parquet": {
+      "sha256": "49f422258642151a599986c10c36312a6e2f03f61d184127fd4ec33b8fcaba84",
+      "size": 3883413
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee2-curve.parquet": {
+      "sha256": "8a2a25262d899c552ee3ebfdf8ea852c8684aca1e85033e7568a1e51d50551c5",
+      "size": 2975442
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee2-entries.json": {
+      "sha256": "b4ca90fc681eafce6eb5d53b7949a87983b31bb65b5b741528733b78680ff4b5",
+      "size": 153821
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee2-funding.json": {
+      "sha256": "bdcf5b68a86b53b87bfc5d5b21f0e49c8245d2e763cfdf977d8e4679967eb645",
+      "size": 2140
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee2-summary.json": {
+      "sha256": "20bbeff0732c9d2b5cbe6068dc5292f973347312105858cf35f85d111fb2e028",
+      "size": 1826
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee2-trades.json": {
+      "sha256": "1a13f547b431d080c324f2499d30e36f951ec83889b44202d1f5203dae7e43d9",
+      "size": 193507
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee3-curve.parquet": {
+      "sha256": "f520381a63893e75f4e2372bd7eca01c9aae012b9bc2aaf9be803f4414c72d2b",
+      "size": 2940953
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee3-entries.json": {
+      "sha256": "ad56b14ed2bc8af36041c4902189fa0042656f9d1e2c918191ab2d19eea6bfda",
+      "size": 113489
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee3-funding.json": {
+      "sha256": "7d8b68551c4b777b0413705d66f58a676bfd3c3f41aa6eb5a2e4e1d364b577f2",
+      "size": 1787
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee3-summary.json": {
+      "sha256": "31051841c603f68a5154c3dc6218ff9f6c16fe1d7d378bdfb5260ecf8dee1a16",
+      "size": 1844
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/fee3-trades.json": {
+      "sha256": "fc56187555408cd89207530d52d54dc253d240672046879b2bdc6a2da3f3f25d",
+      "size": 142815
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/main-curve.parquet": {
+      "sha256": "18404e371af5ece9c87e2bd8a5e2c053da18b688c22ed81862f0562cfd12cfb1",
+      "size": 3002185
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/main-entries.json": {
+      "sha256": "ee5ed7c58e7aad197663bd9ee3bf9b2901dad11e87ae6a15fc64a0051c0a3100",
+      "size": 185733
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/main-funding.json": {
+      "sha256": "87da630099832295858933e5b8496d4180264f2bdd1db00ea19dd709d0d488d4",
+      "size": 3214
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/main-summary.json": {
+      "sha256": "d986f2a1f7b218def6e6e4f8a1940b799561a459e945fff4d8559927013633db",
+      "size": 1851
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/main-trades.json": {
+      "sha256": "dc00158578abdf1628350ca1a8b98b5bc7d0f4d1ae1ade4d5d94301cf6677b8b",
+      "size": 233760
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/slip2-curve.parquet": {
+      "sha256": "83314a72f90ed9f720cc7bcadf5a46bff145d4a0b691a5b294c4988c924b99c6",
+      "size": 2970971
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/slip2-entries.json": {
+      "sha256": "157d18fc88f1c5744c6c95566e407d5d44b1db102f698bb1c09bda8565e91226",
+      "size": 145388
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/slip2-funding.json": {
+      "sha256": "ae8f47192fd743c5ed148557efd775a572527c644eae06f0a6aae041d7aefb1d",
+      "size": 3213
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/slip2-summary.json": {
+      "sha256": "4ffed217227efc20a27ad43711e510a7c8ce3f1ded885de16e9d82359e659e3b",
+      "size": 1851
+    },
+    "account/superseded_market_ema_attempt/results/event_baseline/slip2-trades.json": {
+      "sha256": "4b365fff074d05c8088350433f929d848b1450b2f382952634b4f6aac2e55875",
+      "size": 183118
+    },
+    "account/superseded_market_ema_attempt/signal_build.json": {
+      "sha256": "015c547396ef4a34cb42651b82674d13a3efa6162909ada131b43fcb99f85da9",
+      "size": 597
+    },
+    "account/superseded_symbol_mapping_attempt/account_market.py": {
+      "sha256": "48a95170e7845e4b17cecaf9a5505914f44c8ae1d156fead91cd8a5785d4a78c",
+      "size": 8011
+    },
+    "account/superseded_symbol_mapping_attempt/account_results.json": {
+      "sha256": "cf64f6f92023298cb96ea2ab8ba72f4e5a29fbcaa8b69c979b12c3da26cdea3f",
+      "size": 11190
+    },
+    "account/superseded_symbol_mapping_attempt/ACCOUNT_RESULTS_READY.json": {
+      "sha256": "795d93c85c4599924a9b1350717ba30d602ad7ad3da618587b2cc059e9a90b5d",
+      "size": 209
+    },
+    "account/superseded_symbol_mapping_attempt/coin_attribution.csv": {
+      "sha256": "7a5235f5b3c60d788e41ff2305ab271f05e2df6863096f22e9f3f1374c42bef3",
+      "size": 22037
+    },
+    "account/superseded_symbol_mapping_attempt/daily_accounts.csv": {
+      "sha256": "c825d5e5371f5f0eb4f966d76c7b54d1f500d88f09ccbb462f475cbeeedc9ac0",
+      "size": 134780
+    },
+    "account/superseded_symbol_mapping_attempt/event-opportunity-audit.parquet": {
+      "sha256": "c3864289d7139762e41d290931e8d001980ff3a599762f430522471f4c1aba15",
+      "size": 1782889
+    },
+    "account/superseded_symbol_mapping_attempt/event-signals.parquet": {
+      "sha256": "5eda37b904bab3766734b4c659e8822b36cd3fe5e3fe40ee308a309f707aa2cf",
+      "size": 262306
+    },
+    "account/superseded_symbol_mapping_attempt/execution_freeze.json": {
+      "sha256": "1247f2ca88047f5ca490a4ac052fc5c442ef8e0c4a1f7e1b3f5df74b72bac71b",
+      "size": 1422
+    },
+    "account/superseded_symbol_mapping_attempt/execution_freeze_metadata_correction.json": {
+      "sha256": "95e1b18b90320dee281c1df18878d6a05370ab8d55d3dedc4bbdb0cde80f8483",
+      "size": 887
+    },
+    "account/superseded_symbol_mapping_attempt/hourly-ranks.parquet": {
+      "sha256": "56fc3a23afdc30a4c5b466e23a93440bc72a727de5c36525f5b842852f259bab",
+      "size": 696188
+    },
+    "account/superseded_symbol_mapping_attempt/INVALID_FOR_FINAL_COMPARE.json": {
+      "sha256": "707701649a0e476d3b4bd8d77a67d5144bc07e1f152f98e90aee6ea6461c0cf4",
+      "size": 211
+    },
+    "account/superseded_symbol_mapping_attempt/regimes.parquet": {
+      "sha256": "8ce8fccfbe19ba795a8a1b20944ae044c247f226cc4fbc3231efdd79da90abf0",
+      "size": 3862519
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/delay1-curve.parquet": {
+      "sha256": "85aa2e38e53cbe5e7cd11eef708e554a34338c572f2c02a10caa613fe4aa0869",
+      "size": 2993476
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/delay1-entries.json": {
+      "sha256": "b4fb7905fea7d51d44df02e1986b59c04bbd528fbb9d76e874e779f0151a938a",
+      "size": 157919
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/delay1-funding.json": {
+      "sha256": "e6bc653452c2d621974648a9cb35bd21fb5d78f9ca727dca6ee929de7d5f1723",
+      "size": 4659
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/delay1-summary.json": {
+      "sha256": "d05e9cff3163e4078758c848857b992e37d7625b582c9b46bce1927a6e524ef7",
+      "size": 1811
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/delay1-trades.json": {
+      "sha256": "815d9820eaf9555c102d48be543dbebbfa3446933d1a3fc6461a6330175b054b",
+      "size": 198983
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee2-curve.parquet": {
+      "sha256": "8a2a25262d899c552ee3ebfdf8ea852c8684aca1e85033e7568a1e51d50551c5",
+      "size": 2975442
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee2-entries.json": {
+      "sha256": "b4ca90fc681eafce6eb5d53b7949a87983b31bb65b5b741528733b78680ff4b5",
+      "size": 153821
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee2-funding.json": {
+      "sha256": "bdcf5b68a86b53b87bfc5d5b21f0e49c8245d2e763cfdf977d8e4679967eb645",
+      "size": 2140
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee2-summary.json": {
+      "sha256": "20bbeff0732c9d2b5cbe6068dc5292f973347312105858cf35f85d111fb2e028",
+      "size": 1826
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee2-trades.json": {
+      "sha256": "1a13f547b431d080c324f2499d30e36f951ec83889b44202d1f5203dae7e43d9",
+      "size": 193507
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee3-curve.parquet": {
+      "sha256": "f520381a63893e75f4e2372bd7eca01c9aae012b9bc2aaf9be803f4414c72d2b",
+      "size": 2940953
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee3-entries.json": {
+      "sha256": "ad56b14ed2bc8af36041c4902189fa0042656f9d1e2c918191ab2d19eea6bfda",
+      "size": 113489
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee3-funding.json": {
+      "sha256": "7d8b68551c4b777b0413705d66f58a676bfd3c3f41aa6eb5a2e4e1d364b577f2",
+      "size": 1787
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee3-summary.json": {
+      "sha256": "31051841c603f68a5154c3dc6218ff9f6c16fe1d7d378bdfb5260ecf8dee1a16",
+      "size": 1844
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/fee3-trades.json": {
+      "sha256": "fc56187555408cd89207530d52d54dc253d240672046879b2bdc6a2da3f3f25d",
+      "size": 142815
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/main-curve.parquet": {
+      "sha256": "18404e371af5ece9c87e2bd8a5e2c053da18b688c22ed81862f0562cfd12cfb1",
+      "size": 3002185
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/main-entries.json": {
+      "sha256": "ee5ed7c58e7aad197663bd9ee3bf9b2901dad11e87ae6a15fc64a0051c0a3100",
+      "size": 185733
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/main-funding.json": {
+      "sha256": "87da630099832295858933e5b8496d4180264f2bdd1db00ea19dd709d0d488d4",
+      "size": 3214
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/main-summary.json": {
+      "sha256": "d986f2a1f7b218def6e6e4f8a1940b799561a459e945fff4d8559927013633db",
+      "size": 1851
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/main-trades.json": {
+      "sha256": "dc00158578abdf1628350ca1a8b98b5bc7d0f4d1ae1ade4d5d94301cf6677b8b",
+      "size": 233760
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/slip2-curve.parquet": {
+      "sha256": "83314a72f90ed9f720cc7bcadf5a46bff145d4a0b691a5b294c4988c924b99c6",
+      "size": 2970971
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/slip2-entries.json": {
+      "sha256": "157d18fc88f1c5744c6c95566e407d5d44b1db102f698bb1c09bda8565e91226",
+      "size": 145388
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/slip2-funding.json": {
+      "sha256": "ae8f47192fd743c5ed148557efd775a572527c644eae06f0a6aae041d7aefb1d",
+      "size": 3213
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/slip2-summary.json": {
+      "sha256": "4ffed217227efc20a27ad43711e510a7c8ce3f1ded885de16e9d82359e659e3b",
+      "size": 1851
+    },
+    "account/superseded_symbol_mapping_attempt/results/event_baseline/slip2-trades.json": {
+      "sha256": "4b365fff074d05c8088350433f929d848b1450b2f382952634b4f6aac2e55875",
+      "size": 183118
+    },
+    "account/superseded_symbol_mapping_attempt/run_accounts.py": {
+      "sha256": "6dca137d30f1a946d0c62ccc13d700142b717f3cf993e3a0c5ed42e984a256ad",
+      "size": 6023
+    },
+    "account/superseded_symbol_mapping_attempt/signal_build.json": {
+      "sha256": "782911cb6425e016250d9dce97db8cb6ebfad04027e9fe61cde4892443e4a9e4",
+      "size": 597
+    },
+    "account/superseded_symbol_mapping_attempt/账户回放说明.md": {
+      "sha256": "4fb33506a6a20e889ef6836a5dded28079dcba5758eb8436aab85a8a33eca626",
+      "size": 3689
+    },
+    "account/symbol_mapping_correction.json": {
+      "sha256": "4b2c5c362ed3e71c41c53c63990a79ce3acd2cd12102e9157a41e03eb967de7b",
+      "size": 1999
+    },
+    "account/synthetic_checks.json": {
+      "sha256": "58d48f565c4c209d3e3abad475890e3b7457ee3f7415a0513467510e59041a41",
+      "size": 524
+    },
+    "account/synthetic_checks.py": {
+      "sha256": "206df9e9703c937a96c2c18a6e6157ad77f91805c7a86e17e80f133feb39fc27",
+      "size": 5332
+    },
+    "account/synthetic_mapping/BONKUSDT.parquet": {
+      "sha256": "9d796d53e97a588607e152b58dea39c31e190acf42b03e1dfe7ee2914afd09a5",
+      "size": 2852
+    },
+    "account/synthetic_mapping/PEPEUSDT.parquet": {
+      "sha256": "89b456a420f19050d2777c799d3a1a11ffb224c6c52f9fcf21ed793653dd7f06",
+      "size": 2852
+    },
+    "account/synthetic_mapping/SHIBUSDT.parquet": {
+      "sha256": "0a43e360826e3cfd9f69b690068ee8e5bc614282ca5d35cd3e000a14e7b1279a",
+      "size": 2852
+    },
+    "account/账户回放说明.md": {
+      "sha256": "47c77702ef2539e9dc65c5dce99ac6203aa3803fdb7813aea3c909bb14b71afb",
+      "size": 3595
+    },
+    "audit/account_independent.json": {
+      "sha256": "53d26311322ed0b21352d2602514917c9ce719d1bbeb0c6543ab447c0565ca84",
+      "size": 2749
+    },
+    "audit/account_independent_superseded_symbolmapping.json": {
+      "sha256": "0579cd2cd55959f3888634920af26e4a99a8a854f7b592f1e197ebc13aa4a629",
+      "size": 2745
+    },
+    "audit/audit_accounts.py": {
+      "sha256": "02bd5e4d2c023bb2ea088fc731c676a536a1d9eae2522ea3b4f166344421aaf1",
+      "size": 9952
+    },
+    "audit/audit_incremental.py": {
+      "sha256": "78f8acf8f19f33daa214414eb20ad49f1f7cbeef257148f6c2085a4657dc1785",
+      "size": 9950
+    },
+    "audit/audit_signals.py": {
+      "sha256": "100a00da202deb5c4eef8adf6b368f31af4697ebca0d7437c7254f69ff423c90",
+      "size": 8290
+    },
+    "audit/audit_summary.json": {
+      "sha256": "a63603eb21e5c518e4f0cacc231ce372620e148475e8129c778094228b449f06",
+      "size": 6686
+    },
+    "audit/finalize_audit.py": {
+      "sha256": "0d5c40eef2bb5bca2760a352c802b7e2d236cfde6300ec43e58d6b46d9335883",
+      "size": 9598
+    },
+    "audit/incremental_independent.json": {
+      "sha256": "cf51024466c992708d43674ac9f3c0d5ed1cd7ff976198c477715d361461954b",
+      "size": 3492
+    },
+    "audit/independent_execution.json": {
+      "sha256": "20edf6f62670892ed640247960786a07bf9277e7eb63deaf4f1964ea8954f637",
+      "size": 639
+    },
+    "audit/pre_outcome_review.md": {
+      "sha256": "efacb88e5405579043a72e3dc14f2bd31a841f2628b7eb6c1cda4370a6cd2abf",
+      "size": 4329
+    },
+    "audit/signals_independent.json": {
+      "sha256": "60b9546b26c4874633091c8abb5a79d6ee5c51beb193cde66bafa072d1c1208b",
+      "size": 3993
+    },
+    "audit/signals_independent_pre_quarantine.json": {
+      "sha256": "9d6332986a5ff5e32e015013e16951b489182fa3fa7bee2be3522daed65c184b",
+      "size": 3937
+    },
+    "audit/symbol_mapping_failure.json": {
+      "sha256": "721d728b2f4004712760df8eaac40c9f0b2fe467eecc221199aea0b3566cb9cd",
+      "size": 1155
+    },
+    "audit/synthetic_methods.json": {
+      "sha256": "08258a82cd4934b073d930ab079c23bcc5f9cd9b31024980a83350f248527482",
+      "size": 922
+    },
+    "audit/test_execution_independent.py": {
+      "sha256": "dee62482dd2db4f0b93789a236e1114c09a90df635f912a9e1255885a69af5fe",
+      "size": 5575
+    },
+    "audit/test_methods_independent.py": {
+      "sha256": "4d8752ce5d98bf16a7704d36b8fbebed5e347be4d03bdeeab457e31649613bff",
+      "size": 5629
+    },
+    "audit/审计结论.txt": {
+      "sha256": "9afb085a72e92d88e5f4d16bcda7bb306899fd67ad4eb9491de582505a766462",
+      "size": 2866
+    },
+    "build_final_report.py": {
+      "sha256": "97fc8dc7824d1570bd9550f7dd74d3e12a8f036647960e4e32d6d41a2291aac9",
+      "size": 15026
+    },
+    "clarifications_before_outcomes.json": {
+      "sha256": "9d720a3d84b35d21bc6dcc75956ac786ae1e19fb3ee57f4e821a10a6535c6cd3",
+      "size": 1327
+    },
+    "deliverable_validation.json": {
+      "sha256": "b3f06115498819e150cdaa2cff8e0f317ae7a39997588f5ecc598a8dcac07b92",
+      "size": 382
+    },
+    "finalize_integrity.py": {
+      "sha256": "ecddd585834890ef57671454dfcf0c32e6041a90649434181108c31242ece844",
+      "size": 2683
+    },
+    "incremental/account_readonly_review.json": {
+      "sha256": "245fbc6f9afefedf44a2fb7d4fc6ab073b898933cd6bc133f1e06b1b928cbfa5",
+      "size": 5604
+    },
+    "incremental/account_readonly_review.py": {
+      "sha256": "697b9f2e045a393bf5ea0a4884426a2139775cb7bd8591abb4f6ba5d2f1dcad2",
+      "size": 5139
+    },
+    "incremental/account_refit.json": {
+      "sha256": "be3c6386262e538e0cd783bb8b6af32903693b61f724dcbe7005bf4ee42c3924",
+      "size": 399
+    },
+    "incremental/chronology_check.json": {
+      "sha256": "1b11df63b4e5985f82c24f37f7d388e42d47d844e46c18d096211a20e9fb675c",
+      "size": 1880
+    },
+    "incremental/component_freeze.json": {
+      "sha256": "5bcfd039629bf230994b4971fd432425409f9fd8dde0fbdd0ccffbc156709e20",
+      "size": 907
+    },
+    "incremental/daily_loss/F1-screen.parquet": {
+      "sha256": "4d8a90dd88c073ff7d27dfe7f041ff373a83b1cc6ed53c2d5374cc391bddb6e2",
+      "size": 5947
+    },
+    "incremental/daily_loss/F2-screen.parquet": {
+      "sha256": "9561875db57608193b1338bcbf53a9996ad8b76373f9cac344eca4238bf8358d",
+      "size": 5947
+    },
+    "incremental/daily_loss/F3-screen.parquet": {
+      "sha256": "d985b8307156ad4958e500630131d29fff78afac38278c9c80441095695d426f",
+      "size": 5947
+    },
+    "incremental/daily_loss/F4-screen.parquet": {
+      "sha256": "3b539f93efc8cc65af8cbee8c0ead1bfebb7a9965748cce4de18461846c398b0",
+      "size": 5947
+    },
+    "incremental/daily_loss/F5-screen.parquet": {
+      "sha256": "3561a7d4fdfe2b571786893e003375ece99c45047e1d60d00f161060071fe8c0",
+      "size": 5947
+    },
+    "incremental/daily_loss/F6-screen.parquet": {
+      "sha256": "55653e220cae8fbca3a4875656a3e49b51e5f111e31604aa86121f7c64e5d7e6",
+      "size": 5947
+    },
+    "incremental/describe_and_report.py": {
+      "sha256": "cef3198c1e2184b6afa0c2b8b058e09c92eb693c816c092a7a0563510e56a6c3",
+      "size": 6080
+    },
+    "incremental/diagnostics/all12-feature-descriptives.json": {
+      "sha256": "c189a18e702d50279019d9022b87c02ee97d25f4f15813bbac7aa7ccd7b24f09",
+      "size": 17895
+    },
+    "incremental/diagnostics/all12-feature-descriptives.parquet": {
+      "sha256": "e5e4f9317cb02f2bf8bed34d0359a733c3d28c0429e59a20836da34c894152be",
+      "size": 10949
+    },
+    "incremental/diagnostics/F1-screen.parquet": {
+      "sha256": "123cb3fcc9430304a8cca32d16ddea4c5a285b0c479fcb3505dc9b64c7782c91",
+      "size": 15662
+    },
+    "incremental/diagnostics/F1-train.parquet": {
+      "sha256": "8b570c46c2c733d8f7ca210ae619e89730965c0799f63212197772c8a3fb89d4",
+      "size": 15481
+    },
+    "incremental/diagnostics/F2-screen.parquet": {
+      "sha256": "be6e8bcbd80d9df9e536648651022b35fcee691862ea933c9b5f5cc7eba02f75",
+      "size": 15654
+    },
+    "incremental/diagnostics/F2-train.parquet": {
+      "sha256": "9ffc7cd83d2de4ca78aceccb7147d4a51d9e517f4d0168f4669f2604332718de",
+      "size": 15732
+    },
+    "incremental/diagnostics/F3-screen.parquet": {
+      "sha256": "2c839604041be9d5a10ec2408d5f19e8c487d32855a7c7073cfa2e9e6a018661",
+      "size": 15654
+    },
+    "incremental/diagnostics/F3-train.parquet": {
+      "sha256": "da650f40b396af257c300d92323b955fc62961111d8fc3106d9827a1e27622d6",
+      "size": 15726
+    },
+    "incremental/diagnostics/F4-screen.parquet": {
+      "sha256": "6ba1eb80b5b098032c8319b6f946d6b3614ba0f8f49e2d9d193dee6a7e4e035d",
+      "size": 15676
+    },
+    "incremental/diagnostics/F4-train.parquet": {
+      "sha256": "d485212008ff49734ab4dec0725d6aa5e241491e46b6a7c479b3c243d7b8d769",
+      "size": 15703
+    },
+    "incremental/diagnostics/F5-screen.parquet": {
+      "sha256": "338b072e262ed0e38cb23c5d6c2db7480afcf1cb3cfdb00f479244e87eeb5f34",
+      "size": 15676
+    },
+    "incremental/diagnostics/F5-train.parquet": {
+      "sha256": "ca2fe2a34a3907103f0c0fdfe309c934d9efc7707cdb24d7985d181d865ae823",
+      "size": 15703
+    },
+    "incremental/diagnostics/F6-screen.parquet": {
+      "sha256": "4d8195236b7a33c8ad44c193d9195ad8b3309df4df43b4586203827d692ecb4a",
+      "size": 15654
+    },
+    "incremental/diagnostics/F6-train.parquet": {
+      "sha256": "ec4981a94f6d84c34f412c235c15c47ee4ce2257d88e7ff065fa081038aa94e3",
+      "size": 15732
+    },
+    "incremental/incremental_results.json": {
+      "sha256": "3b2c12be7c0eb53f85e764e0879bbc73dae4742f89590cbecc7587e048393d4b",
+      "size": 28347
+    },
+    "incremental/labels/clock-train_screen.parquet": {
+      "sha256": "dc0a19b6d3d2914ece3f4aea6086081a146d617e2e8a94dba5a8baa856b76e10",
+      "size": 22209875
+    },
+    "incremental/labels/events-train_screen.parquet": {
+      "sha256": "6ba9425a53283c84939c5546a465cf804504e936c9aaebefed84f51ccccdea13",
+      "size": 11635229
+    },
+    "incremental/matched/F1-screen.parquet": {
+      "sha256": "4c7df23b8bf34c31fa5eb5f498993f8643d19af8bc9be32ea692ed56b17b1fb6",
+      "size": 778729
+    },
+    "incremental/matched/F1-train.parquet": {
+      "sha256": "6b0bba16d5c497d993b41015de7ab61f4a2f459712f644aa1b26bf440b433081",
+      "size": 756983
+    },
+    "incremental/matched/F2-screen.parquet": {
+      "sha256": "5ace2ec83bf158bd7687427349bed5fc91be5447aa2104e6348269b5cba37ad7",
+      "size": 778411
+    },
+    "incremental/matched/F2-train.parquet": {
+      "sha256": "4d1940f4c081a8e500254ac307c03e26853933ba595957046d672c53ea1db4ba",
+      "size": 757272
+    },
+    "incremental/matched/F3-screen.parquet": {
+      "sha256": "5ace2ec83bf158bd7687427349bed5fc91be5447aa2104e6348269b5cba37ad7",
+      "size": 778411
+    },
+    "incremental/matched/F3-train.parquet": {
+      "sha256": "a2850e29f79b3b15a6e9823858a313b97a369f0a2c33e0c07713e05bc66adcd4",
+      "size": 757185
+    },
+    "incremental/matched/F4-screen.parquet": {
+      "sha256": "b3927f05d90eaceec0ba2c435484b0922ad843ee72ca2aa4f9c6ea4a3bad6ff8",
+      "size": 1087018
+    },
+    "incremental/matched/F4-train.parquet": {
+      "sha256": "ecf8d94977a44154eca58302700bc1d9385aacd5d6394d64b9a0942de421e1df",
+      "size": 1085933
+    },
+    "incremental/matched/F5-screen.parquet": {
+      "sha256": "b3927f05d90eaceec0ba2c435484b0922ad843ee72ca2aa4f9c6ea4a3bad6ff8",
+      "size": 1087018
+    },
+    "incremental/matched/F5-train.parquet": {
+      "sha256": "ecf8d94977a44154eca58302700bc1d9385aacd5d6394d64b9a0942de421e1df",
+      "size": 1085933
+    },
+    "incremental/matched/F6-screen.parquet": {
+      "sha256": "5ace2ec83bf158bd7687427349bed5fc91be5447aa2104e6348269b5cba37ad7",
+      "size": 778411
+    },
+    "incremental/matched/F6-train.parquet": {
+      "sha256": "4d1940f4c081a8e500254ac307c03e26853933ba595957046d672c53ea1db4ba",
+      "size": 757272
+    },
+    "incremental/methods.py": {
+      "sha256": "217da3a32659d9fe22921545052a262ed4a609805b405a9890efc5b9efcf2267",
+      "size": 8419
+    },
+    "incremental/models/F1-train.json": {
+      "sha256": "e39283c6a9086e4b1d12b01b12a3552166e4abbda08a45ca0d32efeeebc20459",
+      "size": 13291
+    },
+    "incremental/models/F2-train.json": {
+      "sha256": "f71ae548b437f872e48373f98bd19f56c749608cce02e936fbadb51cd34b0aff",
+      "size": 13949
+    },
+    "incremental/models/F3-train.json": {
+      "sha256": "3e43365086c0e6785be7ea66eec4f8ed870ca0dbf1675ec158d55528487ea690",
+      "size": 13955
+    },
+    "incremental/models/F4-train.json": {
+      "sha256": "cf8e0b7dff287aa9e5e8ad082a935667f9edd871d76fed148613f897c233c24c",
+      "size": 13999
+    },
+    "incremental/models/F5-train.json": {
+      "sha256": "2723ac72cd061cb0646451f9e9aa3872be061aa2779a9701f1e10d1c9779d11f",
+      "size": 14013
+    },
+    "incremental/models/F6-train.json": {
+      "sha256": "83632d32e450298db9a70714d71ea475204982e43b3061dd565896690d4f1116",
+      "size": 13587
+    },
+    "incremental/predictions/account_events.parquet": {
+      "sha256": "7a1fde445e3ddb0052dd02874e9ad69c11eff5963a60f1b539bb6849fa6473c4",
+      "size": 2755109
+    },
+    "incremental/RESULTS_READY.json": {
+      "sha256": "94af6990dac5cb011be1ed063e967076f72a15e82556c7659b6891b725525b25",
+      "size": 374
+    },
+    "incremental/run_incremental.py": {
+      "sha256": "dc07202d9c3974c8aa1fb291cba9684d9a79aad30ee3b0255e48bafed5db74c1",
+      "size": 18401
+    },
+    "incremental/RUN_STARTED.json": {
+      "sha256": "37c2368bb889f0a383cf67f3471eb631cef0c74038b06022a5dd6a31a0f7c8f6",
+      "size": 1412
+    },
+    "incremental/screen_predictions/F1.parquet": {
+      "sha256": "d3f6fa3e27d19f1f852039fb57881bf92ebe22eb03253a191ef48c25160f2fb5",
+      "size": 3165533
+    },
+    "incremental/screen_predictions/F2.parquet": {
+      "sha256": "d8e9b31a6a67d4060ef4f60033724079bf057549f993a7050b4a07c5e75f077e",
+      "size": 3350524
+    },
+    "incremental/screen_predictions/F3.parquet": {
+      "sha256": "38cad26a1849c0b2efb461eb74cf342d621789752d9f49c9636244d2483fb318",
+      "size": 3314017
+    },
+    "incremental/screen_predictions/F4.parquet": {
+      "sha256": "8db6510786ed83ae5631135671bd57f507019d5e8e698c6635ceb1c72bd0ef4d",
+      "size": 1986358
+    },
+    "incremental/screen_predictions/F5.parquet": {
+      "sha256": "d3da755e17923ddf1b6ee1762db32d3c4caf4d1fef3cc84d5b1897a1500b4072",
+      "size": 1986358
+    },
+    "incremental/screen_predictions/F6.parquet": {
+      "sha256": "f6ac53da5b932ba5d837eabfabfa01c365371366cc7e18e5d8d2ff6198b63cc0",
+      "size": 3350524
+    },
+    "incremental/selection.json": {
+      "sha256": "5aa39729d33b0a72b46d3bc1e2bddb18e4dfec50f03dbb0e703d7d69b666373d",
+      "size": 26267
+    },
+    "incremental/test_methods.py": {
+      "sha256": "e48932cbd831ab6ffcc6cdf53ad633ca25771e274712e19a1b2c68269765b110",
+      "size": 3933
+    },
+    "incremental/增量特征检验结果.txt": {
+      "sha256": "cdcd17d0c664380f9cc3f77c84fe54b9bd638e5d94d5b72d25279b20b4f5cce8",
+      "size": 4232
+    },
+    "integrity_validation.json": {
+      "sha256": "26a91d880e6a37c0c9e7787ea46bc97ae5692f3e4ddb04e788d27240908d6a3a",
+      "size": 390
+    },
+    "phase3_results.json": {
+      "sha256": "1eb19a2dd8005ae3bd775da42d5d01b32dabd740cdc43681470ee2dc5b290d1c",
+      "size": 11749
+    },
+    "protect_originals.py": {
+      "sha256": "fb7b86218c4c4eae3f7ae9aeaa82ff8627fa239a6927a7097cc90d5ae505659e",
+      "size": 2020
+    },
+    "protected_before.json": {
+      "sha256": "217141361d82ecb99d50234398c210909c6e76e3bc2c8d2a6b3d4df513e7e96e",
+      "size": 186181
+    },
+    "protection_validation.json": {
+      "sha256": "0ab444b497b4c08be1681e5b9029885b60cd41e270ee6b54b7adef295c7c4564",
+      "size": 178
+    },
+    "protocol.json": {
+      "sha256": "2eddf317fe60e07894a2e53b77738e1ab7ee03273998b6a786a333eddcb48013",
+      "size": 10413
+    },
+    "register_phase3.py": {
+      "sha256": "84faf060df78a1da6dccba58a4905f9d33e96f4b8dd22227f1b576a91fe4372c",
+      "size": 10182
+    },
+    "registration_freeze.json": {
+      "sha256": "5281313dfed4f915d89654503d141d3ac081e61163d275a1049f24ef3f5ca178",
+      "size": 608
+    },
+    "净收益与成本拆解.png": {
+      "sha256": "4c6be5a03a59a9e9924192414216f44b48ca8e186292d279660605d58fdf5651",
+      "size": 148675
+    },
+    "第三阶段结果_特征增量与账户回测.md": {
+      "sha256": "4dcbfa8322f81f6b9908287789109d1c65fb91bf98f8075925c1a98b39057c8d",
+      "size": 9262
+    }
+  }
+}

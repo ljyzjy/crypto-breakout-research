@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 8,
+  "detail_rows_checked": 256,
+  "result_sha256": "47fa3955f12ec2f64b93db8019543607d535ab3a19613b2a027e07875ef8c159",
+  "audit_code_sha256": "d5c33932f58daeaa6907ca7e9bd5b793707f08ecbe6ed0975774d75c5cf07e2a",
+  "note": "Equal-notional paired units only, no shared account or independent blind test."
+}

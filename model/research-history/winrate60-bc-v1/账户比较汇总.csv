@@ -1,0 +1,12 @@
+﻿run_id,scenario,signal_candidates,trades,net_win_count,net_win_rate_pct,net_pnl,return_pct,max_drawdown,intrabar_stress_dd,profit_factor,active_calendar_days,fully_cash_calendar_days,acceptance_pass
+A,main,2282,219,75,34.24657534246575,-76.9696770023885,-7.696967700238854,8.016469137988146,8.016469137988146,0.637915174798761,30,270,False
+B,main,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+B,fee2,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+B,fee3,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+B,slip2,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+B,delay1,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+C,main,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+C,fee2,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+C,fee3,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+C,slip2,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False
+C,delay1,0,0,0,,0.0,0.0,0.0,0.0,,0,300,False

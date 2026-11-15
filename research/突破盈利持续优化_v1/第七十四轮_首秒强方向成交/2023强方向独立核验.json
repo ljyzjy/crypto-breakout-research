@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "year": "2023",
+  "groups_checked": 24,
+  "detail_rows_checked": 98,
+  "result_sha256": "b193a0afba01408071bd0c76e3eb8f7c6656cbab48e83ee6ff8728d2d189c084",
+  "audit_code_sha256": "5894900523769c90993174c4b34cc080ac1920d7ab18b611e76eae36b550602a",
+  "note": "Post-hoc historical comparison; exact live fills and account equity are not established."
+}

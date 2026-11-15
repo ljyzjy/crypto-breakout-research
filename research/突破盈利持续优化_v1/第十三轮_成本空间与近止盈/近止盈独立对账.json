@@ -1,0 +1,6 @@
+{
+  "accounts_checked": 24,
+  "trade_records_checked": 1519,
+  "maximum_gate_shortfall": 0.0,
+  "checks": "causal tick reference, frozen cost-space gate, targets, entry/exit price, account ledger, funding, drawdown"
+}

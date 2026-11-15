@@ -1,0 +1,20 @@
+{
+  "period": "2024_may_jun",
+  "groups": [
+    {
+      "leverage": 10,
+      "verified_scored": 99,
+      "net_wins": 30,
+      "unknown_sources": 17
+    },
+    {
+      "leverage": 20,
+      "verified_scored": 95,
+      "net_wins": 29,
+      "unknown_sources": 17
+    }
+  ],
+  "brier_auc_and_fee_formula_checked": true,
+  "all_checks_pass": true,
+  "note": "No market-wide, account or prospective inference follows from these explored historical samples."
+}

@@ -1,0 +1,32 @@
+{
+  "raw_potential_events": 4022,
+  "hourly_rank_rows": 11723,
+  "post_hour_and_market_candidates": 146,
+  "candidate_market_statuses": {
+    "allowed": 146
+  },
+  "unique_quarters": 2673,
+  "market_quarter_statuses": {
+    "known_no_order": 2121,
+    "allowed": 552
+  },
+  "candidate_month_counts": {
+    "2023-01": 14,
+    "2023-02": 24,
+    "2023-03": 29,
+    "2023-04": 19,
+    "2023-05": 4,
+    "2023-06": 11,
+    "2023-07": 4,
+    "2023-08": 1,
+    "2023-10": 3,
+    "2023-11": 12,
+    "2023-12": 25
+  },
+  "source_hashes": {
+    "raw": "963698ce2b59065fae21d3b2f4159c7fa539fa8a460c689e9375bb09fcf5d2ef",
+    "ranks": "a50f5000cbe988f82324ca25e5fa0d396bd0210cac0d3b817d5121aee1881541",
+    "market": "529aea870910d100cc999b923830be1b50d5350018710435dd8f6d3a699572ae"
+  },
+  "note": "Candidates are minute-based localizations; real first direction, P5 flow, P10 entry, costs and PnL are not yet established."
+}

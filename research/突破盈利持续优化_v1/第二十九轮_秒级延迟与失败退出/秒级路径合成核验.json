@@ -1,0 +1,9 @@
+{
+  "long_and_short": true,
+  "observed_reference_then_extra_5s_entry": true,
+  "trigger_then_extra_5s_exit": true,
+  "failure_duration_resets": true,
+  "entry_past_stop_not_free_cancelled": true,
+  "same_timestamp_stop_before_expiry": true,
+  "missing_exit_is_error": true
+}

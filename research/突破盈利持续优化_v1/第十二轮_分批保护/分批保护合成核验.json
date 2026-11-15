@@ -1,0 +1,10 @@
+{
+  "long_short_checked": true,
+  "one_minute_confirmation_and_extra_delay": true,
+  "funding_at_partial_boundary": true,
+  "original_stop_priority": true,
+  "gap_past_new_stop_full_exit": true,
+  "entry_fee_once_and_two_exit_legs": true,
+  "control_matches_previous_engine": true,
+  "note": "Synthetic data only; remaining exits retain minute resolution."
+}

@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 48,
+  "result_sha256": "e6fe29e73f4d05810da979ff513e8e973ff428a08d3790f8934e021075a43792",
+  "code_sha256": "6221f86b77b9f226e898ff9901744bd82751a2900a110ad8f5dd988a75e9cb9f",
+  "note": "Arithmetic reclassification only; unsampled records remain unaudited against raw trades."
+}

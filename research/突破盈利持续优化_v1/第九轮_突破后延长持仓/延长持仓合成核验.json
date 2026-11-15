@@ -1,0 +1,8 @@
+{
+  "four_hour_limit": true,
+  "overnight_carry": true,
+  "historic_funding_applied": true,
+  "twelve_hour_limit": true,
+  "non_overnight_uses_day_close": true,
+  "note": "Minute-level risk and exit assumptions still apply."
+}

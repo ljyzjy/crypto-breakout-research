@@ -1,0 +1,42 @@
+{
+  "market_decisions_checked": 1012,
+  "independent_verified_ledger_paths": 92,
+  "maximum_net_fraction_error": 0.0,
+  "sample_ohlc_and_counts_verified": 4,
+  "groups": [
+    {
+      "period": "2024_may_jun",
+      "leverage": 10,
+      "verified": 20,
+      "wins": 5,
+      "unknown": 4,
+      "no_order": 295
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 20,
+      "verified": 19,
+      "wins": 5,
+      "unknown": 4,
+      "no_order": 296
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 10,
+      "verified": 27,
+      "wins": 6,
+      "unknown": 7,
+      "no_order": 659
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 20,
+      "verified": 26,
+      "wins": 6,
+      "unknown": 7,
+      "no_order": 660
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Source and accounting reconciliation, not evidence of account execution or a blind test."
+}

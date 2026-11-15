@@ -1,0 +1,8 @@
+{
+  "five_second_tick_records": 491,
+  "accounts_checked": 26,
+  "trade_records_checked": 3317,
+  "max_ledger_error_usdt": 1.2718714970105793e-12,
+  "max_drawdown_error_pct_points": 0.0,
+  "limits": "Entry price is a trade-based reference plus modeled slippage; later exits remain minute-level."
+}

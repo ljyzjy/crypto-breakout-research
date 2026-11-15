@@ -1,0 +1,279 @@
+{
+  "candidate_events": 14,
+  "event_statuses": {
+    "qualified": 14
+  },
+  "unexpected_event_count": 0,
+  "variant_paths": 28,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "968419e362a9e3d2ab7dedaad1eae0b409a40256b3a8305f4ece650b03bffb7b",
+          "bytes": 1688658,
+          "windows": {
+            "opening|ADAUSDT|1781562600000": 1580
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "b6bd162798054d1a141c2daa80f15bbab3f09acf87820b87c2c9251fd8829805"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-05",
+          "sha256": "449e5c13c7f7a727c49f0794b475cf150c74b4987603855891b3d08378ece860",
+          "bytes": 3862143,
+          "windows": {
+            "touch|AVAXUSDT|1780667700000": 2495
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "f36466f9f718416f0e3918345e4105a32493b12a9945d23b4c5d8603b42463bd"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-08",
+          "sha256": "c0c55c05e4ab2f5666230354810e7cf72c4d2eae15b345687163906673640868",
+          "bytes": 1450298,
+          "windows": {
+            "opening|AVAXUSDT|1783476000000": 5256
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "4b3b846b6a2de1bb199e40ca858278057bcc4a9d10a552b3dd8b5491d0fe203c"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2026-07-02",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-02",
+          "sha256": "91744c0658ecff4063ab1096064f7f97eedc079ca0859f52ae8e0f8289f88b11",
+          "bytes": 3752567,
+          "windows": {
+            "touch|BNBUSDT|1782999240000": 9208
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "64f7010390dbd80bf28d461bca069c79dd20554de490bf628f1da4723862983f"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-04",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-04",
+          "sha256": "6c8831803bdca0d84aa5b8d25895ff8650053e89cdf835ed1e0d185ee162c937",
+          "bytes": 26593711,
+          "windows": {
+            "opening|BTCUSDT|1777860000000": 89039
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "08c64de6df0cae5f084814b83476820e5b9f3edffee195c9269f759ec5c15e6a"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-14",
+          "sha256": "048de3d73cbbb5108c06a875a7eeeabcb1b03b5a6328279508f3af682bdd063e",
+          "bytes": 17312630,
+          "windows": {
+            "opening|BTCUSDT|1778778000000": 54322
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "ad2243fc2af13bf814761ca7e0901a74fc85e2d0e4b31cb6968008c81a1c0a66"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-06-25",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-25",
+          "sha256": "b72b0b2a8471832e6a2bdc109aacde1c20aacd694890f1be4c4c6ba31c7c60d3",
+          "bytes": 32869208,
+          "windows": {
+            "opening|BTCUSDT|1782395100000": 305510
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "a20d45f54720197605a3d749d1117ece74e6678c4adc113a2dcd06d3d464fd02"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-06-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-05",
+          "sha256": "8ec6e1f23770f362ba7e8d933deb9efd5ee0ba1abd009675476490f11e92055b",
+          "bytes": 5604597,
+          "windows": {
+            "touch|DOGEUSDT|1780667580000": 4336
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "2b945926e222f1525c6e83b2e353daad1333f82a7e2d9a3d49462e4a1c300ded"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-07-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-05",
+          "sha256": "4a7c6f2107cbbe50a96a820d59f54a34dc52486ffe20e639dd601eede973a165",
+          "bytes": 1713390,
+          "windows": {
+            "touch|DOGEUSDT|1783290000000": 1841
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "87e17effe1a73491803fcc7f277b7200dde9ea545f926f283cf7724b27c2626a"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-02",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-02",
+          "sha256": "6620e262bdc907172bb9c3e391c5235a9f1a3b87cb14d8bfb4511eb274e3734c",
+          "bytes": 28769981,
+          "windows": {
+            "opening|ETHUSDT|1780441200000": 68560
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "173ff4f3d3daf5e017d26ef3b1e03e9a90ca7b1da5a7ef60afba94819222f638"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-07-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-27",
+          "sha256": "479a0659756195db99c0dd6a28d242cf2c78c77204e3fd21d4a7b4f73b1ab953",
+          "bytes": 1400866,
+          "windows": {
+            "opening|NEARUSDT|1785193200000": 2312
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "cb9ab38d9a9e51c9ac8015d9805d0b51bf039169b265b7b3717674f4d531b530"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-07-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-08",
+          "sha256": "0df57801cd2225c65bb6d84abefe990825af9bcf73ae988b256b88b22427a24c",
+          "bytes": 3819551,
+          "windows": {
+            "touch|SOLUSDT|1783476060000": 4437
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "a904c3012b0ae4c37bb4d0c9938538f61ab669423409c8572ad130acd47cdf9d"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-05-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-13",
+          "sha256": "a53033846ac27f0b8c6204b05d25e23f545947b089b0b81698d427336dc6a3a5",
+          "bytes": 3603057,
+          "windows": {
+            "touch|XRPUSDT|1778679960000": 5322
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "d9a3b08f6c11b5c4a31c6fa49890aa7fee7dc7d8490fa44a0b1a2c0e7871e172"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "bee4d995c5b823b45bd4837db179c3ff264353cf82b545fa6aa3b3a3a08fcd4f",
+          "bytes": 4813073,
+          "windows": {
+            "touch|XRPUSDT|1781529660000": 4395
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ],
+      "upstream_checkpoint_sha256": "503d58252a36a3027f4cfce8e99014966b17d857e2918a618e1ad3d571c35268"
+    }
+  ],
+  "note": "Pending 1R groups remain unknown; same previously verified one-second entries."
+}

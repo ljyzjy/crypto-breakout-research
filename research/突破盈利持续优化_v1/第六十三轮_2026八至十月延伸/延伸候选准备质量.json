@@ -1,0 +1,52 @@
+{
+  "period_utc": [
+    "2026-08-01",
+    "2026-11-01"
+  ],
+  "warm_start_utc": "2026-04-01",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "BNBUSDT",
+    "ADAUSDT",
+    "LINKUSDT",
+    "AVAXUSDT",
+    "LTCUSDT",
+    "NEARUSDT"
+  ],
+  "calendar_days": 92,
+  "complete_liquidity_days": 92,
+  "rankable_hours": 2208,
+  "raw_potential_events": 926,
+  "post_hour_and_market_candidates": 57,
+  "candidate_market_statuses": {
+    "allowed": 57
+  },
+  "market_quarter_statuses": {
+    "known_no_order": 463,
+    "allowed": 141
+  },
+  "parity_and_causality": {
+    "all_checks_pass": true,
+    "real_minute_rows": 10080,
+    "original_period_candidate_count": 6,
+    "checks": [
+      "original period exact hourly and candidate parity",
+      "future-minute perturbation"
+    ]
+  },
+  "patched_feature_sha256": "5deeb8603e8282ede1dfe46adca7c4aff52a9e54c52c23589efed5ced0000c7c",
+  "sources_sha256": "8509a08ca603d857cd3e2092ab1cd3343c4855ceb43d6d45c2b4e7ab62055eda",
+  "code_sha256": "ca727a79b57bc891f28221a74e9bfb7e703ef4f4805d913e1b8c4f1c590dc232",
+  "outputs_sha256": {
+    "BTC_ETH一分钟合成十五分钟.parquet": "e481cc61e2a72173421f9eb222453069a111d2362277e1787e7c9e7652b6b9f5",
+    "固定十一币历史日排名.parquet": "4ee5fca2223f82883d0c9859b4b18791329c3b3bf517498a96870b2d38efbfc9",
+    "固定十一币双币过滤潜在触价.parquet": "a3972fc48f834f9adafe0d74500d1e114f43f69c378ad8df854f32a3fed107ba",
+    "固定十一币已知小时排名.parquet": "8a337b1b70c44f9d3d2349815c5a4ab7f618f2215d34ff206ab7195283eafa29",
+    "固定十一币潜在分钟候选.parquet": "34c0ab656d11690a09ae778abce5800720cf0800ddfb5f72ed4c1ca63d6f3f4a"
+  },
+  "note": "Minute candidates only: no tick confirmation, order, risk or profitability."
+}

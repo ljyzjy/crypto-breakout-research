@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 8,
+  "path_rows_checked": 98,
+  "diagnostic_sha256": "19b9db24f6126b65d4e61b1d792b9d366f23efc16be8f65cd91f3c30dc485182",
+  "audit_code_sha256": "86f8cf9458c98d7299f7a1847e101046d95f2655299454e0e479485c15a1bf30",
+  "note": "Unit arithmetic only, not actual fills or shared-account returns."
+}

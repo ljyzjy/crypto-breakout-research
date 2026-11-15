@@ -1,0 +1,15 @@
+{
+  "all_checks_pass": true,
+  "engine_sha256": "46394d8a3d0caca95a2916745fbee2e7d0f58785b265fd3166beffdc4d6b5214",
+  "test_sha256": "2bc68b59b5d649dfb0c9ecb2f6a2211f4f71083a8e72fbc5657cae76f643d78e",
+  "cases": [
+    "same-ms dual updates",
+    "stale quote",
+    "opposite directions",
+    "short",
+    "confirmation fails",
+    "delayed 1r and 2r",
+    "risk precheck",
+    "same-ms stop priority"
+  ]
+}

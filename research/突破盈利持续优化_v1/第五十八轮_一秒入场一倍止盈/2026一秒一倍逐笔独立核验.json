@@ -1,0 +1,72 @@
+{
+  "all_checks_pass": true,
+  "year": "2026",
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1785193200000",
+      "entry_origin": "original",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-27",
+          "sha256": "479a0659756195db99c0dd6a28d242cf2c78c77204e3fd21d4a7b4f73b1ab953",
+          "bytes": 1400866,
+          "windows": {
+            "opening|NEARUSDT|1785193200000": 2312
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1783290000000",
+      "entry_origin": "retest",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-05",
+          "sha256": "4a7c6f2107cbbe50a96a820d59f54a34dc52486ffe20e639dd601eede973a165",
+          "bytes": 1713390,
+          "windows": {
+            "touch|DOGEUSDT|1783290000000": 1841
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1783476000000",
+      "entry_origin": "original",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-08",
+          "sha256": "c0c55c05e4ab2f5666230354810e7cf72c4d2eae15b345687163906673640868",
+          "bytes": 1450298,
+          "windows": {
+            "opening|AVAXUSDT|1783476000000": 5256
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1781562600000",
+      "entry_origin": "original",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "968419e362a9e3d2ab7dedaad1eae0b409a40256b3a8305f4ece650b03bffb7b",
+          "bytes": 1688658,
+          "windows": {
+            "opening|ADAUSDT|1781562600000": 1580
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 8,
+  "note": "Independent grouped-timestamp 1R replay, public prints only."
+}

@@ -1,0 +1,774 @@
+{
+  "label_count": 133,
+  "statuses": {
+    "verified": 133
+  },
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-01-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-01-21.zip",
+      "sha256": "5cd7183ac38551dad4236f460c1de152f41bced4fcd4b986afeeeb27be54c8fc"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-01-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-01-22.zip",
+      "sha256": "654c5e5d092a7ef5c69a3cb6cfc0c201b81e35bf111b09e89d31b0382f6b7732"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-02-24",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-02-24.zip",
+      "sha256": "6a2b4a502b4a7885dcc2a77a4a70286aee3cc99c114e741d79441e43df4cb1c9"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-03-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-03-26.zip",
+      "sha256": "4aaee0c0c80e7222ec5c8e622000d72e85f7b12228adc4024a3349def976f538"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-04-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-04-06.zip",
+      "sha256": "177bac5d9e97f29c01a5d9609c66708306576ed0247f9ded9f14982d7e130876"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-05-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-05-06.zip",
+      "sha256": "d2e3b4b658003221f2d9dea36696e1f9389dbbfeba6e9bc53c17b4da8fde1909"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-05-08",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-05-08.zip",
+      "sha256": "7c6a047418011447b1043025b9af1dc0f26f00b2d9189a027373473145fb36fc"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-06-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-06-06.zip",
+      "sha256": "fdd81ec1fce4fdf0edb1bbd3d096fc7541a276c2bd000f76d303ff4b8d96f514"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-08-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-08-14.zip",
+      "sha256": "7ce991022bc7108ee222f5a8e794a9677d04d5ed25ad6f30804e3a2c211a748e"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-08-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-08-22.zip",
+      "sha256": "4152c7d5d8ee9f4e970a983f805dc3076e18a0da05513064adbec88c700c00f9"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-11-07",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-11-07.zip",
+      "sha256": "ad3e21bb2fb5758dbc027ce1fd50a75c5b51cf71f13a7773f5ca8d58109a1a7f"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2022-11-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ADAUSDT-1m-2022-11-22.zip",
+      "sha256": "c6bbb833f2577162e1e31ed60d42e5529ddba0f3afcc7383a7b89f6f5795ad37"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-01-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-01-22.zip",
+      "sha256": "aa5f2749d17cd4f0ea14814680434774745a4b55f4a10bf9cc82d8c80d2b3d01"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-02-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-02-09.zip",
+      "sha256": "ade0d60d70bd924cade9de514e46dbb74220929bb164f7703fbce14397aa3936"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-02-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-02-20.zip",
+      "sha256": "307aa448f2fc42eda0b34b5373f800ad85bdcc30101fc7fe86a1b6bcac932a5a"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-03-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-03-18.zip",
+      "sha256": "16e68a03667d6aebce0d384852a076a30ec4cae8bac9186d70261a0eb93634f5"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-04-01",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-04-01.zip",
+      "sha256": "f9f9615f8e02c4e8e8b2cbb7b04c5b0c709f863acba99f0d8c934057518dced6"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-05-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-05-26.zip",
+      "sha256": "bf4416eb64d4ce21e041590f374dc2c0ba600a817070fe267ba88cf182021c30"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-06-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-06-06.zip",
+      "sha256": "e63278ed14b5de26fa5dde15c2d21bcd880b989bf0ede95100452a614e080a07"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-10-13",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-10-13.zip",
+      "sha256": "5b70528c2613d390b0f906c2c27c700b29a581fc4b78ab6d7d8e7413496f7780"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2022-11-10",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\AVAXUSDT-1m-2022-11-10.zip",
+      "sha256": "46983a1431f07287ceb2bcf9c669bfd846420fa091b2436b03acfe8bc91945de"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-01-17",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-01-17.zip",
+      "sha256": "7edf620ce35f9971102e7da210550cbc332721da34a8315185a6b5292d863c59"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-01-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-01-22.zip",
+      "sha256": "2e7d70aedb661c4b544e9bfb33e1e10bcdd6ce73d5776bdc6d0915759dc12423"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-05-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-05-26.zip",
+      "sha256": "1a289156e0b662a6f68ca75aa177ce8288c8f2e2d2c44c6d8444849d40d11c43"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-06-01",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-06-01.zip",
+      "sha256": "3cb6eddcb02ddba6a9d89949c739294d22691d700491a0e186f556f5c18130f8"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-06-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-06-18.zip",
+      "sha256": "aae0452a2e26627806c9c22188921051907fdb6f9a1089417f1967fdc03c647c"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-06-24",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-06-24.zip",
+      "sha256": "e131138b66f7fb5692ef0de480b9970bcd4e7bfbab0f26f29df6bcf22f933aa6"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-07-30",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-07-30.zip",
+      "sha256": "372536950d8de380bc6faec8abcca1f61e04c8d82722a67eec7891fd260af527"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-08-17",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-08-17.zip",
+      "sha256": "c8aac94e8315f5a4998b8b412b5dc9cefd1112ed5157e5f1aacdaa7f12f8c81b"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2022-10-30",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BNBUSDT-1m-2022-10-30.zip",
+      "sha256": "df9aa138df11f0739b3b3460d04fb23c4e05e1714f233f6feec32afad7c2d1d5"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-02-08",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-02-08.zip",
+      "sha256": "182b2e63bdf57e66fdb2da99f6725b738ff58166ed6f3c95af4a9181adf7146a"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-02-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-02-22.zip",
+      "sha256": "69c7def83bfc9eee1962a1a2a86011b61e399e8a81add428e0f91b09cdd440f1"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-06-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-06-14.zip",
+      "sha256": "686ea830e4e6bcc5ba77863678ee40fd64f84c1f63309f57cea74bab0ac95992"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-06-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-06-18.zip",
+      "sha256": "e07cc95f8ab4aff31cc98341caa156112b8a72b29a2c780c53755b49ddb6a64a"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-07-01",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-07-01.zip",
+      "sha256": "708b85a906e106d259f888a7beb981256a5dddc031a6fe13679f5916cbfb215b"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-09-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-09-09.zip",
+      "sha256": "aca3467b8bd3189bcb4939ee0b4b38d88fdec19137a0ece6bde920c95f7950f3"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2022-11-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\BTCUSDT-1m-2022-11-22.zip",
+      "sha256": "0bf7c05597c811480a1deb8b6f19c37979513f7b940b65f46d23fd7403c79e0f"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-01-07",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-01-07.zip",
+      "sha256": "8d248c7e9852809cfa43a1d857c90896cbe3ac9f738e6b70b0e09882e0bf5ddc"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-01-17",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-01-17.zip",
+      "sha256": "4d45076978d007ff7d8b442af9f9867d0b188a0f4225fe203ec5b500c8f27754"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-02-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-02-14.zip",
+      "sha256": "472209aaa911d9fabf52a5e7a906cd73265cfb8a7852c079770899378813f9c4"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-04-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-04-26.zip",
+      "sha256": "f096efb3520d04933a4844479535b39364d028b024b455ab8f19e442c616e095"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-06-03",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-06-03.zip",
+      "sha256": "be2c418dbd8542e7bd4afb156a2fc68f040ff0a812909f33164b53411b402bc1"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-06-13",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-06-13.zip",
+      "sha256": "2b6e11175614fd159b9982d752b36d65bd90ba8e77aede73d1db773fa9eae64a"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-06-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-06-22.zip",
+      "sha256": "e075cb545cb0c56c74c2793c29aed6083bb0fedda4a4b64a60055576a7b22115"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-06-24",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-06-24.zip",
+      "sha256": "a9ed29939e230db187650db0af44b997907ded1aec4525fd491c5a7d9c190409"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-06-27",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-06-27.zip",
+      "sha256": "55aee933ed6e34e0fcb31a67f7f8d5315b468a16c9642cc8e301f935b043d6e5"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-08-05",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-08-05.zip",
+      "sha256": "9fb9cae5e094b05bdbf1baed414a54b83b9641b524b5fc1771f67142a0300c4b"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-11-01",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-11-01.zip",
+      "sha256": "b695af9a38af2875f4766b824931e4b022caba1a945fa5038b03c142547ff587"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-11-03",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-11-03.zip",
+      "sha256": "331c272f0b828d1c0cb2f88ae5eda7efe536e94e99f0d51b9c76c7d6844968ab"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2022-11-28",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\DOGEUSDT-1m-2022-11-28.zip",
+      "sha256": "87ed16e2efb54cbfd43df5c3746fe78e10efc001a175dec82faf988b08f5419c"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-01-02",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-01-02.zip",
+      "sha256": "0e8ed7722b6823b7cc1d0ab5aa4cbb3b4b1e3299c2365402f1d241151a7c56d5"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-01-10",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-01-10.zip",
+      "sha256": "6984083181251ad5e90d726ba6ac3ed8589e0249c141519c06ba49b53f7622f1"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-02-02",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-02-02.zip",
+      "sha256": "01bb779f1cce0cb3419307146fbae15c5f15393053793523b1520edb440f22ad"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-02-27",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-02-27.zip",
+      "sha256": "f44ee0dae0c6d4991434958304705dd33d7d4882301e3d8d72970bb4d21a8ddf"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-05-27",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-05-27.zip",
+      "sha256": "b2daee6f7bcc47513e58f4ff56bef18e8a10d77543066f56dfe3a03f5c68768f"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-06-10",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-06-10.zip",
+      "sha256": "b0580035fa1ee84cf50d4599d8d85c0b96bb72ebb2c2cfaa78cc2797160a749a"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-06-15",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-06-15.zip",
+      "sha256": "df2804565ad79067871c79bbeff2442cf76588d0767056030230b3767c7c3845"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-06-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-06-18.zip",
+      "sha256": "b59dde2c2f4ee0bac92fe9df903b44052bcfc3da89fdaf6014cff7f89d23432f"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-06-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-06-20.zip",
+      "sha256": "50237bec5ad9949ed7307eb77a6a56df9254667e3e9f0d596c1cea0e2c4d2c85"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-06-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-06-22.zip",
+      "sha256": "8af7ef6f44499333c43db470899c53c10abec9802d6f39442b4f9bf7bbe9d6ea"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-07-04",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-07-04.zip",
+      "sha256": "51a77ea9bea477d5f02b1e45fed6dece9681bffaadf5e26fb8ee273d65eaaff2"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-07-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-07-14.zip",
+      "sha256": "f80d704449fb71ea227eb7a823a5748a96e859fee40bd17341c665d72736a827"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-08-05",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-08-05.zip",
+      "sha256": "7b1f42928a6c60337ab07ffe212de788758baeab53bfe4f7156fba9baaee1dd8"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-08-27",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-08-27.zip",
+      "sha256": "9e90a6a1d076e18a0a8b6e131e223d65bdfb32a8b2d331e3f0395d100b8b600e"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-09-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-09-06.zip",
+      "sha256": "8360a6ff82ef31ef82a7d64f9814d51c3e37cd0504ae0957412bf802bf847108"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-10-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-10-18.zip",
+      "sha256": "70ea5f8865d53911e526ba3c875c3a8c12593d7834de96dbc2daaa6466a16461"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2022-11-28",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\ETHUSDT-1m-2022-11-28.zip",
+      "sha256": "6000cfeefaa2a409f2941c59bc0998f8cc187f9e0ad5345f9582d034b408473b"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-01-04",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-01-04.zip",
+      "sha256": "7826451f092a3ca8b25b41128fb6605f9abe74629ce9d6cf0962af127051b611"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-01-22",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-01-22.zip",
+      "sha256": "da556015d733a96aa8204385e8329cf82176e694ed30e86941e5e7f23092d493"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-03-16",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-03-16.zip",
+      "sha256": "ff6c8653156b6a5d81ac3452bb74de4cc6c535ef17bcd2fd088761424ba5ec21"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-05-10",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-05-10.zip",
+      "sha256": "bf248ed34ba6dff21e21cf63d4cd7a063bcc81d7436d27b89cdc9fd8a2c2d036"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-06-10",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-06-10.zip",
+      "sha256": "ae9f4ecaa0abe576bfeef3d15f0d875492be7fb1020e08baa2f7e11fb7960faa"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-09-12",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-09-12.zip",
+      "sha256": "35f63a865bbd4da4fb2df4ce13ff6fa0f7012501d39887e27aa7ceecec7d1001"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-11-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-11-09.zip",
+      "sha256": "b70366f48e35dfbc35355f6eceec1348cc7c14e753950487455fd81adcc4a1d0"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-11-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-11-20.zip",
+      "sha256": "072d812ff61073299e2af819881a9115a56e2ba1dfc8599f0cf3d1573f4cb251"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2022-11-28",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LINKUSDT-1m-2022-11-28.zip",
+      "sha256": "6ffd49ad8cca0f07086b523a0561b2d4070727e4a9b2010edbcd14e1c826f542"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-01-19",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-01-19.zip",
+      "sha256": "a3ed9d68b65f3eefcee2873df9955c3616d6faac655db919e646e6619d885c00"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-03-04",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-03-04.zip",
+      "sha256": "2fdaa1f3b491574c7feb6976b22aeabf0633d878ab2d9cb62a063cad002e5d85"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-05-12",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-05-12.zip",
+      "sha256": "486fae8e361f00cc4074ff30e3ab0cbdc5dd06a487021c6603a7ca2ce10a1dd1"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-05-18",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-05-18.zip",
+      "sha256": "a6ec6a3eca96863127b57aa211c7e22e1f91c6f8bacec2decef9c8598e087afa"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-06-15",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-06-15.zip",
+      "sha256": "5d485962de5d01ce73efe06ee0792d1f91330a263d605e3c010900b9c6909376"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-06-16",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-06-16.zip",
+      "sha256": "d26ea98121e0255b4d6e2800e6f7dbf1063d247539d8b0cf4b732f4baf0ba602"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-06-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-06-26.zip",
+      "sha256": "d0da79700f55fd09cac3d39a3bf9ea6117cc01177e54a61e804d588abbd033e1"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-06-30",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-06-30.zip",
+      "sha256": "ee364ce9726eec0848cec1b469f2c82d02bbda4f2a2492ca51b520840b878bff"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-08-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-08-09.zip",
+      "sha256": "ffaa0396c28466bfcfdcc4e584a5c4183b3b625a54992d689b75f8db9ab79cb6"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-08-26",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-08-26.zip",
+      "sha256": "b59cf0b030217506fea9b3ad86077497da748b4ebdb23ebef017f70922aa0c05"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-09-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-09-21.zip",
+      "sha256": "79de0c84f954cdc57d95e57d13dc7b85cc85fa465b825ea98cb8e942005b66fa"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-09-24",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-09-24.zip",
+      "sha256": "1b8fc13ba9d68efad4e1890d5ce5bd87178f69e50989c42ea69096245825d92d"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-11-12",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-11-12.zip",
+      "sha256": "88f1c94ee035852a27f14053cb68d8286a3569637ec6bec941e577ce2466a6c8"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-12-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-12-14.zip",
+      "sha256": "deeaee86ba6da2ba851a573ab81f2ae3ab4872efae39c6cd78b2d85b72a5f3ac"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2022-12-25",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\LTCUSDT-1m-2022-12-25.zip",
+      "sha256": "1c14b3291fff18a9ac712ab1d46ec2b04c9171dc9f5e1054e799b7d992e1eedc"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-01-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-01-21.zip",
+      "sha256": "8eff9830da5dad364155e63c3fb3a520c3a4d19a38f26632c12504911af15eff"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-03-04",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-03-04.zip",
+      "sha256": "def7c1909f3e459d1f19bb8f9ae468f5af2a4b5f987e0514cad7a0bb1c905166"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-03-07",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-03-07.zip",
+      "sha256": "818155b0f538156a6b5ea40f0e3191c3cd561c26da75f53fa3fa2f2811d10414"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-03-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-03-09.zip",
+      "sha256": "e184face5cfe7f8870c640430c41fe59407e1184b1f1d3dd4c95c6f0b43e7790"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-04-02",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-04-02.zip",
+      "sha256": "fbb08d5c2a364b8a59fd2a56e3282a152f97b31790c878d6764a9f1ba34298f8"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-05-05",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-05-05.zip",
+      "sha256": "7f93755a33d23f40ccc6e297d698313ac56c26acd15e40340e549a693f82cc49"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-08-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-08-14.zip",
+      "sha256": "c3ced5b4e2fc153e8266cac2fde5966efcc321ba1a2faffc08b2d617001db847"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-08-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-08-20.zip",
+      "sha256": "e8d584b15dcbde0c95a47b587612003ee8e0305d67e08717a6214c8f1ea37992"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-09-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-09-14.zip",
+      "sha256": "2180cfdf36b37c4306c82770acaa1b19cb6eda6ed57074a29234c59e7db7c226"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-11-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-11-20.zip",
+      "sha256": "b8b5286f1d28a64f94616b579d4ad4c0a29df757c6dcab48afe7dc1a10e73fff"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2022-12-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\NEARUSDT-1m-2022-12-14.zip",
+      "sha256": "f8c321f4732e681947366db483829f27ad10f939a0d1db43e253144cfc5804cf"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-01-09",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-01-09.zip",
+      "sha256": "f472d1a097959ccc63d4d9cc6fa3aa112c7c8f64c8c83bcc406bcb6a003248d9"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-01-17",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-01-17.zip",
+      "sha256": "e5c643cce95837fd775edf0711445504c2ff9acfde5e2ffe2cb2f2d35de902fa"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-01-20",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-01-20.zip",
+      "sha256": "ccc49cb6ed278aa4b1d40f744520523b12628e942080a9363a39a6333c6e5920"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-02-04",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-02-04.zip",
+      "sha256": "a569a6adec53032598227ca5c1b5985b06f2b349a152c4f139376158be6f76cf"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-03-01",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-03-01.zip",
+      "sha256": "d6c96fc3c92f5902e467179d85bd6e687fd34c7e300319cd88878fdc2a25e01c"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-03-29",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-03-29.zip",
+      "sha256": "70ae66bcc369e7769972cb471c70acdcd481782e3df622c7e50de59b8f51a31e"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-04-02",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-04-02.zip",
+      "sha256": "d2f9d68165c7a13c6bbaee9efb44a90844b0f9d6090bd315f31d3666b852f6c7"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-04-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-04-06.zip",
+      "sha256": "4437ea978cbf2c48670652e1bd266f0bea240b93572eb489034bcf7c09114f56"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-05-13",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-05-13.zip",
+      "sha256": "ab16668c4bf7cbf0c4c9c4339e13da349a1c6dd60b12539cbb97b07e4caa36cf"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-06-03",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-06-03.zip",
+      "sha256": "effadba88bc46adc8bc5b407ee87edc0240c5f077422064813387f1a537a2ac4"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-06-24",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-06-24.zip",
+      "sha256": "d8798f34017812efe0afe2cdf6cc923a7b661393c359770be15172d20a0688a3"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-07-14",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-07-14.zip",
+      "sha256": "bb700b1e1df29c70af81839875c0390d070244e8c7a8c6a644ea8d283f70ff81"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-08-17",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-08-17.zip",
+      "sha256": "7b78574ce2097aa815befff17df5a3c5b9165185ee996963ab2bfb50194dd03a"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-10-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-10-21.zip",
+      "sha256": "9e6357a0e7cf3180e1984a1658ef165670d59abb63d8b88515a5e768ac03d1f3"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-11-06",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-11-06.zip",
+      "sha256": "daff52a55094819c423c1b8b366cc018c2dfd05443f06e01cca6fac3d84c8c45"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2022-12-16",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\SOLUSDT-1m-2022-12-16.zip",
+      "sha256": "2e7858953f0168efdb1d4a6f655060e9539e561bab5cb4ed5e5ec38f748b76d3"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-01-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-01-21.zip",
+      "sha256": "3e8826e50bbff5a9e19e4d5cd5be0fd48d38043e68dec05f1fbfd2e64caac269"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-02-21",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-02-21.zip",
+      "sha256": "39f106a35e902cde8197b667b29794df21e423eec601d648ae81f8a0293b08b6"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-06-15",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-06-15.zip",
+      "sha256": "6346ed6a7ba21df6b012f40149eb25eb3acb96658b379f41e334c5137184c5f6"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-09-19",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-09-19.zip",
+      "sha256": "ff2010a19f3b81bf6fce82cea43807b8dc3cb29dee20445a6eef7c7a456af300"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-09-27",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-09-27.zip",
+      "sha256": "494017e90b491b5dbdd4baf961fd872cc2d4d9d6b35160e4e45bdc98989dfe89"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-09-28",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-09-28.zip",
+      "sha256": "6f0f6abd9a7cfe397931185ae0294b01d9e8b4d55ef3ac150d6fad7ccd59a2d5"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-09-29",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-09-29.zip",
+      "sha256": "f4ba5714dcb9d2c9e3210fb1cc1ae3e91e488fae92815b487e8ae188c3137471"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-10-13",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-10-13.zip",
+      "sha256": "ee2e62c7692561ea1a17e6d8b6dacf2101fa65720c0caecff88562acf548fb85"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2022-11-08",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\raw_candle_daily_recheck\\XRPUSDT-1m-2022-11-08.zip",
+      "sha256": "6cea6c22342246e16821163f5e940d76957d78265fbeb01c97380b232303b8dc"
+    }
+  ],
+  "label_sha256": "131c14c353d4f5743b6de6dc9c0b17b41bf1f3f9101a5c2815fe7431a889ef62",
+  "code_sha256": "c73b6e7a1a473771187ade2f192bf1ccfa309b026c0f842ba24f02238ff39e08",
+  "frozen_sha256": "4b9d6e335707a32f90a6fc8c6bd9978fdd212e8df7b2173ebbccb089ef2ba661",
+  "note": "Completed-candle labels are assessment only, never entry features."
+}

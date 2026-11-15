@@ -1,0 +1,7 @@
+{
+  "threshold_equality_and_above_checked": true,
+  "candidate_leverage_decisions_checked": 1360,
+  "future_price_exit_and_pnl_perturbed": true,
+  "decisions_unchanged": true,
+  "all_checks_pass": true
+}

@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "strategy": "baseline",
+      "leverage": 10,
+      "closed_trades": 132,
+      "losses_over_half_pct_wallet": 29,
+      "losses_over_planned_risk": 29,
+      "worst_loss_pct_reference_wallet": 0.7691168833787428
+    },
+    {
+      "strategy": "baseline",
+      "leverage": 20,
+      "closed_trades": 127,
+      "losses_over_half_pct_wallet": 28,
+      "losses_over_planned_risk": 28,
+      "worst_loss_pct_reference_wallet": 0.7691168833787428
+    },
+    {
+      "strategy": "cost_gate",
+      "leverage": 10,
+      "closed_trades": 113,
+      "losses_over_half_pct_wallet": 24,
+      "losses_over_planned_risk": 24,
+      "worst_loss_pct_reference_wallet": 0.7691168833787428
+    },
+    {
+      "strategy": "cost_gate",
+      "leverage": 20,
+      "closed_trades": 108,
+      "losses_over_half_pct_wallet": 23,
+      "losses_over_planned_risk": 23,
+      "worst_loss_pct_reference_wallet": 0.7691168833787428
+    },
+    {
+      "strategy": "time_stop",
+      "leverage": 10,
+      "closed_trades": 132,
+      "losses_over_half_pct_wallet": 5,
+      "losses_over_planned_risk": 5,
+      "worst_loss_pct_reference_wallet": 0.6622713449968443
+    },
+    {
+      "strategy": "time_stop",
+      "leverage": 20,
+      "closed_trades": 127,
+      "losses_over_half_pct_wallet": 5,
+      "losses_over_planned_risk": 5,
+      "worst_loss_pct_reference_wallet": 0.6622713449968443
+    }
+  ],
+  "detail_sha256": "68884571480a05c13df73faebe33f4b28102f23c95c6d85c6c4972edb3332ec0",
+  "code_sha256": "170f5be86e2e03a165934386a8ee6a0f67dd88dabf6ca270f2eb9ef2ab1582d0",
+  "wallet_audit_sha256": {
+    "baseline": "5409b7f18925cfbf117d9356376729633dd3109af154fc5f612f1843b6496ee9",
+    "cost_gate": "eab95bb3dbf88bd34b9885114b7b773132e52721e9a118c652688bd62347adb7",
+    "time_stop": "c1c79c1a576a637d4ed17d46f892eab7ed9b9cac1326634b15373f4b80ab021e"
+  },
+  "note": "Modeled closed trades only; reference-wallet loss is not floating equity drawdown or a guaranteed stop."
+}

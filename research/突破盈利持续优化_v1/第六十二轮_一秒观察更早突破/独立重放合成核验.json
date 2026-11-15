@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "long_short_and_tie": true,
+  "no_order": true,
+  "wrong_timestamp_rejected": true,
+  "audit_code_sha256": "7e791d8985a46ce89cd0eb5ff3764ddc55a4d54f839a5c8c704edec8e7026897",
+  "decision_code_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e"
+}

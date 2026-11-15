@@ -1,0 +1,18 @@
+{
+  "tasks": 599,
+  "verified_archives": 563,
+  "checksum_404_count": 36,
+  "errors": [],
+  "hourly_rows": 403507,
+  "invalid_or_zero_rows": 934,
+  "candidate_hour_rows": 131040,
+  "candidate_hours_with_all_indicators": 130960,
+  "provisional_top3_rows": 19642,
+  "per_year_top3": {
+    "2024": 11675,
+    "2026": 7967
+  },
+  "plan_sha256": "4809902f2483cf11ffd68e022801a53189852cb33d09134328278ed51ec3deb3",
+  "source_daily_rank_sha256": "f56d1ce0da4fec865f97d159e492131bfe5ce7be031faede21b2a082b4665bcf",
+  "note": "Preliminary hourly bars only: old model requires all constituent minutes valid. Not complete signals or performance."
+}

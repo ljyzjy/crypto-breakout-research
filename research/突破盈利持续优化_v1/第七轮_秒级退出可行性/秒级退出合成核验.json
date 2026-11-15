@@ -1,0 +1,8 @@
+{
+  "five_second_entry_delay": true,
+  "five_second_exit_delay": true,
+  "stop_gap_uses_later_trade": true,
+  "time_exit_has_delivery_delay": true,
+  "short_trigger_and_exit": true,
+  "missing_exit_is_not_invented": true
+}

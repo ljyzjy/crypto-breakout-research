@@ -1,0 +1,78 @@
+{
+  "year": "2026",
+  "rows": [
+    {
+      "leverage": 10,
+      "candidate_events": 39,
+      "known_no_order": 21,
+      "paired_verified": 14,
+      "paired_unknown": 4,
+      "active_days_utc": 11,
+      "one_second": {
+        "trades": 14,
+        "wins": 4,
+        "net_win_rate_pct": 28.571428571428573,
+        "mean_net_pct_notional": -0.20406575642657127,
+        "sum_net_pct_equal_notional": -2.8569205899719976,
+        "profit_factor": 0.38559704689060514,
+        "optimistic_unit_win_upper_pct": 44.44444444444444
+      },
+      "five_second": {
+        "trades": 14,
+        "wins": 2,
+        "net_win_rate_pct": 14.285714285714286,
+        "mean_net_pct_notional": -0.2586687175448027,
+        "sum_net_pct_equal_notional": -3.6213620456272375,
+        "profit_factor": 0.2221258478843476,
+        "optimistic_unit_win_upper_pct": 33.333333333333336
+      },
+      "mean_one_minus_five_pct_notional": 0.05460296111823138,
+      "one_second_better_count": 6,
+      "one_second_worse_count": 7,
+      "same_count": 1,
+      "unknown_ids": [
+        "opening|BTCUSDT|1780533000000",
+        "opening|ETHUSDT|1782395100000",
+        "opening|LTCUSDT|1780719300000",
+        "opening|SOLUSDT|1780533000000"
+      ]
+    },
+    {
+      "leverage": 20,
+      "candidate_events": 39,
+      "known_no_order": 21,
+      "paired_verified": 14,
+      "paired_unknown": 4,
+      "active_days_utc": 11,
+      "one_second": {
+        "trades": 14,
+        "wins": 4,
+        "net_win_rate_pct": 28.571428571428573,
+        "mean_net_pct_notional": -0.20406575642657127,
+        "sum_net_pct_equal_notional": -2.8569205899719976,
+        "profit_factor": 0.38559704689060514,
+        "optimistic_unit_win_upper_pct": 44.44444444444444
+      },
+      "five_second": {
+        "trades": 14,
+        "wins": 2,
+        "net_win_rate_pct": 14.285714285714286,
+        "mean_net_pct_notional": -0.2586687175448027,
+        "sum_net_pct_equal_notional": -3.6213620456272375,
+        "profit_factor": 0.2221258478843476,
+        "optimistic_unit_win_upper_pct": 33.333333333333336
+      },
+      "mean_one_minus_five_pct_notional": 0.05460296111823138,
+      "one_second_better_count": 6,
+      "one_second_worse_count": 7,
+      "same_count": 1,
+      "unknown_ids": [
+        "opening|BTCUSDT|1780533000000",
+        "opening|ETHUSDT|1782395100000",
+        "opening|LTCUSDT|1780719300000",
+        "opening|SOLUSDT|1780533000000"
+      ]
+    }
+  ],
+  "note": "Same original qualified candidates, prechecks and equal-entry-notional unit scoring; not an account."
+}

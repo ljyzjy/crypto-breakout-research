@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 70,
+  "groups_checked": 2,
+  "result_sha256": "409f1e2f5f415735bca7452dbcfb85e15a0213ed88e60179e11b51b1593992b2",
+  "detail_sha256": "97c6d6597cd08f5d040a027461e15edea827763eb21da11209ff2e69a6066b0a",
+  "code_sha256": "b69c28ea5c6073f7db5edcaf3bd3f63374dd04a703b0553dfafb993a40db80ee",
+  "note": "Historical equal-notional unit returns, not account return."
+}

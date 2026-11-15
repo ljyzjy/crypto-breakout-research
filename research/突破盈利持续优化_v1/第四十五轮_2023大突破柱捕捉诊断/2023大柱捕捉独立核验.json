@@ -1,0 +1,8 @@
+{
+  "candidates_checked": 146,
+  "large_labels_reproduced": 17,
+  "leverage_groups_checked": 2,
+  "sample_official_quarter_bars_checked": 68,
+  "all_checks_pass": true,
+  "note": "Only the 146 prefiltered candidate bars; close-based labels cannot be used at entry."
+}

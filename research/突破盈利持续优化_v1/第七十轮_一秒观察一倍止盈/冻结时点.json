@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-11-14T16:56:29.926332+00:00",
+  "plan_sha256": "e403d3f104f669fa4f810f4b9b9470bde36e067d12908b0501f2165e90487a0f",
+  "checkpoints_existing_2024": 75,
+  "2024_batch_settlement_exists": false,
+  "2026_existing_gate_manifest_sha256": "f8f84a9390a7db06e0b358f424a2f00aab432e5952e67257a266c12b5e684399",
+  "note": "2024 paired exits and complete one-second summary not yet available at freeze."
+}

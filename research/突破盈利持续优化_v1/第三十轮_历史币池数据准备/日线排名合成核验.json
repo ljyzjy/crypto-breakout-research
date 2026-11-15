@@ -1,0 +1,5 @@
+{
+  "uses_previous_30_completed_days": true,
+  "same_day_future_volume_not_used": true,
+  "missing_day_excludes_rank": true
+}

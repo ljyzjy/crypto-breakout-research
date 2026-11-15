@@ -1,0 +1,7 @@
+{
+  "p10_observed_before_p15_entry": true,
+  "long_and_short": true,
+  "both_leverage_gates": true,
+  "unsafe_delayed_fill_is_not_free_cancellation": true,
+  "non_follow_rejected": true
+}

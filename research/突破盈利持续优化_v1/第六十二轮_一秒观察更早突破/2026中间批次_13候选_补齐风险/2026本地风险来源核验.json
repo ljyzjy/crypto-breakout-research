@@ -1,0 +1,57 @@
+{
+  "all_checks_pass": true,
+  "archives": [
+    {
+      "kind": "markPriceKlines",
+      "contract": "LINKUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "ef7c6babd245a7e1836e1c4f21aa181fd1aac5cd08799e6bcf9a03aa48038638",
+      "bytes": 856051,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\markPriceKlines\\LINKUSDT\\LINKUSDT-1m-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LINKUSDT/1m/LINKUSDT-1m-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs62_2026\\local_risk_cache\\928dd3bcea7008e5c0ac74a336cc0e284f4ec670c7725c18d861273c26e03404.json",
+      "cache_sha256": "52c82816fb0c03616c694427a5e385c2d13ece6cc9fc7b6e57464c7963ac59f9"
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "LINKUSDT",
+      "month": "2026-05",
+      "status": "verified",
+      "sha256": "06536cdd66211e1a25629a54d489493aaab6b3613b9d2207a65af44a3826da1b",
+      "bytes": 933,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\fundingRate\\LINKUSDT\\LINKUSDT-fundingRate-2026-05.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/LINKUSDT/LINKUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs62_2026\\local_risk_cache\\50588fa78818ac389b8056490d409b7fd417926428cba5a34dfd1d767156cd6f.json",
+      "cache_sha256": "3e5eac2352f766688a188f7412465c3e0be9e30513d6eeafd23949b51b0fef8b"
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "LINKUSDT",
+      "month": "2026-07",
+      "status": "verified",
+      "sha256": "a24bc5e1a77a22d754bb3df9bf2373c9dc261f2a953adbdb7e0ac3ecf49b2f6b",
+      "bytes": 815221,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\markPriceKlines\\LINKUSDT\\LINKUSDT-1m-2026-07.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LINKUSDT/1m/LINKUSDT-1m-2026-07.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs62_2026\\local_risk_cache\\3ed05119bb3cc40ef0f1d9d11764153f21d97c0215412c126d0a60b232827d79.json",
+      "cache_sha256": "22edbd90e78a71b628ab9942c1bc406e6433fdc508e7fa5bc56dc4d0d5ce4cdb"
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "LINKUSDT",
+      "month": "2026-07",
+      "status": "verified",
+      "sha256": "42f06dfc2f6ab34dda1a7ae739d978b11b05384e098be9d556abf9015414ba9f",
+      "bytes": 911,
+      "source_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\fundingRate\\LINKUSDT\\LINKUSDT-fundingRate-2026-07.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/LINKUSDT/LINKUSDT-fundingRate-2026-07.zip.CHECKSUM",
+      "cache_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs62_2026\\local_risk_cache\\b8438bc1dfa60a9f5be231099f0d928b5a0b4bddf555cc2dca7d1f3f797a0085.json",
+      "cache_sha256": "8fe9305d0f7f3fe75686eab45c18899676eb8bc738f47ea4f86bfcd66583311d"
+    }
+  ],
+  "snapshot_sha256": "d1cfd0e354d27927bbe11c4366f9676bfc30e87a67042bd13e66bc65a719d3a7",
+  "plan_sha256": "29aa30450768223316f08ba194f25a16027c7c61ad177912869d109188c4d9ad",
+  "code_sha256": "54832123385a06552a8e79eb5c1546acf24e769d5c8650d5074007dfb12bf486",
+  "note": "Local ZIPs matched official checksum text; same-exchange source, no ZIP was downloaded."
+}

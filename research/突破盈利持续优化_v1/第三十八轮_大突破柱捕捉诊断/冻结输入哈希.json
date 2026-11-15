@@ -1,0 +1,41 @@
+{
+  "plan_sha256": "9c466989e30909661d654f298f2005bd695e7116ef37fbe11f98b35402870d58",
+  "sources": {
+    "baseline_signal.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\训练期分批\\动态池逐笔信号筛查.parquet",
+      "sha256": "ccd3890fb716581c0b25725c6fc9442731acd171be1eb70eb7af513bf6979163"
+    },
+    "baseline_paths.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\训练期分批\\动态池延迟市价路径.parquet",
+      "sha256": "29ff77fab2d79a462fbbdfc487e3048e4a19e4a01ff458e9a57c4ce3e840cbec"
+    },
+    "baseline_ledger.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\训练期分批\\动态池单位收益与风险.parquet",
+      "sha256": "bae5c4d2333bb30c584b2cec69cc997f4eed84c01565ecc27fd227e7fa04e667"
+    },
+    "baseline_quality.json": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\训练期分批\\动态池单位筛查完整性.json",
+      "sha256": "06950ba657fcb91984c89424f820b4f888e5a7590f8ef0fd544dbb53071006a2"
+    },
+    "follow_signal.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十五轮_二次价格跟随\\训练期分批\\动态池逐笔信号筛查.parquet",
+      "sha256": "2a36ef20fe7178a0e84a3c97cffbbfa112f177fa6e19eda4da3c4d3df1cebe15"
+    },
+    "follow_paths.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十五轮_二次价格跟随\\训练期分批\\动态池延迟市价路径.parquet",
+      "sha256": "8e95596b08a035e2bda1a7c19c2da29f8451adc25902fa5a7b829653c5038b72"
+    },
+    "follow_ledger.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十五轮_二次价格跟随\\训练期分批\\动态池单位收益与风险.parquet",
+      "sha256": "59c61cbd4cf6b13ad9caa2cc01bbd865e511b6cb3d686e37a58ad019bd855239"
+    },
+    "follow_quality.json": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十五轮_二次价格跟随\\训练期分批\\动态池单位筛查完整性.json",
+      "sha256": "e140b56d9e9a2b2cbf2f9da45be3b3e51167f3b1e82e6262622cef0c5da71f52"
+    },
+    "phase_result.json": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十六轮_避开整点首十秒\\首十秒过滤训练诊断.json",
+      "sha256": "ae95024d90f75a30baf1f8a8fd6f758a52f1bd740dcffe7e45de0eef475e371b"
+    }
+  }
+}

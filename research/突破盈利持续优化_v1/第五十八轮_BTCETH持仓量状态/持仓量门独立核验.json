@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "independent_point_keys": 448,
+  "trade_paths_reconciled": 361,
+  "aggregate_groups_checked": 30,
+  "output_sha256": "642672bf760429de1ef4709677694a71da5eadfd301768cc3b1383beeb0f4ed3",
+  "detail_sha256": "9e3b045b1c381a295bbd3db02f29a209b7a3d442371a69165e0587844161f457",
+  "audit_sha256": "6e693150e9ff9fcee7583ad9042a0024dd662b3d6601fbe4889f5a05e59ae2dd",
+  "note": "Re-read source parquet; official comparison is six days, and actual historical release times remain unknown."
+}

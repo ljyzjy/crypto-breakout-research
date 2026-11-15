@@ -1,0 +1,8 @@
+{
+  "accounts_checked": 24,
+  "trade_records_checked": 2034,
+  "partial_exits_checked": 389,
+  "original_5bp_parity_cases": 8,
+  "checks": "positive scenario slippage, fee, partial legs, account equity and baseline parity",
+  "limit": "Assumed slippage; not measured real executions."
+}

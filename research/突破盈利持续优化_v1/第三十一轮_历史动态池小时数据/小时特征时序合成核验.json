@@ -1,0 +1,6 @@
+{
+  "closed_hour_only": true,
+  "future_hour_perturbation_no_effect": true,
+  "twenty_same_hour_lags_required": true,
+  "not_yet_minute_verified": true
+}

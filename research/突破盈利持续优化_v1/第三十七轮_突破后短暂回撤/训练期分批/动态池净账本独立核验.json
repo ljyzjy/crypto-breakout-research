@@ -1,0 +1,13 @@
+{
+  "training_batch_only": true,
+  "backup_variant": false,
+  "pullback_variant": true,
+  "ledger_rows": 240,
+  "independently_checked_verified_paths": 240,
+  "funding_events_checked": 2,
+  "maximum_net_fraction_error": 0.0,
+  "liq_proxy_paths": 0,
+  "verified_archive_manifests_matched": 84,
+  "unknown_win_count_bounds_rechecked": true,
+  "note": "Only verified unit paths are reconciled. Unknown inputs and real account constraints remain separate."
+}

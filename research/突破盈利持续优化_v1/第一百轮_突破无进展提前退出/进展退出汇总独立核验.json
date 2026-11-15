@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 261,
+  "result_sha256": "1624f3f2389f0205c92c7135633c0bd5aab33e5db8fd79fe274319beccbdcaf9",
+  "detail_sha256": "2e010ac121363ff36b532a584153d3e3756aff74504fbf9ec55435b96f184e14",
+  "code_sha256": "8ad3f9352afb2ee736e442f0d3b91126732c385b2a3cbc8bb063b07ef935b798",
+  "note": "Independently recalculated each paired score and status; no true fills or account equity."
+}

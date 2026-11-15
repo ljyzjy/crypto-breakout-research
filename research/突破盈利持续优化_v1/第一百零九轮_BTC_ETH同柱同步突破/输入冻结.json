@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-11-15T10:42:27.793082+00:00",
+  "files": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零九轮_BTC_ETH同柱同步突破\\研究方案.md": "de8c7cac91be4828c2797792ecdcb08b2aa372403f3db1e21a2ff86288303b26",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二分钟数据质量.json": "81e0e76128a79589eaf1309059b6890275c22506a7bfe117545974e87c349b5e",
+    "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BTCUSDT_klines.parquet": "ce445883bcfe5de2570a8b2be179032874e7ec9102cfd93a5d4e83896d56fccb",
+    "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ETHUSDT_klines.parquet": "dd7f94a8b8eeac91616b4c4e9e91757ac130aad6d277993f221d9081edde0e45"
+  },
+  "freeze_code_sha256": "b900d506b33342c05ff5490fc28a427fe3ab80b8ce6762af38735fbd28341407",
+  "note": "Minute source frozen before this candidate screen; no future trade outcome is used."
+}

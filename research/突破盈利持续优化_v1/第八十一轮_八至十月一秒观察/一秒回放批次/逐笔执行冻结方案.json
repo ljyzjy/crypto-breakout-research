@@ -1,0 +1,10 @@
+{
+  "plan_sha256": "b48a98ca3cfa68c5d3e0c3d0589d09b833cae46b322b3e2181e9d77833a6582c",
+  "frozen_sha256": "b0bbca3a299a95fea5acc9528817d2a8a5561cfff524d58d1058184b09d7f167",
+  "observation_ms": 1000,
+  "entry_delay_ms": 1000,
+  "exit_delay_ms": 5000,
+  "fee_per_side": 0.0005,
+  "adverse_slippage_per_side": 0.0005,
+  "target_r": 2
+}

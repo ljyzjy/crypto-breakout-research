@@ -1,0 +1,5 @@
+{
+  "entry_exit_fees_and_funding": true,
+  "mark_proxy_differs_by_leverage": true,
+  "missing_funding_not_zero_filled": true
+}

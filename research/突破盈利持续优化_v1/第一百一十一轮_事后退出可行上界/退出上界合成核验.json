@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "engine_sha256": "27df280107838f88e9e6a35cd8c684e9ccacbaa71781a0f75526dcb3730a2ad2",
+  "test_sha256": "4b070103f95ee8acd6bcbe2560a3465870e038d0a4150becdd3eb55757a617f0",
+  "cases": [
+    "five-second delay",
+    "stop deadline",
+    "forced budget exit",
+    "short",
+    "missing entry",
+    "missing forced fill"
+  ]
+}

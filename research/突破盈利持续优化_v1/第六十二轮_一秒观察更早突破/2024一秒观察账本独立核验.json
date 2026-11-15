@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "audited_one_second_observation_paths": 72,
+  "matched_risk_archives": 54,
+  "maximum_net_fraction_error": 0.0,
+  "note": "Known unit paths and all candidate statuses, not shared account or actual fills."
+}

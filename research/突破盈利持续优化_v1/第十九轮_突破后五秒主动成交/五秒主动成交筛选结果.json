@@ -1,0 +1,8 @@
+{
+  "screen_passed": false,
+  "selected": null,
+  "diagnostic": "flow5_strong_1r",
+  "plan_sha256": "32d2116ec995ba290f8a5250fcd06a50c9cb1bf6b657778bcd8271bf5e51cadb",
+  "feature_sha256": "20b41a3320de5a90b9703be0cb100d832fef630431a598ce266254422849f2ad",
+  "note": "2026 research screen only; no claim of out-of-sample validation or sufficient trading days."
+}

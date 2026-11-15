@@ -1,0 +1,37 @@
+{
+  "plan_sha256": "0efe3a89ba0a53aac72ed880ec111709f73f9989fb532e23c5148e9e46ac9e65",
+  "inputs": {
+    "2024_candidates.parquet": "f7d68bd2963d4d1df1a38865d4d86e8fa3b22c37404070a983d8f17b12d3b311",
+    "2026_candidates.parquet": "5cb306b51d89ed496c80af87a58438d1daf66770054755332efc028164f13c6c",
+    "old_signal.parquet": "788da3b3477eedd934f40f3a199b028ac0d499bac438a734e15eaf11a80d9dd6",
+    "old_paths.parquet": "f62ec3294fffbfc3f93a0258bbc4393a416c6b492c351cb3cc98ded8d933e181",
+    "backup_signal.parquet": "4bf82829af225785bb3354aa269169c0f83dc03066fe0a127144dd5dc42eaba9",
+    "backup_paths.parquet": "4c47dd33f9be0d2b2b5cae2c2473787e2141c604354ae9f21f05fc483f2428fe",
+    "old_quality.json": "437b41bc09fa6261a26e6929ec362a2c4bd9040792bd3c50ab27f18a9eec3746",
+    "backup_quality.json": "e64c23b7431d09743659ce03c92ae02d1b6a06099f6aab0035a0964af12bc70e",
+    "old_execution_plan.json": "7e2957bcc31a078d0aeac7a09007d3d8d003c6f8bbbc4cbcbf518d5bc2a2face",
+    "old_reuse_audit.json": "5ea553269268af592e6c9588bcf90338d98a9e7d4beb71d4adb5319e10e62ea8",
+    "minute_sources.json": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "2024_rank_audit.json": "fb2d99d4e68db5786491f7b4131194b68ccd4b756594cbc36785e174b8d8a816",
+    "2024_events_audit.json": "8f69ec970f00f4995aced24d351c45652c64597510bd9322352ff63cdc2b5024",
+    "2024_market_audit.json": "4f3db7a2326c26aeeabb2954b14bafb8cbb94dd5e87b8cfc71f06dbd1c99db03",
+    "2026_rank_audit.json": "dce0c5ebe619c48108f323e085b7c41304ddee1413ac7cb345a5b854dd667175",
+    "2026_events_audit.json": "a67eb1161e44eaa38981f5b03fb72b5f785e0e8cfe2bd9cfadedc797d0566c8e",
+    "2026_market_audit.json": "d9b9d8185f30299d7ac7e1aa6a27ce01161dc5d9bdac799be28ebe243db97b8e"
+  },
+  "code": {
+    "decision": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\tape_decision.py",
+      "sha256": "196c9f8b01f6467007541c0d69f0b3a09c8462056990340c353cba86f7cf70e8"
+    },
+    "paths": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\leveraged_paths.py",
+      "sha256": "51400d3576fb4f6914ccfa17b51cff56dfa98912059fa15d51e26dd53442f197"
+    },
+    "extract": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\extract_dynamic_tapes.py",
+      "sha256": "0c16676a2e5b48fecab5930c0077130fc5a1ebd956f439add632de8410900050"
+    }
+  },
+  "note": "Rank and source audits are frozen; exact execution-input parity is required before any tape reuse."
+}

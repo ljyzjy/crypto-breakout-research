@@ -1,0 +1,22 @@
+{
+  "candidate_events": 158,
+  "year_status_counts": {
+    "2024": {
+      "reuse_after_prefix_check": 60,
+      "need_new_tape": 49,
+      "prior_source_unknown": 10
+    },
+    "2026": {
+      "need_new_tape": 24,
+      "reuse_after_prefix_check": 13,
+      "prior_source_unknown": 2
+    }
+  },
+  "status_counts": {
+    "reuse_after_prefix_check": 73,
+    "need_new_tape": 73,
+    "prior_source_unknown": 12
+  },
+  "plan_sha256": "77487183e5552e2d9ff70aff39a33509ba216cef41e0c60cb919c096b8038157",
+  "note": "Reuse still requires independently rechecking official daily 1m prefix; changed or unresolved inputs are never treated as known."
+}

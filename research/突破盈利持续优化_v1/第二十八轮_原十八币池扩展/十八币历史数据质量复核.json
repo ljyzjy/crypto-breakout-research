@@ -1,0 +1,178 @@
+{
+  "extra_normalized_files_checked": 21,
+  "original_files_checked": 33,
+  "verified_monthly_archives": 104,
+  "missing_monthly_archives": 29,
+  "disk_free_bytes": 2858684416,
+  "details": [
+    {
+      "contract": "ZECUSDT",
+      "kind": "klines",
+      "rows": 306720,
+      "verified_months": 7,
+      "first_ts": 1701388800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "ZECUSDT",
+      "kind": "markPriceKlines",
+      "rows": 262080,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "ZECUSDT",
+      "kind": "fundingRate",
+      "rows": 546,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719763200000
+    },
+    {
+      "contract": "TAOUSDT",
+      "kind": "klines",
+      "rows": 115770,
+      "verified_months": 3,
+      "first_ts": 1712845800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "TAOUSDT",
+      "kind": "markPriceKlines",
+      "rows": 115897,
+      "verified_months": 3,
+      "first_ts": 1712838180000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "TAOUSDT",
+      "kind": "fundingRate",
+      "rows": 482,
+      "verified_months": 3,
+      "first_ts": 1712851200000,
+      "last_ts": 1719777600004
+    },
+    {
+      "contract": "TRXUSDT",
+      "kind": "klines",
+      "rows": 306720,
+      "verified_months": 7,
+      "first_ts": 1701388800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "TRXUSDT",
+      "kind": "markPriceKlines",
+      "rows": 262080,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "TRXUSDT",
+      "kind": "fundingRate",
+      "rows": 546,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719763200000
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "kind": "klines",
+      "rows": 306720,
+      "verified_months": 7,
+      "first_ts": 1701388800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "kind": "markPriceKlines",
+      "rows": 262080,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "kind": "fundingRate",
+      "rows": 546,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719763200000
+    },
+    {
+      "contract": "PAXGUSDT",
+      "kind": "klines",
+      "rows": 0,
+      "verified_months": 0,
+      "first_ts": null,
+      "last_ts": null
+    },
+    {
+      "contract": "PAXGUSDT",
+      "kind": "markPriceKlines",
+      "rows": 0,
+      "verified_months": 0,
+      "first_ts": null,
+      "last_ts": null
+    },
+    {
+      "contract": "PAXGUSDT",
+      "kind": "fundingRate",
+      "rows": 0,
+      "verified_months": 0,
+      "first_ts": null,
+      "last_ts": null
+    },
+    {
+      "contract": "SUIUSDT",
+      "kind": "klines",
+      "rows": 306720,
+      "verified_months": 7,
+      "first_ts": 1701388800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "SUIUSDT",
+      "kind": "markPriceKlines",
+      "rows": 262080,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "SUIUSDT",
+      "kind": "fundingRate",
+      "rows": 546,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719763200000
+    },
+    {
+      "contract": "FETUSDT",
+      "kind": "klines",
+      "rows": 306720,
+      "verified_months": 7,
+      "first_ts": 1701388800000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "FETUSDT",
+      "kind": "markPriceKlines",
+      "rows": 262080,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719791940000
+    },
+    {
+      "contract": "FETUSDT",
+      "kind": "fundingRate",
+      "rows": 546,
+      "verified_months": 6,
+      "first_ts": 1704067200000,
+      "last_ts": 1719763200000
+    }
+  ],
+  "note": "Missing archive coverage remains missing; a 404 alone is not interpreted as proof of listing status."
+}

@@ -1,0 +1,69 @@
+{
+  "frozen_at_utc": "2026-11-13T13:12:32.529389+00:00",
+  "scope": "Phase 1 audited evidence and research design; candidate implementation and activation not complete. Local integrity record, not trusted timestamp.",
+  "files": {
+    "cost_audit.json": {
+      "sha256": "d3c96bc1ea1ed20e0ccfcbb075835aca5cee528edc8d77d4bbcde1e37eff0dfb",
+      "size": 9826
+    },
+    "data_audit.json": {
+      "sha256": "1c02d069c2f1fb61617f4b921a900eb7115e4607c33e644b54c295176588a421",
+      "size": 747256
+    },
+    "deliverable_validation.json": {
+      "sha256": "ec93e40a69b64361838c8cd8e9ebf277d0bb2c587fc2a98e94602291defe3a2a",
+      "size": 428
+    },
+    "exposure_audit.json": {
+      "sha256": "33d8aee15f5a232c32e49bd26a2f0eabaff4dba013b91d588683761703930f7c",
+      "size": 70822
+    },
+    "phase1_summary.json": {
+      "sha256": "2e983ae8f4f78006e70b6e8409ed7ef15a8a0e04dba9e62a54fc7fbc6bb86570",
+      "size": 4033
+    },
+    "protected_before.json": {
+      "sha256": "d62ef1f8792aa7e178467a082e769789ff663abaf0427aa9ebf5b7c89bd075a2",
+      "size": 77513
+    },
+    "protection_validation.json": {
+      "sha256": "9d1054e241b6327331740368ffee860e96410ecd29300785a70f7008618d0a66",
+      "size": 241
+    },
+    "research_registration.json": {
+      "sha256": "b7751eec0b103f62b95506baf56728d01139d45da64e69587629691da0f4182e",
+      "size": 18868
+    },
+    "历史使用与验证边界审计.txt": {
+      "sha256": "a6ba24dd0000a7143d4f6728138e71a940a72e2e820e4b5bcad055cf622413d1",
+      "size": 10759
+    },
+    "成本与执行审计.txt": {
+      "sha256": "5d2e1d8d033d380982a27a3e68e934eaef6b51b73045aa9615ba4fa83d2c023c",
+      "size": 7620
+    },
+    "数据覆盖审计.txt": {
+      "sha256": "d0d0afdfbb611d963b4d1f8da10d0d3a9c9346cfab8df28f5b59fe8e3e7ef13e",
+      "size": 9631
+    },
+    "研究登记表.txt": {
+      "sha256": "6390c869a85c2787ba37e40d9f23bb947290cd99c753943927d33b8cea998ad1",
+      "size": 10934
+    },
+    "第一阶段结果与下一步.txt": {
+      "sha256": "86593736010a8fd4d0170c68a5043800cb7d08955ba6564ae3e64cbe9cca1390",
+      "size": 7370
+    }
+  },
+  "audit_scripts": {
+    "work/phase1-audit/build_registration.py": "f7a0978fbfe666f3239640c40f717b407d5f4a945c3798388a2f19da4ca5d838",
+    "work/phase1-audit/finish_phase1.py": "352439466db3472b6e6f95ce5fb5bfbcdd52090c16c3a72a8d506eebeeddd4e1",
+    "work/phase1-audit/protect_sources.py": "414e8bfee018cbcc07fa0e55ec61e8a6e2af1052260d4975f376a0487fe84d54",
+    "work/phase1-audit/data/audit_data.py": "9e67564eea456fe396d49b153cebf17072390898a05988b85f75889920a6600b",
+    "work/phase1-audit/data/finalize_data_audit.py": "f06dc2ac69ee055309714beb881c14555f1e41c5e519f3096134a87159985a74",
+    "work/phase1-audit/exposure/build_exposure_report.py": "452a22fa77347882030dec2fd23b65dc17a45bfdd1aaa21a520c50d954495d63",
+    "work/phase1-audit/exposure/inspect_metadata.py": "f8c7319c418675cac761a387a4fcbeb51ca53f0b21f7a3447bb0ab7b420da605",
+    "work/phase1-audit/exposure/november_metadata.py": "f982917f2f369c3c36b5ad0442de6821a9ced730a1d1f48c4c83a703f0b16ccb",
+    "work/phase1-audit/cost/write_cost_audit.py": "71a6ff10e60f4214fc6f2da8b4ff8180d0513f0b866020d4a1a26308fbf3b0a1"
+  }
+}

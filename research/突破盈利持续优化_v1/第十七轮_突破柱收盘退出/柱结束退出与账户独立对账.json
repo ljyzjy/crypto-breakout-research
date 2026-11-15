@@ -1,0 +1,6 @@
+{
+  "prior_feature_rows": 530,
+  "accounts_checked": 32,
+  "trade_records_checked": 3079,
+  "checks": "previous-quarter body/pace, previous 16 bars, ATR, known timestamps, entry/exit, costs, net ledger and drawdown"
+}

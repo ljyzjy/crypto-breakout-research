@@ -1,0 +1,102 @@
+{
+  "year": "2024",
+  "rows": [
+    {
+      "leverage": 10,
+      "candidate_events": 119,
+      "known_no_order": 56,
+      "paired_verified": 47,
+      "paired_unknown": 16,
+      "active_days_utc": 35,
+      "one_second": {
+        "trades": 47,
+        "wins": 23,
+        "net_win_rate_pct": 48.93617021276596,
+        "mean_net_pct_notional": -0.008974281172388994,
+        "sum_net_pct_equal_notional": -0.4217912151022827,
+        "profit_factor": 0.9730198982462006,
+        "optimistic_unit_win_upper_pct": 61.904761904761905
+      },
+      "five_second": {
+        "trades": 47,
+        "wins": 18,
+        "net_win_rate_pct": 38.297872340425535,
+        "mean_net_pct_notional": -0.08803724738794992,
+        "sum_net_pct_equal_notional": -4.137750627233647,
+        "profit_factor": 0.7320527595333244,
+        "optimistic_unit_win_upper_pct": 53.96825396825397
+      },
+      "mean_one_minus_five_pct_notional": 0.07906296621556093,
+      "one_second_better_count": 12,
+      "one_second_worse_count": 30,
+      "same_count": 5,
+      "unknown_ids": [
+        "opening|BTCUSDT|1704154500000",
+        "opening|BTCUSDT|1710832500000",
+        "opening|BTCUSDT|1714546800000",
+        "opening|ETHUSDT|1707759000000",
+        "opening|ETHUSDT|1710144000000",
+        "opening|NEARUSDT|1710769500000",
+        "opening|XRPUSDT|1706002200000",
+        "opening|XRPUSDT|1712564100000",
+        "opening|XRPUSDT|1713493800000",
+        "touch|BNBUSDT|1718004420000",
+        "touch|BTCUSDT|1719249060000",
+        "touch|ETHUSDT|1707902880000",
+        "touch|ETHUSDT|1710533220000",
+        "touch|ETHUSDT|1719247620000",
+        "touch|SOLUSDT|1705999740000",
+        "touch|SOLUSDT|1706544120000"
+      ]
+    },
+    {
+      "leverage": 20,
+      "candidate_events": 119,
+      "known_no_order": 57,
+      "paired_verified": 46,
+      "paired_unknown": 16,
+      "active_days_utc": 34,
+      "one_second": {
+        "trades": 46,
+        "wins": 23,
+        "net_win_rate_pct": 50.0,
+        "mean_net_pct_notional": 0.009449228413192125,
+        "sum_net_pct_equal_notional": 0.4346645070068378,
+        "profit_factor": 1.029415010441603,
+        "optimistic_unit_win_upper_pct": 62.903225806451616
+      },
+      "five_second": {
+        "trades": 46,
+        "wins": 18,
+        "net_win_rate_pct": 39.130434782608695,
+        "mean_net_pct_notional": -0.07209617395143293,
+        "sum_net_pct_equal_notional": -3.316424001765915,
+        "profit_factor": 0.7731751912173106,
+        "optimistic_unit_win_upper_pct": 54.83870967741935
+      },
+      "mean_one_minus_five_pct_notional": 0.08154540236462501,
+      "one_second_better_count": 12,
+      "one_second_worse_count": 29,
+      "same_count": 5,
+      "unknown_ids": [
+        "opening|BTCUSDT|1704154500000",
+        "opening|BTCUSDT|1710832500000",
+        "opening|BTCUSDT|1714546800000",
+        "opening|ETHUSDT|1707759000000",
+        "opening|ETHUSDT|1710144000000",
+        "opening|NEARUSDT|1710769500000",
+        "opening|XRPUSDT|1706002200000",
+        "opening|XRPUSDT|1712564100000",
+        "opening|XRPUSDT|1713493800000",
+        "touch|BNBUSDT|1718004420000",
+        "touch|BTCUSDT|1719249060000",
+        "touch|ETHUSDT|1707902880000",
+        "touch|ETHUSDT|1710533220000",
+        "touch|ETHUSDT|1719247620000",
+        "touch|SOLUSDT|1705999740000",
+        "touch|SOLUSDT|1706544120000"
+      ]
+    }
+  ],
+  "note": "Same original qualified candidates, prechecks and equal-entry-notional unit scoring; not an account."
+}

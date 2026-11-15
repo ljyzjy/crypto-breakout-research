@@ -1,0 +1,19 @@
+{
+  "independently_checked_paths": 2,
+  "checked": [
+    {
+      "variant": "normal_2r_10x",
+      "net_pct_notional": 1.748851519377306,
+      "proxy_hit": false
+    },
+    {
+      "variant": "normal_2r_20x",
+      "net_pct_notional": 1.748851519377306,
+      "proxy_hit": false
+    }
+  ],
+  "official_daily_checksum_rechecked": true,
+  "monthly_daily_overlap_minutes": 0,
+  "all_checks_pass": true,
+  "note": "No monthly/day overlap on this date; daily source is checksum-verified but not cross-checked against overlapping monthly minutes."
+}

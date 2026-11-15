@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "0f73ad30b230a84a830068bcc46eedaea7ef4e763b0fa060095e485568b1beca",
+  "inputs": {
+    "candidates.parquet": "f6df1ce8385b2d8d9a075726c6b7da0946b01a94cec1a0281277260fbae273e5",
+    "baseline_signal.parquet": "8fceee9d3d77d3e25d121dba4d97b9926a5566c66477a5fc5b9997814324a80a",
+    "baseline_paths.parquet": "f96e0afe0b9c66ddef37266511c9fcda053b8b59a74e4d70b8f75e026e327851",
+    "baseline_ledger.parquet": "e4004655f7df4e8bc704240ad92fec3091fa80b7a282a8a2a3c48bd4d7e8eeac",
+    "baseline_quality.json": "acc271396370710bffc9588aaf0f85ccb916f7d35dce8f6279e1cf49ffb1f126",
+    "baseline_audit.json": "538500c1efb5f082c5292f3669858cba987f5487578f4969f63e743343cae0ae",
+    "minute_sources.json": "3de57b307a0a628e18287588fdf697bb6b152bfe470b45635084ff26e1b4448b",
+    "risk_sources.json": "015ec8a6d2192f72bcba3e7c6d5f25d4369a701733735e6873d0918fb3302304",
+    "postclose_labels.parquet": "090d51a5eeeeca043346ad6c544b9f91872862060023b17dbc5bdf040c148c4b",
+    "retry_candidates.parquet": "d7945537c8f972991add75ef7a2a165d2a060a14d60e45d1da7ebc033b38e9b4"
+  },
+  "retry_candidates": 68,
+  "groups": 67,
+  "note": "Retry selection uses only original no-order status and the first five-second reference, not final candle labels."
+}

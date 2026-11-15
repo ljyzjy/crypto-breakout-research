@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "csv_months": 82,
+  "local_csv_vs_parquet_records": 7488,
+  "opportunity_rows_independently_checked": 240,
+  "aggregate_groups_checked": 18,
+  "detail_sha256": "61e3bedbc8ce6de7c658774cb999ca4211d531418cf755b209ea62d261ad876f",
+  "result_sha256": "c4a37401e69febca426e87270f3e995d7d89c919ecda5387468eadb4a33dde10",
+  "audit_script_sha256": "ca978719eb4977572293406a97b83859f75d43095668adbc68a0123290281a95",
+  "scope": "All local monthly CSV numeric rows versus local parquet; only three months independently matched official archives in the source audit."
+}

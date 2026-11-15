@@ -1,0 +1,607 @@
+{
+  "candidate_events": 106,
+  "clock_only_exclusions": 0,
+  "archives": 80,
+  "verified_archives": 80,
+  "status_counts": {
+    "verified": 90,
+    "entry_risk_or_cost_rejected": 16
+  },
+  "complete_for_unit_comparison": true,
+  "strategies": [
+    {
+      "holding_seconds": 15,
+      "trades": 90,
+      "net_win_rate_pct": 16.666666666666668,
+      "sum_net_per_unit_notional": -0.16390887621634195,
+      "mean_net_pct": -0.18212097357371326,
+      "profit_factor": 0.10482565167403243,
+      "liquidation_proxy_events": 0
+    },
+    {
+      "holding_seconds": 30,
+      "trades": 90,
+      "net_win_rate_pct": 15.555555555555555,
+      "sum_net_per_unit_notional": -0.17786528729920964,
+      "mean_net_pct": -0.19762809699912184,
+      "profit_factor": 0.10942425772815081,
+      "liquidation_proxy_events": 0
+    },
+    {
+      "holding_seconds": 60,
+      "trades": 90,
+      "net_win_rate_pct": 24.444444444444443,
+      "sum_net_per_unit_notional": -0.16466584833210424,
+      "mean_net_pct": -0.18296205370233803,
+      "profit_factor": 0.260378400976719,
+      "liquidation_proxy_events": 0
+    }
+  ],
+  "selected_for_further_account_test": null,
+  "note": "Independent per-notional paths, not shared-account results; 5s entry/exit observation assumptions and fixed slippage.",
+  "archive_details": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-05-11",
+      "status": "verified",
+      "sha256": "414c05f1ca9013fc1a80169c09e40791447db6f1bd3df916c938d26e5611cc5c",
+      "bytes": 1302066
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-05-26",
+      "status": "verified",
+      "sha256": "73e5dc40d92fc0833d54dea78542ecce0dad9f28e7e095a3015d49716905f7a3",
+      "bytes": 1350078
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "b44c596eb49b450b887712d6c947216ee49cda299fb147a2aa595c9c346d45ca",
+      "bytes": 2621630
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-02",
+      "status": "verified",
+      "sha256": "1a7640e93be9afd352247e8e2ed7d030cbe8776c9aad5a198e1436c91eb29fd5",
+      "bytes": 1952518
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-10",
+      "status": "verified",
+      "sha256": "f8016c55f03d7b4c56081ce0850fed1b0cb039539931399baa928cd65befa36a",
+      "bytes": 1344603
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-15",
+      "status": "verified",
+      "sha256": "968419e362a9e3d2ab7dedaad1eae0b409a40256b3a8305f4ece650b03bffb7b",
+      "bytes": 1688658
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-16",
+      "status": "verified",
+      "sha256": "1ef65479cd05a8e18f98df389119a6213f2182ffc02d4c36563d66231f2ae9f8",
+      "bytes": 1331618
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-07-03",
+      "status": "verified",
+      "sha256": "7fea5f73b14cb58de51990c3cf7e245ca06e8e6ff0b3e0b6da79f7b780a2da24",
+      "bytes": 1697867
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-07-04",
+      "status": "verified",
+      "sha256": "de425b951d9e5346bb02a499d89d88c22a86a437d4475aa9210802e851f70c2e",
+      "bytes": 2021215
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-07-20",
+      "status": "verified",
+      "sha256": "346b65f38a75bf7a65bb917593a8195a1607264c435f1045451e429a954b59af",
+      "bytes": 1157200
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "86fe31def421e6fb92fd03863d1246f29f3d27dc5bd1a38d715ffc98d121acc9",
+      "bytes": 2014011
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-05-22",
+      "status": "verified",
+      "sha256": "65374c7d6debb4cee177535a023ea4a4ad5a284b411fc0ad266278005fa51949",
+      "bytes": 1271388
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-05-08",
+      "status": "verified",
+      "sha256": "464fbcaaaf12e5a26e98c0e9ffa2072570363551bc7e46925583e2b5cdf506de",
+      "bytes": 1403033
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "8346eebcd141ddea2e07bb74a728a3cc3b5c0a5decf5b7728f7d061efe1c174e",
+      "bytes": 2577627
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "449e5c13c7f7a727c49f0794b475cf150c74b4987603855891b3d08378ece860",
+      "bytes": 3862143
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-19",
+      "status": "verified",
+      "sha256": "ea85067bf4c6fb81e2e7bebd17e9fce2d4f4b3bc8ab08813700a6e2f0145932d",
+      "bytes": 2494945
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-20",
+      "status": "verified",
+      "sha256": "2ff193ac7a741ff4f2b4a8e36a5a9c48bea1108540b5c9e8987cc179a9fa2f50",
+      "bytes": 1975140
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-08",
+      "status": "verified",
+      "sha256": "c0c55c05e4ab2f5666230354810e7cf72c4d2eae15b345687163906673640868",
+      "bytes": 1450298
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-20",
+      "status": "verified",
+      "sha256": "86a9be2f16cb06bae0f9b186c3ae963705b9897a735f4d6c7d0d584bad3365aa",
+      "bytes": 1362338
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-09",
+      "status": "verified",
+      "sha256": "16f0c9e3d4d89e7320d9b93415b86b93f7aa1456dcf8277ae94473c84dc53b05",
+      "bytes": 1267238
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-25",
+      "status": "verified",
+      "sha256": "5f857d0d2d13acdd1156e562eacc0f36ce6946d03e1d8b9ac9a3f65ed7ae9866",
+      "bytes": 1901373
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2026-05-16",
+      "status": "verified",
+      "sha256": "0e8c76a372bbb3284ee6ab2a36119ff1944ced6c152482509c3281c1c55d087d",
+      "bytes": 3082267
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2026-05-30",
+      "status": "verified",
+      "sha256": "9bc25c2becb2cf7bf17b1bcaa2c1ea44e4c1dd36644fdd532b4ec9cfdb728550",
+      "bytes": 8041232
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "a90169febd811d0c6eb1c9370de2368a6b918765920ca13cdf8502ad483475d0",
+      "bytes": 12641315
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "6c8831803bdca0d84aa5b8d25895ff8650053e89cdf835ed1e0d185ee162c937",
+      "bytes": 26593711
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-14",
+      "status": "verified",
+      "sha256": "048de3d73cbbb5108c06a875a7eeeabcb1b03b5a6328279508f3af682bdd063e",
+      "bytes": 17312630
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-06-11",
+      "status": "verified",
+      "sha256": "ea89016eb96e3eb89df738e64bd3f534d0e0482dcb14455d61b4068f827cb864",
+      "bytes": 20935866
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-06-25",
+      "status": "verified",
+      "sha256": "b72b0b2a8471832e6a2bdc109aacde1c20aacd694890f1be4c4c6ba31c7c60d3",
+      "bytes": 32869208
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-07-06",
+      "status": "verified",
+      "sha256": "54b6c7a3c17b0c330ae87cd5b0baa68547109b2e8ca1d7fedd30af03b9c83d57",
+      "bytes": 23746892
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "0669144d8012898f405188c04abc6d3541a8b2a609bc7c1a66d6d36be8cd2cff",
+      "bytes": 4697070
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-05-14",
+      "status": "verified",
+      "sha256": "abe462f187100bddc7d0a6fdd3f46f6f73580e0a34d73efdb52ef33600856cb0",
+      "bytes": 5353130
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-05-15",
+      "status": "verified",
+      "sha256": "84f3bb68c98b7cf46442f0c8cbdf88cff38b266fe4c0d3dadbd7434b5d6ff297",
+      "bytes": 4022141
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-05-17",
+      "status": "verified",
+      "sha256": "bbe31368795eede32c79f58b5bebb6dea17af219b9cecebaad37f26cfe97511a",
+      "bytes": 2872432
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "bbb47ce8e46e6da4960ad576097c5511394f5456bbaea4184e305dd99b6d237d",
+      "bytes": 53579915
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "391a20ce7b13ba551153c1576e16abdc10d9512e5697b5afae028571d7863999",
+      "bytes": 3337507
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-06-02",
+      "status": "verified",
+      "sha256": "6430d0482609e4bf5e7f5bf4267f91e6630b5f021942488c473e4b38fb817ffd",
+      "bytes": 3779560
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-07-25",
+      "status": "verified",
+      "sha256": "c761d387201ea84e46307c606f63efa415cd0364c56aaae81320b31088107454",
+      "bytes": 2195880
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-02",
+      "status": "verified",
+      "sha256": "6620e262bdc907172bb9c3e391c5235a9f1a3b87cb14d8bfb4511eb274e3734c",
+      "bytes": 28769981
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "5bcd33046e11ff4961a0c6c5a69d127ddb02528063da384f8a84a20f0b4bcb6e",
+      "bytes": 28822346
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "8ac8fc77b8df87f10aaef2b335ce73089b9777613ae687e427152ad81f3c82e0",
+      "bytes": 64416942
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "0289f32f7defaa560ef005855c25a7f60d0dd620fd6ffe5a66a192d6330692c6",
+      "bytes": 1891586
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-05-08",
+      "status": "verified",
+      "sha256": "358c02a9211a91a1cc8945efca035b889100195751a52efb9847c39328ca885c",
+      "bytes": 1498543
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-05-16",
+      "status": "verified",
+      "sha256": "cc044978f22607dd4e34b040738950ddb842a3188dd8615079be3756bfb716e2",
+      "bytes": 1030935
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-25",
+      "status": "verified",
+      "sha256": "bf7c80784c221a3ead1df337bc00203810201542b8de984d0124939335de7808",
+      "bytes": 29175754
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-05-22",
+      "status": "verified",
+      "sha256": "4e0e0c733db7757259eb1cacc4343dc629d246c9a6aab48b84e94088f75bbd5c",
+      "bytes": 1625615
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-05-27",
+      "status": "verified",
+      "sha256": "5cfa9ec28bb41787400eb4e436fabb7a59a981e3fc9939f966e05deaa5cf81e0",
+      "bytes": 1308124
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2026-06-03",
+      "status": "verified",
+      "sha256": "db3db7217b5987aaf5047118a6266a3d027a89f1aaebc3b78e0e3870bb39f0f7",
+      "bytes": 2237701
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "d8e8099a69a034afbe2831f2deff8c1ef39786cbef619ead99cb6e32127e5352",
+      "bytes": 1272654
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2026-06-25",
+      "status": "verified",
+      "sha256": "83801f0c20d3722e4dd1cde4010ce3831c38d80450c53ec9fda674a73a4e2440",
+      "bytes": 1014919
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2026-07-06",
+      "status": "verified",
+      "sha256": "3bd9323eb2dd934c72f6aa04c697c220ff576c1685b792e9d60c2a38588d8c84",
+      "bytes": 801953
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2026-07-18",
+      "status": "verified",
+      "sha256": "3debac71d215a6a6fd6fbbed8ff8e3a1d7605d03f98ca4163978561497e662e3",
+      "bytes": 799767
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-06",
+      "status": "verified",
+      "sha256": "eb2f62dce421b3477d5577d4c0e88829838b7f46063d212c4e2e6c01bb6b4f2a",
+      "bytes": 2143726
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-11",
+      "status": "verified",
+      "sha256": "2b1f33e6c8a1e5e3cda92223071dc696545b237104d8286f68550ecb74575821",
+      "bytes": 774368
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-12",
+      "status": "verified",
+      "sha256": "b2a2f8ea30404e3c692b7392c8b0d6e3ea603409d580d371fd9004eb2b699ee0",
+      "bytes": 1337427
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-13",
+      "status": "verified",
+      "sha256": "2e512b3df26b45536959ee55a8264a47357f4559c8bea4a8de39d480eb5ad5ed",
+      "bytes": 1430325
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-23",
+      "status": "verified",
+      "sha256": "e5857fa1472bbc7843a68e9cd35ef836d4e80874c12b3e6c1ec259d1323d87a2",
+      "bytes": 4459764
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-22",
+      "status": "verified",
+      "sha256": "3947931e9d94851b9b5dec95c3cc90728764ca266c0cfcaaa4a5d9c7b40bbaa4",
+      "bytes": 5887082
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-24",
+      "status": "verified",
+      "sha256": "965468dadf0050693b381f171e4f1fc6546abf7ac7075aeba45c0aa16b411799",
+      "bytes": 3944286
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-25",
+      "status": "verified",
+      "sha256": "be8103924d3d6aa84d538d7a9c85d9713fca26bf6950bf4c47dc355315b0435f",
+      "bytes": 4300085
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-26",
+      "status": "verified",
+      "sha256": "d01318554ae227720ca103f6c949bb9e2d03e661aae69144a0e4e3e282b3f1b0",
+      "bytes": 5107192
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-27",
+      "status": "verified",
+      "sha256": "8511f82970cb510d2d2249d7721ce4851e719050ea06c4405fa595653b621e1f",
+      "bytes": 3592630
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-28",
+      "status": "verified",
+      "sha256": "a9cba4c32986c07ffd5ed6158e01a5fba0b5d5238229bd953c1d7e7cd4f1db38",
+      "bytes": 2820133
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-29",
+      "status": "verified",
+      "sha256": "eb7aa1de71ec516a3e58a0d0681d6f339b53572dcc279defdd6079d56823edab",
+      "bytes": 3050831
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-06-01",
+      "status": "verified",
+      "sha256": "4a52d4e08b394a914b33ad1b586f40d0fb2b4f4b8287dccf12c6597e90dcfe9a",
+      "bytes": 3155360
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-06-02",
+      "status": "verified",
+      "sha256": "05a67d19df3acedee6a9e7d9172a7b70bf76b52c1348579c4d5423bcfe486522",
+      "bytes": 4298403
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-06-03",
+      "status": "verified",
+      "sha256": "a22347629aa42b1de08299aa04174a5dcc91dc88e00daf167435291cd29f949a",
+      "bytes": 5173454
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-07-27",
+      "status": "verified",
+      "sha256": "479a0659756195db99c0dd6a28d242cf2c78c77204e3fd21d4a7b4f73b1ab953",
+      "bytes": 1400866
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "4dd8591f982680cbb73808223fc8d78156ed9b6729578d5d24a0ca5595268adf",
+      "bytes": 4699297
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-05-20",
+      "status": "verified",
+      "sha256": "583b604c673d9f46af01591ce94e0429096672589f300b38752e721ba9f7a849",
+      "bytes": 3218156
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "ec1bf1c3cb5a0e094e0fb05fb3be655382840355630fd4895a662151f47abfda",
+      "bytes": 6876508
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "519769e32595b22ac1adba40d58bc8fa55f956dfbd48744aa27bdb286b2fa85b",
+      "bytes": 5194215
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-06-26",
+      "status": "verified",
+      "sha256": "a1ad26e381f9d11acb9a8ebeea7ed2703274e225f5ce365b2ba1ebfcc9172d39",
+      "bytes": 5981855
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-07-16",
+      "status": "verified",
+      "sha256": "b083e073fcedaa32b5a819a8dc92ff505ed1bfb406f8d7987d07b36d067b2dec",
+      "bytes": 2928956
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-05-11",
+      "status": "verified",
+      "sha256": "6f5ca5ad249fd39dc07be63bd1fb3aff80a3be5ced470c1917f30085759f440f",
+      "bytes": 3487886
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-05-28",
+      "status": "verified",
+      "sha256": "a535360bb74569a9dd0e4af5d507ec7aa185f204926619406a1669963f4c993d",
+      "bytes": 3667174
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "0661241c26d7ce6e3f4ea47b0061151be0cb4b28115a55e6b6015bbb3e2a96e6",
+      "bytes": 5150185
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "da5d39f32f89b69b9142f7d0259f553c237498cd0c64ae920d132f433017daaf",
+      "bytes": 6652289
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-10",
+      "status": "verified",
+      "sha256": "958d5b372ff71d2eb6173adaff55f5134db7b4ec4085431002763b567197ef65",
+      "bytes": 3331601
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-11",
+      "status": "verified",
+      "sha256": "96881a164427885deb4cd96ebff2788864c96659f759f62bb493f47a52655f2c",
+      "bytes": 2939696
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-07-29",
+      "status": "verified",
+      "sha256": "d1eb3d8b8ed091c0b93c60b533952c7eed26cac509e8068ffac58f4e9bdd646a",
+      "bytes": 3624099
+    }
+  ],
+  "plan_sha256": "954550f78cd8f23ebecf93108f6fe6b64baa2d4075dd809dd72fd6904be05b01",
+  "candidate_sha256": "8c88cccc08dc43a24c131ad0a1163398b8a8002fa3d392f281838db3dfb63bd5",
+  "scope": "First minute of the 15-minute candle; earlier work used later trigger minutes."
+}

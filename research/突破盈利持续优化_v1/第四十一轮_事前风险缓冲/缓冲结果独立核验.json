@@ -1,0 +1,21 @@
+{
+  "groups": [
+    {
+      "leverage": 10,
+      "events": 11,
+      "wins": 5,
+      "unknown": 7,
+      "unsafe_fills": 0
+    },
+    {
+      "leverage": 20,
+      "events": 10,
+      "wins": 4,
+      "unknown": 7,
+      "unsafe_fills": 1
+    }
+  ],
+  "maximum_net_fraction_error": 9.8879238130678e-17,
+  "all_checks_pass": true,
+  "note": "Small exploratory subgroup, no real fills or account concurrency reconstructed."
+}

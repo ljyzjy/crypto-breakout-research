@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "candidate_leverage_rows_checked": 114,
+  "summary_groups_checked": 6,
+  "result_sha256": "3c980000a31c8d1d0ecba5415ba3c4e9917eaff6aaca472abf647782dcec73e1",
+  "detail_sha256": "15efa18305ec984843c5fd454223485a22458d1c7bfe05400d32df667fb4afcd",
+  "code_sha256": "2d35124ee3b69a9431fbc959492a7d265818359b119147519317f8d3838b4200",
+  "note": "Classification and arithmetic verification; still historical unit paths, not account equity."
+}

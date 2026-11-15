@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 226,
+  "groups_checked": 120,
+  "result_sha256": "20ac966534639579e4bce66bee307f8391489e0e1b52bd96843ff7981c1d580a",
+  "detail_sha256": "c5a73b28cb20513099faa64a81eacac6578a4bdfe999cf4dbb4e8e40b0c2b9fb",
+  "code_sha256": "85aa6b249c25d9f6bc5335f05b66b261d39da2517b800fdeda6cf18c37c3e7cb",
+  "note": "Historical arithmetic and time check; not blind or account outcomes."
+}

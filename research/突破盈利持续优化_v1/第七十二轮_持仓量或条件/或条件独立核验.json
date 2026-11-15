@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 48,
+  "detail_rows_checked": 98,
+  "point_decisions_checked": 98,
+  "result_sha256": "88afac2eb33328e63cd3f4be801c884381271798c27c87884a932db969fc11c8",
+  "audit_code_sha256": "7a4018daadf6a6f08742a2783c6443776a4f20d9b2cc0896f3ea4b2f1be8d4c8",
+  "note": "Independently recomputed historical rules and costs; OI real-time release and actual executions remain unknown."
+}

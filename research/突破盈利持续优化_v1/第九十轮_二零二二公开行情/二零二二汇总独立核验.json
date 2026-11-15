@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "candidate_classifications_checked": 4960,
+  "summary_groups_checked": 48,
+  "report_sha256": "410656b568455d1dcb8fb328e5573d913d965b10db065da6b9601a142aca2a1c",
+  "detail_sha256": "a3b55c57c0c0e67f132cdca7c51a46c2f662603253f2957a1b4aa9a2fc826742",
+  "code_sha256": "f3fed9c718dfd9f1b128dd25c25d9d415b0b3585ee3dc82e19c29b6206819625",
+  "note": "Reconstruction conditional on independently audited source paths; unknown rank hours remain outside candidate counts."
+}

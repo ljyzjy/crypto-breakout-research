@@ -1,0 +1,6 @@
+{
+  "first_actual_direction_priority": true,
+  "five_second_strict_before_entry": true,
+  "buyer_maker_long_short_direction": true,
+  "cross_minute_entry_and_suffix": true
+}

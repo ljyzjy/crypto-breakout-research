@@ -1,0 +1,108 @@
+{
+  "plan_sha256": "ba6597214549fdec07f991f8d813ac54dd1312099959ae36cdae0639201bb484",
+  "script_sha256": "8b4117754c298fd027049e19b46bcb147f15cd2863db6df28fd3e92c10f1965b",
+  "event_csv_sha256": "61e3bedbc8ce6de7c658774cb999ca4211d531418cf755b209ea62d261ad876f",
+  "source_parquet_sha256": {
+    "BTCUSDT": "4a3a9a7f22230cb56439d84dcdb0e206e191e0d4bda8df71dbecbad051c34aa9",
+    "ETHUSDT": "7e3fc618abc21be3b4523cef2c1442e4a446699eb79f831bcf23e4b28862757a"
+  },
+  "unique_known_events": 121,
+  "required_distinct_timestamps": 224,
+  "selected_key_multiplicity": {
+    "BTCUSDT:1": 224,
+    "ETHUSDT:1": 224
+  },
+  "global_profiles": {
+    "BTCUSDT": {
+      "rows": 651398,
+      "timestamp_null": 0,
+      "oi_null_or_nonfinite": 0,
+      "oi_nonpositive": 481,
+      "duplicate_adjacent_ts": 0,
+      "out_of_order": 0,
+      "missing_slots_between_rows": 634,
+      "off_grid_ts": 0,
+      "first_ts_ms": 1598918400000,
+      "last_ts_ms": 1794527700000
+    },
+    "ETHUSDT": {
+      "rows": 520564,
+      "timestamp_null": 0,
+      "oi_null_or_nonfinite": 0,
+      "oi_nonpositive": 215,
+      "duplicate_adjacent_ts": 0,
+      "out_of_order": 0,
+      "missing_slots_between_rows": 140,
+      "off_grid_ts": 0,
+      "first_ts_ms": 1638316800000,
+      "last_ts_ms": 1794527700000
+    }
+  },
+  "official_daily_samples": [
+    {
+      "symbol": "BTCUSDT",
+      "day": "2023-04-01",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2023-04-01.zip",
+      "official_zip_sha256": "33c2e8ced85a6488f360d0097dfcc77a0b5259b417c8e6ab56f8005ce9966a0e",
+      "official_csv_sha256": "23cdd9ba24ed14853baa50d16be482aee229cea66bf279f36160968c3639c0a7",
+      "rows_compared": 288,
+      "values_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2024-01-15",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-01-15.zip",
+      "official_zip_sha256": "879e2ff00b2a843c3b01b976ddb7c438a4e4982587fcbc3c58a4570354e0114c",
+      "official_csv_sha256": "d65df88150922bc634dddddbf36fb13e43c66005cb7d4b916971ad0f470ae58a",
+      "rows_compared": 288,
+      "values_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-06-01",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2026-06-01.zip",
+      "official_zip_sha256": "b97a449430eb330ecb3105daefebe9113a9d85ff7de3c597ae06b348b941327b",
+      "official_csv_sha256": "56ede12bbd415e19ad9a9652d325548ac261d55c7b21c5d7b3826356cdb3e223",
+      "rows_compared": 288,
+      "values_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2023-04-01",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2023-04-01.zip",
+      "official_zip_sha256": "896e8832ddad7b72a1db46f00a44c5d635cb7c7ce2db475a1664a66e96ef91d4",
+      "official_csv_sha256": "c17b835450e4682d6f34a2cfabe7c72503f2c2fbd64266402866d17c51d692e5",
+      "rows_compared": 288,
+      "values_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2024-01-15",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2024-01-15.zip",
+      "official_zip_sha256": "a411c8774d3173c5a12392983a8d989e4818ad55679bd38db92ff3738f95be23",
+      "official_csv_sha256": "49dbb642ec09002ccb269d3ed15cf81a030aeb011ef0c39c0eaa26c2c1d5569f",
+      "rows_compared": 288,
+      "values_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-06-01",
+      "official_zip_url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2026-06-01.zip",
+      "official_zip_sha256": "d689b6d11379f0cb401d58f0005fcb9398dd8aaa30308a249bd5deb1665256b5",
+      "official_csv_sha256": "f4158d4cf963014ce27341aedf51c98e48d48ae9ac2e7c0068712e49982301d2",
+      "rows_compared": 288,
+      "values_match": true
+    }
+  ],
+  "causality_tests": {
+    "all_checks_pass": true,
+    "checks": [
+      "UTC boundary",
+      "15-minute embargo",
+      "exact 60-minute baseline"
+    ]
+  },
+  "all_official_samples_pass": true,
+  "release_lag_note": "Archive timestamp is not historical arrival time; 15-minute lag remains an assumption.",
+  "selected_keys_sha256": "13ebcb61a74223499b6d8ec0dc2af67908d718f7df49d625f5e6b386fbd6ca51"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "c9e4475e8762b4e52b899785deca52bceb0efb9bf08bd411b3147cd5e1da5e25",
+    "bytes": 1036489
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "445b65fd6b17bfcfb5e4d035db29fad34f729fa078f0449024db42621be84e6e",
+    "bytes": 980
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "DOGEUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "c8102f33bbc753fadf4729c168e7ab6ca4cc94187d4dd73a499b30ca472f0b3f",
+    "bytes": 714168
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "DOGEUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "c057c34d18f83d10284d62eed9d377cb195e8ba12f0cc272a1cb7c34aafdb40b",
+    "bytes": 948
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "a2edbe971087a995a10f78eb805f38c64d46bcd5691b38574587bc91021a0a21",
+    "bytes": 885674
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "13f655eaa29865b16acc7bd97be74e212bc4c2139fc2f9ead4d150852c2a9ebb",
+    "bytes": 964
+  }
+]

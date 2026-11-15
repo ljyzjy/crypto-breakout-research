@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "f3651ea15c49d674bcaaf095e809d54735cf6253504d38c57d3b96d1c3a30186",
+  "test_sha256": "d684716b0fd498d57352fddb8370828af391a7d90fe14c66fe7fbafe90863f42",
+  "cases": [
+    "early priority",
+    "unknown not fallback",
+    "late rejection",
+    "late information",
+    "equal threshold",
+    "long short costs"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "sampled_decision_hours": 24,
+  "samples_with_fewer_than_20_available": 0,
+  "max_score_absolute_error": 1.6342482922482304e-13,
+  "minute_derived_inputs_used": true,
+  "future_data_not_used": true,
+  "note": "Selection of observed available data does not prove historical archive completeness or actual trading eligibility."
+}

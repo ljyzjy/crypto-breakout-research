@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "candidate_classifications_checked": 620,
+  "summary_groups_checked": 12,
+  "result_sha256": "00d2aa00f2cec1290ac6268469158bd7be0f5be8ce9497ff56c628abe031a838",
+  "detail_sha256": "dc799452197c6fd28a9a68ed7fcedf1b4d9848d5fe68a60b484f64d0704221e5",
+  "code_sha256": "7b29a9b16f61489087d7792191946cfa9fdc3eb7308d11f6a1cb2db2114d61a8",
+  "note": "Gate uses pre-entry reference and stop; original unknown candidates remain unknown."
+}

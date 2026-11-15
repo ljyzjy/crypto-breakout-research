@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "sample_observations": 4,
+  "sample_paths": 8,
+  "sample_ids": [
+    "opening|ADAUSDT|1706657400000",
+    "opening|AVAXUSDT|1715587200000",
+    "touch|DOGEUSDT|1716382080000",
+    "touch|XRPUSDT|1709574480000"
+  ],
+  "replay_fingerprint": "cdcaa948d6b32eae2d868871f73eb5ef2791d8e227d7672f4f25208fdaf6f12d",
+  "frozen_sha256": "d5ef7cd8d1d0d936f08438f4a087a5b31a8226d95fdc6d81157715d7aca9665f",
+  "audit_code_sha256": "1e0df9b48846beef11c540dd6e089d0a94d8cb540d2bf3dacc661128a76a4e21",
+  "logic_sha256": "168791625ff121b557a926416c597539db74f8bd96d6ec8e23d24e91272ab607",
+  "note": "Fresh full-archive SHA and independent scalar decision; original source parser shared."
+}

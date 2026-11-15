@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-11-15T10:14:35.810068+00:00",
+  "files": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零七轮_早入与重新突破\\研究方案.md": "8915f391e396a33aca217525a1a5ec78a573e8be309c6f74b9debbea95c13961",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\冻结研究方案.md": "0f73ad30b230a84a830068bcc46eedaea7ef4e763b0fa060095e485568b1beca",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期输入冻结哈希.json": "ee1436a8d59a3ec670a4b86d5b3f5a6b0336b25e0e85c78af3cbb12ee291d37b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\单次重试跨期单位对照.json": "9e6a64636fc6b3b7291911cb010a1619d9c0f625fd292907f1a5b46155c7af74",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\单次重试净账本独立核验.json": "7d80e8ec2eb4ef02c1660a66c23dd6b480964ecae3956b64fa1ac2e2195d3498",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\重试逐笔独立核验.json": "1b394f6595e9c96894e850e93b9afc8d25a0791addaee881eafa55e82a2531e8",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零六轮_一秒五秒分层入场\\分层入场单位结果.json": "6d0fed2ce2004fa3e9f29c16e9c57fe86aae8d97a71c8976886c83dd827a3479",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零六轮_一秒五秒分层入场\\分层入场逐候选明细.csv": "27baf82dfbfce88a5f66aa1324b9849e6b3351f5e9bbf59baee376ac3db3a0e5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零六轮_一秒五秒分层入场\\分层入场独立核验.json": "43e640293d8b9014f236713296ab3caea2d456ee16cae5a8f2310600a4a7c40f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_retry_candidates.parquet": "289a73bf75be5aaaec1ec28f736cfba5f6f6ee14f2ef1b8f5831d04bc1c09985",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\风险输入哈希.json": "ce39445c35ad9a494d66aa574f02025a11120acb59015c6803eb10ba72324522",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池逐笔信号筛查.parquet": "af09a82d15a27e5dd791345c85c3305c80a15604c40187e4adf8cb712aeed2d0",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池延迟市价路径.parquet": "fd2ca0d827e0541de0143dad3a738c5056db5f1e85c5c9764692f96de1677d96",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池单位收益与风险.parquet": "8b6ab9f73513a3736082d0422898dd0c238e277eedbb4e3cc01fe4bdd123b1e3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池逐笔提取质量.json": "506f08f4fb5316ff2d8093f77e86b06b95be07c935b524b46ec8d4b1b18e09e1",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池风险档案核验清单.json": "63d9686fbf72f37bdd21e4a44e154ce8e4e85f7c88c35d2e74c34f4b630c7c15",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2026_signal.parquet": "2240ab7e39c47af0c56689205fc5dd76c4dc03a0210f44e91a2551b01ae09c96",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2026_retry_candidates.parquet": "6009e77d1b093205068b91e7ba9f55c55dcea6509abff85bf0027ec38255ac86",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\风险输入哈希.json": "88b4777c3bb30758fa221482113b361cc11e03ede5bb983204d73af465a42cc7",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\动态池逐笔信号筛查.parquet": "8023aa0fe9c17129c9df94b5d35fe9c2676801623740fd7f58665c9387061db3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\动态池延迟市价路径.parquet": "16190fdd1689ade6c926489623f875a26e652ffa2eb03fc2fa2415c7ec6b0def",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\动态池单位收益与风险.parquet": "4a16aaecc370cbc000dbe44de30957543f48937b406310790b326950407b555b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\动态池逐笔提取质量.json": "d2d36085d2b345b92a9ce0dc9b5f58ddd8e701c3b078f20ddc41beeced42377d",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2026重试分批\\动态池风险档案核验清单.json": "0bdf8e4378284ff4718a24da7a3415c492c2abfe54c8382ef82ff43093fdfebe"
+  },
+  "freeze_code_sha256": "a02b131dc828c3059615957ea34c49cdc0c88a86c22f66ec0b99544f5aa3bb41",
+  "note": "Existing historical sources only; selection rule fixed after prior experiment results."
+}

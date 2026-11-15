@@ -1,0 +1,29 @@
+{
+  "plan_sha256": "8d24386fc64fffa50b2d3bcb512e568e1643e9316a3815b8ea0aedd2ff7bebc0",
+  "inputs": {
+    "train_signal.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十八轮_大突破柱捕捉诊断\\冻结输入\\baseline_signal.parquet",
+      "sha256": "ccd3890fb716581c0b25725c6fc9442731acd171be1eb70eb7af513bf6979163"
+    },
+    "train_ledger.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十八轮_大突破柱捕捉诊断\\冻结输入\\baseline_ledger.parquet",
+      "sha256": "bae5c4d2333bb30c584b2cec69cc997f4eed84c01565ecc27fd227e7fa04e667"
+    },
+    "train_quality.json": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十八轮_大突破柱捕捉诊断\\冻结输入\\baseline_quality.json",
+      "sha256": "06950ba657fcb91984c89424f820b4f888e5a7590f8ef0fd544dbb53071006a2"
+    },
+    "all_signal.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\动态池逐笔信号筛查.parquet",
+      "sha256": "788da3b3477eedd934f40f3a199b028ac0d499bac438a734e15eaf11a80d9dd6"
+    },
+    "all_paths.parquet": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\动态池延迟市价路径.parquet",
+      "sha256": "f62ec3294fffbfc3f93a0258bbc4393a416c6b492c351cb3cc98ded8d933e181"
+    },
+    "all_quality.json": {
+      "source": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\动态池逐笔提取质量.json",
+      "sha256": "437b41bc09fa6261a26e6929ec362a2c4bd9040792bd3c50ab27f18a9eec3746"
+    }
+  }
+}

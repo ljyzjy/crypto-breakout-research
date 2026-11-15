@@ -1,0 +1,412 @@
+{
+  "initial": 1000.0,
+  "final_equity": 979.0612140314041,
+  "return_pct": -2.0938785968595885,
+  "annualized_return_pct": null,
+  "elapsed_days": 300.0,
+  "max_drawdown": 4.589957831763558,
+  "trades": 86,
+  "win_rate": 40.69767441860465,
+  "gross_pnl": 31.510676133704578,
+  "fees": 26.237899710780493,
+  "slippage_cost": 26.237907588446554,
+  "funding_cost": -0.026345196926594757,
+  "net_pnl": -20.93878596859588,
+  "average_trade_net": -0.24347425544878934,
+  "mean_holding_minutes": 14.383720930232558,
+  "mean_exposure_pct": 0.08095549170507906,
+  "profit_factor": 0.7907184518957698,
+  "ledger_error": 3.552713678800501e-15,
+  "scenario": "main",
+  "start": "2025-07-01",
+  "end": "2026-04-26",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 0,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 4.594243392960873,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "entry_deviation": 39,
+    "late_day": 43,
+    "stop_or_cost_gate": 26,
+    "risk_or_liquidity_budget": 1,
+    "slots_full": 1,
+    "symbol_cooldown": 1
+  },
+  "signal_candidates": 197,
+  "leverage_cap": 1,
+  "seconds_execution_verified": false,
+  "run_id": "combined",
+  "rule_events": [
+    {
+      "id": "WIFUSDT|1752089100000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1752089700000,
+      "effective_ts": 1752089760000,
+      "close": 0.9025,
+      "entry": 0.8949472499999999,
+      "initial_r": 0.0052036785714284495
+    },
+    {
+      "id": "WIFUSDT|1752089100000|1",
+      "kind": "lock_applied",
+      "known_ts": 1752089700000,
+      "effective_ts": 1752089760000,
+      "old_stop": 0.8897435714285714,
+      "new_stop": 0.8975490892857141
+    },
+    {
+      "id": "SOLUSDT|1752545820000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1752546600000,
+      "effective_ts": 1752546660000,
+      "close": 159.3,
+      "entry": 160.09991000000002,
+      "initial_r": 0.5714471428571244
+    },
+    {
+      "id": "SOLUSDT|1752545820000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1752546600000,
+      "effective_ts": 1752546660000,
+      "old_stop": 160.67135714285715,
+      "new_stop": 159.81418642857147
+    },
+    {
+      "id": "HBARUSDT|1753497060000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1753497900000,
+      "effective_ts": 1753497960000,
+      "close": 0.26566,
+      "level": 0.26649
+    },
+    {
+      "id": "ADAUSDT|1755653880000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1755654300000,
+      "effective_ts": 1755654360000,
+      "close": 0.844,
+      "level": 0.8433
+    },
+    {
+      "id": "LINKUSDT|1755915960000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1755916500000,
+      "effective_ts": 1755916560000,
+      "close": 25.949,
+      "entry": 26.114936,
+      "initial_r": 0.12594257142857046
+    },
+    {
+      "id": "LINKUSDT|1755915960000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1755916500000,
+      "effective_ts": 1755916560000,
+      "old_stop": 26.24087857142857,
+      "new_stop": 26.051964714285717
+    },
+    {
+      "id": "LTCUSDT|1757858100000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1757858400000,
+      "effective_ts": 1757858460000,
+      "close": 114.83,
+      "level": 114.78
+    },
+    {
+      "id": "LINKUSDT|1758822900000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1758823500000,
+      "effective_ts": 1758823560000,
+      "close": 19.864,
+      "entry": 19.993998,
+      "initial_r": 0.09045914285714218
+    },
+    {
+      "id": "LINKUSDT|1758822900000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1758823500000,
+      "effective_ts": 1758823560000,
+      "old_stop": 20.084457142857143,
+      "new_stop": 19.94876842857143
+    },
+    {
+      "id": "ENAUSDT|1759421400000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1759421700000,
+      "effective_ts": 1759421760000,
+      "close": 0.6312,
+      "level": 0.6325
+    },
+    {
+      "id": "ZECUSDT|1760517720000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1760517900000,
+      "effective_ts": 1760517960000,
+      "close": 269.03,
+      "level": 270.0
+    },
+    {
+      "id": "SUIUSDT|1760682660000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1760683500000,
+      "effective_ts": 1760683560000,
+      "close": 2.4445,
+      "entry": 2.4645671000000005,
+      "initial_r": 0.017868614285713846
+    },
+    {
+      "id": "SUIUSDT|1760682660000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1760683500000,
+      "effective_ts": 1760683560000,
+      "old_stop": 2.4824357142857143,
+      "new_stop": 2.4556327928571435
+    },
+    {
+      "id": "ADAUSDT|1760687820000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1760688000000,
+      "effective_ts": 1760688060000,
+      "close": 0.6089,
+      "level": 0.6087
+    },
+    {
+      "id": "AVAXUSDT|1760687820000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1760688900000,
+      "effective_ts": 1760688960000,
+      "close": 19.224,
+      "entry": 19.362314,
+      "initial_r": 0.10903599999999969
+    },
+    {
+      "id": "ETHUSDT|1762350660000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1762351200000,
+      "effective_ts": 1762351260000,
+      "close": 3358.72,
+      "level": 3366.53
+    },
+    {
+      "id": "DOGEUSDT|1763339700000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1763340300000,
+      "effective_ts": 1763340360000,
+      "close": 0.15956,
+      "level": 0.15963
+    },
+    {
+      "id": "SOLUSDT|1763975700000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1763976300000,
+      "effective_ts": 1763976360000,
+      "close": 128.65,
+      "entry": 129.305315,
+      "initial_r": 0.5073992857142571
+    },
+    {
+      "id": "SOLUSDT|1763975700000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1763976300000,
+      "effective_ts": 1763976360000,
+      "old_stop": 129.81271428571426,
+      "new_stop": 129.05161535714288
+    },
+    {
+      "id": "TAOUSDT|1764926340000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1764928500000,
+      "effective_ts": 1764928560000,
+      "close": 283.69,
+      "entry": 284.90747500000003,
+      "initial_r": 1.0943107142857116
+    },
+    {
+      "id": "TAOUSDT|1764926340000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1764928500000,
+      "effective_ts": 1764928560000,
+      "old_stop": 286.00178571428575,
+      "new_stop": 284.3603196428572
+    },
+    {
+      "id": "ADAUSDT|1765282920000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1765285500000,
+      "effective_ts": 1765285560000,
+      "close": 0.4499,
+      "entry": 0.44492234999999997,
+      "initial_r": 0.00324020714285711
+    },
+    {
+      "id": "ADAUSDT|1765282920000|1",
+      "kind": "lock_applied",
+      "known_ts": 1765285500000,
+      "effective_ts": 1765285560000,
+      "old_stop": 0.44168214285714286,
+      "new_stop": 0.4465424535714285
+    },
+    {
+      "id": "ETHUSDT|1766979300000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1766980200000,
+      "effective_ts": 1766980260000,
+      "close": 3038.84,
+      "entry": 3022.4504699999998,
+      "initial_r": 14.057684285714004
+    },
+    {
+      "id": "ETHUSDT|1766979300000|1",
+      "kind": "lock_applied",
+      "known_ts": 1766980200000,
+      "effective_ts": 1766980260000,
+      "old_stop": 3008.3927857142858,
+      "new_stop": 3029.4793121428565
+    },
+    {
+      "id": "ETHUSDT|1767371460000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1767374400000,
+      "effective_ts": 1767374460000,
+      "close": 3140.6,
+      "entry": 3123.671055,
+      "initial_r": 15.500626428571195
+    },
+    {
+      "id": "ETHUSDT|1767371460000|1",
+      "kind": "lock_applied",
+      "known_ts": 1767374400000,
+      "effective_ts": 1767374460000,
+      "old_stop": 3108.1704285714286,
+      "new_stop": 3131.4213682142854
+    },
+    {
+      "id": "ETHUSDT|1767575220000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1767577200000,
+      "effective_ts": 1767577260000,
+      "close": 3208.68,
+      "entry": 3189.03372,
+      "initial_r": 18.37157714285695
+    },
+    {
+      "id": "ETHUSDT|1767575220000|1",
+      "kind": "lock_applied",
+      "known_ts": 1767577200000,
+      "effective_ts": 1767577260000,
+      "old_stop": 3170.662142857143,
+      "new_stop": 3198.2195085714284
+    },
+    {
+      "id": "BTCUSDT|1771811160000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1771811700000,
+      "effective_ts": 1771811760000,
+      "close": 64415.9,
+      "entry": 64817.175200000005,
+      "initial_r": 247.52622857141978
+    },
+    {
+      "id": "BTCUSDT|1771811160000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1771811700000,
+      "effective_ts": 1771811760000,
+      "old_stop": 65064.701428571425,
+      "new_stop": 64693.4120857143
+    },
+    {
+      "id": "UNIUSDT|1772039400000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1772041500000,
+      "effective_ts": 1772041560000,
+      "close": 4.07,
+      "entry": 4.040019,
+      "initial_r": 0.028990428571428417
+    },
+    {
+      "id": "UNIUSDT|1772039400000|1",
+      "kind": "lock_applied",
+      "known_ts": 1772041500000,
+      "effective_ts": 1772041560000,
+      "old_stop": 4.011028571428572,
+      "new_stop": 4.054514214285714
+    },
+    {
+      "id": "SUIUSDT|1772055360000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772055900000,
+      "effective_ts": 1772055960000,
+      "close": 1.0129,
+      "level": 1.019
+    },
+    {
+      "id": "UNIUSDT|1772311620000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772312400000,
+      "effective_ts": 1772312460000,
+      "close": 3.823,
+      "level": 3.826
+    },
+    {
+      "id": "TAOUSDT|1772595060000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1772596200000,
+      "effective_ts": 1772596260000,
+      "close": 177.59,
+      "entry": 178.61065,
+      "initial_r": 1.003707142857138
+    },
+    {
+      "id": "TAOUSDT|1772595060000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1772596200000,
+      "effective_ts": 1772596260000,
+      "old_stop": 179.61435714285713,
+      "new_stop": 178.10879642857142
+    },
+    {
+      "id": "DOGEUSDT|1772697120000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1772697600000,
+      "effective_ts": 1772697660000,
+      "close": 0.09564,
+      "level": 0.09541
+    },
+    {
+      "id": "ADAUSDT|1775021100000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1775022600000,
+      "effective_ts": 1775022660000,
+      "close": 0.2488,
+      "entry": 0.2471235,
+      "initial_r": 0.0011627857142856857
+    },
+    {
+      "id": "ZECUSDT|1775583360000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1775583900000,
+      "effective_ts": 1775583960000,
+      "close": 271.28,
+      "level": 271.9
+    }
+  ],
+  "expected_calendar_minutes": 432000,
+  "observed_calendar_minutes": 432000,
+  "active_minutes": 1203,
+  "cash_minutes": 430797,
+  "permanent_halt_minutes": 0,
+  "cash_days": 299.1645833333333,
+  "halted_days": 0.0,
+  "period": "old_dynamic",
+  "net_win_rate_pct": 40.69767441860465,
+  "failure_scheduled_count": 12,
+  "lock_scheduled_count": 16,
+  "lock_applied_count": 14,
+  "failure_exit_count": 7,
+  "winning_trade_count": 35,
+  "active_calendar_days": 66,
+  "acceptance_pass": false
+}

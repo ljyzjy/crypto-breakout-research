@@ -1,0 +1,77 @@
+{
+  "plan_sha256": "5708b819f1939424b285906975846bff85a399a531d3385cd41ef07a4a11e2ae",
+  "sources": {
+    "BTCUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BTCUSDT_klines.parquet",
+      "sha256": "455b18c97bdd3283b408f0be9923e47ae21531e8310b6fe59d00186d685095c6"
+    },
+    "ETHUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ETHUSDT_klines.parquet",
+      "sha256": "1972dce8654514d75885a21c844ef98325d9cd9946e4286914a36d8d5f4a84c6"
+    },
+    "SOLUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\SOLUSDT_klines.parquet",
+      "sha256": "40f037dc5da2ad9408fb1bcc5245b08757db448cfb46fab1a6336d5f57380438"
+    },
+    "XRPUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\XRPUSDT_klines.parquet",
+      "sha256": "28493d2ed8c4bcd5d11856543ff87052149f94c9bc6b2242289c1d8bd0d03ea4"
+    },
+    "DOGEUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\DOGEUSDT_klines.parquet",
+      "sha256": "8c5a83ed5af32a39f772693e639dabe8a615d76968bf9feac2f9ac27bff3099e"
+    },
+    "BNBUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\BNBUSDT_klines.parquet",
+      "sha256": "64cb46c9d01f9e497dc9e2de4dfa52201e514f5548708c4b03500047c26f344f"
+    },
+    "ADAUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\ADAUSDT_klines.parquet",
+      "sha256": "f1fa78253c5789a1e5c3f66fde575f65d39da0af82f8904449b04a775c232730"
+    },
+    "LINKUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LINKUSDT_klines.parquet",
+      "sha256": "d6d86c5c9f8c73a60ad67141cc27b6412dfcc9a2fc7429431058e2027918a790"
+    },
+    "AVAXUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\AVAXUSDT_klines.parquet",
+      "sha256": "a6f6c40d7da8d9f8ad4620e492eebd9a994e48774b8e7d9182f27c381b82215f"
+    },
+    "LTCUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\LTCUSDT_klines.parquet",
+      "sha256": "2a65420c0a1bb192e1b2bceb93ab034a644b4a171a1b3175e5d52f442ecd2cb5"
+    },
+    "NEARUSDT_klines.parquet": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2023_11\\normalized\\NEARUSDT_klines.parquet",
+      "sha256": "c9bcd8b672055b8966ef0e12a1c7cf6b7d54e19dc7ec8c20fa1b50a81969e18a"
+    },
+    "raw_manifest.json": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第二轮_成本空间与即时成交\\2023公开档案校验清单.json",
+      "sha256": "6db15bc1a6a9a83b165b0918b677e111accbc2277320d9ca23e218975b203520"
+    },
+    "repair_manifest.json": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第二轮_成本空间与即时成交\\2023日档修复记录.json",
+      "sha256": "978f047ebeaad583dc8d8cb2e6c11139271db06b26400fc6628bce1db17140fa"
+    },
+    "original_minute_features.py": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十二轮_历史动态池分钟信号\\minute_features.py",
+      "sha256": "84197bf84e873d5fd618516d65b992f086a0edb22f54b8e55523e6b3c22dd76e"
+    },
+    "hourly_indicators.py": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十一轮_历史动态池小时数据\\prepare_hourly.py",
+      "sha256": "99cad6190a45bd43c12fde76f86bbb4878fcab43bc6de20dd04f8770bac7512d"
+    },
+    "market_filter.py": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十轮_BTC_ETH事前活跃度\\market_decisions.py",
+      "sha256": "dd1370b1a935cd11823d8dc898b12485110ecd106e2fc62fe9c62268c024c56a"
+    },
+    "flow_research.py": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\flow_research.py",
+      "sha256": "3099b26790e3582eeabce782eea2a87f61f9ce00f22bde2b87c1fc2c14b9da5d"
+    },
+    "minute_features_2023.py": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十三轮_旧十一币2023年复核\\minute_features_2023.py",
+      "sha256": "688026f823e181443ed78149f4f902aa2b34c9622c0489289e9eb9c4acd26b4a"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "frozen_utc": "2026-11-15T11:30:17.632299+00:00",
+  "years": {
+    "2024": {
+      "prior_fingerprint": "cf539b1dc04c3d05b624c4846d6a17d9a683609e42b9efd0570a8aa4e7211334",
+      "source_snapshot_sha256": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+      "paths": 72,
+      "task_groups": 34,
+      "sample_ids": [
+        "touch|DOGEUSDT|1716382080000",
+        "opening|AVAXUSDT|1715587200000",
+        "touch|XRPUSDT|1709574480000",
+        "opening|ADAUSDT|1706657400000"
+      ]
+    },
+    "2026": {
+      "prior_fingerprint": "0060ac13b628445289f78d2895edf54a233976b665a3034c11814098a0d2071a",
+      "source_snapshot_sha256": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8",
+      "paths": 26,
+      "task_groups": 13,
+      "sample_ids": [
+        "opening|NEARUSDT|1779659100000",
+        "touch|DOGEUSDT|1780667580000",
+        "touch|LINKUSDT|1784034120000",
+        "opening|LINKUSDT|1779888600000"
+      ]
+    }
+  },
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\研究方案.md": "a74869476f7a8fa00163d62fdca8a295b37c48969e5f54ebcfc7dd269f338fa3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\trailing.py": "f9aa9c1c303c5f229853546ccf7b20c0a83407650235d3b2a33c7f534bd4dad8",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出合成核验.json": "65adf134d7895154d2fc7156b1c0682c51036dfad8ee61ccb4f8eab27a0f271b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\replay_1r.py": "ffc89f6930638b0746964dbe92620a66cf9caf47ef43de53160ff65ae93ab3fb",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\settle_1r_local.py": "714ccfd22e55d3d800fc982379105a0d876e846bc5f93d44c05ec3fec3d76382",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\exit_1r_oneobs.py": "b75c81906f9533cbeac75998ef6f783330b015e1c5362180be16b198b7acd924",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2024完整批次_冻结\\完整快照哈希.json": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\2024一倍止盈本地风险账本.json": "ececb409dcac9968ed4cdbc53e4db407201745f5927d4724c6e59109b9ebd705",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\2024一倍止盈账本独立核验.json": "cc84efb7c96d1822268cd57a5004a0088ff9529a8ce25107114a5e6e985927f3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整批次_冻结\\完整快照哈希.json": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\2026一倍止盈本地风险账本.json": "0bc375b4b689d9e7a62c8ee599e2479127533c25448010da58d83cd564c096e4",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十轮_一秒观察一倍止盈\\2026一倍止盈账本独立核验.json": "0f11893c945819e3136024498c2213af21ef13471829f665d0b750ebade49d5f"
+  },
+  "code_sha256": "b3c1ee6e075b96cc81017742f30c80120df999810b1e63bacfbf6cd0998e5658",
+  "note": "Fixed historical rule and samples; no claim of independent blind data."
+}

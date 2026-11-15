@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "one_second_entry_and_five_second_exit": true,
+  "long_short_tested": true,
+  "stop_clock_tie_and_risk_breach_tested": true,
+  "disagreements_unknown": true,
+  "code_sha256": "b75c81906f9533cbeac75998ef6f783330b015e1c5362180be16b198b7acd924"
+}

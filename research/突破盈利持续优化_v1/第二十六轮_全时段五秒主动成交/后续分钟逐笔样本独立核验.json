@@ -1,0 +1,20 @@
+{
+  "archive_samples": [
+    {
+      "id": "touch|ADAUSDT|1705997460000|-1",
+      "contract": "ADAUSDT",
+      "day": "2024-01-23"
+    },
+    {
+      "id": "touch|ETHUSDT|1714493880000|-1",
+      "contract": "ETHUSDT",
+      "day": "2024-04-30"
+    },
+    {
+      "id": "touch|XRPUSDT|1784662260000|1",
+      "contract": "XRPUSDT",
+      "day": "2026-07-21"
+    }
+  ],
+  "count": 3
+}

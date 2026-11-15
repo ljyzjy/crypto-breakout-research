@@ -1,0 +1,8 @@
+{
+  "signal_prior_feature_records_checked": 251,
+  "accounts_checked": 10,
+  "trade_records_checked": 833,
+  "max_ledger_error_usdt": 7.815970093361102e-13,
+  "max_drawdown_error_pct_points": 0.0,
+  "scope": "All archived signal filters and account records; actual first-cross trade order also checked by separate archive sample and synthetic tests."
+}

@@ -1,0 +1,63 @@
+{
+  "independent_samples": 4,
+  "paths_checked": 16,
+  "samples": [
+    {
+      "observation_id": "opening|BNBUSDT|1675281600000",
+      "reader": "original",
+      "side": 1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-01",
+          "sha256": "c2803387e52f344244ff91d94eeccbe07747b51dd337674dbfa8c5c986933483",
+          "bytes": 3447883
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1675240200000",
+      "reader": "original",
+      "side": -1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-01",
+          "sha256": "b2ad7276163a24366f2e8da0c3f19d0eb3fe501548ebab030dfc98272003b65e",
+          "bytes": 6178334
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1676493000000",
+      "reader": "stream",
+      "side": 1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-15",
+          "sha256": "0015b6ace45c3a91538c7c3d4b10bbd144d229c79303c733183e4257afb68679",
+          "bytes": 20849663
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1703156460000",
+      "reader": "stream",
+      "side": 1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-21",
+          "sha256": "979f32fd68e594b7bd80e157a83e530dd1c0a6dee0970e6eae5df8496f620b73",
+          "bytes": 3229218
+        }
+      ]
+    }
+  ],
+  "note": "Independent replay of re-downloaded public prints; actual fills remain unknown."
+}

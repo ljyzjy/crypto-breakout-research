@@ -1,0 +1,147 @@
+{
+  "utc": "2026-11-13T15:41:27.849987+00:00",
+  "passed": true,
+  "source_files_checked": 2171,
+  "source_changes": [],
+  "single_execution_line_change": true,
+  "all_scenarios": [
+    {
+      "variant": "A",
+      "scenario": "main",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 45371,
+      "new_halt_threshold_verified": true,
+      "full_calendar": true,
+      "ledger_error": -7.105427357601002e-13
+    },
+    {
+      "variant": "A",
+      "scenario": "fee2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 36397,
+      "new_halt_threshold_verified": true,
+      "full_calendar": true,
+      "ledger_error": -4.547473508864641e-13
+    },
+    {
+      "variant": "A",
+      "scenario": "fee3",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 29438,
+      "new_halt_threshold_verified": true,
+      "full_calendar": true,
+      "ledger_error": 5.115907697472721e-13
+    },
+    {
+      "variant": "A",
+      "scenario": "slip2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 36039,
+      "new_halt_threshold_verified": true,
+      "full_calendar": true,
+      "ledger_error": -1.1084466677857563e-12
+    },
+    {
+      "variant": "A",
+      "scenario": "delay1",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 43082,
+      "new_halt_threshold_verified": true,
+      "full_calendar": true,
+      "ledger_error": 1.2505552149377763e-12
+    },
+    {
+      "variant": "B",
+      "scenario": "main",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "B",
+      "scenario": "fee2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "B",
+      "scenario": "fee3",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "B",
+      "scenario": "slip2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "B",
+      "scenario": "delay1",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "C",
+      "scenario": "main",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "C",
+      "scenario": "fee2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "C",
+      "scenario": "fee3",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "C",
+      "scenario": "slip2",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    },
+    {
+      "variant": "C",
+      "scenario": "delay1",
+      "identical_before_old_halt": true,
+      "old_prefix_minutes": 432000,
+      "new_halt_threshold_verified": false,
+      "full_calendar": true,
+      "ledger_error": 0.0
+    }
+  ],
+  "models_and_predictions_unchanged": true,
+  "paper_database_accessed": false,
+  "no_future_feature_change": true
+}

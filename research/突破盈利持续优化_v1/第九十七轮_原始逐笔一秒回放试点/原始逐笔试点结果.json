@@ -1,0 +1,343 @@
+{
+  "sample_count": 3,
+  "cases": [
+    {
+      "observation_id": "opening|NEARUSDT|1671044400000",
+      "contract": "NEARUSDT",
+      "day": "2022-12-14",
+      "aggregate_result": {
+        "observation_id": "opening|NEARUSDT|1671044400000",
+        "status": "qualified",
+        "side": -1,
+        "decision_ts": 1671044407053,
+        "signal_close": 1.696,
+        "entry_exec_ts": 1671044408181,
+        "raw_entry_1s": 1.695,
+        "one_count": 21,
+        "buy_notional": 4005.933,
+        "sell_notional": 22450.065,
+        "one_imbalance": 0.6971625867223001,
+        "stop_price": 1.7062214285714286,
+        "level": 1.697,
+        "score": -1.950076518710755,
+        "rvol": 2.469801304903015,
+        "rank": 3,
+        "liquidity_rank": 10,
+        "prechecks": {
+          "10": "passed",
+          "20": "passed"
+        },
+        "paths": {
+          "one_observation_2r_10x": {
+            "status": "verified",
+            "entry_ts": 1671044409184,
+            "entry_raw": 1.693,
+            "entry_fill": 1.6921535,
+            "entry_signal_reference_ts": 1671044408181,
+            "exit_signal_ts": 1671044409184,
+            "exit_ts": 1671044414207,
+            "exit_raw": 1.701,
+            "exit_fill": 1.7018505,
+            "reason": "filled_beyond_risk_budget",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.014067928571428467
+          },
+          "one_observation_2r_20x": {
+            "status": "verified",
+            "entry_ts": 1671044409184,
+            "entry_raw": 1.693,
+            "entry_fill": 1.6921535,
+            "entry_signal_reference_ts": 1671044408181,
+            "exit_signal_ts": 1671044409184,
+            "exit_ts": 1671044414207,
+            "exit_raw": 1.701,
+            "exit_fill": 1.7018505,
+            "reason": "filled_beyond_risk_budget",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.014067928571428467
+          }
+        },
+        "extended_paths": {
+          "one_observation_2r_10x": {
+            "status": "verified",
+            "entry_ts": 1671044409184,
+            "entry_raw": 1.693,
+            "entry_fill": 1.6921535,
+            "entry_signal_reference_ts": 1671044408181,
+            "exit_signal_ts": 1671044409184,
+            "exit_ts": 1671044414207,
+            "exit_raw": 1.701,
+            "exit_fill": 1.7018505,
+            "reason": "filled_beyond_risk_budget",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.014067928571428467
+          },
+          "one_observation_2r_20x": {
+            "status": "verified",
+            "entry_ts": 1671044409184,
+            "entry_raw": 1.693,
+            "entry_fill": 1.6921535,
+            "entry_signal_reference_ts": 1671044408181,
+            "exit_signal_ts": 1671044409184,
+            "exit_ts": 1671044414207,
+            "exit_raw": 1.701,
+            "exit_fill": 1.7018505,
+            "reason": "filled_beyond_risk_budget",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.014067928571428467
+          }
+        }
+      },
+      "raw_result": {
+        "status": "qualified",
+        "side": -1,
+        "decision_ts": 1671044407053,
+        "signal_close": 1.696,
+        "entry_exec_ts": 1671044408066,
+        "raw_entry_1s": 1.694,
+        "one_count": 82,
+        "buy_notional": 4005.9330000000004,
+        "sell_notional": 22209.979,
+        "one_imbalance": 0.6943891938605835,
+        "stop_price": 1.7062214285714286,
+        "level": 1.697,
+        "score": -1.950076518710755,
+        "rvol": 2.469801304903015,
+        "rank": 3,
+        "liquidity_rank": 10,
+        "prechecks": {
+          "10": "passed",
+          "20": "passed"
+        },
+        "paths": {
+          "one_observation_2r_10x": {
+            "status": "verified",
+            "entry_ts": 1671044409115,
+            "entry_raw": 1.694,
+            "entry_fill": 1.6931530000000001,
+            "entry_signal_reference_ts": 1671044408066,
+            "exit_signal_ts": 1671044416014,
+            "exit_ts": 1671044421033,
+            "exit_raw": 1.7,
+            "exit_fill": 1.7008499999999998,
+            "reason": "stop",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.013068428571428425
+          },
+          "one_observation_2r_20x": {
+            "status": "verified",
+            "entry_ts": 1671044409115,
+            "entry_raw": 1.694,
+            "entry_fill": 1.6931530000000001,
+            "entry_signal_reference_ts": 1671044408066,
+            "exit_signal_ts": 1671044416014,
+            "exit_ts": 1671044421033,
+            "exit_raw": 1.7,
+            "exit_fill": 1.7008499999999998,
+            "reason": "stop",
+            "initial_stop": 1.7062214285714286,
+            "target_r": 2.0,
+            "fast_fail": false,
+            "actual_entry_risk": 0.013068428571428425
+          }
+        }
+      },
+      "raw_archives": [
+        {
+          "day": "2022-12-14",
+          "sha256": "526e19a7e0c3869f70ca4be99ed2cf61a214d663bc843cd16fc60935386a0415",
+          "bytes": 2308728,
+          "url": "https://data.binance.vision/data/futures/um/daily/trades/NEARUSDT/NEARUSDT-trades-2022-12-14.zip"
+        }
+      ],
+      "minute_archive": {
+        "kind": "klines",
+        "day": "2022-12-14",
+        "sha256": "f8c321f4732e681947366db483829f27ad10f939a0d1db43e253144cfc5804cf",
+        "bytes": 44452
+      },
+      "raw_rows": 25456,
+      "risk": {
+        "one_observation_2r_10x": {
+          "risk_status": "verified",
+          "funding": 0.0,
+          "funding_events_json": "[]",
+          "liq_proxy": false,
+          "entry_fee": 0.0005,
+          "exit_fee": 0.0005022729782837108,
+          "net_per_unit_notional": -0.005548229545705332,
+          "net_pct_notional": -0.5548229545705332
+        },
+        "one_observation_2r_20x": {
+          "risk_status": "verified",
+          "funding": 0.0,
+          "funding_events_json": "[]",
+          "liq_proxy": false,
+          "entry_fee": 0.0005,
+          "exit_fee": 0.0005022729782837108,
+          "net_per_unit_notional": -0.005548229545705332,
+          "net_pct_notional": -0.5548229545705332
+        }
+      }
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1671069780000",
+      "contract": "NEARUSDT",
+      "day": "2022-12-15",
+      "aggregate_result": {
+        "observation_id": "touch|NEARUSDT|1671069780000",
+        "status": "flow_filter_not_met",
+        "side": -1,
+        "decision_ts": 1671069835656,
+        "signal_close": 1.611,
+        "entry_exec_ts": 1671069836802,
+        "raw_entry_1s": 1.611,
+        "one_count": 2,
+        "buy_notional": 12.896,
+        "sell_notional": 16.11,
+        "one_imbalance": 0.110804661104599,
+        "stop_price": 1.62005,
+        "level": 1.612,
+        "score": -4.887318553486831,
+        "rvol": 3.0078471212016877,
+        "rank": 1,
+        "liquidity_rank": 10,
+        "extended_paths": {}
+      },
+      "raw_result": {
+        "status": "flow_filter_not_met",
+        "side": -1,
+        "decision_ts": 1671069835656,
+        "signal_close": 1.611,
+        "entry_exec_ts": 1671069836802,
+        "raw_entry_1s": 1.611,
+        "one_count": 2,
+        "buy_notional": 12.896,
+        "sell_notional": 16.11,
+        "one_imbalance": 0.110804661104599,
+        "stop_price": 1.62005,
+        "level": 1.612,
+        "score": -4.887318553486831,
+        "rvol": 3.0078471212016877,
+        "rank": 1,
+        "liquidity_rank": 10
+      },
+      "raw_archives": [
+        {
+          "day": "2022-12-15",
+          "sha256": "f4161f6e0103256b2adb01fd7a818efacc6e7b16cd47f5aebb5ad00d486c66ae",
+          "bytes": 1821755,
+          "url": "https://data.binance.vision/data/futures/um/daily/trades/NEARUSDT/NEARUSDT-trades-2022-12-15.zip"
+        }
+      ],
+      "minute_archive": {
+        "kind": "klines",
+        "day": "2022-12-15",
+        "sha256": "4307a64c1701235d2c1445a5b4ec16cfda45250c8d28e1de5eaa9a26bf1a1f7a",
+        "bytes": 43839
+      },
+      "raw_rows": 6325,
+      "risk": {}
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1672493400000",
+      "contract": "LTCUSDT",
+      "day": "2022-12-31",
+      "aggregate_result": {
+        "observation_id": "opening|LTCUSDT|1672493400000",
+        "status": "known_risk_rejected",
+        "side": 1,
+        "decision_ts": 1672493456450,
+        "signal_close": 69.21,
+        "entry_exec_ts": 1672493457607,
+        "raw_entry_1s": 69.26,
+        "one_count": 84,
+        "buy_notional": 338647.11590000003,
+        "sell_notional": 143929.38082,
+        "one_imbalance": 0.4034961014543129,
+        "stop_price": 68.93421428571428,
+        "level": 69.2,
+        "score": 2.705733456005694,
+        "rvol": 1.789538763401481,
+        "rank": 2,
+        "liquidity_rank": 6,
+        "prechecks": {
+          "10": "reference_deviation_known",
+          "20": "reference_deviation_known"
+        },
+        "paths": {},
+        "extended_paths": {}
+      },
+      "raw_result": {
+        "status": "known_risk_rejected",
+        "side": 1,
+        "decision_ts": 1672493456450,
+        "signal_close": 69.21,
+        "entry_exec_ts": 1672493457453,
+        "raw_entry_1s": 69.25,
+        "one_count": 661,
+        "buy_notional": 366688.27634,
+        "sell_notional": 143917.40057,
+        "one_imbalance": 0.4362875029477314,
+        "stop_price": 68.93421428571428,
+        "level": 69.2,
+        "score": 2.705733456005694,
+        "rvol": 1.789538763401481,
+        "rank": 2,
+        "liquidity_rank": 6,
+        "prechecks": {
+          "10": "reference_deviation_known",
+          "20": "reference_deviation_known"
+        },
+        "paths": {}
+      },
+      "raw_archives": [
+        {
+          "day": "2022-12-31",
+          "sha256": "7a67c18276a916fedda85b901265bfea5bd143e1a109bd4aa466594c1063c69b",
+          "bytes": 4243915,
+          "url": "https://data.binance.vision/data/futures/um/daily/trades/LTCUSDT/LTCUSDT-trades-2022-12-31.zip"
+        }
+      ],
+      "minute_archive": {
+        "kind": "klines",
+        "day": "2022-12-31",
+        "sha256": "b024bc7749ec140b5b096b482736d44b326642fa298736d926e70083d5aaea41",
+        "bytes": 53350
+      },
+      "raw_rows": 43450,
+      "risk": {}
+    }
+  ],
+  "risk_sources": [
+    {
+      "kind": "markPriceKlines",
+      "contract": "NEARUSDT",
+      "month": "2022-12",
+      "status": "verified",
+      "sha256": "fc05b0fc666933de69c737ec12b980454368247f12a35825cfe2f15ccd406518",
+      "bytes": 806786
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "NEARUSDT",
+      "month": "2022-12",
+      "status": "verified",
+      "sha256": "73e4ac714afce85d43abcc9a3357a5f3ab6b6afaaeb6741e982ebeb79d6c4b90",
+      "bytes": 915
+    }
+  ],
+  "plan_sha256": "3db9b09db711bea1ae5881755f0416fbaa28906cd2caab1f439ee56b4c880dbe",
+  "code_sha256": "b52a3b662f8960b18c4e5e5755944b143127f1511e022d4aa0c7454eb95a5a60",
+  "note": "Three previously observed samples only. Raw trade count differs from aggregate count; prints plus fixed slippage are a proxy."
+}

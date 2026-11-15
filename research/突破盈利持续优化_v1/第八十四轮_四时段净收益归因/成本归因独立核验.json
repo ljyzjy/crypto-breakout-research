@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 113,
+  "groups_checked": 5,
+  "result_sha256": "3fc10cccc54c7be85d4b2a5f7c252df59e04636720d62a54a3e2242384073c37",
+  "detail_sha256": "9f3d97f92fba55b39643a34e4c09c35590d211e9c821a6f076a4a0b9021e323c",
+  "code_sha256": "f9afc8fe4d41515a41cd49129497dd2e530a75ac7c941402380a27baecd7b447",
+  "note": "Arithmetic attribution of known unit outcomes, not an ex ante filter."
+}

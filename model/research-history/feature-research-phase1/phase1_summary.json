@@ -1,0 +1,96 @@
+{
+  "phase": "1",
+  "completed_at_utc": "2026-11-13T13:12:32.526382+00:00",
+  "completed": [
+    "data_coverage_and_availability_audit",
+    "cost_and_execution_audit",
+    "past_research_exposure_audit",
+    "study_design_registration"
+  ],
+  "new_backtests": 0,
+  "new_feature_outcomes": false,
+  "existing_paper_changed": false,
+  "website_changed": false,
+  "readiness": "可进入数据准备与特征实现；暖启动和可比样本修复前不能跳到正式新因子绩效筛选；前向验证尚未生效。",
+  "coverage": {
+    "spot_universe": 638,
+    "spot_rows": 336134,
+    "rebuilt_days": 481,
+    "pool_union": 61,
+    "perp_contracts": 60,
+    "trade_1m_rows": 18959584,
+    "mark_1m_rows": 18931680,
+    "funding_events": 49423,
+    "residual_eligible_non_btc": 218880,
+    "residual_available": 168679,
+    "residual_available_fraction": 0.7706460160818713
+  },
+  "findings": [
+    {
+      "id": "D1",
+      "importance": "high",
+      "finding": "残差暖启动/有效性不足，且按币不均匀；168679/218880非BTC资格小时可计算。",
+      "action": "只补冻结开发段所需过去历史；下载不足、结构历史不足、零量/真实缺失分开，统一重建基准与候选。",
+      "remediated": false
+    },
+    {
+      "id": "D2",
+      "importance": "high",
+      "finding": "已有历史收益研究至2026-10-31，11月也已进入部分前向特征监控；不存在已证明干净的历史留出。",
+      "action": "旧历史明确开发；完整实现冻结后按预定90+90日前向验证。",
+      "resolved_by_design": true,
+      "forward_started": false
+    },
+    {
+      "id": "D3",
+      "importance": "high",
+      "finding": "资格来自638币现货日池，永续只有60个已映射稀疏合约；不是全交易所全历史永续池。",
+      "action": "固定这一口径；扩大池需另版，不能用现存合约名单追溯。",
+      "resolved_by_scope_label": true
+    },
+    {
+      "id": "D4",
+      "importance": "high",
+      "finding": "每边5bp手续费与5bp滑点为研究假设；无用户费率验证、历史盘口或逐档强平重建。",
+      "action": "共同20bp主规格与五场景保留；禁止宣称真实执行、秒级能力、5×安全已验证。",
+      "real_execution_verified": false
+    },
+    {
+      "id": "D5",
+      "importance": "medium",
+      "finding": "资格分钟零量7442条，FTM占6659；币安人生缺mark7200分钟且已有已知时点隔离。",
+      "action": "零量不填活跃，保留已知时点隔离；不得事后抹掉持仓损失。",
+      "policy_preserved": true
+    },
+    {
+      "id": "D6",
+      "importance": "high",
+      "finding": "旧账户到8%回撤后永久暂停，后段现金导致风险和年化解释受限。",
+      "action": "保留保护，单列暂停时间/交易日/现金日，全期信号诊断与账户指标分开。",
+      "resolved_by_reporting_contract": true
+    },
+    {
+      "id": "D7",
+      "importance": "medium",
+      "finding": "旧V2协议部分描述沿用旧版，而实际modules/features已不同。",
+      "action": "旧件不改，新特征字典与实施附件统一可执行规格；本登记不宣称新交易代码完成。",
+      "implementation_contract_pending": true
+    }
+  ],
+  "next_action": "先制定并执行只补过去数据的预热清单，形成新数据版本，再实现12项特征及因果/覆盖审计；不直接优化收益或提高杠杆。",
+  "conditions_before_return_screen": [
+    "足够过去历史或明确结构性NA",
+    "每组对照观测一一匹配",
+    "前缀/未来扰动与时点审计通过",
+    "完整规则、代码、数据清单和统计附件冻结",
+    "现有模拟保护不变"
+  ],
+  "new_audit_does_not_prove": [
+    "盈利",
+    "真实订单可成交",
+    "历史全池无偏",
+    "未来回撤保证",
+    "所有历史从未见过",
+    "秒级或5×执行安全"
+  ]
+}

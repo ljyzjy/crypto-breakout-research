@@ -1,0 +1,18 @@
+{
+  "year": "2024",
+  "plan_sha256": "2300587ef41dfdad140e761372ba5fa62783f36c0ade8c22f51594182879780c",
+  "code_sha256": "726b9681e1781b0ec28d3040a7a64837bb511984540720c6b12ca492c4163d24",
+  "inputs": {
+    "baseline_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "baseline_paths.parquet": "e77545628df4b4d7df413ee4c1039fabbfcff9784b9ab2f2bacd783a01e4722c",
+    "baseline_ledger.parquet": "61b420c0fb1040328fa19e0d4783ab3ed08f89338ac260b99f688fbdb8ec4c8e",
+    "retry_signal.parquet": "af09a82d15a27e5dd791345c85c3305c80a15604c40187e4adf8cb712aeed2d0",
+    "retry_paths.parquet": "fd2ca0d827e0541de0143dad3a738c5056db5f1e85c5c9764692f96de1677d96",
+    "retry_ledger.parquet": "8b6ab9f73513a3736082d0422898dd0c238e277eedbb4e3cc01fe4bdd123b1e3",
+    "reference_2r_paths.parquet": "1520309f19453f178465a8effb0aef8e59bfe9c373bf2fff31bb5efbb5bca508",
+    "provenance.json": "b4584c1b386379c8efe47e5c0c9325a0ab0b08b11dbc037ebb94932ca5998a43",
+    "qualified_entries.parquet": "390237a8a2e0da99dd6320038c99184ea4b01feeb2a6bf3a187ab7b19c36f42c"
+  },
+  "events": 47,
+  "note": "Original prechecks, entry decisions and candidates are fixed before one-second replay."
+}

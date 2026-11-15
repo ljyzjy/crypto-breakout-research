@@ -1,0 +1,418 @@
+{
+  "utc": "2026-11-13T15:41:27.862162+00:00",
+  "files": {
+    "20停机阈值回测报告.md": {
+      "sha256": "87fbc43a32b6367dfe5dec36f3e1a5aa6312580c3f82c6a0d41e7907daabea54",
+      "size": 2691
+    },
+    "8与20停机阈值比较.csv": {
+      "sha256": "5e24940cf33cc60b71e125d2c0046e717b2eaed41ad33dd47452fa96f090cc01",
+      "size": 1749
+    },
+    "account_results.json": {
+      "sha256": "4da27bcede311d94083afa165a59f6de330d3df4b8412093878d311b04fed2c0",
+      "size": 31119
+    },
+    "audit.json": {
+      "sha256": "e8903d1f8370d23ecf9c959212dde5c3f1b1e10901f97a29c516699f50c361a5",
+      "size": 4097
+    },
+    "comparison.json": {
+      "sha256": "0fc582500658a610b451f0c3e23a88615119c29a68b38167ddec7cfab419803a",
+      "size": 7393
+    },
+    "engine_change.diff": {
+      "sha256": "5f19859469f1acf7c1b33105a87fb7cf03df0fd729640414b59473b098ce1f71",
+      "size": 656
+    },
+    "engine_dd20.py": {
+      "sha256": "40d18ba2b076fbb3693e1c9e6b032956ebf177f4db2857d1ffb2624cc03079d5",
+      "size": 16446
+    },
+    "protocol.json": {
+      "sha256": "e5b57b4629343b4ed246f95e5b218889c06fa3e109eee12a691dde5d5b314819",
+      "size": 9675
+    },
+    "protocol_import_failed.json": {
+      "sha256": "b24ad07da3e76fc81d47359aaea6200eaa5b2c8f5d3945a123ee6563abfff407",
+      "size": 9675
+    },
+    "registration.json": {
+      "sha256": "f1c2e91d59971691d71853967d0da20716141230bd5eca34307b4aed4d0f2cc1",
+      "size": 438260
+    },
+    "registration_import_failed.json": {
+      "sha256": "5c027d50b1bf8792808c23997fd42b775609592e43672064dc13ce87cb4c7e78",
+      "size": 438260
+    },
+    "runner_snapshot.py": {
+      "sha256": "38a5a4bb3a1f0a3bcec616fed63201a0fe58ff49fd56037d4c7b554e0c34bf81",
+      "size": 10630
+    },
+    "startup_correction.json": {
+      "sha256": "45f2ff83d4f402ee2ad1774adc0ebb66bd40333a0a84fd434478675f52b3895d",
+      "size": 208
+    },
+    "accounts/A/delay1-curve.parquet": {
+      "sha256": "ddc9d0a0ea3099bac37d7817b695f568c64bc82f511b56e8e31817c2f99b01a3",
+      "size": 3272279
+    },
+    "accounts/A/delay1-daily.csv": {
+      "sha256": "7101835f13d243a05918f7077f477b84347e1a02c71ce26c3b8c44fca7e2f7aa",
+      "size": 19101
+    },
+    "accounts/A/delay1-entries.json": {
+      "sha256": "1ad5325d9a97c4de1c672be3cae432560601f6d4e93a5721ba1c95eb46c7e9df",
+      "size": 448356
+    },
+    "accounts/A/delay1-funding.json": {
+      "sha256": "47adbc6195b87a42709f70a238ee450f7e3073d35bc38d965911427bace4d0be",
+      "size": 11108
+    },
+    "accounts/A/delay1-summary.json": {
+      "sha256": "e80d48b99b46d81770832f2a16f5793dbddaad3ce1ed8965cd7856b4509d6f55",
+      "size": 2323
+    },
+    "accounts/A/delay1-trades.json": {
+      "sha256": "65efdd9eec8217e2a76a7bbea711a7c2af5b8dc83e9de62efe6bbc5ca07db382",
+      "size": 564243
+    },
+    "accounts/A/fee2-curve.parquet": {
+      "sha256": "b596102d81d9507d31a204a1244f662c7f1e772f20f30410a24cfe23a97a6d61",
+      "size": 3226806
+    },
+    "accounts/A/fee2-daily.csv": {
+      "sha256": "5941a41576434fe2ac8b382175e3be50715b7404154e16ce72964c8bd25a7db8",
+      "size": 18703
+    },
+    "accounts/A/fee2-entries.json": {
+      "sha256": "7b3e96dd9c6d4e1c9db60b5201890be2379278c7cb9f48e46180d61c7baea027",
+      "size": 423300
+    },
+    "accounts/A/fee2-funding.json": {
+      "sha256": "76893fd70e4ebb756aea7812301ed9fa75012797550a3608e7e5c8d4713c0e7c",
+      "size": 7836
+    },
+    "accounts/A/fee2-summary.json": {
+      "sha256": "cc2a0cb06f4a4426a5a775106a9f999801e0ae1d3a61b0994f6c022c10250126",
+      "size": 2344
+    },
+    "accounts/A/fee2-trades.json": {
+      "sha256": "331ac9107d0dacadb3543edc92eaaa06543219c0cc84e99aaf99a668e7682041",
+      "size": 532244
+    },
+    "accounts/A/fee3-curve.parquet": {
+      "sha256": "891610f9603e069c607d821fbd6ef236997cb33c037b0a110f4656b09bb30b43",
+      "size": 3179927
+    },
+    "accounts/A/fee3-daily.csv": {
+      "sha256": "d15bbf0192ab846d80a68a245148a22af5af4d44ba09e0d45b49f06e21a870b4",
+      "size": 18204
+    },
+    "accounts/A/fee3-entries.json": {
+      "sha256": "697ec981093195a60d6fd33fdc69048de5fc8b9f4e769056dc2362a40ef14113",
+      "size": 372844
+    },
+    "accounts/A/fee3-funding.json": {
+      "sha256": "23a13b53d4ed6b38dcf73a98eede21fd2ad8d992a4bbb6f237788c49aa181c0c",
+      "size": 7136
+    },
+    "accounts/A/fee3-summary.json": {
+      "sha256": "c84c8f43fc13a26b6d8c32c296c559747e869b9f2cf38850534a22236a21c55f",
+      "size": 2332
+    },
+    "accounts/A/fee3-trades.json": {
+      "sha256": "4e7629c40fa26fe6487df309b5d3b38c3c5290b57d03791a42992f329ab8f41f",
+      "size": 468863
+    },
+    "accounts/A/main-curve.parquet": {
+      "sha256": "53e84c6e951843dddbbb0e0df9af10290de39e2ddb5020a1da5af918468c9ee8",
+      "size": 3307302
+    },
+    "accounts/A/main-daily.csv": {
+      "sha256": "b01de37b375d4521e7378fe2ef4ded718afdbcfa33824fa50a1db5b962d6da3e",
+      "size": 19181
+    },
+    "accounts/A/main-entries.json": {
+      "sha256": "8ad2783663cd71f9b901a2359a909dd547404868c71ad59f54858a44d038fda8",
+      "size": 512395
+    },
+    "accounts/A/main-funding.json": {
+      "sha256": "4034457da242135fae230ea22ad27b3f714c1fe24a311fa926d16af289e4efb0",
+      "size": 11846
+    },
+    "accounts/A/main-summary.json": {
+      "sha256": "feac5fb4d5eec8f38d6c971a9816661db0cf5faf36321c3da2695156ce465ff6",
+      "size": 2342
+    },
+    "accounts/A/main-trades.json": {
+      "sha256": "644c7bc79057e4871e662c30455e36c6ef446d8bbcce4e400bb1e7cd5839b323",
+      "size": 644707
+    },
+    "accounts/A/slip2-curve.parquet": {
+      "sha256": "7274fb60701013f02b573ff81e470007bceb464515a562fce6af3af23ace9741",
+      "size": 3222015
+    },
+    "accounts/A/slip2-daily.csv": {
+      "sha256": "75e9bae44c40f5d8e9a5d7942a81162bed3a23591ca78b620444444d5fde8a75",
+      "size": 18802
+    },
+    "accounts/A/slip2-entries.json": {
+      "sha256": "84f827c8dca13529fd34f73d814530de47eaf08ee867a25e03b8bebd06d9eaaf",
+      "size": 425004
+    },
+    "accounts/A/slip2-funding.json": {
+      "sha256": "893382c6f41d27eac91875339e011dc2a576926d4e6e59d1eb5ea9435fc8cecb",
+      "size": 10016
+    },
+    "accounts/A/slip2-summary.json": {
+      "sha256": "7593041678f47d8c781e71bb778e684743b5775b201d24d41f35085609e65775",
+      "size": 2351
+    },
+    "accounts/A/slip2-trades.json": {
+      "sha256": "9ee4839dc72be7a08b19e45147a8304531bd3095555b1223b1641dd4fd5413a9",
+      "size": 534728
+    },
+    "accounts/B/delay1-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/B/delay1-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/B/delay1-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/delay1-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/delay1-summary.json": {
+      "sha256": "42fedaee812f287f013590115224d5bff4b604bcf5d7554ec98227840dc2fb17",
+      "size": 1538
+    },
+    "accounts/B/delay1-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee2-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/B/fee2-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/B/fee2-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee2-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee2-summary.json": {
+      "sha256": "f036ed8e6393ba889ee5bd707dda3ed280ce7e2d4a2c78dbadb7acb93a3473a2",
+      "size": 1535
+    },
+    "accounts/B/fee2-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee3-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/B/fee3-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/B/fee3-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee3-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/fee3-summary.json": {
+      "sha256": "106160762c6d3f618985afe01915c5f53735dc1b60b62ae5552cd30b3a5ed33e",
+      "size": 1536
+    },
+    "accounts/B/fee3-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/main-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/B/main-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/B/main-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/main-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/main-summary.json": {
+      "sha256": "b00e9e0d4888b2c2773081841ca7fc223f9d3b5f51d62daba7ba54bd88c9bd5d",
+      "size": 1536
+    },
+    "accounts/B/main-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/slip2-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/B/slip2-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/B/slip2-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/slip2-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/B/slip2-summary.json": {
+      "sha256": "682810c4456e41285c193d257e7d672d4cf5af72543eea780431ce7c240b8500",
+      "size": 1536
+    },
+    "accounts/B/slip2-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/delay1-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/C/delay1-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/C/delay1-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/delay1-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/delay1-summary.json": {
+      "sha256": "3b84863a626ff2b79302c3e6e2edadf4d32ad8e374123f788abd2125fddbad30",
+      "size": 1538
+    },
+    "accounts/C/delay1-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee2-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/C/fee2-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/C/fee2-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee2-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee2-summary.json": {
+      "sha256": "04bf9ac6cb8b8c3e2ee160c4af3cc25103986713af721c2c733f6ff065340490",
+      "size": 1535
+    },
+    "accounts/C/fee2-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee3-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/C/fee3-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/C/fee3-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee3-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/fee3-summary.json": {
+      "sha256": "b1a08345f8180c9b0c8dfc88423f5d5564c41680ad1c6429f3f4c4a4d92fc0c1",
+      "size": 1536
+    },
+    "accounts/C/fee3-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/main-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/C/main-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/C/main-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/main-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/main-summary.json": {
+      "sha256": "df19b538aa6c51d419b637c343c72579b0966412a52b23e0af4d05954083c035",
+      "size": 1536
+    },
+    "accounts/C/main-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/slip2-curve.parquet": {
+      "sha256": "54bf4f40e02f3a91cfc61b1d2d5ded65baba1dfc879076a62c9fb1ff96293517",
+      "size": 2853278
+    },
+    "accounts/C/slip2-daily.csv": {
+      "sha256": "a761137e02c720fe2901334ab7844704e0c112303de848ff4919bdac470d5c38",
+      "size": 9976
+    },
+    "accounts/C/slip2-entries.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/slip2-funding.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    "accounts/C/slip2-summary.json": {
+      "sha256": "c743111ef1ae1a3b271215bab0b839e17880ce6186e28e358cd8ea76c4c62dcf",
+      "size": 1536
+    },
+    "accounts/C/slip2-trades.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    }
+  },
+  "audit_passed": true
+}

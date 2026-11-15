@@ -1,0 +1,20 @@
+{
+  "archive_samples": [
+    {
+      "id": "opening|ADAUSDT|1704670200000|-1",
+      "contract": "ADAUSDT",
+      "day": "2024-01-07"
+    },
+    {
+      "id": "opening|LINKUSDT|1705209300000|1",
+      "contract": "LINKUSDT",
+      "day": "2024-01-14"
+    },
+    {
+      "id": "opening|XRPUSDT|1718731800000|-1",
+      "contract": "XRPUSDT",
+      "day": "2024-06-18"
+    }
+  ],
+  "count": 3
+}

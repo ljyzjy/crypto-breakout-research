@@ -1,0 +1,91 @@
+{
+  "sample_count": 4,
+  "sample_verified": 4,
+  "samples": [
+    {
+      "symbol": "BTCUSDT",
+      "open_time": 1706642100000,
+      "day": "2024-01-30",
+      "status": "verified",
+      "daily_minute_sha256": "4c442182b428db26a4d8bc4dc9c6868911752f3a020c867d398d1f0154adbb18",
+      "minute_ohlc": [
+        43366.8,
+        43454.1,
+        43366.7,
+        43415.4
+      ],
+      "quarter_ohlc": [
+        43366.8,
+        43454.1,
+        43366.7,
+        43415.4
+      ],
+      "minute_count_sum": 17566,
+      "quarter_count": 17566
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open_time": 1711236600000,
+      "day": "2024-03-23",
+      "status": "verified",
+      "daily_minute_sha256": "021b1befc0b5bd7837fb41a469a8c1eb9ae17d531e3858b773ca858becdb8828",
+      "minute_ohlc": [
+        64450.0,
+        64520.3,
+        64369.0,
+        64413.1
+      ],
+      "quarter_ohlc": [
+        64450.0,
+        64520.3,
+        64369.0,
+        64413.1
+      ],
+      "minute_count_sum": 29314,
+      "quarter_count": 29314
+    },
+    {
+      "symbol": "ETHUSDT",
+      "open_time": 1706642100000,
+      "day": "2024-01-30",
+      "status": "verified",
+      "daily_minute_sha256": "743e0a7f8bca6b95868e0daa2a2a2dd91ca2add7d8b25993256db9d20f4bf507",
+      "minute_ohlc": [
+        2371.12,
+        2373.4,
+        2368.11,
+        2371.97
+      ],
+      "quarter_ohlc": [
+        2371.12,
+        2373.4,
+        2368.11,
+        2371.97
+      ],
+      "minute_count_sum": 18078,
+      "quarter_count": 18078
+    },
+    {
+      "symbol": "ETHUSDT",
+      "open_time": 1711236600000,
+      "day": "2024-03-23",
+      "status": "verified",
+      "daily_minute_sha256": "122df0decd1da41c960848f00b8dccd6f9055f28a8649acda21abc01cf07d998",
+      "minute_ohlc": [
+        3361.92,
+        3365.04,
+        3357.76,
+        3360.11
+      ],
+      "quarter_ohlc": [
+        3361.92,
+        3365.04,
+        3357.76,
+        3360.11
+      ],
+      "minute_count_sum": 22926,
+      "quarter_count": 22926
+    }
+  ],
+  "note": "Both timeframe archives are from the same exchange; this is a four-sample aggregation check."
+}

@@ -1,0 +1,158 @@
+{
+  "plan_sha256": "0efe3a89ba0a53aac72ed880ec111709f73f9989fb532e23c5148e9e46ac9e65",
+  "sources": {
+    "2024_BTCUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\BTCUSDT_klines.parquet",
+      "sha256": "34e5dcff96469f5378956c0a5c3a97eb0495cfae8a9bc1c2ac1f7a760f49d191"
+    },
+    "2024_ETHUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\ETHUSDT_klines.parquet",
+      "sha256": "cc332aafd9e4464c3b82d9fdc24bf037a8b14b380d84e8c2f996e2436fc236ae"
+    },
+    "2024_SOLUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\SOLUSDT_klines.parquet",
+      "sha256": "4527d47bf762cf5d6662497bed007bbdd406ed39fdfb7ae0bd107e872187e8b8"
+    },
+    "2024_XRPUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\XRPUSDT_klines.parquet",
+      "sha256": "a321ee0450ad82d44b35028ada5416aba14330f156374d9c46c4d8e8881ae587"
+    },
+    "2024_DOGEUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\DOGEUSDT_klines.parquet",
+      "sha256": "e52c66845de808d731c5dbfc9ae265164289f2441d6ac041ff206ebfdfb7aebd"
+    },
+    "2024_BNBUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\BNBUSDT_klines.parquet",
+      "sha256": "3ba73afc73b668c4cb77ce3098f524fec9801da67029501960f4f60837bdd1b4"
+    },
+    "2024_ADAUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\ADAUSDT_klines.parquet",
+      "sha256": "cced21028ec7709bf7cd58287d00a721a84053bc3ec73df1a5d9ec3b0b20966c"
+    },
+    "2024_LINKUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\LINKUSDT_klines.parquet",
+      "sha256": "39b730be23e493c7f29c08328f4a29107d57e348915c21969fb0b1a8ec1d4574"
+    },
+    "2024_AVAXUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\AVAXUSDT_klines.parquet",
+      "sha256": "8ae8053420ce7850c434ba2336e7acb51b1ffac11fd28231dd57651b1b99e51a"
+    },
+    "2024_LTCUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\LTCUSDT_klines.parquet",
+      "sha256": "9771d27a5fad11784ebf5d896ebf172daa52a3ced71e889a07b8f58a7040579d"
+    },
+    "2024_NEARUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_2024_11\\normalized\\NEARUSDT_klines.parquet",
+      "sha256": "664a0a646d91f84cce3125591601ec23c17282ebb92447abef932e02d495452e"
+    },
+    "2026_BTCUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\BTCUSDT_klines.parquet",
+      "sha256": "5f9dba8a4ab1e60daef7351e3fe85e10c29f4729b0c2b391ca6ebdb4a51f808e"
+    },
+    "2026_ETHUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\ETHUSDT_klines.parquet",
+      "sha256": "f88f3b3b1e11ce43d5b8304c4584021a4fb8d29bb2a87dde87b0d76097743939"
+    },
+    "2026_SOLUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\SOLUSDT_klines.parquet",
+      "sha256": "acd82bc8cb3e018ee2e2d84f21121ed5352ff27b1993840f46462ed98b4db57f"
+    },
+    "2026_XRPUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\XRPUSDT_klines.parquet",
+      "sha256": "7265158e3d9405e20fec245549b9f0eab53c4c9724da52eb15b61238be6d6b65"
+    },
+    "2026_DOGEUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\DOGEUSDT_klines.parquet",
+      "sha256": "3116c92e45e93c29156721c7d2347db80ed53b5982751bbfa97e949fa0721ebf"
+    },
+    "2026_BNBUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\BNBUSDT_klines.parquet",
+      "sha256": "90b617d864128c0d6359be48b92d017510b8ba7630d60bfa52245dde3d88387d"
+    },
+    "2026_ADAUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\ADAUSDT_klines.parquet",
+      "sha256": "33e9ed0815d602ffa92c7debd74443e675bbadcf2432ff04765d5164019e2428"
+    },
+    "2026_LINKUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\LINKUSDT_klines.parquet",
+      "sha256": "19bc48251793e919e5fbaab739778bf1b2bfbd55e85bffef128f388072ecb4ee"
+    },
+    "2026_AVAXUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\AVAXUSDT_klines.parquet",
+      "sha256": "105ad6f1a219937aae819b84a5f02f8b2a960a07a33c245005723bfa7c00a5ac"
+    },
+    "2026_LTCUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\LTCUSDT_klines.parquet",
+      "sha256": "3602532720b006dd193d729406bae6ceb979a5eaa8e516fec0157c3bd5c2db04"
+    },
+    "2026_NEARUSDT": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\breakout_forward_2026\\normalized\\NEARUSDT_klines.parquet",
+      "sha256": "7e85aa6aaf6118abd3d68932e2d9a32c8096305424f7bb84dc440cff8871c419"
+    }
+  },
+  "code": {
+    "prepare": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\prepare_fixed11_chunked.py",
+      "sha256": "7872b64bbec18dc33b600958ac241d1c0ceb9170ef34b64625e1506162ab761a"
+    },
+    "minutes": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\minute_features_fixed11.py",
+      "sha256": "705b6998697b09c52bff13984cd373a941c8719f8ac222f550411b8ff834473d"
+    },
+    "hourly": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十一轮_历史动态池小时数据\\prepare_hourly.py",
+      "sha256": "99cad6190a45bd43c12fde76f86bbb4878fcab43bc6de20dd04f8770bac7512d"
+    },
+    "flow": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\flow_research.py",
+      "sha256": "3099b26790e3582eeabce782eea2a87f61f9ce00f22bde2b87c1fc2c14b9da5d"
+    },
+    "relaxed": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\大突破柱高杠杆研究_v1\\放宽入场研究\\run_relaxed.py",
+      "sha256": "83d8d144776886eaf309b702f847d6a62342d2a51ad3d26acf39fbc1fdd03fbd"
+    },
+    "leverage_study": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\大突破柱高杠杆研究_v1\\run_leverage_study.py",
+      "sha256": "6dece2eba9f93757dc2c9446ff88a73e88381a037c755fd4467f89f9888c3f49"
+    },
+    "forward": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破胜率与净收益前瞻检验_v1\\forward_research.py",
+      "sha256": "41f6091a77ed139e68a1d759a9be34195bf3a7187a9082213a7fd05d1f84579e"
+    },
+    "prior_features": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破柱融合研究_v1\\research.py",
+      "sha256": "b30eb09c69ea972fe6f79eb2335ea10e48b097ce542d22746805bfd5d6ed6373"
+    },
+    "market_filter": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十轮_BTC_ETH事前活跃度\\market_decisions.py",
+      "sha256": "dd1370b1a935cd11823d8dc898b12485110ecd106e2fc62fe9c62268c024c56a"
+    },
+    "chunk_engine": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\chunk_exact.py",
+      "sha256": "51e26ad262f9c010c6c0f25e07dea6104d61deb5bc6de0ce4c731ad9ba88c70d"
+    },
+    "chunk_feature": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\minute_features_chunked.py",
+      "sha256": "4e4ce48c447856938398376fc0710d6f271d263e5dd414bd0fd933c20c5c51e0"
+    },
+    "chunk_test": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\test_chunk_parity.py",
+      "sha256": "1690b8c5e380587c930aa284f3259eb932158217729e0520f8ced871d5600eae"
+    },
+    "chunk_test_result": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\小块算法一致性核验.json",
+      "sha256": "25042b4a65f42476cb2e421298dbfbb90dd65b04f3a990c2576d8658ba3d1793"
+    }
+  },
+  "support": {
+    "2024_source_manifest": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\2024公开档案校验清单.json",
+      "sha256": "a5609f382f4185dc9a0ebf48d683a84bf0a4bd4f849c4ded861da6675f9dab7c"
+    },
+    "2026_source_manifest": {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破胜率与净收益前瞻检验_v1\\公开数据校验清单.json",
+      "sha256": "1ddce7f98d49f0e567e029f08cad5b03ee526b79c671104ff995ee3f9d8417cf"
+    }
+  },
+  "note": "Same source periods and rules; small-block implementation passed two full-array parity samples."
+}

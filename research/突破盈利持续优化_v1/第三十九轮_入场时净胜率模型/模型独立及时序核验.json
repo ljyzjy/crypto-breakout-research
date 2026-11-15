@@ -1,0 +1,55 @@
+{
+  "training_checks": [
+    {
+      "leverage": 10,
+      "training_events": 230,
+      "training_wins": 61,
+      "maximum_abs_gradient": 6.499438070974983e-08
+    },
+    {
+      "leverage": 20,
+      "training_events": 217,
+      "training_wins": 57,
+      "maximum_abs_gradient": 3.1476505409078204e-08
+    }
+  ],
+  "validation_counts": [
+    {
+      "period": "2024_may_jun",
+      "leverage": 10,
+      "scored": 99,
+      "selected": 0,
+      "source_unknown": 17,
+      "max_probability": 0.43481768203533566
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 20,
+      "scored": 95,
+      "selected": 0,
+      "source_unknown": 17,
+      "max_probability": 0.39911769205797315
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 10,
+      "scored": 30,
+      "selected": 0,
+      "source_unknown": 10,
+      "max_probability": 0.418473795884055
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 20,
+      "scored": 24,
+      "selected": 0,
+      "source_unknown": 10,
+      "max_probability": 0.33879401981195545
+    }
+  ],
+  "synthetic_future_fields_perturbed": true,
+  "predictions_unchanged": true,
+  "validation_paths_not_loaded_by_predictor": true,
+  "all_checks_pass": true,
+  "note": "Arithmetic and dependency checks do not validate calibration or overcome historical selection bias."
+}

@@ -1,0 +1,888 @@
+{
+  "training_initial_unknown": 50,
+  "strict_no_order_reconciled": 12,
+  "remaining_unknown": 38,
+  "rows": [
+    {
+      "variant": "normal_2r_10x",
+      "verified_events_unchanged": 94,
+      "verified_wins_unchanged": 19,
+      "known_no_order_reconciled": 12,
+      "remaining_unknown_events": 38,
+      "optimistic_unit_win_rate_upper_pct": 43.18181818181818
+    },
+    {
+      "variant": "fast_2r_10x",
+      "verified_events_unchanged": 94,
+      "verified_wins_unchanged": 8,
+      "known_no_order_reconciled": 12,
+      "remaining_unknown_events": 38,
+      "optimistic_unit_win_rate_upper_pct": 34.84848484848485
+    },
+    {
+      "variant": "normal_2r_20x",
+      "verified_events_unchanged": 88,
+      "verified_wins_unchanged": 18,
+      "known_no_order_reconciled": 12,
+      "remaining_unknown_events": 38,
+      "optimistic_unit_win_rate_upper_pct": 44.44444444444444
+    },
+    {
+      "variant": "fast_2r_20x",
+      "verified_events_unchanged": 88,
+      "verified_wins_unchanged": 8,
+      "known_no_order_reconciled": 12,
+      "remaining_unknown_events": 38,
+      "optimistic_unit_win_rate_upper_pct": 36.507936507936506
+    }
+  ],
+  "resolved_source_records": [
+    {
+      "observation_id": "opening|BNBUSDT|1709853300000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "1ae314de6aa317b184682cb54cfeb212cc134733233d1f361eae25724187504a",
+      "contract": "BNBUSDT",
+      "day": "2024-03-07",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-03-07",
+          "sha256": "c809180172e443c65de5f9e864b47cc7163653a096d5e1872a8b100a488fcb76",
+          "bytes": 57506
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-07",
+          "sha256": "a79453445ad08b2a95c33484940a7bbc25b082b17e42fef57d0b7f58788cc820",
+          "bytes": 6636150
+        },
+        {
+          "kind": "trades",
+          "day": "2024-03-07",
+          "sha256": "b9288b3d201480fa717ce0a3ce9a8baaa4d3aab4e717b1052dd5761ddd27a0be",
+          "bytes": 14877671
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|BNBUSDT|1709853300000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1709853335434,
+          477.12
+        ],
+        "five_second_reference": [
+          1709853340874,
+          476.65
+        ],
+        "aggregate_flow": [
+          14162.035,
+          83474.9415
+        ],
+        "raw_flow": [
+          14162.035,
+          83474.9415
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1709853335434,
+          "signal_close": 477.12,
+          "entry_exec_ts": 1709853340874,
+          "raw_entry_5s": 476.65,
+          "five_count": 60,
+          "buy_notional": 14162.035,
+          "sell_notional": 83474.9415,
+          "five_imbalance": -0.7099042697210108,
+          "stop_price": 474.44521428571426,
+          "level": 477.11,
+          "score": 4.035392640759353,
+          "rvol": 3.0104559750500695,
+          "rank": 1,
+          "liquidity_rank": 11
+        }
+      }
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1707782400000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "4b7efc074004f0fdd6215fec278d3b2fce705a6fa2c6a1065e3899397193755b",
+      "contract": "ETHUSDT",
+      "day": "2024-02-13",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-02-13",
+          "sha256": "c72903a05d47d8e1857aa1295bfd50e435d98ef8d1e5104a0fed22496737d1a2",
+          "bytes": 63386
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-13",
+          "sha256": "f241b44f8985f1a92c7f4aca20ff8ffdb7502cf5a5f297cdeeaf24e23fb345f5",
+          "bytes": 15181519
+        },
+        {
+          "kind": "trades",
+          "day": "2024-02-13",
+          "sha256": "5c4ea67dcece70a5ee956a9c0c29c938f701b3444c4d2b6c9acfff86f990c3ea",
+          "bytes": 34996466
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|ETHUSDT|1707782400000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1707782457242,
+          2667.75
+        ],
+        "five_second_reference": [
+          1707782462259,
+          2665.03
+        ],
+        "aggregate_flow": [
+          2641979.58336,
+          4158459.22902
+        ],
+        "raw_flow": [
+          2641979.5833600005,
+          4158459.22902
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1707782457242,
+          "signal_close": 2667.75,
+          "entry_exec_ts": 1707782462259,
+          "raw_entry_5s": 2665.03,
+          "five_count": 605,
+          "buy_notional": 2641979.58336,
+          "sell_notional": 4158459.22902,
+          "five_imbalance": -0.22299732230503908,
+          "stop_price": 2655.973,
+          "level": 2667.74,
+          "score": 2.795384871166817,
+          "rvol": 2.5404047042935263,
+          "rank": 2,
+          "liquidity_rank": 2
+        }
+      }
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1707902880000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "1a5c9bae51f5f72b9bfbbd455de9be49a96a1f7366d139ea7e70d6766e30afc8",
+      "contract": "ETHUSDT",
+      "day": "2024-02-14",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-02-14",
+          "sha256": "550910c4d12802e4f0fa25f5bad54716fd7a2b1e9b7479749b181ffd7db1cb8b",
+          "bytes": 63357
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-14",
+          "sha256": "9dcb6348a8e7a62436e8d25ff727f0e0e1ae7aa8d051ad3ae89e85eecfdf53a2",
+          "bytes": 14284905
+        },
+        {
+          "kind": "trades",
+          "day": "2024-02-14",
+          "sha256": "e1d42f32f45ed98764c1d804aabe04a8dae8d2404866aab10a53b4f464408f07",
+          "bytes": 32536839
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "touch|ETHUSDT|1707902880000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1707902903600,
+          2734.88
+        ],
+        "five_second_reference": [
+          1707902908600,
+          2733.38
+        ],
+        "aggregate_flow": [
+          6408140.97344,
+          5549265.09555
+        ],
+        "raw_flow": [
+          6408140.97344,
+          5549265.095549999
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1707902903600,
+          "signal_close": 2734.88,
+          "entry_exec_ts": 1707902908600,
+          "raw_entry_5s": 2733.38,
+          "five_count": 867,
+          "buy_notional": 6408140.97344,
+          "sell_notional": 5549265.09555,
+          "five_imbalance": 0.07182794269380753,
+          "stop_price": 2724.2771428571427,
+          "level": 2734.87,
+          "score": 4.1769064836272305,
+          "rvol": 4.858997524403829,
+          "rank": 3,
+          "liquidity_rank": 2
+        }
+      }
+    },
+    {
+      "observation_id": "touch|FILUSDT|1710472920000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "f26c049f8f772ed47c990bf2bcab8b1beda07c91f3d4ac44537a0eb94e1a00cc",
+      "contract": "FILUSDT",
+      "day": "2024-03-15",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-03-15",
+          "sha256": "cf8f825db22693ba7ad0b02327a226e9fb37ccd90de529e293ef5cc346481796",
+          "bytes": 55551
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-15",
+          "sha256": "3518ee357595498b17617515b024cfaed97d3abb652434c080341eb5d45a44e2",
+          "bytes": 6825077
+        },
+        {
+          "kind": "trades",
+          "day": "2024-03-15",
+          "sha256": "c24fdba6faed8b576e7fea704d3947f2c6011aba0aaed85827c4315a589ca45f",
+          "bytes": 18308879
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "touch|FILUSDT|1710472920000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1710472949107,
+          9.628
+        ],
+        "five_second_reference": [
+          1710472954136,
+          9.684
+        ],
+        "aggregate_flow": [
+          419915.71650000004,
+          262981.4848
+        ],
+        "raw_flow": [
+          419915.7165,
+          262981.4848
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": -1,
+          "decision_ts": 1710472949107,
+          "signal_close": 9.628,
+          "entry_exec_ts": 1710472954136,
+          "raw_entry_5s": 9.684,
+          "five_count": 375,
+          "buy_notional": 419915.71650000004,
+          "sell_notional": 262981.4848,
+          "five_imbalance": -0.22980652344342833,
+          "stop_price": 9.7899,
+          "level": 9.629,
+          "score": -3.2596123416148144,
+          "rvol": 3.1789900850411095,
+          "rank": 1,
+          "liquidity_rank": 10
+        }
+      }
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1704834840000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "343b5025afe0e14658eab40a72ad9cd1000ac00f1087fa3f529af2aa46f3f624",
+      "contract": "XRPUSDT",
+      "day": "2024-01-09",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-01-09",
+          "sha256": "722a6c4a4537796a090bda3c9e397b78ac4055fe391261e3148f0bc778b2ed1c",
+          "bytes": 56248
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-01-09",
+          "sha256": "cca4dcf59545ab5c7bf20330f96f8ad253e9632e73dde4f20d8db3266ce58caf",
+          "bytes": 3314276
+        },
+        {
+          "kind": "trades",
+          "day": "2024-01-09",
+          "sha256": "0484aed7e242e253a162ec75ac01c5a1a48e3d0b9c15be83df3f17f16a49fa0a",
+          "bytes": 12724659
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "touch|XRPUSDT|1704834840000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1704834859064,
+          0.5776
+        ],
+        "five_second_reference": [
+          1704834864124,
+          0.5773
+        ],
+        "aggregate_flow": [
+          144736.06749999998,
+          183241.58412
+        ],
+        "raw_flow": [
+          144736.0675,
+          183241.58411999998
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1704834859064,
+          "signal_close": 0.5776,
+          "entry_exec_ts": 1704834864124,
+          "raw_entry_5s": 0.5773,
+          "five_count": 114,
+          "buy_notional": 144736.06749999998,
+          "sell_notional": 183241.58412,
+          "five_imbalance": -0.11740286702404079,
+          "stop_price": 0.5723021428571428,
+          "level": 0.5775,
+          "score": 2.9324113083777372,
+          "rvol": 2.4787901094887745,
+          "rank": 1,
+          "liquidity_rank": 10
+        }
+      }
+    },
+    {
+      "observation_id": "opening|ARBUSDT|1704240900000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "e7ca1c46ec40ce02b8ae327ffb1fc4134acc66aba631df10b7fbb3f2b3935b42",
+      "contract": "ARBUSDT",
+      "day": "2024-01-03",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-01-03",
+          "sha256": "026ca642df9d75bfc0c5216f9d87108c3f2ceacfde2e60cbf6df08c358f844a3",
+          "bytes": 64635
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-01-03",
+          "sha256": "f33606c4500c9d40b6ae4067bea3bcb7e8271aaa1f9d1aab70a46cb54eea259a",
+          "bytes": 28461394
+        },
+        {
+          "kind": "trades",
+          "day": "2024-01-03",
+          "sha256": "a38cbb18daf9a7213db692fb44768ef5640a7422db2eebd90f44487b3cc60785",
+          "bytes": 59209255
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|ARBUSDT|1704240900000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1704240946877,
+          1.8188
+        ],
+        "five_second_reference": [
+          1704240951927,
+          1.8169
+        ],
+        "aggregate_flow": [
+          14469.454679999999,
+          33147.26688
+        ],
+        "raw_flow": [
+          14469.454679999999,
+          33147.26688
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1704240946877,
+          "signal_close": 1.8188,
+          "entry_exec_ts": 1704240951927,
+          "raw_entry_5s": 1.8169,
+          "five_count": 50,
+          "buy_notional": 14469.454679999999,
+          "sell_notional": 33147.26688,
+          "five_imbalance": -0.39225321668701635,
+          "stop_price": 1.8038578571428572,
+          "level": 1.8187,
+          "score": 1.5672714809457944,
+          "rvol": 2.6664356119515595,
+          "rank": 1,
+          "liquidity_rank": 17
+        }
+      }
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1712564100000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "7423880e87dbe358c6889ee88208870d14b6f552c64463af2afa89d4c9f03e4e",
+      "contract": "XRPUSDT",
+      "day": "2024-04-08",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-04-08",
+          "sha256": "fc4f3a842dac6e891245bd33390615715078b1f15bb5fe25f231606c6d1a3af7",
+          "bytes": 55845
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-04-08",
+          "sha256": "9858763acbf3dff8fecd9c968da8df42e42241c0fccd80fccdb0733594442804",
+          "bytes": 2966415
+        },
+        {
+          "kind": "trades",
+          "day": "2024-04-08",
+          "sha256": "32ae16cad2e313c32f9ebd884b3d7288205eb5ae7facec354f78430adeee1875",
+          "bytes": 11391569
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|XRPUSDT|1712564100000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1712564100737,
+          0.6063
+        ],
+        "five_second_reference": [
+          1712564106005,
+          0.6064
+        ],
+        "aggregate_flow": [
+          62237.1955,
+          118393.118
+        ],
+        "raw_flow": [
+          62237.1955,
+          118393.11800000002
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1712564100737,
+          "signal_close": 0.6063,
+          "entry_exec_ts": 1712564106005,
+          "raw_entry_5s": 0.6064,
+          "five_count": 62,
+          "buy_notional": 62237.1955,
+          "sell_notional": 118393.118,
+          "five_imbalance": -0.3108886953241102,
+          "stop_price": 0.6037057142857143,
+          "level": 0.6062,
+          "score": 3.65872591862284,
+          "rvol": 2.0912263272645815,
+          "rank": 3,
+          "liquidity_rank": 7
+        }
+      }
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1710886500000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "0a35bc40082ab2196b78e6597993e802f769e491507c4e6f2fa7a81a40bfe651",
+      "contract": "SOLUSDT",
+      "day": "2024-03-19",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-03-19",
+          "sha256": "e67a367d5d67a946e9ab6440e4dbe9d987ab91b6ae4af2ef549938702dc1ce56",
+          "bytes": 59948
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-19",
+          "sha256": "bb8b971fc9d8816536f18b5b8dfd1717edd4a3b414d0f05a8d99570caecc0a39",
+          "bytes": 46888681
+        },
+        {
+          "kind": "trades",
+          "day": "2024-03-19",
+          "sha256": "c7feeb78e7ffe146772e8c87cc54d41f2ddb037cfa0d642cf7b28f81984e8c32",
+          "bytes": 57258811
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|SOLUSDT|1710886500000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1710886551536,
+          170.023
+        ],
+        "five_second_reference": [
+          1710886556758,
+          170.063
+        ],
+        "aggregate_flow": [
+          286583.48,
+          525989.385
+        ],
+        "raw_flow": [
+          286583.48000000004,
+          525989.385
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": -1,
+          "decision_ts": 1710886551536,
+          "signal_close": 170.023,
+          "entry_exec_ts": 1710886556758,
+          "raw_entry_5s": 170.063,
+          "five_count": 351,
+          "buy_notional": 286583.48,
+          "sell_notional": 525989.385,
+          "five_imbalance": 0.2946269993891564,
+          "stop_price": 170.77207142857142,
+          "level": 170.024,
+          "score": -2.9455288673916544,
+          "rvol": 1.6252616795566328,
+          "rank": 1,
+          "liquidity_rank": 3
+        }
+      }
+    },
+    {
+      "observation_id": "opening|1000PEPEUSDT|1709468100000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "6c2f4b76bc1765f8e2fc0144bdeaab81667d548b5079681b4b78c02bbd23bebc",
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-03",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-03-03",
+          "sha256": "8dac6ae743c5ea10549558069d3c44413586c6c20de7c28e6b9af831e3f25de5",
+          "bytes": 70801
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-03",
+          "sha256": "b20a78cc755ac7e0878bafef45bb738fb3d5aeef4c0ce6aac92ad9f614975cbc",
+          "bytes": 73467635
+        },
+        {
+          "kind": "trades",
+          "day": "2024-03-03",
+          "sha256": "ad39fe2a99067569954c55b8d4d2120d19869ce0503a1767b94d69c0f7ef27c3",
+          "bytes": 134151255
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|1000PEPEUSDT|1709468100000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1709468152900,
+          0.0056117
+        ],
+        "five_second_reference": [
+          1709468157913,
+          0.0056063
+        ],
+        "aggregate_flow": [
+          931918.1039752001,
+          683816.0185577
+        ],
+        "raw_flow": [
+          931918.1039752001,
+          683816.0185577001
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1709468152900,
+          "signal_close": 0.0056117,
+          "entry_exec_ts": 1709468157913,
+          "raw_entry_5s": 0.0056063,
+          "five_count": 1966,
+          "buy_notional": 931918.1039752001,
+          "sell_notional": 683816.0185577,
+          "five_imbalance": 0.15355378212138254,
+          "stop_price": 0.005460071428571429,
+          "level": 0.0056115,
+          "score": 5.750915709219259,
+          "rvol": 47.42567925786298,
+          "rank": 1,
+          "liquidity_rank": 8
+        }
+      }
+    },
+    {
+      "observation_id": "touch|ADAUSDT|1709339160000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "54510bda5864cfe096efc5c67a333feb3fd895134c187728dd2de87645d3fb2c",
+      "contract": "ADAUSDT",
+      "day": "2024-03-02",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-03-02",
+          "sha256": "043c4201774dc59f1f01728750f92168d17c84724b4207ae5bab8e0acd09eba7",
+          "bytes": 54755
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-02",
+          "sha256": "bc84f53f8c6fbdff9ac73f7f7787c516ec406a1b8765e0045c6a915fcfd6f518",
+          "bytes": 3962736
+        },
+        {
+          "kind": "trades",
+          "day": "2024-03-02",
+          "sha256": "07be7d006de10e0c1f86b60e2b3617ca32335d7e6fe7b5ce62dbc16945f23013",
+          "bytes": 12425045
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "touch|ADAUSDT|1709339160000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1709339193971,
+          0.7511
+        ],
+        "five_second_reference": [
+          1709339198972,
+          0.7503
+        ],
+        "aggregate_flow": [
+          831828.9051999999,
+          795525.8814
+        ],
+        "raw_flow": [
+          831828.9052,
+          795525.8814
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1709339193971,
+          "signal_close": 0.7511,
+          "entry_exec_ts": 1709339198972,
+          "raw_entry_5s": 0.7503,
+          "five_count": 563,
+          "buy_notional": 831828.9051999999,
+          "sell_notional": 795525.8814,
+          "five_imbalance": 0.02230799583405359,
+          "stop_price": 0.7429685714285714,
+          "level": 0.751,
+          "score": 4.556678541227382,
+          "rvol": 3.8201072294456915,
+          "rank": 1,
+          "liquidity_rank": 15
+        }
+      }
+    },
+    {
+      "observation_id": "touch|AVAXUSDT|1706100060000",
+      "no_order_status": "flow_filter_not_met",
+      "checkpoint_sha256": "16bef739878a8a7ad30a1c75403e067671f960555cf724c0076c35afecdee6dd",
+      "contract": "AVAXUSDT",
+      "day": "2024-01-24",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-01-24",
+          "sha256": "cccfb313966bb07165b43304f8b7e36af59bad14e3380ad065053c03d4327935",
+          "bytes": 52302
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-01-24",
+          "sha256": "235a2e6422d4937cbb1f437971c44efdf57b516de71f37fd426d022bb9b0dccc",
+          "bytes": 5299391
+        },
+        {
+          "kind": "trades",
+          "day": "2024-01-24",
+          "sha256": "6ad9a62159925d6c811a060c09baa92d5c80ae2280dc4b7fcc7b256858d1ce16",
+          "bytes": 8939898
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "touch|AVAXUSDT|1706100060000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1706100060988,
+          31.799
+        ],
+        "five_second_reference": [
+          1706100066071,
+          31.792
+        ],
+        "aggregate_flow": [
+          224109.963,
+          346800.68999999994
+        ],
+        "raw_flow": [
+          224109.963,
+          346800.69
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "flow_filter_not_met",
+          "side": 1,
+          "decision_ts": 1706100060988,
+          "signal_close": 31.799,
+          "entry_exec_ts": 1706100066071,
+          "raw_entry_5s": 31.792,
+          "five_count": 530,
+          "buy_notional": 224109.963,
+          "sell_notional": 346800.68999999994,
+          "five_imbalance": -0.2149035516420815,
+          "stop_price": 31.410742857142857,
+          "level": 31.798,
+          "score": 3.089948503926788,
+          "rvol": 1.6782447432202423,
+          "rank": 1,
+          "liquidity_rank": 12
+        }
+      }
+    },
+    {
+      "observation_id": "opening|WLDUSDT|1708822800000",
+      "no_order_status": "known_risk_rejected",
+      "checkpoint_sha256": "cc0ea8d9c676665ce645454577ab84528979eacbfef4be85a12d6c043eda787f",
+      "contract": "WLDUSDT",
+      "day": "2024-02-25",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-02-25",
+          "sha256": "c23d3f8298c765e48a9617c7c96b4f9e3e74dfedf6857e9999cce252ed5351dc",
+          "bytes": 60034
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-25",
+          "sha256": "571d0f0dc787f84fb7d8574c7b8accd7ec871fe412580ec2c68353bc3e316703",
+          "bytes": 26834123
+        },
+        {
+          "kind": "trades",
+          "day": "2024-02-25",
+          "sha256": "333838a1f0b09fd64c30b983dc608afa7c84f4b962dd0399e2a8b0b75e8cfa07",
+          "bytes": 35055710
+        }
+      ],
+      "strict_reconciliation": {
+        "observation_id": "opening|WLDUSDT|1708822800000",
+        "reconciled": true,
+        "original_mismatch": "minute_trade_ohlc_mismatch",
+        "resolution": "raw_confirms_open_only",
+        "raw_matches_kline": true,
+        "aggregate_open_only": true,
+        "first_cross": [
+          1708822828000,
+          8.4728
+        ],
+        "five_second_reference": [
+          1708822833026,
+          8.5023
+        ],
+        "aggregate_flow": [
+          1138922.8745,
+          334941.45879999996
+        ],
+        "raw_flow": [
+          1138922.8745,
+          334941.4588
+        ],
+        "paths_checked": [],
+        "outcome": {
+          "status": "known_risk_rejected",
+          "side": 1,
+          "decision_ts": 1708822828000,
+          "signal_close": 8.4728,
+          "entry_exec_ts": 1708822833026,
+          "raw_entry_5s": 8.5023,
+          "five_count": 1241,
+          "buy_notional": 1138922.8745,
+          "sell_notional": 334941.45879999996,
+          "five_imbalance": 0.5454921443820246,
+          "stop_price": 8.419136428571429,
+          "level": 8.4727,
+          "score": 1.3644327051715388,
+          "rvol": 6.05910313844889,
+          "rank": 2,
+          "liquidity_rank": 4,
+          "prechecks": {
+            "10": "reference_deviation_known",
+            "20": "reference_deviation_known"
+          },
+          "paths": {}
+        }
+      }
+    }
+  ],
+  "rule_sha256": "c090c0a06df7fa0a5a72ace5f1ff5283e12720600f3eec12fbff613d4a7ff3c3",
+  "note": "Known subset and net amounts unchanged. Unknown payoff magnitudes are not imputed; not shared-account performance."
+}

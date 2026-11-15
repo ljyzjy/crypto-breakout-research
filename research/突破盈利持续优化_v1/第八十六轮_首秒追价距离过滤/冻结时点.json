@@ -1,0 +1,25 @@
+{
+  "plan_sha256": "df8652e124fdfeaab3f9ce7696e4dfb92ecc41680b966b3d84388bc3a9961eea",
+  "sources_sha256": {
+    "r79_freeze": "9d228efe4cdee8ba0c64c076fad4c0acc1752c6ce557150bab8927e05f9aea33",
+    "r81_freeze": "16883d773d9555e7db160489f63a056cda88492bc438e61e440aca96cdc8736c",
+    "r81_combined": "f0d33c96516f3a389225b6a1790471f92ac33b1c600e888f0c89854e40f7c041",
+    "r81_audit": "cdc4941ffa8a45696aa8eb4401e1d669e64044e296c4296b827758c1731bb283",
+    "r82_freeze": "bcf94231b9e3c9fdc90fcf40456e1fac9575946de9663d3de123c7587937168a",
+    "r82_combined": "409f1e2f5f415735bca7452dbcfb85e15a0213ed88e60179e11b51b1593992b2",
+    "r82_audit": "1645f80d30a3fe080b5d4dd845655443c6ae376ab2fa8f61ac7095b246ecb1e1",
+    "r82_detail": "d227e737d82334e2423a72d7a56452c08c910b0682e7f4edee9d362409a8416d"
+  },
+  "source_paths": {
+    "r79_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十九轮_完成周线趋势\\冻结时点.json",
+    "r81_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十一轮_八至十月一秒观察\\冻结结果\\冻结哈希.json",
+    "r81_combined": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十一轮_八至十月一秒观察\\四时段等名义合并.json",
+    "r81_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十一轮_八至十月一秒观察\\四时段合并独立核验.json",
+    "r82_freeze": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\冻结结果\\冻结哈希.json",
+    "r82_combined": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\四时段持仓量合并.json",
+    "r82_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\四时段持仓量合并独立核验.json",
+    "r82_detail": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\持仓量过滤逐笔.csv"
+  },
+  "frozen_utc": "2026-11-14T20:07:42.546486+00:00",
+  "note": "One causal 0.05% extension gate, frozen after seeing prior exploratory results."
+}

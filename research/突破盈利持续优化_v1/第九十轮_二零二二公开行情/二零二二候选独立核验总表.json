@@ -1,0 +1,90 @@
+{
+  "all_checks_pass": true,
+  "inputs_unchanged": true,
+  "candidate_quality_sha256": "8c938cf2a1c5abd485e3886f1b9339b3911f4c79aa4840a45a63834d3832fcb0",
+  "rank_audit_sha256": "215df3672395d58e8e958f71ff19383fa849d08b00208e7bcdb41656905982d7",
+  "event_audit_sha256": "0d287928c89ad4a12e69a3db8d462478d550da3f70a13a5fab9f9d3bf4a4d8ec",
+  "rank_source_sha256": "1e59c371bb394a4ea516bb7cac92322ed7c1de447d98835453f69507885a8d28",
+  "event_source_sha256": "af0091a0e22533cd097d468e3f0c12d4ea006900f5f77e59bdb288bc1a359e0b",
+  "wrapper_sha256": "0fec1246318e3e9d6cce137714833b356a2c7bfd95d141021a17922b75b4136b",
+  "sources": [
+    {
+      "symbol": "BTCUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\BTCUSDT_klines.parquet",
+      "sha256": "ce445883bcfe5de2570a8b2be179032874e7ec9102cfd93a5d4e83896d56fccb",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BTCUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\ETHUSDT_klines.parquet",
+      "sha256": "dd7f94a8b8eeac91616b4c4e9e91757ac130aad6d277993f221d9081edde0e45",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ETHUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\SOLUSDT_klines.parquet",
+      "sha256": "103029078c38b82152468953c2f733920984c92150f0119d8d1016ad3414257c",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\SOLUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\XRPUSDT_klines.parquet",
+      "sha256": "82c302b0176c394435078228576671b6c3790d19311bdcaa0f32de557a18680f",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\XRPUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\DOGEUSDT_klines.parquet",
+      "sha256": "a9a63fc4c079a0929152d705a93397a1ef600164d2d04904b937c834e7191ebe",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\DOGEUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\BNBUSDT_klines.parquet",
+      "sha256": "17b5260d07386e0255071fbdc96782fa9326e24f6f94f9cabfe0139661e0ee04",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BNBUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\ADAUSDT_klines.parquet",
+      "sha256": "194c123b1b2fc1b2ba8c493b4a06d66c67f04f44069962ea10039dc99f9aeb94",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ADAUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\LINKUSDT_klines.parquet",
+      "sha256": "e21a14567838ffac04b684a12fde3573d2184d9fc1d5af02a610a0e77d793207",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\LINKUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\AVAXUSDT_klines.parquet",
+      "sha256": "aacef1298ab47570b98d8fd5d8b34f377fd97ab21a207019a8f49e910084831c",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\AVAXUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\LTCUSDT_klines.parquet",
+      "sha256": "e969695f19c13fdd7d73109c7a5112dff59220b0da0681bb10a1281955034c4f",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\LTCUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_final_audit_links\\NEARUSDT_klines.parquet",
+      "sha256": "1fd022b7c5e43a9c946b9bd2408815731bdbb12d847fbee07cae9d0677870021",
+      "source": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized_daily_repaired\\NEARUSDT_klines.parquet",
+      "kind": "read_only_hardlink"
+    }
+  ],
+  "note": "Sampled independent rank/source checks; unknown rank hours remain unknown."
+}

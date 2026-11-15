@@ -1,0 +1,6 @@
+{
+  "fees_and_funding_recomputed": true,
+  "minute_mark_proxy_can_flag": true,
+  "missing_mark_and_funding_are_errors": true,
+  "boundary_funding_credit_is_not_assumed": true
+}

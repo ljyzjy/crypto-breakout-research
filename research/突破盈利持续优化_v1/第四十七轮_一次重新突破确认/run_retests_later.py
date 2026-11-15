@@ -1,0 +1,108 @@
+"""Replay frozen 2024/2026 no-order candidates using checksum-verified diskless tapes."""
+import hashlib,json,shutil,sys,time
+from pathlib import Path
+import numpy as np,pandas as pd,psutil
+import public_tape_stream as direct
+import retest_decision
+H=Path(__file__).resolve().parent;P=H.parent;ROOT=P.parent.parent;I=H/'跨期冻结输入';M=60_000
+OLD=P/'第三十三轮_动态池逐笔执行';sys.path.insert(0,str(OLD));import extract_dynamic_tapes as engine
+WORK=ROOT/'work'/'retest47_later'/'tape';WORK.mkdir(parents=True,exist_ok=True)
+FP=hashlib.sha256(Path(__file__).read_bytes()+(H/'冻结研究方案.md').read_bytes()+(H/'跨期输入冻结哈希.json').read_bytes()+
+                  (H/'public_tape_stream.py').read_bytes()+(H/'retest_decision.py').read_bytes()+
+                  (OLD/'leveraged_paths.py').read_bytes()).hexdigest()
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def key_for(spec):
+    symbol,day,needs,events=spec
+    return hashlib.sha256((FP+'|'+symbol+'|'+day+'|'+str(needs)+'|'+'|'.join(sorted(x['observation_id'] for x in events))).encode()).hexdigest()
+def guard():
+    if shutil.disk_usage(ROOT).free<2_200_000_000:raise RuntimeError('disk_headroom')
+    if psutil.virtual_memory().available<250*1024**2:raise RuntimeError('memory_headroom')
+def archive_index(needed):
+    index={};records=json.loads((I/'provenance.json').read_text(encoding='utf-8'))
+    for record in records:
+        obs=record['observation_id']
+        if obs not in needed:continue
+        if record['source']=='reused_tape':
+            file=Path(record['old_checkpoint']);old=json.loads(file.read_text(encoding='utf-8'))
+            assert old['status']=='verified' and next(x for x in old['rows'] if x['observation_id']==obs)['status']=='flow_filter_not_met'
+            archives=old['archives'];checkpoint=str(file)
+        elif record['source']=='new_tape':archives=record['archives'];checkpoint=None
+        else:continue
+        daily=next(x for x in archives if x['kind']=='klines')
+        aggs={x['day']:x['sha256'] for x in archives if x['kind']=='aggTrades'}
+        assert obs not in index
+        index[obs]={'daily_sha256':daily['sha256'],'agg_sha256':aggs,'checkpoint':checkpoint}
+    return index
+def task(spec,old_index):
+    contract,day,needs,events=spec;file=WORK/(key_for(spec)+'.json')
+    if file.exists():return json.loads(file.read_text(encoding='utf-8'))
+    error=''
+    for attempt in range(3):
+      try:
+        while psutil.virtual_memory().available<500*1024**2:
+            if shutil.disk_usage(ROOT).free<2_200_000_000:raise RuntimeError('disk_headroom')
+            time.sleep(3)
+        guard();body,bar=engine.archive('klines',contract,day);bars=engine.minute_bars(body,day);del body
+        folder='breakout_2024_11' if day[:4]=='2024' else 'breakout_forward_2026'
+        norm=pd.read_parquet(ROOT/'work'/folder/'normalized'/f'{contract}_klines.parquet',columns=['ts','open','high','low','close']).set_index('ts')
+        statuses={};usable=[]
+        for e in events:
+            obs=e['observation_id'];prior=old_index.get(obs)
+            if not prior:statuses[obs]='old_archive_provenance_missing';continue
+            if prior['daily_sha256']!=bar['sha256']:statuses[obs]='official_day_source_changed';continue
+            times=range(int(e['quarter_start']),int(e['trigger_minute'])+M,M);cols=['open','high','low','close']
+            a=norm.reindex(times)[cols].to_numpy(float);b=bars.reindex(times)[cols].to_numpy(float)
+            if not np.isfinite(a).all() or not np.isfinite(b).all() or not np.allclose(a,b,rtol=1e-9,atol=1e-12):statuses[obs]='daily_monthly_ohlc_mismatch';continue
+            usable.append(e)
+        archives=[bar];blocks={e['observation_id']:[] for e in usable};dates=[day]
+        if needs:dates.append((pd.Timestamp(day,tz='UTC')+pd.Timedelta(days=1)).strftime('%Y-%m-%d'))
+        for date in dates:
+            if not usable:break
+            windows={e['observation_id']:(int(e['trigger_minute']),int(e['quarter_end'])+60_000) for e in usable}
+            extracted,meta=direct.fetch(contract,date,windows,guard);archives.append(meta)
+            for e in usable:
+                obs=e['observation_id'];prior=old_index[obs]
+                if prior['agg_sha256'].get(date)!=meta['sha256']:statuses[obs]='official_agg_source_changed'
+                else:blocks[obs].extend(extracted[obs])
+        rows=[]
+        for e in events:
+            obs=e['observation_id']
+            if obs in statuses:rows.append({'observation_id':obs,'status':statuses[obs]});continue
+            if not blocks[obs]:rows.append({'observation_id':obs,'status':'missing_event_tape'});continue
+            tape=pd.concat(blocks[obs],ignore_index=True).sort_values(['transact_time','agg_trade_id'],kind='mergesort')
+            rows.append({'observation_id':obs,**retest_decision.decide(e,tape)})
+        result={'contract':contract,'day':day,'needs_next':needs,'status':'verified','archives':archives,'rows':rows}
+        guard();tmp=file.with_suffix('.partial');tmp.write_text(json.dumps(result,ensure_ascii=False,allow_nan=False),encoding='utf-8');tmp.replace(file);return result
+      except Exception as exc:
+        error=type(exc).__name__+':'+str(exc)[:150]
+        if 'headroom' in error or 'stream_cap' in error or 'window_exceeds' in error:break
+        if attempt<2:time.sleep(attempt+1)
+    return {'contract':contract,'day':day,'needs_next':needs,'status':'error','error':error,
+            'rows':[{'observation_id':e['observation_id'],'status':'archive_error'} for e in events]}
+def main():
+    frozen=json.loads((H/'跨期输入冻结哈希.json').read_text(encoding='utf-8'));assert sha(H/'冻结研究方案.md')==frozen['plan_sha256']
+    for n,v in frozen['inputs'].items():assert sha(I/n)==v
+    synthetic=json.loads((H/'无落盘逐笔读取合成核验.json').read_text(encoding='utf-8'))
+    real=json.loads((H/'无落盘逐笔读取真实样本核验.json').read_text(encoding='utf-8'))
+    decision=json.loads((H/'一次重试合成时序核验.json').read_text(encoding='utf-8'))
+    assert synthetic['all_checks_pass'] and real['all_checks_pass'] and decision['all_checks_pass']
+    assert synthetic['stream_code_sha256']==real['stream_code_sha256']==sha(H/'public_tape_stream.py')
+    d=pd.concat([pd.read_parquet(I/'2024_retry_candidates.parquet'),pd.read_parquet(I/'2026_retry_candidates.parquet')],ignore_index=True)
+    assert len(d)==sum(x['candidates'] for x in frozen['counts'].values()) and d.observation_id.is_unique
+    needed=set(d.observation_id);index=archive_index(needed)
+    tasks=[(sym,day,bool(n),g.to_dict('records')) for (sym,day,n),g in d.groupby(['contract','day','needs_next'])]
+    tasks.sort(key=lambda x:(x[1],x[0]));done=0;errors=[]
+    print('RETEST47_LATER_TASKS',len(tasks),'events',len(d),'old_provenance',len(index),flush=True)
+    for spec in tasks:
+        if shutil.disk_usage(ROOT).free<2_200_000_000:break
+        z=task(spec,index)
+        if z['status']!='verified':
+            errors.append({'contract':z['contract'],'day':z['day'],'error':z.get('error')})
+            if 'headroom' in z.get('error',''):break
+        done+=1
+        if done%5==0:print('RETEST47_LATER_TAPES',done,'/',len(tasks),'errors',len(errors),flush=True)
+    out={'processed_tasks':done,'total_tasks':len(tasks),'errors':errors,'fingerprint':FP,
+         'free_bytes':shutil.disk_usage(ROOT).free,'note':'Missing and unresolved groups remain unknown; source prices are not actual fills.'}
+    (H/'跨期重试逐笔进度.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+    print('RETEST47_LATER_STOP',json.dumps(out,ensure_ascii=False),flush=True)
+if __name__=='__main__':main()

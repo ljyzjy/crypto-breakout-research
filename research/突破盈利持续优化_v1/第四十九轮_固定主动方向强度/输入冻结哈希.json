@@ -1,0 +1,26 @@
+{
+  "plan_sha256": "6d8053b9dd66f02b3c31521c7745d2bfa7e275e5a89b4324d92dfccfd4261dc9",
+  "inputs": {
+    "retry_audit.json": "7d80e8ec2eb4ef02c1660a66c23dd6b480964ecae3956b64fa1ac2e2195d3498",
+    "causality_audit.json": "bfc4c04e040a009d35343ab7908f668574457108cc62c686a79d345497927b5f",
+    "2023_baseline_signal.parquet": "8fceee9d3d77d3e25d121dba4d97b9926a5566c66477a5fc5b9997814324a80a",
+    "2023_baseline_paths.parquet": "f96e0afe0b9c66ddef37266511c9fcda053b8b59a74e4d70b8f75e026e327851",
+    "2023_baseline_ledger.parquet": "e4004655f7df4e8bc704240ad92fec3091fa80b7a282a8a2a3c48bd4d7e8eeac",
+    "2023_retry_signal.parquet": "9a419f23c2134f8573f1f80ccacb91aebc9d7869f9aa01ff33de2c03d7052a94",
+    "2023_retry_paths.parquet": "64e0ec5a3f51a75822dc02bb86c190a30ee8c07099d492127a3df51edf17ceeb",
+    "2023_retry_ledger.parquet": "c9ebdd7407620281c74acd5138bc9f38623153fa3132b9a6a5f014ff5581f2cb",
+    "2024_baseline_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "2024_baseline_paths.parquet": "e77545628df4b4d7df413ee4c1039fabbfcff9784b9ab2f2bacd783a01e4722c",
+    "2024_baseline_ledger.parquet": "61b420c0fb1040328fa19e0d4783ab3ed08f89338ac260b99f688fbdb8ec4c8e",
+    "2024_retry_signal.parquet": "af09a82d15a27e5dd791345c85c3305c80a15604c40187e4adf8cb712aeed2d0",
+    "2024_retry_paths.parquet": "fd2ca0d827e0541de0143dad3a738c5056db5f1e85c5c9764692f96de1677d96",
+    "2024_retry_ledger.parquet": "8b6ab9f73513a3736082d0422898dd0c238e277eedbb4e3cc01fe4bdd123b1e3",
+    "2026_baseline_signal.parquet": "2240ab7e39c47af0c56689205fc5dd76c4dc03a0210f44e91a2551b01ae09c96",
+    "2026_baseline_paths.parquet": "bddf79bef80c45756d3ba0289bf1c3b5ff42de983ad91c745338c8d65f7f1eb5",
+    "2026_baseline_ledger.parquet": "1f1e91271c34e7fd30b41bc8f4694852ed64dfead1efe4db12dafe0a23479579",
+    "2026_retry_signal.parquet": "8023aa0fe9c17129c9df94b5d35fe9c2676801623740fd7f58665c9387061db3",
+    "2026_retry_paths.parquet": "16190fdd1689ade6c926489623f875a26e652ffa2eb03fc2fa2415c7ec6b0def",
+    "2026_retry_ledger.parquet": "4a16aaecc370cbc000dbe44de30957543f48937b406310790b326950407b555b"
+  },
+  "note": "Single threshold fixed after unstratified results, before this conditional analysis."
+}

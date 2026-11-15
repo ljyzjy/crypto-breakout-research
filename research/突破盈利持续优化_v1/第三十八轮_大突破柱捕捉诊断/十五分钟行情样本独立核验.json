@@ -1,0 +1,102 @@
+{
+  "samples": [
+    {
+      "contract": "1000BONKUSDT",
+      "quarter_start": 1704784500000,
+      "day": "2024-01-09",
+      "status": "verified",
+      "minute_sha256": "e1f4aaa82be0e628fe666cd67bde9895759b648e3289a8a83f6093eaa194826c",
+      "ohlc_from_minutes": [
+        0.013389,
+        0.013763,
+        0.013375,
+        0.013611
+      ],
+      "monthly_quarter_ohlc": [
+        0.013389,
+        0.013763,
+        0.013375,
+        0.013611
+      ]
+    },
+    {
+      "contract": "BAKEUSDT",
+      "quarter_start": 1704124800000,
+      "day": "2024-01-01",
+      "status": "verified",
+      "minute_sha256": "6d8bae97b40223c7de9a0e7b6435b6a17ec6ffac785254e287c5d5c12431fe43",
+      "ohlc_from_minutes": [
+        0.5415,
+        0.552,
+        0.5401,
+        0.5501
+      ],
+      "monthly_quarter_ohlc": [
+        0.5415,
+        0.552,
+        0.5401,
+        0.5501
+      ]
+    },
+    {
+      "contract": "FILUSDT",
+      "quarter_start": 1709523900000,
+      "day": "2024-03-04",
+      "status": "verified",
+      "minute_sha256": "86dcf729ebc066cf74dfa6b9ccd03de07d4ef8efcc551738403b17f41aa7980c",
+      "ohlc_from_minutes": [
+        10.141,
+        10.154,
+        10.059,
+        10.099
+      ],
+      "monthly_quarter_ohlc": [
+        10.141,
+        10.154,
+        10.059,
+        10.099
+      ]
+    },
+    {
+      "contract": "SEIUSDT",
+      "quarter_start": 1708427700000,
+      "day": "2024-02-20",
+      "status": "verified",
+      "minute_sha256": "af63d90b53566888959fecbc31db7c9b1be7d4bb6b25be25a1dace8354ca413a",
+      "ohlc_from_minutes": [
+        0.9353,
+        0.9383,
+        0.9295,
+        0.9306
+      ],
+      "monthly_quarter_ohlc": [
+        0.9353,
+        0.9383,
+        0.9295,
+        0.9306
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "quarter_start": 1714363200000,
+      "day": "2024-04-29",
+      "status": "verified",
+      "minute_sha256": "b5faa660cd5895cab159ea13900d46816a32e20241a6d91d4eb3a0324c757fa8",
+      "ohlc_from_minutes": [
+        0.5032,
+        0.5064,
+        0.501,
+        0.5064
+      ],
+      "monthly_quarter_ohlc": [
+        0.5032,
+        0.5064,
+        0.501,
+        0.5064
+      ]
+    }
+  ],
+  "sample_count": 5,
+  "sample_pass": 5,
+  "note": "A deterministic sample only; both timeframes originate from the same public exchange archives."
+}

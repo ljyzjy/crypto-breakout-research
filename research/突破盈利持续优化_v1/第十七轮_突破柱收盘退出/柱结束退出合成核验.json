@@ -1,0 +1,6 @@
+{
+  "long_short": true,
+  "quarter_close_plus_full_minute": true,
+  "gap_stop_priority": true,
+  "disabled_rule_old_engine_parity": true
+}

@@ -1,0 +1,26 @@
+{
+  "independent_overlap_groups": 2,
+  "samples": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-07",
+      "events": 1,
+      "statuses": [
+        "qualified"
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-08",
+      "events": 2,
+      "statuses": [
+        "minute_trade_ohlc_mismatch",
+        "flow_filter_not_met"
+      ]
+    }
+  ],
+  "all_fields_match": true,
+  "original_fp": "54990489da74db535f040776ae695a64a2f7246eb126537226c765a7c6d34681",
+  "stream_fp": "81e2689c6ae481d3b1590aa1b8d56781a66430b6d212fe39b983f57f7bd7fa86",
+  "note": "Two sample groups only; production remains separately fingerprinted and disagreements must remain unknown."
+}

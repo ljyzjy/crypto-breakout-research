@@ -1,0 +1,10 @@
+{
+  "signal_feature_rows": 1156,
+  "rank_checks": 1156,
+  "reused_event_checks": 666,
+  "accounts_checked": 10,
+  "trade_records_checked": 971,
+  "partial_exits_checked": 300,
+  "training_selection_reproduced": true,
+  "scope": "Prior 15m features, 18-pool causal ranking, 5s flow, cost, partial exits and account ledger."
+}

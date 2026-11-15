@@ -1,0 +1,6 @@
+{
+  "resolved_no_order_checked": 12,
+  "bounds_checked": 4,
+  "all_checks_pass": true,
+  "note": "Only already-verified no-order provenance is reused; unknown PnL is not filled in."
+}

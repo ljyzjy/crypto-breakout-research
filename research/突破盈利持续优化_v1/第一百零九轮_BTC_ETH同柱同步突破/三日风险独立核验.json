@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "sources_checked": 8,
+  "unresolved_source_groups": [],
+  "path_classifications_checked": 208,
+  "risk_settlements_checked": 72,
+  "ledger_sha256": "c0d034e885fe159b46e545fc0116f160800bf4594582c8bff982e7faebf57adc",
+  "source_sha256": "2f681dfcf73a43c5a4e9bfd03e9f7abf584d878ef54c90904e18b3b2c024f1d0",
+  "audit_code_sha256": "1050207630d17c2a6bdcaa76286ddde9f48f8c9879a8b28c59d85d5f3747f364",
+  "note": "Official archives re-downloaded; unknown groups remain unknown; mark prices are minute-level proxies."
+}

@@ -1,0 +1,14 @@
+{
+  "checked_opportunity_paths": 1596,
+  "distinct_opportunities": 399,
+  "funding_events_recomputed": 7,
+  "max_net_fraction_error": 1.734723475976807e-18,
+  "liquidation_proxy_paths": 0,
+  "entry_exit_timing_and_fee": true,
+  "entry_and_exit_slippage": true,
+  "funding_recomputed_from_original_normalized": true,
+  "minute_mark_risk_recomputed_independently": true,
+  "train_end_uses_clock_embargo": true,
+  "frozen_train_selection_checked": true,
+  "scope": "Historical unit paths only; no shared-account or actual fill validation."
+}

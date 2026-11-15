@@ -1,0 +1,88 @@
+{
+  "plan_sha256": "c9fa821f3bf7f8933be0c3c6df180eb35ff815980641adc8674f2c802eff28df",
+  "r81_frozen_sha256": "16883d773d9555e7db160489f63a056cda88492bc438e61e440aca96cdc8736c",
+  "signals_sha256": "7b94ec50586be9c0bfcde89b3bc19232d6fd0a837e2fa09fa58b6f2bc51e3d70",
+  "candidate_sha256": "a3972fc48f834f9adafe0d74500d1e114f43f69c378ad8df854f32a3fed107ba",
+  "r81_runner_sha256": "ef78e09b2e0f844c1d2e82e2f2d4eaabd8bfa222d1b1ed2eaf2fce751b6aa3ef",
+  "one_second_engine_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+  "reference_check_sha256": "60936a8a59c6c930943dcee5b2b557313f599ab90f463b2d8ea20dabecd41311",
+  "candidates": [
+    {
+      "observation_id": "opening|BNBUSDT|1787213700000",
+      "contract": "BNBUSDT",
+      "day": "2026-08-20",
+      "checkpoint": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs81_aug_oct\\tape\\fc72a4a63430a821276e84eb17f654e99f3532c6043952914fa86a7c87f77c71.json",
+      "checkpoint_sha256": "0f5a6ce1355628cdd6bb9ef4ff31b80f1516b48d345f0233e60955bfbeb3874b",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-08-20",
+          "sha256": "419e4934a950dbfd8e5b70161d8e4de856c2d48dd4f0c5d9406418039ad4393f",
+          "bytes": 55741
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-08-20",
+          "sha256": "8ba3c23bc456a4a0ad0532bd2bba78602b9fba6aabad14b99751280c28684fc3",
+          "bytes": 4869281,
+          "windows": {
+            "opening|BNBUSDT|1787213700000": 13029
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1787618700000",
+      "contract": "SOLUSDT",
+      "day": "2026-08-25",
+      "checkpoint": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs81_aug_oct\\tape\\302f77dc4960f0f212556beb191e10e4469acd194653faac67da655ff3631a71.json",
+      "checkpoint_sha256": "de6af0b1991ee417007a9f2f88b7225412e8c21ca22098255fc8e08bbf199a75",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-08-25",
+          "sha256": "27234792c2154ed47f2eb50830a7dd72109e4756776094df7398e09ac5b1ae9b",
+          "bytes": 59264
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-08-25",
+          "sha256": "28399e6c28e6330d1f7ceea0eba2b765731f139e93bb17b0237d323c7226de22",
+          "bytes": 7020944,
+          "windows": {
+            "opening|SOLUSDT|1787618700000": 13307
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1787819400000",
+      "contract": "SOLUSDT",
+      "day": "2026-08-27",
+      "checkpoint": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\oneobs81_aug_oct\\tape\\6eecb74f0d5ff54b352f0ca848560cc4f4439f89610b0c9e569c0529ab7b11ff.json",
+      "checkpoint_sha256": "cebd3504a3f7c952b8b164f6e85c6ab24605f0beac9f6f59c184c71f45804a9e",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-08-27",
+          "sha256": "c3a61d9a3b11848f1bf368f6b255ed69fd3ea0ad12c3bc61dd00de319afa538f",
+          "bytes": 59713
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-08-27",
+          "sha256": "e4effbbd0ce1c5690534c33b07caf17f1be54d0fe228fb92cb7f2428e086d935",
+          "bytes": 8217983,
+          "windows": {
+            "opening|SOLUSDT|1787819400000": 11245
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    }
+  ],
+  "frozen_utc": "2026-11-14T19:49:08.182724+00:00",
+  "note": "All three unknown candidates, fixed before raw-data results."
+}

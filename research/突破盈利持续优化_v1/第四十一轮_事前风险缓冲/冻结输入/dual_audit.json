@@ -1,0 +1,24 @@
+{
+  "candidate_market_decisions_checked": 680,
+  "groups": [
+    {
+      "leverage": 10,
+      "verified": 26,
+      "wins": 11,
+      "unknown": 7,
+      "known_no_order": 647
+    },
+    {
+      "leverage": 20,
+      "verified": 24,
+      "wins": 10,
+      "unknown": 7,
+      "known_no_order": 649
+    }
+  ],
+  "maximum_net_fraction_error": 1.0408340855860843e-16,
+  "sample_ohlc_and_trade_counts_verified": 4,
+  "all_checks_pass": true,
+  "cost_decomposition_checked": true,
+  "note": "No account concurrency or realized broker fills reconstructed; prior source checks and unknowns persist."
+}

@@ -1,0 +1,21 @@
+{
+  "year": 2026,
+  "raw_potential_events": 858,
+  "hourly_rank_rows": 3669,
+  "post_hour_and_market_candidates": 39,
+  "candidate_market_statuses": {
+    "allowed": 39
+  },
+  "unique_raw_quarters": 528,
+  "market_quarter_statuses": {
+    "known_no_order": 401,
+    "allowed": 127
+  },
+  "source_hashes": {
+    "raw": "71a51331549af0f0ff251adc7e254a3e16dc803f1c532dc721e3d745468b75e3",
+    "ranks": "bdcf9ac88ef819172eb937dbdc6c927a9658c383490af4f6689dae4a3956f58a",
+    "market": "b1f6c7c0e884a4df6fd7157695eed4d56426fdb041294c1740fd3c33eaa3fd63",
+    "candidates": "5cb306b51d89ed496c80af87a58438d1daf66770054755332efc028164f13c6c"
+  },
+  "note": "Causal candidate locations only; no inferred tick direction, order or PnL."
+}

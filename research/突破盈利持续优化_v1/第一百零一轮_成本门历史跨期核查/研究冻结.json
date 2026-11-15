@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-11-14T22:38:37.809300+00:00",
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零一轮_成本门历史跨期核查\\研究方案.md": "7ddb377d7ece9e7779dc44915fc7a75f5dd427340eda4c595da91c8b39700b1d",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十九轮_成本相对波幅门\\研究冻结.json": "8c544b9270ab2b5c70ee87e88dd09e1dbc2cb560b527017facaaedd411cfc312",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\冻结时点.json": "0dd7d9421af3b30d3c7dabcaf5053a930bada570ac9281756d98ff64a21099d3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\run_expanded_walkforward.py": "3b5a2f9ecb214cd82289d67709f1d24a8d340e8bca8e60ddaa4d7c27b28315d6",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\扩充滚动模型独立核验.json": "3e3c3f228605a5acf771473978bcc7a8e4c0494db06ac0eed772908f16723576",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\冻结时点.json": "4c5ebf8f732cbdce89636d1b032dd12f4bb3940e4afb5c9eab4eeb9592e67422",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\run_walkforward.py": "68d6708f1c5c24af3fd1a82e85b591ac46ed00cef719bfc07b634e33370f3919"
+  },
+  "periods": [
+    "2023",
+    "2024",
+    "2026",
+    "2026_aug_oct"
+  ],
+  "gate": 0.004,
+  "note": "Threshold fixed before this calculation. All periods already studied; aggregate trades, non-blind."
+}

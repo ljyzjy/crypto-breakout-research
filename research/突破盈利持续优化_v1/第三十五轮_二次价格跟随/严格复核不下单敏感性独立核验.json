@@ -1,0 +1,7 @@
+{
+  "strict_no_order_records_checked": 12,
+  "remaining_unknown": 38,
+  "four_unit_win_bounds_checked": 4,
+  "all_checks_pass": true,
+  "note": "No raw archives were redownloaded in this sensitivity check; previously verified checkpoint hashes were matched."
+}

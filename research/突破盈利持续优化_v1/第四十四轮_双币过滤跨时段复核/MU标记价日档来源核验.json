@@ -1,0 +1,25 @@
+{
+  "monthly_sha256": "314e26802229959bdb92335066b22e35a872f77bd41f3fc4ecd32f2afcbd1190",
+  "daily_sha256": "38ca01108b7a42e1cd717cab86bfba7924b68541bc1f18e013a07e11c8e96029",
+  "monthly_rows": 41760,
+  "daily_rows": 1440,
+  "overlap_rows": 0,
+  "overlap_agrees": true,
+  "needed_minutes": 9,
+  "absent_from_month": 9,
+  "missing_available_in_day": 9,
+  "repair_safe": true,
+  "needed_timestamps": [
+    1782740940000,
+    1782741000000,
+    1782741060000,
+    1782741120000,
+    1782741180000,
+    1782741240000,
+    1782741300000,
+    1782741360000,
+    1782741420000
+  ],
+  "daily_local_path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\point_in_time_universe33\\risk_cross44_repair\\MUUSDT-1m-2026-06-29.zip",
+  "note": "Only missing official daily mark minutes can be added; conflicting or missing data stays unknown."
+}

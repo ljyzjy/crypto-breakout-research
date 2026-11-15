@@ -1,0 +1,7 @@
+{
+  "simulated_order_records_checked": 368,
+  "filled_records_checked": 346,
+  "unfilled_queue_checks": 14,
+  "max_net_recalculation_error": 0.0,
+  "limits": "Tape and price-time queue assumptions remain shared; this is arithmetic and event-timing QA, not real order-book validation."
+}

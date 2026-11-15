@@ -1,0 +1,336 @@
+{
+  "candidate_events": 14,
+  "event_statuses": {
+    "qualified": 14
+  },
+  "unexpected_event_count": 0,
+  "variant_paths": 28,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-15",
+          "sha256": "a6b812be86e9e6bfb1e89a53288f82f4df7c5d927845f4cc3ab96b287ab386ad",
+          "bytes": 51142
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "968419e362a9e3d2ab7dedaad1eae0b409a40256b3a8305f4ece650b03bffb7b",
+          "bytes": 1688658,
+          "windows": {
+            "opening|ADAUSDT|1781562600000": 1580
+          }
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-06-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-05",
+          "sha256": "1ddb8b2684e20bec85544d18a1716c14b71a10684b812c9ee0f5eb31fde7c118",
+          "bytes": 50282
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-05",
+          "sha256": "449e5c13c7f7a727c49f0794b475cf150c74b4987603855891b3d08378ece860",
+          "bytes": 3862143,
+          "windows": {
+            "touch|AVAXUSDT|1780667700000": 2495
+          }
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2026-07-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-08",
+          "sha256": "d918e0640eac5ccfdbc04ffd0b5188dbb091ab0e51bf562493707beb371c9670",
+          "bytes": 45663
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-08",
+          "sha256": "c0c55c05e4ab2f5666230354810e7cf72c4d2eae15b345687163906673640868",
+          "bytes": 1450298,
+          "windows": {
+            "opening|AVAXUSDT|1783476000000": 5256
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2026-07-02",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-02",
+          "sha256": "1b31b907a2254be5fb38c251e0f54ea27d622e185b3923fd3f07462f9efdfa78",
+          "bytes": 54201
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-02",
+          "sha256": "91744c0658ecff4063ab1096064f7f97eedc079ca0859f52ae8e0f8289f88b11",
+          "bytes": 3752567,
+          "windows": {
+            "touch|BNBUSDT|1782999240000": 9208
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-04",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-05-04",
+          "sha256": "0ec0f28c37d7617b0f26d0f5252fd3ec7053e7b87c020d8e18c831b45dd71256",
+          "bytes": 62765
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-04",
+          "sha256": "6c8831803bdca0d84aa5b8d25895ff8650053e89cdf835ed1e0d185ee162c937",
+          "bytes": 26593711,
+          "windows": {
+            "opening|BTCUSDT|1777860000000": 89039
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-05-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-05-14",
+          "sha256": "d48727cb75597c54d9437c48dc135de08d49324b1b2a5b34c08adfb563f356f5",
+          "bytes": 61762
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-14",
+          "sha256": "048de3d73cbbb5108c06a875a7eeeabcb1b03b5a6328279508f3af682bdd063e",
+          "bytes": 17312630,
+          "windows": {
+            "opening|BTCUSDT|1778778000000": 54322
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2026-06-25",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-25",
+          "sha256": "f876e30759cdea92a2f2c060e51ace5ba76a58b9cf7453bee73039e5d6ab05de",
+          "bytes": 62918
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-25",
+          "sha256": "b72b0b2a8471832e6a2bdc109aacde1c20aacd694890f1be4c4c6ba31c7c60d3",
+          "bytes": 32869208,
+          "windows": {
+            "opening|BTCUSDT|1782395100000": 305510
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-06-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-05",
+          "sha256": "4e2f01de8e135ef24922a5192823d0f8516035f0b7695e41833fea09f614ca4a",
+          "bytes": 59855
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-05",
+          "sha256": "8ec6e1f23770f362ba7e8d933deb9efd5ee0ba1abd009675476490f11e92055b",
+          "bytes": 5604597,
+          "windows": {
+            "touch|DOGEUSDT|1780667580000": 4336
+          }
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2026-07-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-05",
+          "sha256": "0235f131c40b34321c3cf72e43279674dafd98cd353967d1f7c804590d644f12",
+          "bytes": 55420
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-05",
+          "sha256": "4a7c6f2107cbbe50a96a820d59f54a34dc52486ffe20e639dd601eede973a165",
+          "bytes": 1713390,
+          "windows": {
+            "touch|DOGEUSDT|1783290000000": 1841
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-06-02",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-02",
+          "sha256": "4aa0a11aecf0bbf410dd4d14e15684233e7438a390b7e78c991fc81549910dce",
+          "bytes": 64752
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-02",
+          "sha256": "6620e262bdc907172bb9c3e391c5235a9f1a3b87cb14d8bfb4511eb274e3734c",
+          "bytes": 28769981,
+          "windows": {
+            "opening|ETHUSDT|1780441200000": 68560
+          }
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-07-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-27",
+          "sha256": "cad3f674659c7ea9fc849dd33664de6c1ab12b1564fa9c5e9a1edb071583df51",
+          "bytes": 44924
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-27",
+          "sha256": "479a0659756195db99c0dd6a28d242cf2c78c77204e3fd21d4a7b4f73b1ab953",
+          "bytes": 1400866,
+          "windows": {
+            "opening|NEARUSDT|1785193200000": 2312
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2026-07-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-08",
+          "sha256": "67c1fd1875399423ea61a49d1291159ad12db28804ebb77536f3bc454399532a",
+          "bytes": 56550
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-08",
+          "sha256": "0df57801cd2225c65bb6d84abefe990825af9bcf73ae988b256b88b22427a24c",
+          "bytes": 3819551,
+          "windows": {
+            "touch|SOLUSDT|1783476060000": 4437
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-05-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-05-13",
+          "sha256": "b527ca642192c740e51967fe63e03d88c4a46a858498495ffa7d9618b4cdaf98",
+          "bytes": 56715
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-05-13",
+          "sha256": "a53033846ac27f0b8c6204b05d25e23f545947b089b0b81698d427336dc6a3a5",
+          "bytes": 3603057,
+          "windows": {
+            "touch|XRPUSDT|1778679960000": 5322
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-06-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-06-15",
+          "sha256": "a2b161d1ab7c2a997c5268abea03624d32cd5fccc9687262ca47f4504f20f6a7",
+          "bytes": 58096
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "bee4d995c5b823b45bd4837db179c3ff264353cf82b545fa6aa3b3a3a08fcd4f",
+          "bytes": 4813073,
+          "windows": {
+            "touch|XRPUSDT|1781529660000": 4395
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Only causally qualified frozen entries; missing 1R source or paths remain unknown."
+}

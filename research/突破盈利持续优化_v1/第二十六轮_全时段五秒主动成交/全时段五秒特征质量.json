@@ -1,0 +1,11 @@
+{
+  "events": 781,
+  "status_counts": {
+    "verified": 781
+  },
+  "at_least_three": 781,
+  "cohort_counts": {
+    "opening": 530,
+    "later": 251
+  }
+}

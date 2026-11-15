@@ -1,0 +1,11 @@
+st_engine.py SHA256 69c3c370154c6fb1f2549d42267d101dc7dbd3c37e658b6889500330ab5ce51f
+Original simulate function copied; exact substitutions:
+'def simulate(start,end,mode,fee=' -> 'def simulate(start,end,policy,fee='
+'    if mode not in MODES' -> "    if policy not in POLICIES:raise ValueError('Unregistered sizing policy')\n    mode='DailyMomentum'\n    if mode not in MODES"
+"    begin=pd.Timestamp(start,tz='UTC')" -> "    budgets=sizing_frames(data,policy)\n    begin=pd.Timestamp(start,tz='UTC')"
+'    signals={s:signal_frames[s]' -> '    sizes={s:budgets[s].reindex(src).fillna(0).to_numpy(dtype=float) for s in SYMBOLS}\n    signals={s:signal_frames[s]'
+"'qty':p['qty'],'stake':100.,'pnl':pnl" -> "'qty':p['qty'],'stake':p['stake'],'pnl':pnl"
+'                if len(positions)>=2 or cash<100*(1+fee):continue' -> "                stake=float(sizes[s][i])\n                if policy=='inverse_vol_pair':stake=min(stake,max(0.,200-sum(p['stake'] for p in positions.values())))\n                if stake<10 or len(positions)>=2 or cash<stake*(1+fee):continue"
+'qty=100/fill;entryfee=100*fee;cost=100+entryfee' -> 'qty=stake/fill;entryfee=stake*fee;cost=stake+entryfee'
+"'stop':fill*.96,'ts':ts}" -> "'stop':fill*.96,'ts':ts,'stake':stake}"
+"return {'mode':mode,'name':NAMES[mode]" -> "return {'mode':policy,'name':POLICIES[policy]['name']"

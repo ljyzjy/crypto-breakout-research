@@ -1,0 +1,46 @@
+{
+  "sampled_new_archives": 5,
+  "samples": [
+    {
+      "year": 2024,
+      "symbol": "1000RATSUSDT",
+      "month": "2024-03",
+      "hours": 744,
+      "valid_hours": 744,
+      "sha256": "b1e216bf0d28c2cf0aa016b0423dca9bfcd3e270cdd98236802b73c1a3a8d495"
+    },
+    {
+      "year": 2024,
+      "symbol": "MASKUSDT",
+      "month": "2024-03",
+      "hours": 744,
+      "valid_hours": 744,
+      "sha256": "ecf034bdff370151d3133ea74c46eedcdacab1ec393a43199699a07d4b958752"
+    },
+    {
+      "year": 2026,
+      "symbol": "ASTERUSDT",
+      "month": "2026-06",
+      "hours": 720,
+      "valid_hours": 720,
+      "sha256": "85069d15b5699608e7038bcf0c533502b9a25b638d9a8d78bc36bb4e297ed4b8"
+    },
+    {
+      "year": 2026,
+      "symbol": "HUSDT",
+      "month": "2026-06",
+      "hours": 720,
+      "valid_hours": 720,
+      "sha256": "0ed1d6171ced65df2f7acab93f22822af90a2d06a1cc0bfb55c28470ff25ccbf"
+    },
+    {
+      "year": 2026,
+      "symbol": "ZBTUSDT",
+      "month": "2026-06",
+      "hours": 720,
+      "valid_hours": 712,
+      "sha256": "886bc4873ba076e59f67600bf5e56b8dc2969416eb35fa0657ac42ba8cd4fbde"
+    }
+  ],
+  "note": "Samples verify archive bytes and minute-to-hour aggregation, not historical contract identity or profitability."
+}

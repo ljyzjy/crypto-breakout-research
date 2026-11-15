@@ -1,0 +1,25 @@
+{
+  "dry_run": true,
+  "bot_name": "spot-trend-live",
+  "stake_amount": 20,
+  "max_open_trades": 1,
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "pair_whitelist": [
+      "BTC/USDT"
+    ],
+    "pair_blacklist": []
+  },
+  "order_types": {
+    "entry": "market",
+    "exit": "market",
+    "emergency_exit": "market",
+    "stoploss": "limit",
+    "stoploss_on_exchange": true,
+    "stoploss_on_exchange_interval": 60,
+    "stoploss_on_exchange_limit_ratio": 0.99
+  },
+  "db_url": "sqlite:///user_data/live.sqlite"
+}

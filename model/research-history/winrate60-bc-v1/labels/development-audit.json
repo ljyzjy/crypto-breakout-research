@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "('B', 'not_executed_entry_deviation')": 195,
+    "('B', 'not_executed_late_day')": 135,
+    "('B', 'not_executed_pool_changed')": 15,
+    "('B', 'not_executed_stop_cost')": 90,
+    "('B', 'valid')": 1262,
+    "('C', 'not_executed_entry_deviation')": 208,
+    "('C', 'not_executed_late_day')": 162,
+    "('C', 'not_executed_pool_changed')": 10,
+    "('C', 'not_executed_stop_cost')": 109,
+    "('C', 'valid')": 1452
+  },
+  "future_labels_used_to_filter_account": false
+}

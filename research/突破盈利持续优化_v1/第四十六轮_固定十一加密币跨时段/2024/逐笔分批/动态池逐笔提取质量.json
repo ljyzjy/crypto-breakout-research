@@ -1,0 +1,15 @@
+{
+  "candidate_events": 119,
+  "event_statuses": {
+    "flow_filter_not_met": 65,
+    "qualified": 30,
+    "prior_source_disagreement": 10,
+    "known_risk_rejected": 8,
+    "minute_trade_ohlc_mismatch": 6
+  },
+  "unexpected_event_count": 16,
+  "variant_paths": 120,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "Unknown, unresolved and pending opportunities remain explicit; fixed 11 is survivorship-biased."
+}

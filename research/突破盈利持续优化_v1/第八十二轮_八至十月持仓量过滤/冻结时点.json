@@ -1,0 +1,17 @@
+{
+  "plan_sha256": "82995d9932f1a4273520f73e52bcb9737cc0d8e540d4b20f1cee208f8697d740",
+  "prior_inputs_sha256": {
+    "冻结时点.json": "b0bbca3a299a95fea5acc9528817d2a8a5561cfff524d58d1058184b09d7f167",
+    "一秒回放批次/动态池逐笔信号筛查.parquet": "7b94ec50586be9c0bfcde89b3bc19232d6fd0a837e2fa09fa58b6f2bc51e3d70",
+    "一秒回放批次/动态池延迟市价路径.parquet": "c970fc5b37af78292a2d2e4fba3d7c178dd2c3cba4dab35a69c44d75ee45d3a3",
+    "一秒回放批次/动态池单位收益与风险.parquet": "54a48f12b29497caf82f561fa11eb97a1bb56eb06f3c698daff1b47170726db9",
+    "一秒回放批次/风险来源与结算.json": "95e2c1e2ff2939226b5c929f87a583c83272319f164ef3a438cc877a301f617a",
+    "一秒逐笔独立样本核验.json": "cda24d3789b82d403aaa479641ccd8b46e1f02200757b723dc9e24e6ec3475c7"
+  },
+  "local_metrics_sha256": {
+    "BTCUSDT": "4a3a9a7f22230cb56439d84dcdb0e206e191e0d4bda8df71dbecbad051c34aa9",
+    "ETHUSDT": "7e3fc618abc21be3b4523cef2c1442e4a446699eb79f831bcf23e4b28862757a"
+  },
+  "frozen_utc": "2026-11-14T19:38:43.133114+00:00",
+  "note": "Fixed before viewing period one-second PnL; period was used by other project work."
+}

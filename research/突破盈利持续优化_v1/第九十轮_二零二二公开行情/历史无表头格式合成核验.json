@@ -1,0 +1,6 @@
+{
+  "all_checks_pass": true,
+  "legacy_header_and_headerless_rows_equal": 2,
+  "patched_reader_sha256": "02e51584bbe75a4a56b075e416aa2c95ec2fe6db991222b1071a0472cc606d76",
+  "note": "Only CSV header handling changed; full ZIP SHA and original streamed parser retained."
+}

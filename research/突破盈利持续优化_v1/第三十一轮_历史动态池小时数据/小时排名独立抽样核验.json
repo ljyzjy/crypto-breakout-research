@@ -1,0 +1,9 @@
+{
+  "sampled_decision_hours": 24,
+  "manually_recomputed_candidate_indicators": 480,
+  "max_score_absolute_error": 1.6342482922482304e-13,
+  "max_rvol_absolute_error": 0.0,
+  "current_hour_only_uses_closed_hour_bars": true,
+  "daily_candidate_set_enforced": true,
+  "note": "Recomputes from hourly archives; strict constituent-minute completeness remains a separate requirement."
+}

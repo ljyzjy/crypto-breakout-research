@@ -1,0 +1,72 @@
+{
+  "selection": "smallest completed raw archive among known five-second-flow mismatches",
+  "observation_id": "opening|GALAUSDT|1712491200000",
+  "symbol": "GALAUSDT",
+  "day": "2024-04-07",
+  "source_archives": {
+    "klines": {
+      "sha256": "be43c524a1698da8de53937be38a0c887519c1e8152753af994a9235c0484bbe",
+      "bytes": 55173
+    },
+    "trades": {
+      "sha256": "ae57e5c6eb3335c89be8f235cbc5d7224a548a03fa40f1fcb48ecfc1abf776c8",
+      "bytes": 7845618
+    }
+  },
+  "minute_checks": {
+    "open": {
+      "raw": 0.06211,
+      "kline": 0.06211,
+      "close": true
+    },
+    "high": {
+      "raw": 0.06269,
+      "kline": 0.06269,
+      "close": true
+    },
+    "low": {
+      "raw": 0.06198,
+      "kline": 0.06198,
+      "close": true
+    },
+    "close": {
+      "raw": 0.06257,
+      "kline": 0.06257,
+      "close": true
+    },
+    "volume": {
+      "raw": 20511116.0,
+      "kline": 20511116.0,
+      "close": true
+    },
+    "quote_volume": {
+      "raw": 1278897.4970800001,
+      "kline": 1278897.49708,
+      "close": true
+    },
+    "count": {
+      "raw": 3207,
+      "kline": 3207.0,
+      "close": true
+    },
+    "taker_buy_volume": {
+      "raw": 11268381.0,
+      "kline": 11268381.0,
+      "close": true
+    },
+    "taker_buy_quote_volume": {
+      "raw": 702219.0661200001,
+      "kline": 702219.06612,
+      "close": true
+    }
+  },
+  "prior_aggregate_five_second_notional": [
+    34869.022410000005,
+    9531.2613
+  ],
+  "prior_raw_five_second_notional": [
+    34957.02855,
+    9531.2613
+  ],
+  "note": "One data-quality sample only. Count of raw prints and aggregated prints need not coincide; no strategy result."
+}

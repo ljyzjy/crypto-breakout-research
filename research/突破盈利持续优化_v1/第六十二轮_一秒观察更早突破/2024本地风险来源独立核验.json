@@ -1,0 +1,445 @@
+{
+  "all_checks_pass": true,
+  "local_cache_files_checked": 54,
+  "local_rows_checked": 2768,
+  "checks": [
+    {
+      "kind": "markPriceKlines",
+      "contract": "ADAUSDT",
+      "month": "2024-01",
+      "cache_sha256": "a17ca908bb6e305e6d30318bc5064f6365e92e5cf3db91c33eb1c56d7753d967",
+      "source_sha256": "745ab7cd30fd2918e901ffbfac50534fde3c32cd8ed1302347582985caa89436",
+      "rows": 10
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ADAUSDT",
+      "month": "2024-01",
+      "cache_sha256": "3f7568b035e8ebfaab6879a1017e390f28be8d8a533b96219e39612553de0b23",
+      "source_sha256": "556bdb1b34faf97f266989be2a545d49cba0a7862091fa4c9600fd47f10c23c7",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "ADAUSDT",
+      "month": "2024-02",
+      "cache_sha256": "a977d186df657bafd2a99bf7dd5bae57ed3ed74aacc7e27c3efb09045a14f7aa",
+      "source_sha256": "ee1791ac84279b5951b5411fbd6aa49f0e9eafdb0547b2b645197e49aac7c845",
+      "rows": 15
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ADAUSDT",
+      "month": "2024-02",
+      "cache_sha256": "dcbc50141cf166f4d472f25b59aeb38ab5bca1233b25b37f44d8b81d3ec1ff18",
+      "source_sha256": "14ad791ae90a85faa463de8a3732e8298eb6bfbdaf989046d92ab079ff945ac3",
+      "rows": 87
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "ADAUSDT",
+      "month": "2024-04",
+      "cache_sha256": "15f584c10c1cfe774a204e13d92d5ea13d90d7673c58b0a969f89737a3066ad3",
+      "source_sha256": "764ef31e194864fe1bf88dbb3368d7be308bc27684d3c59885a34888b7cf9932",
+      "rows": 9
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ADAUSDT",
+      "month": "2024-04",
+      "cache_sha256": "212973021f18d398bf97b5d6c1e4d4610a83a68dec686996e2b2f5f304f988a1",
+      "source_sha256": "c878ea5f06295a32afce857a7179d59ac1437bb4e56d92bb508f47f6334c8fc0",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2024-01",
+      "cache_sha256": "0581fc8b2e76ac6194a3538dea894a1d81b3b041e15110129ddaf2a95e284ad9",
+      "source_sha256": "6f54d785b2ed994d9ac0ef6eed0cf67b5a76d9af3a862613ad20fa131275657c",
+      "rows": 13
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2024-01",
+      "cache_sha256": "eefa822ee44eecc1eadfcf1b92b7afc5e06c5945acdcc477035b56fee6e2f1f8",
+      "source_sha256": "9a9c5d6c643d591204c1b37597afca3e7b1a6fd5c70f8d831bec3ea3ea14b0f2",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2024-03",
+      "cache_sha256": "80265c002da2ba39cb52635df44464ed2f223456d95682ba35ba465f4d9bbdb8",
+      "source_sha256": "e2c41764156368d52f6e958ad1b861e18bd5f20691f4773a65a29865638ae7c0",
+      "rows": 16
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2024-03",
+      "cache_sha256": "a575bb8497340c681ceec34136df761ae7736f214b2950cbd7ee95c0ccb6dc4d",
+      "source_sha256": "87b586d989e3eda60955d088b110ae83cb6a01b6639c81219e21da05f5624ae0",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2024-04",
+      "cache_sha256": "94f3d6db3c03a5e25aa2db434bf62b124bd8de1ef1102188366f855962b3bcf3",
+      "source_sha256": "41c4ab568ba859d8e5ac92b6dd97ed3a698798c563ed7da8790195249e5d6a8a",
+      "rows": 1
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2024-04",
+      "cache_sha256": "04ce43d13b49d1db4cd30bab664eb0be2fd367c49c44e37ccf531930339205ab",
+      "source_sha256": "e0f5b786406efe3fd4b28f00d446facf672af97bf6787dd9606e6bdedcd25239",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2024-05",
+      "cache_sha256": "19722e15f678a8dc4fbe56df4f40b1cd2602bbeefd9993cc1de5f6a8e770b32f",
+      "source_sha256": "9408f5beab0e1fd0f0c6de3be3fe38e0e8078d666128e3e2eccceb4c496af2bb",
+      "rows": 21
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2024-05",
+      "cache_sha256": "9acbdcfe0e576bbec8f661a9ae287daac2de6b3db8b57e64af6f3352f2471287",
+      "source_sha256": "c070f7da85f78c24e3fb544507ee0064ed53e266401d04c4334c32e59c9be5af",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "AVAXUSDT",
+      "month": "2024-06",
+      "cache_sha256": "04a08c7687a3593045d6546bc2e2900942167f5882ee7bebb4ce246d6da16ea7",
+      "source_sha256": "48b9d5a7d02b9cef1c7533118ef8314ed4201ede1aff7ff34f5c1b26366675b0",
+      "rows": 12
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "AVAXUSDT",
+      "month": "2024-06",
+      "cache_sha256": "ae7ca5544088da6c68d6a45f8051f8062bfc86c1c02cbfb1f9394412598407a0",
+      "source_sha256": "4feaa04c2c4cb1e7f77625314b5a262553aae5574fe93d939ad05b48fd9cbe55",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BNBUSDT",
+      "month": "2024-03",
+      "cache_sha256": "2724027aad70a0da100063616cbeab7c7cbd8525191febe0f5b6b85034740f78",
+      "source_sha256": "abb5538e078b546bdfa64913d852565808c28c03d97011623370bc5abb96c7d4",
+      "rows": 1
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BNBUSDT",
+      "month": "2024-03",
+      "cache_sha256": "aac58bfa7f4485b3c028f3a417bed5bfd46ff8ef49f34f3ed1a1e1a29763b8f8",
+      "source_sha256": "ae596433406d0e00bf66f4430c7f51f8d03b4d2a395949ce29d8765554ad7195",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BNBUSDT",
+      "month": "2024-04",
+      "cache_sha256": "5d9431a0dba237b84bde8f33f9eb7cab22d7a82a0c4194757c29df53a85c5110",
+      "source_sha256": "a7a67a94974308c7d0c3b49ec84d8e37412f478820864698f32989f6cca17c9c",
+      "rows": 6
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BNBUSDT",
+      "month": "2024-04",
+      "cache_sha256": "c6faf728ca7eb10d1689c8352f5c524764c90bc2623f572abedc7c9585b8bdf5",
+      "source_sha256": "97e66b580deae706cbf1b56b21a71668d5587a7db68bf69d01ef1db5045125bd",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BNBUSDT",
+      "month": "2024-05",
+      "cache_sha256": "286b3f3b5b4d69e697a9e41020274b6b0c3af206fcf5a46b6dd0040c4bcdb8e4",
+      "source_sha256": "31b7989de1ce72b37a195d12ca7cc8c11a2ec105901af9926f89a93fe5e13791",
+      "rows": 5
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BNBUSDT",
+      "month": "2024-05",
+      "cache_sha256": "07694817fdf03ce21e4e7b6e82eff0d946b72f74386373273160fecd4c4eba69",
+      "source_sha256": "4ebe1a295be42c705739ff3717b113661513eee0560a17936697568cd2c06ae0",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2024-01",
+      "cache_sha256": "10ba9045eaaf9cb11858853627c07996a95c29ccf50a03ab5c7397e69c903d34",
+      "source_sha256": "1607b1522928d2a698592019fef7c3fcc9bee2cd01674c72a27e7fc028fd66ca",
+      "rows": 10
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2024-01",
+      "cache_sha256": "980d2b3ac9d384d6a1cbc9b498e55c1a732fd189fc35e95b83ca6d3f372dc19b",
+      "source_sha256": "3e0d30870672aa8f0f937881056e3cfd55913ae5c780cd50b33f2763aa0ba58e",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2024-02",
+      "cache_sha256": "0837d383576ed856bbf07972bfe46b1b310a1fa9365158b03da176c15a607799",
+      "source_sha256": "2e6f24f3bc92a7d241d5dbcfc79c54a0aa24b26ad12b4988f61a8c8d93e867fc",
+      "rows": 8
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2024-02",
+      "cache_sha256": "2ac20d60a9500be17dbb571ddc95bb017e0a38619a0dbbd56651a65f266914cf",
+      "source_sha256": "daf1e4901e3d6436d82ad60f90d007eb5300be8047cfef121007203a7212cde6",
+      "rows": 87
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2024-03",
+      "cache_sha256": "fe755eeeaa66f4e1a648eae4c3acb0525df54dda54dcab994051aed88458f877",
+      "source_sha256": "7efa90ed53f47100633253faf45838584d1b148081c57196abf0f884d8452986",
+      "rows": 8
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2024-03",
+      "cache_sha256": "14d1588a4557232fbbba6be40fa7c2f096b7853ebca01d1f01d4ed5cde2a36bd",
+      "source_sha256": "711dcaf2a341aedfd06447b4117b540f60adb0784c5e64a313c718e4cf092bc3",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2024-05",
+      "cache_sha256": "c2e7e8f0c8ef8cd6d575ee9813ec64e9918300e9fc1ffaafaf6a0a5a13386ece",
+      "source_sha256": "479435c79e0e56e3ded959ee47e3fb559720991732735211dd31c192c29924b3",
+      "rows": 27
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2024-05",
+      "cache_sha256": "daceb092d7667b92593afc2c352c6aec05552c436a1e559f771a3936355a8d4a",
+      "source_sha256": "aef8c5fdce1493fd570b5829a72f2f17c7e459483390f25544d16c2a30be592e",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "DOGEUSDT",
+      "month": "2024-05",
+      "cache_sha256": "25740cd2ffaa2dd2c127bd95e28ac5217bb446b9e6308f970e15d8db6db253e4",
+      "source_sha256": "761569d0815730d423fa7ffb364abdd2845b85e7e7e2eac38956ee619e627357",
+      "rows": 1
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "DOGEUSDT",
+      "month": "2024-05",
+      "cache_sha256": "4509edb0df2ffd2011e02818d3807ffed1909e6b61c6dc706237344db40757ea",
+      "source_sha256": "5df5a4bb6733899a885591106626242a3aab4b5ada077b62dd44ac27d14a9e7c",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "DOGEUSDT",
+      "month": "2024-06",
+      "cache_sha256": "382ec757430cd9680f7644fe5623a3a85cc4fbc84a55be0028d7573cb0be36db",
+      "source_sha256": "3a276aed2077509660e00b19a6d2774d0d68b40dd5d97ec7c1e9d309d6c43b9f",
+      "rows": 3
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "DOGEUSDT",
+      "month": "2024-06",
+      "cache_sha256": "d69700ee320012ffdbdf97bfcefc3e3815072a8a14cda7d2e27679d2d055beea",
+      "source_sha256": "c6ba303e7c28db0a2bf2f8121482c7b8813793b860d2ef22ecd08dcd95e8185e",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "ETHUSDT",
+      "month": "2024-04",
+      "cache_sha256": "6a9afd5a5dfc50d22049e9c8a7a6865ea8eeccea49d88244e867a58430495ca2",
+      "source_sha256": "87cf83b12f183d8828499212cc1a1e984681da4ed7a64ad7373da95ef1c141ef",
+      "rows": 14
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ETHUSDT",
+      "month": "2024-04",
+      "cache_sha256": "28dda2ced07de5b8354e88dc6a8296c0cb6838e81a9a785bd8a821c9ce174014",
+      "source_sha256": "b54c9f05af116ccd921b32b25960ae26954c4983992d44f2390bf1de08b2c724",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "ETHUSDT",
+      "month": "2024-05",
+      "cache_sha256": "86a6aedb506b91dbb5776eea183103b98b5471da0beb5fad3e8cc2242889b868",
+      "source_sha256": "8f9675703ba750e869bf452ae69a1195e95debcca0838c8168e1fce7ba542bff",
+      "rows": 15
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ETHUSDT",
+      "month": "2024-05",
+      "cache_sha256": "d0f1c1f663a2614310ae9fe56ec3e98cab60f4ddfdd1701da9fa1fd3ec775a01",
+      "source_sha256": "8350ab4d61b12ec61539611e30809039f54814213bc4c937609360b1ff28b5e0",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "ETHUSDT",
+      "month": "2024-06",
+      "cache_sha256": "6fa1ff889acbd0684e2ea2e1ce36bc64d70b99b52665302d8ed5b7dda37b238a",
+      "source_sha256": "383080041e974276e4f862ed8ef3d2383aeed77c07f4b35b9b7cc035faddc1d1",
+      "rows": 13
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "ETHUSDT",
+      "month": "2024-06",
+      "cache_sha256": "bb29dc31bff99578b2b39ed744d0637b8674ecc2de0d7ccd46b8416a5e7d4e39",
+      "source_sha256": "def13f4a478c28b0111fb24c57f95fcee80e71982ed74f12e465d20d328e2275",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "LINKUSDT",
+      "month": "2024-01",
+      "cache_sha256": "503408b5a646bd448251100c5e701d0fc11add0df312fc44caa66cc55c47a2b4",
+      "source_sha256": "d9e58c7eb1e0fcc79960662b4fc1dbc0920f1abd501c4b84dbc09f9c645fcb5b",
+      "rows": 16
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "LINKUSDT",
+      "month": "2024-01",
+      "cache_sha256": "c980bde2933e9c87bb0ad90be2abc3460f7d582a453c141e89f04a96a81d8a6c",
+      "source_sha256": "ee7c31e4df28573cfa78bac09e112191f2ed4ca2ed6a3f2aec9d43bcb0ab34b8",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "LINKUSDT",
+      "month": "2024-03",
+      "cache_sha256": "a4faec29fb49450e612157dfb33b54a261233478d91f44380ac15ed28cefaf52",
+      "source_sha256": "b7ea296a5fff8af0fa9a25f00842d4ef0e4754a2af60c0177c9e38604b441baa",
+      "rows": 12
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "LINKUSDT",
+      "month": "2024-03",
+      "cache_sha256": "b4280a1943894adbd213037d875df64337e0ed9f2e4d3a7f38cf66855e336aba",
+      "source_sha256": "997ee3e66fb8778e7eed6b2f587c80d112b8a5d110f7ec59c622ee66704f4f99",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "LINKUSDT",
+      "month": "2024-04",
+      "cache_sha256": "16c18e5ddc0ba2279719858c44b0ecd6edc10a3679c924794eb95151246f365c",
+      "source_sha256": "b75a689ae4e59f65ef238c54edb0a501db7eea1e51e09b01651dad2c636297c9",
+      "rows": 2
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "LINKUSDT",
+      "month": "2024-04",
+      "cache_sha256": "1041eb301a2817eba7002a0eed6b8a6810de22431a90f11522c36d5fa65df9b2",
+      "source_sha256": "fd263095594d9092e8d562762242b3d73453cd53fd967a0458c4d7d1b756ca3a",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "NEARUSDT",
+      "month": "2024-06",
+      "cache_sha256": "018d6bff57e7e803d4083d6ebcaef2869d655905827e8cd4646d0d672fa7dbfd",
+      "source_sha256": "b34f8ab82a337d509dadc05debbe80e2ec670322ec68478b10c4282ac96aa767",
+      "rows": 41
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "NEARUSDT",
+      "month": "2024-06",
+      "cache_sha256": "2d6fabe9853f3fbdbb27c006a8f895c293ce46395b6343cb428afbb8b967d868",
+      "source_sha256": "02c0fb6b8f35cfb27155d819947673cadbef54d426cd9c18826da00be11c1b85",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "SOLUSDT",
+      "month": "2024-06",
+      "cache_sha256": "9c26ccafa66578bd704bd662588750adeee38649c4b2d9c5f1b3072673ca59d7",
+      "source_sha256": "c9e53e56e4d742f0ed2c55870ede4d5c46347af30078736a61e8f9989f5b3801",
+      "rows": 6
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "SOLUSDT",
+      "month": "2024-06",
+      "cache_sha256": "4f005b2ab730461c37ec108f9e30f3aac81bfd852fa8b113b10b9d03a9495612",
+      "source_sha256": "8da6c97d67718422a5df9a0d50e37849521fb54de87cbb3b3397e441439dfcc9",
+      "rows": 90
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "XRPUSDT",
+      "month": "2024-01",
+      "cache_sha256": "3c1367e33e1011d67ed64834d6ac34d67a161228959a337e4dd875f18993dbff",
+      "source_sha256": "61201c1c65589c45173caf3a8b279778a7a28974f24b98d47ab4b10579ae780b",
+      "rows": 1
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "XRPUSDT",
+      "month": "2024-01",
+      "cache_sha256": "a0a1301bfd2be8138596ac392826c6e8da3bc5d5cded4f1832501c2c6a847257",
+      "source_sha256": "fac75e242671739980886a0f39159562dde076d49244e6f2803c407dc0112570",
+      "rows": 93
+    },
+    {
+      "kind": "markPriceKlines",
+      "contract": "XRPUSDT",
+      "month": "2024-03",
+      "cache_sha256": "2aec190f650607fe698b6bf3fb9ce00a55ff7c6f0550840d12af0936e4cead6e",
+      "source_sha256": "27e3062f666a09cf93bc658dd0aa836b0aef96bd4a339009b5e6a4b494cdd1bd",
+      "rows": 13
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "XRPUSDT",
+      "month": "2024-03",
+      "cache_sha256": "356fe2a2b7adffbe2aa36f3db081117c4de9f3e52261057ae9937e5d06ae1ce9",
+      "source_sha256": "31a841c4eaebbb192448838f37819fcc6263ac149df469463c11126b70717e59",
+      "rows": 93
+    }
+  ],
+  "fallbacks": [],
+  "journal_sha256": "edd1a7be3d99783d0063fbcb4cf9a2bd9aa0b12b1dcd066dbd0b82b892829a28",
+  "plan_sha256": "dac424b4e04efc8da79cc628a4d85a9050ab9c598eb85b1005ce83d9246f66a3",
+  "settlement_code_sha256": "afdb02326d91991e3863a04596b575bb9e810c384f14fea81a33b43a52a54549",
+  "audit_code_sha256": "3a358f68385f430887ccd3ed468d7e9b3532dc5e0716326fe57d076093d1432f",
+  "note": "Verifies new local caches against ZIPs; the independent ledger audit checks all verified trade paths."
+}

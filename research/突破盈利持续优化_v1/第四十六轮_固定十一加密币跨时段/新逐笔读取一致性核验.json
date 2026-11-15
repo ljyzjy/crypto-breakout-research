@@ -1,0 +1,46 @@
+{
+  "all_checks_pass": true,
+  "stream_fingerprint": "01da6c87a0ba7bfd04339cc19c2f6192f2390f200c0eeabd7889112178e0ce7a",
+  "samples": [
+    {
+      "year": "2024",
+      "observation_id": "opening|ADAUSDT|1708362000000",
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2024-02-19",
+          "sha256": "58e9f32c92ed26306d556362d655966f10f9c05d98b9c556d96d9fcd46aa3a5d",
+          "bytes": 53038
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-19",
+          "sha256": "0b7128d0ddd216e2360cfa25b455dab5c35c78a8119f223e675097ced279a350",
+          "bytes": 2187027
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "observation_id": "touch|BNBUSDT|1782999240000",
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2026-07-02",
+          "sha256": "1b31b907a2254be5fb38c251e0f54ea27d622e185b3923fd3f07462f9efdfa78",
+          "bytes": 54201
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-02",
+          "sha256": "91744c0658ecff4063ab1096064f7f97eedc079ca0859f52ae8e0f8289f88b11",
+          "bytes": 3752567
+        }
+      ]
+    }
+  ],
+  "paths_checked": 8,
+  "note": "Same public archives, critical signals and execution paths; actual fills remain unknown."
+}

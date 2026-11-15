@@ -1,0 +1,22 @@
+本目录只做离线研究，不连接模拟交易控制接口，不启动或停止交易进程。
+
+优先阅读：研究报告.html（双击可在浏览器离线查看，支持区间、费用与信息滞后选择）。
+纯文本版：研究结论.txt。
+全部指标：metrics.csv / metrics.json；币种贡献：coin_attribution.csv。
+
+在项目根目录 ge 使用既有 Python 环境：
+work/freqtrade-env/Scripts/python.exe outputs/crypto-spot-kit/selection-v2/test_study.py
+work/freqtrade-env/Scripts/python.exe outputs/crypto-spot-kit/selection-v2/test_study.py --real
+work/freqtrade-env/Scripts/python.exe outputs/crypto-spot-kit/selection-v2/reproduce.py
+work/freqtrade-env/Scripts/python.exe outputs/crypto-spot-kit/selection-v2/build_report.py
+
+reproduce.py 是输出序列化适配器，避免新计算的 NumPy int64 在导出 JSON 时出错。
+它不改变冻结的模拟引擎、策略参数或指标公式。现有70个缓存会直接复核读取，不添加新参数试验。
+原始 study.py、engine.py、protocol.json、test_study.py 和20币数据的哈希保存在 frozen.json，结果计算前后保持一致。
+两个原策略在两个连续区间精确复现；10种规则均通过3个真实历史截点及未来扰动检查，详见 reconciliation.json 和 causality.json。
+
+归档约定：
+results/*.json.gz 保存每个场景的逐日决策、资金权益、订单与参数。
+window_end 是回测结算操作，前缀检查时不把这项人工结算当成策略信号。
+单因素诊断存在交互，不能将收益改善相加，也没有据此拼接新的策略。
+没有改动当前 DailyMomentum 模拟策略、进程、配置、数据库或已部署网页。

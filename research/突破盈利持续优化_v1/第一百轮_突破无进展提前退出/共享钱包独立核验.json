@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "scenarios_checked": 8,
+  "trade_outcome_rows_checked": 1044,
+  "wallet_events_checked": 3116,
+  "result_sha256": "cc0f5846d32c16ac61db8de4486ae5ecde9dc64c9fe2e163038747c12dacaa44",
+  "code_sha256": "8f650052fe09a7c43b7fd1b236e9cc2c01c3c122b0a3559973b7375eb605d33c",
+  "note": "Cash and planned-risk scalar audit; unknown paths and floating equity remain excluded.",
+  "wrapper_code_sha256": "c3c1b5f0c9acecfbdecc60e7ba6b507cd26869e30f7f16ab850bf760d1d810dd",
+  "adapted_code_sha256": "d647b95bafee5dd48630edc16975102d91a57046d01e6ce2eb0b2e3a26accbfe"
+}

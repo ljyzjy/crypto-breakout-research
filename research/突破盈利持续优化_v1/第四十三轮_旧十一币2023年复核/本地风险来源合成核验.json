@@ -1,0 +1,7 @@
+{
+  "verified_month_and_missing_day_repair": true,
+  "verified_funding": true,
+  "incorrect_repair_is_unknown": true,
+  "normalized_source_disagreement_is_unknown": true,
+  "all_checks_pass": true
+}

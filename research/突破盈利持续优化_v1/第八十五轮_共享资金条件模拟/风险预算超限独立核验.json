@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 40,
+  "result_sha256": "8617ecb7b70172d9eac3078ae440e80a18ae413a0588bafafffe63ff09e72a9e",
+  "code_sha256": "ba5926cc719781faa67bf63f0a9fe5236877f31a4874b76241043fb11228d779",
+  "note": "Actual model PnL compared with signal-time planned loss, not a loss guarantee."
+}

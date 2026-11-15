@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "events": 98,
+  "symbol_weeks": 292,
+  "mode_counts": {
+    "official_weekly": 128,
+    "official_daily_reconstruction": 164
+  },
+  "official_archives_redownloaded": 83,
+  "source_sha256": "a291bc2d792eeba0ae8599b0e2a007a09cd796cca44972a287dd9e4ad7828b68",
+  "audit_code_sha256": "1abd49a503d640d382a577a80b7fdb9b5027d40c988fe81c0865c9c5d2900834",
+  "note": "Completed-week official and hourly prices audited; actual historical publication latency not established."
+}

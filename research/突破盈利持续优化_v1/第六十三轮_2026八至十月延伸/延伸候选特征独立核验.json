@@ -1,0 +1,25 @@
+{
+  "all_candidate_gates_checked": 57,
+  "market_quarters_future_perturbed": 48,
+  "independent_daily_minute_samples": 4,
+  "samples": [
+    {
+      "observation_id": "opening|AVAXUSDT|1785609000000",
+      "daily_minute_sha256": "e499bc1eb3f43bb8a0100f71d9961415626fe1ced795fa441692d44838d567b6"
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1792366200000",
+      "daily_minute_sha256": "04fcb6bd62dce58fcf01e69c3de6233d8a4f01561eb73e56aa72b09eb48154eb"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1787173440000",
+      "daily_minute_sha256": "0b105f3db6a938561fc01f0cc30a21a4c656866a339e8be8fe348c3ccfdfaa76"
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1792071360000",
+      "daily_minute_sha256": "d1f1f30b93867d38cd9699571587cb45b8b6ef58f139929b3024a5874e708981"
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Source sample checks and causal gates only; first tick and unit PnL not yet established."
+}

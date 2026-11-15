@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "source_archives_checked": 13,
+  "affected_hours_checked": 37,
+  "repaired_hours_checked": 32,
+  "source_sha256": "dd7356f4074b39a5ed5a563e7a3e5dfdcdd00fcc5c1d71af79db959fdb0a14fd",
+  "code_sha256": "b470bfd9799d8347a1a982115e0ef12bf6e8a89711e1816518c72455c37da425",
+  "note": "Cross-source OHLC and zero-trade semantics; no claim about exchange availability or real fills."
+}

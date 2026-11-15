@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "millisecond_mismatch_rejected": true,
+  "matching_nulls_accepted": true,
+  "missingness_disagreement_rejected": true,
+  "runner_sha256": "cc8fe7c15b046b8c314986d8cf79c71cdab6006672ee72227df9f6b626f5ab1c",
+  "plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867"
+}

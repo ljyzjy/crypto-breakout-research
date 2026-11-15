@@ -1,0 +1,9 @@
+{
+  "plan_sha256": "cdba5c1115112338d4de9078cc074363c783bd221e05d6dc138029c3fd4f0d8b",
+  "inputs": {
+    "baseline_signal.parquet": "ccd3890fb716581c0b25725c6fc9442731acd171be1eb70eb7af513bf6979163",
+    "baseline_paths.parquet": "29ff77fab2d79a462fbbdfc487e3048e4a19e4a01ff458e9a57c4ce3e840cbec",
+    "baseline_ledger.parquet": "bae5c4d2333bb30c584b2cec69cc997f4eed84c01565ecc27fd227e7fa04e667",
+    "baseline_quality.json": "06950ba657fcb91984c89424f820b4f888e5a7590f8ef0fd544dbb53071006a2"
+  }
+}

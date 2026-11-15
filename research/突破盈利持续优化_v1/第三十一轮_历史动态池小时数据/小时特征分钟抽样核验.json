@@ -1,0 +1,206 @@
+{
+  "samples": [
+    {
+      "year": 2024,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1704067200000,
+      "status": "verified",
+      "score_abs_error": 4.440892098500626e-15,
+      "rvol_abs_error": 2.220446049250313e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1710835200000,
+      "status": "verified",
+      "score_abs_error": 1.3766765505351941e-14,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2024,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1719622800000,
+      "status": "verified",
+      "score_abs_error": 1.4432899320127035e-15,
+      "rvol_abs_error": 4.440892098500626e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1704157200000,
+      "status": "verified",
+      "score_abs_error": 0.0,
+      "rvol_abs_error": 8.881784197001252e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1710957600000,
+      "status": "verified",
+      "score_abs_error": 5.551115123125783e-17,
+      "rvol_abs_error": 4.440892098500626e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1719594000000,
+      "status": "verified",
+      "score_abs_error": 7.105427357601002e-15,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2024,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1704067200000,
+      "status": "verified",
+      "score_abs_error": 0.0,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2024,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1710817200000,
+      "status": "verified",
+      "score_abs_error": 0.0,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2024,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1719622800000,
+      "status": "verified",
+      "score_abs_error": 9.992007221626409e-16,
+      "rvol_abs_error": 2.220446049250313e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1704157200000,
+      "status": "verified",
+      "score_abs_error": 1.1546319456101628e-14,
+      "rvol_abs_error": 4.440892098500626e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1709762400000,
+      "status": "verified",
+      "score_abs_error": 2.220446049250313e-16,
+      "rvol_abs_error": 4.440892098500626e-16
+    },
+    {
+      "year": 2024,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1719597600000,
+      "status": "verified",
+      "score_abs_error": 3.552713678800501e-15,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1777608000000,
+      "status": "verified",
+      "score_abs_error": 2.6645352591003757e-15,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1780981200000,
+      "status": "verified",
+      "score_abs_error": 5.551115123125783e-16,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "BTCUSDT",
+      "decision_hour": 1785524400000,
+      "status": "verified",
+      "score_abs_error": 3.9968028886505635e-15,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1777608000000,
+      "status": "verified",
+      "score_abs_error": 2.842170943040401e-14,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1780956000000,
+      "status": "verified",
+      "score_abs_error": 9.992007221626409e-16,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "ETHUSDT",
+      "decision_hour": 1785510000000,
+      "status": "verified",
+      "score_abs_error": 3.108624468950438e-14,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1777608000000,
+      "status": "verified",
+      "score_abs_error": 3.8191672047105385e-14,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1781143200000,
+      "status": "verified",
+      "score_abs_error": 2.6645352591003757e-15,
+      "rvol_abs_error": 0.0
+    },
+    {
+      "year": 2026,
+      "symbol": "SOLUSDT",
+      "decision_hour": 1785484800000,
+      "status": "verified",
+      "score_abs_error": 2.4424906541753444e-14,
+      "rvol_abs_error": 4.440892098500626e-16
+    },
+    {
+      "year": 2026,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1777597200000,
+      "status": "verified",
+      "score_abs_error": 8.881784197001252e-16,
+      "rvol_abs_error": 8.881784197001252e-16
+    },
+    {
+      "year": 2026,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1782367200000,
+      "status": "verified",
+      "score_abs_error": 1.1102230246251565e-15,
+      "rvol_abs_error": 2.220446049250313e-16
+    },
+    {
+      "year": 2026,
+      "symbol": "DOGEUSDT",
+      "decision_hour": 1785528000000,
+      "status": "verified",
+      "score_abs_error": 8.881784197001252e-16,
+      "rvol_abs_error": 4.440892098500626e-16
+    }
+  ],
+  "status_counts": {
+    "verified": 24
+  },
+  "checked_symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "DOGEUSDT"
+  ],
+  "note": "Only sampled old-pool contracts are checked; new contracts and all feature dependencies still require minute-level validation."
+}

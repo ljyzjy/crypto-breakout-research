@@ -1,0 +1,63 @@
+{
+  "observation_id": "opening|XRPUSDT|1712564100000",
+  "result": {
+    "status": "known_no_order_flow",
+    "cross_ts": 1712564100737,
+    "cross_price": "0.6063",
+    "side": 1,
+    "reference_ts": 1712564101785,
+    "reference_price": "0.6061",
+    "reference_outside": false,
+    "aggregate_count": 14,
+    "raw_count": 112,
+    "buy": "10191.03599",
+    "sell": "34694.58958",
+    "imbalance": "-0.5459109298095051591368519274"
+  },
+  "archives": [
+    {
+      "kind": "klines",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/1m/XRPUSDT-1m-2024-04-08.zip",
+      "bytes": 55845,
+      "sha256": "fc4f3a842dac6e891245bd33390615715078b1f15bb5fe25f231606c6d1a3af7"
+    },
+    {
+      "kind": "aggTrades",
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/XRPUSDT/XRPUSDT-aggTrades-2024-04-08.zip",
+      "bytes": 2966415,
+      "sha256": "9858763acbf3dff8fecd9c968da8df42e42241c0fccd80fccdb0733594442804"
+    },
+    {
+      "kind": "trades",
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/XRPUSDT/XRPUSDT-trades-2024-04-08.zip",
+      "bytes": 11391569,
+      "sha256": "32ae16cad2e313c32f9ebd884b3d7288205eb5ae7facec354f78430adeee1875"
+    }
+  ],
+  "frozen_sha256": "33510e32debf1de09367addf87e696b0eb15f446c78f164b07b9a69dcdc34403",
+  "candidate_sha256": "f7d68bd2963d4d1df1a38865d4d86e8fa3b22c37404070a983d8f17b12d3b311",
+  "code_sha256": "d2785e36e5d0cb1177186b8741047bbf5fb1ecce7749917c1702b0008b04faa5",
+  "minute_check": {
+    "raw_count": 5738,
+    "official_count": 5738,
+    "raw_ohlc": [
+      "0.6062",
+      "0.6075",
+      "0.606",
+      "0.606"
+    ],
+    "aggregate_ohlc": [
+      "0.6061",
+      "0.6075",
+      "0.606",
+      "0.606"
+    ],
+    "official_ohlc": [
+      "0.6062",
+      "0.6075",
+      "0.6060",
+      "0.6060"
+    ]
+  },
+  "note": "Post-hoc single-event source sensitivity only; other original unknowns and frozen results remain unchanged."
+}

@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-11-14T23:23:57.972740+00:00",
+  "audit_sample_ids": [
+    "opening|SOLUSDT|1648554300000",
+    "opening|BNBUSDT|1656073800000",
+    "opening|BTCUSDT|1669122900000",
+    "touch|BTCUSDT|1662701520000",
+    "opening|NEARUSDT|1671044400000",
+    "touch|BNBUSDT|1659211740000",
+    "opening|LTCUSDT|1656581400000",
+    "opening|DOGEUSDT|1654261200000",
+    "opening|BNBUSDT|1667114100000",
+    "touch|BTCUSDT|1656635520000",
+    "opening|XRPUSDT|1664295300000",
+    "opening|XRPUSDT|1667935800000"
+  ],
+  "lookback_candles": 20,
+  "threshold": "40*N >= 3*P",
+  "raw_batch_fingerprint": "53286052710869f3aebff279a5d6f7badb97b00d3e327a0ce87c2c7d7e020020",
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零四轮_同秒成交加速门\\研究方案.md": "68d54d82d01a7ea65b7e84fe05670d0ca86aac3589b409327521c7212cfb6316",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\研究冻结.json": "87f498bcb4ffdcde43fec59af1263476e89ec07fa51d8f58b7feab721475631f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\run_raw_2022.py": "63261381e042eaf67741b2f4706ea4a0de74da8021dfe86dd36abf3bfbe95fa5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔汇总独立核验.json": "1527eb163241b716d007b182883cdf8636e818c9dd3368b2afd2cda937fbbb91",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\候选状态与单位账本.csv": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\逐笔信号.parquet": "37f0001003cb0767f476a7d3ce54bcecf5d93922310db93040b0162b30da8636",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零二轮_大柱持有损益核查\\大柱标签独立核验.json": "8431775da877b04d211b19b25f9cfddac39f3d65f824c1fe96f65b80f301a0c3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百零二轮_大柱持有损益核查\\事后大柱标签.parquet": "131c14c353d4f5743b6de6dc9c0b17b41bf1f3f9101a5c2815fe7431a889ef62"
+  },
+  "note": "Raw and prior strategy results already observed. Historical exploratory filter, not a blind test."
+}

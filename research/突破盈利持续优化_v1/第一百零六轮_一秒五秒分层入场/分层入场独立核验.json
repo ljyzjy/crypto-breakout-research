@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "candidate_policy_decisions_checked": 1580,
+  "groups_checked": 60,
+  "result_sha256": "6d0fed2ce2004fa3e9f29c16e9c57fe86aae8d97a71c8976886c83dd827a3479",
+  "detail_sha256": "27baf82dfbfce88a5f66aa1324b9849e6b3351f5e9bbf59baee376ac3db3a0e5",
+  "audit_code_sha256": "8021f6b47712b11a1e99fcd0c83cd8eeff00408b6b1a90a6316489fcbc47278d",
+  "note": "Source joins, time ordering and cost arithmetic independently reconstructed; no shared-account or real fills."
+}

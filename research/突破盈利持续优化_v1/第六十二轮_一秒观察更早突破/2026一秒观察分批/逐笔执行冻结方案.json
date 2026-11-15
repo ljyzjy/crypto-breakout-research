@@ -1,0 +1,11 @@
+{
+  "research_plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867",
+  "original_execution_sha256": "7e2957bcc31a078d0aeac7a09007d3d8d003c6f8bbbc4cbcbf518d5bc2a2face",
+  "observation_window_ms": 1000,
+  "market_entry_delay_ms": 1000,
+  "exit_delay_ms": 5000,
+  "fee_per_side": 0.0005,
+  "adverse_slippage_per_side": 0.0005,
+  "take_profit_r": 2,
+  "note": "One-second observation and entry; original precheck time buffer and risk proxy retained."
+}

@@ -1,0 +1,42 @@
+{
+  "plan_sha256": "af7cf41cb4f9c6af19341dca7e7139b2a5a55882e2087477aca3f39bddf713bc",
+  "frozen_utc": "2026-11-14T21:50:37.608846+00:00",
+  "source_paths": {
+    "model": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\walkforward_model.py",
+    "model_test": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\模型合成时序核验.json",
+    "old_input_manifest": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\冻结时点.json",
+    "old_loader": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\run_walkforward.py",
+    "old_independent": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\audit_walkforward.py",
+    "2022_signals": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\一秒回放批次\\动态池逐笔信号筛查.parquet",
+    "2022_ledger": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\一秒回放批次\\动态池单位收益与风险.parquet",
+    "2022_oi": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\持仓量逐点来源核验.json",
+    "2022_oi_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\持仓量逐点独立核验.json",
+    "2022_risk_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\风险来源与账本独立核验.json",
+    "2022_summary_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二汇总独立核验.json",
+    "raw_sensitivity": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十三轮_原始逐笔抽样交叉核验\\敏感性独立核验.json",
+    "raw_comparison": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十三轮_原始逐笔抽样交叉核验\\原始聚合逐笔样本对照.json",
+    "late_2026_snapshot": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十一轮_八至十月一秒观察\\冻结结果\\冻结哈希.json",
+    "late_2026_oi": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\持仓量逐点来源核验.json",
+    "late_2026_oi_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十二轮_八至十月持仓量过滤\\持仓量逐点独立核验.json"
+  },
+  "source_sha256": {
+    "model": "c38c1eefc45362291f00fe217cc3eb8886c8c3faca60c4d9d99d6bccb2c6ccf7",
+    "model_test": "6733a641e9f9791577544950ddb771b2b22290c843aff92c87a792992c2b4889",
+    "old_input_manifest": "4c5ebf8f732cbdce89636d1b032dd12f4bb3940e4afb5c9eab4eeb9592e67422",
+    "old_loader": "68d6708f1c5c24af3fd1a82e85b591ac46ed00cef719bfc07b634e33370f3919",
+    "old_independent": "cab25a91c9ac276e4b5cd0c0743754c934c42ed1f1b150672bdd3d7484167984",
+    "2022_signals": "8570464165080ca076ff70ad766fe86a327a928486c9757804f06a41237403a5",
+    "2022_ledger": "e63595cd9a9f1aeaf475f8bc0bf5d4e3ff088169ca8e4771c343e074dd34c088",
+    "2022_oi": "d0452e4a5e366d4a2c7b6fdffddcfde2a4e5fc283ad1a05c78518c22111ef969",
+    "2022_oi_audit": "64a42c81d741413e4498f1cff77c8db45e74bd3ce1bacde27b8b2b1eefa2985c",
+    "2022_risk_audit": "f0ede95f86229672e7d88453c5f7ba09e43bbf7a8257c15eda044b8039111e92",
+    "2022_summary_audit": "447a44e4a49b33e2a6e0eb8277514c15e2bc6a68417eeb8bbc4bd4c561b7aa67",
+    "raw_sensitivity": "fc86ea6e85b9fe72e5c0f12ae5702d0ad237f0a7f11a7e65e8c4b8f579dde536",
+    "raw_comparison": "92457c335088ded3920f2ec4816211a1c4a6010f8d1074f109bf842b84894fcb",
+    "late_2026_snapshot": "16883d773d9555e7db160489f63a056cda88492bc438e61e440aca96cdc8736c",
+    "late_2026_oi": "65517f0e0cb55ce23ed160adeeebe954ea6c6ab1a484b009d7f4ac24cd5a0c0d",
+    "late_2026_oi_audit": "244272e693b8e2d6c1aa647514e2064fff0035e5da2e3097864880629781e124"
+  },
+  "seen_historical_results": true,
+  "note": "Temporal splits, fixed existing model; history and selected universe have been explored."
+}

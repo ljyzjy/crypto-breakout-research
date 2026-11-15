@@ -1,0 +1,1296 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "events": [
+    {
+      "observation_id": "opening|ADAUSDT|1704670200000",
+      "decision_ts": 1704670241540,
+      "oi_t0": 1704669300000,
+      "oi_previous": 1704665700000
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1704736800000",
+      "decision_ts": 1704736805025,
+      "oi_t0": 1704735900000,
+      "oi_previous": 1704732300000
+    },
+    {
+      "observation_id": "opening|XRPUSDT|1704834900000",
+      "decision_ts": 1704834904077,
+      "oi_t0": 1704834000000,
+      "oi_previous": 1704830400000
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1704891180000",
+      "decision_ts": 1704891221789,
+      "oi_t0": 1704890100000,
+      "oi_previous": 1704886500000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1705681800000",
+      "decision_ts": 1705681839422,
+      "oi_t0": 1705680900000,
+      "oi_previous": 1705677300000
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1705900500000",
+      "decision_ts": 1705900511020,
+      "oi_t0": 1705899600000,
+      "oi_previous": 1705896000000
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1706657400000",
+      "decision_ts": 1706657402036,
+      "oi_t0": 1706656500000,
+      "oi_previous": 1706652900000
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1707759000000",
+      "decision_ts": 1707759043074,
+      "oi_t0": 1707758100000,
+      "oi_previous": 1707754500000
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1707759000000",
+      "decision_ts": 1707759051690,
+      "oi_t0": 1707758100000,
+      "oi_previous": 1707754500000
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1708362000000",
+      "decision_ts": 1708362053391,
+      "oi_t0": 1708361100000,
+      "oi_previous": 1708357500000
+    },
+    {
+      "observation_id": "touch|XRPUSDT|1709574480000",
+      "decision_ts": 1709574491067,
+      "oi_t0": 1709573400000,
+      "oi_previous": 1709569800000
+    },
+    {
+      "observation_id": "touch|BNBUSDT|1710063960000",
+      "decision_ts": 1710063976848,
+      "oi_t0": 1710063000000,
+      "oi_previous": 1710059400000
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1710140400000",
+      "decision_ts": 1710140418726,
+      "oi_t0": 1710139500000,
+      "oi_previous": 1710135900000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1710809100000",
+      "decision_ts": 1710809146911,
+      "oi_t0": 1710808200000,
+      "oi_previous": 1710804600000
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1710811860000",
+      "decision_ts": 1710811894508,
+      "oi_t0": 1710810900000,
+      "oi_previous": 1710807300000
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1712057400000",
+      "decision_ts": 1712057418555,
+      "oi_t0": 1712056500000,
+      "oi_previous": 1712052900000
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1712929500000",
+      "decision_ts": 1712929544701,
+      "oi_t0": 1712928600000,
+      "oi_previous": 1712925000000
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1712929500000",
+      "decision_ts": 1712929527493,
+      "oi_t0": 1712928600000,
+      "oi_previous": 1712925000000
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1713114900000",
+      "decision_ts": 1713114948694,
+      "oi_t0": 1713114000000,
+      "oi_previous": 1713110400000
+    },
+    {
+      "observation_id": "opening|LINKUSDT|1713241800000",
+      "decision_ts": 1713241853056,
+      "oi_t0": 1713240900000,
+      "oi_previous": 1713237300000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1713493800000",
+      "decision_ts": 1713493801491,
+      "oi_t0": 1713492900000,
+      "oi_previous": 1713489300000
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1714548900000",
+      "decision_ts": 1714548956028,
+      "oi_t0": 1714548000000,
+      "oi_previous": 1714544400000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1715568300000",
+      "decision_ts": 1715568305755,
+      "oi_t0": 1715567400000,
+      "oi_previous": 1715563800000
+    },
+    {
+      "observation_id": "opening|BNBUSDT|1715568300000",
+      "decision_ts": 1715568312897,
+      "oi_t0": 1715567400000,
+      "oi_previous": 1715563800000
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1715587200000",
+      "decision_ts": 1715587203858,
+      "oi_t0": 1715586300000,
+      "oi_previous": 1715582700000
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1715779800000",
+      "decision_ts": 1715779807321,
+      "oi_t0": 1715778900000,
+      "oi_previous": 1715775300000
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1716382080000",
+      "decision_ts": 1716382090275,
+      "oi_t0": 1716381000000,
+      "oi_previous": 1716377400000
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1716534000000",
+      "decision_ts": 1716534027322,
+      "oi_t0": 1716533100000,
+      "oi_previous": 1716529500000
+    },
+    {
+      "observation_id": "opening|ETHUSDT|1717783200000",
+      "decision_ts": 1717783224345,
+      "oi_t0": 1717782300000,
+      "oi_previous": 1717778700000
+    },
+    {
+      "observation_id": "opening|SOLUSDT|1718221500000",
+      "decision_ts": 1718221530777,
+      "oi_t0": 1718220600000,
+      "oi_previous": 1718217000000
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1718247600000",
+      "decision_ts": 1718247610940,
+      "oi_t0": 1718246700000,
+      "oi_previous": 1718243100000
+    },
+    {
+      "observation_id": "opening|DOGEUSDT|1718671500000",
+      "decision_ts": 1718671503032,
+      "oi_t0": 1718670600000,
+      "oi_previous": 1718667000000
+    },
+    {
+      "observation_id": "touch|ETHUSDT|1718741100000",
+      "decision_ts": 1718741131266,
+      "oi_t0": 1718740200000,
+      "oi_previous": 1718736600000
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1718868600000",
+      "decision_ts": 1718868610670,
+      "oi_t0": 1718867700000,
+      "oi_previous": 1718864100000
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1718881200000",
+      "decision_ts": 1718881209640,
+      "oi_t0": 1718880300000,
+      "oi_previous": 1718876700000
+    },
+    {
+      "observation_id": "touch|AVAXUSDT|1718881440000",
+      "decision_ts": 1718881444265,
+      "oi_t0": 1718880300000,
+      "oi_previous": 1718876700000
+    }
+  ],
+  "points": [
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704665700000,
+      "values": [
+        71922.324
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704669300000,
+      "values": [
+        71264.43
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704732300000,
+      "values": [
+        74891.734
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704735900000,
+      "values": [
+        75719.843
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704830400000,
+      "values": [
+        74590.728
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704834000000,
+      "values": [
+        74112.185
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704886500000,
+      "values": [
+        70669.655
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1704890100000,
+      "values": [
+        71497.519
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1705677300000,
+      "values": [
+        80296.195
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1705680900000,
+      "values": [
+        80726.305
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1705896000000,
+      "values": [
+        75301.598
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1705899600000,
+      "values": [
+        74937.445
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1706652900000,
+      "values": [
+        75367.305
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1706656500000,
+      "values": [
+        75193.952
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1707754500000,
+      "values": [
+        94537.847
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1707758100000,
+      "values": [
+        93942.0
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1708357500000,
+      "values": [
+        87118.594
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1708361100000,
+      "values": [
+        87543.131
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1709569800000,
+      "values": [
+        81276.942
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1709573400000,
+      "values": [
+        81923.606
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710059400000,
+      "values": [
+        76886.647
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710063000000,
+      "values": [
+        77471.487
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710135900000,
+      "values": [
+        77356.232
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710139500000,
+      "values": [
+        77302.069
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710804600000,
+      "values": [
+        79323.774
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710807300000,
+      "values": [
+        79239.59
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710808200000,
+      "values": [
+        79279.507
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1710810900000,
+      "values": [
+        80116.641
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1712052900000,
+      "values": [
+        79009.306
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1712056500000,
+      "values": [
+        79000.034
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1712925000000,
+      "values": [
+        84957.99
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1712928600000,
+      "values": [
+        84307.94
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713110400000,
+      "values": [
+        67997.009
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713114000000,
+      "values": [
+        68118.312
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713237300000,
+      "values": [
+        66287.879
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713240900000,
+      "values": [
+        65479.66
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713489300000,
+      "values": [
+        67499.086
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1713492900000,
+      "values": [
+        66861.715
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1714544400000,
+      "values": [
+        73224.615
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1714548000000,
+      "values": [
+        72095.219
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715563800000,
+      "values": [
+        69766.611
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715567400000,
+      "values": [
+        68807.975
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715582700000,
+      "values": [
+        68457.629
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715586300000,
+      "values": [
+        69159.935
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715775300000,
+      "values": [
+        68056.132
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1715778900000,
+      "values": [
+        70461.643
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1716377400000,
+      "values": [
+        78598.888
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1716381000000,
+      "values": [
+        78308.537
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1716529500000,
+      "values": [
+        72122.981
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1716533100000,
+      "values": [
+        72099.935
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1717778700000,
+      "values": [
+        85776.757
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1717782300000,
+      "values": [
+        85368.289
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718217000000,
+      "values": [
+        83803.561
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718220600000,
+      "values": [
+        81885.191
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718243100000,
+      "values": [
+        80947.705
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718246700000,
+      "values": [
+        81341.023
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718667000000,
+      "values": [
+        79061.651
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718670600000,
+      "values": [
+        79753.72
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718736600000,
+      "values": [
+        79652.905
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718740200000,
+      "values": [
+        79630.259
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718864100000,
+      "values": [
+        75942.955
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718867700000,
+      "values": [
+        76858.095
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718876700000,
+      "values": [
+        77788.419
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "ts": 1718880300000,
+      "values": [
+        77761.009
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704665700000,
+      "values": [
+        744322.97
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704669300000,
+      "values": [
+        748031.546
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704732300000,
+      "values": [
+        761396.552
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704735900000,
+      "values": [
+        767828.479
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704830400000,
+      "values": [
+        737304.172
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704834000000,
+      "values": [
+        736910.426
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704886500000,
+      "values": [
+        842102.118
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1704890100000,
+      "values": [
+        818053.428
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1705677300000,
+      "values": [
+        925708.225
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1705680900000,
+      "values": [
+        929413.606
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1705896000000,
+      "values": [
+        933672.086
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1705899600000,
+      "values": [
+        934731.111
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1706652900000,
+      "values": [
+        854986.67
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1706656500000,
+      "values": [
+        855001.884
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1707754500000,
+      "values": [
+        846411.788
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1707758100000,
+      "values": [
+        851824.497
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1708357500000,
+      "values": [
+        906026.149
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1708361100000,
+      "values": [
+        907959.328
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1709569800000,
+      "values": [
+        771345.07
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1709573400000,
+      "values": [
+        765239.755
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710059400000,
+      "values": [
+        778446.599
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710063000000,
+      "values": [
+        772777.192
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710135900000,
+      "values": [
+        783629.498
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710139500000,
+      "values": [
+        783271.389
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710804600000,
+      "values": [
+        855005.927
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710807300000,
+      "values": [
+        854805.868
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710808200000,
+      "values": [
+        854223.404
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1710810900000,
+      "values": [
+        850189.484
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1712052900000,
+      "values": [
+        860775.684
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1712056500000,
+      "values": [
+        863764.151
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1712925000000,
+      "values": [
+        831427.943
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1712928600000,
+      "values": [
+        834709.537
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713110400000,
+      "values": [
+        689364.903
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713114000000,
+      "values": [
+        694852.576
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713237300000,
+      "values": [
+        666843.936
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713240900000,
+      "values": [
+        674698.639
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713489300000,
+      "values": [
+        646018.902
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1713492900000,
+      "values": [
+        654720.865
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1714544400000,
+      "values": [
+        709131.653
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1714548000000,
+      "values": [
+        692534.836
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715563800000,
+      "values": [
+        749966.732
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715567400000,
+      "values": [
+        762330.984
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715582700000,
+      "values": [
+        791327.811
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715586300000,
+      "values": [
+        790677.865
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715775300000,
+      "values": [
+        802403.434
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1715778900000,
+      "values": [
+        798469.756
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1716377400000,
+      "values": [
+        1038139.59
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1716381000000,
+      "values": [
+        1036240.02
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1716529500000,
+      "values": [
+        1037903.267
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1716533100000,
+      "values": [
+        1040144.062
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1717778700000,
+      "values": [
+        1094932.375
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1717782300000,
+      "values": [
+        1093010.828
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718217000000,
+      "values": [
+        975624.122
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718220600000,
+      "values": [
+        986310.658
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718243100000,
+      "values": [
+        989200.755
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718246700000,
+      "values": [
+        983093.521
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718667000000,
+      "values": [
+        996371.762
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718670600000,
+      "values": [
+        1000040.963
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718736600000,
+      "values": [
+        999852.897
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718740200000,
+      "values": [
+        1001706.053
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718864100000,
+      "values": [
+        1036639.228
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718867700000,
+      "values": [
+        1042905.39
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718876700000,
+      "values": [
+        1039329.926
+      ],
+      "status": "verified"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ts": 1718880300000,
+      "values": [
+        1036559.709
+      ],
+      "status": "verified"
+    }
+  ],
+  "point_status_counts": {
+    "verified": 128
+  },
+  "official_daily_archives": [
+    {
+      "symbol": "BTCUSDT",
+      "day": "2024-01-07",
+      "sha256": "27440819fa98900ea5be019b9fc346762e517864c45eacc97e5b47a8a482b48b",
+      "bytes": 11505,
+      "rows_checked": 288,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-01-07.zip"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2024-06-20",
+      "sha256": "a8b1048669fbb0bc7a7ba63d864ccea9ead2683f6ae48b29bcf4dd6343654820",
+      "bytes": 11310,
+      "rows_checked": 288,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-06-20.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2024-01-07",
+      "sha256": "0d6bd11c9b3d52673052e56c211833d6abceaacd24e00d0c07b36612fd15f970",
+      "bytes": 11853,
+      "rows_checked": 288,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2024-01-07.zip"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2024-06-20",
+      "sha256": "6f28d38744700fd0e2b827279926519e36bfd7172643baad87553be71e6a5095",
+      "bytes": 11824,
+      "rows_checked": 288,
+      "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2024-06-20.zip"
+    }
+  ],
+  "official_errors": [],
+  "source_parquet_sha256": {
+    "BTCUSDT": "4a3a9a7f22230cb56439d84dcdb0e206e191e0d4bda8df71dbecbad051c34aa9",
+    "ETHUSDT": "7e3fc618abc21be3b4523cef2c1442e4a446699eb79f831bcf23e4b28862757a"
+  },
+  "prior_cache_sha256": "13ebcb61a74223499b6d8ec0dc2af67908d718f7df49d625f5e6b386fbd6ca51",
+  "ledger_csv_sha256": "6e5a945b147fd54d72f7ed704f8ded7bcf12e2963f9cb5a0c31ce21aa7819c78",
+  "snapshot_manifest_sha256": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+  "plan_sha256": "8e0793deaca0e1542505941ae6a121d8cec39dbcf1e29c873099c3d791a5981c",
+  "code_sha256": "e7e2ba8880b558d33ff5d3205241b237e1d85d0e37a42d1b75f57520ddbc875c",
+  "note": "Official daily checks cover only two preselected dates; actual historical arrival times remain unverified."
+}

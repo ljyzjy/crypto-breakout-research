@@ -1,0 +1,9 @@
+{
+  "intraminute_trigger": true,
+  "five_second_delay": true,
+  "cross_minute_entry": true,
+  "pre_entry_extrema_excluded": true,
+  "pre_entry_funding_not_charged": true,
+  "same_minute_stop_priority": true,
+  "adverse_entry_slippage": true
+}

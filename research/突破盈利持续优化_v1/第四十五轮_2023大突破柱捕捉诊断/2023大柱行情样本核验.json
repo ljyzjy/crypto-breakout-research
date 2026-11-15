@@ -1,0 +1,50 @@
+{
+  "sample_candidates": 4,
+  "quarter_bars_checked": 68,
+  "samples": [
+    {
+      "contract": "ADAUSDT",
+      "quarter_start": 1686326400000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "contract": "BTCUSDT",
+      "quarter_start": 1678791600000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "contract": "LTCUSDT",
+      "quarter_start": 1681476300000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "contract": "XRPUSDT",
+      "quarter_start": 1679897700000,
+      "current_and_prior_quarters_checked": 17
+    }
+  ],
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "month": "2023-06",
+      "sha256": "24f08ff39fdd4c606a09912dfa45e661aebc5a93c10fb7eee4e05a08dd3659d7"
+    },
+    {
+      "contract": "BTCUSDT",
+      "month": "2023-03",
+      "sha256": "843bdaf3f134e74e6f0efecf46dbd92952c61b9d57c6ce8b556392d81526ec48"
+    },
+    {
+      "contract": "LTCUSDT",
+      "month": "2023-04",
+      "sha256": "6e8a4f74a67572cbbb32bafdc4c6fc55d3769c5dfc4c857ce2f02f83d3e8a38e"
+    },
+    {
+      "contract": "XRPUSDT",
+      "month": "2023-03",
+      "sha256": "c3a496cb5f4bb82d472c61fa47f9dc5d434b0f27ec3b7c757c08678ebde9af63"
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Both timeframes are public data from the same exchange, not independent price feeds."
+}

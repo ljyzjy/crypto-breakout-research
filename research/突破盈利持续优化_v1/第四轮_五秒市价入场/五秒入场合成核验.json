@@ -1,0 +1,10 @@
+{
+  "entry_at_least_five_seconds": true,
+  "adverse_entry_slippage": true,
+  "pre_entry_extrema_excluded": true,
+  "prior_funding_not_charged": true,
+  "same_minute_stop_priority": true,
+  "short_stop_priority": true,
+  "missing_tick_rejected": true,
+  "post_entry_exit_resolution": "one minute; stops first if both hit"
+}

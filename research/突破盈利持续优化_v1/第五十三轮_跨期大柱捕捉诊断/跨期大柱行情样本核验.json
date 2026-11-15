@@ -1,0 +1,58 @@
+{
+  "all_checks_pass": true,
+  "sample_candidates": 4,
+  "quarter_bars_checked": 68,
+  "samples": [
+    {
+      "year": "2024",
+      "contract": "ADAUSDT",
+      "quarter_start": 1707759000000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "year": "2024",
+      "contract": "XRPUSDT",
+      "quarter_start": 1712564100000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "year": "2026",
+      "contract": "ADAUSDT",
+      "quarter_start": 1781099100000,
+      "current_and_prior_quarters_checked": 17
+    },
+    {
+      "year": "2026",
+      "contract": "XRPUSDT",
+      "quarter_start": 1781529300000,
+      "current_and_prior_quarters_checked": 17
+    }
+  ],
+  "archives": [
+    {
+      "year": "2024",
+      "contract": "ADAUSDT",
+      "month": "2024-02",
+      "sha256": "2c0fc0d9e855742ab7cc26d17517a171fce07c27a3cc5021e905201de1ea15de"
+    },
+    {
+      "year": "2024",
+      "contract": "XRPUSDT",
+      "month": "2024-04",
+      "sha256": "befade98b771840515afda7deae3a0f12c966c316e87020bdb583798e7eba7c8"
+    },
+    {
+      "year": "2026",
+      "contract": "ADAUSDT",
+      "month": "2026-06",
+      "sha256": "0db0352f1a944b0fbad75681da47a1ca90a4ac425867a6aaf99e84a80e1a353f"
+    },
+    {
+      "year": "2026",
+      "contract": "XRPUSDT",
+      "month": "2026-06",
+      "sha256": "1c9bceda3e026aa9d9fedc6cc8292ba6c4fe705ced786ef1a8470c9e489b1744"
+    }
+  ],
+  "note": "Same-exchange 1m and 15m consistency; not independent feeds."
+}

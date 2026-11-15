@@ -1,0 +1,13 @@
+{
+  "accounts_checked": 20,
+  "trade_records_checked": 1778,
+  "partial_exits_checked": 470,
+  "funding_events_checked": 15,
+  "controls_identical_to_previous_engine": [
+    "train_h1_2024_control_2r_20x_main",
+    "train_h1_2024_control_3r_20x_main",
+    "train_may_jul_2026_control_2r_20x_main",
+    "train_may_jul_2026_control_3r_20x_main"
+  ],
+  "checked": "both leg prices, sizes, fees, slippage, delayed modification, funding, net, equity and drawdown"
+}

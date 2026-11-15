@@ -1,0 +1,26 @@
+{
+  "checked_paths": 447,
+  "maximum_net_pct_notional_error": 1.1102230246251565e-14,
+  "filter_boundary_ms": [
+    9999,
+    10000,
+    10001
+  ],
+  "potential_unknown_events": 42,
+  "groups": [
+    {
+      "leverage": 10,
+      "all": 230,
+      "selected": 191,
+      "excluded": 39
+    },
+    {
+      "leverage": 20,
+      "all": 217,
+      "selected": 179,
+      "excluded": 38
+    }
+  ],
+  "all_checks_pass": true,
+  "note": "Price references and funding were not independently refetched here; see the source-ledger audit."
+}

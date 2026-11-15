@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "holding_rule": "original",
+      "leverage": 10,
+      "known_trades": 119,
+      "wins": 30,
+      "net_win_rate_pct": 25.210084033613445,
+      "mean_net_pct_notional": -0.2827905558770549,
+      "profit_factor": 0.46294462651558443,
+      "active_utc_days": 88,
+      "unknown_candidates": 24,
+      "known_no_order": 167
+    },
+    {
+      "holding_rule": "original",
+      "leverage": 20,
+      "known_trades": 115,
+      "wins": 29,
+      "net_win_rate_pct": 25.217391304347824,
+      "mean_net_pct_notional": -0.3093283436274257,
+      "profit_factor": 0.3848977591258088,
+      "active_utc_days": 85,
+      "unknown_candidates": 24,
+      "known_no_order": 171
+    },
+    {
+      "holding_rule": "extended",
+      "leverage": 10,
+      "known_trades": 119,
+      "wins": 32,
+      "net_win_rate_pct": 26.89075630252101,
+      "mean_net_pct_notional": -0.2990094605592085,
+      "profit_factor": 0.5072622837321598,
+      "active_utc_days": 88,
+      "unknown_candidates": 24,
+      "known_no_order": 167
+    },
+    {
+      "holding_rule": "extended",
+      "leverage": 20,
+      "known_trades": 115,
+      "wins": 31,
+      "net_win_rate_pct": 26.956521739130434,
+      "mean_net_pct_notional": -0.30882560110745344,
+      "profit_factor": 0.4569345804708899,
+      "active_utc_days": 85,
+      "unknown_candidates": 24,
+      "known_no_order": 171
+    }
+  ],
+  "risk_audit_sha256": "f0ede95f86229672e7d88453c5f7ba09e43bbf7a8257c15eda044b8039111e92",
+  "tape_audit_sha256": "3a9a09d4566155db6ac9f5737743f735dcb5da043ce308a18da0eaf19618f5bb",
+  "code_sha256": "7933b28812ee611531155f16ff63847a1e7daf212fa61a489b07466bde58f1f6",
+  "unknown_rank_hours": 240,
+  "note": "Preliminary base only; OI, independent classifications, raw sample, account and future validation pending."
+}

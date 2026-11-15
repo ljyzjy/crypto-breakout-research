@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 121,
+  "groups_checked": 4,
+  "output_sha256": "937c2ac48a2af2b08b69baf476417df8b8347215285599677a686e0a7e6dc618",
+  "detail_sha256": "86e0635a4c2701517b7d6e0b0e1fa7fdcd7096c8ebbb72c37a2ff1b1c90fb8ac",
+  "audit_sha256": "87eb7b73cfe61605d250dc9660259f286c23aecbba7d73ecf164d2e689d334ef",
+  "note": "Decimal arithmetic; conditional margin assumption, not shared-account drawdown."
+}

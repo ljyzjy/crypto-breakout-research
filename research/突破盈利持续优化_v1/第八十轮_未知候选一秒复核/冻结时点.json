@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "5353ca0e7b4214ef965e14909c1c6e3e93851cf73aad445e9634832b26fc3f15",
+  "previous_source_audit_sha256": "b4802bff16f71d058692cbb2a565cbd1b33cd35540b9b53bed4e37f40a680076",
+  "baseline_2024_manifest_sha256": "399a06074dadee59abe45518c1f8b28fb2f51f308ae20034ad7fde29621e8352",
+  "baseline_2024_result_sha256": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+  "one_second_engine_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+  "causal_check_sha256": "60936a8a59c6c930943dcee5b2b557313f599ab90f463b2d8ea20dabecd41311",
+  "causal_test_sha256": "82c175ea33cfa2469ec32c16ca6098963176e7c5d6f1828311ca76d172c69f2a",
+  "prior_official_archive_sha256": {
+    "klines": "fc4f3a842dac6e891245bd33390615715078b1f15bb5fe25f231606c6d1a3af7",
+    "aggTrades": "9858763acbf3dff8fecd9c968da8df42e42241c0fccd80fccdb0733594442804",
+    "trades": "32ae16cad2e313c32f9ebd884b3d7288205eb5ae7facec354f78430adeee1875"
+  },
+  "frozen_utc": "2026-11-14T19:23:11.157701+00:00",
+  "note": "Fixed before the one-second source outcome; retrospective single-case sensitivity."
+}

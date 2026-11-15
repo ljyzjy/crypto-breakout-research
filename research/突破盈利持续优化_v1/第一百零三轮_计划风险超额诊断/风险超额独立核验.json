@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "closed_trade_rows_checked": 739,
+  "scenarios_checked": 6,
+  "result_sha256": "8a7140d500c44aa0475ff91a73cba2def318b38a417d27439bbbfd1cb18c2f19",
+  "code_sha256": "2dd62891d4e68c03c25b7c37011b53a417255bcdfababb4da80d89d5e60e6afb",
+  "note": "Counts model losses versus signal-time wallet and planned risk; not full equity drawdown."
+}

@@ -1,0 +1,17 @@
+{
+  "selected": "pool18_flow_partial_2r",
+  "target_r": 2.0,
+  "partial_exit": true,
+  "training_passed": false,
+  "metrics": {
+    "trades": 192,
+    "active_calendar_days": 85,
+    "net_win_rate_pct": 35.41666666666667,
+    "net_pnl": -80.18023775857512,
+    "profit_factor": 0.43334707929649585,
+    "max_drawdown": 8.018023775857507
+  },
+  "plan_sha256": "16f9643a82c9117f9781f56312154f464fea6503974280e59121de599b6aca0b",
+  "training_sha256": "c01618fecdb85cf11205d6acde1d1686ce99ba3a37cb0555390222c60dbb5f8a",
+  "note": "Unpassed training produces diagnostic only; pool is retrospective and 2024/2026 were previously researched."
+}

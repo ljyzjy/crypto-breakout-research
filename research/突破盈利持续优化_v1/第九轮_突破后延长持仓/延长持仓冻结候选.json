@@ -1,0 +1,29 @@
+{
+  "selected": "h4_3r",
+  "target_r": 3.0,
+  "max_hold_minutes": 240,
+  "training_success": false,
+  "metrics": {
+    "candidate": "h4_3r",
+    "target_r": 3.0,
+    "max_hold_minutes": 240,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 145,
+    "h1_2024_net": -66.65283785121369,
+    "h1_2024_win_rate": 20.689655172413794,
+    "may_jul_2026_trades": 42,
+    "may_jul_2026_net": -12.318355096190658,
+    "may_jul_2026_win_rate": 26.190476190476193,
+    "pooled_trades": 187,
+    "pooled_win_rate": 21.925133689839573,
+    "pooled_profit_factor": 0.6282080189291064,
+    "minimum_period_net": -66.65283785121369,
+    "sum_period_net": -78.97119294740435,
+    "h1_2024_funding": -0.05564612774926582,
+    "may_jul_2026_funding": 0.0
+  },
+  "plan_sha256": "e330570ba57c733575dd904f08eec2af27eed12a903aae2268c026d10cc69f6f",
+  "training_sha256": "48a657d50bf652eed1f4573d7a893af3b1738f94e5a0f138bcae70d2b099c0bb",
+  "limit": "Entry uses 5s public-trade reference; exits, liquidation proxy and account protection remain minute-level."
+}

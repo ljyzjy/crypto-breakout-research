@@ -1,0 +1,21 @@
+{
+  "year": 2024,
+  "raw_potential_events": 2901,
+  "hourly_rank_rows": 7962,
+  "post_hour_and_market_candidates": 119,
+  "candidate_market_statuses": {
+    "allowed": 119
+  },
+  "unique_raw_quarters": 1792,
+  "market_quarter_statuses": {
+    "known_no_order": 1423,
+    "allowed": 369
+  },
+  "source_hashes": {
+    "raw": "637d4008b0264cf66c764217a1ded459f13f81a2ad4d7c9e344da5339ff1631e",
+    "ranks": "d4314a3f4a1dc9ddba9cfa6287b1786cf22bcbd0a8cbcab91e15e34522d830c9",
+    "market": "5c3f73ab1f37204c0a9188e37f33b467814cdf1690fb05e56678d8efe18d64e9",
+    "candidates": "f7d68bd2963d4d1df1a38865d4d86e8fa3b22c37404070a983d8f17b12d3b311"
+  },
+  "note": "Causal candidate locations only; no inferred tick direction, order or PnL."
+}

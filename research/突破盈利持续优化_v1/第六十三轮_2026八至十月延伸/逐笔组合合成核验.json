@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    "single retest",
+    "five/one-second entry",
+    "future tick perturbation",
+    "minute OHLC disagreement unknown",
+    "ineligible direction",
+    "one-second risk breach charged as filled"
+  ],
+  "composition_sha256": "4b51ec49e7826315f9422bee2a382657aa9fe0e79063500a4120a30c43885d9a",
+  "test_sha256": "a75efb6cb07db14919fa23b8ab5c8eb82f8ca07ae31598e0883bb1320441f33b"
+}

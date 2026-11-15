@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 12,
+  "detail_rows_checked": 98,
+  "oi_points_checked": 184,
+  "official_sample_errors": [],
+  "result_sha256": "61aecbfaf3b30424642d9dce7ef8c75cab14ba3a0fe5173e7dffb19a7a61fbf3",
+  "audit_code_sha256": "a8ea6c0890d637406ccae28ffc423641b7f7b9e6aa047f69dd09c637002c843f",
+  "note": "Independent historical time and arithmetic checks, not real-time availability or account testing."
+}

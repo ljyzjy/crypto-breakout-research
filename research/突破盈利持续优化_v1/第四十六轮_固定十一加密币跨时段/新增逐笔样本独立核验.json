@@ -1,0 +1,75 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "opening|ADAUSDT|1707759000000",
+      "year": "2024",
+      "side": 1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-12",
+          "sha256": "0ddb5f7654c675bec8d780bac14c6dbdd2a8e07ec3af5cbf93628953d3115093",
+          "bytes": 1955167,
+          "windows": {
+            "opening|ADAUSDT|1707759000000": 4673
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1713114900000",
+      "year": "2024",
+      "side": -1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-04-14",
+          "sha256": "58c15e1caad390da3942b8e62234f1ca2568384a6f9fa8d62ca7e4654cd80efc",
+          "bytes": 3646672,
+          "windows": {
+            "opening|ADAUSDT|1713114900000": 9203
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1781562600000",
+      "year": "2026",
+      "side": -1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-06-15",
+          "sha256": "968419e362a9e3d2ab7dedaad1eae0b409a40256b3a8305f4ece650b03bffb7b",
+          "bytes": 1688658,
+          "windows": {
+            "opening|ADAUSDT|1781562600000": 1580
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|BTCUSDT|1714548900000",
+      "year": "2024",
+      "side": -1,
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-05-01",
+          "sha256": "f41f292348137f14cfc888ba458fabbaa7db95a871c45191c42c74993cce8c4a",
+          "bytes": 38513458,
+          "windows": {
+            "touch|BTCUSDT|1714548900000": 95476
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 16,
+  "note": "Independent replay of public prints, not actual order execution."
+}

@@ -1,0 +1,28 @@
+{
+  "unit_trades_checked": 43,
+  "exit_paths_reconciled": 129,
+  "original_archives_sampled": 4,
+  "sample": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2026-06-04",
+      "observation_id": "touch|ADAUSDT|1780567560000"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2026-05-15",
+      "observation_id": "touch|ETHUSDT|1778808660000"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2026-05-21",
+      "observation_id": "touch|NEARUSDT|1779325740000"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2026-07-21",
+      "observation_id": "touch|XRPUSDT|1784662260000"
+    }
+  ],
+  "limits": "Same public data; unit-notional paths are not a shared-account simulation or confirmed market-order fills."
+}

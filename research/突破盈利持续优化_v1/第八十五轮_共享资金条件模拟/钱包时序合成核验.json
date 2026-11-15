@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "tests": [
+    "entry_and_exit_boundary_funding",
+    "cash_and_fee_reconciliation",
+    "combined_stop_risk_cap",
+    "same_ms_signal_order",
+    "fill_gap_insufficient_margin",
+    "future_exit_perturbation"
+  ],
+  "engine_sha256": "fdaf536b9116dc57aaf834a736f84a335d41beaa23df64a9e03975a35d5ecb4d",
+  "test_code_sha256": "26d59a81823ce1d3295ef64da8ae6e24b7e7c6854e32377301dd57f97ed5eaf6"
+}

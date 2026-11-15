@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "tests": [
+    "class_label_independent_of_net_sign",
+    "conditional_mean_payoff",
+    "expected_net_rule"
+  ],
+  "code_sha256": "375e5b2225b7c74c61314975dd53e4d8b48ce5717aeaa6e196aab9a765d6f788",
+  "model_runner_sha256": "c4ef5100946fcc9fbcbca23ae62319d1ae86efa52ea1e45f56cff3476ed53c76",
+  "prior_objective_sha256": "c38c1eefc45362291f00fe217cc3eb8886c8c3faca60c4d9d99d6bccb2c6ccf7"
+}

@@ -1,0 +1,40 @@
+{
+  "dry_run": true,
+  "exchange": {
+    "key": "",
+    "secret": "",
+    "enable_ws": false,
+    "ccxt_config": {
+      "enableRateLimit": true,
+      "options": {
+        "fetchMarkets": {
+          "types": [
+            "spot"
+          ]
+        },
+        "fetchCurrencies": false
+      },
+      "urls": {
+        "api": {
+          "public": "https://data-api.binance.vision/api/v3"
+        }
+      }
+    },
+    "ccxt_async_config": {
+      "enableRateLimit": true,
+      "options": {
+        "fetchMarkets": {
+          "types": [
+            "spot"
+          ]
+        },
+        "fetchCurrencies": false
+      },
+      "urls": {
+        "api": {
+          "public": "https://data-api.binance.vision/api/v3"
+        }
+      }
+    }
+  }
+}

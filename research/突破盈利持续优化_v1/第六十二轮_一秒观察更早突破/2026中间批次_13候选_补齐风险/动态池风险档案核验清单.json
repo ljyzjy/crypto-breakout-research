@@ -1,0 +1,212 @@
+[
+  {
+    "kind": "markPriceKlines",
+    "contract": "ADAUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "09a5e001e36d9d2311878d461bffd39a64ada8c64a7c57928f5eb1c49ece4660"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "13f655eaa29865b16acc7bd97be74e212bc4c2139fc2f9ead4d150852c2a9ebb"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "65aa0bbeac414e86a50d1c916b9941d5f325663d038209d8cb94887edd9f990f"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "DOGEUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "c057c34d18f83d10284d62eed9d377cb195e8ba12f0cc272a1cb7c34aafdb40b"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "445b65fd6b17bfcfb5e4d035db29fad34f729fa078f0449024db42621be84e6e"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "NEARUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "8ef582ebcd4467ad649fd198ae18718d562ef88b92e03d46e1481f2ee2185bda"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "DOGEUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "b701956a49aa6e9daf692eccbe0c79be94dd3e0dbacde8996852f551a5fbfdba"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "c9e4475e8762b4e52b899785deca52bceb0efb9bf08bd411b3147cd5e1da5e25"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "cff97ce688329592bccbbf5873b5c7021649e093f5f5806e332c5b4fb7fd6a00"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ADAUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "e41b9ac1f3d6651ff94562de9b3a0297016c6dc2d2def42f6561d963cfdb0fc1"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BNBUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "183d7b73d056d8c005bd338e7ba2fdbaddbe7bd82cc52b376885b3d95399a96a"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ETHUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "aa2afb08a5d8e24cf2c986228fbfeb28e97a58ccda0bda798c6855fbfb2521ed"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "XRPUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "f5d1b51767ddc812c4608080adf54cfca0db7cba592d3e62d7416cd358a3ebde"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "d89f850bc8d231872575402ab9b514ad0f5a3bcffd00510127ecd694b82e5261"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "DOGEUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "c8102f33bbc753fadf4729c168e7ab6ca4cc94187d4dd73a499b30ca472f0b3f"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "a2edbe971087a995a10f78eb805f38c64d46bcd5691b38574587bc91021a0a21"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "5bf8c87477bdefc138b26cc29945f4ec64137b8c58e3e4683407aad367874712"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "DOGEUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "2d450dc70a75bbc72cefb387f5c06d2acdb6e6418829f4f5ab257da48197ec8c"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "a1c31700452a8b8d90246a44bab6711137b111844a4b24d43e409322cc4bc605"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "5d5d8b86efbe709e034409634347a161183e7c0df3854f8d96c9778dc1c923ba"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ETHUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "cc6fb028a811bc423b711f6b89de067bf92a2eda61303e1ce0b219b5d3210e47"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BNBUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "0ff2884392a6efe9a33063971dd583090124e916a3c8b59dca6949cb6ed81124"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "XRPUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "7b704ecf7475393af349e67a26ceca5f6147e3c0d7343adfa54635c2a5a48ca6"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "XRPUSDT",
+    "month": "2026-06",
+    "status": "verified",
+    "sha256": "a748184516bcc83166884af6f03a3fc34aedf523f3670590e7a7ab771e29a35d"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "NEARUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "d75a639f224ec6ee09b91495dae769ae3b7e6b79453d43760ddf085b64f706a5"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "XRPUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "f8c0c09953b112a7f5ac203a826811ead1ac43db8c075b17b2ca69e837828255"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "LINKUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "ef7c6babd245a7e1836e1c4f21aa181fd1aac5cd08799e6bcf9a03aa48038638"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "LINKUSDT",
+    "month": "2026-05",
+    "status": "verified",
+    "sha256": "06536cdd66211e1a25629a54d489493aaab6b3613b9d2207a65af44a3826da1b"
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "LINKUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "a24bc5e1a77a22d754bb3df9bf2373c9dc261f2a953adbdb7e0ac3ecf49b2f6b"
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "LINKUSDT",
+    "month": "2026-07",
+    "status": "verified",
+    "sha256": "42f06dfc2f6ab34dda1a7ae739d978b11b05384e098be9d556abf9015414ba9f"
+  }
+]

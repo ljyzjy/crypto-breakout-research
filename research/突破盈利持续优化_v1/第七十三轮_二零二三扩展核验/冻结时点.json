@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-11-14T18:04:19.765982+00:00",
+  "plan_sha256": "9f16c5de002538cfbc349b9dbd4551e578a9fb97b2b1e70e9a352fcee5c5159f",
+  "candidates": 146,
+  "known_candidates": 127,
+  "known_groups": 119,
+  "original_unknown": 19,
+  "runner_fingerprint": "209f72117aaf3ca48047ae62e6c7cbac2632375e8a72d48b18ce38bf53916e42",
+  "prior_plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867",
+  "prior_input_manifest_sha256": "eba41c4de8ec6e2da7240ccd92b17ef56b45ab27bcc2481cac3f51533ed04d17",
+  "oi_plan_sha256": "8e0793deaca0e1542505941ae6a121d8cec39dbcf1e29c873099c3d791a5981c",
+  "checkpoints_present": 0,
+  "note": "2023 was used in prior project research; not independent out-of-sample."
+}

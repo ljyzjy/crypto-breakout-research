@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "915ba4d7f1bf4e91517291192288fb48613edc05817f44fa309f485f7861f9ab",
+  "frozen_utc": "2026-11-14T21:23:41.972572+00:00",
+  "source_paths": {
+    "2022_plan": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\冻结研究方案.md",
+    "2022_candidate_quality": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二候选准备质量.json",
+    "2022_minute_sources": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二日档补源质量.json",
+    "hour_indicator": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十一轮_历史动态池小时数据\\prepare_hourly.py"
+  },
+  "source_sha256": {
+    "2022_plan": "c6cd3b8ca519605d0cbf06d6004e7445cc2c833f8143befb1dbdebdd6bfd1e15",
+    "2022_candidate_quality": "8c938cf2a1c5abd485e3886f1b9339b3911f4c79aa4840a45a63834d3832fcb0",
+    "2022_minute_sources": "ab171cd631b491ac45768fe3f56d87391566e802b00073a98881428ff887d20e",
+    "hour_indicator": "99cad6190a45bd43c12fde76f86bbb4878fcab43bc6de20dd04f8770bac7512d"
+  },
+  "2022_pnl_viewed_before_freeze": false,
+  "note": "Alternative zero-volume-hour semantics, not a change to frozen base strategy."
+}

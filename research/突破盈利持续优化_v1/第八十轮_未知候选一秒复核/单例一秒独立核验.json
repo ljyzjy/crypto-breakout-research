@@ -1,0 +1,41 @@
+{
+  "all_checks_pass": true,
+  "result_sha256": "f15e92e5ea0420880769bb4c5fcfffe39c8bf9bc22896aec36581dfb6278a279",
+  "audit_code_sha256": "23d3580392d4ba2d64e08fc9dd098f8b369f92a9bdc3b1d25e614f2ac1bf53a5",
+  "independently_downloaded_archives": 3,
+  "candidate_observation_id": "opening|XRPUSDT|1712564100000",
+  "first_second": {
+    "aggregate_count": 14,
+    "raw_count": 112,
+    "buy": "10191.03599",
+    "sell": "34694.58958",
+    "imbalance": "-0.5459109298095051591368519274",
+    "one_second_reference": "0.6061",
+    "breakout_level": "0.6062"
+  },
+  "baseline_sensitivity": [
+    {
+      "leverage": 10,
+      "known_trades": 36,
+      "net_wins": 14,
+      "original_unknown": 16,
+      "sensitivity_unknown": 15,
+      "original_known_no_order": 67,
+      "sensitivity_known_no_order": 68,
+      "original_optimistic_pct": 57.69230769230769,
+      "sensitivity_optimistic_pct": 56.86274509803921
+    },
+    {
+      "leverage": 20,
+      "known_trades": 36,
+      "net_wins": 14,
+      "original_unknown": 16,
+      "sensitivity_unknown": 15,
+      "original_known_no_order": 67,
+      "sensitivity_known_no_order": 68,
+      "original_optimistic_pct": 57.69230769230769,
+      "sensitivity_optimistic_pct": 56.86274509803921
+    }
+  ],
+  "note": "One retrospective source reconciliation; not a change to original frozen ledger and not a new independent sample."
+}

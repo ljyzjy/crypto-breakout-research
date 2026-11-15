@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-13T13:43:03.753814+00:00",
+  "finite_causality_checks_passed": true,
+  "full_cohort_checks_passed": true,
+  "matched_mask_reconstruction_passed": true,
+  "real_sample_checks_passed": true,
+  "stability_complete": true,
+  "same_features_hash": true,
+  "profitability_assessed": false,
+  "tests": 15,
+  "contracts_in_stability": 60,
+  "script_outputs": [
+    "causality.json",
+    "stability.json",
+    "coverage_independent.json",
+    "matched_independent.json",
+    "corrections.json",
+    "审计结论.txt"
+  ]
+}

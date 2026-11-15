@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "labels_checked": 133,
+  "unknown_labels": 0,
+  "source_archives_checked": 127,
+  "source_sha256": "de8e4b4643eaf24e1b4a27bb6739bd5d3cdd4eeea46a50422312e715b25dc8a5",
+  "labels_sha256": "131c14c353d4f5743b6de6dc9c0b17b41bf1f3f9101a5c2815fe7431a889ef62",
+  "code_sha256": "f954e500418b703db3a41ec76dcae814ad5c27a0fa1835d0c0ed3eef32e9c1ad",
+  "note": "Independent daily CSV parser and official ZIP CHECKSUM; missing and mismatched bars remain unknown."
+}

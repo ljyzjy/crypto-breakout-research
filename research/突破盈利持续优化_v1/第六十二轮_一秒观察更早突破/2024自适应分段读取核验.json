@@ -1,0 +1,29 @@
+{
+  "all_checks_pass": true,
+  "fingerprint": "7383b40e2077466bdb542465c56ad382460de60adbad60e993127ab5702d8e1a",
+  "plan_sha256": "11530fa87c96474d33ea853b465f187da12ac516e5a6609921957745adc13320",
+  "test_sha256": "852a8d96c105a88479351205af9fb9eb3d912f4d86ea027c68261484aad94f64",
+  "range_sha256": "50cbfe761d1f1aedbabf16cd123e7fa36788c03192686a331fc962e988219c77",
+  "runner_sha256": "cc8fe7c15b046b8c314986d8cf79c71cdab6006672ee72227df9f6b626f5ab1c",
+  "samples": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2024-01-30",
+      "statuses": [
+        "qualified"
+      ],
+      "old_checkpoint_sha256": "46e4816879608b7384cef6c5de8e0fc4a273e385dc3ff4831aeb29b0e80a6749",
+      "new_checkpoint_sha256": "46e4816879608b7384cef6c5de8e0fc4a273e385dc3ff4831aeb29b0e80a6749"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2024-02-21",
+      "statuses": [
+        "flow_filter_not_met"
+      ],
+      "old_checkpoint_sha256": "2e5858dd9cdc8a670d13e63b5d487f37e5b314062d04e4e33bbe6306980ceb13",
+      "new_checkpoint_sha256": "2e5858dd9cdc8a670d13e63b5d487f37e5b314062d04e4e33bbe6306980ceb13"
+    }
+  ],
+  "note": "Independent rereads; compare decisions and complete source hashes, not execution speed."
+}

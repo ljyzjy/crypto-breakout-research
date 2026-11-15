@@ -1,0 +1,130 @@
+{
+  "initial": 1000.0,
+  "final_equity": 1004.1375651221432,
+  "return_pct": 0.41375651221431387,
+  "annualized_return_pct": null,
+  "elapsed_days": 92.0,
+  "max_drawdown": 0.5089512043605082,
+  "trades": 20,
+  "win_rate": 35.0,
+  "gross_pnl": 13.966331048227733,
+  "fees": 4.91438121725105,
+  "slippage_cost": 4.914384708833198,
+  "funding_cost": 0.0,
+  "net_pnl": 4.137565122143201,
+  "average_trade_net": 0.20687825610717425,
+  "mean_holding_minutes": 12.9,
+  "mean_exposure_pct": 0.046130049794485116,
+  "profit_factor": 1.3424192103088037,
+  "ledger_error": -2.8421709430404007e-13,
+  "scenario": "delay1",
+  "start": "2026-08-01",
+  "end": "2026-10-31",
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "delay_minutes": 1,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 0.5098528736592778,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "stop_or_cost_gate": 14,
+    "late_day": 7,
+    "entry_deviation": 10
+  },
+  "signal_candidates": 51,
+  "leverage_cap": 1,
+  "seconds_execution_verified": false,
+  "run_id": "combined",
+  "rule_events": [
+    {
+      "id": "first|PEPEUSDT|1786639260000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1786639500000,
+      "effective_ts": 1786639560000,
+      "close": 0.0026436,
+      "level": 0.0026344
+    },
+    {
+      "id": "first|FETUSDT|1787491140000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1787491800000,
+      "effective_ts": 1787491860000,
+      "close": 0.1662,
+      "level": 0.1663
+    },
+    {
+      "id": "first|TAOUSDT|1788419040000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1788419700000,
+      "effective_ts": 1788419760000,
+      "close": 222.22,
+      "level": 222.26
+    },
+    {
+      "id": "first|AVAXUSDT|1788738120000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1788738300000,
+      "effective_ts": 1788738360000,
+      "close": 7.864,
+      "level": 7.868
+    },
+    {
+      "id": "first|ZECUSDT|1789115460000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1789116300000,
+      "effective_ts": 1789116360000,
+      "close": 1118.13,
+      "level": 1118.39
+    },
+    {
+      "id": "first|NEARUSDT|1790829960000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1790830800000,
+      "effective_ts": 1790830860000,
+      "close": 5.423,
+      "level": 5.44
+    },
+    {
+      "id": "first|ZECUSDT|1792658160000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1792659300000,
+      "effective_ts": 1792659360000,
+      "close": 1236.29,
+      "entry": 1248.8052850000001,
+      "initial_r": 11.732143571428423
+    },
+    {
+      "id": "first|ZECUSDT|1792658160000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1792659300000,
+      "effective_ts": 1792659360000,
+      "old_stop": 1260.5374285714286,
+      "new_stop": 1242.939213214286
+    },
+    {
+      "id": "first|AVAXUSDT|1793195280000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1793196000000,
+      "effective_ts": 1793196060000,
+      "close": 8.857,
+      "level": 8.854
+    }
+  ],
+  "expected_calendar_minutes": 132480,
+  "observed_calendar_minutes": 132480,
+  "active_minutes": 252,
+  "cash_minutes": 132228,
+  "permanent_halt_minutes": 0,
+  "cash_days": 91.825,
+  "halted_days": 0.0,
+  "period": "fixed_aug_oct",
+  "net_win_rate_pct": 35.0,
+  "failure_scheduled_count": 7,
+  "lock_scheduled_count": 1,
+  "lock_applied_count": 1,
+  "failure_exit_count": 7,
+  "winning_trade_count": 7,
+  "active_calendar_days": 17,
+  "acceptance_pass": false
+}

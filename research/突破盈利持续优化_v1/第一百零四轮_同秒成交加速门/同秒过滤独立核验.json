@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "candidate_classifications_checked": 620,
+  "summary_groups_checked": 12,
+  "candle_groups_checked": 18,
+  "result_sha256": "6a403caf2816c8bdb6e160f13e876b75dc216be4c5b7a320aaeedbaa2cb49255",
+  "detail_sha256": "4c1711ec275d6b90b2a4617562425e612980715773e948eaf7214b2672a2d6e1",
+  "code_sha256": "1e726dfa73a8024a70effc5fba3cf0108c36afad1518d10e6fde8dc5dad8d953",
+  "note": "Classifications and unit arithmetic rebuilt; independent timestamp sample is recorded separately."
+}

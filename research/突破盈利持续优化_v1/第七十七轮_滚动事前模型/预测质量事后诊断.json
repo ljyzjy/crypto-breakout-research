@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "test_year": "2024",
+      "leverage": 10,
+      "scored": 36,
+      "net_wins": 14,
+      "auc": 0.4675324675324675,
+      "brier": 0.2866364715501757,
+      "training_win_rate_constant_brier": 0.2646813827571845,
+      "probability_min": 0.05227291914431717,
+      "probability_max": 0.4573909325042325,
+      "breakeven_probability": 0.44641736997979703
+    },
+    {
+      "test_year": "2024",
+      "leverage": 20,
+      "scored": 36,
+      "net_wins": 14,
+      "auc": 0.4675324675324675,
+      "brier": 0.2866364715501757,
+      "training_win_rate_constant_brier": 0.2646813827571845,
+      "probability_min": 0.05227291914431717,
+      "probability_max": 0.4573909325042325,
+      "breakeven_probability": 0.44641736997979703
+    },
+    {
+      "test_year": "2026",
+      "leverage": 10,
+      "scored": 13,
+      "net_wins": 4,
+      "auc": 0.4722222222222222,
+      "brier": 0.22582504084200086,
+      "training_win_rate_constant_brier": 0.21320202289060416,
+      "probability_min": 0.16811813564186998,
+      "probability_max": 0.4568547469408381,
+      "breakeven_probability": 0.4633121786688124
+    },
+    {
+      "test_year": "2026",
+      "leverage": 20,
+      "scored": 13,
+      "net_wins": 4,
+      "auc": 0.4722222222222222,
+      "brier": 0.22582504084200086,
+      "training_win_rate_constant_brier": 0.21320202289060416,
+      "probability_min": 0.16811813564186998,
+      "probability_max": 0.4568547469408381,
+      "breakeven_probability": 0.4633121786688124
+    }
+  ],
+  "input_result_sha256": "e7cbe91e7d9ff7a236d67262090b98697b5e10b7d7587db96272b6491fb041fd",
+  "code_sha256": "2bf8126b73b973465960b3f313435595bb34d56a8a25546059f4156d39d7845d",
+  "note": "Descriptive prediction diagnostics in previously studied periods, not a blind calibration test."
+}

@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 4,
+  "source_rows_checked": 196,
+  "result_sha256": "9648592566d35cc130e5269b70a3199c8882d75e4b0fe5134b77863280f1c70d",
+  "audit_code_sha256": "1944cb089223eceaffd20fb610a5befe5eb0ed9293a8b56e87fe2c8ec8674a5d",
+  "note": "Historical equal-notional opportunities; not independent validation or an account equity curve."
+}

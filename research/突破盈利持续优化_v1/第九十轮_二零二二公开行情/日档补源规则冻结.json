@@ -1,0 +1,8 @@
+{
+  "original_freeze_sha256": "573452bca925b87139bd9a75c19876ad83b1b297e76011fd1653b16cfaabb3ab",
+  "original_quality_sha256": "81e0e76128a79589eaf1309059b6890275c22506a7bfe117545974e87c349b5e",
+  "original_archive_manifest_sha256": "576b931894b5a95a765caf2616020ad575fdfd35fedc59fda9e7c5db07ba4dc2",
+  "amendment_sha256": "5d0bf68423a75bbedcd194ebcc0c17a984a9497c9fb46212c8d9aff07cec459e",
+  "frozen_utc": "2026-11-14T20:40:36.978412+00:00",
+  "note": "Source repair fixed after observing missing minutes and before candidate or PnL calculation."
+}

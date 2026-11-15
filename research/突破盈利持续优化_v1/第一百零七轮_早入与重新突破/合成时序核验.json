@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "afbb1d42a840d2d5476ae2ebc68340062ac04c74c9d06b0b6a990b1bed8634f0",
+  "test_sha256": "ce337c875d3c72374b63109d7a90e711305d55422cb5f32d004ba41aff12b24c",
+  "cases": [
+    "one order only",
+    "unknown not rejection",
+    "retry eligibility",
+    "late information",
+    "strict rebreakout time",
+    "confirmation delay"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "cases_checked": 4,
+  "wallet_code_sha256": "037862af071db1f0ee4d42005a58829dc0e013619c160fbb68e744eb56f77d60",
+  "test_code_sha256": "75aabbd4e221cfdd702c9b1923a2289300c3ffc56ed9249ae6429153fdae78d5",
+  "note": "Signal-time boundary only; no execution or profit guarantee."
+}

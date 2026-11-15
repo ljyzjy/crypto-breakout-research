@@ -1,0 +1,48 @@
+{
+  "all_checks_pass": true,
+  "groups": [
+    {
+      "year": "2023",
+      "leverage": 10,
+      "selected": 40,
+      "wins": 6,
+      "unknown": 19
+    },
+    {
+      "year": "2023",
+      "leverage": 20,
+      "selected": 39,
+      "wins": 6,
+      "unknown": 19
+    },
+    {
+      "year": "2024",
+      "leverage": 10,
+      "selected": 39,
+      "wins": 14,
+      "unknown": 16
+    },
+    {
+      "year": "2024",
+      "leverage": 20,
+      "selected": 39,
+      "wins": 14,
+      "unknown": 16
+    },
+    {
+      "year": "2026",
+      "leverage": 10,
+      "selected": 10,
+      "wins": 1,
+      "unknown": 4
+    },
+    {
+      "year": "2026",
+      "leverage": 20,
+      "selected": 10,
+      "wins": 1,
+      "unknown": 4
+    }
+  ],
+  "note": "Threshold selection and net summaries independently reconciled to audited frozen ledgers."
+}

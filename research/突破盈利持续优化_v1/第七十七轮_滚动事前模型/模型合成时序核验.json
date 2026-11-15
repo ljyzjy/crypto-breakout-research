@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "gradient_max_difference": 9.282087043427367e-09,
+  "fit_gradient_max_abs": 2.291935447852611e-10,
+  "future_fields_do_not_change_features_or_score": true,
+  "invalid_inputs_remain_unknown": true,
+  "model_code_sha256": "c38c1eefc45362291f00fe217cc3eb8886c8c3faca60c4d9d99d6bccb2c6ccf7",
+  "plan_sha256": "43d0f4b93d3e39763e1d59508af80c49f858b4a1beb25e56b1de47f065b3829b",
+  "test_code_sha256": "d4cc233be6883069511cfc85224438f55df8db1058d2f13ac66436bb39c5edb4"
+}

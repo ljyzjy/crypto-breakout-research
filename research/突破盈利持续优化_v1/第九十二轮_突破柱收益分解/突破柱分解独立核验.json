@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "path_rows_checked": 468,
+  "summary_groups_checked": 12,
+  "result_sha256": "0113668d234ca02de8d3a2d7ec03dc5d00f1446c3be23b5c5d79e80596ebce6d",
+  "detail_sha256": "c4a1aa0d7e1444ae95c6b7800498f66b7343b4edf78ee2e9bbfa25252990b1c5",
+  "code_sha256": "fe57e8f41f11158d7fb7e03f6925b588bf3c361e2d4998a381889209c18ac150",
+  "note": "Historical close is used only for an ex-post label; results do not measure capture rate of all big candles."
+}

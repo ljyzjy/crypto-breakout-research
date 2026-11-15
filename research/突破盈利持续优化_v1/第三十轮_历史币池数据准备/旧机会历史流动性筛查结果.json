@@ -1,0 +1,139 @@
+{
+  "comparisons": [
+    {
+      "period": "2024_jan_apr_train",
+      "variant": "normal_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 220,
+      "net_wins": 59,
+      "net_win_rate_pct": 26.818181818181817,
+      "avg_net_pct_notional": -0.22614563804747156,
+      "profit_factor": 0.5043276400360639,
+      "opportunity_days_utc": 94
+    },
+    {
+      "period": "2024_jan_apr_train",
+      "variant": "normal_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 145,
+      "net_wins": 35,
+      "net_win_rate_pct": 24.137931034482758,
+      "avg_net_pct_notional": -0.2574527983215927,
+      "profit_factor": 0.4177292339395506,
+      "opportunity_days_utc": 72
+    },
+    {
+      "period": "2024_jan_apr_train",
+      "variant": "fast_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 220,
+      "net_wins": 23,
+      "net_win_rate_pct": 10.454545454545455,
+      "avg_net_pct_notional": -0.1821556035364768,
+      "profit_factor": 0.3365439686442463,
+      "opportunity_days_utc": 94
+    },
+    {
+      "period": "2024_jan_apr_train",
+      "variant": "fast_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 145,
+      "net_wins": 13,
+      "net_win_rate_pct": 8.96551724137931,
+      "avg_net_pct_notional": -0.17981271089482265,
+      "profit_factor": 0.329293872894764,
+      "opportunity_days_utc": 72
+    },
+    {
+      "period": "2024_may_jun_later",
+      "variant": "normal_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 74,
+      "net_wins": 27,
+      "net_win_rate_pct": 36.486486486486484,
+      "avg_net_pct_notional": -0.06347280182242826,
+      "profit_factor": 0.781570868486849,
+      "opportunity_days_utc": 34
+    },
+    {
+      "period": "2024_may_jun_later",
+      "variant": "normal_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 32,
+      "net_wins": 10,
+      "net_win_rate_pct": 31.25,
+      "avg_net_pct_notional": -0.17155349782967208,
+      "profit_factor": 0.4556272953950048,
+      "opportunity_days_utc": 22
+    },
+    {
+      "period": "2024_may_jun_later",
+      "variant": "fast_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 74,
+      "net_wins": 12,
+      "net_win_rate_pct": 16.216216216216218,
+      "avg_net_pct_notional": -0.11440720382450041,
+      "profit_factor": 0.4910387596855153,
+      "opportunity_days_utc": 34
+    },
+    {
+      "period": "2024_may_jun_later",
+      "variant": "fast_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 32,
+      "net_wins": 5,
+      "net_win_rate_pct": 15.625,
+      "avg_net_pct_notional": -0.13848428617205197,
+      "profit_factor": 0.36091135541050895,
+      "opportunity_days_utc": 22
+    },
+    {
+      "period": "2026_may_jul_seen",
+      "variant": "normal_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 105,
+      "net_wins": 34,
+      "net_win_rate_pct": 32.38095238095238,
+      "avg_net_pct_notional": -0.1764574260402512,
+      "profit_factor": 0.5402827105202633,
+      "opportunity_days_utc": 53
+    },
+    {
+      "period": "2026_may_jul_seen",
+      "variant": "normal_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 50,
+      "net_wins": 16,
+      "net_win_rate_pct": 32.0,
+      "avg_net_pct_notional": -0.18162873769016577,
+      "profit_factor": 0.5403071882475133,
+      "opportunity_days_utc": 31
+    },
+    {
+      "period": "2026_may_jul_seen",
+      "variant": "fast_2r",
+      "subset": "all_old_18_opportunities",
+      "opportunities": 105,
+      "net_wins": 10,
+      "net_win_rate_pct": 9.523809523809524,
+      "avg_net_pct_notional": -0.1845261914966586,
+      "profit_factor": 0.26919460883225665,
+      "opportunity_days_utc": 53
+    },
+    {
+      "period": "2026_may_jul_seen",
+      "variant": "fast_2r",
+      "subset": "historical_top20_within_old_18",
+      "opportunities": 50,
+      "net_wins": 4,
+      "net_win_rate_pct": 8.0,
+      "avg_net_pct_notional": -0.22417594549278191,
+      "profit_factor": 0.20420890462205835,
+      "opportunity_days_utc": 31
+    }
+  ],
+  "plan_sha256": "636ae60b473c48509a13f888bbb39346daa503119af6ae7a61f85412eafa30b3",
+  "source_rank_sha256": "f56d1ce0da4fec865f97d159e492131bfe5ce7be031faede21b2a082b4665bcf",
+  "note": "Historical time-ordered subset of preselected 18 only; unit opportunities, no account performance, not a dynamic-universe backtest."
+}

@@ -1,0 +1,27 @@
+{
+  "all_checks_pass": true,
+  "cases": [
+    {
+      "observation_id": "opening|NEARUSDT|1671044400000",
+      "status": "qualified",
+      "paths_checked": 2,
+      "settlements_checked": 2
+    },
+    {
+      "observation_id": "touch|NEARUSDT|1671069780000",
+      "status": "flow_filter_not_met",
+      "paths_checked": 0,
+      "settlements_checked": 0
+    },
+    {
+      "observation_id": "opening|LTCUSDT|1672493400000",
+      "status": "known_risk_rejected",
+      "paths_checked": 0,
+      "settlements_checked": 0
+    }
+  ],
+  "source_sha256": "2c5675827bed5cbfbf09cd607d14de026ac57a19f17c4bb80c2cda760e2f2868",
+  "code_sha256": "a9404f0f73989ddf1343902d66c468c60ba97d3c0367a183d159f3cc58a4bb35",
+  "independently_redownloaded_risk_archives": 2,
+  "note": "Independent chunk parser, scalar path checks, fresh risk archive SHA and independent settlement arithmetic; sample is non-random."
+}

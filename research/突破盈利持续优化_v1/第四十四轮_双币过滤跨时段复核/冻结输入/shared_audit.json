@@ -1,0 +1,9 @@
+{
+  "shared_events": 1081,
+  "backup_only_events": 696,
+  "eligible_direction_checks": 1081,
+  "all_signal_and_rules_match": true,
+  "source_sha256": "aa48081e5639dcfbe1195c12179edc1f78ea9bab1a18f1b972bf4ff4c7a5deaa",
+  "backup_sha256": "8992e97ef07207997a8df35f3432bac53da32082d6437bac38d286e4896684b5",
+  "note": "Shared tape inputs agree; unresolved source problems remain unresolved in both variants."
+}

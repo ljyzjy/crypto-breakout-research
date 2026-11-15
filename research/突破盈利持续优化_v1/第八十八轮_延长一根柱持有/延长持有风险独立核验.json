@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 68,
+  "unknown_paths_preserved": 0,
+  "risk_archives_redownloaded": 62,
+  "source_sha256": "4e30bdf09339addf60705e5909996c06e3a13ee60d8550076b57d044b72600e6",
+  "code_sha256": "19de557b24589586c805439b47c373481fbd15526fd649f4c725ffffa2b5c9e9",
+  "note": "Independent risk and fee arithmetic on known paths; unverified or proxy-liquidation paths stay unknown."
+}

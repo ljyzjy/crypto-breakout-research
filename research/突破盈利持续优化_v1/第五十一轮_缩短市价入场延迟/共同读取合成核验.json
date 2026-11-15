@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "runner_sha256": "9cd6def2ded181135f89a249b4d625f757ce75cc750268dac2d1c219990833d4",
+  "one_r_sha256": "dad59ae0946488e51d54d01bc4d89819d61c8475965e88b9915d1cd0fa89c41b",
+  "one_second_sha256": "726b9681e1781b0ec28d3040a7a64837bb511984540720c6b12ca492c4163d24",
+  "checks": [
+    "independent_entry_rules",
+    "matching_one_r_checkpoint_key",
+    "atomic_idempotent_write",
+    "missing_path_not_written"
+  ]
+}

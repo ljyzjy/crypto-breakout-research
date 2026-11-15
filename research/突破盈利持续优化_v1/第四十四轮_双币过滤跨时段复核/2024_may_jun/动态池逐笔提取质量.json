@@ -1,0 +1,14 @@
+{
+  "candidate_events": 319,
+  "event_statuses": {
+    "flow_filter_not_met": 159,
+    "qualified": 104,
+    "known_risk_rejected": 39,
+    "minute_trade_ohlc_mismatch": 17
+  },
+  "unexpected_event_count": 17,
+  "variant_paths": 39,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "All source discrepancies are retained; ledger restricted to prior-gated normal-2R opportunities."
+}

@@ -1,0 +1,23 @@
+{
+  "selected": "aligned_room_1r",
+  "training_success": false,
+  "selected_training_metrics": {
+    "candidate": "aligned_room_1r",
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 146,
+    "h1_2024_net": -37.72809774687528,
+    "h1_2024_win_rate": 51.369863013698634,
+    "may_jul_2026_trades": 42,
+    "may_jul_2026_net": -16.539567604650415,
+    "may_jul_2026_win_rate": 45.23809523809524,
+    "pooled_trades": 188,
+    "pooled_win_rate": 50.0,
+    "pooled_profit_factor": 0.6640900081143892,
+    "minimum_period_net": -37.72809774687528,
+    "sum_period_net": -54.26766535152569
+  },
+  "plan_sha256": "a5f7b9f0da71bcc008753b7d83b739d90ab347b26fc67a7d69fea2c1a16f93ff",
+  "training_sha256": "147cf4d23527ada48f802e14787106005796dc9f2d5e4e7fec8c8718c1320d04",
+  "note": "Frozen before checking the older 2023 period; all other periods were previously explored."
+}

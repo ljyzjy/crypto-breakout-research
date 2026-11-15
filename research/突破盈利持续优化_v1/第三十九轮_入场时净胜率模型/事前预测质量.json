@@ -1,0 +1,91 @@
+{
+  "training": {
+    "10": {
+      "events": 230,
+      "wins": 61,
+      "invalid_feature_count": 0
+    },
+    "20": {
+      "events": 217,
+      "wins": 57,
+      "invalid_feature_count": 0
+    }
+  },
+  "validation_decision_counts": [
+    {
+      "period": "2024_may_jun",
+      "leverage": 10,
+      "decision": "known_no_order",
+      "count": 192
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 10,
+      "decision": "model_rejected",
+      "count": 99
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 10,
+      "decision": "source_unknown",
+      "count": 17
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 20,
+      "decision": "known_no_order",
+      "count": 196
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 20,
+      "decision": "model_rejected",
+      "count": 95
+    },
+    {
+      "period": "2024_may_jun",
+      "leverage": 20,
+      "decision": "source_unknown",
+      "count": 17
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 10,
+      "decision": "known_no_order",
+      "count": 53
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 10,
+      "decision": "model_rejected",
+      "count": 30
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 10,
+      "decision": "source_unknown",
+      "count": 10
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 20,
+      "decision": "known_no_order",
+      "count": 59
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 20,
+      "decision": "model_rejected",
+      "count": 24
+    },
+    {
+      "period": "2026_may_jul",
+      "leverage": 20,
+      "decision": "source_unknown",
+      "count": 10
+    }
+  ],
+  "model_sha256": "934468daae43e795c2fe4aea8e654e12f547c6f977a0c4880f53ed53fa07b7f2",
+  "score_sha256": "649d007c6ad5393b3e3c38a28d15dcbfa8a9284cf5a5f1dc6f6d86213c8600c8",
+  "note": "The score file was produced without reading validation path/exit/return data. No PnL is calculated here."
+}

@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-11-14T22:29:36.232118+00:00",
+  "check_delay_ms": 30000,
+  "minimum_progress_in_r": 0.25,
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百轮_突破无进展提前退出\\研究方案.md": "b4ad0cc932809c49ee98b35e2b1ca7dde4d11504eee670d2423ed0aaf9acba30",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\研究冻结.json": "87f498bcb4ffdcde43fec59af1263476e89ec07fa51d8f58b7feab721475631f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\run_raw_2022.py": "63261381e042eaf67741b2f4706ea4a0de74da8021dfe86dd36abf3bfbe95fa5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\批量回放试点一致性.json": "822b36490d40d79e08dff8cf9b0a2f2767789c4a613690abe16071482c3fcc9f",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\build_batch.py": "9d6dfe09998a86cfd57b5172d638e22d47139e27c8ae99362f6aaa48596f4cb3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\settle_risk.py": "0b96bc79dd046a6b0dfeca6f534188d19c0962abafb3828f2f0e89d0d7ac203d",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\summarize.py": "a111f5af9291f6720a8b9779535cb2f6002091293a35f163e6d83e9984b5edbe"
+  },
+  "raw_batch_fingerprint": "53286052710869f3aebff279a5d6f7badb97b00d3e327a0ce87c2c7d7e020020",
+  "note": "2022 aggregate and three raw pilot results known; full raw summary absent, no independent blind sample."
+}

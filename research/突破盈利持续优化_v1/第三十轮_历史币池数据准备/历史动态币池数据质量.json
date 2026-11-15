@@ -1,0 +1,21 @@
+{
+  "index_candidates": 923,
+  "indexed_archives": 4856,
+  "verified_archives": 4856,
+  "archive_errors": [],
+  "daily_rows": 145492,
+  "invalid_or_zero_activity_rows": 16783,
+  "rank_days": 273,
+  "selected_symbol_count": 92,
+  "ranking_year_counts": {
+    "2024": 3620,
+    "2026": 1840
+  },
+  "rank_day_eligible_range": [
+    236,
+    637
+  ],
+  "plan_sha256": "57eccd3a3a970708e2a9594762cf54a0da04db969d576db6750e74c35ec239b9",
+  "index_sha256": "4c85f3a7473699ce00cf1507cc94befe66eb2b77b21c83f363ecb9e3029a879d",
+  "note": "Top-20 is an archive-based candidate ranking, not verified past exchange tradability. Missing sources are not zero."
+}

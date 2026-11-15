@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-11-14T22:13:03.958161+00:00",
+  "candidate_count": 310,
+  "group_count": 284,
+  "audit_sample_ids": [
+    "opening|DOGEUSDT|1656337500000",
+    "opening|AVAXUSDT|1647400500000",
+    "opening|NEARUSDT|1667935800000",
+    "touch|SOLUSDT|1649203620000",
+    "opening|BNBUSDT|1642392000000",
+    "touch|ADAUSDT|1670400060000",
+    "opening|SOLUSDT|1654254900000",
+    "opening|SOLUSDT|1643353200000",
+    "opening|XRPUSDT|1664523900000",
+    "opening|ETHUSDT|1657819800000",
+    "opening|BNBUSDT|1667310300000",
+    "opening|AVAXUSDT|1653617700000"
+  ],
+  "selection": "first 12 by SHA256(2022_raw_audit_v1|observation_id)",
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\研究方案.md": "24385b9bb5b8dee179770e303045d70fbef10b34ec0992eb06a870b2864c918d",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\候选数据\\固定十一币双币过滤潜在触价.parquet": "9c2955d955523982b6ea94a57ab05256c495b49f198f65fdfb95d38dabe38be5",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\一秒逐笔独立样本核验.json": "3a9a09d4566155db6ac9f5737743f735dcb5da043ce308a18da0eaf19618f5bb",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\一秒逐笔回放进度.json": "d7c108186625bc1fd7e0546cdf3c52a11b0a472d0b43ebc0cb0d86acbb25e562",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十七轮_原始逐笔一秒回放试点\\原始逐笔试点独立核验.json": "2bd02ccf2ae56802effdf6c291b2e5b68e4eaf771064f85e5a649077f40b7bbb",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\one_second_observation.py": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\replay_2022.py": "b163a1cf45c637a2fe33eb5ac9151c9ff671a54ac844efa8fc06ba41c73b5af1"
+  },
+  "source_fingerprint": "6276a3fbbd9dbed06d575938ef81868ef10babf9777e23db67f2f8bbfa1fa031",
+  "data_root": "D:\\CodexResearch_2022_firstsec_20261115_v1",
+  "note": "Prior year aggregate P&L and three raw pilot cases already viewed; not a blind study."
+}

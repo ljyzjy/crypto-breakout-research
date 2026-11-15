@@ -1,0 +1,11 @@
+{
+  "all_unit_labels": 174,
+  "training_labels": 142,
+  "opportunity_labels_replayed": 6,
+  "prediction_rows": 47,
+  "accounts_checked": 8,
+  "trade_records_checked": 114,
+  "logistic_refit_matches": true,
+  "ridge_refit_matches": true,
+  "limits": "Isolated opportunity labels and repeated historical research; actual market order fills not verified."
+}

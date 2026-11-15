@@ -1,0 +1,8 @@
+{
+  "equality_threshold_checked": true,
+  "known_failure_with_other_missing_checked": true,
+  "missingness_remains_unknown": true,
+  "unique_quarters_future_bars_perturbed": 904,
+  "current_and_future_bar_perturbations_unchanged": true,
+  "all_checks_pass": true
+}

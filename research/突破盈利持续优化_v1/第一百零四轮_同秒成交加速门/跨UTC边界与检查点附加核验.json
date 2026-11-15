@@ -1,0 +1,25 @@
+{
+  "all_checks_pass": true,
+  "checkpoint_count": 21,
+  "target_events": 133,
+  "remaining_events": 112,
+  "checkpoint_statuses": {
+    "verified": 21
+  },
+  "unique_archives_referenced": 28,
+  "sampled_archive_hashes": 3,
+  "cross_utc_synthetic": {
+    "all_checks_pass": true,
+    "cases": [
+      "UTC midnight shard aggregation",
+      "strict endpoints",
+      "multiple raw records at same millisecond",
+      "exact 1.5x boundary",
+      "future records ignored"
+    ]
+  },
+  "frozen_sha256": "1763f5d01190bc57a2b89374a15cb6c39eaa2b15a3ba8f245ba50e05c3bd8964",
+  "count_code_sha256": "20b840ea71e3054dcac994f53df835eb42fd54694bf23d9a41ee0cde9550f5c8",
+  "audit_code_sha256": "774dbec1043deb230a291977b3ce47267ecbc7056127eedf3dbfcade779b4d1c",
+  "note": "Checkpoint metadata and three smallest archived ZIP hashes only; no trade outcomes or full 133-event replay."
+}

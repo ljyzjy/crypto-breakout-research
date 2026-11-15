@@ -1,0 +1,36 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1718868600000",
+      "variant": "one_observation_2r_10x",
+      "reason": "target",
+      "side": 1
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1713114900000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": -1
+    },
+    {
+      "observation_id": "opening|BTCUSDT|1704736800000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": 1
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1705681800000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": -1
+    }
+  ],
+  "eligible_paths": 72,
+  "reused_paths": 56,
+  "replay_fingerprint": "a8231eb03aba2fc94343330b67cc7456a7ee46d4db251d1604bef177cbe69b7b",
+  "source_snapshot_sha256": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+  "audit_code_sha256": "b005ce689a36e74ad5ac8c11e90c820f1e64f0c90ca40eb6433eccac5b5a6154",
+  "note": "Scalar public-tape replay; actual fills remain unverified."
+}

@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "path_pairs_checked": 240,
+  "aggregate_groups_checked": 12,
+  "result_sha256": "66c86478968be04bb281813f5134dd3ca333fbc30aa40eab143e0bf63cbf1631",
+  "detail_sha256": "c2572e2a04111246160925c91af5126ca732e57afc8da50d2aab35af19d35b1c",
+  "audit_sha256": "26a7080155a028cc12e5aec26d693a8e950ceb97041967dfbf82ec975338f215"
+}

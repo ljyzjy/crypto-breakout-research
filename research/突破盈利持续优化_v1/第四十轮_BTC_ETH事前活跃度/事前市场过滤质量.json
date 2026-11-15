@@ -1,0 +1,12 @@
+{
+  "candidate_events": 680,
+  "unique_quarters": 616,
+  "market_status_counts": {
+    "known_no_order": 565,
+    "allowed": 115
+  },
+  "source_sha256": "6c7f18a957a4040352ef924e46b3ec692a7825d4480f0e89baf7d95dc48fbcd9",
+  "plan_sha256": "cdba5c1115112338d4de9078cc074363c783bd221e05d6dc138029c3fd4f0d8b",
+  "decision_sha256": "c005e281a61f4ae407c0fd22d063c70b0f894430d44963fb71c5c8c97fbe0611",
+  "note": "Only previous 21 completed 15-minute bars per symbol; no training outcomes used."
+}

@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "same_entry_and_delayed_exit_checked": true,
+  "stop_and_clock_checked": true,
+  "risk_budget_breach_still_filled": true,
+  "same_time_stop_priority_checked": true,
+  "future_price_perturbation_checked": true,
+  "source_disagreement_unknown": true,
+  "code_sha256": "dad59ae0946488e51d54d01bc4d89819d61c8475965e88b9915d1cd0fa89c41b"
+}

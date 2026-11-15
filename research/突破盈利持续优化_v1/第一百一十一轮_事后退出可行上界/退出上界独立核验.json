@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "funding_classifications_checked": 261,
+  "prespecified_sample_observations": 12,
+  "replayed_sample_observations": 12,
+  "replayed_sample_paths": 23,
+  "source_sha256": "55ae1073ee57fe48affa86d508bec25b6adf4dd9f24126c84546abf0c6c24a37",
+  "code_sha256": "527f928bd7c8dbbd79b35a3f5a10db149d64b82effba9264b34a78690f7a82ea",
+  "frozen_sample_sha256": "1763f5d01190bc57a2b89374a15cb6c39eaa2b15a3ba8f245ba50e05c3bd8964",
+  "note": "Independent pandas tick parser, scalar execution and funding classification; hindsight remains nontradable."
+}

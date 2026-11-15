@@ -1,0 +1,32 @@
+[
+  {
+    "year": 2024,
+    "symbols": 11,
+    "calendar_days": 182,
+    "days_all_11_liquidity_histories": 182,
+    "possible_hours": 4368,
+    "rankable_hours": 4324,
+    "potential_first_touch_minutes_before_hour_and_dual_filters": 2901,
+    "raw_events_by_cohort": {
+      "opening": 1876,
+      "touch": 1025
+    },
+    "source_fp": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "note": "Fixed surviving 11 coins; minute touches are not orders or profits."
+  },
+  {
+    "year": 2026,
+    "symbols": 11,
+    "calendar_days": 92,
+    "days_all_11_liquidity_histories": 92,
+    "possible_hours": 2208,
+    "rankable_hours": 2208,
+    "potential_first_touch_minutes_before_hour_and_dual_filters": 858,
+    "raw_events_by_cohort": {
+      "opening": 536,
+      "touch": 322
+    },
+    "source_fp": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "note": "Fixed surviving 11 coins; minute touches are not orders or profits."
+  }
+]

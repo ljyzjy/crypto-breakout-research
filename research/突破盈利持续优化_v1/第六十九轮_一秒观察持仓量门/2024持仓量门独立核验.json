@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 12,
+  "repeated_scenario_paths_checked": 252,
+  "input_ledger_rows_checked": 72,
+  "oi_points_checked": 128,
+  "post_close_bar_labels_checked": 22,
+  "result_sha256": "dc49722397a638a15aa3553cb13d1d84f4778a1e3df2b7067b911f37d5f71250",
+  "audit_code_sha256": "b521cd08488838dc39b9357dfefb7ce78335541827472d280a26102e189f2276",
+  "note": "Independent accounting and time checks of previously audited historical sources, not a live or account test."
+}

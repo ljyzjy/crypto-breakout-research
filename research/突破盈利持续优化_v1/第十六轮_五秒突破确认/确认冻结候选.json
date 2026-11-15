@@ -1,0 +1,26 @@
+{
+  "selected": "confirm_hold_2r",
+  "target_r": 2.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "confirm_hold_2r",
+    "target_r": 2.0,
+    "follow_filter": false,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 171,
+    "h1_2024_net": -68.55854829001203,
+    "h1_2024_win_rate": 30.994152046783626,
+    "may_jul_2026_trades": 48,
+    "may_jul_2026_net": -19.707081185090374,
+    "may_jul_2026_win_rate": 39.58333333333333,
+    "pooled_trades": 219,
+    "pooled_win_rate": 32.87671232876713,
+    "pooled_profit_factor": 0.5531027312127971,
+    "minimum_period_net": -68.55854829001203,
+    "sum_period_net": -88.2656294751024
+  },
+  "plan_sha256": "cfd5583d5265e397245dd2b402fddea8ed79ff97632fbf715e8fa045d57ec379",
+  "training_sha256": "8a1767b4741c0a4488777e366ae82b12e8a28f42c470b8e90126029938f79604",
+  "limit": "Entry is the same public trade reference used in the confirmation filter plus slippage; additional observation/order latency is not modeled."
+}

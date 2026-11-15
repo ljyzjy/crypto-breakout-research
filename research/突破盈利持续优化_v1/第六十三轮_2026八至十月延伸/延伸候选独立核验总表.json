@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "rank_audit_sha256": "dce0c5ebe619c48108f323e085b7c41304ddee1413ac7cb345a5b854dd667175",
+  "candidate_audit_sha256": "374cd579c5b2855cc093337116c9ee1bf34648601407d23a18cfe4cbc8afd720",
+  "candidate_source_sha256": "af0091a0e22533cd097d468e3f0c12d4ea006900f5f77e59bdb288bc1a359e0b",
+  "rank_source_sha256": "1e59c371bb394a4ea516bb7cac92322ed7c1de447d98835453f69507885a8d28",
+  "inputs_unchanged": true,
+  "wrapper_sha256": "5cafe083a14a3fe4e0decd99184fa2691322e93b171ba8244c0249799e34bdae",
+  "note": "Existing independent audit algorithms reused; output redirected to new period only."
+}

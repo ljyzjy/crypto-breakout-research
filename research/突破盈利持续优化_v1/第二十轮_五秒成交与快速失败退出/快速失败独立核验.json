@@ -1,0 +1,6 @@
+{
+  "accounts_checked": 16,
+  "trade_records_checked": 564,
+  "scheduled_failure_events": 214,
+  "checks": "known-close ordering, one-minute delay, original-stop priority, ledger and matched controls"
+}

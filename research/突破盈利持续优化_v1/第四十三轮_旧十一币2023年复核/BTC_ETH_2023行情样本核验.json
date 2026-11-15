@@ -1,0 +1,63 @@
+{
+  "sample_count": 4,
+  "verified": 4,
+  "samples": [
+    {
+      "symbol": "BTCUSDT",
+      "open_time": 1676462400000,
+      "status": "verified",
+      "local_minute_sha256": "b62ca5df57b1715109cb1fd57097529b28410fb36b0db5bd41dbefe7e070db68",
+      "official_quarter_sha256": "3d2bf498800e0526d9e7503d8f20f7dbd4fd1908e90570053a7ec5803b31118e",
+      "ohlc": [
+        22433.0,
+        22745.0,
+        22432.9,
+        22674.1
+      ],
+      "trade_count": 196784
+    },
+    {
+      "symbol": "ETHUSDT",
+      "open_time": 1684152000000,
+      "status": "verified",
+      "local_minute_sha256": "5d75bb047ecbb013fabefd80e883b3dd6d21cd98bfbedb208147e5b2e7c395d6",
+      "official_quarter_sha256": "3b28964792ad73c04a2c95a40704b426b1ebb2d90e215531406d7b029f6b5c3c",
+      "ohlc": [
+        1823.62,
+        1825.8,
+        1823.37,
+        1825.71
+      ],
+      "trade_count": 16407
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open_time": 1692100800000,
+      "status": "verified",
+      "local_minute_sha256": "8d77e6f898fba3aa5bf643d128e0aaa1b722ea6881cd26a3d19088705117a1d7",
+      "official_quarter_sha256": "8ba91ecc5bf5573c3840a2f22f4b0b6d307fc659a9e11df3c3a6e7bcf332150f",
+      "ohlc": [
+        29357.1,
+        29372.4,
+        29352.0,
+        29372.1
+      ],
+      "trade_count": 11883
+    },
+    {
+      "symbol": "ETHUSDT",
+      "open_time": 1700049600000,
+      "status": "verified",
+      "local_minute_sha256": "5eeb6b99e8dc6889fe9d317f373f4f587c4c8d35de9ee2854a6471d6fd7b3e1b",
+      "official_quarter_sha256": "cd0ddd41ffd597a7c886cc84406c7e12d8de1d1a330680e9f47fe50f474f46ec",
+      "ohlc": [
+        2013.97,
+        2015.96,
+        2009.45,
+        2010.0
+      ],
+      "trade_count": 31265
+    }
+  ],
+  "note": "Four samples across BTC/ETH and dates; same-exchange source archive checks, not a full audit."
+}

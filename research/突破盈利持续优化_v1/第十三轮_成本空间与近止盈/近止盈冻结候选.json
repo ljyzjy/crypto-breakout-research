@@ -1,0 +1,25 @@
+{
+  "selected": "room_one_r",
+  "target_r": 1.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "room_one_r",
+    "target_r": 1.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 159,
+    "h1_2024_net": -77.01790557094,
+    "h1_2024_win_rate": 37.735849056603776,
+    "may_jul_2026_trades": 38,
+    "may_jul_2026_net": -19.50172497046333,
+    "may_jul_2026_win_rate": 44.73684210526316,
+    "pooled_trades": 197,
+    "pooled_win_rate": 39.08629441624365,
+    "pooled_profit_factor": 0.43287292886873446,
+    "minimum_period_net": -77.01790557094,
+    "sum_period_net": -96.51963054140333
+  },
+  "plan_sha256": "c31959ac43cb1b1149a32873c71883643d9b18277aa8cb1d80c181083faea428",
+  "training_sha256": "224bf47149978ce7e0fea9a42a4a813a5fce97b8989852fc12fa6405eb0863da",
+  "limit": "Profit target, stop and all account risk actions are minute based; same-minute stop priority."
+}

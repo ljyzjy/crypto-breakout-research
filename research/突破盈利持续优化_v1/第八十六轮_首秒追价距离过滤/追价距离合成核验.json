@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    "long_short",
+    "strict_cross",
+    "inclusive_limit",
+    "one_second_boundary",
+    "invalid_price_unknown",
+    "future_perturbation"
+  ],
+  "gate_sha256": "9ab24a5d9e4f7ab521100d89e126513854b7e62a42191def6df6bfb6befc4e33",
+  "test_code_sha256": "375e8532c980015800baac6c4850c268d6222e7664a0b67ec339626fbedd9307"
+}

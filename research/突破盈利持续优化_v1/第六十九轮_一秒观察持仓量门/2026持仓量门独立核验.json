@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 12,
+  "repeated_scenario_paths_checked": 108,
+  "input_ledger_rows_checked": 26,
+  "oi_points_checked": 48,
+  "post_close_bar_labels_checked": 9,
+  "result_sha256": "0a4ed886237997c5c7d48a692320554f9645f49f062c4c2cb136b4b2c5dfac37",
+  "audit_code_sha256": "d244f3ac384d6fd65efbb06836d8574ad061231a5840d0a56a508065355eb9b1",
+  "note": "Independent arithmetic and point-in-time checks on already audited historical sources; not live publication or account validation."
+}

@@ -1,0 +1,10 @@
+{
+  "selected": "base_2r",
+  "training_success": false,
+  "selection_rule": "First choose among >=30 trades, >=60% net win, positive net and PF>1 if any; else largest net P&L among >=30 trades.",
+  "selected_train_trades": 70,
+  "selected_train_net_pnl": -0.6877065819445534,
+  "plan_sha256": "b3eb269cad3eb92ce4fd40c431ab4a55c39c30123666c227e383ed3737301b64",
+  "training_results_sha256": "bb19a1b6c4494729f51de60a84e1e5febc9155a1dd88b43aed5626976790d6c0",
+  "note": "Selection is based on exploratory May–July 2026 only; do not revise after reading later periods."
+}

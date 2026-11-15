@@ -1,0 +1,35 @@
+{
+  "plan_sha256": "c6cd3b8ca519605d0cbf06d6004e7445cc2c833f8143befb1dbdebdd6bfd1e15",
+  "source_paths": {
+    "candidate_generator": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十三轮_2026八至十月延伸\\准备延伸候选.py",
+    "chunk_engine": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\chunk_exact.py",
+    "minute_engine": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\minute_features_chunked.py",
+    "preparation": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\prepare_fixed11_chunked.py",
+    "market_gate": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十轮_BTC_ETH事前活跃度\\market_decisions.py",
+    "one_second": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\one_second_observation.py",
+    "risk_engine": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第三十三轮_动态池逐笔执行\\settle_dynamic_paths.py",
+    "price_distance": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十六轮_首秒追价距离过滤\\extension_gate.py",
+    "extended_exit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第八十八轮_延长一根柱持有\\extend_exit.py",
+    "stream_reader": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\public_tape_stream.py",
+    "range_reader": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十八轮_固定一倍风险止盈\\public_range.py"
+  },
+  "source_sha256": {
+    "candidate_generator": "ca727a79b57bc891f28221a74e9bfb7e703ef4f4805d913e1b8c4f1c590dc232",
+    "chunk_engine": "51e26ad262f9c010c6c0f25e07dea6104d61deb5bc6de0ce4c731ad9ba88c70d",
+    "minute_engine": "4e4ce48c447856938398376fc0710d6f271d263e5dd414bd0fd933c20c5c51e0",
+    "preparation": "7872b64bbec18dc33b600958ac241d1c0ceb9170ef34b64625e1506162ab761a",
+    "market_gate": "dd1370b1a935cd11823d8dc898b12485110ecd106e2fc62fe9c62268c024c56a",
+    "one_second": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+    "risk_engine": "f2e4bb438c792b773f269d6117ba3a5838c45ca2318d916872b5f5cf4a615b55",
+    "price_distance": "9ab24a5d9e4f7ab521100d89e126513854b7e62a42191def6df6bfb6befc4e33",
+    "extended_exit": "dcce6a930b4f2045d7090d2e840ecf4169dabf6b86df8943fd930a169815d811",
+    "stream_reader": "a6f31492ba2dd1705533d34d7eadbf8de45f5f4878ab13449395d3c7ea716632",
+    "range_reader": "50cbfe761d1f1aedbabf16cd123e7fa36788c03192686a331fc962e988219c77"
+  },
+  "data_root": "D:\\CodexResearch_2022_firstsec_20261115_v1",
+  "warmup_utc": "2021-12-01",
+  "begin_utc": "2022-01-01",
+  "end_utc_exclusive": "2023-01-01",
+  "frozen_utc": "2026-11-14T20:36:19.202302+00:00",
+  "note": "Fixed before downloading 2022 data; later-selected coin universe is survivorship biased."
+}

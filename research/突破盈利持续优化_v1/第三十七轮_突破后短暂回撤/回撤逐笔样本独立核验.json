@@ -1,0 +1,59 @@
+{
+  "sample_events": 4,
+  "variant_paths": 16,
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1713769200000",
+      "contract": "NEARUSDT",
+      "side": 1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-04-22",
+          "sha256": "a4a62ea59a506a6867a68e3f84ba88cbc06e3dc7e6f8035ccd8d39080530319f",
+          "bytes": 3656287
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|FILUSDT|1713493800000",
+      "contract": "FILUSDT",
+      "side": -1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-04-19",
+          "sha256": "60c2d07b882c87c7746a6e8c25474eb0da466dc710ebe58ef8436134d8ca2dbf",
+          "bytes": 3203344
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1714248000000",
+      "contract": "NEARUSDT",
+      "side": 1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-04-27",
+          "sha256": "29434d9bd3737fc55a6a0b64840eb8e92691881147748c46bdc73d67ada269da",
+          "bytes": 4269674
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1712320500000",
+      "contract": "LTCUSDT",
+      "side": -1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-04-05",
+          "sha256": "a3e2035cdcbf15cfad9d6dab927be7d752f37c7fd5322d87c0c096f4ff364b66",
+          "bytes": 3393941
+        }
+      ]
+    }
+  ],
+  "note": "Independent tick replay; public prints are hypothetical price references, not actual fills."
+}

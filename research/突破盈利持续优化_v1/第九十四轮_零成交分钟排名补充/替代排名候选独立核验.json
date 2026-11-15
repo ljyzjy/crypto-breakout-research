@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "raw_potential_events_checked": 133,
+  "hourly_rank_times_rebuilt": 55,
+  "candidate_gates_checked": 0,
+  "candidate_quality_sha256": "6259f2cc63342bb8362de49a179ffdc461ce612e6d2f281cc6bc8981c310a28b",
+  "hour_audit_sha256": "55095bcac80e17e935a7d7b4a9ea93693b6da74c7134d79e1080a7734861c64a",
+  "code_sha256": "93c966dcb599744803998da6d90d11373d10e510973bd9cd8c21c2ff83517297",
+  "note": "Alternative semantics only; first-second paths and risk not checked here."
+}

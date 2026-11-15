@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 226,
+  "groups_checked": 2,
+  "result_sha256": "f0d33c96516f3a389225b6a1790471f92ac33b1c600e888f0c89854e40f7c041",
+  "detail_sha256": "27adfe7d0aded936c0efcb7d3a4a0395bf5febaf3594cd1b0d527229cc00d1bb",
+  "code_sha256": "685995ac96e833aed6750a348ff25e0ab1f0bfeb4d31d87d452e2c3c81827b56",
+  "note": "Descriptive equal-notional sample, not independent or an account."
+}

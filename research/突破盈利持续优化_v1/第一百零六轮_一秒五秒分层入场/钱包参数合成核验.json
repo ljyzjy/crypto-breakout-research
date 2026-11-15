@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "engine_sha256": "3a68ddf26c6f8c9e220fc0af91dfbcd5cb08c59945f205de73e2b046a38fb613",
+  "original_engine_sha256": "fdaf536b9116dc57aaf834a736f84a335d41beaa23df64a9e03975a35d5ecb4d",
+  "test_code_sha256": "5cc815213443cab5b1fecbd5ce4afbcdbf6afcdc34bbd8eb1e90e9fcae4df612",
+  "cases": [
+    "original budget parity",
+    "planned risk bounds",
+    "same-time allocation",
+    "future exit does not alter entry size"
+  ]
+}

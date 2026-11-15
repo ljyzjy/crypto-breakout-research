@@ -1,0 +1,14 @@
+{
+  "all_candidate_timing_and_cooldowns_checked": 533,
+  "independently_reconstructed_sampled_signals": 45,
+  "checks": [
+    "prior 16-bar boundary",
+    "first crossing",
+    "prior ATR and stop",
+    "own activity and partial body",
+    "hourly rank and relative volume",
+    "completed EMA trend of symbol/BTC/ETH",
+    "early entry and labels"
+  ],
+  "limitation": "Deterministic sample shares underlying public bars and does not establish live fill quality."
+}

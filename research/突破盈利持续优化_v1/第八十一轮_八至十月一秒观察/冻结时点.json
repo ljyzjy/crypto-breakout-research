@@ -1,0 +1,12 @@
+{
+  "plan_sha256": "b48a98ca3cfa68c5d3e0c3d0589d09b833cae46b322b3e2181e9d77833a6582c",
+  "candidate_quality_sha256": "b0222aa390c0b960034acaea73bf06702f61fc3839243cff938de0510a805e66",
+  "candidate_sha256": "a3972fc48f834f9adafe0d74500d1e114f43f69c378ad8df854f32a3fed107ba",
+  "source_sha256": "8509a08ca603d857cd3e2092ab1cd3343c4855ceb43d6d45c2b4e7ab62055eda",
+  "one_second_plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867",
+  "one_second_engine_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+  "one_second_tests_sha256": "1dc953acdf5148beb20b63767f80911c169e90aebf479fdd99e140e96f70f9ec",
+  "frozen_utc": "2026-11-14T19:29:10.606654+00:00",
+  "candidate_count": 57,
+  "note": "Prior full project has viewed this period; no project-level blind sample."
+}

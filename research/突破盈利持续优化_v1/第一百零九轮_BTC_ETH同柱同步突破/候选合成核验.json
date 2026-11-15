@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "b664102aec20f44a6304a1717aa0f45b077e2b1d41d17e2608803c7e20b327a5",
+  "test_sha256": "cb477f9e027384eca09717e7c16c5118b16d88833abd35431bc0233eae59e273",
+  "cases": [
+    "past-only levels",
+    "strict equality",
+    "both directions retained",
+    "missing quarter",
+    "invalid current quarter"
+  ]
+}

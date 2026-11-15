@@ -1,0 +1,2865 @@
+{
+  "candidate_events": 146,
+  "event_statuses": {
+    "flow_filter_not_met": 72,
+    "qualified": 49,
+    "prior_source_unknown": 19,
+    "known_risk_rejected": 6
+  },
+  "unexpected_event_count": 19,
+  "variant_paths": 98,
+  "unverified_path_count": 0,
+  "archive_errors": [
+    {
+      "status": "unresolved",
+      "events": [
+        "opening|SOLUSDT|1673647200000",
+        "opening|ETHUSDT|1673831700000",
+        "opening|BTCUSDT|1674684000000",
+        "touch|ETHUSDT|1675281960000",
+        "opening|DOGEUSDT|1675872900000",
+        "opening|BTCUSDT|1676823300000",
+        "opening|BTCUSDT|1677031200000",
+        "opening|BTCUSDT|1678821300000",
+        "opening|BTCUSDT|1679093100000",
+        "opening|ETHUSDT|1679127300000",
+        "opening|SOLUSDT|1681671600000",
+        "opening|BTCUSDT|1682621100000",
+        "opening|ETHUSDT|1683510300000",
+        "opening|BTCUSDT|1687365000000",
+        "opening|SOLUSDT|1688033700000",
+        "opening|ETHUSDT|1698942600000",
+        "touch|ETHUSDT|1701862320000",
+        "opening|BTCUSDT|1702951200000",
+        "opening|ETHUSDT|1703006100000"
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-01-04",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-04",
+          "sha256": "227ae9ab7b547a5abf46e81913f927572495de6c3d00bafd3efd95bbc85a8831",
+          "bytes": 50192
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-04",
+          "sha256": "9efa53077327139c02bc559dd1539a31f11f558ec13d1b32a8e0782defc89608",
+          "bytes": 1432253,
+          "windows": {
+            "opening|ADAUSDT|1672800300000": 2611
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-02",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-02",
+          "sha256": "3a0efb6bd84bafd54cf7aef781c8016411c5ded863d5313cc5b503d483726b86",
+          "bytes": 52372
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-02",
+          "sha256": "e9d16c2ff633852a04519465bd5656e5e3c3aa202912febef40077bf597e0d1d",
+          "bytes": 2095368,
+          "windows": {
+            "opening|ADAUSDT|1675298700000": 3801
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-07",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-07",
+          "sha256": "c2bbb82a3818e13a9af049c94dab58ba9a468464b84025114ef0a9413768c584",
+          "bytes": 51084
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-07",
+          "sha256": "8ec78cd618dcf4182fd782390dba88790d825dd4375184e7684e349c414b8fd8",
+          "bytes": 1474205,
+          "windows": {
+            "opening|ADAUSDT|1675792800000": 4852
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-13",
+          "sha256": "0ff6f8e905b79bb1eda558072ea1990c3bdf3e066158fdbbb9189017dad8e7ae",
+          "bytes": 51410
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-13",
+          "sha256": "a11f065089f4b2b03595d78c973d309b9d3d2e55dc8e93d92c19d49bba2c320b",
+          "bytes": 1476474,
+          "windows": {
+            "touch|ADAUSDT|1676279760000": 5951
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-04-03",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-03",
+          "sha256": "389bd2d4dd20f23049422ff447ab22741ec14a57f8cea9a34222c54664508d22",
+          "bytes": 53396
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-03",
+          "sha256": "fb652510fa9b00b4c2a2f168d30d96818a533c307c866bac4da98c4b0c94c697",
+          "bytes": 3463673,
+          "windows": {
+            "opening|ADAUSDT|1680552900000": 5958
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-07",
+          "sha256": "4f5d6c2ce5b4d3d78b69c7d18a4d85dd71c683ab17a6a878d44d5af91754fab3",
+          "bytes": 51908
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-07",
+          "sha256": "b7181bc3fe7eadd9eca2a8733f7c0b6132ed5c06941b78d767f751e498fe3c6e",
+          "bytes": 3444747,
+          "windows": {
+            "opening|ADAUSDT|1686132000000": 8051
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-09",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-09",
+          "sha256": "f04048a6048928eb877d1b938d6c98d564d909a5ab48c11df8fec442e238c3da",
+          "bytes": 52501
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-09",
+          "sha256": "bb722ac9621c6e75b1efad694c53d8c0cedef62b5ce0c586abcf886314a07352",
+          "bytes": 4182243,
+          "windows": {
+            "opening|ADAUSDT|1686326400000": 8969
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-07",
+          "sha256": "f3907e4f05a2df54d9a37f4a6496489c16165242348eb0c0226ad17145af4256",
+          "bytes": 52651
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-07",
+          "sha256": "f7ad3bc3dcccc0908587841d63940d937d094fba512df4491c97624cc8e8926d",
+          "bytes": 2097453,
+          "windows": {
+            "opening|ADAUSDT|1699351200000": 3119
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-16",
+          "sha256": "fbc19db8b92e30f5a35786adca5bdda1806433d22fa16bfc3865329f8aed9cb4",
+          "bytes": 54007
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-16",
+          "sha256": "a03634c6c88e90efb5dce22e282bbeb724830f283554a42beb0c0dd0e60771fa",
+          "bytes": 3224718,
+          "windows": {
+            "opening|ADAUSDT|1700124300000": 5823
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-10",
+          "sha256": "78cdc1f4eefcc8810314502fdb4a79c58234f9dc1859a8615b0e2ec73a688481",
+          "bytes": 55807
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-10",
+          "sha256": "a77bf0f746a20ef8368d80f93c6e9d7a0461db00ab4b7f3bb16c7fd8a034b40a",
+          "bytes": 4790216,
+          "windows": {
+            "opening|ADAUSDT|1702200600000": 5865
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-13",
+          "sha256": "639c3514bef0ae8d1fc219dc853163c0d474c4be1cfa7569b01855e4985b4078",
+          "bytes": 56892
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-13",
+          "sha256": "91682fbda867334dbabf6bf31c369995a75ccb3c846ebadcca73ac05955ff7dd",
+          "bytes": 7386949,
+          "windows": {
+            "opening|ADAUSDT|1702475100000": 18062,
+            "opening|ADAUSDT|1702496700000": 18203
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-14",
+          "sha256": "11464b040d6a2bcddc826f4edbb6d1b4b5ec5a5031e0fab675109fc640609050",
+          "bytes": 55894
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-14",
+          "sha256": "38f67621aa347c6aad2129e51b9aaa1437df6335e63a4d096beb0e40a6cfb688",
+          "bytes": 5847895,
+          "windows": {
+            "opening|ADAUSDT|1702560600000": 25019
+          }
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-06",
+          "sha256": "89e5334ceada36c8cee7366b3031c99802c37de20b10c335e2a1273acf70f3a4",
+          "bytes": 46761
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-06",
+          "sha256": "eddd86e32f1021b068083f68b408b73df9aa45bad145d31d5d6e37615d8444cd",
+          "bytes": 1207564,
+          "windows": {
+            "opening|AVAXUSDT|1673011800000": 8490
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-20",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-20",
+          "sha256": "fae53eaa59ba352f0eb0bc7f992fe345e6dde92f0f9f7df7335048373d50a6d6",
+          "bytes": 49255
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-20",
+          "sha256": "f8efdb0c79cf461c11f1e7e34d538568209be34c3cd21533dffb3503ad46d54c",
+          "bytes": 2669579,
+          "windows": {
+            "touch|AVAXUSDT|1674247680000": 4511
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-24",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-24",
+          "sha256": "80b624405057e30215c16b2a8fe22bee8d17272c65b0a276fa10ede0e0b9bb29",
+          "bytes": 50236
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-24",
+          "sha256": "57dc88916848f45b7356f82208108a168d4b45d5b28aa3abd471326508ec3a24",
+          "bytes": 3411168,
+          "windows": {
+            "touch|AVAXUSDT|1674525840000": 13980
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-01",
+          "sha256": "c451b8add3733243fd56a379c50191d399786a9ddf38aaeb58ffba4b6de9a6b1",
+          "bytes": 50306
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-01",
+          "sha256": "16d110880da3fa425f9e4a8c3fbe2529dba6531287acf59f7b60feff3effd4f7",
+          "bytes": 4084753,
+          "windows": {
+            "touch|AVAXUSDT|1675281660000": 15846
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-10",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-10",
+          "sha256": "1d5e4a176af1cce777333804640f56847f895a16b3c9dec9ce7b97280a9ce8d5",
+          "bytes": 50423
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-10",
+          "sha256": "4b0cf482c74d4cc01460c6c9a304ef4dfc4b56beb4f6b6440acf4a72fa8041ae",
+          "bytes": 3342883,
+          "windows": {
+            "opening|AVAXUSDT|1678455900000": 10478
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-13",
+          "sha256": "af93b28b9c58cec7552cb53e04f4be90a3fd2142e75403faf3cdf644148736bc",
+          "bytes": 50110
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-13",
+          "sha256": "5bf45c48841cb77c58d19e5fc73e775075b73d594dfa92be3238a5033b4158b9",
+          "bytes": 3248280,
+          "windows": {
+            "opening|AVAXUSDT|1678668300000": 7418
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-18",
+          "sha256": "830bdb3fb04085034e270a07e87428990b85b95827664bed785441fc235d39f4",
+          "bytes": 49785
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-18",
+          "sha256": "985101245593d92ee46c9b955e9fee2968fbb2c5c3934f946353fc6c013588cb",
+          "bytes": 2614331,
+          "windows": {
+            "opening|AVAXUSDT|1681780500000": 4375
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-08-22",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-08-22",
+          "sha256": "6fded859fa9baa9fd18005ab761e6b6ef7b99626d0c9efab382a9c85df31e0d4",
+          "bytes": 47082
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-08-22",
+          "sha256": "a6924e9b9b2810bf89ccfd5fdb43c2840279ef0b932925d0eb28243e9737a663",
+          "bytes": 1505655,
+          "windows": {
+            "opening|AVAXUSDT|1692720000000": 9439
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-11-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-18",
+          "sha256": "2c31fefc28495ff828dba16ce0be31cc7a2dcd56fbc35a8c47d92992e71a818a",
+          "bytes": 53332
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-18",
+          "sha256": "01c94c675037c37b28d0f835f3e672134eac1a9f3d971d41e810a80a4c718524",
+          "bytes": 9408230,
+          "windows": {
+            "touch|AVAXUSDT|1700284680000": 6007
+          }
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-14",
+          "sha256": "9e4825d9347d063615961b87970d427a6d8e08bc54c01bfcabcce5d586e73252",
+          "bytes": 54185
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-14",
+          "sha256": "5ca32eefeceab3702ef48a5545a41a238c2e609b887972a88259cc3ac4b7fec9",
+          "bytes": 12510442,
+          "windows": {
+            "opening|AVAXUSDT|1702544400000": 14286
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-01-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-18",
+          "sha256": "b0194bfbd3f4c6c8280c2c6a9a7de9b7f819bda234f30a1188fbfcd4bcb51948",
+          "bytes": 55453
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-18",
+          "sha256": "698f3e6d9b46f68e8ef68275a7bd624a911023f01df50e6cfe516f094321509f",
+          "bytes": 5657207,
+          "windows": {
+            "touch|BNBUSDT|1674060240000": 5688,
+            "opening|BNBUSDT|1674060300000": 51808
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-01",
+          "sha256": "e73fe7a656a171560325e70e4aefdf962afaba8e27fb08e4ed7f1a64a2ebb2fe",
+          "bytes": 54734
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-01",
+          "sha256": "c2803387e52f344244ff91d94eeccbe07747b51dd337674dbfa8c5c986933483",
+          "bytes": 3447883,
+          "windows": {
+            "opening|BNBUSDT|1675281600000": 9078
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-13",
+          "sha256": "086102970e3c6fca782c967829cb3bb25823016e4e0ffea240ee81ba60abd131",
+          "bytes": 58093
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-13",
+          "sha256": "d0a9c2d47f53b5b5e719e0e854f114eb3d65c9ac51bb440bc1166657648abfa5",
+          "bytes": 9734773,
+          "windows": {
+            "touch|BNBUSDT|1676278680000": 7293
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-09",
+          "sha256": "6d9a03ee3ef7e817678092cd26a42b92d077392b4af5bb7f492dbb9e154c74aa",
+          "bytes": 55006
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-09",
+          "sha256": "be1b28b9a204073ef440726c9281fe53d477d0acf62766814e79dcc2dd149b88",
+          "bytes": 3485641,
+          "windows": {
+            "opening|BNBUSDT|1678394700000": 19877
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-14",
+          "sha256": "840c6ab4903b8ec89f78b481ba38108e56f8c7fe4eed9d7cea0a2755b6329d59",
+          "bytes": 56143
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-14",
+          "sha256": "eb59ab0441bb9094f631ab58755bbfdd5ba13922f0330c0a419d745b222755e8",
+          "bytes": 5179145,
+          "windows": {
+            "opening|BNBUSDT|1678821300000": 15929
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-17",
+          "sha256": "36eae75ea4afea8c566842710633009d0910f0f85f8a694c96a2e3f4f3e5ab0c",
+          "bytes": 54525
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-17",
+          "sha256": "8421c6add68801e62fe8c6ad60e4d303edacd9e011d739a69dd732a784db10d5",
+          "bytes": 3057803,
+          "windows": {
+            "opening|BNBUSDT|1681691400000": 10241
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-10",
+          "sha256": "a8b272f142e2ad805ef429e6b405b92be6c4564ee3a7124465ffb16a6349b08e",
+          "bytes": 54398
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-10",
+          "sha256": "e0d49e48d7f8bd0f161d0ec85dbbe7d36464cb32e33cbe40bb6e19291f6aa01b",
+          "bytes": 3467143,
+          "windows": {
+            "opening|BNBUSDT|1699604100000": 4900
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-16",
+          "sha256": "8ccb80c180c541b516f288c9410866c2abf0839d9d7aee75385a1c0c1bf6a4c4",
+          "bytes": 54755
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-16",
+          "sha256": "275916e5f7b701a05dc10048343159b3d5000d03f0caab1cb5e3df6c8b720519",
+          "bytes": 3397730,
+          "windows": {
+            "touch|BNBUSDT|1700163180000": 6240
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-27",
+          "sha256": "4302d5bedfcc53f6a99e3e1dcf619f57955739c64fbe7fbff71527eeccffec7b",
+          "bytes": 57997
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-27",
+          "sha256": "33a018c7efc8433b130bb57f3b33b925fae146fa77890013abcd728c817854bf",
+          "bytes": 8181618,
+          "windows": {
+            "opening|BNBUSDT|1703673000000": 15064
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-28",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-28",
+          "sha256": "1f536a4f9960a56e55e1930dd3b1624f0a77550d5f6bd990dbeaca8fc98d1069",
+          "bytes": 58494
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-28",
+          "sha256": "65df35cd4dc1d880586bf5948ee1f19815471b08f0ab9a190b2e4f5dee903574",
+          "bytes": 10995523,
+          "windows": {
+            "opening|BNBUSDT|1703724300000": 17148,
+            "opening|BNBUSDT|1703770200000": 17183
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-01-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-16",
+          "sha256": "2d0fc7226a64c681816525874329931417f5e0ddf258b67637a38264b772fee6",
+          "bytes": 62325
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-16",
+          "sha256": "9887de94bad39a2c4c62255706e24cd6b5dc05aa8e2ba44e453fe633babc163e",
+          "bytes": 19231037,
+          "windows": {
+            "opening|BTCUSDT|1673831700000": 51900
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-15",
+          "sha256": "05d504acab505e4dc9ed0b00f36f34236aef9d25e919063b88aacc9ecf80a2a7",
+          "bytes": 61676
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-15",
+          "sha256": "0015b6ace45c3a91538c7c3d4b10bbd144d229c79303c733183e4257afb68679",
+          "bytes": 20849663,
+          "windows": {
+            "opening|BTCUSDT|1676493000000": 146640
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-17",
+          "sha256": "d9facd959e0de6233e8f2b5512b9d05bad585250fb792c1cd3d1cb70fb5aacb5",
+          "bytes": 63212
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-17",
+          "sha256": "b0fc6563f6b4e7fb4d5ce842f92daa80cf8664a34d60d3ec77fd995b4d177386",
+          "bytes": 26508305,
+          "windows": {
+            "opening|BTCUSDT|1676654100000": 50673
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-20",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-20",
+          "sha256": "8a52fb4de2775b2ddc22942612462c571652f9b5c2f8c7e6ef26910a8693bb22",
+          "bytes": 62316
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-20",
+          "sha256": "8fc039c7c022052fbd3d422961957771bf4e3885518d18b84053eeee6f25bcc1",
+          "bytes": 19817567,
+          "windows": {
+            "opening|BTCUSDT|1676855700000": 36229
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-23",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-23",
+          "sha256": "b5be638f8a60ae694ef982882a2c768acc8a5bb09cdf76d968dccd621613caca",
+          "bytes": 62812
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-23",
+          "sha256": "4f915a9101fb217c5a6fa398319f62cbc9ec5e4af6c6cd7a89f1d0066afdbe9b",
+          "bytes": 21086284,
+          "windows": {
+            "opening|BTCUSDT|1677151800000": 86132
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-09",
+          "sha256": "89d21d255716a8304f9fc3aec20e4aa482c41d87b756d6b82ff70811b2a3aae6",
+          "bytes": 61891
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-09",
+          "sha256": "d089dee1bd1b9427f0ab0aa3dadf76ecfc145e344574a47725199870dc6ade8d",
+          "bytes": 22116509,
+          "windows": {
+            "opening|BTCUSDT|1678394700000": 173831
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-13",
+          "sha256": "7515445b990d93259947f82f66923ba19fc1bf6d74a8afb6b63f743ec0bbcd07",
+          "bytes": 64759
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-13",
+          "sha256": "17e5b80b5f3c3ec68dc389b10a0c26cba9ce0244b3adc961f10293f651e48788",
+          "bytes": 49453635,
+          "windows": {
+            "opening|BTCUSDT|1678668300000": 77223
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-14",
+          "sha256": "12b14c689b37f06c0e4e2a9d8efc1f388a14a3b9fef6a0d5619cfac578493bd9",
+          "bytes": 65030
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-14",
+          "sha256": "e2b706339dd5aaeacb944e67e7bf596cfdd0200ebeb460b030afa7dcb758603d",
+          "bytes": 56242402,
+          "windows": {
+            "opening|BTCUSDT|1678791600000": 59242
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-22",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-22",
+          "sha256": "6111a4c8b4867dfc5d716f9c815c782533e3f5685e4fd0fc077998e106d29332",
+          "bytes": 63558
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-22",
+          "sha256": "e6a7ae5501dafd0e78910ac48c66c3ee94cd7e4f970b776d39aea5f91352ba48",
+          "bytes": 40988908,
+          "windows": {
+            "touch|BTCUSDT|1679511720000": 268987,
+            "opening|BTCUSDT|1679515200000": 98020
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-04-28",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-28",
+          "sha256": "f00775cea60432ed42a7e3d134c07b1cc602d53be5febf4fa1626fd85bd84f2d",
+          "bytes": 62095
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-28",
+          "sha256": "58aa71945b645eeaf184f3968a8a209ae78cc6a0c7d5df310e435b023855a676",
+          "bytes": 19247839,
+          "windows": {
+            "opening|BTCUSDT|1682689500000": 54073
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-05-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-05-08",
+          "sha256": "ff4fca50db35104f78492b56a64794e4ebdb861591c7cd1cdc93d5769a0a2640",
+          "bytes": 62706
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-05-08",
+          "sha256": "5784ed964030c12b8be521ed38377a9eb8875ce29ee119de3dd0109481158ea1",
+          "bytes": 24262444,
+          "windows": {
+            "opening|BTCUSDT|1683510300000": 73994
+          }
+        }
+      ]
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-16",
+          "sha256": "e35a54b0cac0cd55159f5fe9ca3c17cd30beb358cca2a790ea8f26da13a7deb0",
+          "bytes": 62191
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-16",
+          "sha256": "7aea71be0037324c1f82b7340d0e77a7231b5cb21cf75801f34e2eb4a7f15c9e",
+          "bytes": 20413866,
+          "windows": {
+            "opening|BTCUSDT|1700163000000": 78516
+          }
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-01-21",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-21",
+          "sha256": "b9fdc60eb618d446a402714dbcca65047dd0a5d2ff8c799eb9801400405f6541",
+          "bytes": 57988
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-21",
+          "sha256": "790afa3defbfca634ddedc0ca36771de6e5e2ca2fc8565d60691c943b96cdfd7",
+          "bytes": 3536741,
+          "windows": {
+            "touch|DOGEUSDT|1674344640000": 841
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-01",
+          "sha256": "34453b1516e81f00338eebaa562e8b43ffc369611b3daff282adbb2c3712b094",
+          "bytes": 59630
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-01",
+          "sha256": "b2ad7276163a24366f2e8da0c3f19d0eb3fe501548ebab030dfc98272003b65e",
+          "bytes": 6178334,
+          "windows": {
+            "opening|DOGEUSDT|1675240200000": 4791
+          }
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-08",
+          "sha256": "b0f7cdcb84f85e08757b0de3320e507c543930f657651001a050bac1bad25a3d",
+          "bytes": 56477
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-08",
+          "sha256": "abb3b39c378c2d57c37941db68ec7583af72a1ff8672ac70e2eb831023f843f3",
+          "bytes": 2266345,
+          "windows": {
+            "touch|DOGEUSDT|1675873860000": 5411
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-15",
+          "sha256": "7ba5d5625241e1a4a3da29f402bbeefe73f73d90b81488720bc0187f908e81ac",
+          "bytes": 58051
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-15",
+          "sha256": "ff9268c6cd501d320a2f0c4665c525c7f61557439f4d80849c75a201a5391d7f",
+          "bytes": 3188730,
+          "windows": {
+            "touch|DOGEUSDT|1678879920000": 3015
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-18",
+      "needs_next": true,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-18",
+          "sha256": "9f0483a74a1f5f4bc6ae7c830bedf22ba200e3ffe6041f14d8e2335dd857b0df",
+          "bytes": 58088
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-18",
+          "sha256": "1bbb5f391c1e10ccc8ee21bab429fac066253a4efad40f96bd9fd3448cf80eb8",
+          "bytes": 3465781,
+          "windows": {
+            "opening|DOGEUSDT|1679183100000": 3699
+          }
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-19",
+          "sha256": "29dd0bca04778af4bad85b10195f6d867c25199a82b9f3667c6fe38c124a6354",
+          "bytes": 2178647,
+          "windows": {
+            "opening|DOGEUSDT|1679183100000": 218
+          }
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-04",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-04",
+          "sha256": "1947a871fc8ec9684a1a1447400d80ebf7829cbed1fcb1627d7562cc08feb10e",
+          "bytes": 62950
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-04",
+          "sha256": "926e496a6dd957e3b2280b4959b82031b27e7deac0dddaf82e116ba4305dd211",
+          "bytes": 18129666,
+          "windows": {
+            "touch|DOGEUSDT|1680603480000": 21175
+          }
+        }
+      ]
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-06",
+          "sha256": "9bbea775f112d8dc8f174a91f639765ce88db27e7b14aa9084b12bc5a1904af2",
+          "bytes": 60261
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-06",
+          "sha256": "43cf05039887ab5a5851a3fa5dc3f6ffb6bef3e4a9890e54479ad3c94a68bcf5",
+          "bytes": 8821068,
+          "windows": {
+            "opening|DOGEUSDT|1680744600000": 12199
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-05",
+          "sha256": "2f182eefce253ff990d30e02d380425301c4e98f454dce2eed6a792af94a1b76",
+          "bytes": 61854
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-05",
+          "sha256": "bc7756e085371b8e190295faeeed4d6f0f672d7a2cc4e8c5a14e5741831d711c",
+          "bytes": 10556432,
+          "windows": {
+            "opening|ETHUSDT|1675620000000": 18339
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-17",
+          "sha256": "6a6544743bf6529df3d973edbfa7d4fb849efcd9a62d56773afc841a48b4020d",
+          "bytes": 63591
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-17",
+          "sha256": "394eafb7bfef77171cd6c18c30de0a058e5427d289961510dffb78e53a16e0fc",
+          "bytes": 15953708,
+          "windows": {
+            "opening|ETHUSDT|1676654100000": 31524
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-03-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-17",
+          "sha256": "a04e5cdd3b8ce4864af86d20b7db309301a6851c5e70f609bfcb81797de67269",
+          "bytes": 64941
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-17",
+          "sha256": "a01b72fe62c039f9d1cbe28f1e875540af093aa30227bc5fb3a1a7ac91f6dc9f",
+          "bytes": 22321091,
+          "windows": {
+            "touch|ETHUSDT|1679047680000": 16686,
+            "opening|ETHUSDT|1679093100000": 38907
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-13",
+          "sha256": "d8cd38e77a261debd48ceee02c911b7a51f6a384a853efc508fec131b7ed1cc4",
+          "bytes": 63250
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-13",
+          "sha256": "545223c30ffe2a6eb294f1a5c6d7ec64d16bfb93bc4265068ca3153e503e3381",
+          "bytes": 18009868,
+          "windows": {
+            "opening|ETHUSDT|1681377300000": 48753
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-05-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-05-17",
+          "sha256": "d4c21d51706e21bca7a9f67f36a1fb9a08616264459a71e2cc34f04a2540f807",
+          "bytes": 61841
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-05-17",
+          "sha256": "6cdf4492b5c46a3386ac3c50fd8198e0ec35b56fbd3b7158a9001e6aaa0edf28",
+          "bytes": 11158631,
+          "windows": {
+            "opening|ETHUSDT|1684350900000": 21342
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-06-21",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-21",
+          "sha256": "3ac61ed2ee113abd21676246dc3a55d7666a07c276cf594c9db49bd61eca5d19",
+          "bytes": 63395
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-21",
+          "sha256": "675f550b143a01bf12759b7292177627ef7e40589be5f3264ea237eb2adfbaf7",
+          "bytes": 18985396,
+          "windows": {
+            "opening|ETHUSDT|1687365000000": 62177
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-06",
+          "sha256": "73e1e09ebe5abc0680b2a10fe8662eabffd2fb1f053273f9bedbe74f3aeac2d4",
+          "bytes": 63323
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-06",
+          "sha256": "81d8a6d5bc480435b0fe01e320b73732ebef5dd3d5ccade9838b21beccc77964",
+          "bytes": 11774534,
+          "windows": {
+            "opening|ETHUSDT|1701861300000": 25971
+          }
+        }
+      ]
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-29",
+          "sha256": "390c471e03bfef3821fc69308db7815834b78c0b67b4a54fdcdfea71c04aaccb",
+          "bytes": 64086
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-29",
+          "sha256": "e4e87cdab191cf2ed97953b950a66799652e056587c5713aef8897a51838031c",
+          "bytes": 15093768,
+          "windows": {
+            "touch|ETHUSDT|1703813820000": 26762
+          }
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-17",
+          "sha256": "5a06520c31d5f6e250d09bf442c9a3b215636d496d6a825fc0a884abb2baad4c",
+          "bytes": 55866
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-17",
+          "sha256": "6b14ea0929c4bad72703031ecbf796c9fb9ffe0607d3b361661080b0a7270ece",
+          "bytes": 2667373,
+          "windows": {
+            "opening|LINKUSDT|1676654100000": 8028
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-24",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-24",
+          "sha256": "037324b5d4e2fb0c14ab7627565dacd489fcaf510446d0d9de0d32e97f11c78f",
+          "bytes": 56929
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-24",
+          "sha256": "ed60c3b4e5f8baff982148a2be0934dfcdb97adf8e7bd6d7424301b7f0040a89",
+          "bytes": 3450885,
+          "windows": {
+            "opening|LINKUSDT|1677241800000": 1907,
+            "touch|LINKUSDT|1677254520000": 10056
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-09",
+          "sha256": "88bc7d7237320c8375719949537d4a9ae0032ddef5b015e37b7fe6057c767ef0",
+          "bytes": 54645
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-09",
+          "sha256": "0e6c3b8ed78ae2ae5627f4b9dcc9cc84cae9d739321982c3fdc8de7b92d114a7",
+          "bytes": 2293405,
+          "windows": {
+            "touch|LINKUSDT|1678387680000": 3391
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-15",
+          "sha256": "3df13df30d17d5d36f099b83a1c73e2222c67048f52ff2d589faec8063c5b7d3",
+          "bytes": 56239
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-15",
+          "sha256": "cefa188984d3df780acb5917d012de0b44b628df2bb2192d736be0f8d2247ead",
+          "bytes": 2761629,
+          "windows": {
+            "opening|LINKUSDT|1678879800000": 4142
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-29",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-29",
+          "sha256": "f11b0e64e46be7f15753ad779799211cc796bbd273dba6fb9b67274bbd5d00ff",
+          "bytes": 54662
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-29",
+          "sha256": "bb9bcb3e23344367eb7722759fc7fc085f21ae1894c0f335ddd575516ec7e090",
+          "bytes": 1900744,
+          "windows": {
+            "opening|LINKUSDT|1680071400000": 2772
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-04-26",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-26",
+          "sha256": "c0df7e09abbfba595fae1451a810926be48b9e59d74a04dc1e6d586484f2ad51",
+          "bytes": 54403
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-26",
+          "sha256": "9abd0ef12bce2ae19f0312973869a5c8839a8100ce849c2f1f52f05b11d54ade",
+          "bytes": 2542678,
+          "windows": {
+            "opening|LINKUSDT|1682539200000": 16754
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-06",
+          "sha256": "0a7cb1ae9f7f11954a6e488a90f56d4988ba33517e0d1960c62a805a8cbbf3af",
+          "bytes": 52031
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-06",
+          "sha256": "d75904304e4b44b1abbf0ea552026f51d2634e64839359cc93b107b83a454503",
+          "bytes": 1313488,
+          "windows": {
+            "touch|LINKUSDT|1686059220000": 2212
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-20",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-20",
+          "sha256": "05536470594cc9caba6fa0293c039afd5754f8639bf630f4b8cc38573224f383",
+          "bytes": 53396
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-20",
+          "sha256": "192445ab884494638e8c671cea79936080c73707c777bd2e620ba399b5faed83",
+          "bytes": 1343871,
+          "windows": {
+            "opening|LINKUSDT|1687276800000": 1352
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-07-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-07-17",
+          "sha256": "e78c772142f484f7fc2f280c3e1d658b156b2e369d006859c5998017817074a1",
+          "bytes": 56008
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-07-17",
+          "sha256": "2cdf868096d74779803ac22f62be45a15329cc02e257f24c095d6b3ff8abddd0",
+          "bytes": 3341765,
+          "windows": {
+            "opening|LINKUSDT|1689588000000": 1482
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-18",
+          "sha256": "5a267d3afd1729995615e4d192a384d102654393fa37d9898e86833c04136edc",
+          "bytes": 58068
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-18",
+          "sha256": "6bfe323cdf33e812e08cd1648d4a0493faaa44e4182a1b3c5fc1f2bd281265e5",
+          "bytes": 4647948,
+          "windows": {
+            "opening|LINKUSDT|1702934100000": 4723
+          }
+        }
+      ]
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-21",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-21",
+          "sha256": "30d9470572e57f4b95f3204831404116ad5c6a1da0ed1d64ce1e005084a00a20",
+          "bytes": 57392
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-21",
+          "sha256": "979f32fd68e594b7bd80e157a83e530dd1c0a6dee0970e6eae5df8496f620b73",
+          "bytes": 3229218,
+          "windows": {
+            "touch|LINKUSDT|1703156460000": 6848
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-01-30",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-30",
+          "sha256": "e58c3504c805e8a51094a2db17774a227ee34099d40545973e3c004353845506",
+          "bytes": 56390
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-30",
+          "sha256": "88164a8e3d3007d451cc7e864b6a743427e3dd77ef8c0c8b8cd4c62b6fa33fe7",
+          "bytes": 3361247,
+          "windows": {
+            "opening|LTCUSDT|1675067400000": 2681
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-02-22",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-22",
+          "sha256": "f5c56cc3da03a31fb27b94ba8be6b718c6256cde454a8488f986d670935df14b",
+          "bytes": 56707
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-22",
+          "sha256": "4c1468ab884791beca2bc3e065c81306ac1d3a392ca6cd15a8dff1f45d422f5b",
+          "bytes": 2767812,
+          "windows": {
+            "opening|LTCUSDT|1677033900000": 2245
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-12",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-12",
+          "sha256": "6234ce48ed645ff58664e0080404cbe7fbe8fd2787a7c3e0159569a1555a7953",
+          "bytes": 56895
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-12",
+          "sha256": "e93192af1444706f40a4d96ecf355c406d4c003011ad0375d560dbb550dea971",
+          "bytes": 3296533,
+          "windows": {
+            "touch|LTCUSDT|1678646040000": 8261
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-13",
+          "sha256": "0cb7cb11b030d919cb204e58a2a0f2384460e5d361ad8adabb30fbde1a722a7e",
+          "bytes": 57688
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-13",
+          "sha256": "504b5b73b0fef753acc74c5f204c2566543235c3e4c95124d7d632e5493bb43c",
+          "bytes": 4483192,
+          "windows": {
+            "opening|LTCUSDT|1678668300000": 8893
+          }
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-14",
+          "sha256": "db16b55e9e11403b64759bbf02c275223f007faabac1813633b5c0ee955fb026",
+          "bytes": 57565
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-14",
+          "sha256": "308ef6b99ec6e4a19f3c136d218c5c07aac8d0bd21c23de5aecbbcb9fd1f63a4",
+          "bytes": 4121261,
+          "windows": {
+            "opening|LTCUSDT|1678821300000": 9681
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-15",
+          "sha256": "1f6095bd59a7b1c2e1b681e4490206e1509cd8efda54c439780d94e46e07144d",
+          "bytes": 57828
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-15",
+          "sha256": "392a0124a9101298da4a2e9cd86ed5645ac34e09927b63f036eb9531098405fa",
+          "bytes": 4145763,
+          "windows": {
+            "opening|LTCUSDT|1678878900000": 5119
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-16",
+          "sha256": "9c87536f0f392edad9298e217798b02272f3bcaba1cb10588314e1fffa2a960e",
+          "bytes": 56650
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-16",
+          "sha256": "d5d8ed13a064f20730ef7a85172daf4891341552301325bed4dda463351fbc27",
+          "bytes": 2655874,
+          "windows": {
+            "touch|LTCUSDT|1678963740000": 2158
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-13",
+          "sha256": "b6120db15e817ad22e6bf1a40b39154a2948bff39d8013ce78e5ef4dff5861a2",
+          "bytes": 53509
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-13",
+          "sha256": "48c1d28de09d78d76666507fe7b0696bd4a2f68d71616c9e14ad92f2d8c6e5e6",
+          "bytes": 1527573,
+          "windows": {
+            "opening|LTCUSDT|1681376400000": 3560
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-14",
+          "sha256": "44f3c0f1e91be1af96f4de04adf1cb58fe01d153ca2b098bbc1fdeafd539170b",
+          "bytes": 56164
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-14",
+          "sha256": "88b33f063c62f7bd2c9c70ff6cc60b303ccce00207d0139da86db6ecd88db68c",
+          "bytes": 3121910,
+          "windows": {
+            "touch|LTCUSDT|1681477140000": 2496
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-17",
+          "sha256": "c79f973a174a7cea474cdcdabb6311119593e4c8d846e1029ece98ece120f480",
+          "bytes": 55465
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-17",
+          "sha256": "3e85e8b6bd5e00deee6350584a1d5bc2ad38f6761f61de017fccb13a76abfdc1",
+          "bytes": 2334350,
+          "windows": {
+            "opening|LTCUSDT|1681693200000": 5474
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-18",
+          "sha256": "6ac19a234c8d85eb33a15da03f1368cb64b2f8afb23c12f305f754da0cdef9cc",
+          "bytes": 56358
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-18",
+          "sha256": "5fecd228a174a1e1d5534c14ba22047d1d53159208b226a2bd90106a5bf2a129",
+          "bytes": 2747859,
+          "windows": {
+            "opening|LTCUSDT|1681780500000": 3078
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-24",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-24",
+          "sha256": "78cf72e20814e059822bdc2f83b4b772e672c1121dbb6a2d0a26748c69e9362d",
+          "bytes": 55491
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-24",
+          "sha256": "03bee65b7288c592d64a415d982e784b36fe87913297807fd9dd7034a8a20878",
+          "bytes": 2231594,
+          "windows": {
+            "opening|LTCUSDT|1682298000000": 4185
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-06-30",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-30",
+          "sha256": "603e48a1b01ee2acef409bd5b4a5c5eb44854cfda26e375c449f3106401b415e",
+          "bytes": 61622
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-30",
+          "sha256": "9bf5cd60179a198c72516ec738faf98736417f3cd62254365faddc92f95f0e1c",
+          "bytes": 16948478,
+          "windows": {
+            "opening|LTCUSDT|1688095800000": 21225
+          }
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-10-27",
+          "sha256": "c233edcf354a93a6c3a2eb84d4cf79f1a3395f10ebf8a4b52afa2f21eaa420bf",
+          "bytes": 53554
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-10-27",
+          "sha256": "09c79ade880f4f327f84e41e38c5c63077f1a4362e550f7278e1255033675125",
+          "bytes": 1465363,
+          "windows": {
+            "opening|LTCUSDT|1698372000000": 1793
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-10",
+          "sha256": "e3fbee5f73cfdf098b5380cb0e799e9c6285c1240273abb319fc637a6a852cde",
+          "bytes": 55146
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-10",
+          "sha256": "89e6787ad685f2fc5871d79bedde54cc3a991fa3ffcc6e5fc7d93d149b08ebfb",
+          "bytes": 2188688,
+          "windows": {
+            "opening|LTCUSDT|1699604100000": 4054
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-17",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-17",
+          "sha256": "f37250e35dc47ef851f01165e72772383dd1ed3bb725cb37d4ab2e994f25f76b",
+          "bytes": 53727
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-17",
+          "sha256": "ebcb475b9b7a89f0b58b3d64ca019039ca74dba2fa57769f00a3cd5fb9d0013f",
+          "bytes": 1270356,
+          "windows": {
+            "touch|LTCUSDT|1702792920000": 2320
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-23",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-23",
+          "sha256": "d1cf4dd95e3b3a6614778b35d3596ea8e879c89b4f348ba00bb647d39acdffe9",
+          "bytes": 52517
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-23",
+          "sha256": "5ca67d6b770a66b7c740b9a6b7496338dae85c2892a7a95a8c116a426482b34e",
+          "bytes": 1053983,
+          "windows": {
+            "opening|LTCUSDT|1703300400000": 2461
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-01-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-05",
+          "sha256": "7992835fb140f096a4d8a66411e71a6306f07326c614f78abeb0d4ce35dfd89b",
+          "bytes": 47246
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-05",
+          "sha256": "38dd8f70445af938e4c3bd67c0ecf8eeb6445fb3ef7e58f4fbcc561a8fa673c5",
+          "bytes": 1857017,
+          "windows": {
+            "touch|NEARUSDT|1672925940000": 1012
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-02-09",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-09",
+          "sha256": "f118fe82bda06e35e7fe287c57e8b53c1bc3e5fd054c52670efc824620fb243f",
+          "bytes": 49386
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-09",
+          "sha256": "0373c237060535d2f2b16b58442d4d4cb16723c7fd8f7d39136529637988fb15",
+          "bytes": 2043644,
+          "windows": {
+            "opening|NEARUSDT|1675911600000": 7901
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-12",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-12",
+          "sha256": "63c25e00c55a3f8975fabef71321cffcf8e268589aa8dc9db7149324d9d0531b",
+          "bytes": 48122
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-12",
+          "sha256": "8cacf17530c3e8f45930fee01f09255c0536208b96fdeca85be59a33e0764012",
+          "bytes": 2519708,
+          "windows": {
+            "opening|NEARUSDT|1681265700000": 2863
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-16",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-16",
+          "sha256": "048b34d237e24b9015a716fd7ef0814497e274a3be9f9482541944a608e278aa",
+          "bytes": 45199
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-16",
+          "sha256": "6cf0adb64ecaa2d7800bc53bb1bef1d2e91d4ace5012c331b0f95d1ce53cf70b",
+          "bytes": 794856,
+          "windows": {
+            "opening|NEARUSDT|1681607700000": 1534
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-20",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-20",
+          "sha256": "5dfb704f990bf79a9db79782a985357721b851e9eac4d9315c55ea535da508cc",
+          "bytes": 46522
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-20",
+          "sha256": "7f25d08b41759027e53cf664c37c52995a3dad4b2fdc81e7e50be0834a9bdbc1",
+          "bytes": 1216304,
+          "windows": {
+            "opening|NEARUSDT|1681992000000": 2563
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-07",
+          "sha256": "f20f7deb6149707aafc7274e0c702c5f723710818ae6a287dcb0ad3857cb2595",
+          "bytes": 44171
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-07",
+          "sha256": "b8ca478f368db1de2fb958b279f2e2febe6233a3502e6217049c494e7e3fe80c",
+          "bytes": 1489230,
+          "windows": {
+            "opening|NEARUSDT|1686132000000": 3844
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-15",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-15",
+          "sha256": "f8460553bc42cb11cd29ed44eff49f470cf8cfebbf417bf46a86762ddfc7a7f4",
+          "bytes": 43241
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-15",
+          "sha256": "05ac424a864308b2badde4aa1d385452c157afbeb712f05201b900a636dbc0c0",
+          "bytes": 504462,
+          "windows": {
+            "opening|NEARUSDT|1686855600000": 1036
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-10-27",
+          "sha256": "2cfd33e267d24f40f88d7fcd870d9e6658ff46068892728143447906cd585987",
+          "bytes": 44359
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-10-27",
+          "sha256": "8de31ec4411a161844da64c0513eaea145e1fcc5546f7e1fab3949b2676bd3d9",
+          "bytes": 745594,
+          "windows": {
+            "touch|NEARUSDT|1698411960000": 1166
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-28",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-10-28",
+          "sha256": "963309a07cfd0efbe5c09ed5b90caab6b2ad6b425741d01ba6c165f462edd475",
+          "bytes": 42677
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-10-28",
+          "sha256": "ca04c4a8c2577904a6a93572703a6dfd0b28071468a0d60e132c264bee4fa339",
+          "bytes": 495902,
+          "windows": {
+            "opening|NEARUSDT|1698493500000": 572
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-03",
+          "sha256": "4d32a3b76466c5ea0510570133ecefcfd07965bb52a5643eb13a347381c14b2f",
+          "bytes": 46318
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-03",
+          "sha256": "2df16f476a6bb3dc2bd1c87942cc6f5406823220b04e62478246630c2fab3e94",
+          "bytes": 1173233,
+          "windows": {
+            "opening|NEARUSDT|1698974100000": 2277
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-06",
+          "sha256": "3d9c676fdb7dd9a15f37033bb445b6ab0feebe9e70cbd7053f96fadb25d5ba60",
+          "bytes": 45763
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-06",
+          "sha256": "1d3e7591c20ef5644da112468380a02c6a12e317decdeaf18f51a987ffce0677",
+          "bytes": 1009368,
+          "windows": {
+            "opening|NEARUSDT|1699248600000": 854
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-10",
+          "sha256": "d01190b480ca538922dc40c556808ed928f762fbfbba5050ea0624ceeef6616d",
+          "bytes": 47405
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-10",
+          "sha256": "5b9242ec309dbcb1605bdf9dbc59789fc1673b269e7e609e030fff4d5de01ea0",
+          "bytes": 1068912,
+          "windows": {
+            "touch|NEARUSDT|1702200720000": 1310,
+            "opening|NEARUSDT|1702242000000": 2706
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-12",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-12",
+          "sha256": "7405539dc00e2a386b635d7e13a9b165b5c8e7e5399c2e51d7d0715291d78ae0",
+          "bytes": 48791
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-12",
+          "sha256": "8ab3786cca3727fa44201a5d54d0a4f0f860c731e5e03e73668e808d32d6e6f4",
+          "bytes": 1561848,
+          "windows": {
+            "opening|NEARUSDT|1702368000000": 1791
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-29",
+          "sha256": "001cf47410ae66da6da8d770c4d5bca3f3b6daeed8515ef96ad7d62159b48017",
+          "bytes": 49707
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-29",
+          "sha256": "942c9244e0e622ebc5c8be865d50c8b11f67f3a2235d3ba0f7989927fd01f7a2",
+          "bytes": 2506058,
+          "windows": {
+            "opening|NEARUSDT|1703866500000": 3955
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-03-11",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-11",
+          "sha256": "2a94519386a81e5b2ca9c2774ebda47022c6062dc1e14bf668c3c74a3047281d",
+          "bytes": 52637
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-11",
+          "sha256": "5dafc48a8dabc826fafdad8c0e1e01e4096c77db5b7e6473034ce6763a016f54",
+          "bytes": 6200909,
+          "windows": {
+            "touch|SOLUSDT|1678521420000": 4873
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-04-14",
+          "sha256": "86e870699f297f0cd6fcb6b171c4d409a3e4481e9214acb038c9812e2eac2415",
+          "bytes": 52858
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-04-14",
+          "sha256": "fe928cdeca2ecb62c385d7c2016edbca9ab6a93733a44ea0281072d4f02ab367",
+          "bytes": 6561324,
+          "windows": {
+            "touch|SOLUSDT|1681476360000": 19888
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-07-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-07-18",
+          "sha256": "a3031a92c653263c800a8545e70114ce906d8a4a431da92428551d62dbf0eaff",
+          "bytes": 53250
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-07-18",
+          "sha256": "b02ad21480d54aed569bcefb2cbbf5f22ee2666ece48ae38adc0fbf8f7edb0d6",
+          "bytes": 7233899,
+          "windows": {
+            "opening|SOLUSDT|1689682500000": 14595
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-03",
+          "sha256": "9bb89039abf7c10ff183f2dbb16a5c7926ee7a5e622868721971b17508af9fd1",
+          "bytes": 55255
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-03",
+          "sha256": "24ea1806d9cc724fedc6696937e82487d030dfff88fcd03f04bd03b8b4f74f20",
+          "bytes": 15735197,
+          "windows": {
+            "opening|SOLUSDT|1699006500000": 21523
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-11-07",
+          "sha256": "3722118078f2b7547f82b2fe394910cb0ce4c9068fbf52bfb996ecbe2cc1455a",
+          "bytes": 54881
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-07",
+          "sha256": "71da41c233ce5a08f7dc90ad075fbbf21204ee25fa50922e5194f574b74e2521",
+          "bytes": 14182983,
+          "windows": {
+            "opening|SOLUSDT|1699380900000": 41535
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-22",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-22",
+          "sha256": "9ea54a6d8900630d4c1f8499419c2606f11e8244a96e3c5191a4f3f881c5c85a",
+          "bytes": 57222
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-22",
+          "sha256": "f360d5577d5b0641e62ee82743171006b7648adb3e271721bcdd49712524b5ec",
+          "bytes": 29371121,
+          "windows": {
+            "opening|SOLUSDT|1703209500000": 85377
+          }
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-30",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-30",
+          "sha256": "70b3220922dd7630bdf3ee391f1623bf9cf0494ed4e491fdd54454b802d78912",
+          "bytes": 55214
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-30",
+          "sha256": "7b8b9e4f1c01cf84d8710857226b870e8de43d8e392ad329159a30855d94088c",
+          "bytes": 13423940,
+          "windows": {
+            "touch|SOLUSDT|1703927640000": 3554,
+            "opening|SOLUSDT|1703927700000": 19112
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-01-19",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-19",
+          "sha256": "f30200ed8dfb6c25f30114b320bcbf4d8888d76717c546b68643e39fd183e11a",
+          "bytes": 55769
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-19",
+          "sha256": "321826397aa9071777f49efcff4e8c6ecd309c2edbfcdab8665d756d9f7f8a1c",
+          "bytes": 2641138,
+          "windows": {
+            "opening|XRPUSDT|1674133200000": 4331
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-02-25",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-02-25",
+          "sha256": "aeb4a79625aae3148acc031dbe405e50937f5481c95cd6b6ff41adfcc1677adc",
+          "bytes": 52555
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-25",
+          "sha256": "d174a37b1fa86baf40a4b9e29dffc6ba6934b675499d7040099ee3eb84c6fa2c",
+          "bytes": 1490689,
+          "windows": {
+            "opening|XRPUSDT|1677357900000": 4345
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-08",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-08",
+          "sha256": "b9ccf9c774e1524bb0a7aaa30d416ca3ae9d6a3937f94bbfcf391bc22a675a6f",
+          "bytes": 57760
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-08",
+          "sha256": "f88f0adab5ffadc9c1e126dd942e5e25bdb94868d7fe17208c358f1f498c0174",
+          "bytes": 4961354,
+          "windows": {
+            "opening|XRPUSDT|1678282200000": 10277
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-21",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-21",
+          "sha256": "f801b1b71cd6a955b39f27763437c276a402a554b2cd24a7551d3d5385645c00",
+          "bytes": 60233
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-21",
+          "sha256": "ad3053e57b4164b5e19189068b4ff42f387a7ad1af8ce399c41eb16cf96c9903",
+          "bytes": 12375955,
+          "windows": {
+            "opening|XRPUSDT|1679388300000": 4802
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-24",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-24",
+          "sha256": "4c19d0c70b1f38e25a193ebe1e022214aed1022a0415cb73af13567a3a0d95c6",
+          "bytes": 57430
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-24",
+          "sha256": "f82a80c5a62d484eeda2aeb73fb6f47f65e57efcc7b85dadc56dd3dfbda0e645",
+          "bytes": 3852133,
+          "windows": {
+            "opening|XRPUSDT|1679647500000": 5342
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-27",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-03-27",
+          "sha256": "b613d241565ab723ee4db1e4012b08fe622078e661bd764744d1960d67a9aef9",
+          "bytes": 59890
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-27",
+          "sha256": "834a9e5d15b79584a77cff61fb7a37e8ab807a84487e7034ac5b9022c9e286ac",
+          "bytes": 8270864,
+          "windows": {
+            "touch|XRPUSDT|1679898180000": 3035
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-05-18",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-05-18",
+          "sha256": "1035f0fe376fbaa84fe67d379f242be49f0a1e90857a5c19e2d78eacb43a8c94",
+          "bytes": 56618
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-05-18",
+          "sha256": "61fad03b38534567f3f95b26e5f0ead7b87a12c0b3f3d0bf179bce207df0b1af",
+          "bytes": 3981808,
+          "windows": {
+            "opening|XRPUSDT|1684431900000": 8694
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-06-06",
+          "sha256": "5da050e3a50cd85f4c7ccf1cc6bffe769b5621bf4438a7354bba0f598e46a171",
+          "bytes": 57046
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-06",
+          "sha256": "a455b0f2219f49c5c26c49c7a6afaf74a383e43e4091f7170f9aaec8d7d9750b",
+          "bytes": 4299607,
+          "windows": {
+            "touch|XRPUSDT|1686057480000": 6274
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-14",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-07-14",
+          "sha256": "080e34598808d7e232dad0aba66ef19b46fb15ecead972b620bcdaf51dfddb3c",
+          "bytes": 63047
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-07-14",
+          "sha256": "98edef0810041f36429d0ae18d511a4a95798316c921a449b90979a744dd0cee",
+          "bytes": 23290003,
+          "windows": {
+            "opening|XRPUSDT|1689354900000": 39585
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-19",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-07-19",
+          "sha256": "c72382c2b27023ed0d3f6f50cb916a22961a05d0325642dbc019675fa9e05773",
+          "bytes": 61531
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-07-19",
+          "sha256": "0e415bf1e13367db165ff2a05e323f6b28ea89a25339a4dbed40d860f4a4c541",
+          "bytes": 14299456,
+          "windows": {
+            "opening|XRPUSDT|1689774300000": 14475
+          }
+        }
+      ]
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-12-26",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-12-26",
+          "sha256": "6024158cc877bc4581caaa6d3e7de8a5661ff34667623457056cdf0c6390bf00",
+          "bytes": 56271
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-12-26",
+          "sha256": "13deba20e21a93fe5a13b1d9ee61cab09d6d0aec3aed5aaabbd426d63ee82523",
+          "bytes": 2961967,
+          "windows": {
+            "touch|XRPUSDT|1703607900000": 1087
+          },
+          "reader": "sha256_verified_http_ranges"
+        }
+      ]
+    }
+  ],
+  "note": "Prior source unknown, new inconsistencies and pending archives are explicit; only first breakout, no retry."
+}

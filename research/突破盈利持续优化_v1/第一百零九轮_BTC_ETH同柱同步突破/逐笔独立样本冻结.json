@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-11-15T10:52:04.379734+00:00",
+  "sample_quarters": [
+    1651910400000,
+    1669325400000,
+    1651958100000,
+    1647297900000,
+    1647279000000,
+    1669255200000
+  ],
+  "selection": "first 6 SHA256(dual_audit_2022_v1|quarter_ms)",
+  "eligible_quarters": 39,
+  "pilot_freeze_sha256": "3845d6f47c8cc730e30e037bbebe95ab4f065814382803507779d9053588de88",
+  "code_sha256": "223d99fc4fa1f368c7b5b260344db06f095ea4600a7a18caf7e1cb5c34430e74",
+  "note": "Chosen before tick signal/path results; data-availability failures remain unresolved."
+}

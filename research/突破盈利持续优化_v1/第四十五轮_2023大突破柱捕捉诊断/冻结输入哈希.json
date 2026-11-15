@@ -1,0 +1,12 @@
+{
+  "plan_sha256": "0681c04144fbed33d502ce8ebf84f7163c95c063e6b1aaa0dd574ac52cbdd7b3",
+  "inputs": {
+    "candidates.parquet": "f6df1ce8385b2d8d9a075726c6b7da0946b01a94cec1a0281277260fbae273e5",
+    "signals.parquet": "8fceee9d3d77d3e25d121dba4d97b9926a5566c66477a5fc5b9997814324a80a",
+    "ledger.parquet": "e4004655f7df4e8bc704240ad92fec3091fa80b7a282a8a2a3c48bd4d7e8eeac",
+    "risk_quality.json": "acc271396370710bffc9588aaf0f85ccb916f7d35dce8f6279e1cf49ffb1f126",
+    "minute_hashes.json": "3de57b307a0a628e18287588fdf697bb6b152bfe470b45635084ff26e1b4448b",
+    "ledger_audit.json": "538500c1efb5f082c5292f3669858cba987f5487578f4969f63e743343cae0ae"
+  },
+  "note": "Analysis was planned after historical 2023 unit results were observed."
+}

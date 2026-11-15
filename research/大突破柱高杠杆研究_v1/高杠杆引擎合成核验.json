@@ -1,0 +1,10 @@
+{
+  "same_notional_same_pnl_for_5_10_20": true,
+  "isolated_margin_is_notional_over_leverage": true,
+  "risk_budget_includes_cost_and_gap_buffer": true,
+  "liquidation_precedes_stop_when_same_minute": true,
+  "proxy_penalty_recorded": true,
+  "gap_can_exceed_planned_loss": true,
+  "stress_stop_shock": true,
+  "short_liquidation_proxy_and_stop": true
+}

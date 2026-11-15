@@ -1,0 +1,30 @@
+{
+  "plan_sha256": "0f73ad30b230a84a830068bcc46eedaea7ef4e763b0fa060095e485568b1beca",
+  "inputs": {
+    "provenance.json": "b4584c1b386379c8efe47e5c0c9325a0ab0b08b11dbc037ebb94932ca5998a43",
+    "baseline_audit.json": "346f96680c3c193c51e4dbeb3497ea96ceec3c301e4b154912984c7a2126ac6d",
+    "minute_sources.json": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "tape_audit.json": "6fb1af1cd524d300f66b94300d7db3cede401fe573d855754457618150dfec93",
+    "2024_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "2024_paths.parquet": "e77545628df4b4d7df413ee4c1039fabbfcff9784b9ab2f2bacd783a01e4722c",
+    "2024_ledger.parquet": "61b420c0fb1040328fa19e0d4783ab3ed08f89338ac260b99f688fbdb8ec4c8e",
+    "2024_quality.json": "018f45a58ff7b2a172e3c73d38c00acacf4197fd983bbc859263cd7954891438",
+    "2026_signal.parquet": "2240ab7e39c47af0c56689205fc5dd76c4dc03a0210f44e91a2551b01ae09c96",
+    "2026_paths.parquet": "bddf79bef80c45756d3ba0289bf1c3b5ff42de983ad91c745338c8d65f7f1eb5",
+    "2026_ledger.parquet": "1f1e91271c34e7fd30b41bc8f4694852ed64dfead1efe4db12dafe0a23479579",
+    "2026_quality.json": "a00322bba454a2c0ad681b3d8389b055b6881521908e07aa49299f78b67f74b1",
+    "2024_retry_candidates.parquet": "289a73bf75be5aaaec1ec28f736cfba5f6f6ee14f2ef1b8f5831d04bc1c09985",
+    "2026_retry_candidates.parquet": "6009e77d1b093205068b91e7ba9f55c55dcea6509abff85bf0027ec38255ac86"
+  },
+  "counts": {
+    "2024": {
+      "candidates": 56,
+      "groups": 53
+    },
+    "2026": {
+      "candidates": 13,
+      "groups": 13
+    }
+  },
+  "note": "Selection uses only original no-order status and five-second reference; historical periods were previously studied."
+}

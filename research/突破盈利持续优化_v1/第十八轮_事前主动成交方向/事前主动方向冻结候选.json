@@ -1,0 +1,26 @@
+{
+  "selected": "preflow_aligned_2r",
+  "target_r": 2.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "preflow_aligned_2r",
+    "target_r": 2.0,
+    "strong_filter": false,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 119,
+    "h1_2024_net": -38.57153169405774,
+    "h1_2024_win_rate": 35.294117647058826,
+    "may_jul_2026_trades": 33,
+    "may_jul_2026_net": -10.858969286578485,
+    "may_jul_2026_win_rate": 45.45454545454545,
+    "pooled_trades": 152,
+    "pooled_win_rate": 37.5,
+    "pooled_profit_factor": 0.7004593063201808,
+    "minimum_period_net": -38.57153169405774,
+    "sum_period_net": -49.430500980636225
+  },
+  "plan_sha256": "3faae318fd6f8188a2e9eaa056fc3bc4cd94e0c6672134fd090abb1cbd31c3b5",
+  "training_sha256": "999a73f44fbfd4dfff89f17e9cb77db2e2e413cd3d6fd204a6148cf9380b964c",
+  "limit": "Prior-minute taker flow uses only completed candles; entry reference observation-to-order latency remains unmodeled."
+}

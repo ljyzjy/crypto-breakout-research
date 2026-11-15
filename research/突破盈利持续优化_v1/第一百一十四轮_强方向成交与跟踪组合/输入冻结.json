@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-11-15T11:55:12.908750+00:00",
+  "threshold": "0.50",
+  "sources": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十四轮_强方向成交与跟踪组合\\研究方案.md": "a9b17ccdaa28d3b17f882377639b8948f63f57a46ad35b0ccec5276dfa603361",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\逐笔信号.parquet": "37f0001003cb0767f476a7d3ce54bcecf5d93922310db93040b0162b30da8636",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十八轮_二零二二原始逐笔全样本\\原始逐笔批次\\单位净收益与风险.parquet": "962afb7a9c010e926ae063d766002c2f8422c2d35acd7047345bffc782332116",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出单位账本.parquet": "99a23386144fbaad99a15aa0c67fb2d2d8f6a7c967106d2906caf78860c3e826",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出配对明细.csv": "8cccc58da9389591af03996e23d0214f37fecd34441297193d23e30439b68262",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出逐笔独立核验.json": "21b820b73bfef128c894e232f104491ffdc91642a4cb5b6f494b511c8c9556e6",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出汇总独立核验.json": "e7cce993ff86b74788f8cb15748e342f7d1dfcfaef15289cb8523dfb4ed8ffd2",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十二轮_突破后跟踪退出\\跟踪退出配对结果.json": "14ff8a114067f95e840078e260b6c55aa7b9e523fcdf0392157b1057f1199838",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\跨期跟踪退出配对明细.csv": "e1bf7cd2590543ac2208fae07a6825e43aaf0fda10a9770ebc0dee9595fc3839",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\跨期跟踪退出配对结果.json": "df11c516e9c9365909e59d50fc15f1a83d63b6c0c02b1bb27d54ecee3a80386a",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\跨期跟踪退出汇总独立核验.json": "720af54d102057ef91c373d8ed9a2a06b2b24552dde95f2f42402ac021f286c7",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2024完整批次_冻结\\batch\\动态池逐笔信号筛查.parquet": "48f0ed864eb822c7ccf8886277d1522484e1b1337af8d53ae33692c92e1c1b90",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2024完整批次_冻结\\batch\\动态池单位收益与风险.parquet": "7ae10d728678e3d88f97b7c13b09c67d71fdba619577a448b0f5ef22822815a0",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2024完整批次_冻结\\完整快照哈希.json": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\2024跟踪退出风险账本.json": "a9f758d607289c95fa6e9d2b294367325094ca80dd579130e202d07b676acc75",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\2024跟踪退出风险独立核验.json": "f28ef8b659b2d1c171df04bee7db47caa7f04b60229a77c080480c80385676af",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整批次_冻结\\batch\\动态池逐笔信号筛查.parquet": "3cc1b0752dbd34450ec59a4c6a54fde9e972a256fc9053c6b0fd91dd463b7fa3",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整批次_冻结\\batch\\动态池单位收益与风险.parquet": "f39e755d0425364e85ae9599a099fb0bf3d932d27e4ca11b9a7fc5d0bbaf422b",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十二轮_一秒观察更早突破\\2026完整批次_冻结\\完整快照哈希.json": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\2026跟踪退出风险账本.json": "9a04e224cbb2870050f0e48e984cf94fb0f43ad89c00b4d7965932b08f4cf6b7",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第一百一十三轮_跟踪退出跨期验证\\2026跟踪退出风险独立核验.json": "5b197afb11298240eaa1da6bdb38c048937b27abfb40e6a4e4d59dc5d0fbc883"
+  },
+  "code_sha256": "660c8825ddc6eee33d3f4593ad1a86a5e3369c5f7ab5f1c68f24d43a550084ce",
+  "note": "Fixed historical entry and exit combination; not blind."
+}

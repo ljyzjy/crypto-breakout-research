@@ -1,0 +1,15 @@
+{
+  "first_signals_checked": 5,
+  "confirmation_signals_checked": 4,
+  "paired_confirmation_checks": 4,
+  "signal_checks": [
+    "prior 16-bar boundary",
+    "prior ATR",
+    "first crossing",
+    "BTC and ETH activity and direction",
+    "hourly rank and relative volume",
+    "prior 15m EMA direction",
+    "stop and signal timing"
+  ],
+  "limitation": "independent reconstruction uses the same public historical minute data; execution fill assumptions remain hypothetical"
+}

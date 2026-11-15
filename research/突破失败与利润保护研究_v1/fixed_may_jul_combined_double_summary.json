@@ -1,0 +1,165 @@
+{
+  "initial": 1000.0,
+  "final_equity": 977.7329048972454,
+  "return_pct": -2.2267095102754597,
+  "annualized_return_pct": null,
+  "elapsed_days": 92.0,
+  "max_drawdown": 2.542136672539941,
+  "trades": 23,
+  "win_rate": 21.73913043478261,
+  "gross_pnl": -2.3666065518618353,
+  "fees": 9.92964097978429,
+  "slippage_cost": 9.929638613177158,
+  "funding_cost": 0.04120895793161594,
+  "net_pnl": -22.267095102754638,
+  "average_trade_net": -0.9681345696849957,
+  "mean_holding_minutes": 18.782608695652176,
+  "mean_exposure_pct": 0.07505146427532236,
+  "profit_factor": 0.18933563509343554,
+  "ledger_error": 2.6290081223123707e-13,
+  "scenario": "double",
+  "start": "2026-05-01",
+  "end": "2026-07-31",
+  "fee": 0.001,
+  "slippage": 0.001,
+  "delay_minutes": 0,
+  "valid_for_comparison": true,
+  "issues": [],
+  "intrabar_stress_dd": 2.5495142889929268,
+  "permanent_pause_ts": null,
+  "rejection_counts": {
+    "late_day": 11,
+    "entry_deviation": 13,
+    "stop_or_cost_gate": 3
+  },
+  "signal_candidates": 50,
+  "leverage_cap": 1,
+  "seconds_execution_verified": false,
+  "run_id": "combined",
+  "rule_events": [
+    {
+      "id": "first|ZECUSDT|1778108760000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1778109300000,
+      "effective_ts": 1778109360000,
+      "close": 550.9,
+      "level": 550.44
+    },
+    {
+      "id": "first|AVAXUSDT|1779990300000|1",
+      "kind": "lock_scheduled",
+      "known_ts": 1779991800000,
+      "effective_ts": 1779991860000,
+      "close": 9.041,
+      "entry": 9.001992999999999,
+      "initial_r": 0.0384644285714284
+    },
+    {
+      "id": "first|AVAXUSDT|1779990300000|1",
+      "kind": "lock_applied",
+      "known_ts": 1779991800000,
+      "effective_ts": 1779991860000,
+      "old_stop": 8.96352857142857,
+      "new_stop": 9.021225214285714
+    },
+    {
+      "id": "first|ZECUSDT|1780300620000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780300800000,
+      "effective_ts": 1780300860000,
+      "close": 550.63,
+      "level": 549.72
+    },
+    {
+      "id": "first|ADAUSDT|1780537860000|-1",
+      "kind": "failure_scheduled",
+      "known_ts": 1780538400000,
+      "effective_ts": 1780538460000,
+      "close": 0.1924,
+      "level": 0.1924
+    },
+    {
+      "id": "first|FETUSDT|1780570440000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1780573200000,
+      "effective_ts": 1780573260000,
+      "close": 0.2197,
+      "entry": 0.2219778,
+      "initial_r": 0.002120771428571422
+    },
+    {
+      "id": "first|FETUSDT|1780570440000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1780573200000,
+      "effective_ts": 1780573260000,
+      "old_stop": 0.22409857142857142,
+      "new_stop": 0.2209174142857143
+    },
+    {
+      "id": "first|ETHUSDT|1782489600000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1782490500000,
+      "effective_ts": 1782490560000,
+      "close": 1578.95,
+      "level": 1587.65
+    },
+    {
+      "id": "first|SOLUSDT|1783498620000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1783499100000,
+      "effective_ts": 1783499160000,
+      "close": 77.38,
+      "entry": 77.64228,
+      "initial_r": 0.256219999999999
+    },
+    {
+      "id": "first|SOLUSDT|1783498620000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1783499100000,
+      "effective_ts": 1783499160000,
+      "old_stop": 77.8985,
+      "new_stop": 77.51417000000001
+    },
+    {
+      "id": "first|TAOUSDT|1783648080000|1",
+      "kind": "failure_scheduled",
+      "known_ts": 1783648800000,
+      "effective_ts": 1783648860000,
+      "close": 213.96,
+      "level": 215.17
+    },
+    {
+      "id": "first|ETHUSDT|1785505620000|-1",
+      "kind": "lock_scheduled",
+      "known_ts": 1785506700000,
+      "effective_ts": 1785506760000,
+      "close": 1860.77,
+      "entry": 1868.00013,
+      "initial_r": 6.68101285714306
+    },
+    {
+      "id": "first|ETHUSDT|1785505620000|-1",
+      "kind": "lock_applied",
+      "known_ts": 1785506700000,
+      "effective_ts": 1785506760000,
+      "old_stop": 1874.681142857143,
+      "new_stop": 1864.6596235714283
+    }
+  ],
+  "expected_calendar_minutes": 132480,
+  "observed_calendar_minutes": 132480,
+  "active_minutes": 433,
+  "cash_minutes": 132047,
+  "permanent_halt_minutes": 0,
+  "cash_days": 91.69930555555555,
+  "halted_days": 0.0,
+  "period": "fixed_may_jul",
+  "net_win_rate_pct": 21.73913043478261,
+  "failure_scheduled_count": 5,
+  "lock_scheduled_count": 4,
+  "lock_applied_count": 4,
+  "failure_exit_count": 5,
+  "winning_trade_count": 5,
+  "active_calendar_days": 19,
+  "acceptance_pass": false
+}

@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "code_sha256": "2e3e0c95b6122c90590e67f96a4bed25cd60c65c584a66c8b9b1d3173fe860ed",
+  "test_sha256": "a792d8e645ea01de1b18598762164becd7a3bb55c1d7ca66755c8db57a7d1117",
+  "cases": [
+    "one entry fee",
+    "both exit fees",
+    "leg-specific funding",
+    "long short slippage",
+    "matched entry"
+  ]
+}

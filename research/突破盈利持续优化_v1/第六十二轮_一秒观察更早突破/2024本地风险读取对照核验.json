@@ -1,0 +1,30 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "kind": "markPriceKlines",
+      "contract": "BTCUSDT",
+      "month": "2024-01",
+      "rows": 6,
+      "source_sha256": "1607b1522928d2a698592019fef7c3fcc9bee2cd01674c72a27e7fc028fd66ca",
+      "prior_cache_sha256": "fedf5de92d18ad8ba0b41d88c47af756c0034f8323e80482bb4cafb042098356"
+    },
+    {
+      "kind": "fundingRate",
+      "contract": "BTCUSDT",
+      "month": "2024-01",
+      "rows": 93,
+      "source_sha256": "3e0d30870672aa8f0f937881056e3cfd55913ae5c780cd50b33f2763aa0ba58e",
+      "prior_cache_sha256": "980d2b3ac9d384d6a1cbc9b498e55c1a732fd189fc35e95b83ca6d3f372dc19b"
+    }
+  ],
+  "settlement_code_sha256": "afdb02326d91991e3863a04596b575bb9e810c384f14fea81a33b43a52a54549",
+  "test_code_sha256": "e25136c982948301a24488f4b92c453cff0d961d1ff210b548fec20a11999e31",
+  "plan_sha256": "dac424b4e04efc8da79cc628a4d85a9050ab9c598eb85b1005ce83d9246f66a3",
+  "trusted_manifest_sha256": {
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\2024\\逐笔分批\\动态池风险档案核验清单.json": "24dddbbfe193b90d5b9c4cb453ff8556be79dac74de3c407af61eadd75fbd3cf",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\2024重试分批\\动态池风险档案核验清单.json": "63d9686fbf72f37bdd21e4a44e154ce8e4e85f7c88c35d2e74c34f4b630c7c15",
+    "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十一轮_缩短市价入场延迟\\2024一秒入场分批\\动态池风险档案核验清单.json": "1c1291497fe4d39512669a1b1bd7bcf2025452599cbcfd3ce9a9431d4fa1e26e"
+  },
+  "note": "Both local source ZIPs and exact output rows match previously verified public risk caches."
+}

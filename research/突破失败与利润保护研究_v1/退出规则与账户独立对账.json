@@ -1,0 +1,14 @@
+{
+  "accounts_reconciled": 60,
+  "trade_records_checked": 2052,
+  "rule_event_counts": {
+    "failure_scheduled": 228,
+    "lock_scheduled": 178,
+    "lock_applied": 162
+  },
+  "rule_closes_checked_against_public_minutes": 238,
+  "public_minute_close_scope": "fixed 2026 periods including November; old dynamic event math audited separately",
+  "max_drawdown_error_percentage_points": 0.0,
+  "max_ledger_error_usdt": 8.775202786637237e-13,
+  "limitations": "Checks share underlying public minutes and cannot verify real market fills."
+}

@@ -1,0 +1,108 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "period": "2023",
+      "observation_id": "opening|AVAXUSDT|1678455900000",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "1d5e4a176af1cce777333804640f56847f895a16b3c9dec9ce7b97280a9ce8d5",
+      "tape_archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-10",
+          "sha256": "4b0cf482c74d4cc01460c6c9a304ef4dfc4b56beb4f6b6440acf4a72fa8041ae",
+          "bytes": 3342883,
+          "windows": {
+            "opening|AVAXUSDT|1678455900000": 19046
+          }
+        }
+      ]
+    },
+    {
+      "period": "2023",
+      "observation_id": "opening|XRPUSDT|1679647500000",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "4c19d0c70b1f38e25a193ebe1e022214aed1022a0415cb73af13567a3a0d95c6",
+      "tape_archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-24",
+          "sha256": "f82a80c5a62d484eeda2aeb73fb6f47f65e57efcc7b85dadc56dd3dfbda0e645",
+          "bytes": 3852133,
+          "windows": {
+            "opening|XRPUSDT|1679647500000": 9151
+          }
+        }
+      ]
+    },
+    {
+      "period": "2024",
+      "observation_id": "opening|AVAXUSDT|1715587200000",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "c905893179eb5255a293a7214931599f503a3dfd6ed3e12ad619f448bb21080b",
+      "tape_archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-05-13",
+          "sha256": "357a1eefc1a63db3991e721a081bc17838391a00b9004805e5bb45a3112fba43",
+          "bytes": 3245856,
+          "windows": {
+            "opening|AVAXUSDT|1715587200000": 14638
+          }
+        }
+      ]
+    },
+    {
+      "period": "2024",
+      "observation_id": "touch|XRPUSDT|1709574480000",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "7df7037a9a816907920a729f805cc37c63429273510a966a12f03c354b5b8850",
+      "tape_archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-03-04",
+          "sha256": "858ff555c4b35e05480a5847faedbc851951e26d851c65f07dd3839f8077d9f7",
+          "bytes": 5338609,
+          "windows": {
+            "touch|XRPUSDT|1709574480000": 11740
+          }
+        }
+      ]
+    },
+    {
+      "period": "2026_aug_oct",
+      "observation_id": "touch|LTCUSDT|1788132960000",
+      "original_paths_checked": 2,
+      "extended_paths_checked": 2,
+      "minute_sha256": "6122bf1065242525f23e55fd7798bd54bcf915ac4d2bf4277b2d9acabb544f1a",
+      "tape_archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-08-30",
+          "sha256": "b9c435b86a573537a5fabadf096518488af782cd2ca330d0d7f9b689720edd09",
+          "bytes": 618191,
+          "windows": {
+            "touch|LTCUSDT|1788132960000": 3069
+          }
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2026-08-31",
+          "sha256": "47eebcd393e9601a14a9b2c363bb680ac9a6e870be6da6b9e68a445c7f336b87",
+          "bytes": 577923,
+          "windows": {
+            "touch|LTCUSDT|1788132960000": 230
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 10,
+  "replay_fingerprint": "811f916680fa26ce03d264dd7c185901ffaca3c844c5f115b1ee33453f04a2df",
+  "code_sha256": "78599d46e5e158e3835d2fdf8c42ae9d1937d529a933b91008868f5b8132eacf",
+  "note": "Five scalar replay samples; source is same-exchange history, not actual fills."
+}

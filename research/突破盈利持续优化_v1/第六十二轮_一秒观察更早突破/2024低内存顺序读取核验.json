@@ -1,0 +1,33 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "runner_fingerprint": "7383b40e2077466bdb542465c56ad382460de60adbad60e993127ab5702d8e1a",
+  "plan_sha256": "73fde44f5715103a241e9e3b798a0c8be5652c43f58c81c963bfd8e341029a9e",
+  "test_sha256": "b80c1aaa2ad2510f135d0e2091127accc95f71fe85846e902424de2c76c37741",
+  "runner_sha256": "cc8fe7c15b046b8c314986d8cf79c71cdab6006672ee72227df9f6b626f5ab1c",
+  "range_sha256": "50cbfe761d1f1aedbabf16cd123e7fa36788c03192686a331fc962e988219c77",
+  "stream_sha256": "a6f31492ba2dd1705533d34d7eadbf8de45f5f4878ab13449395d3c7ea716632",
+  "samples": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2024-01-30",
+      "statuses": [
+        "qualified"
+      ],
+      "original_checkpoint_sha256": "46e4816879608b7384cef6c5de8e0fc4a273e385dc3ff4831aeb29b0e80a6749",
+      "stream_checkpoint_sha256": "bf25db9c1dfe86e5787bc3d24a9b85a26a8773bd13938e5bc07b7914a13b8e33",
+      "events": 1
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2024-02-21",
+      "statuses": [
+        "flow_filter_not_met"
+      ],
+      "original_checkpoint_sha256": "2e5858dd9cdc8a670d13e63b5d487f37e5b314062d04e4e33bbe6306980ceb13",
+      "stream_checkpoint_sha256": "8534c84a0e172a22d75f7dda0c682e837c8a4739e7c336b7c4f22d6eff80c9b3",
+      "events": 1
+    }
+  ],
+  "note": "Both routes use the same archive SHA and parser; separate successful and rejected groups independently re-read."
+}

@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "detail_rows_checked": 226,
+  "groups_checked": 360,
+  "result_sha256": "bb84a2fc3f3683a478d96141af57151df6b075fe8b304e5fffa20112bf9e6991",
+  "detail_sha256": "d1a8409685447bb83bf95cf200c78290e2c2c1be738e5587b67780baeda68768",
+  "code_sha256": "39a27aacf3a1d2811373b33fd4dec84517581081d657e7585caa59be0a616e8c",
+  "note": "Independent paired accounting on historical paths; no shared account or real execution."
+}

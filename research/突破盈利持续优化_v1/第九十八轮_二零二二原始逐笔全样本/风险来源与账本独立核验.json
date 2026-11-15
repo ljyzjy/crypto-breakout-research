@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "verified_source_archives_redownloaded": 162,
+  "unknown_source_archives": 0,
+  "risk_paths_independently_checked": 261,
+  "maximum_net_fraction_error": 0.0,
+  "input_sha256": "7809290c4ccdc097c5b7654b04fe1d46f100f254e6f434f33d6b83a753547ec9",
+  "ledger_sha256": "962afb7a9c010e926ae063d766002c2f8422c2d35acd7047345bffc782332116",
+  "code_sha256": "dad812b8bf528cec6d1780a9ea64310a4634dbf3e7fce2e4595c67be39f0b3ba",
+  "note": "Audits verified rows; missing sources stay unknown; no real exchange liquidation."
+}

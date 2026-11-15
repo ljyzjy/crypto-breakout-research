@@ -1,0 +1,7 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 864,
+  "result_sha256": "457592214097939325d6839ce5da5bd1d2d7026574ae039721b15fb59e4bcaa8",
+  "code_sha256": "e8e7ac6849f9993fe15f395944227257f5332557e7852d2257c758cff62d9552",
+  "note": "Conservative sample reclassification; untested samples and rank hours remain unresolved."
+}

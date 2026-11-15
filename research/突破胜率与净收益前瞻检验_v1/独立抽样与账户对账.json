@@ -1,0 +1,18 @@
+{
+  "sampled_signal_count": 30,
+  "confirmation_parent_checks": 56,
+  "signal_checks": [
+    "prior16 boundary",
+    "previous14 ATR",
+    "first crossing",
+    "both BTC/ETH activity and direction",
+    "hourly rank and relative volume",
+    "prior 15m EMA direction",
+    "stop",
+    "decision/entry time"
+  ],
+  "accounts_reconciled": 36,
+  "max_dd_error_pct_points": 0.0,
+  "max_ledger_error": 7.638334409421077e-13,
+  "limitations": "Independent sampled signal reconstruction and accounting checks; historical archive and minute execution remain common to both implementations."
+}

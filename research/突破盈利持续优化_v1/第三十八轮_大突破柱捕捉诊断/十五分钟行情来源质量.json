@@ -1,0 +1,711 @@
+{
+  "candidate_events": 680,
+  "archive_tasks": 100,
+  "verified_archives": 100,
+  "unavailable_archives": [],
+  "bar_rows": 680,
+  "archives": [
+    {
+      "symbol": "1000SATSUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "5f3b425bb1b55a776af1475126caf1a5bdf8ee7db69b795be299dbdf0926765d",
+      "bytes": 145482
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "d5d42d6517cc8ea66128481e4af3d4306250fbfddb379af45a43090e232eed9b",
+      "bytes": 142238
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "6916562a33c035063277c606acee41263c422d277ca60e9c4a506b2358384cf4",
+      "bytes": 141375
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "445e7943c0a671a7535daefa9bcc0b2bb82d382549372405fb9b3aa439a50536",
+      "bytes": 124987
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "6c8ac5a75457ab47dccb92d1b16064c587d085a3554942bd48ce0c51972d0223",
+      "bytes": 122847
+    },
+    {
+      "symbol": "BAKEUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "3cb13336cd6ba34c9866e14ce8dbb41e578bee89c2d27397d003ab369dd53452",
+      "bytes": 120594
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "f9d16635d707d759a1b0492305815591bc6244c8ab0095b390b8744d6cb6b332",
+      "bytes": 126036
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "76953983fcd4cc35ac181c4a1c69d28cbb4ef8b983021aac84a111ea4e82ef69",
+      "bytes": 145000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "018e87a399f71f195fbdeaaa7e9551af955bc7da77944c05c11bad112c936e80",
+      "bytes": 128858
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "069b5de748e6ccb3ec8ebf08f90ce5faa1dde40b449f811c28c91ae6f059f922",
+      "bytes": 133525
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "297428b35c676c697975fb7e9e9d3ca4c00f89ac7796df5560854822764b0d1c",
+      "bytes": 145864
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "e6f504260eb90a0e89e3db86822f06000550c087d62aa188e11995be81f0dc75",
+      "bytes": 133833
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "3296df39e38da28b9e02c68b4098039802ef35081c477d425c47c8ba4a892381",
+      "bytes": 123686
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "1edf87a87e0a8b43f3e3ea15082e3fda19cd4afdc6bbacae2a71254ae1397551",
+      "bytes": 121062
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "254cd38d030db0d6970aaced4c13e4ce27bd976531966713c4908a312314ea96",
+      "bytes": 133968
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "311ce5009ea0106410ea3b300451ce0138cca94203a5fc6ec5ad4e285af4284d",
+      "bytes": 133889
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "b6d6a29d7b6a22b42ae0db60218fa7d545d556efa67e071b9c22e40afdddc740",
+      "bytes": 126648
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "639c4c767610d210c0dc323eefd8b55ccb871c3e1ea7010d9b0cbc4a04add774",
+      "bytes": 137864
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "8700652811e1eec80168e6c84217e68526ea8704ade0a3cc7b8941696eb7e199",
+      "bytes": 141482
+    },
+    {
+      "symbol": "SEIUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "bd0a2a2dc5587aae7b0ea01a042272f6b7599b144804768a729ba9351615c37c",
+      "bytes": 133604
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "93338ae73500eb5296101354a6a306e1c98f3d77535cacf8811a203e410ce967",
+      "bytes": 130489
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "caf5ff58e29c5c2dcf8803e44da22b3a7998c7b54264c677e0229b22e7ef9acb",
+      "bytes": 141280
+    },
+    {
+      "symbol": "TRBUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "77fd94e495fc41e47966851daa921c75ae92f2394afde68627b70d1bbacd9f3b",
+      "bytes": 131527
+    },
+    {
+      "symbol": "TIAUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "e2b40b95e9b816cde8a31caf6011a3904201c107b8cca70e4fe27762b3f9ca31",
+      "bytes": 135837
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-01",
+      "status": "verified",
+      "sha256": "9e5f548d89f7ced6d4d33f0f3fc70887c2016193fd83fb398e55287754fbd211",
+      "bytes": 130176
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "2c0fc0d9e855742ab7cc26d17517a171fce07c27a3cc5021e905201de1ea15de",
+      "bytes": 117452
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "af960b1affd111caaacc9d08abf086c2fd133203aa0b7af888bd589a34a33d6d",
+      "bytes": 135756
+    },
+    {
+      "symbol": "ALTUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "7388ac5bb589088ad734a6cb0283b61bb306ccea028cb9c7d22619b50d87e5d1",
+      "bytes": 130158
+    },
+    {
+      "symbol": "API3USDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "c60a38a907f22475d665c32db399de54064db1df20e873c4dba56bb9e19ba859",
+      "bytes": 124401
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "c1402c9e752affe89456748987584189096d3df7290e5fb14d2f2ccbfd5fa8b7",
+      "bytes": 128447
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "d39c69f70422beb57d8c6bfe5b96318678a623cb36e7ae4ac4bde405a0a3f11d",
+      "bytes": 120113
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "f6a9399826f593aa23746d920e595e9705addd1154d4ec53fcf7a2564755e67b",
+      "bytes": 135641
+    },
+    {
+      "symbol": "CKBUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "267675747f1a5b225a178ee02b6ab8d04d643ac4a4ceebe21d297a375a7c93d6",
+      "bytes": 133316
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "bfb3b3848444169d1c6f439214483441e5b9bd36a142bb55451f123f565c03e1",
+      "bytes": 113518
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "e1fa9532cef55cc95f55c07bf3569cdf5c65f3cf0f48acce895cc50c38ed40c3",
+      "bytes": 123926
+    },
+    {
+      "symbol": "ENSUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "af4d83442e9219933eadc370bb4dd4e95020723871db0c28662e5127dba42d1e",
+      "bytes": 116065
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "ace924d4afcd55ee43df9ed33423196099ffa83df6043c1310a110df0b3752d5",
+      "bytes": 136856
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "7dde4d6267f6d53e639a984c9fafce6c35b71851b4479bf4e0860f5b130d087c",
+      "bytes": 123775
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "4b3ae45021c9092a5b374d3211c55aecc72cbb244889b9702c9f78722a692211",
+      "bytes": 115905
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "2b71ad7503a55e9189a2ac0a908b91c9c670230fe6b062decc83bb811cb8873e",
+      "bytes": 126134
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "617bc67d8274be7fd5819055dc107f899a5d7712cf9e685e559f424e3ede6b89",
+      "bytes": 118026
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "0db1100aecac999887cc05f47944ab3b0c2a9e7188f43064a31b852ce00d98c6",
+      "bytes": 131082
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "74d82bdd811dca8240c1cc57ca79c8ae1127d8105d482f69cd887ba56f4dbb87",
+      "bytes": 130437
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "7f26ab9dd0d53f166f951d92408e96fd35690d690473064fd40bfc3ac0a6a3fe",
+      "bytes": 126888
+    },
+    {
+      "symbol": "SEIUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "a88babd21cf3db7a2cb87f8e0e25d4d3f253992f895b4b862f1305a3c6d722b5",
+      "bytes": 122284
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "3c589dc46ed697d8695d98991c6d7521b67fed58c588057108f17a46e9abc7ef",
+      "bytes": 120793
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "ce641c9973a661c2d76ac5acef073d3452c65000fbc161fe7c9fefefc5ea788a",
+      "bytes": 129841
+    },
+    {
+      "symbol": "TRBUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "3893c5be1ab93dea5c4864df6172a9bf75ce2ca4701059e7d5343305bcee5d2c",
+      "bytes": 117297
+    },
+    {
+      "symbol": "TIAUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "68e17060f28748b7d5db43135892c777382d876ae7488c89a01be2dce42b05b3",
+      "bytes": 124085
+    },
+    {
+      "symbol": "UMAUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "6c68a42b22dfa4e9ba7b4db5da1916d05e7670fae10c3db0c69ec37d2b88f4fc",
+      "bytes": 107490
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "c814b4c4d851956916d1a79681f0e65fa4d1775e6e6cf46264a9898717543e34",
+      "bytes": 106087
+    },
+    {
+      "symbol": "WLDUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "8aa5cf492b84639d53232a2fcbb7f0ec1bb082b7d621eedbe6ae97d4dec80d07",
+      "bytes": 124496
+    },
+    {
+      "symbol": "XAIUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "bc076d2a40d1dc37de0a452cdb9e7781c5bb02b96a062e1e508454d102198481",
+      "bytes": 121674
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-02",
+      "status": "verified",
+      "sha256": "58cf7ff3c14ef8624ca25f970309c1688f6f0b180f3f3d57c6f0cae827ed8cc1",
+      "bytes": 122236
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "cce0abfea035b39bf7a121f89fe4447104a968b5b7fe027f05594b08413a22bd",
+      "bytes": 146903
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "c2f86bf9adedc55114ebae01498f13c0be6d28fe95f28b2f8459ae69567c4827",
+      "bytes": 143036
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "62303b015ced379f1267cdc72c0deee6be8f3e3fda9d7f4726d3d2b237b9e4f9",
+      "bytes": 157596
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "9338071c4a02582405d9a43d3d5d1327b65a9baa6c1acd87fca6ce6dae6b3888",
+      "bytes": 147351
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "16d0217a92b4c4714f9586b0c3f9e37b5c284a1c5dadfc05811ead358c777f71",
+      "bytes": 127620
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "33c484d75dcb9acd843c703c7536870e45cb3560a6fcab80f7616916cd3884f5",
+      "bytes": 139457
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "fe9b22b4587ef536f6e3ca1e1f10103c1db1970b714c9afb43131736a6067101",
+      "bytes": 124787
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "a384088def6e5887c80ca0d8a3b0f79c74a88855e79c8c27eafe89715e8370fe",
+      "bytes": 137953
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "c2ff38a4883825c4a462d6d6cb0ba74104b231087bbddd05807a5797e1f53ba6",
+      "bytes": 134639
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "0f7dbdf7859f36d41c1444065409b2c9c4d66f5b3008647436fbc1b7a0d9f080",
+      "bytes": 147580
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "771a820d23c55d2dfed326ecf8023a5c3d16a4095ffd7b7df005c5ec5e9c65f7",
+      "bytes": 144043
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "9f3b2fc59cc0e30fe2baf0d27dd1f561672f1daf9575b0e7b24fab22e0231734",
+      "bytes": 148814
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "506682319dabc477731ca06a1e2b1d53f6b4a178e3ad6c8066c8c7d0cfc166bb",
+      "bytes": 134376
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "2befecd594f05ad7cd7e6bc2dc0cba2b76071b74720e668d50f5cfe7c587ae97",
+      "bytes": 128199
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "4f19e2c0a103184416a3572dee88c35c3ea10081508d80c72d0213c2c7d0838c",
+      "bytes": 128010
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "45506a88d544689376ef90ad371990bbd0cbb1574c8099fc35f69c9cbfef1799",
+      "bytes": 121671
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "074a2233208fa2f8ceca934a9ac432466b327698f2c7dce0cbb8983506b46bc1",
+      "bytes": 140704
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "b131c9b9fb740e2d1716c7af981c5e260b277d0deb0fd6d88682de97287d34e9",
+      "bytes": 136829
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "f7156c0a96d91566705134a2efff6b6bed78c4082a22e95155877e57a598a7b4",
+      "bytes": 132839
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "295b7fe2275e4b61731a42b734dc71102f3a43b5d77828106348ab3840e1bdd2",
+      "bytes": 139639
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "2d9aa4740fcdfac6961728fd7b8ba9d1a1c42f605838cd200e27ceac11fac7f0",
+      "bytes": 118221
+    },
+    {
+      "symbol": "WIFUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "ded921422eb3258d0e456c604e4e63819eb58cb590046f7de39ad30577938bf9",
+      "bytes": 147169
+    },
+    {
+      "symbol": "WLDUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "68fb39ad4b2522bfa9381b9935bb4ebe850d2a377ff30dcac3e16132842d351e",
+      "bytes": 136753
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "3fc37ec49b8f983f4e750cce1db1aede7156a605ce22fca6d5a6c9e8d4b7a3a2",
+      "bytes": 149162
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-03",
+      "status": "verified",
+      "sha256": "cec49dda33d41abd26f78aa677af390965546b28c7f190d9756cece235046073",
+      "bytes": 135295
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "a2032ee0726b39eb12ad82221c8541ad9c595af1200e7fd6104c78b8f5c3c674",
+      "bytes": 137367
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "815f1475d39f1974b19e97cf10b7ce71f962e79c2be20df74b08d7ce14464417",
+      "bytes": 125225
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "4a0b3d148d4f2a257a54dadd0d3677ebf8237b961b108f5f47ead66cf8107a23",
+      "bytes": 132352
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "94dfd036373c64ce4363db5421884da78f3234bff5fc15e93e70d1dd94ab4dc8",
+      "bytes": 117957
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "57531fe4f78a33806c83501f7d75611184e829d659a82998992341b300ebfdcc",
+      "bytes": 133136
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "ac937e96af8ae2a04b994cb9b02f5f9e06d0c61204e3e6c2d4921e4775f130a4",
+      "bytes": 128576
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "9dae51fe1c9fd6076767bccb3ee955bb64acb8967837bf4c834e5aa839ad4fe7",
+      "bytes": 136417
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "9b2df9f9c888e9dbb0824dcaa3e66544ca1285ef45f418e242864c9916837b30",
+      "bytes": 120527
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "e9c10a021e622dd6728b6114dab2c3549e3d52d7d75ca9aea4530cf8e1313413",
+      "bytes": 143276
+    },
+    {
+      "symbol": "FTMUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "30193617ca4fe3e744d6b0a6c64afec61b96501f824efda4ffc02a0d30c710da",
+      "bytes": 125629
+    },
+    {
+      "symbol": "GALAUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "4ce4099641757c27fd3dc1b5445ae71c9a925a85d31aade1a408a7f0cc6985c5",
+      "bytes": 126235
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "3ecfdc484e4b30248734704ff559c69d46af8a146da9ec687eeaaebb51df581b",
+      "bytes": 127502
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "9e8c4c72334cfe06d656291c2c2fd24cf623e20d13a1acfdb4c6e13bfc0ea4da",
+      "bytes": 116408
+    },
+    {
+      "symbol": "NEOUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "d3abcffa0e4f5016a47c49832536808b2ca8d35686b1a5a3b2740901969c4053",
+      "bytes": 129334
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "ecac83f39964ac4c4a096ba882807fd52726ac967c7aec349c98a3cd88445d3e",
+      "bytes": 132117
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "d7aff3858d67e3dfd9262677aa4e525ef7697aea89662594495dc8432e6e8a2f",
+      "bytes": 135109
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "686d415dfecbb4a80b903b8f99ee57ab6320fa0f7ba6d17c46eadfe173cbf1e8",
+      "bytes": 132472
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "140a36b2000e2c8075899732a913cf278d54dbf7b76f4e718cad8d4ef7b80833",
+      "bytes": 127372
+    },
+    {
+      "symbol": "WIFUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "04a86a99300fe37f0131465ed131c7a0d6519c2f93a6c68c3293589fa3c30417",
+      "bytes": 140856
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "befade98b771840515afda7deae3a0f12c966c316e87020bdb583798e7eba7c8",
+      "bytes": 128210
+    },
+    {
+      "symbol": "WLDUSDT",
+      "month": "2024-04",
+      "status": "verified",
+      "sha256": "000ac756b867ee94d4eab8cf454e287a43e43035847ff41a0db51bb628c7d4bd",
+      "bytes": 129116
+    }
+  ],
+  "fingerprint": "d6d12e99ef9b251432b0f20d3cb1ce34e2fe412ff6ab1899fbb7879cfb10c326",
+  "note": "Post-close bars are labels only, not real-time strategy inputs."
+}

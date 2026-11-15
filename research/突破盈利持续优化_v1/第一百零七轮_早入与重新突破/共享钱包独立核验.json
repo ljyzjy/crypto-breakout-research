@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "scenarios_checked": 16,
+  "input_paths_checked": 163,
+  "wallet_events_checked": 1940,
+  "closed_paths_checked": 644,
+  "result_sha256": "ea96058279dc9a10e6e39c3b929224de141b7b5937801422350f5c99a1d3f9b7",
+  "audit_code_sha256": "b7a57cd53097b8893a53e19c315148db8654d75ec95af7b7955d009da36c0d04",
+  "note": "Cash events and plan risk independently reconstructed; floating equity and unknowns remain excluded."
+}

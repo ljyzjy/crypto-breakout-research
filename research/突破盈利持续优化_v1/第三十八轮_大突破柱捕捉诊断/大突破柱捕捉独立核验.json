@@ -1,0 +1,56 @@
+{
+  "candidate_labels_checked": 680,
+  "large_candidate_labels_checked": 193,
+  "entry_rows_recomputed": 999,
+  "maximum_net_pct_notional_error": 1.1102230246251565e-14,
+  "sample_minute_to_quarter_pass": 5,
+  "sample_minute_to_quarter_total": 5,
+  "exact_1pct_boundaries_checked": true,
+  "groups": [
+    {
+      "strategy": "baseline",
+      "first_10_seconds_excluded": false,
+      "leverage": 10,
+      "verified_entries": 230,
+      "large_direction_entries": 66
+    },
+    {
+      "strategy": "baseline",
+      "first_10_seconds_excluded": false,
+      "leverage": 20,
+      "verified_entries": 217,
+      "large_direction_entries": 59
+    },
+    {
+      "strategy": "baseline",
+      "first_10_seconds_excluded": true,
+      "leverage": 10,
+      "verified_entries": 191,
+      "large_direction_entries": 62
+    },
+    {
+      "strategy": "baseline",
+      "first_10_seconds_excluded": true,
+      "leverage": 20,
+      "verified_entries": 179,
+      "large_direction_entries": 55
+    },
+    {
+      "strategy": "follow",
+      "first_10_seconds_excluded": false,
+      "leverage": 10,
+      "verified_entries": 94,
+      "large_direction_entries": 26
+    },
+    {
+      "strategy": "follow",
+      "first_10_seconds_excluded": false,
+      "leverage": 20,
+      "verified_entries": 88,
+      "large_direction_entries": 24
+    }
+  ],
+  "strict_no_order_capture_sensitivity_checked": true,
+  "all_checks_pass": true,
+  "note": "Large labels are post-close; no shared-account or ex-ante selection inference."
+}

@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paired_paths_checked": 93,
+  "aggregate_groups_checked": 8,
+  "result_sha256": "c0cd721db90111d6db77915ee0f4e5c8a984069b57ae7a424766a54e250b3b09",
+  "detail_sha256": "239b589b1ba8c5bd8a04455bdf54ea40d83225b1c1ab515c20116a680f130a05",
+  "audit_code_sha256": "ba949d962ee725fe1fce7eae618e98bad75298c514785803e07493c9006a43d2",
+  "note": "Independent Decimal aggregation of all paired rows; funding gate itself audited in round 55."
+}

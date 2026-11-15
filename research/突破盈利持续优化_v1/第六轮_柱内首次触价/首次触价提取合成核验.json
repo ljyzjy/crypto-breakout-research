@@ -1,0 +1,8 @@
+{
+  "first_cross_direction_has_priority": true,
+  "ineligible_first_cross_never_replaced": true,
+  "five_second_delay_after_actual_cross": true,
+  "entry_can_cross_minute": true,
+  "post_entry_extrema_only": true,
+  "missing_reference_is_not_silently_filled": true
+}

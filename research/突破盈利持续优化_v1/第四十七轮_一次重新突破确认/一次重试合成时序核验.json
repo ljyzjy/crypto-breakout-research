@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "no_retest_checked": true,
+  "successful_delayed_entry_exit_checked": true,
+  "future_outcome_perturbation_checked": true,
+  "only_one_retest_checked": true,
+  "source_disagreement_unknown": true,
+  "risk_budget_breach_still_filled": true,
+  "decision_code_sha256": "2345257b32bc4275044f1000490b7936fdb5a651befe8ff1365fa1dd2a20639b"
+}

@@ -1,0 +1,26 @@
+{
+  "selected": "atr_2r",
+  "target_r": 2.0,
+  "max_hold_minutes": 240,
+  "training_success": false,
+  "metrics": {
+    "candidate": "atr_2r",
+    "target_r": 2.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 159,
+    "h1_2024_net": -57.300706300988054,
+    "h1_2024_win_rate": 30.18867924528302,
+    "may_jul_2026_trades": 42,
+    "may_jul_2026_net": -20.77398991687801,
+    "may_jul_2026_win_rate": 28.57142857142857,
+    "pooled_trades": 201,
+    "pooled_win_rate": 29.850746268656717,
+    "pooled_profit_factor": 0.6755814242943535,
+    "minimum_period_net": -57.300706300988054,
+    "sum_period_net": -78.07469621786606
+  },
+  "plan_sha256": "1ec5514920daa13ca99d685e35f72c87281bc78c6b173dbd22392518cd1e3964",
+  "training_sha256": "a5335f05c9e75559564352212141b4f58e4c44536d7e02868d7aadfefda3906d",
+  "limit": "Wider stop does not guarantee controlled loss; entry is tick-reference and later exits are minute-level."
+}

@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "long_short": true,
+  "strict_window": true,
+  "one_second_observation_and_entry": true,
+  "same_millisecond_stop_priority": true,
+  "filled_outside_budget": true,
+  "future_perturbation": true,
+  "code_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+  "plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867"
+}

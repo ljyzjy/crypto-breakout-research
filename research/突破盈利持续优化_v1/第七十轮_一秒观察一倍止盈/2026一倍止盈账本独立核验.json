@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "year": "2026",
+  "audited_paths": 26,
+  "unknown_replay_paths": 0,
+  "unknown_risk_paths": 0,
+  "liquidation_proxy_paths": 0,
+  "max_net_fraction_error": 2.775072536268134e-16,
+  "ledger_sha256": "0bc375b4b689d9e7a62c8ee599e2479127533c25448010da58d83cd564c096e4",
+  "audit_code_sha256": "21149a50300250096874303f2956cb4c915eeccea22c475fe71e95578134fc6f",
+  "note": "Minute marks are proxies and do not reconstruct exchange liquidation."
+}

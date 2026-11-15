@@ -1,0 +1,54 @@
+{
+  "sampled_events": 8,
+  "checked": [
+    {
+      "observation_id": "relaxed|ADAUSDT|1704920460000|1",
+      "contract": "ADAUSDT",
+      "day": "2024-01-10",
+      "trades_after_5s": 514
+    },
+    {
+      "observation_id": "relaxed|BNBUSDT|1707979920000|1",
+      "contract": "BNBUSDT",
+      "day": "2024-02-15",
+      "trades_after_5s": 1172
+    },
+    {
+      "observation_id": "relaxed|DOGEUSDT|1709241720000|-1",
+      "contract": "DOGEUSDT",
+      "day": "2024-02-29",
+      "trades_after_5s": 2965
+    },
+    {
+      "observation_id": "relaxed|ETHUSDT|1718741100000|1",
+      "contract": "ETHUSDT",
+      "day": "2024-06-18",
+      "trades_after_5s": 2443
+    },
+    {
+      "observation_id": "relaxed|NEARUSDT|1708934700000|1",
+      "contract": "NEARUSDT",
+      "day": "2024-02-26",
+      "trades_after_5s": 166
+    },
+    {
+      "observation_id": "relaxed|XRPUSDT|1709574600000|-1",
+      "contract": "XRPUSDT",
+      "day": "2024-03-04",
+      "trades_after_5s": 502
+    },
+    {
+      "observation_id": "relaxed|BTCUSDT|1783990500000|1",
+      "contract": "BTCUSDT",
+      "day": "2026-07-14",
+      "trades_after_5s": 970
+    },
+    {
+      "observation_id": "relaxed|XRPUSDT|1784610060000|1",
+      "contract": "XRPUSDT",
+      "day": "2026-07-21",
+      "trades_after_5s": 193
+    }
+  ],
+  "limits": "The sample checks public trade extraction, not the actual fill, market impact or order-book state."
+}

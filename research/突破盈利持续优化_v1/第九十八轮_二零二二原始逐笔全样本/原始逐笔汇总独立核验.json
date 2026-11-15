@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "candidate_classifications_checked": 620,
+  "summary_groups_checked": 6,
+  "paired_category_groups_checked": 2,
+  "report_sha256": "7a914742f17f61306f6aa211a89174d256290ea6ee117df1824887bf35beb12b",
+  "detail_sha256": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+  "code_sha256": "36c93499d5422279aed57c2428439acdf55979c6c82d228b5c43ded017b26372",
+  "note": "Independent classification and unit arithmetic; no account equity."
+}

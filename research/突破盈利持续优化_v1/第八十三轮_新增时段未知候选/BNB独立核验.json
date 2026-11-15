@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "observation_id": "opening|BNBUSDT|1787213700000",
+  "independent_archive_count": 3,
+  "prechecks": {
+    "10": "reference_risk_or_cost_known",
+    "20": "reference_risk_or_cost_known"
+  },
+  "one_second_count_aggregate": 48,
+  "one_second_count_raw": 155,
+  "one_second_buy": "69338.5421",
+  "one_second_sell": "24826.7044",
+  "one_second_imbalance": "0.4726992107433181306438782593",
+  "source_result_sha256": "3231c0bd8ccc14d15cc66becd52c15ebe1c0abaa7b8a6015fb7da4c402d55904",
+  "code_sha256": "9033aab7adc47f0010944537b4e3bd3568fb0ebbd3ae212e72f4a93d5d5a5cb2",
+  "note": "One source repair sensitivity; remaining two cases remain unknown."
+}

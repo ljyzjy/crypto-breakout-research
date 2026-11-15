@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "summary_groups_checked": 126,
+  "included_path_instances_checked": 2506,
+  "matched_uniform_groups_checked": 10,
+  "independent_big_bar_data": "OI study's independently audited post-close capture CSV",
+  "result_sha256": "996e10fe3a1fbab84afbbc50ee07b26f9d420da2cfedc3a5e743ecc4f28b5e4b",
+  "note": "Independent arithmetic and selection cross-check on existing published research files, not a new raw public-tape or account audit."
+}

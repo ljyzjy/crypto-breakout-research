@@ -1,0 +1,36 @@
+{
+  "plan_sha256": "c89e87f539bd2e7b09b0d997099fb73700d4193a943fa99573bd9ede6050afd5",
+  "frozen_utc": "2026-11-14T21:57:22.805549+00:00",
+  "source_paths": {
+    "r95_frozen": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\冻结时点.json",
+    "r95_loader": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\run_expanded_walkforward.py",
+    "r95_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十五轮_扩充训练滚动预测\\扩充滚动模型独立核验.json",
+    "prior_model": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\walkforward_model.py",
+    "independent_optimizer": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第七十七轮_滚动事前模型\\audit_walkforward.py",
+    "labels2022": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十二轮_突破柱收益分解\\突破柱逐笔分解.csv",
+    "label2022_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十二轮_突破柱收益分解\\突破柱分解独立核验.json",
+    "labels2023": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十五轮_2023大突破柱捕捉诊断\\2023候选事后大柱标签.parquet",
+    "labels2023_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十五轮_2023大突破柱捕捉诊断\\2023大柱捕捉独立核验.json",
+    "labels2024_2026": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十三轮_跨期大柱捕捉诊断\\跨期事后大柱标签.parquet",
+    "labels2024_2026_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第五十三轮_跨期大柱捕捉诊断\\跨期大柱捕捉独立核验.json",
+    "late_source_manifest": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十三轮_2026八至十月延伸\\行情代码冻结哈希.json",
+    "late_candidate_audit": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第六十三轮_2026八至十月延伸\\延伸候选独立核验总表.json"
+  },
+  "source_sha256": {
+    "r95_frozen": "0dd7d9421af3b30d3c7dabcaf5053a930bada570ac9281756d98ff64a21099d3",
+    "r95_loader": "3b5a2f9ecb214cd82289d67709f1d24a8d340e8bca8e60ddaa4d7c27b28315d6",
+    "r95_audit": "3e3c3f228605a5acf771473978bcc7a8e4c0494db06ac0eed772908f16723576",
+    "prior_model": "c38c1eefc45362291f00fe217cc3eb8886c8c3faca60c4d9d99d6bccb2c6ccf7",
+    "independent_optimizer": "cab25a91c9ac276e4b5cd0c0743754c934c42ed1f1b150672bdd3d7484167984",
+    "labels2022": "c4a1aa0d7e1444ae95c6b7800498f66b7343b4edf78ee2e9bbfa25252990b1c5",
+    "label2022_audit": "36091386aff54b4660f85fa8dadf202f67758856b8ff368bd7c2b159d9c22509",
+    "labels2023": "090d51a5eeeeca043346ad6c544b9f91872862060023b17dbc5bdf040c148c4b",
+    "labels2023_audit": "eb16d30a08b004c86815ccbc0fc5b6b4358e5a681a6cecf2d20113580e974088",
+    "labels2024_2026": "dacb3e7e1d3f7ad38d39ed7c663f83c2c69117c205fb1ca9c41bd877ec6ca0a3",
+    "labels2024_2026_audit": "3efed10e71255fd8234ed47a9ef55ecd171a30936c409775e0e0f927558441ca",
+    "late_source_manifest": "8509a08ca603d857cd3e2092ab1cd3343c4855ceb43d6d45c2b4e7ab62055eda",
+    "late_candidate_audit": "6a07f53c8716422ee5efa6fa33413e7974cd5d6b97b319889d88dd64f5febe66"
+  },
+  "prior_outcomes_and_labels_seen": true,
+  "note": "Retrospective big-candle classifier; no independent holdout claim."
+}

@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 121,
+  "groups_checked": 4,
+  "output_sha256": "f5a42957bbe1793412c7b3a477730a797b613feadd1b60d699a9add94137bb80",
+  "detail_sha256": "d914e01a5f02d67f53c7cf10d2b652c077bd447ee6541566a6a79a1665905be2",
+  "audit_sha256": "a6d24a182431a9d577a790ada7cc0cb0dc18d9cdc950d0af343cdc9670373e7b",
+  "note": "Independent Decimal reference-time sizing; hypothetical isolated trade, no account replay."
+}

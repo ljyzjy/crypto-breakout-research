@@ -1,0 +1,8 @@
+{
+  "screen_passed": false,
+  "selected": null,
+  "diagnostic": "control_1r",
+  "plan_sha256": "a5a1ea310e04accbec9dc3a528fcdaec1cc96be966713c4e9b51a35def123406",
+  "feature_sha256": "20b41a3320de5a90b9703be0cb100d832fef630431a598ce266254422849f2ad",
+  "note": "2026 research screen only; no claim of out-of-sample validation or sufficient trading days."
+}

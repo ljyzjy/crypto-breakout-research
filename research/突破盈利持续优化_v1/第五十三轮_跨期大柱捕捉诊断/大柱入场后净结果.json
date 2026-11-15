@@ -1,0 +1,58 @@
+{
+  "plan_sha256": "8e35595ea456ccd76f6dc8d77ede09f660f73e8b519ebfbd8c5e291558d43ddb",
+  "rows": [
+    {
+      "year": "2024",
+      "strategy": "baseline",
+      "known_large_bars": 22,
+      "captured": 11,
+      "capture_unknown": 1,
+      "net_wins": 8,
+      "net_win_rate_pct": 72.72727272727273,
+      "mean_net_pct_notional": 0.4754498026594351,
+      "profit_factor": 5.937397172116463,
+      "held_through_close": 3,
+      "median_entry_seconds_after_candle_start": 57.334
+    },
+    {
+      "year": "2024",
+      "strategy": "single_retest",
+      "known_large_bars": 22,
+      "captured": 13,
+      "capture_unknown": 1,
+      "net_wins": 10,
+      "net_win_rate_pct": 76.92307692307692,
+      "mean_net_pct_notional": 0.6246246241132652,
+      "profit_factor": 8.66590019526548,
+      "held_through_close": 3,
+      "median_entry_seconds_after_candle_start": 57.334
+    },
+    {
+      "year": "2026",
+      "strategy": "baseline",
+      "known_large_bars": 9,
+      "captured": 4,
+      "capture_unknown": 2,
+      "net_wins": 2,
+      "net_win_rate_pct": 50.0,
+      "mean_net_pct_notional": 0.23114226407399532,
+      "profit_factor": 9.441320780674847,
+      "held_through_close": 2,
+      "median_entry_seconds_after_candle_start": 293.934
+    },
+    {
+      "year": "2026",
+      "strategy": "single_retest",
+      "known_large_bars": 9,
+      "captured": 4,
+      "capture_unknown": 2,
+      "net_wins": 2,
+      "net_win_rate_pct": 50.0,
+      "mean_net_pct_notional": 0.23114226407399532,
+      "profit_factor": 9.441320780674847,
+      "held_through_close": 2,
+      "median_entry_seconds_after_candle_start": 293.934
+    }
+  ],
+  "note": "Conditioned after candle close; full trade net, not profit over candle or account results."
+}

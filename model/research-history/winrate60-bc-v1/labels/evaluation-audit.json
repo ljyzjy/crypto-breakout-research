@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "('B', 'not_executed_entry_deviation')": 269,
+    "('B', 'not_executed_late_day')": 215,
+    "('B', 'not_executed_liquidity_minimum')": 5,
+    "('B', 'not_executed_pool_changed')": 6,
+    "('B', 'not_executed_stop_cost')": 174,
+    "('B', 'valid')": 1613,
+    "('C', 'not_executed_entry_deviation')": 275,
+    "('C', 'not_executed_late_day')": 244,
+    "('C', 'not_executed_liquidity_minimum')": 3,
+    "('C', 'not_executed_pool_changed')": 11,
+    "('C', 'not_executed_stop_cost')": 182,
+    "('C', 'valid')": 1897
+  },
+  "future_labels_used_to_filter_account": false
+}

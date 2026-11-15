@@ -1,0 +1,2204 @@
+{
+  "audit_id": "feature-phase1-exposure-20261113",
+  "created_utc": "2026-11-13T13:05:17.266362+00:00",
+  "status": "completed_metadata_audit_and_conditional_schedule_recommendation; no_new_backtest_or_simulator_change",
+  "scope": "Existing crypto-spot-kit research protocols, archived result date fields, full-run Freqtrade metadata, dashboard backtest date metadata, forward observer code/time keys/history indices. No claim of auditing external projects or every prior human observation.",
+  "method": "Read existing outcome files to extract dates/counts only; did not calculate new returns/features or open post-audit future observations. Two new November history checks read index columns only. Existing known historical V2 report was read to audit permanent-pause interpretation.",
+  "findings": [
+    {
+      "period_utc_half_open": [
+        "2023-01-01T00:00:00Z",
+        "2026-11-01T00:00:00Z"
+      ],
+      "status": "outcome_exposed_development",
+      "evidence_level": "A_actual_stored_results_and_engine_metadata",
+      "note": "Multiple spot, pool, factor, leverage, risk-budget studies and dashboard runs used these dates; evaluation/later names do not restore independence. Not every coin/feature was used every day, but common market outcome exposure precludes asserting a pristine historical market holdout."
+    },
+    {
+      "period_utc_half_open": [
+        "2025-01-01T00:00:00Z",
+        "2026-04-27T00:00:00Z"
+      ],
+      "status": "minute_strategy_repeated_outcome_exposure",
+      "evidence_level": "A_actual_stored_results",
+      "note": "Current minute and pullback V2 development/comparison period; 481 full days; overlapping subset of broader exposure."
+    },
+    {
+      "period_utc_half_open": [
+        "2026-04-27T00:00:00Z",
+        "2026-11-01T00:00:00Z"
+      ],
+      "status": "not_holdout",
+      "evidence_level": "A_actual_stored_results",
+      "note": "Earlier whole-pool and BTC/ETH studies computed outcomes here. The minute cutoff was inherited from data-completeness issues, not an unused-market boundary."
+    },
+    {
+      "period_utc_half_open": [
+        "2026-11-01T00:00:00Z",
+        "2026-11-13T13:00:00+00:00"
+      ],
+      "status": "feature_monitoring_exposed_not_proven_pristine",
+      "evidence_level": "B_code_plus_archived_index_and_runtime_timestamps",
+      "note": "BTC/ETH hourly histories enter four ongoing signal calculations; forward simulation started 2026-11-12T18:53:01Z. Does not claim historical P&L was tested from November 1; does prevent asserting no information contact."
+    },
+    {
+      "period_utc_half_open": [
+        "2022-10-01T00:00:00Z",
+        "2023-01-01T00:00:00Z"
+      ],
+      "status": "warmup_data_seen",
+      "evidence_level": "B_code_plus_history_index",
+      "note": "Observed as BTC/ETH prehistory; this audit did not find a verified untouched earlier validation pool. Data being older is not proof of independence."
+    }
+  ],
+  "verified_untouched_historical_interval": null,
+  "conditional_forward_plan": {
+    "validation_start": "2026-11-14T00:00:00+00:00",
+    "validation_end_exclusive": "2027-02-12T00:00:00+00:00",
+    "holdout_start": "2027-02-12T00:00:00+00:00",
+    "holdout_end_exclusive": "2027-05-13T00:00:00+00:00",
+    "date_status": "earliest_placeholder_only_not_activated",
+    "activation_rule": "T0 = next complete UTC midnight strictly after freeze of feature definitions, availability/causality rules, candidate decision policy, all executable code, data-pool rules, cost assumptions and evaluator/hash manifest. If not fully frozen before 2026-11-14T00:00Z, mechanically shift T0 to next complete UTC day after actual full freeze; never choose from returns.",
+    "durations_days": {
+      "validation": 90,
+      "final_holdout": 90
+    },
+    "boundaries": "Validation [T0,T0+90d), final holdout [T0+90d,T0+180d). No random split. This audit neither starts data capture nor claims future data exists.",
+    "final_holdout_rules": "Unseal only once at its end after predeclared selection from validation. All model versions and allowed validation selection must be frozen before validation. Changing feature/strategy rules after seeing validation starts a new research version with fresh future validation; no replacement winner chosen using holdout.",
+    "monitoring": "Separate safe health/data-latency monitoring from candidate performance inspection. If realized outcomes leak into development, record exposure and withdraw untouched label for that interval; do not silently rename it clean."
+  },
+  "boundary_purge": {
+    "primary_horizon_minutes": 30,
+    "secondary_horizons_minutes": [
+      15,
+      60
+    ],
+    "next_open_offset_minutes_upper_bound": 1,
+    "extra_execution_delay_minutes_upper_bound": 1,
+    "minimum_label_information_span_minutes": 62,
+    "conservative_fixed_signal_embargo_minutes": 65,
+    "exact_rule": "Every label/markout/exit used for a preceding split must end strictly before boundary B; discard any event whose realized label ends at/after B. In addition drop prior-split signals during [B-65min,B). For the new split require signal availability >= B. No boundary-crossing pending setup/position is relabelled a fresh independent trade; clear setup/position state for standalone split account; retain a separately labelled continuous account path if specified.",
+    "warmup": "Past-only historical lookbacks may warm up new-period features and fixed rolling beta; no future labels/normalization fitted on both sides. Do not purge 720 hours simply because beta uses 720 known hours."
+  },
+  "statistical_plan_recommendations": {
+    "family": "Freeze at most six feature groups, one or two variables each; primary 30min horizon only; list each long/short/interaction comparison that can drive selection in one complete primary family. Auxiliary 15/60min and neighborhood runs are diagnostic only; never substitute their best result.",
+    "multiplicity": "Use one prespecified family-level correction, preferably Holm FWER 0.05 for a modest family with arbitrary dependence; if a joint block max-stat method is used it must be frozen before outcomes. Retain all attempts, missing-feature attempts and failed screens. Old development p values remain exploratory.",
+    "dependence": "Assign event IDs; same-symbol overlapping event/label windows deduplicated before counting. Resample paired contiguous UTC time blocks jointly across symbols and long/short sides so market-wide co-movement is preserved. Report number of UTC days/weeks, distinct symbols and event clusters; these are not assumed independent trade counts.",
+    "minimum_evidence_not_power_guarantee": {
+      "feature_comparison_deduplicated_events": 200,
+      "distinct_active_utc_days": 30,
+      "distinct_active_utc_weeks": 8,
+      "distinct_symbols": 5,
+      "candidate_closed_trades": 100,
+      "interpretation": "Recommended administrative lower bounds, not a power proof or guarantee. Sparse comparisons remain unverified; do not extend until significant or lower limits after viewing returns. Full predeclared 90-day interval retained, CI width and tails decide uncertainty."
+    },
+    "no_automatic_promotion": "Positive cost-adjusted incremental effect, reproducible causal availability, coverage and uncertainty all required. Less loss than baseline is not profitability. At most three downstream branches, 1x initial gross cap; drawdown >15% fails screen and <=15% does not certify future risk. Dynamic leverage is separate later research."
+  },
+  "censoring_and_annualization": {
+    "existing_control": "Keep original peak drawdown 8% permanent study pause, 5% new-risk reduction, daily 1.5% pause. Retain calendar equity after pause as cash; do not reopen to improve performance.",
+    "audit_finding": "engine.py sets permanent_pause when prior known drawdown >=0.08, exits next open; subsequent signals rejected while equity path continues. Existing ~8% MDD is affected by stopping, not proof of sustained low-risk trading.",
+    "required_reports": [
+      "full-calendar return",
+      "MDD and intrabar stress MDD",
+      "first permanent-pause timestamp",
+      "active trading days",
+      "post-pause cash days",
+      "exposure and trade count",
+      "all-period non-account fixed-horizon signal diagnostics"
+    ],
+    "annualization": "Current engine only reports CAGR when elapsed days >=365. Retain this rule: each 90-day validation/holdout reports realized total return, daily statistics and interval uncertainty; do not market a 90-day extrapolation as verified annual return. Historical 481-day CAGR is development evidence and includes cash pause time."
+  },
+  "result_date_records_scanned": 70,
+  "canonical_metadata_records": [
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\all_metrics.csv",
+      "rows": 83,
+      "date_records": 83,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        },
+        {
+          "end": "2024-12-31 23:00:00",
+          "start": "2024-01-01 00:00:00"
+        },
+        {
+          "end": "2025-12-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2026-01-01 00:00:00"
+        }
+      ],
+      "sha256": "a57ceb110f62116bc8e8778ae702ce2cb280316792f2034d850da349cb33749e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\selection-v2\\metrics.csv",
+      "rows": 70,
+      "date_records": 70,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "4c9d0ca9e226c187beedadf3304410f620d66b5fdf12d5f38797108571a60553"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\metrics.csv",
+      "rows": 186,
+      "date_records": 186,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "0c873049a290b59834c6c1e5495846179d7f7ed3e22881ab30c959f35d205aab"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\dynamic-leverage-v1\\metrics.csv",
+      "rows": 30,
+      "date_records": 30,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "0a0c944ac2c8431763eba39001889ae7bf3e85d48cc2de4fc54629cc369b0d78"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\leverage-v1\\metrics.csv",
+      "rows": 120,
+      "date_records": 120,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "5b0d33c19496c4b7bf81bf9e38b23aeef9b5427184c5a398d7a47fb5e545f0f2"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\minute-intraday-v1\\metrics.csv",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "10635c3c8119cb79e0ca581aeee38239dda452d3a09c245eb0ea1be4b2a1e767"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\optimization-v1\\metrics.csv",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "7b75f897fdf7bd83b5b4205da1b3a55265b526409ff170460f80f21025c3654c"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-dynamic-v1\\metrics.csv",
+      "rows": 80,
+      "date_records": 80,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "45707f784e21f85456027ba05927119b8eb85706556da11b71ad3603dfe8af66"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-optimization-v1\\metrics.csv",
+      "rows": 42,
+      "date_records": 42,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "f444ad88e490c6d1e05db382ff58c883177288190b54226725bb991e52fd5719"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\metrics.csv",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "349707e51f86f48bb977fc97cd94a96bb1b6d7712102e10c36a3b3adcc894780"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\risk-budget-v1\\metrics.csv",
+      "rows": 155,
+      "date_records": 155,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "c3c6223a45a4780cd132d94e10507927750fd53bb46af49e517ccb62e42d38ec"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\rotation-leverage-v1\\metrics.csv",
+      "rows": 268,
+      "date_records": 268,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "fc920fd20386d32ae9f1b51f9d22778f7d6ffd465d3c80cf2b5ce6b791deda9e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-12h-v3\\metrics.csv",
+      "rows": 144,
+      "date_records": 144,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "7d02dd290b649e7d69e2069959260e0956ce8ac4720bd917b2aeb13254738838"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-data-gate-v2\\metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "b0b16926f7f17d5abae06793093939587ea6b030b0daec13b16e823b189d5375"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-data-gate-v2\\official-metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "4e2ce7171d7a2b001e4fb48d8f929c11cf49cb0be8233e569097f5b3e244bbd8"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-event-v4\\metrics.csv",
+      "rows": 168,
+      "date_records": 168,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "49004d8aaa0b8fa2716f8de5f73afeae6afc84579f308e44770ec854760c6c52"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-research-v1\\metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "31f0f983488791bb60439c35809657525d4f183831bdb08cee01181f29dd9d6d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\short-factor-v1\\metrics.csv",
+      "rows": 240,
+      "date_records": 240,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "cf59c476bc30830004927a9eaadf8f30cfd61435e5a38af1af89e220f5a377ea"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\selection-v1\\summary.json",
+      "rows": 12,
+      "date_records": 12,
+      "unique_ranges": [
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "0a511b7cda9be9cc7b329d04f2d3b35bbc739789117780744336ae506a35aef4"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\comparison.json",
+      "rows": 11,
+      "date_records": 11,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "0ca96d8dc640931bda2840710ed7206cd4627341df97bb0376866ba99f35e0e6"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-intraday-no-daily-cap-v1\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "d821c43a61fa085802860ed938585b65c31a785b1068e1001a2b2a58ffe2e2d6"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-intraday-v1\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "a7b0b21b46b252a2c803bf50ac00452758ed76117352eba9dcfcc2d8f068b3bd"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\automatic-metrics.json",
+      "rows": 14,
+      "date_records": 14,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "9a7e300fc3e42b938c76320207b25dcdac2fc1a18ed24d22305f94b324573a85"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\superseded-stable-exclusion-v1\\automatic-metrics.json",
+      "rows": 14,
+      "date_records": 14,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "cea96658c5c2756d18003f17dd067e0dc86912e46ce193e319045dbebf361f9d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\sizing-metrics.json",
+      "rows": 49,
+      "date_records": 49,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "82bf7e74f5f9e90b944eb0a824e8eab96d8d0af95de6e8f2e08a96b2bd7e4ddf"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\34c2ab5af317ad8ace457218\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2023-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        }
+      ],
+      "sha256": "3df7ca2da25e535f0c0f26ae688426a12cd3dc619d80af2ee8fe5f17d501df2d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\57e0268e7db15ba2571e2413\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2026-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "2acb27d80e0a5f338ea6997147a4e41d31ae56cf6e2523558ed423c3e856b2f8"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\7a8dbbc1c407359fe88985b5\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2025-06-30 23:00:00",
+          "actual_start": "2025-03-01 00:00:00",
+          "end": "2025-06-30",
+          "start": "2025-03-01"
+        }
+      ],
+      "sha256": "c453dd7cad0f721f3d3b2779094aae6d63b07b34d8458cbaf4c2c92df2f767c5"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\87ae995ad7b6e40a1ef277b9\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2025-12-31 23:00:00",
+          "actual_start": "2025-01-01 00:00:00",
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "9def2b8cbd045cc485cd67f40850c2f5e70bae539d8d619704bd45f521c05219"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\9ebb1587a4bed049689dd2b1\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2023-12-31 23:00:00",
+          "actual_start": "2023-01-01 00:00:00",
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        }
+      ],
+      "sha256": "b72a47c22754b6647d757e16826f276de12922dab958633a8f34ef3a7e00d1bc"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\b319726f8af3f13dd54f49f2\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-02-01 23:00:00",
+          "actual_start": "2026-02-01 00:00:00",
+          "end": "2026-02-01",
+          "start": "2026-02-01"
+        }
+      ],
+      "sha256": "39ec0fb48ecc77b1223007353aa76352fd7e688b07d2444dcdc390083e652a45"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\c7f9e63f9ac1bad129c5ec46\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2025-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "f474cd2fef35b26f319a9946720b6b00f4077a43135616e473a0c18c16f7210c"
+    }
+  ],
+  "all_extracted_date_records": [
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\all_metrics.csv",
+      "rows": 83,
+      "date_records": 83,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        },
+        {
+          "end": "2024-12-31 23:00:00",
+          "start": "2024-01-01 00:00:00"
+        },
+        {
+          "end": "2025-12-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        },
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2026-01-01 00:00:00"
+        }
+      ],
+      "sha256": "a57ceb110f62116bc8e8778ae702ce2cb280316792f2034d850da349cb33749e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\selection-v2\\metrics.csv",
+      "rows": 70,
+      "date_records": 70,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "4c9d0ca9e226c187beedadf3304410f620d66b5fdf12d5f38797108571a60553"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\metrics.csv",
+      "rows": 186,
+      "date_records": 186,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "0c873049a290b59834c6c1e5495846179d7f7ed3e22881ab30c959f35d205aab"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\dynamic-leverage-v1\\metrics.csv",
+      "rows": 30,
+      "date_records": 30,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "0a0c944ac2c8431763eba39001889ae7bf3e85d48cc2de4fc54629cc369b0d78"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\leverage-v1\\metrics.csv",
+      "rows": 120,
+      "date_records": 120,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "5b0d33c19496c4b7bf81bf9e38b23aeef9b5427184c5a398d7a47fb5e545f0f2"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\minute-intraday-v1\\metrics.csv",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "10635c3c8119cb79e0ca581aeee38239dda452d3a09c245eb0ea1be4b2a1e767"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\optimization-v1\\metrics.csv",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "7b75f897fdf7bd83b5b4205da1b3a55265b526409ff170460f80f21025c3654c"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-dynamic-v1\\metrics.csv",
+      "rows": 80,
+      "date_records": 80,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "45707f784e21f85456027ba05927119b8eb85706556da11b71ad3603dfe8af66"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-optimization-v1\\metrics.csv",
+      "rows": 42,
+      "date_records": 42,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "f444ad88e490c6d1e05db382ff58c883177288190b54226725bb991e52fd5719"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\metrics.csv",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "349707e51f86f48bb977fc97cd94a96bb1b6d7712102e10c36a3b3adcc894780"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\risk-budget-v1\\metrics.csv",
+      "rows": 155,
+      "date_records": 155,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "c3c6223a45a4780cd132d94e10507927750fd53bb46af49e517ccb62e42d38ec"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\rotation-leverage-v1\\metrics.csv",
+      "rows": 268,
+      "date_records": 268,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "fc920fd20386d32ae9f1b51f9d22778f7d6ffd465d3c80cf2b5ce6b791deda9e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-12h-v3\\metrics.csv",
+      "rows": 144,
+      "date_records": 144,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "7d02dd290b649e7d69e2069959260e0956ce8ac4720bd917b2aeb13254738838"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-data-gate-v2\\metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "b0b16926f7f17d5abae06793093939587ea6b030b0daec13b16e823b189d5375"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-data-gate-v2\\official-metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "4e2ce7171d7a2b001e4fb48d8f929c11cf49cb0be8233e569097f5b3e244bbd8"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-event-v4\\metrics.csv",
+      "rows": 168,
+      "date_records": 168,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "49004d8aaa0b8fa2716f8de5f73afeae6afc84579f308e44770ec854760c6c52"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-research-v1\\metrics.csv",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "31f0f983488791bb60439c35809657525d4f183831bdb08cee01181f29dd9d6d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\short-factor-v1\\metrics.csv",
+      "rows": 240,
+      "date_records": 240,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "cf59c476bc30830004927a9eaadf8f30cfd61435e5a38af1af89e220f5a377ea"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\selection-v1\\summary.json",
+      "rows": 12,
+      "date_records": 12,
+      "unique_ranges": [
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "0a511b7cda9be9cc7b329d04f2d3b35bbc739789117780744336ae506a35aef4"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\comparison.json",
+      "rows": 11,
+      "date_records": 11,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "0ca96d8dc640931bda2840710ed7206cd4627341df97bb0376866ba99f35e0e6"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\selection-v2\\metrics.json",
+      "rows": 70,
+      "date_records": 70,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "159ac838795518bc259e56dd8a64893791162e29cd7c7c1f01ae61e796d00b87"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\metrics.json",
+      "rows": 186,
+      "date_records": 186,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "59e5f9ac21b00d6400aaf33c85d8e132b5dd749d09fe1b05cddccba20b0b2efa"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2023-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        }
+      ],
+      "sha256": "56043fabb88de63991daa6bbfe1248ceb14db4998f8e784cb62681809e630cec"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2023-fee0.002\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        }
+      ],
+      "sha256": "31fa97566d02194af849951c215d7d0d4fff367575e787fe4f4ee12d74c1d43d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2024-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2024-12-31 23:00:00",
+          "start": "2024-01-01 00:00:00"
+        }
+      ],
+      "sha256": "3d002d57c3368a14cbc1cd2145f015ceb91111777c41aa8191acace8c3a40278"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2024-fee0.002\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2024-12-31 23:00:00",
+          "start": "2024-01-01 00:00:00"
+        }
+      ],
+      "sha256": "4d2872bed1232ad13f23c979aa35dfec0357034fe4f3a6a50afd87f75705d78a"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2025-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "56021f4f2ab460d5d9870092966a929201a59df760fdb36a26a2008300d9131a"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2025-fee0.002\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "33e6e2034b719acd7b14a87cbe2318c139e1c241055b179111663a5c98378be9"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2025-fee0.003\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "18951268579659b834b4fb686a454b8f7d24f619bcc1f04a1895f2327892a456"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2026-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2026-01-01 00:00:00"
+        }
+      ],
+      "sha256": "31336ffa1fe57c7be459cb337b356f6b62415919b229e76a81ab4fb3bf50148d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2026-fee0.002\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2026-01-01 00:00:00"
+        }
+      ],
+      "sha256": "5ed5e8d4dd198c61119a14b4f12b9e79b1157fc8182904389f61952a412181b4"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\2026-fee0.003\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2026-01-01 00:00:00"
+        }
+      ],
+      "sha256": "a2912e4510562c0e5155d7bf220b1c745dea3f370a53d1740d9124cd533bc635"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\evaluation-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "94cf94ef355a49575dd2ed9b0dc97cdd45431a9fa1f34515a3555473e6b005d3"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\evaluation-fee0.001-5m\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "c8e7588b57a1614bd893490e8554e54b0b178ad000dd7237f34f1d156f6253dc"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\evaluation-fee0.002\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "6057f40d77143705820b93d2187b642f854f79e73207531f00080c190b3541b9"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\evaluation-fee0.002-neighbors\\metrics.json",
+      "rows": 8,
+      "date_records": 8,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "c7770fa5b86249dd590bd9ec92732f715d8c00b08861f92743cdf0abfe10a13e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\evaluation-fee0.003\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2025-01-01 00:00:00"
+        }
+      ],
+      "sha256": "2181065c089fe4ba987b8c0906f98f4b02b9a2bbc2a03091ec0c7fea27172189"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-10-31 23:00:00",
+          "start": "2023-01-01 00:00:00"
+        }
+      ],
+      "sha256": "d363ba12d8a2961ebb2f2b99c824a1710f67e5128def6df74fbdd7cff8022190"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\dynamic-leverage-v1\\metrics.json",
+      "rows": 30,
+      "date_records": 30,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "d586bb8ea76f228da0c2251f71d93ebc33cccedbd94e72895420a9fe015ddad9"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\leverage-v1\\metrics.json",
+      "rows": 120,
+      "date_records": 120,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "88a84f764980572415140372a6e10052ed8c715c46a3a65f8b497637f8eda530"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\minute-intraday-v1\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "683493b1df1432f702af881b10afeb77312cb4324d2f8fa5648382aefebce12e"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\optimization-v1\\metrics.json",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "3f0b2f8a58690574fe6154c2b54e7dca00c521b11a24339f46aba9915733d643"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-dynamic-v1\\metrics.json",
+      "rows": 80,
+      "date_records": 80,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "79456a8bccbcf203cad9c01893faa071883f137479896c6edadbd3c6ab09cbd9"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pool-optimization-v1\\metrics.json",
+      "rows": 42,
+      "date_records": 42,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "17aa5ea3d626e8664dd1fba262fe65d5b5cd67516cef9a8124e0a80470e0408d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\metrics.json",
+      "rows": 93,
+      "date_records": 93,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "1141d437c6a699bb790fa8fb3e9eebbf91f9d682aed97c45f2fd1c295a9a7165"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-intraday-no-daily-cap-v1\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "d821c43a61fa085802860ed938585b65c31a785b1068e1001a2b2a58ffe2e2d6"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-intraday-v1\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "a7b0b21b46b252a2c803bf50ac00452758ed76117352eba9dcfcc2d8f068b3bd"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\risk-budget-v1\\metrics.json",
+      "rows": 155,
+      "date_records": 155,
+      "unique_ranges": [
+        {
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2024-12-31",
+          "start": "2024-01-01"
+        },
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "52aca06125c73c0f483f8088defb9b4bbb93f66cd9238dd9fe076ae3dc19a722"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\rotation-leverage-v1\\metrics.json",
+      "rows": 268,
+      "date_records": 268,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "4c82962de993309472dc58ef56abcfa115eb9488b7fefb5391817ea3281ed1bc"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-12h-v3\\metrics.json",
+      "rows": 60,
+      "date_records": 60,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "30aca499168669c08b97409c96f22689d71001adbb8ef3b8bcdeeb28a2374447"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-data-gate-v2\\metrics.json",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "62e1c86b995a91ee6f6a8a8d8ee526b204f01f83e7556d73bd820a6d0b02f46c"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-event-v4\\metrics.json",
+      "rows": 24,
+      "date_records": 24,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "929569cfcb4ebea846be73d353e0b262b783f8c2d49966a8517a5fd8f5834abb"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\selection-research-v1\\metrics.json",
+      "rows": 84,
+      "date_records": 84,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-04-26",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "0a62fa6053cb548804ea56928b517dbe2ec60a590cc7d9ae4ba01ce98efc3132"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\short-factor-v1\\metrics.json",
+      "rows": 240,
+      "date_records": 240,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "bace91f763d93aa86363d4a8c2e2c6fac14a80c2dfdcbc70a41b928bf5ec4f9c"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\acceptance\\metrics.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "d0ee175a772669c6a8aba012363a77fd7d05ecb2dde7ef06641adb6695e2712f"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\activity\\metrics.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "4de759c2a92524d72e4c6a3100b9b81e299b4f8a9cbc318922e4403bfaaf0589"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\combined\\metrics.json",
+      "rows": 5,
+      "date_records": 5,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "d10d17343de70a1341aacc70100b6b3853272141c62e0d7485f5a344b38a42a2"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\matched\\metrics.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "20a7d8cdaff9db740c41e24e684b035b463383d112f09514541e5c9cbfb2475d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\path\\metrics.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "0bb5cd282e653bd4095b42db2e46c89861ebb1a5e7c6c9d4af7f1d37e3448772"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\runs\\residual\\metrics.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "end": "2026-04-26",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "280c4b60788fcba218976eafce70fab0f7cd9a5ca84634546020a84155f7a3b8"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\automatic-metrics.json",
+      "rows": 14,
+      "date_records": 14,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "9a7e300fc3e42b938c76320207b25dcdac2fc1a18ed24d22305f94b324573a85"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\superseded-stable-exclusion-v1\\automatic-metrics.json",
+      "rows": 14,
+      "date_records": 14,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "cea96658c5c2756d18003f17dd067e0dc86912e46ce193e319045dbebf361f9d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\short-term-research\\coin-lab-v1\\sizing-metrics.json",
+      "rows": 49,
+      "date_records": 49,
+      "unique_ranges": [
+        {
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        },
+        {
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "82bf7e74f5f9e90b944eb0a824e8eab96d8d0af95de6e8f2e08a96b2bd7e4ddf"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\34c2ab5af317ad8ace457218\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2023-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2023-01-01"
+        }
+      ],
+      "sha256": "3df7ca2da25e535f0c0f26ae688426a12cd3dc619d80af2ee8fe5f17d501df2d"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\57e0268e7db15ba2571e2413\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2026-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2026-01-01"
+        }
+      ],
+      "sha256": "2acb27d80e0a5f338ea6997147a4e41d31ae56cf6e2523558ed423c3e856b2f8"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\7a8dbbc1c407359fe88985b5\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2025-06-30 23:00:00",
+          "actual_start": "2025-03-01 00:00:00",
+          "end": "2025-06-30",
+          "start": "2025-03-01"
+        }
+      ],
+      "sha256": "c453dd7cad0f721f3d3b2779094aae6d63b07b34d8458cbaf4c2c92df2f767c5"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\87ae995ad7b6e40a1ef277b9\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2025-12-31 23:00:00",
+          "actual_start": "2025-01-01 00:00:00",
+          "end": "2025-12-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "9def2b8cbd045cc485cd67f40850c2f5e70bae539d8d619704bd45f521c05219"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\9ebb1587a4bed049689dd2b1\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2023-12-31 23:00:00",
+          "actual_start": "2023-01-01 00:00:00",
+          "end": "2023-12-31",
+          "start": "2023-01-01"
+        }
+      ],
+      "sha256": "b72a47c22754b6647d757e16826f276de12922dab958633a8f34ef3a7e00d1bc"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\b319726f8af3f13dd54f49f2\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-02-01 23:00:00",
+          "actual_start": "2026-02-01 00:00:00",
+          "end": "2026-02-01",
+          "start": "2026-02-01"
+        }
+      ],
+      "sha256": "39ec0fb48ecc77b1223007353aa76352fd7e688b07d2444dcdc390083e652a45"
+    },
+    {
+      "file": "outputs\\crypto-spot-kit\\user_data\\dashboard_backtests\\c7f9e63f9ac1bad129c5ec46\\result.json",
+      "rows": 1,
+      "date_records": 1,
+      "unique_ranges": [
+        {
+          "actual_end": "2026-10-31 23:00:00",
+          "actual_start": "2025-01-01 00:00:00",
+          "end": "2026-10-31",
+          "start": "2025-01-01"
+        }
+      ],
+      "sha256": "f474cd2fef35b26f319a9946720b6b00f4077a43135616e473a0c18c16f7210c"
+    }
+  ],
+  "november_metadata": {
+    "forward_state_observed_dates": {
+      "started_utc": "2026-11-12T18:53:01+00:00",
+      "last_update_utc": "2026-11-13T13:02:09+00:00",
+      "last_source_close_utc": "2026-11-13T13:00:00+00:00"
+    },
+    "history_indices": [
+      {
+        "file": "outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\forward\\BTCUSDT-history.parquet",
+        "rows": 36108,
+        "min_index": "2022-10-01 00:00:00+00:00",
+        "max_index": "2026-11-13 12:00:00+00:00",
+        "values_read": false
+      },
+      {
+        "file": "outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\forward\\ETHUSDT-history.parquet",
+        "rows": 36108,
+        "min_index": "2022-10-01 00:00:00+00:00",
+        "max_index": "2026-11-13 12:00:00+00:00",
+        "values_read": false
+      }
+    ],
+    "web_backtest_meta": [
+      {
+        "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+        "strategy": "SpotTrendV1",
+        "run_id": "c0209fa00b1ebbcfb7c0659afa2b96647debb084",
+        "first_ts_utc": "2023-01-01T00:00:00+00:00",
+        "last_ts_utc": "2026-10-31T23:00:00+00:00",
+        "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+      },
+      {
+        "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+        "strategy": "DailyDonchian",
+        "run_id": "aeea06a1a8eb1abf41002b62a755a40d110ec2d3",
+        "first_ts_utc": "2023-01-01T00:00:00+00:00",
+        "last_ts_utc": "2026-10-31T23:00:00+00:00",
+        "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+      },
+      {
+        "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+        "strategy": "DailyMA",
+        "run_id": "858bb6fb4e812ac8fb62528006ef56275e1e6c3e",
+        "first_ts_utc": "2023-01-01T00:00:00+00:00",
+        "last_ts_utc": "2026-10-31T23:00:00+00:00",
+        "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+      },
+      {
+        "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+        "strategy": "DailyMomentum",
+        "run_id": "5d586a9d6e8c10e49b7974cd72eafe640f59d3ef",
+        "first_ts_utc": "2023-01-01T00:00:00+00:00",
+        "last_ts_utc": "2026-10-31T23:00:00+00:00",
+        "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+      },
+      {
+        "file": "outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+        "strategy": "DailyBollinger",
+        "run_id": "9d61fd66f856f9481181e356037da508d8d8ffb6",
+        "first_ts_utc": "2023-01-01T00:00:00+00:00",
+        "last_ts_utc": "2026-10-31T23:00:00+00:00",
+        "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+      }
+    ],
+    "conditional_forward_schedule": {
+      "validation_start": "2026-11-14T00:00:00+00:00",
+      "validation_end_exclusive": "2027-02-12T00:00:00+00:00",
+      "holdout_start": "2027-02-12T00:00:00+00:00",
+      "holdout_end_exclusive": "2027-05-13T00:00:00+00:00"
+    }
+  },
+  "static_evidence_hashes": [
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\comparison-v2\\results\\full-fee0.001\\backtest-result-2026-11-12_15-59-25.meta.json",
+      "sha256": "3e122f0c40b937ed492f3005ca8392f4640a674e0b544c1585d37d18c5340c38"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\comparison-v2\\PROTOCOL.md",
+      "sha256": "2a267ed9c4286c8cf03db4ca45d70b6ad02c55bde939452aa69f802078837172"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\protocol.json",
+      "sha256": "2526fbc3d3164e8218513c9926afb24072b635147a8b034d9e0e06ea6c22008f"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pool-dynamic-v1\\protocol.json",
+      "sha256": "cb9ab1bedcdfe2adbad27160b7b90c6d83e2f2a102e32d0c7f191a01ba335f1d"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\forward\\protocol.json",
+      "sha256": "fa9c63c2afa4fa17f8f5dd60730f9fc387064ff7c4ec9febebb3a0eafa123160"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\public-research-v1\\forward_paper.py",
+      "sha256": "4840616138d1e33a6c2530c6bc792fcbba0cf68a0b55a7531da1f254a513f22e"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\protocol.json",
+      "sha256": "e39847a52567d2f85a8e14f8a6841481bb3c56380b8f8991d1e3cde80571ccfa"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\engine.py",
+      "sha256": "439c10c10d4ab64e0385b13877f6a5fc8afbe088eb3b2583a537660a4eab5bf7"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\signal_diagnostics.py",
+      "sha256": "d8aedcfc91a715c88af1871f2e675a599089131f65ef239b406f8f6555757c78"
+    },
+    {
+      "path": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-12\\ge\\outputs\\crypto-spot-kit\\short-term-research\\pullback-research-v2\\回测结论.txt",
+      "sha256": "1f037921079ee3d3350a9b3bb3f98820588bdb072d69d13bd9a93cacc46668fc"
+    }
+  ],
+  "limitations": [
+    "No access log proves all human/model information exposure; a failed search for prior use is not proof of untouched history.",
+    "CSV/JSON tables contain duplicated comparisons and carried-forward rows; row counts are not summed as independent experiments.",
+    "Active observer state changes continuously; recorded timestamps are a snapshot, not an immutable full-file hash.",
+    "This is an audit and registration recommendation; no fresh factor calculations/backtests, recorder start, account connection or simulator mutation occurred."
+  ],
+  "primary_method_source": {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/0022-1082.00163",
+    "verified_utc": "2026-11-13",
+    "claim": "Sullivan, Timmermann and White (1999) evaluate technical rules accounting for the full universe of tried rules and data-snooping. The concrete dates, sample-count gates and purge length here are project design choices, not claimed as paper prescriptions."
+  }
+}

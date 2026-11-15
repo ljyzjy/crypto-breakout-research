@@ -1,0 +1,25 @@
+{
+  "selected": "btc_eth_align_1r",
+  "target_r": 1.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "btc_eth_align_1r",
+    "target_r": 1.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 112,
+    "h1_2024_net": -59.392990828643974,
+    "h1_2024_win_rate": 38.392857142857146,
+    "may_jul_2026_trades": 31,
+    "may_jul_2026_net": -23.55248630688402,
+    "may_jul_2026_win_rate": 35.483870967741936,
+    "pooled_trades": 143,
+    "pooled_win_rate": 37.76223776223776,
+    "pooled_profit_factor": 0.40682853247985273,
+    "minimum_period_net": -59.392990828643974,
+    "sum_period_net": -82.945477135528
+  },
+  "plan_sha256": "25261c8c8a62d4f775aba992995d3946ed5536d106023c32dd5d0ddc60360938",
+  "training_sha256": "4dbf666174ab212d499668794dbea8e730f54b8bb2e9966750d20f41c26a8ce4",
+  "limit": "15-trade floor is only for exploratory selection; no final 100-trade standard was relaxed."
+}

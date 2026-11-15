@@ -1,0 +1,2072 @@
+{
+  "candidate_events": 1156,
+  "reuse_base_matches": 666,
+  "new_events": 490,
+  "new_archives": 293,
+  "verified_new_archives": 293,
+  "statuses": {
+    "verified": 1156
+  },
+  "source_counts": {
+    "reused": 666,
+    "downloaded": 490
+  },
+  "minute_mismatches": [],
+  "missing_completed_candles": [],
+  "archive_errors": [],
+  "bytes_downloaded": 3443499320,
+  "disk_free_bytes": 2849153024,
+  "archives": [
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-01-09",
+      "status": "verified",
+      "sha256": "5e0eefb5658cae46ba3cfd5eb963e08c571547091c076de1a896133cfd16e416",
+      "bytes": 4199765
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-01-03",
+      "status": "verified",
+      "sha256": "8f715fb2c3049b5af385c193dc6992730fec2107b83427d1295175eb7099188f",
+      "bytes": 7394786
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-01-11",
+      "status": "verified",
+      "sha256": "294a2e90902007469c86534a8fc503eb50ff8680646f6bd2920f8a14f0611866",
+      "bytes": 8022531
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-12",
+      "status": "verified",
+      "sha256": "9d9902c040cca973f1be24dfb8dfdf3a4d5ab6cf79972680ea470438d2985df9",
+      "bytes": 2139181
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-01-10",
+      "status": "verified",
+      "sha256": "6e035558d5c3750215babccf3f4f64542c0883977ed005a827f1a9aa6c2a846e",
+      "bytes": 9073361
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-01-31",
+      "status": "verified",
+      "sha256": "27009ff3a7f5b25c8b56ce8d963e151176884e3b0cf924af2ce1bc6e5f0c0aff",
+      "bytes": 4173121
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-13",
+      "status": "verified",
+      "sha256": "3f64b8364091d4f0d91a0d5ed5d147c7a635ae6b6690d6d72b8ba14f15e95556",
+      "bytes": 2871909
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-19",
+      "status": "verified",
+      "sha256": "178a77c569a31779c76fb1fd506d4cb344779cb6f0e27f66ffbf41155dcf0626",
+      "bytes": 2293689
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-15",
+      "status": "verified",
+      "sha256": "2657c9b9342534ea081bf7a01d8a563207bc36b61e2b9ce39eabb066bdff240d",
+      "bytes": 5048111
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-21",
+      "status": "verified",
+      "sha256": "302d310e9a61900d4312e010fbd8a3d5e94a63c516e37bf71d6561d2402fb049",
+      "bytes": 2746477
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-20",
+      "status": "verified",
+      "sha256": "1169c8220d8ae4837190c484626d76dca79996b3aee93d9f39b03900ec814abb",
+      "bytes": 3445329
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-24",
+      "status": "verified",
+      "sha256": "dc8b95d0dd90b00eb0375d0f300fd14cf2c697d5f45319dbc40efeaf28ba7961",
+      "bytes": 3533823
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-25",
+      "status": "verified",
+      "sha256": "18c9a3013edd69e0972e852015e99a10cc04e0a70a62dd58b378a7cee9a2a3a2",
+      "bytes": 4609940
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-23",
+      "status": "verified",
+      "sha256": "910d159dcb11a73e28b30aa4370b3e398e9169004e6e6d456cfea677c44a2c6d",
+      "bytes": 8930523
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-26",
+      "status": "verified",
+      "sha256": "b5f86fc7ae1bc65d8ceb98c7fb674dec7995e08af80d8154531f6bbe263200f7",
+      "bytes": 15175341
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-29",
+      "status": "verified",
+      "sha256": "42fc06d3a0bad1becec585dd54deda573385d464369dd1a80a5e0393d5996b0d",
+      "bytes": 33253930
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-28",
+      "status": "verified",
+      "sha256": "91f03f5f5aeea0ede9504e5402c1609e6ca88da508398aa620ce6a1260713625",
+      "bytes": 82145680
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-01",
+      "status": "verified",
+      "sha256": "a88bfef2e8a4ead170af3d086e7d2d3e0d47440ceb2b96f5808d0142cd25ffd9",
+      "bytes": 57211286
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-02-27",
+      "status": "verified",
+      "sha256": "bc06db5334fb7eae341aca6d7d1b7dd6f51e877d9fe385d75c51c3b90796c8c1",
+      "bytes": 59653090
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-02",
+      "status": "verified",
+      "sha256": "aa467d0e0727bc80cf51d5dbb846cc06f42d4b102ded0a39c72b12da30e3bdb0",
+      "bytes": 55891441
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-03",
+      "status": "verified",
+      "sha256": "b20a78cc755ac7e0878bafef45bb738fb3d5aeef4c0ce6aac92ad9f614975cbc",
+      "bytes": 73467635
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-06",
+      "status": "verified",
+      "sha256": "4dd2a201fff031213170422ef0732d8eca9557b4c19638400d023dfa6df0a9ce",
+      "bytes": 78774388
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-08",
+      "status": "verified",
+      "sha256": "195a15ba61f7589e03cba0343d9ac70aa9d666e950868fa51cf8724417adca57",
+      "bytes": 89673829
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-31",
+      "status": "verified",
+      "sha256": "4cc01667187079fda5acccaad893b268ce2db8e6b9b9974bf664ba0a8f4613e2",
+      "bytes": 20688935
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-04",
+      "status": "verified",
+      "sha256": "4a5048b3a4a776401fd2b20a122b7ec5549a914bd0b2aec2b32ce8b14c439f54",
+      "bytes": 111781501
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-03-14",
+      "status": "verified",
+      "sha256": "701004af2b154a7ec9168a0a0fb47b92a1af6b5e8fdb90c735a6b8434dc6da94",
+      "bytes": 74279809
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-16",
+      "status": "verified",
+      "sha256": "26df9a148e8454733e81cf9bd5354f56dfb1e5915d407692a8efa85eee54124a",
+      "bytes": 24169954
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-13",
+      "status": "verified",
+      "sha256": "d085b748a3de871425909a6d0c2c8fc6492366d45bc353c1f68d141ee89ada42",
+      "bytes": 39619073
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-22",
+      "status": "verified",
+      "sha256": "2210a0ebd6adf1259bfe18544f0d0adaa875ebe3b2121c2b0c5e22ef9ad1b8e2",
+      "bytes": 25024535
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-25",
+      "status": "verified",
+      "sha256": "12293291348fceb33097edfe31d0b644cb1a3f082be0fa1f6f4357bbf9189330",
+      "bytes": 31178845
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-26",
+      "status": "verified",
+      "sha256": "84fb775db75de7caa5010e8c386d1c9e4bf63a5504bd1b76f4c61edcbf9b9071",
+      "bytes": 21642498
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-29",
+      "status": "verified",
+      "sha256": "0ade30dd90b6d08f812a47cc7f0f0e48a24d13add6a2820a8fba14c6e321a4b5",
+      "bytes": 18682995
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-27",
+      "status": "verified",
+      "sha256": "64c500834efb403fe2f0307d1a92cc749431ebde4905e04aa24ec5c90a30595c",
+      "bytes": 19584473
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-23",
+      "status": "verified",
+      "sha256": "9e1ee826b3b7a33b7f81ea43b464731aa55be439f3a497db80568cd975166b95",
+      "bytes": 33041341
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-02",
+      "status": "verified",
+      "sha256": "1b4bcf79022a48aa791f81e057c43f45766f6b8f0161f77c0f46d11c87d9ea0d",
+      "bytes": 30108502
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-01",
+      "status": "verified",
+      "sha256": "201d1c0de225054b5638c098ec7e0d08c991c1db5312c1a68c85717da7689df5",
+      "bytes": 34954218
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-04-30",
+      "status": "verified",
+      "sha256": "ad963d69b22a0c6dc253fef42ff860f462780e3682355a4a21a6126981a47b3b",
+      "bytes": 29729552
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-09",
+      "status": "verified",
+      "sha256": "867537506fa4ed1194a275e84614c8ffcc6d3e461750c8c75a4c88b58f6ba7ce",
+      "bytes": 18496051
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-04",
+      "status": "verified",
+      "sha256": "b9fdf635e9da0dff5211c921c7417bbec9daeb8a8687dc1f0331f4b996b66e45",
+      "bytes": 22822446
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-14",
+      "status": "verified",
+      "sha256": "b9cea5deddfda1202bc23217f825d28c85561c2500b475571f52d2af5f61df64",
+      "bytes": 59988491
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-21",
+      "status": "verified",
+      "sha256": "b8c3e5a64084d0b3f2cb8523fc86093d66b7ac76d10ec6a4c85275b201dfe71f",
+      "bytes": 51499298
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-25",
+      "status": "verified",
+      "sha256": "177448f25d6c14c41538b3835dd441172260f75c04d8140cd8dea231092257d3",
+      "bytes": 28737284
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-23",
+      "status": "verified",
+      "sha256": "0fceb19ea22aa38160c87bfea4f60ac8d5c21e7f896eae4a167145f130e8220c",
+      "bytes": 62109314
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-27",
+      "status": "verified",
+      "sha256": "5b0ccd94ad0c369b58e98d57586bf59dc02531b0528e28db4cb65aa55d7d0da2",
+      "bytes": 35228873
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-28",
+      "status": "verified",
+      "sha256": "8f3e3dd8135ea8731cbdd1b9c1fd706c3c1ab5e1bca283b94ba452d62a88925a",
+      "bytes": 32891260
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-05-15",
+      "status": "verified",
+      "sha256": "0f6ce9cd08ee99132017f86a0da22b174f3eed8b5d5c0e974d61d24921e978cd",
+      "bytes": 47190326
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-02",
+      "status": "verified",
+      "sha256": "95c3bdaf1816ca1c28c143239ffae7db9ae9bb8733ef9e02d22772d5a1935eb9",
+      "bytes": 16800797
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-05",
+      "status": "verified",
+      "sha256": "a6a9923b2fd5f7feacc08068219641af45dedc6500e904c31c6d5da2851c92c0",
+      "bytes": 17267708
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-06",
+      "status": "verified",
+      "sha256": "86a66f0dee62dbe74a72a3818d07f434ea2424c4d96de1855fdd9580fe99dfc4",
+      "bytes": 15320638
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "3a7f64dfd751fe22ad38e1e58dab819087da57a274d3b9f8e1a705d438cac18f",
+      "bytes": 6591143
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-05-12",
+      "status": "verified",
+      "sha256": "39c45520ee8107ca435977d862a349444f2ebca96609a67d74c2f1006401c158",
+      "bytes": 5245254
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-18",
+      "status": "verified",
+      "sha256": "436738d06eec9c97117f313920137a6393fa32931a9e260afa93aa670f84580d",
+      "bytes": 31287224
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-24",
+      "status": "verified",
+      "sha256": "0e46268e88b9e0c5ac2089edb773b4544dd159061bbaff044ca3a27bcdda8087",
+      "bytes": 22245768
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-01",
+      "status": "verified",
+      "sha256": "16f78881e21c4efe1375a671efb80e4bced990f29d2025535d98c397454490d4",
+      "bytes": 4614040
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-11",
+      "status": "verified",
+      "sha256": "b761e70178d7fca46660d5ad0673e0523053e787e83ba41bda74b3922920b79c",
+      "bytes": 3742141
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-03",
+      "status": "verified",
+      "sha256": "567acd653bf3af0fa0b79c2083abb3fd4ef81ef4a14ce87c68226a50f31f8fc1",
+      "bytes": 6017281
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-18",
+      "status": "verified",
+      "sha256": "732097ea63a9cf569c678dc1db6a24bbe17bf627368ca5b548fcf91216c7be66",
+      "bytes": 3762226
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "ae156913c2e8297b674f911be850cd763a1aad44e3444275cb378cad4327b541",
+      "bytes": 13835405
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-27",
+      "status": "verified",
+      "sha256": "636beeb7e79f8a7c46b98f5bfded60fc28931cd2952d5a0ba33e66554b4ff330",
+      "bytes": 2469050
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-05",
+      "status": "verified",
+      "sha256": "3c126e38327f23982b507f033a12006e38cca050c320141c79f1d64261a6e96a",
+      "bytes": 3041383
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-03",
+      "status": "verified",
+      "sha256": "f5f9828250111054df67e01b84e2016dd750489b1de4c0e5568532228618547f",
+      "bytes": 5374385
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-06-25",
+      "status": "verified",
+      "sha256": "dfb79f62a5e0c69838759e8527e73e4a95f095154eba888161ebe6217f8357ea",
+      "bytes": 5883438
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-13",
+      "status": "verified",
+      "sha256": "a491acc2df03a02cc6a285d7b51b13da8b56548f87a65992e81e2134f49def5e",
+      "bytes": 3564808
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-19",
+      "status": "verified",
+      "sha256": "1db03cd4288c8224c8596e9e87f6835c659f0484da6a924918a2e095c722f8df",
+      "bytes": 2930882
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-01-08",
+      "status": "verified",
+      "sha256": "674f9749578eefcc9a92c19451d1efe492e0e5bcd863ffecd873ead667826e8b",
+      "bytes": 2504640
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-20",
+      "status": "verified",
+      "sha256": "318a94829731905164a17563e14573c6f8cede31561c9da7767c9e5ca26d21fe",
+      "bytes": 4737130
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2026-07-26",
+      "status": "verified",
+      "sha256": "17c3d36f6d1618f40e16d40c44fa2ea4140263120b702494b2139239bfea2f09",
+      "bytes": 7064109
+    },
+    {
+      "contract": "1000PEPEUSDT",
+      "day": "2024-06-12",
+      "status": "verified",
+      "sha256": "c53020a4e9fdcec54509e31eddb5aee1736527315868d2ee46c7c8d5a9a0f982",
+      "bytes": 30618573
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-02",
+      "status": "verified",
+      "sha256": "545f83db3487779a2b371668489cc440cd87fdd81512b6c482529a6ca738abc0",
+      "bytes": 1098607
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-01-31",
+      "status": "verified",
+      "sha256": "b685fc03ee306b9523e5ab0f9ad7bdbce2f14042e4ea31d873656d03a32d2218",
+      "bytes": 1212706
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-01-10",
+      "status": "verified",
+      "sha256": "b87a8dd620bf5dbfc76f29b507dde329faad7cbf53bd1d8bcd73c54c1ecc01bf",
+      "bytes": 2798522
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-09",
+      "status": "verified",
+      "sha256": "eb019343a8f59c3c4765e9566b268e46967fe6f3e8c896f80451c89fa62224d5",
+      "bytes": 1241449
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-16",
+      "status": "verified",
+      "sha256": "3806ee36692d82d0ee52a8f1e7bcced18a9b73644184c549caf3bc4ebdccc629",
+      "bytes": 2639753
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-18",
+      "status": "verified",
+      "sha256": "a2c4af4c11c4a335d278ab8f2660272b676f04179e1a5393aefd3ee31b1864bd",
+      "bytes": 4245095
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-17",
+      "status": "verified",
+      "sha256": "43fa5a628b675920bb0ddc1a3f5a7959f415cb225443d7814754eba0b78841f9",
+      "bytes": 2902375
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-19",
+      "status": "verified",
+      "sha256": "9078d063852981b82c7aff594d3a39c601923e1f9b19bf008556f72d102df07f",
+      "bytes": 5314797
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-20",
+      "status": "verified",
+      "sha256": "6acdd42b96579251a8434b392db945d4ae323f531acb1c47e0d5d818da186c31",
+      "bytes": 7530907
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-24",
+      "status": "verified",
+      "sha256": "4b718aa4de30344bb16f008ee0d82a7d1d9f54c1a7e3fe5e9fb2c81b90758198",
+      "bytes": 3901726
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-21",
+      "status": "verified",
+      "sha256": "04e758abe50bc37dcbc0049a93757d7f51337369ce93510014675f28763c965e",
+      "bytes": 7309320
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-23",
+      "status": "verified",
+      "sha256": "7a3abf5dba3711bea791903a8ade768d9b5d38e725ae6a8ec816ee58be92676e",
+      "bytes": 6766027
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-27",
+      "status": "verified",
+      "sha256": "f19155d033049ae64fe3b762a0fe2bcac4c0fe6301fc9a0826b5da226e0cb401",
+      "bytes": 2686860
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-25",
+      "status": "verified",
+      "sha256": "30ec7fd902ee21ed6ca50ee386103e9e67b9561134eeef39f3d25d30562c5b1f",
+      "bytes": 4078901
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-28",
+      "status": "verified",
+      "sha256": "1dacff8b44c5deae44e391a40df6d7414e5bf0f9b281b1ea4f1094a9eedc883d",
+      "bytes": 10876766
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-02-29",
+      "status": "verified",
+      "sha256": "924230f1fe38651e4b7f93e9b2b4288f46b16577837a5874e2aad6c0f2758164",
+      "bytes": 9441598
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-01",
+      "status": "verified",
+      "sha256": "26fd6106a08fd0554853f22ed9dc01912014925f3d451979f8cee7efa6b79043",
+      "bytes": 12837057
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-02",
+      "status": "verified",
+      "sha256": "123f92af1f8a38f647140eaf7a2e312f8591d73697fbd837c7e49abee6baac10",
+      "bytes": 8224151
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-03",
+      "status": "verified",
+      "sha256": "734393a1b4fca796d0adf0cea221dd98936504867f26cefe7f3d714bbf1aaa02",
+      "bytes": 8859108
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-04",
+      "status": "verified",
+      "sha256": "e56a144594c0cc5fe99ad87768cd40e22708a89e125faf31bc2f6df6059465e9",
+      "bytes": 7356205
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-09",
+      "status": "verified",
+      "sha256": "90270cd5b4d84b645e0299b568dda1bb780a7e401a72ea2aca01f0d4092f8561",
+      "bytes": 15128489
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-08",
+      "status": "verified",
+      "sha256": "529c0d44cb4f699327c294c1f8df0a6a4eaa86c904acbf8aa9f45a7b50c0fe3f",
+      "bytes": 18146825
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-06",
+      "status": "verified",
+      "sha256": "4a22ad6ad42253479ac11111b446891641529e6568ad4b6330c853b170684d23",
+      "bytes": 21308511
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-10",
+      "status": "verified",
+      "sha256": "00632e6f93168dcc94acfe61cc844d40bb80b3928866b51f317fc25c00ee1f91",
+      "bytes": 9341164
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-07",
+      "status": "verified",
+      "sha256": "e2469d362bdebf4c3b01936231696810d313ec1345d77507338204dc81008d85",
+      "bytes": 26710440
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-11",
+      "status": "verified",
+      "sha256": "8d1c02ced292b9bc53dd3707c34ffc0c1e5ec9c3322b9ba727cc8b7be9f1759e",
+      "bytes": 11058872
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-14",
+      "status": "verified",
+      "sha256": "c3ff5bc7f0398d8622e8dda1126ea03ad2d903344a3bca049f55c12a7383113c",
+      "bytes": 14015683
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-18",
+      "status": "verified",
+      "sha256": "ac8a7b4e07871ec6389b85a3d6ce96fc247050c189f38c0b8834c331ffaddc82",
+      "bytes": 10637644
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-15",
+      "status": "verified",
+      "sha256": "7a694cac42976557a6816d81488b44806abcf08870792bb29fdc53d77444dd9b",
+      "bytes": 17506288
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-17",
+      "status": "verified",
+      "sha256": "51a6fa3bb030584af23309ff5d7663667f6f162712fc0e023baf80a231037adf",
+      "bytes": 14066497
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-19",
+      "status": "verified",
+      "sha256": "0189cc59b19108b301fa0fe12c6b4dc976c25ba75376c6546e21584cc93c362d",
+      "bytes": 16467856
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-20",
+      "status": "verified",
+      "sha256": "8dc37cef7f29c6c43dcb29793df2c9183a60808cee0262acf8c6835eac7b1423",
+      "bytes": 14848334
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-28",
+      "status": "verified",
+      "sha256": "df03c604923bb3fb5da2e9714c1b4ab410b5552a40cf4f464ffbcd85afdb99ee",
+      "bytes": 13192580
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-26",
+      "status": "verified",
+      "sha256": "3d976752ec2b8ad50181ea35bc3284d803cafe00596681791bbace486246fc72",
+      "bytes": 10556794
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-31",
+      "status": "verified",
+      "sha256": "a475fc361424a51c18fca9bade18057765d80de205ec8c03e2fa69d5dab578a0",
+      "bytes": 5181966
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-29",
+      "status": "verified",
+      "sha256": "00c36ffe75d6224b940aff59bfaf675baa99ae8d1a4ea74061111eb25a4fbd1c",
+      "bytes": 6463232
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-04",
+      "status": "verified",
+      "sha256": "da5c062fade9f686fefa3350981f4774da6c0f4fc1c9e2cfeedc8a3f6c326d80",
+      "bytes": 6851036
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-20",
+      "status": "verified",
+      "sha256": "0e26f65a1d5ecc7d801437249aa44c70ae8f6862f166af9deae5c1eb90f54ea9",
+      "bytes": 6164929
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-21",
+      "status": "verified",
+      "sha256": "cae2e7820f7e1a2b62cbc346d5eaaddc0605105a40131c173bc606888fa3785f",
+      "bytes": 5595336
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-15",
+      "status": "verified",
+      "sha256": "633c987efbc457a96a4316d47cb4d947742f91e1375b4dabc666a3c1b3a03cc3",
+      "bytes": 10601570
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-03-27",
+      "status": "verified",
+      "sha256": "05c1ca3e947dbeccf6345697b773ca4cfa1f8b851875d7dd910597ca7fb331e5",
+      "bytes": 19623726
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-29",
+      "status": "verified",
+      "sha256": "e0fa782a4f0bcf23fe7d9b391fef09c98bead5022458e21fe48fcff8b1e5a712",
+      "bytes": 4053612
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-04-24",
+      "status": "verified",
+      "sha256": "ff28a4612a563a699ba2d3aac31cbb685efbfffeee46908a75c48235a8f35c70",
+      "bytes": 7036529
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-05",
+      "status": "verified",
+      "sha256": "4d800ab9c60725baf84fc01b6dd117f31707edea83ad32966b8358463cd5ee67",
+      "bytes": 4723182
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-06",
+      "status": "verified",
+      "sha256": "e47c966abe028cf349bfd09f4de2dc00b71e37d7917fe215c4aa2d7fa291cb7f",
+      "bytes": 5938924
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-07",
+      "status": "verified",
+      "sha256": "1b36097b6ee0e44a8839cacc9e74f3bf5d390220fa81bbc270cfad0a9047d4e9",
+      "bytes": 5078510
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-16",
+      "status": "verified",
+      "sha256": "ce514ee9edabdf8c73332664d0aafba091a925f8e6c9efa68762d229c003f2f1",
+      "bytes": 3838420
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-13",
+      "status": "verified",
+      "sha256": "a623581615d3530c14d2b13980b4a8bd3329f9e643e00c806249451cb8b76640",
+      "bytes": 4134019
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-08",
+      "status": "verified",
+      "sha256": "2e7ad4ffa6ad8858082201d4ed68e4059140905895253b4ee138b1cbdb8118d1",
+      "bytes": 4698954
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-17",
+      "status": "verified",
+      "sha256": "967a8fcf44508bfeab6df508508ab26d3407600d5ff92b0331e6a764a669cf45",
+      "bytes": 3567357
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-21",
+      "status": "verified",
+      "sha256": "a4ed8ce2855231204073979c570a8c3c3cc4f8e105e8ff77ec7d93bfe7d544ec",
+      "bytes": 4974638
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-28",
+      "status": "verified",
+      "sha256": "0403cd462184f90136073113da0fd9829a0f54fd0ac7befdd28e79aa5ed9e2b6",
+      "bytes": 2919321
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-29",
+      "status": "verified",
+      "sha256": "16f45d47d84982183b86571ff18dc3d061b0444b6d653fbb8dc095667fab27f4",
+      "bytes": 3638532
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-22",
+      "status": "verified",
+      "sha256": "f345af423d4ddaed59ac9594c88f631372e44cd1c6ec5619062e5455fd717c4b",
+      "bytes": 7455404
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-05-30",
+      "status": "verified",
+      "sha256": "30d22b04101b480a57c1e158bbb1f4186c31f972eef13fafec47777f427b2f0d",
+      "bytes": 3962023
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-12",
+      "status": "verified",
+      "sha256": "65d7b55c88331b2aaedaa3d7d3eaa2471ebc4ad2f4ed5409fe81b6aa7e7e9825",
+      "bytes": 4771499
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-07",
+      "status": "verified",
+      "sha256": "061d553a9083d42f8c64218fa8368fc08303fa2501e72228f5a6fc4066bca5ef",
+      "bytes": 5871885
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-19",
+      "status": "verified",
+      "sha256": "a4b9564cd87d8981179109cfc26f217b1f56cf146109974d0a0d233e40c28a2a",
+      "bytes": 7334660
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-17",
+      "status": "verified",
+      "sha256": "9bc9f28fd04adce024b38286ff5619962524bea7ad8c4dc99b148a705c96a2c2",
+      "bytes": 4815421
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-21",
+      "status": "verified",
+      "sha256": "5b495140dca84c81184547695326445fe0699a0adc60c7d51d09777e12340eec",
+      "bytes": 5378383
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-20",
+      "status": "verified",
+      "sha256": "26d85f3832fb1303c1bae155cc3245457ffd205405d5361e2269c61677069a74",
+      "bytes": 12668408
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-24",
+      "status": "verified",
+      "sha256": "5bb1f662164b118516d316af0b3a72dadcba3b617dda25e5f3bd8299134a4163",
+      "bytes": 8722663
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-25",
+      "status": "verified",
+      "sha256": "177bab85c4ad642f983eee6074f02b481d064d2148c6ca99e1d08b63b393047b",
+      "bytes": 7041195
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-05",
+      "status": "verified",
+      "sha256": "d602e26eb6bfe5e31c62075f43900ef37102d40b6828bc4647bf3625f5f6b68b",
+      "bytes": 717303
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-27",
+      "status": "verified",
+      "sha256": "4012085397394919ba332f06fd6082fe363aed4a8268fc46ae3e21f6dd1b65bb",
+      "bytes": 8049368
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-26",
+      "status": "verified",
+      "sha256": "b7c379a6aa6e9e03751b2dbc30b01e952db1ad308126e5e063c80ba11918a6b0",
+      "bytes": 9401830
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2024-06-28",
+      "status": "verified",
+      "sha256": "f420d2e0ecdc8e340fc3849ef656fc1c991263e919df6fd32d8f4e28e9d330a7",
+      "bytes": 5812344
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-13",
+      "status": "verified",
+      "sha256": "9664ec02fca36f206aa6db9648d89baa03504cbe4b7b5f2ade08975e39d09ee0",
+      "bytes": 676647
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-24",
+      "status": "verified",
+      "sha256": "fd9e7815ecdf15c4362c86f0c748164a6530a601e36ec6041f3a92e31aa927a9",
+      "bytes": 783189
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-23",
+      "status": "verified",
+      "sha256": "7a6630751732f63b263a3035f97b2a5e78bb8799fe20925bfc709529b1e742a6",
+      "bytes": 981261
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-22",
+      "status": "verified",
+      "sha256": "eca47b943b8889c829794b7760d39b39bb663391993a8967afa24274f4c2fee8",
+      "bytes": 1556043
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-25",
+      "status": "verified",
+      "sha256": "1c6090acbe40e4bb55904daf2e3dbfcef4451db8deb7f2d7127e7e78bf972060",
+      "bytes": 954112
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-26",
+      "status": "verified",
+      "sha256": "cde04322935a7264fee214c295b5dc58785288b7c6544bc76a1557bfc1037552",
+      "bytes": 2611452
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-28",
+      "status": "verified",
+      "sha256": "7ec51688e7dcf7415b4876afc3f91b53932b9b63ddb35b542ae165d6dff08d9c",
+      "bytes": 1475618
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-27",
+      "status": "verified",
+      "sha256": "efbcbd48f772cdcc3ba76a026f32fb2adfdbc13f232da50c7d68de3d5f3adabd",
+      "bytes": 1673920
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-29",
+      "status": "verified",
+      "sha256": "e3e886cc33c698de1b2905f8da8f7ab9c82aa1d832ccb1828d7ff9d6b1c32a22",
+      "bytes": 2053834
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-31",
+      "status": "verified",
+      "sha256": "006e7bd923a541b61eda60c70f9cfe238d9888324b4a136a8ae0ad5859cbca8c",
+      "bytes": 2033905
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-05-30",
+      "status": "verified",
+      "sha256": "a07cb565af6e3f136e80c7a0f0a0e88048e8fa766c247e9f047b26128d346587",
+      "bytes": 2517480
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-06-01",
+      "status": "verified",
+      "sha256": "aa07d47602eb71e17b4a9c3f7bc59e5dac01af5665322c46c0b2cbe14016a3c9",
+      "bytes": 2761819
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-06-03",
+      "status": "verified",
+      "sha256": "0a25e4491b0ac11b21f20411f4aa78222c0943122b06173409f98a648d0b5518",
+      "bytes": 2144205
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-07-12",
+      "status": "verified",
+      "sha256": "d0eeed177bca84599391855b0a7b90ad775cbf76890e02fe8d1e621a4a8b4d9e",
+      "bytes": 464289
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-07-25",
+      "status": "verified",
+      "sha256": "4dc3564d984d45db0f80e42039c230a8dd994d994c027cc9fe1e48e3505a9048",
+      "bytes": 490655
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "23697c9403c4c428becb7588650948f8b327320a784562f5b1d895b2181f57ff",
+      "bytes": 2675275
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-07-27",
+      "status": "verified",
+      "sha256": "7e098d57faabd1359fa3557687e252dfb7be4f475e2c824165cb9d461f1c53db",
+      "bytes": 641174
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-07-29",
+      "status": "verified",
+      "sha256": "d4ebf52ed2ed0eb807bd37d165fbf79bfe85b59994951c99a2be6c13ac9ae71f",
+      "bytes": 756684
+    },
+    {
+      "contract": "FETUSDT",
+      "day": "2026-07-30",
+      "status": "verified",
+      "sha256": "5dc9df3f27b3a48f3efcdac61f59d4be3a430b1def435825ab9a4a91083116fd",
+      "bytes": 600348
+    },
+    {
+      "contract": "PAXGUSDT",
+      "day": "2026-06-17",
+      "status": "verified",
+      "sha256": "710f14d96b816043d2e07e058e4d81cd55ec50ba1bba5fa3501736c54579645e",
+      "bytes": 1419779
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-01",
+      "status": "verified",
+      "sha256": "961e813902a0c19162088ec2ed1432ec7eda74467b8dd6c1d2a4c34b2b1ffc43",
+      "bytes": 2156918
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-02",
+      "status": "verified",
+      "sha256": "4eef66419e94bd62c4b4a6fb567b80562fd3045bd5f59244a0eed0f31007d367",
+      "bytes": 4443686
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-05",
+      "status": "verified",
+      "sha256": "67509c6a6c0020f5d2e727b9f70b04e89ab39b6475bb6f60e6ad785f229a4def",
+      "bytes": 4522459
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-03",
+      "status": "verified",
+      "sha256": "fa10bfb66da16546accbfa34124093b89952e9dacacb169153752502b3c46a0a",
+      "bytes": 6957855
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-06",
+      "status": "verified",
+      "sha256": "6cf20c1d93c12b78ea49c0c99869dd04a33ebd39ee33ef33cac017f97727e4e6",
+      "bytes": 5088784
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-08",
+      "status": "verified",
+      "sha256": "ba531116f836c7c403c53e94831335f4cb605894d9c171324d99caa600585632",
+      "bytes": 4630472
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-11",
+      "status": "verified",
+      "sha256": "d27f26e09510395f37fa7bda9dec0000ea6897fec30556d585586dd2311953d7",
+      "bytes": 13388382
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-12",
+      "status": "verified",
+      "sha256": "87af83579bc3428a48cdadfc3b909b24b7b15835a7e83298f69ec1d0e1286c04",
+      "bytes": 17451861
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-15",
+      "status": "verified",
+      "sha256": "48536c2f5ea6101f738cccf2d151e7243a55ac43cb78bb64f40bec33565a31d1",
+      "bytes": 11696646
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-13",
+      "status": "verified",
+      "sha256": "f5abf1309cce8c715d825f81be034db2b81ec8174307bd289b4509a0f341aaae",
+      "bytes": 16660267
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-14",
+      "status": "verified",
+      "sha256": "623aae0016e334258eb1dcdbc24d104d2aa579c9c1df3a8f76827273dcc17ae3",
+      "bytes": 9144290
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-23",
+      "status": "verified",
+      "sha256": "f644deeb33e8008aac3a2cd46440514d627cff3266793123a0fcb5fb41e69061",
+      "bytes": 12370578
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-18",
+      "status": "verified",
+      "sha256": "cc8172da109ded4921bffa5da429bee0aeb79b46b93618e7a698b7703708a3ed",
+      "bytes": 6976526
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-24",
+      "status": "verified",
+      "sha256": "8d48eafce383eac52eb96dd9962dfdae47e15790d28cb76449b327a1728dbe34",
+      "bytes": 8045874
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-25",
+      "status": "verified",
+      "sha256": "6e12765c3005d486217e164a5a18251ff9e0d78c84de291422452089d8e4f5f9",
+      "bytes": 5488380
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-26",
+      "status": "verified",
+      "sha256": "bfdc3bf7211ac7fdff8f7096b7b73cc2cf9b5146c58a1c0ce1dd87bffc6de27f",
+      "bytes": 7889633
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-27",
+      "status": "verified",
+      "sha256": "018cb1a1cb35765d7de3854a27c500eb8f5b0d73fdfb089684768e562dd6e9a3",
+      "bytes": 6645584
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-29",
+      "status": "verified",
+      "sha256": "fa61dc1a2b1d06f6cf89a131937fde92994d9367bdd0af961445177673360a9c",
+      "bytes": 9558260
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-02-01",
+      "status": "verified",
+      "sha256": "95d7cad0ad83b29b1c1a95b908248cc83401b604db6e777358dd21964d6fcf7c",
+      "bytes": 7798650
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-04",
+      "status": "verified",
+      "sha256": "283378570fa1cc0ed2a10a3731d6ad8bda0101fd94e525283e4dff11d423f474",
+      "bytes": 5037995
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-02-29",
+      "status": "verified",
+      "sha256": "c3bca701d5b82f506c62ddebae5b6fa6f0d7c8b617d08b5f60f629fbd602d543",
+      "bytes": 5906314
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-02-09",
+      "status": "verified",
+      "sha256": "42061f763282c4412932463e7b0212f120754609537006f8de8d54b356d2d5b2",
+      "bytes": 7178244
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-01-31",
+      "status": "verified",
+      "sha256": "32cc2cdf4966f86f1bae6d5c646f13f29781253118d60a07b2b634f286f9a8ba",
+      "bytes": 9776055
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-07",
+      "status": "verified",
+      "sha256": "daf42ecbca2879a7470b350a15bedb05ef3f6e426c913a45975a9b890f50d259",
+      "bytes": 4889432
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-09",
+      "status": "verified",
+      "sha256": "af475d50b3c646fd6cb79adea10fa80466475fc99d1cd5e45e74bd98e79399d9",
+      "bytes": 3464034
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-05",
+      "status": "verified",
+      "sha256": "042b83a06538a3b7f421f66340305f664abcf64d883a46cb3dc60465bb59fe48",
+      "bytes": 11141394
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-12",
+      "status": "verified",
+      "sha256": "92f17c2bbc27c1768f853a5a4e2f7885a764f8239a480b35f8809c17eddf7917",
+      "bytes": 5233533
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-17",
+      "status": "verified",
+      "sha256": "fcfab298da6d49017adf672ccf812cc11f2c939b40d005c19889c5df3f1f4e43",
+      "bytes": 5939472
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-18",
+      "status": "verified",
+      "sha256": "300929778a71a14232154c6225c8f3d0e1d8919b4dbe1110bdf29f85ea3156dc",
+      "bytes": 8066194
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-19",
+      "status": "verified",
+      "sha256": "45cbbf5e3c21ddb23d6285545cef85c68fd68ae0ec519c9193a9dd3e2c4b309d",
+      "bytes": 11911866
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-15",
+      "status": "verified",
+      "sha256": "1e73cb08a9dafa290bf5d03bc40e765cf3708d29e5b404c6c92fa071e57a61f8",
+      "bytes": 7088436
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-16",
+      "status": "verified",
+      "sha256": "7a2fa4ddfbd7ace4522dac7b82af709ae7b06036d6d59f2ee1e7923e83f4e457",
+      "bytes": 12262293
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-20",
+      "status": "verified",
+      "sha256": "65d30e6e2d3f1ce5985803b92858cd0d5ded92bd446e2a9653d3c6536b3eeae2",
+      "bytes": 7275949
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-21",
+      "status": "verified",
+      "sha256": "cfa7e7f9a3d1f4420b691c5c62b47ca7f808013b7ffb32e175ccb535d6990d4f",
+      "bytes": 8219407
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-28",
+      "status": "verified",
+      "sha256": "e4527ff040c994cfbae8d884359e964a16b8f05f58de2a004e7b459809429315",
+      "bytes": 6973757
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-04-01",
+      "status": "verified",
+      "sha256": "af5941e9707c9eecb3a34f3c44468e9d804dd4d1c137a8081d2145e8ac48d6e2",
+      "bytes": 7558144
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-05-07",
+      "status": "verified",
+      "sha256": "2b6f3405835572e7dd39b98b88b9e1ab70a0f4640cb1a8d4696148ebf33832d3",
+      "bytes": 2993410
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-04-18",
+      "status": "verified",
+      "sha256": "a65f6d1a3283ebe92ba68aa26dd66ddf2974e3978b5bda6abbf1d42aa4322ecb",
+      "bytes": 5239362
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-04-15",
+      "status": "verified",
+      "sha256": "eb9d369dda4ef37bfe39932e4a7c6de84181e4a7717fbdca3504d324819c9559",
+      "bytes": 5674106
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-05-08",
+      "status": "verified",
+      "sha256": "af87b4856f93c44b21dbd33eaffb84dd595b36a77add4b8a3aff33a9da5ee972",
+      "bytes": 2966705
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-03-27",
+      "status": "verified",
+      "sha256": "5eff8c5a9846a6d1d5cd3397576d5d5cbee39befc412dbd6a5de25714bce5e6f",
+      "bytes": 15319668
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-05-15",
+      "status": "verified",
+      "sha256": "5cfce0c386f4bc47bc78b0604b068017e72ea7c72140da9844efba3070730d8d",
+      "bytes": 2730610
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-05-30",
+      "status": "verified",
+      "sha256": "bc3219dc2d819ec8cf16d4a871ee4b98cd456aa6eb21a150d9f189bf6bcbe927",
+      "bytes": 1496762
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-05-20",
+      "status": "verified",
+      "sha256": "356beaef593828afc30da157653ba36a147f083ccf0c19d120cd89ae2647d3b8",
+      "bytes": 3204316
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-10",
+      "status": "verified",
+      "sha256": "2bf4952adfe64c0fb7a964ab6696822194f205db88406f7cbfb04d1c166ae403",
+      "bytes": 1982337
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-07",
+      "status": "verified",
+      "sha256": "5c6af937cf87939d9ae597ae7e93fc1283b485fea2115a8e5aafe7d89397d5f5",
+      "bytes": 3419608
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-18",
+      "status": "verified",
+      "sha256": "b35c310c646b18b26b6a232e92f868624d92c37ac8d01c47dfb0e95a00fa040e",
+      "bytes": 3544513
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-20",
+      "status": "verified",
+      "sha256": "dd93ab00024417ab5f2433591d7e7e39e9e461ac1f9ce95cfb56ed94f6a1f5a1",
+      "bytes": 2245847
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-21",
+      "status": "verified",
+      "sha256": "d586312f26c7c8430a26f77c8d1fc02455d730d0655aa91bd30f82d9c83dc156",
+      "bytes": 2139304
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2024-06-23",
+      "status": "verified",
+      "sha256": "b13b2b3f852ee3304934ab630def323e0a949a45fca6f2f9da6ced0782ad09f2",
+      "bytes": 1686080
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-08",
+      "status": "verified",
+      "sha256": "66d86fcb4d491efa985dcdd33cac7e93fa40ca0ed3e743f06609ab02c7bf0868",
+      "bytes": 2290654
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-15",
+      "status": "verified",
+      "sha256": "bf342c2c837a45b05eb125f7f3dfbe684615868f15e66ca6749ba4b302eab531",
+      "bytes": 3452928
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-19",
+      "status": "verified",
+      "sha256": "4b7f8bd0156e3f0040b2894bebdef969c1a9a65dd01225b87553921f1689b30c",
+      "bytes": 2702343
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-12",
+      "status": "verified",
+      "sha256": "8767b5046fefc14f9e116a0192f6dc0cb18d62945350d8dd06a8b1d53e9e4a01",
+      "bytes": 5332305
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-10",
+      "status": "verified",
+      "sha256": "e35e25b62f4c2f23f5ed1f399a61a8e16f1d4365aa3e4820dff6a81148246271",
+      "bytes": 15244596
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-26",
+      "status": "verified",
+      "sha256": "978ff3e3d432d91af121a77821b33c7a3718a64e6f13150d7238a9bd39ba2ba7",
+      "bytes": 3067638
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-21",
+      "status": "verified",
+      "sha256": "b14b95975c2cd0d9d8fbfe470b9d80dbab01f258d35c1b19ffbd04f5cfbf2920",
+      "bytes": 5046849
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-05-27",
+      "status": "verified",
+      "sha256": "1e9c8c2f39e4f9f064261aee49757b4e1d2df788b54e05dbbb4914f91a0d20ea",
+      "bytes": 3146388
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "b3b293a8ec4662a97130fa2374cf0c31574b9d5b10fd29e4c6cd6f186c020fbb",
+      "bytes": 3383697
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-06-26",
+      "status": "verified",
+      "sha256": "121c15d7f29f96a43f6667c0fc8b791e2613202d09f27c9849237962451c8f39",
+      "bytes": 2198206
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-06-30",
+      "status": "verified",
+      "sha256": "b469590f205b9d68f84d491d80da5930636f2b69183d477ab7e1b0890c0ea606",
+      "bytes": 1322305
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-07-09",
+      "status": "verified",
+      "sha256": "077505c6f86cb4d020823072ae6c3308cefb9af4556a2fce8077626e985d9fa3",
+      "bytes": 1121444
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-07-05",
+      "status": "verified",
+      "sha256": "7cb0270134dcf9de9ee5a84a643cb784ae4420b9f51a3bfbb8afa1a705a4c15e",
+      "bytes": 1249897
+    },
+    {
+      "contract": "SUIUSDT",
+      "day": "2026-07-31",
+      "status": "verified",
+      "sha256": "88e233b618cc034ed0eb2133770ad6ec60186c9fcef70b2ebd830a456792cf90",
+      "bytes": 1247221
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-08",
+      "status": "verified",
+      "sha256": "0b2922a1313f1a25be8fc314f7215c8ae17b2d5c61588205ade26680467f8373",
+      "bytes": 3597096
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-13",
+      "status": "verified",
+      "sha256": "d072ed3c86179c5614f6f385d9ae79dfe1163129610b77ec021b95be42a3f1ce",
+      "bytes": 2512320
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-16",
+      "status": "verified",
+      "sha256": "70f5a9107c5b5952b49a57a6d97afdf1b870add90d0a668120378a4a66430476",
+      "bytes": 2512218
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-20",
+      "status": "verified",
+      "sha256": "59c68e8ccb95a5a7696293545c9bbf7d45619a4d29890a416152e78eeba03eee",
+      "bytes": 2887158
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-22",
+      "status": "verified",
+      "sha256": "5c957ae6021c44c8976f834842c6a5c602ad11f71b38eac72e957c046f69d746",
+      "bytes": 3962056
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-25",
+      "status": "verified",
+      "sha256": "e4de87bdedfed539451a033a0ece3f7491aee9a0a884e14d52f5c9038e892c39",
+      "bytes": 1330772
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-15",
+      "status": "verified",
+      "sha256": "c36470dd29ed5a2ee081af9a118c16879d803b2fa7558befd719c68149278680",
+      "bytes": 3358993
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-23",
+      "status": "verified",
+      "sha256": "090c69a83abe44e3625ef2ce44d3488b9004f7ddb69bee5a001981264a4164b6",
+      "bytes": 5458249
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-05-27",
+      "status": "verified",
+      "sha256": "a395a3bd2fa0da5483e6cbc3f052897d7722fdfc0f481b56ef390bb4173ce521",
+      "bytes": 1716665
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-06-08",
+      "status": "verified",
+      "sha256": "1949405a59493fa5309cf53c7c05b62a39757778f625f0080b73c921cdcb911e",
+      "bytes": 1816096
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-06-14",
+      "status": "verified",
+      "sha256": "d6129a768af526a9c1e423acad14b6f815c0ccc6db461f6b166102b8de04021c",
+      "bytes": 2675369
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-06-12",
+      "status": "verified",
+      "sha256": "aebcab2beb301ec6196ff2df99d1194f7284f34a99a6184d6de794db67dacd21",
+      "bytes": 3113671
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-06-18",
+      "status": "verified",
+      "sha256": "a42ff522272629d1370db076fbe570aaeb2eeb6af8e4505271e5410b6d4b2f33",
+      "bytes": 4958092
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2024-06-20",
+      "status": "verified",
+      "sha256": "d53ec25e000a27e20a2d1e3db687e2f01b410c4308e59add5bd887b2871b8a40",
+      "bytes": 2655481
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-05-01",
+      "status": "verified",
+      "sha256": "4ee29d6b256981d61c6773bd80ee735115e9c59cc0d28179847d003035a0a45b",
+      "bytes": 4369264
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-05-16",
+      "status": "verified",
+      "sha256": "656276e6fb0792df954bde5869de79ceda3b1ab93062c7585f8ed97ad0edf32c",
+      "bytes": 2595022
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-05-21",
+      "status": "verified",
+      "sha256": "5a56e89a31be27f0189afeef9933bcbf82fa1ec203040a1b0129aebb2c1d7fba",
+      "bytes": 4645452
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-05-26",
+      "status": "verified",
+      "sha256": "b6d6f7eb22c1c380c7f4a317cf3ca754b5884c00df32a4592e96face66b44d46",
+      "bytes": 6738216
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-05-07",
+      "status": "verified",
+      "sha256": "36ea87433cc21759ba338800638bc1bc04e04332f68d2021b921f8936bbae515",
+      "bytes": 5179882
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-01",
+      "status": "verified",
+      "sha256": "d6cefbc1ee3a24c52f47faa8be6f786f19deb47ca6ea28ccde9d9660108ca914",
+      "bytes": 4818153
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "946d69e85d60337aed09dcfcf6974d4990895ace5b7bfa90c939a9e971ec31c7",
+      "bytes": 8941072
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-07",
+      "status": "verified",
+      "sha256": "6a0fb976f221cd28a3ef27090b6f195c70022b4baa2b53db538352f887279da9",
+      "bytes": 5453320
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-14",
+      "status": "verified",
+      "sha256": "57b5fe644ec6ba3c71c449f44cbc8513a534d9f1a72f92b6caf4a5b70c15d69f",
+      "bytes": 11769673
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-16",
+      "status": "verified",
+      "sha256": "52d48da8a162bac2b50da8194191f4f9f7fe3068dfa972b067f99b4093c4c447",
+      "bytes": 5687454
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-20",
+      "status": "verified",
+      "sha256": "bfae4cdec8f2ec8ea1b411b0cd665234741be08ab553162e98856d7be7860f8a",
+      "bytes": 3571327
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-29",
+      "status": "verified",
+      "sha256": "32f2b7464f689c303c48815d39a078dbcc578a6ddefe9e32e85172b0f6c39ad3",
+      "bytes": 3046546
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-17",
+      "status": "verified",
+      "sha256": "d484e302b8eea700ecb4bfabe196dbd099c8941279eff8c414bd309fa261e1bd",
+      "bytes": 5415030
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-07-26",
+      "status": "verified",
+      "sha256": "2b3fe33d9dafb481e2a7e0ba0655dd74f13782e9da655a79d090b3fe4b89e9b9",
+      "bytes": 2010048
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-07-13",
+      "status": "verified",
+      "sha256": "26aeb061569c4547d78fd7a05500d670cb48e1b5a1b817366a8538fb420460b9",
+      "bytes": 2772172
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-06-13",
+      "status": "verified",
+      "sha256": "0fb12b265acb85f2c0446d35ffc909014398868e338d5b0a9072b7604b4dd4e5",
+      "bytes": 13972493
+    },
+    {
+      "contract": "TAOUSDT",
+      "day": "2026-07-29",
+      "status": "verified",
+      "sha256": "b9d3a5d0b39a88725292acfece196df056d81314f3a36f3a98d672af93187f20",
+      "bytes": 2536733
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-01-15",
+      "status": "verified",
+      "sha256": "b9af02a9f84965567df6f620428197a3ddb4ba920ca17e3c20275b73e750c695",
+      "bytes": 1232921
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-01-13",
+      "status": "verified",
+      "sha256": "e9095a73448f4d85324f3a18335274c4ed27f7b03ca3cba469cc7d43f4a89ce0",
+      "bytes": 2669153
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-03-19",
+      "status": "verified",
+      "sha256": "f59fdb552912b25e69a25bdd771e7faa8b37b897e50a6e0a1a1305a7f4874621",
+      "bytes": 2423307
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-04-13",
+      "status": "verified",
+      "sha256": "6691c5fa5f592ef2020993099c7aa65340d319527961ce9dd3f16debb6fcea6b",
+      "bytes": 2359197
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-04-18",
+      "status": "verified",
+      "sha256": "ff49100b2fe12d579ca3c78970b7b5bbf45b53953f26602a694d61a904b78873",
+      "bytes": 961088
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-04-15",
+      "status": "verified",
+      "sha256": "79599885c135421ca16d814a40ec9bab5ae4aebd5e8c9c54bb54e0cfcd623844",
+      "bytes": 1384978
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-01-05",
+      "status": "verified",
+      "sha256": "1e62d3c8bdc84347f0540e34b171feac9a92bdefbdd6736034579670d23e1de0",
+      "bytes": 691739
+    },
+    {
+      "contract": "TRXUSDT",
+      "day": "2024-05-06",
+      "status": "verified",
+      "sha256": "3fe38e5e90be0822a4c3b40c5b272132c4e64b012d6f80c260f6f60ff5da5057",
+      "bytes": 853127
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-01-12",
+      "status": "verified",
+      "sha256": "5b308d2d9463d01a2b1ce36a2ae917cec0fe1551b3d888f748e1497933a65414",
+      "bytes": 1050740
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-01-11",
+      "status": "verified",
+      "sha256": "9d202db5e1ea7aaa414da752666d55913f1eb4e8088aeae77992250f84598dbc",
+      "bytes": 1222361
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-02-23",
+      "status": "verified",
+      "sha256": "33b69a45835cd486b00e3bb41e1786f1016edddd328cfd2ec30ac97e3f492d83",
+      "bytes": 861548
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-03-07",
+      "status": "verified",
+      "sha256": "c7fb00edbe4da704c5771595a1573a615f2d814a1d8ab53b9d213c816b8db655",
+      "bytes": 1056318
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-02-24",
+      "status": "verified",
+      "sha256": "ac5c174fe21fa74366007f2d0bf2b1afa317f3e66d74fbb55473d1af35d82061",
+      "bytes": 511207
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-03-04",
+      "status": "verified",
+      "sha256": "da25a90de9569074eeefb222cf1f73a5916946e734a38d30e119bee2532358a9",
+      "bytes": 1223033
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-03-13",
+      "status": "verified",
+      "sha256": "a704ee6a1e7a38481ce331fdb317fb27af2ca919699449ed77c822902f585a61",
+      "bytes": 995584
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2024-04-15",
+      "status": "verified",
+      "sha256": "3bb8971be8b44986781d87811a08e3c4cf236aa4ab0e7ffc8c341af76a000ab5",
+      "bytes": 673337
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-01",
+      "status": "verified",
+      "sha256": "5dc3eee50013c5cf9d1acd4121a66bd5d6df8df0e23e668df23477ac507168ba",
+      "bytes": 9793216
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-04",
+      "status": "verified",
+      "sha256": "7a8c0e7981797b98eed6f075b6f6d76edc60ed86a1839e1d0c32d43dab1f2cbb",
+      "bytes": 13892844
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-05",
+      "status": "verified",
+      "sha256": "4f5c7417442240df0805f1c37fe111fe22ea77dbffa7e90204991bbec12ade66",
+      "bytes": 20570970
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-06",
+      "status": "verified",
+      "sha256": "787ad9b5f6d6049cf70253ddf05465873980a6afe9ad9b126569d4a7ccd8604c",
+      "bytes": 35164188
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-08",
+      "status": "verified",
+      "sha256": "93e1106917d85b1960e7615e0e09ac118188f529b2877c76770a6aede7760f33",
+      "bytes": 18634976
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-21",
+      "status": "verified",
+      "sha256": "8730b874f92d93365f5228da6e985dfae3783e015b23c210b7c93e06bccaba98",
+      "bytes": 15678450
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-22",
+      "status": "verified",
+      "sha256": "7c66b713e1833d78c14c12ad400c965a4dc1dbcdf450c731d18364cbe9d82547",
+      "bytes": 14510651
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-20",
+      "status": "verified",
+      "sha256": "2eebd5044a9fb790820303f19b68d823df3be0fc0145512a08f0fee3ec92ee23",
+      "bytes": 23430527
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-27",
+      "status": "verified",
+      "sha256": "7fe4244039bd5a2930dcf62840558d3d909f1278ff8daaf428e108e456b8feb9",
+      "bytes": 13638010
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-29",
+      "status": "verified",
+      "sha256": "f7bfbd734a84e3dfcefa023cc042c1c0f344db343ebff8e2384bac99c948ddf0",
+      "bytes": 14262103
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-05-24",
+      "status": "verified",
+      "sha256": "8893925e9bd74bd68e9031984a2c3e8ae8c9fb535e89a56d18012f1924fa187c",
+      "bytes": 17826090
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-01",
+      "status": "verified",
+      "sha256": "69ea0d2c413fc39bd4f8660610fcb81b9665a64004cd332c651c9f2b881ac079",
+      "bytes": 17351340
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-02",
+      "status": "verified",
+      "sha256": "cd1fec7ab847c448d9a408dd95ed5d65eb861afcb79b31605706891fd44536bb",
+      "bytes": 31930175
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-06",
+      "status": "verified",
+      "sha256": "425bce1884789c18d8b153ec3383e702867bc10b4a6eaafd65e4e4b6876f4b25",
+      "bytes": 45450740
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-03",
+      "status": "verified",
+      "sha256": "7011d94ea8c8efbbb7e0a8cd8bd99eaba9c9ee7803ad687b84562ac522c43038",
+      "bytes": 30682450
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-04",
+      "status": "verified",
+      "sha256": "b4b9389164d84d80e2e0a23a8695870cb843e6859030f14416ef39aec4011449",
+      "bytes": 40531837
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-14",
+      "status": "verified",
+      "sha256": "dbda802cd582db68ec07e4d0010bb688de21d501ca3b2e4a81bce695e81de8d6",
+      "bytes": 10993820
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-09",
+      "status": "verified",
+      "sha256": "96223ebce80c9cb0bd7aa254ae51725eee21e2e7102b42de2485afb0e1499e28",
+      "bytes": 25972975
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-08",
+      "status": "verified",
+      "sha256": "59c0de2a818a3e8341fc5136acac4999d8bdb63011440647ec5e7f9b29fef0dc",
+      "bytes": 24781116
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-26",
+      "status": "verified",
+      "sha256": "34724f9db76398dbe286a9308cf9845cd1296a7da637cd9da646a460c674b51d",
+      "bytes": 12997547
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-17",
+      "status": "verified",
+      "sha256": "7965897230c29c0ceec67dccaeb6d159ae46bd9d9b9675710491e2ec298dbb8f",
+      "bytes": 15255558
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-07-03",
+      "status": "verified",
+      "sha256": "e75e555b2e8696092d76436c801ab99ca4a13af34fbce2f616e1301401a16f4e",
+      "bytes": 9901160
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-07-07",
+      "status": "verified",
+      "sha256": "3c811abb041bd21820788b03a24502444f576bb6f9cf0bcd891c5df7e5830585",
+      "bytes": 12622340
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-07-10",
+      "status": "verified",
+      "sha256": "4a34f688458c155cc33841ea2a3ebba8af8fc2600671453f94f18d8f2c55da9c",
+      "bytes": 10081444
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-07-13",
+      "status": "verified",
+      "sha256": "e0a1b8958ada9f37cd7a784bd0a826a9dd6f543ecb44048c19476423417feb78",
+      "bytes": 10253892
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-07-14",
+      "status": "verified",
+      "sha256": "542df531749524ea25059356fb6cb8902df2d0cce38d73516303d26323b5230c",
+      "bytes": 12122479
+    },
+    {
+      "contract": "ZECUSDT",
+      "day": "2026-06-05",
+      "status": "verified",
+      "sha256": "62dd34b5172cfe8cca7b3a223c122d8b0d6527b10bc102d0f2426f6c2fdbaa85",
+      "bytes": 121873430
+    }
+  ]
+}

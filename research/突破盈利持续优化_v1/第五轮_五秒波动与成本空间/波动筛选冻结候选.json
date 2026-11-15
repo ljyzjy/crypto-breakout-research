@@ -1,0 +1,25 @@
+{
+  "selected": "vol_room_2r",
+  "target_r": 2.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "vol_room_2r",
+    "target_r": 2.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 185,
+    "h1_2024_net": -52.33588726590597,
+    "h1_2024_win_rate": 32.432432432432435,
+    "may_jul_2026_trades": 50,
+    "may_jul_2026_net": -20.015665511365455,
+    "may_jul_2026_win_rate": 34.0,
+    "pooled_trades": 235,
+    "pooled_win_rate": 32.765957446808514,
+    "pooled_profit_factor": 0.713639983975204,
+    "minimum_period_net": -52.33588726590597,
+    "sum_period_net": -72.35155277727142
+  },
+  "plan_sha256": "65c424c1dcd5ad30d739dc2dddcdc03bd8657d9140c3e0e39be53606b0a9d672",
+  "training_sha256": "636c4787b46a5e481992be8745a313a8828bd4f632527d48f7dffb82441e0fa5",
+  "note": "Predeclared thresholds; 5s public-trade reference, subsequent exit only minute-level."
+}

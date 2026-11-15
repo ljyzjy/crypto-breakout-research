@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 261,
+  "risk_settlements_checked": 261,
+  "source_sha256": "af0c5103479a904f426838074543164d6cb0347086d2b9015144fdeede14067b",
+  "ledger_sha256": "99a23386144fbaad99a15aa0c67fb2d2d8f6a7c967106d2906caf78860c3e826",
+  "code_sha256": "99ac7b00dd9c6955dea21cd4b91778922b831814df6a9c76d39f245febaf791f",
+  "logic_sha256": "168791625ff121b557a926416c597539db74f8bd96d6ec8e23d24e91272ab607",
+  "note": "Independent chunk parser and scalar mark/funding checks; source caches remain proxies."
+}

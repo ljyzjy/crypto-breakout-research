@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "year": "2024",
+  "audited_one_second_paths": 93,
+  "matched_risk_archives": 64,
+  "maximum_net_fraction_error": 0.0,
+  "note": "Paired known unit opportunities; no actual fills, shared account, or achievable latency established."
+}

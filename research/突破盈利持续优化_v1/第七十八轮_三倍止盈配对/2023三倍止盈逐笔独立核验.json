@@ -1,0 +1,30 @@
+{
+  "all_checks_pass": true,
+  "year": "2023",
+  "samples": [
+    {
+      "observation_id": "touch|ADAUSDT|1676279760000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": -1
+    },
+    {
+      "observation_id": "touch|LTCUSDT|1678646040000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": 1
+    },
+    {
+      "observation_id": "touch|LINKUSDT|1677254520000",
+      "variant": "one_observation_2r_10x",
+      "reason": "quarter_time",
+      "side": -1
+    }
+  ],
+  "eligible_paths": 98,
+  "reused_paths": 88,
+  "replay_fingerprint": "102d0706ba76c262504edf585860f1f799014381c9835fd1cc743de77020e72a",
+  "source_snapshot_sha256": "7fe91c9d3d45715ace5319e97fdc6cb0653e42f31dc7c29b2225e13a64fd8e86",
+  "audit_code_sha256": "b005ce689a36e74ad5ac8c11e90c820f1e64f0c90ca40eb6433eccac5b5a6154",
+  "note": "Scalar public-tape replay; actual fills remain unverified."
+}

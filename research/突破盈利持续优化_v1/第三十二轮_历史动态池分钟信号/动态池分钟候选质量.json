@@ -1,0 +1,33 @@
+{
+  "symbol_year_tasks": 104,
+  "archive_status": {
+    "verified": 563,
+    "checksum_404": 36
+  },
+  "hours": 6552,
+  "hours_all_20_features_available": 4229,
+  "hours_excluded_for_pool_coverage": 2323,
+  "strict_top3_rank_rows": 11749,
+  "pre_rank_candidates": 11042,
+  "potential_touches_after_rank": 1081,
+  "candidate_year_counts": {
+    "2024": 988,
+    "2026": 93
+  },
+  "candidate_cohorts": {
+    "opening": 759,
+    "touch": 322
+  },
+  "counts": {
+    "raw_first_touch_minutes": 298053,
+    "cooled_out": 131676,
+    "outside_pool": 101421,
+    "late_day": 6124,
+    "missing_prior": 34031,
+    "body_trend_stop_rejected": 13759,
+    "pre_rank_candidates": 11042
+  },
+  "plan_sha256": "c2c9629f93f7e45fe9e3d371cc6c40db1912365c03e2c0d3cb18e5edff179635",
+  "daily_rank_sha256": "f56d1ce0da4fec865f97d159e492131bfe5ce7be031faede21b2a082b4665bcf",
+  "note": "Potential touch only. Tick direction, five-second flow, costs, risk, fills and shared-account performance not yet established."
+}

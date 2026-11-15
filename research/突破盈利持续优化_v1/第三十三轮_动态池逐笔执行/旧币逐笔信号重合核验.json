@@ -1,0 +1,7 @@
+{
+  "checkpoint_tasks": 751,
+  "overlap_signals": 322,
+  "compared_previous_20x_paths": 244,
+  "max_relative_signal_error": 0.0,
+  "note": "Completed checkpoints only; agreement does not validate new symbols, exchange fills or performance."
+}

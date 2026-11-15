@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "group_calculations_checked": 16,
+  "detail_rows_checked": 132,
+  "result_sha256": "ffad5e64bcc9d552c93853384ee14b2f5c6d3882a027ac57489ca7c7bd9b0e80",
+  "audit_code_sha256": "de3c53a0578de624845701431f102faac921c1021bd286a595a72f161c924e62",
+  "note": "Paired descriptive decomposition, not an independent test or causal estimate."
+}

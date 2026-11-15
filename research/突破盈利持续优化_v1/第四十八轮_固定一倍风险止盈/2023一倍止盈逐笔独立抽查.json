@@ -1,0 +1,71 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "opening|NEARUSDT|1698493500000",
+      "origin": "original",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-10-28",
+          "sha256": "ca04c4a8c2577904a6a93572703a6dfd0b28071468a0d60e132c264bee4fa339",
+          "bytes": 495902,
+          "windows": {
+            "opening|NEARUSDT|1698493500000": 572
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1686855600000",
+      "origin": "retest",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-06-15",
+          "sha256": "05ac424a864308b2badde4aa1d385452c157afbeb712f05201b900a636dbc0c0",
+          "bytes": 504462,
+          "windows": {
+            "opening|NEARUSDT|1686855600000": 1036
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1675792800000",
+      "origin": "original",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-07",
+          "sha256": "8ec78cd618dcf4182fd782390dba88790d825dd4375184e7684e349c414b8fd8",
+          "bytes": 1474205,
+          "windows": {
+            "opening|ADAUSDT|1675792800000": 4852
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|NEARUSDT|1699248600000",
+      "origin": "retest",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-11-06",
+          "sha256": "1d3e7591c20ef5644da112468380a02c6a12e317decdeaf18f51a987ffce0677",
+          "bytes": 1009368,
+          "windows": {
+            "opening|NEARUSDT|1699248600000": 854
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 8,
+  "note": "Independent scalar first-touch replay; smaller SHA-verified source archives prioritized within entry-origin and exit-reason coverage."
+}

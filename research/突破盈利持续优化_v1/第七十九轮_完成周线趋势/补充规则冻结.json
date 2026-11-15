@@ -1,0 +1,7 @@
+{
+  "frozen_utc": "2026-11-14T19:09:37.506653+00:00",
+  "original_plan_sha256": "04d823e3c336867ce6a02db732d23a377ab7ba944420b71e08defb3aa0b4f7db",
+  "original_freeze_sha256": "9d228efe4cdee8ba0c64c076fad4c0acc1752c6ce557150bab8927e05f9aea33",
+  "amendment_sha256": "dbc28976319e55c9bbf3208271fc08050b0234efa20fbff9559004e54e5ec88e",
+  "note": "Data-source gap handling frozen before any weekly-gate outcome evaluation."
+}

@@ -1,0 +1,9 @@
+{
+  "structural_signal_features_checked": 251,
+  "accounts_checked": 24,
+  "trade_records_checked": 2155,
+  "funding_settlements_recorded": 54,
+  "max_ledger_error_usdt": 1.2789769243681803e-12,
+  "max_drawdown_error_pct_points": 0.0,
+  "limit": "Funding, marks, and execution depend on the same public archives and modeled minute-level fills."
+}

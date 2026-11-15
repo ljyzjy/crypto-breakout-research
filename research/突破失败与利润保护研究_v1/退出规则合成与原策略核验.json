@@ -1,0 +1,9 @@
+{
+  "original_2r_parity": true,
+  "parity_trades": 86,
+  "complete_five_minute_required": true,
+  "lock_one_minute_delay": true,
+  "locked_stop_gap_may_lose": true,
+  "failed_close_one_minute_delay": true,
+  "prior_stop_precedes_scheduled_failure_exit": true
+}

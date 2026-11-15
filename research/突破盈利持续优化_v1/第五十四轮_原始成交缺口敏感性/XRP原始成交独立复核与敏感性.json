@@ -1,0 +1,84 @@
+{
+  "all_checks_pass": true,
+  "observation_id": "opening|XRPUSDT|1712564100000",
+  "archives": [
+    {
+      "kind": "klines",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/1m/XRPUSDT-1m-2024-04-08.zip",
+      "bytes": 55845,
+      "sha256": "fc4f3a842dac6e891245bd33390615715078b1f15bb5fe25f231606c6d1a3af7"
+    },
+    {
+      "kind": "aggTrades",
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/XRPUSDT/XRPUSDT-aggTrades-2024-04-08.zip",
+      "bytes": 2966415,
+      "sha256": "9858763acbf3dff8fecd9c968da8df42e42241c0fccd80fccdb0733594442804"
+    },
+    {
+      "kind": "trades",
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/XRPUSDT/XRPUSDT-trades-2024-04-08.zip",
+      "bytes": 11391569,
+      "sha256": "32ae16cad2e313c32f9ebd884b3d7288205eb5ae7facec354f78430adeee1875"
+    }
+  ],
+  "original_candidate_sha256": "f7d68bd2963d4d1df1a38865d4d86e8fa3b22c37404070a983d8f17b12d3b311",
+  "prior_record_sha256": "7423880e87dbe358c6889ee88208870d14b6f552c64463af2afa89d4c9f03e4e",
+  "plan_sha256": "5721da0346bee63d412ad836adebde6645828ae2313a9cb822ae8d6ebfce0031",
+  "audit_code_sha256": "2420e2ac58ae603fd1247a5c4e879b3f0d15e22790491d4cd8da7dd3e9ed0bdd",
+  "kline_ohlc": [
+    "0.6062",
+    "0.6075",
+    "0.6060",
+    "0.6060"
+  ],
+  "raw_ohlc": [
+    "0.6062",
+    "0.6075",
+    "0.606",
+    "0.606"
+  ],
+  "aggregate_ohlc": [
+    "0.6061",
+    "0.6075",
+    "0.606",
+    "0.606"
+  ],
+  "kline_count": 5738,
+  "raw_count": 5738,
+  "kline_volume": "4185845.7",
+  "raw_volume": "4185845.7",
+  "kline_quote_volume": "2539187.72697",
+  "raw_quote_volume": "2539187.72697",
+  "first_cross": [
+    1712564100737,
+    "0.6063"
+  ],
+  "five_second_reference": [
+    1712564106005,
+    "0.6064"
+  ],
+  "aggregate_flow": [
+    "62237.19550",
+    "118393.11800"
+  ],
+  "raw_flow": [
+    "62237.19550",
+    "118393.11800"
+  ],
+  "raw_window_trade_count": 454,
+  "aggregate_window_trade_count": 62,
+  "imbalance": -0.3108886953241101,
+  "first_order": "no_order_flow_filter",
+  "retry": "ineligible_reference_outside_boundary",
+  "prior_fixed11_liquidity_rank": 5,
+  "older_liquidity_rank": 7,
+  "sensitivity_20x": {
+    "verified_events": 46,
+    "verified_wins": 18,
+    "old_unknown": 16,
+    "new_unknown": 15,
+    "old_optimistic_win_rate_pct": 54.83870967741935,
+    "new_optimistic_win_rate_pct": 54.09836065573771
+  },
+  "note": "Post-hoc single-event data repair sensitivity; same exchange sources, not an independent venue or new strategy."
+}

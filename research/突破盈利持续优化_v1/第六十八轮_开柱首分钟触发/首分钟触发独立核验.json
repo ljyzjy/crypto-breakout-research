@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "groups_checked": 90,
+  "path_scenario_instances_checked": 1630,
+  "direct_boundary_checks": [
+    "00.000 included",
+    "59.999 included",
+    "60.000 excluded",
+    "next quarter included"
+  ],
+  "result_sha256": "cd5534b1396c40e27df42d3111fbba5b084f34ca5569de0ce02779f11572bdf0",
+  "note": "Independent selection, mean and retrospective big-bar cross-check on existing small snapshots; not a raw tape replay or account backtest."
+}

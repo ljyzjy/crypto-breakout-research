@@ -1,0 +1,9 @@
+{
+  "training_feature_rows": 211,
+  "prediction_rows": 63,
+  "accounts_checked": 8,
+  "trade_records_checked": 48,
+  "partial_exits_checked": 10,
+  "refit_matches_frozen_model": true,
+  "checks": "training labels known by cutoff, prior-minute volume, causal 5-second features, predictions, account and fees"
+}

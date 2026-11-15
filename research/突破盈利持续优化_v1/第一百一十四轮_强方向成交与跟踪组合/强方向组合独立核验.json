@@ -1,0 +1,24 @@
+{
+  "all_checks_pass": true,
+  "candidate_paths_checked": 359,
+  "groups_checked": 72,
+  "combined": [
+    {
+      "leverage": 10,
+      "trades": 133,
+      "wins": 44,
+      "win_rate_pct": 33.08270676691729,
+      "mean_net_pct_notional": -0.1931612020562681
+    },
+    {
+      "leverage": 20,
+      "trades": 129,
+      "wins": 43,
+      "win_rate_pct": 33.33333333333333,
+      "mean_net_pct_notional": -0.215910389674327
+    }
+  ],
+  "result_sha256": "5f0da1818c4cf4cdd838aebbac924b4ba50c5b35ba3dcab1addb9d0b8d3191dd",
+  "code_sha256": "c4c40f66057774730d8db6d90713a1620494e876535e10aa7d0d5a7c7e5f35a5",
+  "note": "Independent inequality, timestamps, source-path joins and vectorized net arithmetic."
+}

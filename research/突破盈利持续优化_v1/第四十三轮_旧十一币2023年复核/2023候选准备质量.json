@@ -1,0 +1,115 @@
+{
+  "symbols": 11,
+  "calendar_days": 365,
+  "days_all_11_liquidity_histories": 365,
+  "possible_hours": 8760,
+  "rankable_hours": 5461,
+  "potential_first_touch_minutes_before_hour_and_dual_filters": 4022,
+  "raw_events_by_cohort": {
+    "opening": 2434,
+    "touch": 1588
+  },
+  "counters": {
+    "BTCUSDT": {
+      "raw_first_touch_minutes": 6504,
+      "cooled_out": 2676,
+      "outside_pool": 0,
+      "late_day": 406,
+      "missing_prior": 2061,
+      "body_trend_stop_rejected": 1205,
+      "pre_rank_candidates": 156
+    },
+    "ETHUSDT": {
+      "raw_first_touch_minutes": 6474,
+      "cooled_out": 2578,
+      "outside_pool": 0,
+      "late_day": 417,
+      "missing_prior": 2049,
+      "body_trend_stop_rejected": 1208,
+      "pre_rank_candidates": 222
+    },
+    "SOLUSDT": {
+      "raw_first_touch_minutes": 6941,
+      "cooled_out": 2900,
+      "outside_pool": 0,
+      "late_day": 428,
+      "missing_prior": 2189,
+      "body_trend_stop_rejected": 779,
+      "pre_rank_candidates": 645
+    },
+    "XRPUSDT": {
+      "raw_first_touch_minutes": 6576,
+      "cooled_out": 2752,
+      "outside_pool": 0,
+      "late_day": 362,
+      "missing_prior": 2162,
+      "body_trend_stop_rejected": 1014,
+      "pre_rank_candidates": 286
+    },
+    "DOGEUSDT": {
+      "raw_first_touch_minutes": 6783,
+      "cooled_out": 2840,
+      "outside_pool": 0,
+      "late_day": 382,
+      "missing_prior": 2205,
+      "body_trend_stop_rejected": 981,
+      "pre_rank_candidates": 375
+    },
+    "BNBUSDT": {
+      "raw_first_touch_minutes": 7720,
+      "cooled_out": 3284,
+      "outside_pool": 0,
+      "late_day": 420,
+      "missing_prior": 2283,
+      "body_trend_stop_rejected": 1575,
+      "pre_rank_candidates": 158
+    },
+    "ADAUSDT": {
+      "raw_first_touch_minutes": 7404,
+      "cooled_out": 3184,
+      "outside_pool": 0,
+      "late_day": 415,
+      "missing_prior": 2209,
+      "body_trend_stop_rejected": 1216,
+      "pre_rank_candidates": 380
+    },
+    "LINKUSDT": {
+      "raw_first_touch_minutes": 7795,
+      "cooled_out": 3457,
+      "outside_pool": 0,
+      "late_day": 427,
+      "missing_prior": 2319,
+      "body_trend_stop_rejected": 1146,
+      "pre_rank_candidates": 446
+    },
+    "AVAXUSDT": {
+      "raw_first_touch_minutes": 7719,
+      "cooled_out": 3350,
+      "outside_pool": 0,
+      "late_day": 430,
+      "missing_prior": 2302,
+      "body_trend_stop_rejected": 1166,
+      "pre_rank_candidates": 471
+    },
+    "LTCUSDT": {
+      "raw_first_touch_minutes": 7001,
+      "cooled_out": 3006,
+      "outside_pool": 0,
+      "late_day": 396,
+      "missing_prior": 2156,
+      "body_trend_stop_rejected": 1113,
+      "pre_rank_candidates": 330
+    },
+    "NEARUSDT": {
+      "raw_first_touch_minutes": 6668,
+      "cooled_out": 2908,
+      "outside_pool": 0,
+      "late_day": 353,
+      "missing_prior": 2092,
+      "body_trend_stop_rejected": 762,
+      "pre_rank_candidates": 553
+    }
+  },
+  "source_fp": "409e2329d2aac9fd3bdc8259a6cfd45ceca1a08eb194a2372cdc10b4bd759c4c",
+  "note": "Minute OHLC localizes potential touch only; tick data and BTC/ETH prior-bar filter still required."
+}

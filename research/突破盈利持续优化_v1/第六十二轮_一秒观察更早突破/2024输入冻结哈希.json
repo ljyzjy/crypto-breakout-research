@@ -1,0 +1,30 @@
+{
+  "year": "2024",
+  "plan_sha256": "b001446b1b80cf3910d5234f51ca43ce70139efa40ad022a478d314ca93fb867",
+  "decision_code_sha256": "b078c4c5fde549de96fca6280b6ed65068dfc3d7b60aa2570c8e2f65d555d33e",
+  "input_sha256": {
+    "candidates.parquet": "f7d68bd2963d4d1df1a38865d4d86e8fa3b22c37404070a983d8f17b12d3b311",
+    "baseline_signal.parquet": "434036aa2ec428c13822fc67db0b2b42194031b4ca3ffb5e0fc293c9f5a918f2",
+    "baseline_paths.parquet": "e77545628df4b4d7df413ee4c1039fabbfcff9784b9ab2f2bacd783a01e4722c",
+    "baseline_ledger.parquet": "61b420c0fb1040328fa19e0d4783ab3ed08f89338ac260b99f688fbdb8ec4c8e",
+    "baseline_quality.json": "018f45a58ff7b2a172e3c73d38c00acacf4197fd983bbc859263cd7954891438",
+    "baseline_audit.json": "346f96680c3c193c51e4dbeb3497ea96ceec3c301e4b154912984c7a2126ac6d",
+    "minute_sources.json": "a4e35bcf1b50b65c02e4920887a42a28b2e0e9f06fe2a3e33ff7a14de9e06fe1",
+    "provenance.json": "b4584c1b386379c8efe47e5c0c9325a0ab0b08b11dbc037ebb94932ca5998a43",
+    "execution.json": "7e2957bcc31a078d0aeac7a09007d3d8d003c6f8bbbc4cbcbf518d5bc2a2face",
+    "baseline_summary.json": "9e6a64636fc6b3b7291911cb010a1619d9c0f625fd292907f1a5b46155c7af74"
+  },
+  "source_paths": {
+    "candidates.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\逐笔冻结输入\\2024_candidates.parquet",
+    "baseline_signal.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_signal.parquet",
+    "baseline_paths.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_paths.parquet",
+    "baseline_ledger.parquet": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_ledger.parquet",
+    "baseline_quality.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\2024_quality.json",
+    "baseline_audit.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\baseline_audit.json",
+    "minute_sources.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\minute_sources.json",
+    "provenance.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\跨期冻结输入\\provenance.json",
+    "execution.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十六轮_固定十一加密币跨时段\\逐笔冻结输入\\old_execution_plan.json",
+    "baseline_summary.json": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第四十七轮_一次重新突破确认\\单次重试跨期单位对照.json"
+  },
+  "note": "All candidate events preserved; original unknowns stay unknown. No post-close labels included in the signal inputs."
+}

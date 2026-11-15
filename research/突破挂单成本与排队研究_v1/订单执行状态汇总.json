@@ -1,0 +1,43 @@
+{
+  "eligible_before_trade_tape": 83,
+  "common_plan_status_counts": {
+    "ready": 46,
+    "reference_stop_cost": 21,
+    "reference_deviation": 16
+  },
+  "order_status_counts": {
+    "limit_q0_1r": {
+      "filled": 44,
+      "unfilled_expired": 2
+    },
+    "limit_q0_2r": {
+      "filled": 44,
+      "unfilled_expired": 2
+    },
+    "limit_q100_1r": {
+      "filled": 43,
+      "unfilled_expired": 3
+    },
+    "limit_q100_2r": {
+      "filled": 43,
+      "unfilled_expired": 3
+    },
+    "limit_q10_1r": {
+      "filled": 44,
+      "unfilled_expired": 2
+    },
+    "limit_q10_2r": {
+      "filled": 44,
+      "unfilled_expired": 2
+    },
+    "market_1r": {
+      "filled": 42,
+      "not_submitted_entry_deviation": 4
+    },
+    "market_2r": {
+      "filled": 42,
+      "not_submitted_entry_deviation": 4
+    }
+  },
+  "interpretation": "Independent matched opportunities, not a simultaneous account. Limit results are conditional on unverified Post-Only acceptance and assumed queue."
+}

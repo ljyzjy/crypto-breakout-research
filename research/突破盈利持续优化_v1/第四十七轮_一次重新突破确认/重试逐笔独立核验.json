@@ -1,0 +1,71 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "opening|BTCUSDT|1677151800000",
+      "status": "qualified",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-02-23",
+          "sha256": "4f915a9101fb217c5a6fa398319f62cbc9ec5e4af6c6cd7a89f1d0066afdbe9b",
+          "bytes": 21086284,
+          "windows": {
+            "opening|BTCUSDT|1677151800000": 86132
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ADAUSDT|1704670200000",
+      "status": "qualified",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-01-07",
+          "sha256": "a1dd553aa8ee6971882f371bf02dc7f9991735fd8d9a209336d40ed5a37b7263",
+          "bytes": 2995850,
+          "windows": {
+            "opening|ADAUSDT|1704670200000": 3656
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|DOGEUSDT|1783290000000",
+      "status": "qualified",
+      "paths_checked": 2,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-05",
+          "sha256": "4a7c6f2107cbbe50a96a820d59f54a34dc52486ffe20e639dd601eede973a165",
+          "bytes": 1713390,
+          "windows": {
+            "touch|DOGEUSDT|1783290000000": 1841
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|AVAXUSDT|1678668300000",
+      "status": "no_retest_known",
+      "paths_checked": 0,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2023-03-13",
+          "sha256": "5bf45c48841cb77c58d19e5fc73e775075b73d594dfa92be3238a5033b4158b9",
+          "bytes": 3248280,
+          "windows": {
+            "opening|AVAXUSDT|1678668300000": 7418
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 6,
+  "note": "Independent one-retest and delayed execution reconstruction using verified public prints."
+}

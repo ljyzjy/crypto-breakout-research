@@ -1,0 +1,6 @@
+{
+  "long_short": true,
+  "completed_minute_known_then_full_minute_delay": true,
+  "stop_priority": true,
+  "disabled_control_parity": true
+}

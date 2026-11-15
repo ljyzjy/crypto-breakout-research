@@ -1,0 +1,8 @@
+{
+  "signal_feature_rows": 781,
+  "accounts_checked": 22,
+  "trade_records_checked": 1308,
+  "partial_exits_checked": 319,
+  "training_selection_reproduced": true,
+  "scope": "Known-before-trigger flow, 5s reference, delayed partial exits, cost/ledger and drawdown."
+}

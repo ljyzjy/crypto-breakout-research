@@ -1,0 +1,9 @@
+{
+  "training_labels": 470,
+  "training_feature_records_rebuilt": 470,
+  "single_trade_labels_replayed": 6,
+  "predictions_independently_recomputed": 346,
+  "zero_trade_accounts_checked": 20,
+  "training_exit_cutoff_respected": true,
+  "limit": "Same historical market source and account engine; training-label replay is a sample, not an external execution validation."
+}

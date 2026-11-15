@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "2bfef20a10e1d1d63812e147c0be827291b9425ecf4aadf88cce8f3a978f8e7a",
+  "frozen_utc": "2026-11-14T21:16:00.133812+00:00",
+  "source_paths": {
+    "2022_plan": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\冻结研究方案.md",
+    "2022_frozen": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\冻结时点.json",
+    "2022_candidate_quality": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\二零二二候选准备质量.json",
+    "2022_replay_code": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\outputs\\突破盈利持续优化_v1\\第九十轮_二零二二公开行情\\replay_2022.py"
+  },
+  "source_sha256": {
+    "2022_plan": "c6cd3b8ca519605d0cbf06d6004e7445cc2c833f8143befb1dbdebdd6bfd1e15",
+    "2022_frozen": "573452bca925b87139bd9a75c19876ad83b1b297e76011fd1653b16cfaabb3ab",
+    "2022_candidate_quality": "8c938cf2a1c5abd485e3886f1b9339b3911f4c79aa4840a45a63834d3832fcb0",
+    "2022_replay_code": "b163a1cf45c637a2fe33eb5ac9151c9ff671a54ac844efa8fc06ba41c73b5af1"
+  },
+  "2022_pnl_viewed_before_freeze": false,
+  "note": "Deterministic selected samples; raw and aggregate disagreement stays unknown."
+}

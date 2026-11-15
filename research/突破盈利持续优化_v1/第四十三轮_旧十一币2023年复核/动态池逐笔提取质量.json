@@ -1,0 +1,1927 @@
+{
+  "candidate_events": 146,
+  "daily_tasks": 135,
+  "event_statuses": {
+    "archive_error": 143,
+    "known_risk_rejected": 2,
+    "flow_filter_not_met": 1
+  },
+  "unexpected_event_count": 143,
+  "variant_paths": 0,
+  "unverified_path_count": 0,
+  "archive_errors": [
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-01-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-01-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-01-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-01-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-01-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-01-25",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-01-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-02",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-05",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-02-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-02-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-23",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-02-25",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-03-11",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-03-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-18",
+      "needs_next": true,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-03-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-04-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-04",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-04-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-04-26",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-04-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-04-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-05-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-05-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-05-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-05-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-06-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-06-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-06-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-06-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-07-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-07-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-08-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-11-02",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-11-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-12-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-23",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-12-26",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-01-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    }
+  ],
+  "archives": [
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-01-04",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-04",
+          "sha256": "227ae9ab7b547a5abf46e81913f927572495de6c3d00bafd3efd95bbc85a8831",
+          "bytes": 50192
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-04",
+          "sha256": "9efa53077327139c02bc559dd1539a31f11f558ec13d1b32a8e0782defc89608",
+          "bytes": 1432253
+        }
+      ]
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-01-05",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-05",
+          "sha256": "7992835fb140f096a4d8a66411e71a6306f07326c614f78abeb0d4ce35dfd89b",
+          "bytes": 47246
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-05",
+          "sha256": "38dd8f70445af938e4c3bd67c0ecf8eeb6445fb3ef7e58f4fbcc561a8fa673c5",
+          "bytes": 1857017
+        }
+      ]
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-06",
+      "needs_next": false,
+      "status": "verified",
+      "archives": [
+        {
+          "kind": "klines",
+          "day": "2023-01-06",
+          "sha256": "89e5334ceada36c8cee7366b3031c99802c37de20b10c335e2a1273acf70f3a4",
+          "bytes": 46761
+        },
+        {
+          "kind": "aggTrades",
+          "day": "2023-01-06",
+          "sha256": "eddd86e32f1021b068083f68b408b73df9aa45bad145d31d5d6e37615d8444cd",
+          "bytes": 1207564
+        }
+      ]
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-01-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-01-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-01-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-01-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-01-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-01-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-01-25",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-01-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-01",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-02",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-05",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-02-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-02-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-02-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-02-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-02-23",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-02-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-02-25",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-03-11",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-03-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-03-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-03-18",
+      "needs_next": true,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-03-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-03-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-03-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-03-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-04-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-04",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "DOGEUSDT",
+      "day": "2023-04-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-04-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-04-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-04-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-04-24",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-04-26",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-04-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-04-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-05-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-05-08",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-05-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-05-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-06-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-06-09",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-06-15",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-06-20",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-06-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-06-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-06-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-06-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-07-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-07-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-07-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-08-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-10-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-11-02",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-03",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-11-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-11-07",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-11-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-11-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-11-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-06",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-10",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-12",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-13",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ADAUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "AVAXUSDT",
+      "day": "2023-12-14",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-17",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-18",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-12-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-19",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LINKUSDT",
+      "day": "2023-12-21",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-22",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "LTCUSDT",
+      "day": "2023-12-23",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "XRPUSDT",
+      "day": "2023-12-26",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-27",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BNBUSDT",
+      "day": "2023-12-28",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "ETHUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "NEARUSDT",
+      "day": "2023-12-29",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "SOLUSDT",
+      "day": "2023-12-30",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    },
+    {
+      "contract": "BTCUSDT",
+      "day": "2023-01-16",
+      "needs_next": false,
+      "status": "error",
+      "error": "RuntimeError:disk_reserve"
+    }
+  ],
+  "plan_sha256": "5708b819f1939424b285906975846bff85a399a531d3385cd41ef07a4a11e2ae",
+  "candidate_sha256": "f6df1ce8385b2d8d9a075726c6b7da0946b01a94cec1a0281277260fbae273e5",
+  "note": "Unknown archives, daily/monthly disagreements, trade discrepancies and market missingness remain explicit."
+}

@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "archives_checked": 6,
+  "source_rows_checked": 305,
+  "manifest_sha256": "4f004d4f31a37fe9008e4142d061d49ab82ccbdb130caf766196a7c976442dc8",
+  "audit_sha256": "d121d9c5160f113bb080d7654f05b3ead8bb3b87412fd730e7c0860ea3f46ae4",
+  "note": "Independent ZIP CSV extraction; checksum requests came from verifier and use the same exchange source."
+}

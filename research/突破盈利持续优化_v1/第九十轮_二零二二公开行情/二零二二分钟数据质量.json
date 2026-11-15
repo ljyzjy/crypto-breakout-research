@@ -1,0 +1,978 @@
+{
+  "source_manifest_sha256": "576b931894b5a95a765caf2616020ad575fdfd35fedc59fda9e7c5db07ba4dc2",
+  "normalized": [
+    {
+      "symbol": "BTCUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BTCUSDT_klines.parquet",
+      "sha256": "ce445883bcfe5de2570a8b2be179032874e7ec9102cfd93a5d4e83896d56fccb",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "ETHUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ETHUSDT_klines.parquet",
+      "sha256": "dd7f94a8b8eeac91616b4c4e9e91757ac130aad6d277993f221d9081edde0e45",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "SOLUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\SOLUSDT_klines.parquet",
+      "sha256": "0782065f2810beae29fb2d120ae3135fca5017baccc1fd1aa47fcdedbff39f5e",
+      "rows": 563040,
+      "missing_minutes": 7200,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "XRPUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\XRPUSDT_klines.parquet",
+      "sha256": "20583d93f686d6f3e7971a5f43e073b57b8a88d90ad72ef28772acd56a47933a",
+      "rows": 563040,
+      "missing_minutes": 7200,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\DOGEUSDT_klines.parquet",
+      "sha256": "a9a63fc4c079a0929152d705a93397a1ef600164d2d04904b937c834e7191ebe",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "BNBUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\BNBUSDT_klines.parquet",
+      "sha256": "17b5260d07386e0255071fbdc96782fa9326e24f6f94f9cabfe0139661e0ee04",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "ADAUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\ADAUSDT_klines.parquet",
+      "sha256": "194c123b1b2fc1b2ba8c493b4a06d66c67f04f44069962ea10039dc99f9aeb94",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "LINKUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\LINKUSDT_klines.parquet",
+      "sha256": "e21a14567838ffac04b684a12fde3573d2184d9fc1d5af02a610a0e77d793207",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\AVAXUSDT_klines.parquet",
+      "sha256": "aacef1298ab47570b98d8fd5d8b34f377fd97ab21a207019a8f49e910084831c",
+      "rows": 570240,
+      "missing_minutes": 0,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 40320,
+          "expected_minutes": 40320,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "LTCUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\LTCUSDT_klines.parquet",
+      "sha256": "dc5b916db1e0877f6a47a310def84c435b29935348cb7637622cf862fa8cc0c1",
+      "rows": 563040,
+      "missing_minutes": 7200,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    },
+    {
+      "symbol": "NEARUSDT",
+      "status": "verified",
+      "path": "D:\\CodexResearch_2022_firstsec_20261115_v1\\normalized\\NEARUSDT_klines.parquet",
+      "sha256": "bb8e4585ab2bb892e5b9a03ce54be49449f7c9c53da64c74bce17f747682cff6",
+      "rows": 563040,
+      "missing_minutes": 7200,
+      "months": [
+        {
+          "month": "2021-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-01",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-02",
+          "rows": 36000,
+          "expected_minutes": 40320,
+          "missing_minutes": 4320
+        },
+        {
+          "month": "2022-03",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-04",
+          "rows": 40320,
+          "expected_minutes": 43200,
+          "missing_minutes": 2880
+        },
+        {
+          "month": "2022-05",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-06",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-07",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-08",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-09",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-10",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-11",
+          "rows": 43200,
+          "expected_minutes": 43200,
+          "missing_minutes": 0
+        },
+        {
+          "month": "2022-12",
+          "rows": 44640,
+          "expected_minutes": 44640,
+          "missing_minutes": 0
+        }
+      ]
+    }
+  ],
+  "all_symbols_verified": true,
+  "total_missing_minutes": 28800,
+  "frozen_sha256": "573452bca925b87139bd9a75c19876ad83b1b297e76011fd1653b16cfaabb3ab",
+  "code_sha256": "5b4e73665051d475454eb88549e135ee8fc0864b8e61562d50e94c985e303341",
+  "note": "Missing minutes are not interpolated; candidate and rank audits are still outstanding."
+}

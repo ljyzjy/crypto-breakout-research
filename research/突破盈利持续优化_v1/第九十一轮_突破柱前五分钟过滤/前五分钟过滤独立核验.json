@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 920,
+  "groups_checked": 864,
+  "result_sha256": "edc10d01da205cd10276e04ccd4ebe6a3a58ec7f0af5d81d1b28acc30e438481",
+  "detail_sha256": "35e80c7b391476e2bbb624a6ba760376f54413148ce759b5f4f2386442958360",
+  "code_sha256": "77be064c69e239709c45601ea285f6f92aae2626b42fc7f59f5a016098952bf9",
+  "note": "Checks time gate, source paths and arithmetic; unknown candidates and 2022 unrankable hours stay unresolved."
+}

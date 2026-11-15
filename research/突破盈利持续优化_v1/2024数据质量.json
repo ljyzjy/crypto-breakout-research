@@ -1,0 +1,98 @@
+{
+  "contracts": 11,
+  "archives_verified": 407,
+  "archives_expected": 407,
+  "records": 407,
+  "incomplete_minute_records": [
+    {
+      "contract": "BTCUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "ETHUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "SOLUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "XRPUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "DOGEUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "BNBUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "ADAUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "LINKUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "AVAXUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "LTCUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    },
+    {
+      "contract": "NEARUSDT",
+      "kind": "markPriceKlines",
+      "month": "2024-08",
+      "rows": 44638,
+      "expected_minutes": 44640,
+      "missing_minutes": 2
+    }
+  ],
+  "source": "Binance public archives with verified SHA256",
+  "note": "No missing-price imputation; contract universe was selected from the later 2026 pool."
+}

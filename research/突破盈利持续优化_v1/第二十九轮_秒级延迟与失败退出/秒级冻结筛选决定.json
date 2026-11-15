@@ -1,0 +1,21 @@
+{
+  "selected": "fast_2r",
+  "training_screen_passed": false,
+  "training_metrics": {
+    "variant": "fast_2r",
+    "events": 220,
+    "net_wins": 23,
+    "net_win_rate_pct": 10.454545454545453,
+    "sum_net_per_unit_notional": -0.40074232778024893,
+    "average_net_pct_notional": -0.1821556035364768,
+    "profit_factor": 0.3365439686442463,
+    "liq_proxy_events": 0,
+    "filled_beyond_risk_budget": 18
+  },
+  "complete": true,
+  "plan_sha256": "c9f005d80881d46e2ee0a708523e1fbc1f5c2c5020ac734200cf45f904061b1b",
+  "train_sha256": "1be46cf6487f5b9737a61e023f8000da7d835361c273faabe7feab226005450d",
+  "source_sha256": "8a16da447f2b4fc78e9d951acb928ee16613a914886a3e12bac8a9c41a21f8de",
+  "training_clock_embargo": "Only events with quarter_end + 60 seconds <= 2024-05-01 00:00 UTC are used; applied before outcomes equally to all four variants.",
+  "note": "Unit-notional opportunity paths; not a shared-account trading result."
+}

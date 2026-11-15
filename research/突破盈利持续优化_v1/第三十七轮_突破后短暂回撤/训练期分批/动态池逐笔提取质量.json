@@ -1,0 +1,17 @@
+{
+  "candidate_events": 680,
+  "pullback_candidates": 62,
+  "source_checkpoint_tasks": 60,
+  "event_statuses": {
+    "flow_filter_not_met": 377,
+    "no_follow_known": 167,
+    "qualified": 62,
+    "upstream_data_unknown": 50,
+    "known_risk_rejected": 24
+  },
+  "unexpected_event_count": 50,
+  "variant_paths": 240,
+  "unverified_path_count": 0,
+  "archive_errors": [],
+  "note": "Training-only snapshot; pending pullback archives and upstream source mismatches remain unknown."
+}

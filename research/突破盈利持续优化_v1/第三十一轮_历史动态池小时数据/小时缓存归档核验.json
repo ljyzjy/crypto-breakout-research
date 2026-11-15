@@ -1,0 +1,10 @@
+{
+  "original_files": 563,
+  "original_bytes": 80204252,
+  "archive_bytes": 14838493,
+  "archive_sha256": "f467db42033300400b084bdcb1ac31af0334e1344f03705bd674a58edee7eaf0",
+  "archive": "C:\\Users\\WIN11\\Documents\\Codex\\2026-11-13\\c-users-win11-documents-codex-2026\\work\\point_in_time_universe31\\hourly_checkpoints_verified.zip",
+  "each_checkpoint_verified_before_removal": true,
+  "disk_free_bytes": 2066583552,
+  "note": "Only completed research-generated checkpoint duplicates were archived; raw data outputs and other user files were not modified."
+}

@@ -1,0 +1,8 @@
+{
+  "backup_training": true,
+  "strictly_resolved_events_checked": 8,
+  "resolved_variant_paths_checked": 2,
+  "original_mismatch_flags_preserved": true,
+  "original_aggregate_and_kline_sha_match": true,
+  "note": "Checks retained reconciliations and source hashes; unresolved events remain unknown."
+}

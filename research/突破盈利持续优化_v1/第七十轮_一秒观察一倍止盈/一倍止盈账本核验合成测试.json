@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "verified_prior_path_matches": true,
+  "tampered_return_rejected": true,
+  "audit_code_sha256": "21149a50300250096874303f2956cb4c915eeccea22c475fe71e95578134fc6f",
+  "settlement_code_sha256": "714ccfd22e55d3d800fc982379105a0d876e846bc5f93d44c05ec3fec3d76382",
+  "test_code_sha256": "34d46d92f26bef1b7d074525a465262dd75818bb445911ccaddb850d3946576b",
+  "note": "The test reuses an old verified 2R path; it is not an observed 1R result."
+}

@@ -1,0 +1,6 @@
+{
+  "short_complete_five_minute_required": true,
+  "short_lock_one_minute_delay": true,
+  "short_gap_can_lose": true,
+  "short_failed_breakout_exit_one_minute_delay": true
+}

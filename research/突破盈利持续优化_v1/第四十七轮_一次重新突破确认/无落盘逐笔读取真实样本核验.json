@@ -1,0 +1,38 @@
+{
+  "all_checks_pass": true,
+  "samples": [
+    {
+      "observation_id": "opening|ADAUSDT|1708362000000",
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2024-02-19",
+          "sha256": "0b7128d0ddd216e2360cfa25b455dab5c35c78a8119f223e675097ced279a350",
+          "bytes": 2187027,
+          "windows": {
+            "opening|ADAUSDT|1708362000000": 2904
+          }
+        }
+      ]
+    },
+    {
+      "observation_id": "touch|BNBUSDT|1782999240000",
+      "paths_checked": 4,
+      "archives": [
+        {
+          "kind": "aggTrades",
+          "day": "2026-07-02",
+          "sha256": "91744c0658ecff4063ab1096064f7f97eedc079ca0859f52ae8e0f8289f88b11",
+          "bytes": 3752567,
+          "windows": {
+            "touch|BNBUSDT|1782999240000": 9208
+          }
+        }
+      ]
+    }
+  ],
+  "paths_checked": 8,
+  "stream_code_sha256": "a6f31492ba2dd1705533d34d7eadbf8de45f5f4878ab13449395d3c7ea716632",
+  "note": "Checks public aggregated trades only; no actual market order fills reconstructed."
+}

@@ -1,0 +1,25 @@
+{
+  "selected": "second_1r",
+  "target_r": 1.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "second_1r",
+    "target_r": 1.0,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 259,
+    "h1_2024_net": -80.19350904198893,
+    "h1_2024_win_rate": 46.71814671814672,
+    "may_jul_2026_trades": 97,
+    "may_jul_2026_net": -35.33553493360887,
+    "may_jul_2026_win_rate": 48.45360824742268,
+    "pooled_trades": 356,
+    "pooled_win_rate": 47.19101123595506,
+    "pooled_profit_factor": 0.5142582820321541,
+    "minimum_period_net": -80.19350904198893,
+    "sum_period_net": -115.5290439755978
+  },
+  "plan_sha256": "e0c3bcb44560176e8670c0cb3805388d0a6ca5c094b32cdbfa4e6c4c1a11ea3a",
+  "training_sha256": "f0acdd83fb9391e89fc86f00b6f694202bb59185c36d11bcb65c89332f063ebc",
+  "note": "The 5s entry price is a public trade plus assumed slippage; subsequent exits remain minute-level."
+}

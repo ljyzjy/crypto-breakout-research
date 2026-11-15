@@ -1,0 +1,22 @@
+{
+  "all_checks_pass": true,
+  "cases": [
+    {
+      "year": 2024,
+      "contract": "BTCUSDT",
+      "start": "2023-12-01",
+      "end": "2024-02-01",
+      "hours_checked": 1488,
+      "candidate_events_checked": 24
+    },
+    {
+      "year": 2026,
+      "contract": "NEARUSDT",
+      "start": "2026-04-01",
+      "end": "2026-06-01",
+      "hours_checked": 1464,
+      "candidate_events_checked": 73
+    }
+  ],
+  "note": "Hourly rows, causal candidate IDs and all candidate fields match full-array algorithm on two fixed real-data slices."
+}

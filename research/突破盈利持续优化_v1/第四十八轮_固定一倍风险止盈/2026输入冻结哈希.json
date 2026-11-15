@@ -1,0 +1,21 @@
+{
+  "year": "2026",
+  "plan_sha256": "7c3486f1c76e752f92077df26b7e0ff4374639be5196193f3d970faf95723ccd",
+  "inputs": {
+    "baseline_signal.parquet": "2240ab7e39c47af0c56689205fc5dd76c4dc03a0210f44e91a2551b01ae09c96",
+    "baseline_paths.parquet": "bddf79bef80c45756d3ba0289bf1c3b5ff42de983ad91c745338c8d65f7f1eb5",
+    "baseline_ledger.parquet": "1f1e91271c34e7fd30b41bc8f4694852ed64dfead1efe4db12dafe0a23479579",
+    "provenance.json": "b4584c1b386379c8efe47e5c0c9325a0ab0b08b11dbc037ebb94932ca5998a43",
+    "retry_signal.parquet": "8023aa0fe9c17129c9df94b5d35fe9c2676801623740fd7f58665c9387061db3",
+    "retry_paths.parquet": "16190fdd1689ade6c926489623f875a26e652ffa2eb03fc2fa2415c7ec6b0def",
+    "retry_ledger.parquet": "4a16aaecc370cbc000dbe44de30957543f48937b406310790b326950407b555b",
+    "retry_quality.json": "a8636a547358b34b43a3daad0464f9c082f00b639c14ae9cb6ae9422fe20521e",
+    "retry_audit.json": "300d003d4aa858e2b2fb27317df168da13664a7690d34a983216be3354b1a96d",
+    "retry_plan.md": "0f73ad30b230a84a830068bcc46eedaea7ef4e763b0fa060095e485568b1beca",
+    "qualified_entries.parquet": "a6c71d06836f8723b4f45e01b6d2e98d1db7665d760b706128007a4b384bae7e",
+    "reference_2r_paths.parquet": "9727062094735d313b190a37ae4ac45d03e31fd33dcc0ea0d858e4aae426fb19"
+  },
+  "events": 14,
+  "reference_paths": 28,
+  "note": "Entry qualification is causal; previous outcome files are used to verify paired entries and compare exits, not to select events."
+}

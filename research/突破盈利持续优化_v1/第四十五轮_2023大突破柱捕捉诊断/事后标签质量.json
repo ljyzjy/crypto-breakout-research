@@ -1,0 +1,9 @@
+{
+  "candidate_count": 146,
+  "label_statuses": {
+    "verified": 146
+  },
+  "unknown_reasons": {},
+  "label_sha256": "090d51a5eeeeca043346ad6c544b9f91872862060023b17dbc5bdf040c148c4b",
+  "note": "Close-based labels are descriptive and were not known at entry."
+}

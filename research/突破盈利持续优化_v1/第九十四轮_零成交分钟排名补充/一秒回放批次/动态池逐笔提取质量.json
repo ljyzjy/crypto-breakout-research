@@ -1,0 +1,12 @@
+{
+  "candidate_events": 0,
+  "event_statuses": {},
+  "unexpected_event_count": 0,
+  "variant_paths": 0,
+  "path_statuses": {},
+  "archive_errors": [],
+  "archives": [],
+  "fingerprint": "972538f6a536d97ab389697502695d968ed6e1a2c9548516ee6b8e380a426b18",
+  "code_sha256": "755673eacf32fbcf8e18447775d541b7f156cb0bb327c65b3681f1a219be406f",
+  "note": "Alternative-rank candidates only; raw decisions are not settled risk paths."
+}

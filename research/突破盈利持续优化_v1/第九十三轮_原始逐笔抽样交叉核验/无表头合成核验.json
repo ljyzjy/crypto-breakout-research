@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "raw_and_aggregate_records": [
+    6,
+    4
+  ],
+  "independent_parsers_agree": true,
+  "aggregate_count_differs_but_notional_matches": true,
+  "code_sha256": "6985846f03d55efb38be6c18f72e9e3a7ffc4103fd357ea1e2a0794cb79857cc",
+  "raw_parser_sha256": "a15e88db535fba37c5d133a168486ea796ec5c190187118182d0101d0eeb87f4",
+  "independent_parser_sha256": "8d597af935e8853b585ff356208abb507429895633b50110cc514b4d40bd32c8"
+}

@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-11-14T18:19:13.453061+00:00",
+  "plan_sha256": "f07c5f6056d45f87b3fa5c517ae6d45dfbba8646dc4753739f8f33a1de0deb27",
+  "base_snapshots": {
+    "2024": "34a8be4e22c0b59fc7ca882d4d7735677bda99625a570aca6de86fb186ad3f8c",
+    "2026": "79fe72ced80f4a782010d1bd67ab0e530b3f02ff1e51e60c44130d99e7c8d3f8"
+  },
+  "oi_snapshots": {
+    "2024": "756486e3c39837a36d1db5f59cef9616f5d6cb4f82860cb04e1d7a929cd7fac6",
+    "2026": "f8f84a9390a7db06e0b358f424a2f00aab432e5952e67257a266c12b5e684399"
+  },
+  "prior_2023_plan_sha256": "9f16c5de002538cfbc349b9dbd4551e578a9fb97b2b1e70e9a352fcee5c5159f",
+  "2023_checkpoints_present": 15,
+  "note": "The 0.50 threshold fixed before 2023 one-second outcomes; 2023 was otherwise previously researched."
+}

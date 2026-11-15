@@ -1,0 +1,10 @@
+{
+  "all_checks_pass": true,
+  "labels_checked": 231,
+  "verified_labels": 231,
+  "late_daily_archives_redownloaded": 3,
+  "source_sha256": "60e14b19b4c0f49573ef3ae72c257a354c39ef88323dd22ccde38a5861ae12f4",
+  "label_sha256": "8f27d56fd24aacb5bf807dad2d23c540b5b7b629144355a30e87a33265b810a7",
+  "code_sha256": "b94401387ca5173b6566e850b87659cfd3071736f1b952046cf38a1c8e06c648",
+  "note": "Completed candle labels only; future bar information is never a current entry input."
+}

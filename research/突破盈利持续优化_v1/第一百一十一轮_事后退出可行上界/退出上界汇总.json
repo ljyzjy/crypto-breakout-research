@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "leverage": 10,
+      "original_trade_paths": 133,
+      "known_zero_funding_paths": 133,
+      "known_future_aware_wins": 77,
+      "known_future_aware_win_rate": "0.5789473684210526315789473684210526315789",
+      "mean_future_aware_notional_return": "0.005005487626275222175692919189160249854390",
+      "mean_original_notional_return_same_known_paths": "-0.002652564912006985374172932330827067669173",
+      "new_unknown_statuses": {},
+      "original_unknown_candidates": 2,
+      "all_unknown_assumed_wins": 2,
+      "potential_fixed_entry_paths": 135,
+      "maximum_possible_wins_if_unknown_win": 79,
+      "upper_win_rate_with_at_least_100_trades": "0.79",
+      "max_trade_count_strictly_over_60pct": 131
+    },
+    {
+      "leverage": 20,
+      "original_trade_paths": 128,
+      "known_zero_funding_paths": 128,
+      "known_future_aware_wins": 74,
+      "known_future_aware_win_rate": "0.578125",
+      "mean_future_aware_notional_return": "0.004290185951584838148927710415429754256757",
+      "mean_original_notional_return_same_known_paths": "-0.0028602945108068159466015625",
+      "new_unknown_statuses": {},
+      "original_unknown_candidates": 2,
+      "all_unknown_assumed_wins": 2,
+      "potential_fixed_entry_paths": 130,
+      "maximum_possible_wins_if_unknown_win": 76,
+      "upper_win_rate_with_at_least_100_trades": "0.76",
+      "max_trade_count_strictly_over_60pct": 126
+    }
+  ],
+  "raw_detail_sha256": "55ae1073ee57fe48affa86d508bec25b6adf4dd9f24126c84546abf0c6c24a37",
+  "independent_audit_sha256": "5aa77de272ca481005b4834134a7803a3c7060c0ecfe549940f824adfe87076d",
+  "code_sha256": "eb18e9bd66c4e5f86e504f53499f6794e20e67ffee80c370ab9ece853f3e1db8",
+  "scope": "Fixed 2022 listed entries, one stop and quarter horizon, 5s exit delay; original ranking has 240 unknown hours.",
+  "note": "Perfect hindsight, unknowns assumed winners, ignoring liquidation and shared capital: not a tradable result."
+}

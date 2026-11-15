@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "samples_fixed": 6,
+  "samples_checked": 6,
+  "unresolved_samples": [],
+  "sample_paths_checked": 40,
+  "paths_sha256": "f37cd32d243c96e3673f18491eacde96315ce50880c906edf0454e555128500f",
+  "sample_freeze_sha256": "762f65c026e7e0fa01a5ffef0c4c3245210cb359833374672a11a782391ae285",
+  "code_sha256": "e5b4a18a29b95db4bd978060ecc1e681c83b1b952a630c21df9ec0d644726814",
+  "note": "Independent chunk parser and scalar trigger/path reconstruction; sample only."
+}

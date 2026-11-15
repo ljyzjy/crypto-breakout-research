@@ -1,0 +1,8 @@
+{
+  "all_checks_pass": true,
+  "original_ledger_audit_sha256": "2e67800d2163e51da3a209c2401be3ec2ca8dacfdaeb2570aaaecc04d7bf1096",
+  "supplement_manifest_sha256": "4f004d4f31a37fe9008e4142d061d49ab82ccbdb130caf766196a7c976442dc8",
+  "supplement_independent_audit_sha256": "9e46e8cb768655976e9c038d9e078f3ba94ed0f8d31afda47c8e52074ff44ffe",
+  "ledger_audit_result_sha256": "31f7fd4225f988193cc78cbd7f7158f490ebc6d5a92ad2f7626902ef6dd57c82",
+  "note": "Original ledger audit logic retained, with six separately verified cached source entries added."
+}

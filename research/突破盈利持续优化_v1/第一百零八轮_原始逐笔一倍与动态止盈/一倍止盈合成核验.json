@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "engine_sha256": "99062454ab85fab6f5f9fbc878fb38463b0b2ff197ddec138c2af6ea7bf7a41f",
+  "test_sha256": "7a964f74d08797020ae9f393bce1d651a5a493f26c44e0791d7ee7da0a8cd1e0",
+  "cases": [
+    "long and short",
+    "same-ms original priority",
+    "immediate risk exit",
+    "missing fill",
+    "invalid risk",
+    "timestamp order"
+  ]
+}

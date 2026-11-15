@@ -1,0 +1,9 @@
+{
+  "all_checks_pass": true,
+  "paths_checked": 261,
+  "risk_settlements_checked": 261,
+  "source_sha256": "654f7fc3b2dd390ce47c3de24efd61d7fe5ace18918245d4c8a0e43ddaa7f4d6",
+  "ledger_sha256": "3d637c28f99568aaaaa76b55b48ba08df1f6401ccdfa615451d25db9cd4d82ce",
+  "code_sha256": "2c77deecfc1df6b5e5ab2d57c34dfaf3a6bbda4a552e6dba578b7210f0d6c04d",
+  "note": "Independent chunk parser and scalar progress/fee/funding/mark arithmetic, conditional on audited source caches."
+}

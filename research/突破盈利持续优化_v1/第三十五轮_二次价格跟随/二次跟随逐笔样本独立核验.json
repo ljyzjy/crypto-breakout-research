@@ -1,0 +1,59 @@
+{
+  "sample_events": 4,
+  "variant_paths": 16,
+  "samples": [
+    {
+      "observation_id": "opening|TIAUSDT|1704766500000",
+      "contract": "TIAUSDT",
+      "side": 1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-01-09",
+          "sha256": "c01a2b15edbaf0d406090075649dd3ad4a82469c44588e94d8cd528fc0e0e1c8",
+          "bytes": 27490136
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|MATICUSDT|1704680100000",
+      "contract": "MATICUSDT",
+      "side": -1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-01-08",
+          "sha256": "2b7ddbed63186ee48624504acb85e0ce490db22cbc0fcfb43761099923ef9de2",
+          "bytes": 3591267
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|ARBUSDT|1704263400000",
+      "contract": "ARBUSDT",
+      "side": 1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-01-03",
+          "sha256": "f33606c4500c9d40b6ae4067bea3bcb7e8271aaa1f9d1aab70a46cb54eea259a",
+          "bytes": 28461394
+        }
+      ]
+    },
+    {
+      "observation_id": "opening|TIAUSDT|1704494700000",
+      "contract": "TIAUSDT",
+      "side": -1,
+      "variants_checked": 4,
+      "archives": [
+        {
+          "day": "2024-01-05",
+          "sha256": "7fb16791b18bd1d8949d14df43b7c318f23a7fbf4a3a2d966e189109ded45061",
+          "bytes": 31714289
+        }
+      ]
+    }
+  ],
+  "note": "Independent tick replay; public prints are hypothetical price references, not actual fills."
+}

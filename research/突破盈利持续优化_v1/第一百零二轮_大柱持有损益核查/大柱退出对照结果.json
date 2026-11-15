@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "leverage": 10,
+      "label": "large_aligned",
+      "trades": 24,
+      "early_exits": 15,
+      "original_net_wins": 15,
+      "time_stop_net_wins": 7,
+      "original_mean_pct_notional": 0.42738300161385157,
+      "time_stop_mean_pct_notional": -0.08177930027063363,
+      "better": 3,
+      "worse": 12,
+      "unchanged": 9
+    },
+    {
+      "leverage": 10,
+      "label": "other",
+      "trades": 109,
+      "early_exits": 83,
+      "original_net_wins": 18,
+      "time_stop_net_wins": 13,
+      "original_mean_pct_notional": -0.4177642694350949,
+      "time_stop_mean_pct_notional": -0.2071862965000421,
+      "better": 61,
+      "worse": 22,
+      "unchanged": 26
+    },
+    {
+      "leverage": 10,
+      "label": "unknown",
+      "trades": 0,
+      "early_exits": 0,
+      "original_net_wins": 0,
+      "time_stop_net_wins": 0,
+      "original_mean_pct_notional": null,
+      "time_stop_mean_pct_notional": null,
+      "better": 0,
+      "worse": 0,
+      "unchanged": 0
+    },
+    {
+      "leverage": 20,
+      "label": "large_aligned",
+      "trades": 24,
+      "early_exits": 15,
+      "original_net_wins": 15,
+      "time_stop_net_wins": 7,
+      "original_mean_pct_notional": 0.42738300161385157,
+      "time_stop_mean_pct_notional": -0.08177930027063363,
+      "better": 3,
+      "worse": 12,
+      "unchanged": 9
+    },
+    {
+      "leverage": 20,
+      "label": "other",
+      "trades": 104,
+      "early_exits": 80,
+      "original_net_wins": 17,
+      "time_stop_net_wins": 12,
+      "original_mean_pct_notional": -0.4506630940101892,
+      "time_stop_mean_pct_notional": -0.26238946024870535,
+      "better": 58,
+      "worse": 22,
+      "unchanged": 24
+    },
+    {
+      "leverage": 20,
+      "label": "unknown",
+      "trades": 0,
+      "early_exits": 0,
+      "original_net_wins": 0,
+      "time_stop_net_wins": 0,
+      "original_mean_pct_notional": null,
+      "time_stop_mean_pct_notional": null,
+      "better": 0,
+      "worse": 0,
+      "unchanged": 0
+    }
+  ],
+  "detail_sha256": "4c9c1ba03e84ea8db81443f34a2d54e4da65306cd86a62b9d983ace542312f50",
+  "label_audit_sha256": "8431775da877b04d211b19b25f9cfddac39f3d65f824c1fe96f65b80f301a0c3",
+  "path_audit_sha256": "e6cf889e957d43bae7eb8a019ffcb5d47e807f948e19d424edb37b7c22ddf801",
+  "code_sha256": "6b7bbe535bd202ac7154db4468a3506542ea402b15807f51d75e5e1fedb6c776",
+  "note": "Ex-post labels among entered verified opportunities only, not market-wide capture rates or realtime signals."
+}

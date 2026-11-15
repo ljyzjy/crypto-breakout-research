@@ -1,0 +1,514 @@
+[
+  {
+    "kind": "markPriceKlines",
+    "contract": "ADAUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "745ab7cd30fd2918e901ffbfac50534fde3c32cd8ed1302347582985caa89436",
+    "bytes": 860420
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ADAUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "556bdb1b34faf97f266989be2a545d49cba0a7862091fa4c9600fd47f10c23c7",
+    "bytes": 670
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ADAUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "ee1791ac84279b5951b5411fbd6aa49f0e9eafdb0547b2b645197e49aac7c845",
+    "bytes": 741638
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ADAUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "14ad791ae90a85faa463de8a3732e8298eb6bfbdaf989046d92ab079ff945ac3",
+    "bytes": 773
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ADAUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "764ef31e194864fe1bf88dbb3368d7be308bc27684d3c59885a34888b7cf9932",
+    "bytes": 761187
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ADAUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "c878ea5f06295a32afce857a7179d59ac1437bb4e56d92bb508f47f6334c8fc0",
+    "bytes": 844
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "6f54d785b2ed994d9ac0ef6eed0cf67b5a76d9af3a862613ad20fa131275657c",
+    "bytes": 1008786
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "9a9c5d6c643d591204c1b37597afca3e7b1a6fd5c70f8d831bec3ea3ea14b0f2",
+    "bytes": 697
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "0ad50255e70da332dc8f82db971f06ef3fdbc7fb77ffec105a27de5dd68814f1",
+    "bytes": 883879
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "4395c18fb722657ec4e8ea1cb83f7f786ce5e71ae455bc5cde9c06534a43d302",
+    "bytes": 772
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "41c4ab568ba859d8e5ac92b6dd97ed3a698798c563ed7da8790195249e5d6a8a",
+    "bytes": 912226
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "e0f5b786406efe3fd4b28f00d446facf672af97bf6787dd9606e6bdedcd25239",
+    "bytes": 887
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "9408f5beab0e1fd0f0c6de3be3fe38e0e8078d666128e3e2eccceb4c496af2bb",
+    "bytes": 923671
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "c070f7da85f78c24e3fb544507ee0064ed53e266401d04c4334c32e59c9be5af",
+    "bytes": 786
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "AVAXUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "48b9d5a7d02b9cef1c7533118ef8314ed4201ede1aff7ff34f5c1b26366675b0",
+    "bytes": 895697
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "AVAXUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "4feaa04c2c4cb1e7f77625314b5a262553aae5574fe93d939ad05b48fd9cbe55",
+    "bytes": 804
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BNBUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "abb5538e078b546bdfa64913d852565808c28c03d97011623370bc5abb96c7d4",
+    "bytes": 1013805
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BNBUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "ae596433406d0e00bf66f4430c7f51f8d03b4d2a395949ce29d8765554ad7195",
+    "bytes": 931
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "1607b1522928d2a698592019fef7c3fcc9bee2cd01674c72a27e7fc028fd66ca",
+    "bytes": 1153812
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "3e0d30870672aa8f0f937881056e3cfd55913ae5c780cd50b33f2763aa0ba58e",
+    "bytes": 696
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "2e6f24f3bc92a7d241d5dbcfc79c54a0aa24b26ad12b4988f61a8c8d93e867fc",
+    "bytes": 990137
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "daf1e4901e3d6436d82ad60f90d007eb5300be8047cfef121007203a7212cde6",
+    "bytes": 776
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "7efa90ed53f47100633253faf45838584d1b148081c57196abf0f884d8452986",
+    "bytes": 1114957
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "711dcaf2a341aedfd06447b4117b540f60adb0784c5e64a313c718e4cf092bc3",
+    "bytes": 939
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "BTCUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "479435c79e0e56e3ded959ee47e3fb559720991732735211dd31c192c29924b3",
+    "bytes": 1052574
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "BTCUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "aef8c5fdce1493fd570b5829a72f2f17c7e459483390f25544d16c2a30be592e",
+    "bytes": 830
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "DOGEUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "a73f259b1f0418279d62de12d11971eb5337900e95ee626490a321f578755a7c",
+    "bytes": 856200
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "DOGEUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "7c8400239b28b1e96439b229bb483cd7de8637bf58f321547f46ceee160dae61",
+    "bytes": 942
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "DOGEUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "761569d0815730d423fa7ffb364abdd2845b85e7e7e2eac38956ee619e627357",
+    "bytes": 827023
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "DOGEUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "5df5a4bb6733899a885591106626242a3aab4b5ada077b62dd44ac27d14a9e7c",
+    "bytes": 786
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ETHUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "b29ad80733ad05eac61c523f603d6025b0ad21b4ae7c8bd8634450e54ad1f1e4",
+    "bytes": 1031253
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ETHUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "e9c1d0f3e7e3b493277c7f826afb223482d56bdc7611144d398ac10e47307907",
+    "bytes": 941
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ETHUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "87cf83b12f183d8828499212cc1a1e984681da4ed7a64ad7373da95ef1c141ef",
+    "bytes": 976084
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ETHUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "b54c9f05af116ccd921b32b25960ae26954c4983992d44f2390bf1de08b2c724",
+    "bytes": 834
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ETHUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "8f9675703ba750e869bf452ae69a1195e95debcca0838c8168e1fce7ba542bff",
+    "bytes": 984286
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ETHUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "8350ab4d61b12ec61539611e30809039f54814213bc4c937609360b1ff28b5e0",
+    "bytes": 836
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "ETHUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "383080041e974276e4f862ed8ef3d2383aeed77c07f4b35b9b7cc035faddc1d1",
+    "bytes": 943567
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "ETHUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "def13f4a478c28b0111fb24c57f95fcee80e71982ed74f12e465d20d328e2275",
+    "bytes": 758
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "LINKUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "d9e58c7eb1e0fcc79960662b4fc1dbc0920f1abd501c4b84dbc09f9c645fcb5b",
+    "bytes": 967109
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "LINKUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "ee7c31e4df28573cfa78bac09e112191f2ed4ca2ed6a3f2aec9d43bcb0ab34b8",
+    "bytes": 677
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "LINKUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "b75a689ae4e59f65ef238c54edb0a501db7eea1e51e09b01651dad2c636297c9",
+    "bytes": 867071
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "LINKUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "fd263095594d9092e8d562762242b3d73453cd53fd967a0458c4d7d1b756ca3a",
+    "bytes": 836
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "NEARUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "db098501757c265c332339216ab47828a78cb4ad732f44816b7b27f76d15e8f7",
+    "bytes": 801382
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "NEARUSDT",
+    "month": "2024-02",
+    "status": "verified",
+    "sha256": "92dfa9c2ef49620c73d3eb119ecfe1a050c7b6ac361613b1411eae825e06ac37",
+    "bytes": 758
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "NEARUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "6cd10470d1451e182961cd98355fcf778f773f1d622f50f95e0e5343f4580f75",
+    "bytes": 882788
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "NEARUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "c04dc7950cb6249cdf68d35896d46464af671371835a7066926712ddc8f3a80f",
+    "bytes": 939
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "NEARUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "abcf02f7cb0477c83eace38c0a450e6b726ff71789e03ea4b79f690be6a02403",
+    "bytes": 871957
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "NEARUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "a9f7ed2795227ef809bdc7004ab58debae418070771a9a726bbdc0bea0a0221d",
+    "bytes": 729
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "NEARUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "b34f8ab82a337d509dadc05debbe80e2ec670322ec68478b10c4282ac96aa767",
+    "bytes": 828582
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "NEARUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "02c0fb6b8f35cfb27155d819947673cadbef54d426cd9c18826da00be11c1b85",
+    "bytes": 779
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "0f55703b0a5054d7d5ffd3f5d5a95caa37dd6e7ba7ba0c34210d919bcf5f2f61",
+    "bytes": 1058155
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "6b514b6c2bb67ff04df97d747efb9c6e4bb1bb27e889f1dc51a42ab1419a3d24",
+    "bytes": 697
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "eeb64e3e0de28dd721b203e940ad5a8f45861e13c44f385dd1dce5f8ce440643",
+    "bytes": 992936
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2024-04",
+    "status": "verified",
+    "sha256": "591e7c4993e59b60966213efd938f48420cd9b63db815240ffc070ec40470e53",
+    "bytes": 869
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "a80bf623e03507f940e14381d574748e01c9eea34508e97f2c0f260fecdf291b",
+    "bytes": 1016416
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "cdd788722e8b85fd6c9d992e7c1c767be87afc91db5b8c07751f898b373cbf29",
+    "bytes": 810
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "SOLUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "c9e53e56e4d742f0ed2c55870ede4d5c46347af30078736a61e8f9989f5b3801",
+    "bytes": 962255
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "SOLUSDT",
+    "month": "2024-06",
+    "status": "verified",
+    "sha256": "8da6c97d67718422a5df9a0d50e37849521fb54de87cbb3b3397e441439dfcc9",
+    "bytes": 803
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "XRPUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "61201c1c65589c45173caf3a8b279778a7a28974f24b98d47ab4b10579ae780b",
+    "bytes": 815822
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "XRPUSDT",
+    "month": "2024-01",
+    "status": "verified",
+    "sha256": "fac75e242671739980886a0f39159562dde076d49244e6f2803c407dc0112570",
+    "bytes": 673
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "XRPUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "27e3062f666a09cf93bc658dd0aa836b0aef96bd4a339009b5e6a4b494cdd1bd",
+    "bytes": 794263
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "XRPUSDT",
+    "month": "2024-03",
+    "status": "verified",
+    "sha256": "31a841c4eaebbb192448838f37819fcc6263ac149df469463c11126b70717e59",
+    "bytes": 957
+  },
+  {
+    "kind": "markPriceKlines",
+    "contract": "XRPUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "aa6e6d2c8be9fd7534ac04e9aec69981575aa1909aaa495eb52cae03d34df2c1",
+    "bytes": 756120
+  },
+  {
+    "kind": "fundingRate",
+    "contract": "XRPUSDT",
+    "month": "2024-05",
+    "status": "verified",
+    "sha256": "4ca09712c976062effee663d005c27420089003ed5a1c95d8c2b4937fe05fa01",
+    "bytes": 783
+  }
+]

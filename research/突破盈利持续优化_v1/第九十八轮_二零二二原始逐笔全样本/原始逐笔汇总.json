@@ -1,0 +1,157 @@
+{
+  "rows": [
+    {
+      "leverage": 10,
+      "exit_slippage_pct": 0.05,
+      "trades": 133,
+      "net_wins": 33,
+      "net_win_rate_pct": 24.81203007518797,
+      "mean_net_pct_notional": -0.2652564912007065,
+      "profit_factor": 0.48686732827533796,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "exit_slippage_pct": 0.075,
+      "trades": 133,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.06015037593985,
+      "mean_net_pct_notional": -0.29027388131778736,
+      "profit_factor": 0.4583879172044281,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 10,
+      "exit_slippage_pct": 0.1,
+      "trades": 133,
+      "net_wins": 32,
+      "net_win_rate_pct": 24.06015037593985,
+      "mean_net_pct_notional": -0.31529127143486824,
+      "profit_factor": 0.43189873972224757,
+      "active_utc_days": 96,
+      "known_no_order": 175,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "exit_slippage_pct": 0.05,
+      "trades": 128,
+      "net_wins": 32,
+      "net_win_rate_pct": 25.0,
+      "mean_net_pct_notional": -0.28602945108068956,
+      "profit_factor": 0.42194666343402865,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "exit_slippage_pct": 0.075,
+      "trades": 128,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.21875,
+      "mean_net_pct_notional": -0.3110510981174579,
+      "profit_factor": 0.3945774663448227,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    },
+    {
+      "leverage": 20,
+      "exit_slippage_pct": 0.1,
+      "trades": 128,
+      "net_wins": 31,
+      "net_win_rate_pct": 24.21875,
+      "mean_net_pct_notional": -0.33607274515422625,
+      "profit_factor": 0.3692035742856212,
+      "active_utc_days": 93,
+      "known_no_order": 180,
+      "unknown_candidates": 2
+    }
+  ],
+  "paired_categories": [
+    {
+      "leverage": 10,
+      "categories": [
+        {
+          "category_agg": "no_order",
+          "category_raw": "no_order",
+          "n": 161
+        },
+        {
+          "category_agg": "no_order",
+          "category_raw": "trade",
+          "n": 5
+        },
+        {
+          "category_agg": "trade",
+          "category_raw": "trade",
+          "n": 118
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "no_order",
+          "n": 14
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "trade",
+          "n": 10
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "unknown",
+          "n": 2
+        }
+      ],
+      "common_trades": 118
+    },
+    {
+      "leverage": 20,
+      "categories": [
+        {
+          "category_agg": "no_order",
+          "category_raw": "no_order",
+          "n": 165
+        },
+        {
+          "category_agg": "no_order",
+          "category_raw": "trade",
+          "n": 5
+        },
+        {
+          "category_agg": "trade",
+          "category_raw": "trade",
+          "n": 114
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "no_order",
+          "n": 15
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "trade",
+          "n": 9
+        },
+        {
+          "category_agg": "unknown",
+          "category_raw": "unknown",
+          "n": 2
+        }
+      ],
+      "common_trades": 114
+    }
+  ],
+  "candidate_count": 310,
+  "unknown_rank_hours_original": 240,
+  "detail_sha256": "76adcc7f9a46276a45035caec7e1bfd54210be48ae58ab9caa70d84b76167181",
+  "tape_audit_sha256": "44514372a8688be339e63b29fe6953845506975ee8b9b085104dc97834622ebc",
+  "risk_audit_sha256": "ffa92b7248f5dcb8f13f50c96bdb98904354bc9d6b65c680ebc88c8b72c8dc81",
+  "code_sha256": "a111f5af9291f6720a8b9779535cb2f6002091293a35f163e6d83e9984b5edbe",
+  "note": "Retrospective raw-count variation; fixed slippage only; incomplete ranked hours and no account-equity drawdown."
+}

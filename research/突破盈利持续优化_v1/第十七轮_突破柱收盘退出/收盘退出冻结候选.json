@@ -1,0 +1,26 @@
+{
+  "selected": "quarter_hold_2r",
+  "target_r": 2.0,
+  "training_success": false,
+  "metrics": {
+    "candidate": "quarter_hold_2r",
+    "target_r": 2.0,
+    "hold_filter": true,
+    "viable": true,
+    "training_pass": false,
+    "h1_2024_trades": 170,
+    "h1_2024_net": -56.227725396865594,
+    "h1_2024_win_rate": 34.11764705882353,
+    "may_jul_2026_trades": 48,
+    "may_jul_2026_net": -18.734998637893682,
+    "may_jul_2026_win_rate": 35.41666666666667,
+    "pooled_trades": 218,
+    "pooled_win_rate": 34.403669724770644,
+    "pooled_profit_factor": 0.5864582214449462,
+    "minimum_period_net": -56.227725396865594,
+    "sum_period_net": -74.96272403475928
+  },
+  "plan_sha256": "840c1f69e368e0bb3bc7b42fbff9aa4ca3d6cf24e572c0028470e04fcf2c4dc5",
+  "training_sha256": "27ee548fa54ea337cd7cafab597fa5659d5a1680a835d9c20b8b641f3a3a22aa",
+  "limit": "Quarter exit is at the following minute open after the candle is known; entry is a public reference plus assumed slippage."
+}
