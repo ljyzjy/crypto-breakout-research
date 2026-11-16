@@ -1,5 +1,9 @@
 # Public market data snapshot
 
+## BTCUSDT hourly prices through 2026-11-15 UTC
+
+The [hourly data package](btc-usdm-hourly-2026-11-15/) contains Binance USD-M BTCUSDT perpetual traded-price and mark-price series from 2020-01-01 through 2026-11-15, official source archives, and validation details. The timestamp grids are complete; three official traded-price hours on 2024-10-28 conflict with trade records and are documented alongside a separate reconstructed candidate. This update does not extend funding.
+
 ## Updated BTC trend inputs
 
 The [BTC trend data package](btc-trend-v4-2026/) contains prepared 2026 backtest inputs, source CSVs for the preceding warm-up period, and selected original mark-price archives. It covers the study through 2026-10-31 and is included in a normal repository clone. The larger release described below remains available unchanged.
