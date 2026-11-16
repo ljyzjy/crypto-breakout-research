@@ -25,7 +25,7 @@ The base model dependency lockfile is [`model/requirements.lock.txt`](model/requ
 
 The daily BTC perpetual trend strategy [`BtcTrendV4`](model/user_data/strategies/BtcTrendV4.py) has position adjustment enabled and uses stake units for rebalancing. It blocks new short entries when the daily funding file is missing or the required value is unavailable. By default it keeps the original zero-crossing exit; set `EXIT_WHEN_TARGET_ZERO` to `True` to evaluate the alternative target-zero exit, which also exits an existing short when the funding gate closes. These changes affect this daily trend strategy and do not change the separate 15-minute breakout research. The strategy requires a local `model/user_data/funding_daily.csv` and sufficient market history. Its wallet accounting, fills, funding and exit rules can differ from the historical research simulator; a successful signal check alone does not validate live execution or profitability.
 
-The following lightweight synthetic checks test the exit rules themselves; they do not establish profitability or actual execution. Run them from the repository root:
+The following lightweight synthetic checks test breakout exit rules and BTC trend sizing and funding handling; they do not establish profitability or actual execution. Run them from the repository root:
 
 ```powershell
 python -c "from pathlib import Path; import subprocess,sys; p=next(Path('research').rglob('test_oracle_exit.py')); subprocess.run([sys.executable,str(p)],check=True)"
