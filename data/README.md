@@ -1,5 +1,9 @@
 # Public market data snapshot
 
+## Latest BTCUSDT hourly prices through 2026-11-16 16:00 UTC
+
+The [latest hourly package](btc-usdm-hourly-2026-11-16/) extends both traded and mark prices with 17 fully closed hourly bars from Binance's official API. The API/archive overlap matches on all 12 fields for both series. The known three-hour official price anomaly on 2024-10-28 remains documented; the separate reconstructed candidate remains an estimate. Funding was not extended.
+
 ## BTCUSDT hourly prices through 2026-11-15 UTC
 
 The [hourly data package](btc-usdm-hourly-2026-11-15/) contains Binance USD-M BTCUSDT perpetual traded-price and mark-price series from 2020-01-01 through 2026-11-15, official source archives, and validation details. The timestamp grids are complete; three official traded-price hours on 2024-10-28 conflict with trade records and are documented alongside a separate reconstructed candidate. This update does not extend funding.

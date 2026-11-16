@@ -1,0 +1,315 @@
+{
+  "created_utc": "2026-11-16T17:54:32.017112+00:00",
+  "market": "Binance USD-M BTCUSDT perpetual",
+  "timezone": "UTC",
+  "interval": "1h",
+  "start_inclusive": "2020-01-01T00:00:00Z",
+  "end_exclusive": "2026-11-16T17:00:00Z",
+  "expected_hours": 60281,
+  "price": {
+    "rows": 60281,
+    "missing_hours": 0,
+    "duplicate_hours": 0,
+    "zero_volume_hours": 1,
+    "known_anomaly": "2024-10-28 19:00, 20:00, 21:00 UTC disagree with archived market trades; 20:00 official Kline has zero volume"
+  },
+  "mark": {
+    "rows": 60281,
+    "missing_hours": 0,
+    "duplicate_hours": 0,
+    "volume_is_placeholder": true
+  },
+  "source_archives_verified": 203,
+  "repairs": [
+    {
+      "kind": "markPriceKlines",
+      "day": "2021-07-01",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-01.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2021-07-24",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-24.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2021-07-25",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-25.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2021-07-26",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-26.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2021-07-27",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-27.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2022-07-31",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-07-31.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2022-10-02",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-10-02.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2023-02-24",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02-24.zip"
+    },
+    {
+      "kind": "markPriceKlines",
+      "day": "2026-06-29",
+      "added_hours": 24,
+      "method": "official_daily_1h",
+      "source": "raw/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-06-29.zip"
+    }
+  ],
+  "reference_price": {
+    "reference_rows": 59904,
+    "matched_rows": 59904,
+    "columns": {
+      "open": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "high": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "low": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "close": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "volume": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "quote_volume": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "trades": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      }
+    }
+  },
+  "reference_mark": {
+    "reference_rows": 6552,
+    "matched_rows": 6552,
+    "columns": {
+      "open": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "high": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "low": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "close": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "volume": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      }
+    }
+  },
+  "reference_daily": {
+    "reference_rows": 2496,
+    "matched_rows": 2496,
+    "columns": {
+      "open": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "high": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "low": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "close": {
+        "max_abs_difference": 0.0,
+        "beyond_tolerance": 0
+      },
+      "volume": {
+        "max_abs_difference": 2.3283064365386963e-10,
+        "beyond_tolerance": 0
+      }
+    }
+  },
+  "prepared": [
+    {
+      "path": "prepared/user_data/data/binance/futures/BTC_USDT_USDT-1h-futures.feather",
+      "rows": 60281,
+      "sha256": "eece3416d3f7cb1ab3e5eff05ad5868b06eaa0582eaedeaa1d97db5bcd27bd90"
+    },
+    {
+      "path": "prepared/user_data/data/binance/futures/BTC_USDT_USDT-1h-mark.feather",
+      "rows": 60281,
+      "sha256": "38c26c73793f68230963607559f1b8005f49e9c0e0242b66f0ab682d1b0ec8e6"
+    },
+    {
+      "path": "prepared/reconstructed/user_data/data/binance/futures/BTC_USDT_USDT-1h-futures.feather",
+      "rows": 60281,
+      "sha256": "3b435e8201ed5e9a40fe524301337a9f42adbe328287d13ba47a657928270e69"
+    },
+    {
+      "path": "prepared/user_data/data/binance/futures/BTC_USDT_USDT-1d-futures.feather",
+      "rows": 2511,
+      "sha256": "e296c6aba457675a6451314def645ad724a98ce574a3a1e4e3619ff707b94685"
+    },
+    {
+      "path": "prepared/reconstructed/user_data/data/binance/futures/BTC_USDT_USDT-1d-futures.feather",
+      "rows": 2511,
+      "sha256": "a6eab868fa8281af35f3c04299d956a319e3969e60d40b54fe503b7f1dabceac"
+    }
+  ],
+  "interpolation": false,
+  "candidate_reconstructed_hours": [
+    {
+      "date_utc": "2024-10-28 19:00:00+00:00",
+      "official_ohlcv": {
+        "open": 69173.1,
+        "high": 69902.4,
+        "low": 69114.8,
+        "close": 69566.1,
+        "volume": 35616.632
+      },
+      "candidate_from_raw_market_trades": {
+        "open": "69173.1",
+        "high": "69902.4",
+        "low": "69114.8",
+        "close": "69606.0",
+        "volume": "36227.181",
+        "quote_volume": "2521214712.8375",
+        "trades": "373927",
+        "taker_buy_base": "20705.972",
+        "taker_buy_quote": "1440902089.5750"
+      },
+      "aggregate_trade_ohlcv": {
+        "open": "69173.1",
+        "high": "69902.4",
+        "low": "69114.8",
+        "close": "69606.0",
+        "volume": "36227.061"
+      },
+      "source": "verified official daily market-trades archive; derived, not official kline"
+    },
+    {
+      "date_utc": "2024-10-28 20:00:00+00:00",
+      "official_ohlcv": {
+        "open": 69566.1,
+        "high": 69566.1,
+        "low": 69566.1,
+        "close": 69566.1,
+        "volume": 0.0
+      },
+      "candidate_from_raw_market_trades": {
+        "open": "69605.8",
+        "high": "69691.1",
+        "low": "69389.0",
+        "close": "69623.0",
+        "volume": "6427.855",
+        "quote_volume": "446794114.1169",
+        "trades": "94031",
+        "taker_buy_base": "3451.772",
+        "taker_buy_quote": "239939488.7291"
+      },
+      "aggregate_trade_ohlcv": {
+        "open": "69605.8",
+        "high": "69691.1",
+        "low": "69389.0",
+        "close": "69623.0",
+        "volume": "6427.855"
+      },
+      "source": "verified official daily market-trades archive; derived, not official kline"
+    },
+    {
+      "date_utc": "2024-10-28 21:00:00+00:00",
+      "official_ohlcv": {
+        "open": 69650.0,
+        "high": 69776.8,
+        "low": 69480.3,
+        "close": 69770.2,
+        "volume": 3992.34
+      },
+      "candidate_from_raw_market_trades": {
+        "open": "69623.0",
+        "high": "69776.8",
+        "low": "69480.3",
+        "close": "69770.2",
+        "volume": "5387.629",
+        "quote_volume": "375317006.0373",
+        "trades": "84044",
+        "taker_buy_base": "2888.528",
+        "taker_buy_quote": "201234883.8509"
+      },
+      "aggregate_trade_ohlcv": {
+        "open": "69623.0",
+        "high": "69776.8",
+        "low": "69480.3",
+        "close": "69770.2",
+        "volume": "5387.629"
+      },
+      "source": "verified official daily market-trades archive; derived, not official kline"
+    }
+  ],
+  "reconstruction_limits": "Market-trade IDs have gaps; aggregate and individual feeds differ on some counts and 19:00 volume. Alternative bars are research estimates, not verified exact exchange klines.",
+  "trade_source": {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2024-10-28.zip",
+    "sha256": "d0f82b3cf3d8d3930c41db7f5aced627e384e9dfbd262e138add65ada9d26309",
+    "bytes": 28837819
+  },
+  "aggregate_trade_source": {
+    "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-10-28.zip",
+    "sha256": "2911e8337d4203f706ae5fddb8ed9064c129cc7c6c11360cde22a6e6b23b6f6a"
+  },
+  "funding_note": "Funding data were not extended in this release; the prior package ends 2026-10-31.",
+  "intraday_api": {
+    "exchange_server_time_at_capture": "2026-11-16T17:49:46.252Z",
+    "cutoff_exclusive": "2026-11-16T17:00:00Z",
+    "added_closed_hours": 17,
+    "overlap_previous_archive_hours": 2,
+    "overlap_all_12_fields_match": true,
+    "forming_hour_excluded": "2026-11-16T17:00:00Z",
+    "price_endpoint": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1794780000000&limit=100",
+    "mark_endpoint": "https://www.binance.com/fapi/v1/markPriceKlines?symbol=BTCUSDT&interval=1h&startTime=1794780000000&limit=100",
+    "price_response_sha256": "d5a3d51422a58d2305c47601a40fde086cb0dd2de7a8b1f140ea1e2ea495ba7f",
+    "mark_response_sha256": "68333b196c58b1356c619d98331d7bff7f565116d1a57431a7ca5e5917c38f7b",
+    "note": "API response snapshot; no daily archive checksum was available for this incomplete UTC day."
+  }
+}
