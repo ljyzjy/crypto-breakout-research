@@ -1,5 +1,5 @@
 """Independent automatic-universe research endpoints; no trading credentials."""
-import sys,json,gzip,csv,io,re,threading,uuid
+import sys,csv,io,re,threading,uuid
 from pathlib import Path
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor

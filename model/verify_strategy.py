@@ -1,5 +1,4 @@
 """Temporal-invariance check on synthetic data; not a profit backtest."""
-import importlib.util
 from pathlib import Path
 
 import numpy as np

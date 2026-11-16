@@ -2,10 +2,10 @@
 from pathlib import Path
 from datetime import date,datetime,timezone,timedelta
 from functools import lru_cache
-import io,json
+import json
 import numpy as np
 import pandas as pd
-from fastapi import APIRouter,HTTPException,Query
+from fastapi import APIRouter,HTTPException
 from fastapi.responses import FileResponse,Response
 
 ROOT=Path(__file__).resolve().parents[1]/'short-term-research/minute-intraday-v1'

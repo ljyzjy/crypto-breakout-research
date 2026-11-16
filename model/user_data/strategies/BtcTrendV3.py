@@ -16,7 +16,6 @@ Same return as V2 with ~5pp less drawdown, in both halves of the sample.
 from __future__ import annotations
 
 import numpy as np
-import pandas as pd
 from pandas import DataFrame
 
 from freqtrade.strategy import IStrategy

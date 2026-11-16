@@ -10,7 +10,6 @@ Exit is a full close when the target weight reaches zero (z <= 0).
 from __future__ import annotations
 
 import numpy as np
-import pandas as pd
 from pandas import DataFrame
 
 from freqtrade.strategy import IStrategy
